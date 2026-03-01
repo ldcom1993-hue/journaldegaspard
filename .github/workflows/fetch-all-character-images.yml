@@ -27,21 +27,24 @@ jobs:
       - name: Extract characters and download images
         run: |
 
-          set -e
-
-          FILE="univers/olive-et-tom/personnages.js"
+          FILE="assets/js/personnages.js"
 
           if [ ! -f "$FILE" ]; then
-            echo "personnages.js not found"
+            echo "assets/js/personnages.js not found"
             exit 1
           fi
 
 
-          echo "Extracting characters..."
+          grep japaneseName "$FILE" \
+          | sed 's/.*: "//' \
+          | sed 's/",//' \
+          > names.txt
 
 
-          grep japaneseName "$FILE" | sed 's/.*: "//' | sed 's/",//' > names.txt
-          grep link "$FILE" | sed 's/.*personnages\///' | sed 's/\.html".*//' > slugs.txt
+          grep link "$FILE" \
+          | sed 's/.*personnages\///' \
+          | sed 's/\.html".*//' \
+          > slugs.txt
 
 
           paste names.txt slugs.txt > characters.txt
@@ -56,9 +59,7 @@ jobs:
 
             filename="assets/images/olive-et-tom/${slug}.png"
 
-            echo "----"
-            echo "Character: $japanese"
-            echo "Page: $page"
+            echo "Downloading $page"
 
 
             api="https://captaintsubasa.fandom.com/api.php?action=query&titles=${page}&prop=pageimages&format=json&pithumbsize=600"
@@ -68,21 +69,16 @@ jobs:
 
 
             if [ "$img" = "null" ] || [ -z "$img" ]; then
-              echo "No image found"
+              echo "No image for $page"
               return
             fi
 
-
-            echo "Downloading $filename"
 
             curl \
               -L \
               -A "journaldegaspard-bot" \
               "$img" \
               -o "$filename"
-
-
-            file "$filename"
 
           }
 
@@ -109,6 +105,6 @@ jobs:
           then
             echo "Nothing to commit"
           else
-            git commit -m "Auto download all Captain Tsubasa portraits"
+            git commit -m "Auto download Captain Tsubasa portraits"
             git push
           fi
