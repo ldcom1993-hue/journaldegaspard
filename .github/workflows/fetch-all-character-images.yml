@@ -20,54 +20,34 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Create folder
-        run: mkdir -p assets/images/olive-et-tom
+        run: mkdir -p assets/images/olive-et-to
+        
+- name: Download images
+  run: |
 
-      - name: Download images
-        run: |
-          set -euo pipefail
+    mkdir -p assets/images/olive-et-tom
 
-          characters=(
-            "Tsubasa Ozora|olivier-atton"
-            "Genzo Wakabayashi|thomas-price"
-            "Taro Misaki|ben-becker"
-            "Kojiro Hyuga|mark-landers"
-            "Ken Wakashimazu|ed-warner"
-          )
+    curl -L \
+    "https://upload.wikimedia.org/wikipedia/en/5/5e/Tsubasa_Ozora.png" \
+    -o assets/images/olive-et-tom/olivier-atton.jpg
 
-          get_extension() {
-            local url="$1"
-            local extension
+    curl -L \
+    "https://upload.wikimedia.org/wikipedia/en/2/21/Genzo_Wakabayashi.png" \
+    -o assets/images/olive-et-tom/thomas-price.jpg
 
-            extension=$(printf '%s' "$url" | sed -E 's/.*\.([A-Za-z0-9]+)(\?.*)?$/\1/' | tr '[:upper:]' '[:lower:]')
+    curl -L \
+    "https://upload.wikimedia.org/wikipedia/en/9/9b/Taro_Misaki.png" \
+    -o assets/images/olive-et-tom/ben-becker.jpg
 
-            case "$extension" in
-              jpg|jpeg|png|webp|svg)
-                printf '%s' "$extension"
-                ;;
-              *)
-                printf 'jpg'
-                ;;
-            esac
-          }
+    curl -L \
+    "https://upload.wikimedia.org/wikipedia/en/a/a3/Kojiro_Hyuga.png" \
+    -o assets/images/olive-et-tom/mark-landers.jpg
 
-          for entry in "${characters[@]}"; do
-            wiki=$(printf '%s' "$entry" | cut -d'|' -f1)
-            file=$(printf '%s' "$entry" | cut -d'|' -f2)
+    curl -L \
+    "https://upload.wikimedia.org/wikipedia/en/8/87/Ken_Wakashimazu.png" \
+    -o assets/images/olive-et-tom/ed-warner.jpg
 
-            echo "Searching image for: $wiki"
-
-            url=$(curl -fsSL "https://en.wikipedia.org/api/rest_v1/page/summary/$wiki" | jq -r '.originalimage.source // .thumbnail.source // empty')
-
-            if [ -n "$url" ]; then
-              extension=$(get_extension "$url")
-              output="assets/images/olive-et-tom/$file.$extension"
-
-              echo "Downloading $output"
-              curl -fL "$url" -o "$output"
-            else
-              echo "No image found for $wiki"
-            fi
-          done
+    ls -la assets/images/olive-et-tom
 
       - name: Show files
         run: ls -la assets/images/olive-et-tom
