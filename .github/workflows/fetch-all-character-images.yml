@@ -28,21 +28,23 @@ jobs:
 
             img=$(curl -L -A "journaldegaspard-bot" \
               "https://captaintsubasa.fandom.com/wiki/$page" \
-              | grep -o 'https://static.wikia.nocookie.net[^"]*revision/latest[^"]*\.png' \
+              | grep -o 'https://static.wikia.nocookie.net[^"]*\.png' \
+              | grep revision/latest \
               | head -n 1)
 
             echo "Image found: $img"
 
-            if [ -n "$img" ]; then
+            if [ -z "$img" ]; then
+
+              echo "No image found"
+              exit 1
+
+            else
 
               curl -L \
                 -A "journaldegaspard-bot" \
                 "$img" \
                 -o "assets/images/olive-et-tom/$filename"
-
-            else
-
-              echo "No portrait found"
 
             fi
           }
