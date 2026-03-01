@@ -2,7 +2,9 @@
  * Ajouter un personnage:
  * 1) Ajouter un nouvel objet dans le tableau `characters`.
  * 2) Renseigner tous les champs: name, japaneseName, role, team, description, image, link et order.
- * 3) Utiliser une image sûre (Wikimedia `https://upload.wikimedia.org/`) ou le placeholder si indisponible.
+ * 3) Recommandé: placer l'image en local (ex: assets/images/olive-et-tom/olivier-atton.jpg)
+ *    puis renseigner `image` avec un chemin relatif sans slash initial
+ *    (ex: "assets/images/olive-et-tom/olivier-atton.jpg").
  * 4) Le tri se fait automatiquement selon `order`.
  */
 const characters = [
@@ -211,6 +213,62 @@ const characters = [
 const grid = document.querySelector("#characters-grid");
 const template = document.querySelector("#character-card-template");
 
+function getInitials(name) {
+  const cleaned = (name || "").trim();
+  if (!cleaned) {
+    return "?";
+  }
+
+  const words = cleaned.split(/\s+/).filter(Boolean);
+  if (words.length === 1) {
+    return words[0].slice(0, 2).toUpperCase();
+  }
+
+  return `${words[0][0] || ""}${words[1][0] || ""}`.toUpperCase();
+}
+
+/**
+ * Crée un placeholder SVG en data URI pour éviter toute image cassée.
+ *
+ * Pour remplacer ce placeholder par une vraie image locale:
+ * 1) Ajouter le fichier dans le repo, par exemple:
+ *    assets/images/olive-et-tom/olivier-atton.jpg
+ * 2) Définir `image` dans l'objet personnage avec un chemin relatif
+ *    (sans slash initial), par ex:
+ *    image: "assets/images/olive-et-tom/olivier-atton.jpg"
+ * 3) En cas d'échec de chargement, le fallback placeholder reste automatique.
+ */
+function makePlaceholder(name) {
+  const initials = getInitials(name);
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800" role="img" aria-label="Portrait indisponible de ${name}">
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#14213d"/>
+          <stop offset="100%" stop-color="#1f3b73"/>
+        </linearGradient>
+        <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="rgba(255,255,255,0.22)"/>
+          <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+        </linearGradient>
+      </defs>
+      <rect x="24" y="24" width="592" height="752" rx="36" fill="url(#bg)"/>
+      <rect x="24" y="24" width="592" height="260" rx="36" fill="url(#gloss)"/>
+      <text x="320" y="430" text-anchor="middle" dominant-baseline="middle"
+            font-family="Inter, Segoe UI, Roboto, Arial, sans-serif"
+            font-size="180" font-weight="800" fill="#f5f7ff" letter-spacing="4">
+        ${initials}
+      </text>
+    </svg>
+  `;
+
+  return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+}
+
+function isAbsoluteUrl(value) {
+  return /^https?:\/\//i.test(value);
+}
+
 if (grid && template) {
   const sortedCharacters = [...characters].sort((a, b) => a.order - b.order);
 
@@ -223,7 +281,25 @@ if (grid && template) {
     const description = card.querySelector(".character-description");
 
     link.href = character.link;
-    image.src = character.image;
+
+    const fallbackImage = makePlaceholder(character.name);
+    const providedImage = (character.image || "").trim();
+
+    // Sécurise l'affichage: aucune icône d'image cassée.
+    image.onerror = () => {
+      image.onerror = null;
+      image.src = fallbackImage;
+    };
+
+    if (!providedImage) {
+      image.src = fallbackImage;
+    } else if (isAbsoluteUrl(providedImage)) {
+      image.src = providedImage;
+    } else {
+      // Chemin local/relatif: on le tente d'abord (préféré), puis fallback auto si introuvable.
+      image.src = providedImage;
+    }
+
     image.alt = `Portrait de ${character.name}`;
     name.textContent = character.name;
     team.textContent = character.team;
