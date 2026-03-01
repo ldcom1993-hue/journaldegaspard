@@ -1,4 +1,4 @@
-name: Fetch all character images
+name: Fetch Captain Tsubasa images
 
 on:
   workflow_dispatch:
@@ -15,66 +15,57 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Install tools
+        run: sudo apt-get update && sudo apt-get install -y curl grep sed
 
       - name: Create folder
         run: mkdir -p assets/images/olive-et-tom
 
-      - name: Search and download images
+      - name: Download images from Captain Tsubasa Wiki
         run: |
 
           download() {
 
-            query="$1"
+            page="$1"
             filename="$2"
 
-            echo "Searching Wikipedia page for: $query"
+            echo "Fetching page: $page"
 
-            title=$(curl -s \
-              -A "journaldegaspard-bot" \
-              "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=$query&format=json" \
-              | jq -r '.query.search[0].title')
+            html=$(curl -L -A "journaldegaspard-bot" \
+              "https://captaintsubasa.fandom.com/wiki/$page")
 
-            echo "Found page: $title"
+            img=$(echo "$html" \
+              | grep -o 'https://static.wikia.nocookie.net[^"]*\.png' \
+              | head -n 1)
 
-            if [ "$title" = "null" ] || [ "$title" = "" ]; then
-              echo "No page found"
-              return
-            fi
+            echo "Image URL: $img"
 
-            api="https://en.wikipedia.org/w/api.php?action=query&titles=$(echo $title | sed 's/ /_/g')&prop=pageimages&format=json&pithumbsize=600"
+            if [ -n "$img" ]; then
 
-            url=$(curl -s -A "journaldegaspard-bot" "$api" \
-              | jq -r '.query.pages[]?.thumbnail?.source')
-
-            echo "Image URL: $url"
-
-            if [ "$url" != "null" ] && [ "$url" != "" ]; then
-
-              curl \
-                -L \
+              curl -L \
                 -A "journaldegaspard-bot" \
-                --retry 5 \
-                "$url" \
+                "$img" \
                 -o "assets/images/olive-et-tom/$filename"
 
               file "assets/images/olive-et-tom/$filename"
 
             else
-              echo "No image found"
+
+              echo "No image found for $page"
+
             fi
           }
 
 
-          download "Tsubasa Ozora Captain Tsubasa" "olivier-atton.jpg"
-          download "Genzo Wakabayashi Captain Tsubasa" "thomas-price.jpg"
-          download "Taro Misaki Captain Tsubasa" "ben-becker.jpg"
-          download "Kojiro Hyuga Captain Tsubasa" "mark-landers.jpg"
-          download "Ken Wakashimazu Captain Tsubasa" "ed-warner.jpg"
+          download "Tsubasa_Ozora" "olivier-atton.png"
+          download "Genzo_Wakabayashi" "thomas-price.png"
+          download "Taro_Misaki" "ben-becker.png"
+          download "Kojiro_Hyuga" "mark-landers.png"
+          download "Ken_Wakashimazu" "ed-warner.png"
 
 
           ls -la assets/images/olive-et-tom
+
 
       - name: Commit and push
         run: |
@@ -88,6 +79,6 @@ jobs:
           then
             echo "Nothing to commit"
           else
-            git commit -m "Add character images"
+            git commit -m "Add Captain Tsubasa character images"
             git push
           fi
