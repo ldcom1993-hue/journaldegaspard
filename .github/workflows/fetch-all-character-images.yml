@@ -10,61 +10,40 @@ jobs:
   download-images:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        shell: bash
+
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Create folder
-        run: mkdir -p assets/images/olive-et-to
-        
-- name: Download images
-  run: |
+        run: mkdir -p assets/images/olive-et-tom
 
-    mkdir -p assets/images/olive-et-tom
+      - name: Download images
+        run: |
+          mkdir -p assets/images/olive-et-tom
 
-    curl -L \
-    "https://upload.wikimedia.org/wikipedia/en/5/5e/Tsubasa_Ozora.png" \
-    -o assets/images/olive-et-tom/olivier-atton.jpg
+          curl -L "https://upload.wikimedia.org/wikipedia/en/5/5e/Tsubasa_Ozora.png" -o assets/images/olive-et-tom/olivier-atton.jpg
+          curl -L "https://upload.wikimedia.org/wikipedia/en/2/21/Genzo_Wakabayashi.png" -o assets/images/olive-et-tom/thomas-price.jpg
+          curl -L "https://upload.wikimedia.org/wikipedia/en/9/9b/Taro_Misaki.png" -o assets/images/olive-et-tom/ben-becker.jpg
+          curl -L "https://upload.wikimedia.org/wikipedia/en/a/a3/Kojiro_Hyuga.png" -o assets/images/olive-et-tom/mark-landers.jpg
+          curl -L "https://upload.wikimedia.org/wikipedia/en/8/87/Ken_Wakashimazu.png" -o assets/images/olive-et-tom/ed-warner.jpg
 
-    curl -L \
-    "https://upload.wikimedia.org/wikipedia/en/2/21/Genzo_Wakabayashi.png" \
-    -o assets/images/olive-et-tom/thomas-price.jpg
-
-    curl -L \
-    "https://upload.wikimedia.org/wikipedia/en/9/9b/Taro_Misaki.png" \
-    -o assets/images/olive-et-tom/ben-becker.jpg
-
-    curl -L \
-    "https://upload.wikimedia.org/wikipedia/en/a/a3/Kojiro_Hyuga.png" \
-    -o assets/images/olive-et-tom/mark-landers.jpg
-
-    curl -L \
-    "https://upload.wikimedia.org/wikipedia/en/8/87/Ken_Wakashimazu.png" \
-    -o assets/images/olive-et-tom/ed-warner.jpg
-
-    ls -la assets/images/olive-et-tom
-
-      - name: Show files
-        run: ls -la assets/images/olive-et-tom
+          ls -la assets/images/olive-et-tom
 
       - name: Commit and push
         run: |
-          set -euo pipefail
-
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add assets/images/olive-et-tom/
 
-          if git diff --cached --quiet; then
-            echo "No image changes to commit"
-            exit 0
+          if ! git diff --cached --quiet; then
+            git commit -m "Add character images"
+            git push
+          else
+            echo "No files to commit"
           fi
-
-          git commit -m "Add character images"
-          git push
