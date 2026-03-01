@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hub visuel de différents univers fictionnels et projets créatifs."
+    />
+    <title>Univers</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Univers</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <h2 id="projects-title" class="visually-hidden">Projets</h2>
+          <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <template id="project-card-template">
+      <article class="project-card">
+        <a class="project-link" href="#">
+          <img class="project-image" src="" alt="" loading="lazy" />
+          <div class="project-content">
+            <h3 class="project-title"></h3>
+            <p class="project-description"></p>
+          </div>
+        </a>
+      </article>
+    </template>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
