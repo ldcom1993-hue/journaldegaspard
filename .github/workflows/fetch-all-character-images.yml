@@ -14,82 +14,58 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Create images folder
+      - name: Create folder
         run: mkdir -p assets/images/olive-et-tom
 
-      - name: Download images from Wikipedia API
+      - name: Download images
         run: |
+          set -e
+
           characters=(
             "Tsubasa Ozora|olivier-atton"
             "Genzo Wakabayashi|thomas-price"
             "Taro Misaki|ben-becker"
             "Kojiro Hyuga|mark-landers"
             "Ken Wakashimazu|ed-warner"
-            "Jun Misugi|julian-ross"
-            "Hikaru Matsuyama|philip-callahan"
-            "Shun Nitta|danny-mellow"
-            "Hiroshi Jito|cliff-mcmahon"
-            "Makoto Soda|alan-crocker"
-            "Hanji Urabe|johnny-mason"
-            "Kazuo Tachibana|charlie-custer"
-            "Masao Tachibana|jimmy-carter"
-            "Roberto Hongo|roberto-sedinho"
-            "Karl Heinz Schneider|karl-heinz-schneider"
-            "Juan Diaz|juan-diaz"
-            "Natureza|natureza"
-            "Rivaul|rivaul"
-            "Gino Hernandez|gino-hernandez"
-            "Elle Sid Pierre|pierre"
-            "Louis Napoleon|napoleon"
-            "Brian Cruyfford|brian-cruyfford"
-            "Stefan Levin|stefan-levin"
-            "Deuter Muller|deuter-muller"
-            "Salinas|salinas"
-            "Pepe|pepe"
-            "Cha Incheon|cha"
-            "Owairan|owairan"
-            "Vulcan|vulcan"
-            "Bunnaak|bunnaak"
           )
 
           for entry in "${characters[@]}"
           do
-            wiki=$(echo "$entry" | cut -d'|' -f1)
-            filename=$(echo "$entry" | cut -d'|' -f2)
+            wiki=$(echo $entry | cut -d'|' -f1)
+            file=$(echo $entry | cut -d'|' -f2)
 
-            echo "Processing $wiki"
+            echo "Searching $wiki"
 
-            json=$(curl -s \
-              "https://en.wikipedia.org/api/rest_v1/page/summary/$wiki")
-
-            url=$(echo "$json" | jq -r '.thumbnail.source')
+            url=$(curl -s \
+              "https://en.wikipedia.org/api/rest_v1/page/summary/$wiki" \
+              | jq -r '.thumbnail.source')
 
             if [ "$url" != "null" ] && [ "$url" != "" ]
             then
+              echo "Downloading $file.jpg"
               curl -L "$url" \
-                -o "assets/images/olive-et-tom/$filename.jpg"
-
-              echo "Downloaded $filename.jpg"
+                -o "assets/images/olive-et-tom/$file.jpg"
             else
               echo "No image found for $wiki"
             fi
+
           done
 
-      - name: Commit images
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
-          git add assets/images/olive-et-tom/ || true
-
-          git commit -m "Add character images" || echo "Nothing to commit"
-
-          git push origin HEAD:main
-
-      - name: Verify files
+      - name: Show files
         run: ls -la assets/images/olive-et-tom
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add assets/images/olive-et-tom/
+
+          git diff --cached --quiet || git commit -m "Add character images"
+
+          git push
