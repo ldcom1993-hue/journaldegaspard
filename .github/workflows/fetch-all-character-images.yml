@@ -1,4 +1,4 @@
-name: Fetch Captain Tsubasa images
+name: Fetch ALL Captain Tsubasa character images
 
 on:
   workflow_dispatch:
@@ -7,75 +7,108 @@ permissions:
   contents: write
 
 jobs:
-  download-images:
+  fetch-images:
     runs-on: ubuntu-latest
 
     steps:
 
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Create image folder
+
+      - name: Create images folder
         run: mkdir -p assets/images/olive-et-tom
 
-      - name: Download character portraits from Fandom API
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+
+      - name: Extract characters and download images
         run: |
 
           set -e
 
+          FILE="univers/olive-et-tom/personnages.js"
+
+          if [ ! -f "$FILE" ]; then
+            echo "personnages.js not found"
+            exit 1
+          fi
+
+
+          echo "Extracting characters..."
+
+
+          grep japaneseName "$FILE" | sed 's/.*: "//' | sed 's/",//' > names.txt
+          grep link "$FILE" | sed 's/.*personnages\///' | sed 's/\.html".*//' > slugs.txt
+
+
+          paste names.txt slugs.txt > characters.txt
+
+
           download() {
 
-            page="$1"
-            filename="$2"
+            japanese="$1"
+            slug="$2"
 
-            echo "Fetching portrait for $page"
+            page=$(echo "$japanese" | sed 's/ /_/g')
+
+            filename="assets/images/olive-et-tom/${slug}.png"
+
+            echo "----"
+            echo "Character: $japanese"
+            echo "Page: $page"
+
 
             api="https://captaintsubasa.fandom.com/api.php?action=query&titles=${page}&prop=pageimages&format=json&pithumbsize=600"
 
-            img=$(curl -s -A "journaldegaspard-bot/1.0" "$api" \
-              | grep -o 'https://static.wikia.nocookie.net[^"]*')
+            img=$(curl -s -A "journaldegaspard-bot" "$api" \
+              | jq -r '.query.pages[].thumbnail.source')
 
-            echo "Image URL: $img"
 
-            if [ -z "$img" ]; then
-              echo "No image found for $page"
+            if [ "$img" = "null" ] || [ -z "$img" ]; then
+              echo "No image found"
               return
             fi
 
+
+            echo "Downloading $filename"
+
             curl \
               -L \
-              -A "journaldegaspard-bot/1.0" \
+              -A "journaldegaspard-bot" \
               "$img" \
-              -o "assets/images/olive-et-tom/$filename"
+              -o "$filename"
 
-            file "assets/images/olive-et-tom/$filename"
+
+            file "$filename"
 
           }
 
 
-          download "Tsubasa_Ozora" "olivier-atton.png"
-          download "Genzo_Wakabayashi" "thomas-price.png"
-          download "Taro_Misaki" "ben-becker.png"
-          download "Kojiro_Hyuga" "mark-landers.png"
-          download "Ken_Wakashimazu" "ed-warner.png"
+          while read japanese slug
+          do
+            download "$japanese" "$slug"
+            sleep 1
+          done < characters.txt
 
 
-          echo "Downloaded files:"
           ls -la assets/images/olive-et-tom
 
 
-      - name: Commit and push images
+      - name: Commit images
         run: |
 
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
-          git add assets/images/olive-et-tom/
+          git add assets/images/olive-et-tom
 
           if git diff --cached --quiet
           then
-            echo "No new images to commit"
+            echo "Nothing to commit"
           else
-            git commit -m "Add Captain Tsubasa character portraits"
+            git commit -m "Auto download all Captain Tsubasa portraits"
             git push
           fi
