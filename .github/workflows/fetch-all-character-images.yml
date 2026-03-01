@@ -18,20 +18,32 @@ jobs:
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Create image folder
+      - name: Create folder
         run: mkdir -p assets/images/olive-et-tom
 
-      - name: Fetch images from Wikimedia API
+      - name: Search and download images
         run: |
 
-          fetch() {
+          download() {
 
-            search="$1"
+            query="$1"
             filename="$2"
 
-            echo "Searching image for $search"
+            echo "Searching Wikipedia page for: $query"
 
-            api="https://en.wikipedia.org/w/api.php?action=query&titles=$search&prop=pageimages&format=json&pithumbsize=500"
+            title=$(curl -s \
+              -A "journaldegaspard-bot" \
+              "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=$query&format=json" \
+              | jq -r '.query.search[0].title')
+
+            echo "Found page: $title"
+
+            if [ "$title" = "null" ] || [ "$title" = "" ]; then
+              echo "No page found"
+              return
+            fi
+
+            api="https://en.wikipedia.org/w/api.php?action=query&titles=$(echo $title | sed 's/ /_/g')&prop=pageimages&format=json&pithumbsize=600"
 
             url=$(curl -s -A "journaldegaspard-bot" "$api" \
               | jq -r '.query.pages[]?.thumbnail?.source')
@@ -55,16 +67,16 @@ jobs:
           }
 
 
-          fetch "Tsubasa_Ozora" "olivier-atton.jpg"
-          fetch "Genzo_Wakabayashi" "thomas-price.jpg"
-          fetch "Taro_Misaki" "ben-becker.jpg"
-          fetch "Kojiro_Hyuga" "mark-landers.jpg"
-          fetch "Ken_Wakashimazu" "ed-warner.jpg"
+          download "Tsubasa Ozora Captain Tsubasa" "olivier-atton.jpg"
+          download "Genzo Wakabayashi Captain Tsubasa" "thomas-price.jpg"
+          download "Taro Misaki Captain Tsubasa" "ben-becker.jpg"
+          download "Kojiro Hyuga Captain Tsubasa" "mark-landers.jpg"
+          download "Ken Wakashimazu Captain Tsubasa" "ed-warner.jpg"
 
 
           ls -la assets/images/olive-et-tom
 
-      - name: Commit and push images
+      - name: Commit and push
         run: |
 
           git config user.name "github-actions"
