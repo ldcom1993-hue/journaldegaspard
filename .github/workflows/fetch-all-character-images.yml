@@ -1,0 +1,93 @@
+name: Fetch all character images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  download-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Create images folder
+        run: mkdir -p assets/images/olive-et-tom
+
+      - name: Download images from Wikipedia API
+        run: |
+          characters=(
+            "Tsubasa Ozora|olivier-atton"
+            "Genzo Wakabayashi|thomas-price"
+            "Taro Misaki|ben-becker"
+            "Kojiro Hyuga|mark-landers"
+            "Ken Wakashimazu|ed-warner"
+            "Jun Misugi|julian-ross"
+            "Hikaru Matsuyama|philip-callahan"
+            "Shun Nitta|danny-mellow"
+            "Hiroshi Jito|cliff-mcmahon"
+            "Makoto Soda|alan-crocker"
+            "Hanji Urabe|johnny-mason"
+            "Kazuo Tachibana|charlie-custer"
+            "Masao Tachibana|jimmy-carter"
+            "Roberto Hongo|roberto-sedinho"
+            "Karl Heinz Schneider|karl-heinz-schneider"
+            "Juan Diaz|juan-diaz"
+            "Natureza|natureza"
+            "Rivaul|rivaul"
+            "Gino Hernandez|gino-hernandez"
+            "Elle Sid Pierre|pierre"
+            "Louis Napoleon|napoleon"
+            "Brian Cruyfford|brian-cruyfford"
+            "Stefan Levin|stefan-levin"
+            "Deuter Muller|deuter-muller"
+            "Salinas|salinas"
+            "Pepe|pepe"
+            "Cha Incheon|cha"
+            "Owairan|owairan"
+            "Vulcan|vulcan"
+            "Bunnaak|bunnaak"
+          )
+
+          for entry in "${characters[@]}"
+          do
+            wiki=$(echo "$entry" | cut -d'|' -f1)
+            filename=$(echo "$entry" | cut -d'|' -f2)
+
+            echo "Processing $wiki"
+
+            json=$(curl -s \
+              "https://en.wikipedia.org/api/rest_v1/page/summary/$wiki")
+
+            url=$(echo "$json" | jq -r '.thumbnail.source')
+
+            if [ "$url" != "null" ] && [ "$url" != "" ]
+            then
+              curl -L "$url" \
+                -o "assets/images/olive-et-tom/$filename.jpg"
+
+              echo "Downloaded $filename.jpg"
+            else
+              echo "No image found for $wiki"
+            fi
+          done
+
+      - name: Commit images
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add assets/images/olive-et-tom/
+
+          git commit -m "Add all character images" || echo "Nothing to commit"
+
+          git push
+
+      - name: Verify files
+        run: ls -la assets/images/olive-et-tom
