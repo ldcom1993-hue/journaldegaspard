@@ -10,73 +10,58 @@ jobs:
   download-images:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        shell: bash
-
     steps:
 
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
       - name: Create image folder
+        run: mkdir -p assets/images/olive-et-tom
+
+      - name: Fetch images from Wikimedia API
         run: |
-          mkdir -p assets/images/olive-et-tom
 
-      - name: Download character images safely
-        run: |
+          fetch() {
 
-          download() {
-
-            url="$1"
+            search="$1"
             filename="$2"
 
-            path="assets/images/olive-et-tom/$filename"
+            echo "Searching image for $search"
 
-            echo "Downloading $filename"
+            api="https://en.wikipedia.org/w/api.php?action=query&titles=$search&prop=pageimages&format=json&pithumbsize=500"
 
-            curl \
-              -L \
-              -A "journaldegaspard-bot/1.0 (GitHub Actions)" \
-              --retry 5 \
-              --retry-delay 3 \
-              --fail \
-              "$url" \
-              -o "$path"
+            url=$(curl -s -A "journaldegaspard-bot" "$api" \
+              | jq -r '.query.pages[]?.thumbnail?.source')
 
-            type=$(file -b "$path")
+            echo "Image URL: $url"
 
-            echo "File type: $type"
+            if [ "$url" != "null" ] && [ "$url" != "" ]; then
 
-            if [[ "$type" == *HTML* ]]; then
-              echo "ERROR: downloaded HTML instead of image"
-              rm "$path"
-              exit 1
+              curl \
+                -L \
+                -A "journaldegaspard-bot" \
+                --retry 5 \
+                "$url" \
+                -o "assets/images/olive-et-tom/$filename"
+
+              file "assets/images/olive-et-tom/$filename"
+
+            else
+              echo "No image found"
             fi
           }
 
 
-          download \
-          "https://upload.wikimedia.org/wikipedia/en/5/5e/Tsubasa_Ozora.png" \
-          "olivier-atton.jpg"
+          fetch "Tsubasa_Ozora" "olivier-atton.jpg"
+          fetch "Genzo_Wakabayashi" "thomas-price.jpg"
+          fetch "Taro_Misaki" "ben-becker.jpg"
+          fetch "Kojiro_Hyuga" "mark-landers.jpg"
+          fetch "Ken_Wakashimazu" "ed-warner.jpg"
 
-          download \
-          "https://upload.wikimedia.org/wikipedia/en/2/21/Genzo_Wakabayashi.png" \
-          "thomas-price.jpg"
 
-          download \
-          "https://upload.wikimedia.org/wikipedia/en/9/9b/Taro_Misaki.png" \
-          "ben-becker.jpg"
-
-          download \
-          "https://upload.wikimedia.org/wikipedia/en/a/a3/Kojiro_Hyuga.png" \
-          "mark-landers.jpg"
-
-          download \
-          "https://upload.wikimedia.org/wikipedia/en/8/87/Ken_Wakashimazu.png" \
-          "ed-warner.jpg"
-
-          echo "Final file list:"
           ls -la assets/images/olive-et-tom
 
       - name: Commit and push images
@@ -89,8 +74,8 @@ jobs:
 
           if git diff --cached --quiet
           then
-            echo "No new images"
+            echo "Nothing to commit"
           else
-            git commit -m "Add Olive et Tom character images"
+            git commit -m "Add character images"
             git push
           fi
