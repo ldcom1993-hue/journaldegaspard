@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
@@ -80,14 +82,14 @@ jobs:
 
       - name: Commit images
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
 
-          git add assets/images/olive-et-tom/
+          git add assets/images/olive-et-tom/ || true
 
-          git commit -m "Add all character images" || echo "Nothing to commit"
+          git commit -m "Add character images" || echo "Nothing to commit"
 
-          git push
+          git push origin HEAD:main
 
       - name: Verify files
         run: ls -la assets/images/olive-et-tom
