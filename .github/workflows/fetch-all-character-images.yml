@@ -24,7 +24,7 @@ jobs:
 
       - name: Download images
         run: |
-          set -e
+          set -euo pipefail
 
           characters=(
             "Tsubasa Ozora|olivier-atton"
@@ -34,26 +34,39 @@ jobs:
             "Ken Wakashimazu|ed-warner"
           )
 
-          for entry in "${characters[@]}"
-          do
-            wiki=$(echo $entry | cut -d'|' -f1)
-            file=$(echo $entry | cut -d'|' -f2)
+          get_extension() {
+            local url="$1"
+            local extension
 
-            echo "Searching $wiki"
+            extension=$(printf '%s' "$url" | sed -E 's/.*\.([A-Za-z0-9]+)(\?.*)?$/\1/' | tr '[:upper:]' '[:lower:]')
 
-            url=$(curl -s \
-              "https://en.wikipedia.org/api/rest_v1/page/summary/$wiki" \
-              | jq -r '.thumbnail.source')
+            case "$extension" in
+              jpg|jpeg|png|webp|svg)
+                printf '%s' "$extension"
+                ;;
+              *)
+                printf 'jpg'
+                ;;
+            esac
+          }
 
-            if [ "$url" != "null" ] && [ "$url" != "" ]
-            then
-              echo "Downloading $file.jpg"
-              curl -L "$url" \
-                -o "assets/images/olive-et-tom/$file.jpg"
+          for entry in "${characters[@]}"; do
+            wiki=$(printf '%s' "$entry" | cut -d'|' -f1)
+            file=$(printf '%s' "$entry" | cut -d'|' -f2)
+
+            echo "Searching image for: $wiki"
+
+            url=$(curl -fsSL "https://en.wikipedia.org/api/rest_v1/page/summary/$wiki" | jq -r '.originalimage.source // .thumbnail.source // empty')
+
+            if [ -n "$url" ]; then
+              extension=$(get_extension "$url")
+              output="assets/images/olive-et-tom/$file.$extension"
+
+              echo "Downloading $output"
+              curl -fL "$url" -o "$output"
             else
               echo "No image found for $wiki"
             fi
-
           done
 
       - name: Show files
@@ -61,11 +74,17 @@ jobs:
 
       - name: Commit and push
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add assets/images/olive-et-tom/
 
-          git diff --cached --quiet || git commit -m "Add character images"
+          if git diff --cached --quiet; then
+            echo "No image changes to commit"
+            exit 0
+          fi
 
+          git commit -m "Add character images"
           git push
