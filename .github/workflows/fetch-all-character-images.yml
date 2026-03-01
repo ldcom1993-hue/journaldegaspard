@@ -27,26 +27,21 @@ jobs:
             echo "Fetching $page"
 
             img=$(curl -L -A "journaldegaspard-bot" \
-              "https://captaintsubasa.fandom.com/wiki/$page" \
-              | grep -o 'https://static.wikia.nocookie.net[^"]*\.png' \
-              | grep revision/latest \
-              | head -n 1)
+            "https://captaintsubasa.fandom.com/wiki/$page" \
+            | grep -o 'https://static.wikia.nocookie.net[^"]*\.png[^"]*' \
+            | head -n 1 \
+            | sed 's/\.png.*/.png/')
 
-            echo "Image found: $img"
+            echo "Clean image URL: $img"
 
             if [ -z "$img" ]; then
-
               echo "No image found"
               exit 1
-
-            else
-
-              curl -L \
-                -A "journaldegaspard-bot" \
-                "$img" \
-                -o "assets/images/olive-et-tom/$filename"
-
             fi
+
+            curl -L -A "journaldegaspard-bot" \
+            "$img" \
+            -o "assets/images/olive-et-tom/$filename"
           }
 
 
