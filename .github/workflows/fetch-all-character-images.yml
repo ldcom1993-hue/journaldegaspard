@@ -12,56 +12,70 @@ jobs:
 
     steps:
 
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - run: mkdir -p assets/images/olive-et-tom
+      - name: Create image folder
+        run: mkdir -p assets/images/olive-et-tom
 
-      - name: Download real character portraits
+      - name: Download character portraits from Fandom API
         run: |
+
+          set -e
 
           download() {
 
             page="$1"
             filename="$2"
 
-            echo "Fetching $page"
+            echo "Fetching portrait for $page"
 
-            img=$(curl -L -A "journaldegaspard-bot" \
-            "https://captaintsubasa.fandom.com/wiki/$page" \
-            | grep -o 'https://static.wikia.nocookie.net[^"]*\.png[^"]*' \
-            | head -n 1 \
-            | sed 's/\.png.*/.png/')
+            api="https://captaintsubasa.fandom.com/api.php?action=query&titles=${page}&prop=pageimages&format=json&pithumbsize=600"
 
-            echo "Clean image URL: $img"
+            img=$(curl -s -A "journaldegaspard-bot/1.0" "$api" \
+              | grep -o 'https://static.wikia.nocookie.net[^"]*')
+
+            echo "Image URL: $img"
 
             if [ -z "$img" ]; then
-              echo "No image found"
-              exit 1
+              echo "No image found for $page"
+              return
             fi
 
-            curl -L -A "journaldegaspard-bot" \
-            "$img" \
-            -o "assets/images/olive-et-tom/$filename"
+            curl \
+              -L \
+              -A "journaldegaspard-bot/1.0" \
+              "$img" \
+              -o "assets/images/olive-et-tom/$filename"
+
+            file "assets/images/olive-et-tom/$filename"
+
           }
 
 
-          download Tsubasa_Ozora olivier-atton.png
-          download Genzo_Wakabayashi thomas-price.png
-          download Taro_Misaki ben-becker.png
-          download Kojiro_Hyuga mark-landers.png
-          download Ken_Wakashimazu ed-warner.png
+          download "Tsubasa_Ozora" "olivier-atton.png"
+          download "Genzo_Wakabayashi" "thomas-price.png"
+          download "Taro_Misaki" "ben-becker.png"
+          download "Kojiro_Hyuga" "mark-landers.png"
+          download "Ken_Wakashimazu" "ed-warner.png"
 
 
+          echo "Downloaded files:"
           ls -la assets/images/olive-et-tom
 
 
-      - name: Commit and push
+      - name: Commit and push images
         run: |
 
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-          git add .
+          git add assets/images/olive-et-tom/
 
-          git diff --cached --quiet || git commit -m "Add real portraits"
-          git push
+          if git diff --cached --quiet
+          then
+            echo "No new images to commit"
+          else
+            git commit -m "Add Captain Tsubasa character portraits"
+            git push
+          fi
