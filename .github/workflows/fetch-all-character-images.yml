@@ -19,31 +19,78 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create folder
-        run: mkdir -p assets/images/olive-et-tom
-
-      - name: Download images
+      - name: Create image folder
         run: |
           mkdir -p assets/images/olive-et-tom
 
-          curl -L "https://upload.wikimedia.org/wikipedia/en/5/5e/Tsubasa_Ozora.png" -o assets/images/olive-et-tom/olivier-atton.jpg
-          curl -L "https://upload.wikimedia.org/wikipedia/en/2/21/Genzo_Wakabayashi.png" -o assets/images/olive-et-tom/thomas-price.jpg
-          curl -L "https://upload.wikimedia.org/wikipedia/en/9/9b/Taro_Misaki.png" -o assets/images/olive-et-tom/ben-becker.jpg
-          curl -L "https://upload.wikimedia.org/wikipedia/en/a/a3/Kojiro_Hyuga.png" -o assets/images/olive-et-tom/mark-landers.jpg
-          curl -L "https://upload.wikimedia.org/wikipedia/en/8/87/Ken_Wakashimazu.png" -o assets/images/olive-et-tom/ed-warner.jpg
+      - name: Download character images safely
+        run: |
 
+          download() {
+
+            url="$1"
+            filename="$2"
+
+            path="assets/images/olive-et-tom/$filename"
+
+            echo "Downloading $filename"
+
+            curl \
+              -L \
+              -A "journaldegaspard-bot/1.0 (GitHub Actions)" \
+              --retry 5 \
+              --retry-delay 3 \
+              --fail \
+              "$url" \
+              -o "$path"
+
+            type=$(file -b "$path")
+
+            echo "File type: $type"
+
+            if [[ "$type" == *HTML* ]]; then
+              echo "ERROR: downloaded HTML instead of image"
+              rm "$path"
+              exit 1
+            fi
+          }
+
+
+          download \
+          "https://upload.wikimedia.org/wikipedia/en/5/5e/Tsubasa_Ozora.png" \
+          "olivier-atton.jpg"
+
+          download \
+          "https://upload.wikimedia.org/wikipedia/en/2/21/Genzo_Wakabayashi.png" \
+          "thomas-price.jpg"
+
+          download \
+          "https://upload.wikimedia.org/wikipedia/en/9/9b/Taro_Misaki.png" \
+          "ben-becker.jpg"
+
+          download \
+          "https://upload.wikimedia.org/wikipedia/en/a/a3/Kojiro_Hyuga.png" \
+          "mark-landers.jpg"
+
+          download \
+          "https://upload.wikimedia.org/wikipedia/en/8/87/Ken_Wakashimazu.png" \
+          "ed-warner.jpg"
+
+          echo "Final file list:"
           ls -la assets/images/olive-et-tom
 
-      - name: Commit and push
+      - name: Commit and push images
         run: |
+
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add assets/images/olive-et-tom/
 
-          if ! git diff --cached --quiet; then
-            git commit -m "Add character images"
-            git push
+          if git diff --cached --quiet
+          then
+            echo "No new images"
           else
-            echo "No files to commit"
+            git commit -m "Add Olive et Tom character images"
+            git push
           fi
