@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez les personnages emblématiques de l'univers Olive et Tom."
+    />
+    <title>Olive et Tom · Personnages</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header universe-header">
+      <div class="container">
+        <a class="home-link" href="/">Accueil</a>
+        <h1>Olive et Tom</h1>
+        <p class="universe-subtitle">Personnages</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="characters" aria-labelledby="characters-title">
+        <div class="container">
+          <a class="back-link" href="/">← Retour aux univers</a>
+          <h2 id="characters-title" class="visually-hidden">Liste des personnages</h2>
+          <div id="characters-grid" class="characters-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <template id="character-card-template">
+      <article class="character-card">
+        <a class="character-link" href="#">
+          <img class="character-image" src="" alt="" loading="lazy" />
+          <div class="character-content">
+            <h3 class="character-name"></h3>
+            <p class="character-team"></p>
+            <p class="character-description"></p>
+          </div>
+        </a>
+      </article>
+    </template>
+
+    <script src="/assets/js/personnages.js" defer></script>
+  </body>
+</html>
