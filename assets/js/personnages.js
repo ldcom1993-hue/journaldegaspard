@@ -2,13 +2,15 @@ const grid = document.querySelector("#characters-grid");
 const template = document.querySelector("#character-card-template");
 
 function getInitials(name) {
-  return String(name || "?")
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((chunk) => chunk[0].toUpperCase())
-    .join("") || "?";
+  return (
+    String(name || "?")
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((chunk) => chunk[0].toUpperCase())
+      .join("") || "?"
+  );
 }
 
 function makePlaceholder(name) {
@@ -38,24 +40,18 @@ function makePlaceholder(name) {
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
 
-function stripHtml(value) {
-  return String(value || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
-}
-
-function toDisplayCharacter(character) {
-  const name = stripHtml(character.name);
-
+function normalizeCharacter(character) {
   return {
-    name,
-    team: Array.isArray(character.teams) ? character.teams.join(", ") : "",
-    description: character.description || "",
-    image: character.image || "",
-    link: `/univers/olive-et-tom/personnages/${character.slug}.html`
+    slug: String(character.slug || "").trim(),
+    name: String(character.name || "").trim(),
+    image: String(character.image || "").trim()
   };
 }
 
 function renderCharacters(characters) {
-  const sortedCharacters = [...characters].sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
+  const sortedCharacters = [...characters].sort((a, b) =>
+    a.name.localeCompare(b.name, "fr", { sensitivity: "base" })
+  );
 
   sortedCharacters.forEach((character) => {
     const card = template.content.firstElementChild.cloneNode(true);
@@ -65,21 +61,21 @@ function renderCharacters(characters) {
     const team = card.querySelector(".character-team");
     const description = card.querySelector(".character-description");
 
-    link.href = character.link;
+    link.href = `/univers/olive-et-tom/personnages/${character.slug}.html`;
 
     const fallbackImage = makePlaceholder(character.name);
-    const providedImage = String(character.image || "").trim();
 
     image.onerror = () => {
       image.onerror = null;
       image.src = fallbackImage;
     };
 
-    image.src = providedImage || fallbackImage;
+    image.src = character.image || fallbackImage;
     image.alt = `Portrait de ${character.name}`;
     name.textContent = character.name;
-    team.textContent = character.team;
-    description.textContent = character.description;
+
+    team.hidden = true;
+    description.hidden = true;
 
     grid.appendChild(card);
   });
@@ -97,10 +93,12 @@ async function initCharacters() {
       throw new Error(`HTTP ${response.status}`);
     }
 
-    const rawCharacters = await response.json();
-    const displayCharacters = Array.isArray(rawCharacters) ? rawCharacters.map(toDisplayCharacter) : [];
+    const data = await response.json();
+    const characters = Array.isArray(data)
+      ? data.map(normalizeCharacter).filter((character) => character.slug && character.name)
+      : [];
 
-    renderCharacters(displayCharacters);
+    renderCharacters(characters);
   } catch (error) {
     console.error("Impossible de charger les personnages:", error);
   }
