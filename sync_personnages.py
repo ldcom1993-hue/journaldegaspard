@@ -345,6 +345,13 @@ def load_existing_records() -> list[dict[str, Any]]:
 def merge_missing_fields(existing: dict[str, Any], incoming: dict[str, Any]) -> bool:
     changed = False
 
+    existing_name = existing.get("name")
+    incoming_name = incoming.get("name")
+    if isinstance(existing_name, str) and isinstance(incoming_name, str):
+        if is_invalid_infobox_name(existing_name) and not is_empty(incoming_name):
+            existing["name"] = incoming_name
+            changed = True
+
     for key in ("name", "japaneseName", "position", "nationality", "description", "image"):
         if is_empty(existing.get(key)) and not is_empty(incoming.get(key)):
             existing[key] = incoming[key]
