@@ -299,9 +299,23 @@ def parse_teams(infobox: dict[str, str]) -> list[str]:
     return teams
 
 
+def name_from_slug(slug: str) -> str:
+    return " ".join(part.capitalize() for part in slug.split("-") if part)
+
+
+def is_invalid_infobox_name(name: str) -> bool:
+    return any(token in name for token in ("PAGENAME", "{{", "}}"))
+
+
 def build_record(title: str, infobox: dict[str, str], description: str, image_path: str) -> dict[str, Any]:
     slug = slugify(title)
-    display_name = infobox.get("name") or title
+    raw_name = (infobox.get("name") or "").strip()
+    if raw_name and is_invalid_infobox_name(raw_name):
+        display_name = name_from_slug(slug)
+        print(f"[name-fixed-from-slug] {slug}")
+    else:
+        display_name = raw_name or title
+
     return {
         "slug": slug,
         "name": display_name,
