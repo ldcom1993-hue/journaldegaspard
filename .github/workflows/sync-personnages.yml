@@ -1,4 +1,4 @@
-name: Sync personnages
+name: Sync personnages from Fandom
 
 on:
   workflow_dispatch:
@@ -7,28 +7,28 @@ permissions:
   contents: write
 
 jobs:
-
   sync:
-
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - run: python .github/scripts/sync_personnages.py
+      - name: Run sync script
+        run: python sync_personnages.py
 
-      - run: |
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git add assets/data/personnages.json
+          git add assets/images/olive-et-tom
 
-          git add .
-
-          git diff --cached --quiet || git commit -m "Sync personnages"
-
+          git diff --cached --quiet || git commit -m "Sync personnages from Fandom"
           git push
