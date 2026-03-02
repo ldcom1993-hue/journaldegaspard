@@ -1,2 +1,2 @@
 # journaldegaspard
-Journal de Gaspard
+Le journal de Gaspard
