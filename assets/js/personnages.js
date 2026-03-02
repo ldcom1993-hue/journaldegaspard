@@ -1,36 +1,16 @@
-/**
- * Ajouter un personnage:
- * 1) Ajouter un nouvel objet dans le tableau `characters`.
- * 2) Renseigner tous les champs: name, japaneseName, role, team, description, image, link et order.
- * 3) Recommandé: placer l'image en local (ex: assets/images/olive-et-tom/olivier-atton.jpg)
- *    puis renseigner `image` avec un chemin relatif sans slash initial
- *    (ex: "assets/images/olive-et-tom/olivier-atton.jpg").
- * 4) Le tri se fait automatiquement selon `order`.
- */
-const characters = [
-  {
-    name: "Olivier Atton",
-    japaneseName: "Tsubasa Ozora",
-    role: "Milieu offensif",
-    team: "New Team",
-    description: "Prodige du football japonais et meneur créatif de New Team.",
-    \1\"/assets/images/olive-et-tom/olivier-atton.png\",
-    link: "/univers/olive-et-tom/personnages/olivier-atton.html",
-    description: "",
-    image: "https://upload.wikimedia.org/wikipedia/en/5/54/Captain_Tsubasa_vol_1.png",
-    link: "/univers/olive-et-tom/personnages/patty-gadsby.html",
-    description: "",
-    image: "../../assets/images/olive-et-tom/hikaru-matsuyama.png",
-    link: "/univers/olive-et-tom/personnages/philip-callahan.html",
-    description: "",
-    image: "https://via.placeholder.com/300x400?text=Masao+Tachibana",
-    link: "/univers/olive-et-tom/personnages/masao-tachibana.html",
-    description: "",
-    \1\"/assets/images/olive-et-tom/karl-heinz-schneider.png\",
-    link: "/univers/olive-et-tom/personnages/karl-heinz-schneider.html",
-    image: "/assets/images/olive-et-tom/karl-heinz-schneider.png"
- * 3) En cas d'échec de chargement, le fallback placeholder reste automatique.
- */
+const grid = document.querySelector("#characters-grid");
+const template = document.querySelector("#character-card-template");
+
+function getInitials(name) {
+  return String(name || "?")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((chunk) => chunk[0].toUpperCase())
+    .join("") || "?";
+}
+
 function makePlaceholder(name) {
   const initials = getInitials(name);
   const svg = `
@@ -58,12 +38,24 @@ function makePlaceholder(name) {
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
 
-function isAbsoluteUrl(value) {
-  return /^https?:\/\//i.test(value);
+function stripHtml(value) {
+  return String(value || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
 }
 
-if (grid && template) {
-  const sortedCharacters = [...characters].sort((a, b) => a.order - b.order);
+function toDisplayCharacter(character) {
+  const name = stripHtml(character.name);
+
+  return {
+    name,
+    team: Array.isArray(character.teams) ? character.teams.join(", ") : "",
+    description: character.description || "",
+    image: character.image || "",
+    link: `/univers/olive-et-tom/personnages/${character.slug}.html`
+  };
+}
+
+function renderCharacters(characters) {
+  const sortedCharacters = [...characters].sort((a, b) => a.name.localeCompare(b.name, "fr", { sensitivity: "base" }));
 
   sortedCharacters.forEach((character) => {
     const card = template.content.firstElementChild.cloneNode(true);
@@ -76,23 +68,14 @@ if (grid && template) {
     link.href = character.link;
 
     const fallbackImage = makePlaceholder(character.name);
-    const providedImage = (character.image || "").trim();
+    const providedImage = String(character.image || "").trim();
 
-    // Sécurise l'affichage: aucune icône d'image cassée.
     image.onerror = () => {
       image.onerror = null;
       image.src = fallbackImage;
     };
 
-    if (!providedImage) {
-      image.src = fallbackImage;
-    } else if (isAbsoluteUrl(providedImage)) {
-      image.src = providedImage;
-    } else {
-      // Chemin local/relatif: on le tente d'abord (préféré), puis fallback auto si introuvable.
-      image.src = providedImage;
-    }
-
+    image.src = providedImage || fallbackImage;
     image.alt = `Portrait de ${character.name}`;
     name.textContent = character.name;
     team.textContent = character.team;
@@ -101,3 +84,26 @@ if (grid && template) {
     grid.appendChild(card);
   });
 }
+
+async function initCharacters() {
+  if (!grid || !template) {
+    return;
+  }
+
+  try {
+    const response = await fetch("/assets/data/personnages.json");
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const rawCharacters = await response.json();
+    const displayCharacters = Array.isArray(rawCharacters) ? rawCharacters.map(toDisplayCharacter) : [];
+
+    renderCharacters(displayCharacters);
+  } catch (error) {
+    console.error("Impossible de charger les personnages:", error);
+  }
+}
+
+initCharacters();
