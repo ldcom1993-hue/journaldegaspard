@@ -553,7 +553,39 @@
       "blood": "",
       "position": "",
       "team": "",
-         }
+      "former_team": "",
+      "nationality": "",
+      "status": "",
+      "occupation": ""
+    }
+  },
+  {
+    "slug": "categorysupport-characters",
+    "name": "Category:Support characters",
+    "japaneseName": "",
+    "position": "",
+    "teams": [],
+    "nationality": "",
+    "description": "",
+    "image": "/assets/images/olive-et-tom/categorysupport-characters.png",
+    "infobox": {
+      "name": "",
+      "japanese": "",
+      "romaji": "",
+      "alias": "",
+      "gender": "",
+      "birthday": "",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "blood": "",
+      "position": "",
+      "team": "",
+      "former_team": "",
+      "nationality": "",
+      "status": "",
+      "occupation": ""
+    }
   },
   {
     "slug": "deuter-muller",
