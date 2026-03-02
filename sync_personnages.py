@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Rebuild Captain Tsubasa characters data from Fandom Category:Characters.
+"""Synchronize Captain Tsubasa characters data from Fandom Category:Characters.
 
-- Paginates categorymembers with `continue`
-- Filters out non-character pages
-- Extracts infobox fields from page wikitext
-- Fetches intro extract (plaintext)
-- Fetches original page image and downloads it locally
-- Writes sorted JSON to assets/data/personnages.json
+Behavior:
+- Fetches category titles with pagination
+- Normalizes subpages (e.g. "Pierre Le Cid/Techniques" -> "Pierre Le Cid")
+- Excludes only obvious non-character namespaces
+- Non-destructive merge with existing assets/data/personnages.json
+- Adds missing characters, fills missing fields, downloads missing images
 """
 
 from __future__ import annotations
@@ -25,14 +25,6 @@ API_URL = "https://captaintsubasa.fandom.com/api.php"
 CATEGORY_TITLE = "Category:Characters"
 IMAGE_DIR = Path("assets/images/olive-et-tom")
 OUTPUT_JSON = Path("assets/data/personnages.json")
-
-EXCLUDED_SUBSTRINGS = (
-    "Episode",
-    "Technique",
-    "Game",
-    "Season",
-    "Dream Team",
-)
 
 INFOBOX_FIELDS = [
     "name",
@@ -61,6 +53,10 @@ TEMPLATE_PREFIXES = (
 )
 
 
+OPENER = build_opener(ProxyHandler({}))
+OPENER.addheaders = [("User-Agent", "journaldegaspard-sync/2.0")]
+
+
 def slugify(text: str) -> str:
     """Create lowercase URL-safe slug with hyphens."""
     normalized = unicodedata.normalize("NFKD", text)
@@ -72,13 +68,30 @@ def slugify(text: str) -> str:
 
 
 def should_exclude_title(title: str) -> bool:
-    if "/" in title:
+    excluded_prefixes = ("Category:", "Template:", "File:")
+    return title.startswith(excluded_prefixes)
+
+
+def get_base_title(title: str) -> str:
+    return title.split("/", 1)[0].strip()
+
+
+def is_empty(value: Any) -> bool:
+    if value is None:
         return True
-    return any(token in title for token in EXCLUDED_SUBSTRINGS)
+    if isinstance(value, str):
+        return value.strip() == ""
+    if isinstance(value, (list, dict)):
+        return len(value) == 0
+    return False
 
 
-OPENER = build_opener(ProxyHandler({}))
-OPENER.addheaders = [("User-Agent", "journaldegaspard-sync/2.0")]
+def web_path_to_local(path: str | None) -> Path | None:
+    if not path:
+        return None
+    if not path.startswith("/"):
+        return Path(path)
+    return Path(path[1:])
 
 
 def api_get_json(params: dict[str, Any]) -> dict[str, Any]:
@@ -101,7 +114,7 @@ def download_binary(url: str) -> bytes:
 
 
 def fetch_category_titles() -> list[str]:
-    titles: list[str] = []
+    raw_titles: list[str] = []
     params: dict[str, Any] = {
         "action": "query",
         "list": "categorymembers",
@@ -114,14 +127,26 @@ def fetch_category_titles() -> list[str]:
         payload = api_get_json(params)
 
         members = payload.get("query", {}).get("categorymembers", [])
-        titles.extend(member["title"] for member in members if "title" in member)
+        raw_titles.extend(member["title"] for member in members if "title" in member)
 
         continuation = payload.get("continue")
         if not continuation:
             break
         params.update(continuation)
 
-    return titles
+    normalized_titles: list[str] = []
+    seen_bases: set[str] = set()
+
+    for title in raw_titles:
+        base_title = get_base_title(title)
+        if not base_title or should_exclude_title(base_title):
+            continue
+        if base_title in seen_bases:
+            continue
+        seen_bases.add(base_title)
+        normalized_titles.append(base_title)
+
+    return normalized_titles
 
 
 def extract_template_block(wikitext: str) -> str:
@@ -290,32 +315,108 @@ def build_record(title: str, infobox: dict[str, str], description: str, image_pa
     }
 
 
+def load_existing_records() -> list[dict[str, Any]]:
+    if not OUTPUT_JSON.exists():
+        return []
+
+    with OUTPUT_JSON.open("r", encoding="utf-8") as handle:
+        payload = json.load(handle)
+
+    if not isinstance(payload, list):
+        return []
+
+    return [record for record in payload if isinstance(record, dict)]
+
+
+def merge_missing_fields(existing: dict[str, Any], incoming: dict[str, Any]) -> bool:
+    changed = False
+
+    for key in ("name", "japaneseName", "position", "nationality", "description", "image"):
+        if is_empty(existing.get(key)) and not is_empty(incoming.get(key)):
+            existing[key] = incoming[key]
+            changed = True
+
+    if is_empty(existing.get("teams")) and not is_empty(incoming.get("teams")):
+        existing["teams"] = incoming["teams"]
+        changed = True
+
+    existing_infobox = existing.get("infobox")
+    if not isinstance(existing_infobox, dict):
+        existing_infobox = {}
+        existing["infobox"] = existing_infobox
+
+    incoming_infobox = incoming.get("infobox", {})
+    if isinstance(incoming_infobox, dict):
+        for field in INFOBOX_FIELDS:
+            if is_empty(existing_infobox.get(field)) and not is_empty(incoming_infobox.get(field)):
+                existing_infobox[field] = incoming_infobox[field]
+                changed = True
+
+    return changed
+
+
+def needs_refresh(existing: dict[str, Any]) -> bool:
+    keys_to_check = ("name", "japaneseName", "position", "nationality", "description", "image", "teams", "infobox")
+    if any(is_empty(existing.get(key)) for key in keys_to_check):
+        return True
+
+    local_image = web_path_to_local(existing.get("image"))
+    return bool(local_image and not local_image.exists())
+
+
 def main() -> None:
     IMAGE_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
 
-    all_titles = fetch_category_titles()
-    titles = [title for title in all_titles if not should_exclude_title(title)]
+    existing_records = load_existing_records()
+    records_by_slug: dict[str, dict[str, Any]] = {}
 
-    print(f"Fetched {len(all_titles)} category titles")
-    print(f"Kept {len(titles)} titles after filtering")
+    for record in existing_records:
+        slug = record.get("slug")
+        if not isinstance(slug, str) or not slug:
+            continue
+        records_by_slug[slug] = record
 
-    records: list[dict[str, Any]] = []
+    titles = fetch_category_titles()
+
+    print(f"Fetched {len(titles)} unique base titles from category")
+    print(f"Loaded {len(records_by_slug)} existing records")
 
     for index, title in enumerate(titles, start=1):
         print(f"[{index}/{len(titles)}] {title}")
         slug = slugify(title)
 
+        existing = records_by_slug.get(slug)
+        if existing and not needs_refresh(existing):
+            print(f"[skipped-existing] {title}")
+            continue
+
         wikitext = fetch_page_wikitext(title)
         infobox = extract_infobox_fields(wikitext)
-
         description = fetch_intro_extract(title)
         image_url = fetch_original_image_url(title)
         image_path = download_image_if_needed(slug, image_url)
 
-        records.append(build_record(title, infobox, description, image_path))
+        incoming = build_record(title, infobox, description, image_path)
 
-    records.sort(key=lambda item: item["name"].casefold())
+        if existing:
+            updated = merge_missing_fields(existing, incoming)
+            local_image = web_path_to_local(existing.get("image"))
+            if local_image and not local_image.exists() and image_path:
+                existing["image"] = existing.get("image") or image_path
+                updated = True
+
+            if updated:
+                print(f"[updated] {title}")
+            else:
+                print(f"[skipped-existing] {title}")
+            continue
+
+        records_by_slug[slug] = incoming
+        print(f"[added] {title}")
+
+    records = list(records_by_slug.values())
+    records.sort(key=lambda item: str(item.get("name", item.get("slug", ""))).casefold())
 
     with OUTPUT_JSON.open("w", encoding="utf-8") as handle:
         json.dump(records, handle, ensure_ascii=False, indent=2)
