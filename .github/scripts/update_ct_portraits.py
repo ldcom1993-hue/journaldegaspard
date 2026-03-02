@@ -74,9 +74,13 @@ def update_character_images(slug_by_title: dict[str, str]) -> None:
 
         title_candidates = []
         if japanese_match:
-            title_candidates.append(japanese_match.group(1).strip())
+            japanese_name = japanese_match.group(1).strip()
+            title_candidates.extend(
+                [japanese_name, japanese_name.replace(" ", "_")]
+            )
         if name_match:
-            title_candidates.append(name_match.group(1).strip())
+            name = name_match.group(1).strip()
+            title_candidates.extend([name, name.replace(" ", "_")])
 
         slug = None
         for title in title_candidates:
