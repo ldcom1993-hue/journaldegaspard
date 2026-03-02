@@ -1,5 +1,130 @@
 const grid = document.querySelector("#characters-grid");
 const template = document.querySelector("#character-card-template");
+const positionFilter = document.querySelector("#filter-position");
+const countryFilter = document.querySelector("#filter-country");
+const searchInput = document.querySelector("#filter-search");
+const resultsCount = document.querySelector("#results-count");
+const emptyState = document.querySelector("#empty-state");
+const resetFiltersButton = document.querySelector("#reset-filters");
+
+const JAPANESE_NAME_ALLOWED_PREFIXES = [
+  "Ryo",
+  "Genzo",
+  "Tsubasa",
+  "Shingo",
+  "Kojiro",
+  "Jun",
+  "Hikaru",
+  "Taro",
+  "Ken",
+  "Sanae"
+];
+
+const POSITION_MAP = {
+  goalkeeper: "Gardien",
+  gk: "Gardien",
+  gardien: "Gardien",
+  defender: "Défenseur",
+  df: "Défenseur",
+  defenseur: "Défenseur",
+  défenseur: "Défenseur",
+  back: "Défenseur",
+  midfielder: "Milieu",
+  mf: "Milieu",
+  milieu: "Milieu",
+  forward: "Attaquant",
+  fw: "Attaquant",
+  striker: "Attaquant",
+  attaquant: "Attaquant",
+  coach: "Coach",
+  manager: "Manager"
+};
+
+const NATIONALITY_MAP = {
+  japan: "Japan",
+  japanese: "Japan",
+  japon: "Japan",
+  brazil: "Brazil",
+  brazilian: "Brazil",
+  bresil: "Brazil",
+  brésil: "Brazil",
+  germany: "Germany",
+  german: "Germany",
+  allemagne: "Germany",
+  france: "France",
+  french: "France",
+  italy: "Italy",
+  italian: "Italy",
+  spain: "Spain",
+  spanish: "Spain",
+  argentina: "Argentina",
+  argentine: "Argentina",
+  netherlands: "Netherlands",
+  dutch: "Netherlands",
+  "pays-bas": "Netherlands",
+  sweden: "Sweden",
+  swedish: "Sweden"
+};
+
+const FLAGS = {
+  Japan: "🇯🇵",
+  Brazil: "🇧🇷",
+  Germany: "🇩🇪",
+  France: "🇫🇷",
+  Italy: "🇮🇹",
+  Spain: "🇪🇸",
+  Argentina: "🇦🇷",
+  Netherlands: "🇳🇱",
+  Sweden: "🇸🇪"
+};
+
+function toComparable(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
+function isSlugLike(value) {
+  const trimmed = String(value || "").trim();
+  if (!trimmed) {
+    return false;
+  }
+
+  return trimmed.includes("-") || /^[a-z0-9]+$/.test(trimmed);
+}
+
+function formatSlugLikeValue(value) {
+  const raw = String(value || "").trim();
+  if (!raw) {
+    return "";
+  }
+
+  if (!isSlugLike(raw)) {
+    return raw;
+  }
+
+  const beautified = raw
+    .replace(/[-_]+/g, " ")
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((chunk) => chunk.charAt(0).toUpperCase() + chunk.slice(1).toLowerCase())
+    .join(" ")
+    .trim();
+
+  return /[A-ZÀ-ÖØ-Þ]/.test(beautified) ? beautified : "";
+}
+
+function normalizePosition(position) {
+  const key = toComparable(position);
+  return POSITION_MAP[key] || "Autre";
+}
+
+function normalizeNationality(nationality) {
+  const key = toComparable(nationality);
+  return NATIONALITY_MAP[key] || "";
+}
 
 function getInitials(name) {
   return (
@@ -16,22 +141,17 @@ function getInitials(name) {
 function makePlaceholder(name) {
   const initials = getInitials(name);
   const svg = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800" role="img" aria-label="Portrait indisponible de ${name}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="Portrait indisponible de ${name}">
       <defs>
         <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stop-color="#14213d"/>
-          <stop offset="100%" stop-color="#1f3b73"/>
-        </linearGradient>
-        <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="rgba(255,255,255,0.22)"/>
-          <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+          <stop offset="0%" stop-color="#16233f"/>
+          <stop offset="100%" stop-color="#345da8"/>
         </linearGradient>
       </defs>
-      <rect x="24" y="24" width="592" height="752" rx="36" fill="url(#bg)"/>
-      <rect x="24" y="24" width="592" height="260" rx="36" fill="url(#gloss)"/>
-      <text x="320" y="430" text-anchor="middle" dominant-baseline="middle"
+      <rect x="14" y="14" width="612" height="612" rx="72" fill="url(#bg)"/>
+      <text x="320" y="332" text-anchor="middle" dominant-baseline="middle"
             font-family="Inter, Segoe UI, Roboto, Arial, sans-serif"
-            font-size="180" font-weight="800" fill="#f5f7ff" letter-spacing="4">
+            font-size="168" font-weight="800" fill="#f5f7ff" letter-spacing="4">
         ${initials}
       </text>
     </svg>
@@ -40,12 +160,163 @@ function makePlaceholder(name) {
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
 }
 
+function shouldShowJapaneseName(character) {
+  return JAPANESE_NAME_ALLOWED_PREFIXES.some((prefix) => character.name.startsWith(prefix));
+}
+
 function normalizeCharacter(character) {
+  const name = formatSlugLikeValue(character.name);
+  const japaneseName = formatSlugLikeValue(character.japaneseName);
+  const teams = Array.isArray(character.teams)
+    ? character.teams.map(formatSlugLikeValue).filter(Boolean)
+    : [];
+  const description = String(character.description || "").trim();
+  const normalizedPosition = normalizePosition(character.position);
+  const normalizedNationality = normalizeNationality(character.nationality);
+
+  const searchableText = toComparable(
+    [
+      name,
+      japaneseName,
+      normalizedPosition,
+      normalizedNationality,
+      teams.join(" "),
+      description
+    ].join(" ")
+  );
+
   return {
     slug: String(character.slug || "").trim(),
-    name: String(character.name || "").trim(),
-    image: String(character.image || "").trim()
+    name,
+    japaneseName,
+    image: String(character.image || "").trim(),
+    teams,
+    description,
+    normalizedPosition,
+    normalizedNationality,
+    flag: FLAGS[normalizedNationality] || "",
+    searchableText,
+    element: null
   };
+}
+
+function setText(element, value) {
+  if (!element) {
+    return;
+  }
+
+  if (value) {
+    element.textContent = value;
+    element.hidden = false;
+  } else {
+    element.textContent = "";
+    element.hidden = true;
+  }
+}
+
+function createCard(character, index) {
+  const card = template.content.firstElementChild.cloneNode(true);
+  const link = card.querySelector(".character-link");
+  const image = card.querySelector(".character-image");
+  const flag = card.querySelector(".character-flag");
+  const name = card.querySelector(".character-name");
+  const japaneseName = card.querySelector(".character-japanese-name");
+  const position = card.querySelector(".character-position");
+  const team = card.querySelector(".character-team");
+  const description = card.querySelector(".character-description");
+
+  link.href = `/univers/olive-et-tom/personnages/${character.slug}.html`;
+
+  const fallbackImage = makePlaceholder(character.name || "Personnage");
+  image.onerror = () => {
+    image.onerror = null;
+    image.src = fallbackImage;
+  };
+  image.src = character.image || fallbackImage;
+  image.alt = character.name ? `Portrait de ${character.name}` : "Portrait de personnage";
+
+  if (character.flag) {
+    flag.textContent = character.flag;
+    flag.hidden = false;
+    flag.setAttribute("aria-label", `Nationalité: ${character.normalizedNationality}`);
+    flag.title = character.normalizedNationality;
+  }
+
+  setText(name, character.name);
+  setText(
+    japaneseName,
+    shouldShowJapaneseName(character) && character.japaneseName ? character.japaneseName : ""
+  );
+  setText(position, character.normalizedPosition);
+  setText(team, character.teams.length ? character.teams.join(" · ") : "");
+  setText(description, character.description);
+
+  card.style.setProperty("--card-index", String(index));
+
+  return card;
+}
+
+function populateFilterOptions(characters) {
+  const positions = [...new Set(characters.map((character) => character.normalizedPosition))].sort(
+    (a, b) => a.localeCompare(b, "fr", { sensitivity: "base" })
+  );
+
+  const countries = [
+    ...new Set(characters.map((character) => character.normalizedNationality).filter(Boolean))
+  ].sort((a, b) => a.localeCompare(b, "fr", { sensitivity: "base" }));
+
+  positionFilter.insertAdjacentHTML(
+    "beforeend",
+    positions.map((position) => `<option value="${position}">${position}</option>`).join("")
+  );
+
+  countryFilter.insertAdjacentHTML(
+    "beforeend",
+    countries.map((country) => `<option value="${country}">${country}</option>`).join("")
+  );
+}
+
+function debounce(callback, delay) {
+  let timer = null;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => callback(...args), delay);
+  };
+}
+
+function applyFilters(characters) {
+  const selectedPosition = positionFilter.value;
+  const selectedCountry = countryFilter.value;
+  const query = toComparable(searchInput.value);
+
+  let visibleCount = 0;
+
+  characters.forEach((character) => {
+    const matchesPosition = !selectedPosition || character.normalizedPosition === selectedPosition;
+    const matchesCountry = !selectedCountry || character.normalizedNationality === selectedCountry;
+    const matchesSearch = !query || character.searchableText.includes(query);
+
+    const isVisible = matchesPosition && matchesCountry && matchesSearch;
+    character.element.classList.toggle("is-hidden", !isVisible);
+
+    if (isVisible) {
+      visibleCount += 1;
+    }
+  });
+
+  resultsCount.textContent = `${visibleCount} joueur${visibleCount > 1 ? "s" : ""} affiché${
+    visibleCount > 1 ? "s" : ""
+  }`;
+
+  emptyState.hidden = visibleCount !== 0;
+}
+
+function resetFilters(characters) {
+  positionFilter.value = "";
+  countryFilter.value = "";
+  searchInput.value = "";
+  applyFilters(characters);
+  searchInput.focus();
 }
 
 function renderCharacters(characters) {
@@ -53,32 +324,31 @@ function renderCharacters(characters) {
     a.name.localeCompare(b.name, "fr", { sensitivity: "base" })
   );
 
-  sortedCharacters.forEach((character) => {
-    const card = template.content.firstElementChild.cloneNode(true);
-    const link = card.querySelector(".character-link");
-    const image = card.querySelector(".character-image");
-    const name = card.querySelector(".character-name");
-    const team = card.querySelector(".character-team");
-    const description = card.querySelector(".character-description");
+  const fragment = document.createDocumentFragment();
 
-    link.href = `/univers/olive-et-tom/personnages/${character.slug}.html`;
-
-    const fallbackImage = makePlaceholder(character.name);
-
-    image.onerror = () => {
-      image.onerror = null;
-      image.src = fallbackImage;
-    };
-
-    image.src = character.image || fallbackImage;
-    image.alt = `Portrait de ${character.name}`;
-    name.textContent = character.name;
-
-    team.hidden = true;
-    description.hidden = true;
-
-    grid.appendChild(card);
+  sortedCharacters.forEach((character, index) => {
+    const card = createCard(character, index);
+    character.element = card;
+    fragment.appendChild(card);
   });
+
+  grid.appendChild(fragment);
+
+  requestAnimationFrame(() => {
+    sortedCharacters.forEach((character) => {
+      character.element.classList.add("is-ready");
+    });
+  });
+
+  populateFilterOptions(sortedCharacters);
+
+  const debouncedApplyFilters = debounce(() => applyFilters(sortedCharacters), 150);
+  positionFilter.addEventListener("change", () => applyFilters(sortedCharacters));
+  countryFilter.addEventListener("change", () => applyFilters(sortedCharacters));
+  searchInput.addEventListener("input", debouncedApplyFilters);
+  resetFiltersButton.addEventListener("click", () => resetFilters(sortedCharacters));
+
+  applyFilters(sortedCharacters);
 }
 
 async function initCharacters() {

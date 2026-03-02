@@ -24,6 +24,41 @@
         <div class="container">
           <a class="back-link" href="/">← Retour aux univers</a>
           <h2 id="characters-title" class="visually-hidden">Liste des personnages</h2>
+
+          <div class="characters-toolbar" role="region" aria-label="Filtres personnages">
+            <div class="characters-filters">
+              <label class="filter-group" for="filter-position">
+                <span>Poste</span>
+                <select id="filter-position">
+                  <option value="">Tous les postes</option>
+                </select>
+              </label>
+
+              <label class="filter-group" for="filter-country">
+                <span>Pays</span>
+                <select id="filter-country">
+                  <option value="">Tous les pays</option>
+                </select>
+              </label>
+
+              <label class="filter-group filter-group-search" for="filter-search">
+                <span>Recherche</span>
+                <input
+                  id="filter-search"
+                  type="search"
+                  placeholder="Nom, équipe, description…"
+                  aria-label="Rechercher un personnage"
+                />
+              </label>
+            </div>
+            <p id="results-count" class="results-count" aria-live="polite">0 joueurs affichés</p>
+          </div>
+
+          <div id="empty-state" class="empty-state" hidden>
+            <p>⚽ Aucun joueur ne correspond à vos critères</p>
+            <button id="reset-filters" type="button">Réinitialiser</button>
+          </div>
+
           <div id="characters-grid" class="characters-grid" aria-live="polite"></div>
         </div>
       </section>
@@ -32,11 +67,16 @@
     <template id="character-card-template">
       <article class="character-card">
         <a class="character-link" href="#">
-          <img class="character-image" src="" alt="" loading="lazy" />
+          <div class="character-image-wrap">
+            <img class="character-image" src="" alt="" loading="lazy" />
+            <span class="character-flag" hidden></span>
+          </div>
           <div class="character-content">
             <h3 class="character-name"></h3>
-            <p class="character-team"></p>
-            <p class="character-description"></p>
+            <p class="character-japanese-name" hidden></p>
+            <p class="character-position" hidden></p>
+            <p class="character-team" hidden></p>
+            <p class="character-description" hidden></p>
           </div>
         </a>
       </article>
