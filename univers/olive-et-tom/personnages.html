@@ -123,6 +123,21 @@
         font-size: 0.82rem;
       }
 
+      .sort-container {
+        margin-top: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.84rem;
+      }
+
+      .sort-container select {
+        min-height: 2rem;
+        padding: 0.35rem 0.55rem;
+        border-radius: 10px;
+        font-size: 0.84rem;
+      }
+
       @media (max-width: 640px) {
         .universe-header {
           padding-block: 0.35rem;
@@ -172,6 +187,15 @@
         }
 
         .results-count {
+          width: 100%;
+        }
+
+        .sort-container {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .sort-container select {
           width: 100%;
         }
 
@@ -236,6 +260,14 @@
           <div id="empty-state" class="empty-state" hidden>
             <p>⚽ Aucun joueur ne correspond à vos critères</p>
             <button id="reset-filters" type="button">Réinitialiser</button>
+          </div>
+
+          <div class="sort-container">
+            <label for="sort-select">Trier par :</label>
+            <select id="sort-select">
+              <option value="popularity">Popularité</option>
+              <option value="name">Nom A-Z</option>
+            </select>
           </div>
 
           <div id="characters-grid" class="characters-grid" aria-live="polite"></div>
