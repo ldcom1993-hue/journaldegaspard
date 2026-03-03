@@ -11,6 +11,19 @@ const sortSelect = document.querySelector("#sort-select");
 let charactersData = [];
 let renderedCharacters = [];
 
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = "1";
+        entry.target.style.transform = "translateY(0)";
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.15 }
+);
+
 const JAPANESE_NAME_ALLOWED_PREFIXES = [
   "Ryo",
   "Genzo",
@@ -238,6 +251,7 @@ function createCard(character, index) {
   };
   image.src = character.image || fallbackImage;
   image.alt = character.name ? `Portrait de ${character.name}` : "Portrait de personnage";
+  image.loading = "lazy";
 
   if (character.flag) {
     flag.textContent = character.flag;
@@ -332,16 +346,11 @@ function renderCharacters(data) {
   data.forEach((character, index) => {
     const card = createCard(character, index);
     character.element = card;
+    observer.observe(card);
     fragment.appendChild(card);
   });
 
   grid.appendChild(fragment);
-
-  requestAnimationFrame(() => {
-    data.forEach((character) => {
-      character.element.classList.add("is-ready");
-    });
-  });
 
   applyFilters(data);
 }
