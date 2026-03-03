@@ -435,21 +435,34 @@ def build_record(title: str, infobox: dict[str, str], description: str, image_pa
     else:
         display_name = raw_name or title
 
-    name = split_name_fields(infobox, display_name)
-    equipes = split_list_field(infobox.get("team", ""))
-    anciennes_equipes = split_list_field(infobox.get("former_team", ""))
+    name_split = split_name_fields(infobox, display_name)
+    latin_name = clean_text(name_split.get("latin") or display_name)
+    japanese_name = clean_text(name_split.get("kanji") or "")
+    current_teams = split_list_field(infobox.get("team", ""))
+    former_teams = split_list_field(infobox.get("former_team", ""))
+    teams = list(dict.fromkeys(current_teams + former_teams))
+    position = clean_text(infobox.get("position", ""))
+    nationality = clean_text(infobox.get("nationality", ""))
+    popularity = 999
 
     return {
         "slug": slug,
-        "name": name,
-        "poste": clean_text(infobox.get("position", "")),
-        "equipes": equipes,
-        "anciennes_equipes": anciennes_equipes,
-        "nationalite": clean_text(infobox.get("nationality", "")),
+        "name": latin_name,
+        "japaneseName": japanese_name,
+        "nameSplit": {
+            "latin": latin_name,
+            "kanji": japanese_name,
+        },
+        "position": position,
+        "teams": teams,
+        "nationality": nationality,
         "physical": parse_physical(infobox),
         "description": translate_description_to_french(description),
         "image": image_path,
-        "popularity": 999,
+        "infobox": infobox,
+        "popularity": popularity,
+        # Backward compatibility for existing list sorting logic.
+        "popularityRank": popularity,
     }
 
 
@@ -469,64 +482,111 @@ def load_existing_records() -> list[dict[str, Any]]:
 def merge_missing_fields(existing: dict[str, Any], incoming: dict[str, Any]) -> bool:
     changed = False
 
-    for key in ("name", "poste", "equipes", "anciennes_equipes", "nationalite", "physical", "description", "image", "popularity"):
+    for key in (
+        "name",
+        "japaneseName",
+        "nameSplit",
+        "position",
+        "teams",
+        "nationality",
+        "physical",
+        "description",
+        "image",
+        "infobox",
+        "popularity",
+        "popularityRank",
+    ):
         if is_empty(existing.get(key)) and not is_empty(incoming.get(key)):
             existing[key] = incoming[key]
             changed = True
 
-    if isinstance(existing.get("name"), dict) and isinstance(incoming.get("name"), dict):
+    if isinstance(existing.get("nameSplit"), dict) and isinstance(incoming.get("nameSplit"), dict):
         for name_key in ("latin", "kanji"):
-            if is_empty(existing["name"].get(name_key)) and not is_empty(incoming["name"].get(name_key)):
-                existing["name"][name_key] = incoming["name"][name_key]
+            if is_empty(existing["nameSplit"].get(name_key)) and not is_empty(incoming["nameSplit"].get(name_key)):
+                existing["nameSplit"][name_key] = incoming["nameSplit"][name_key]
                 changed = True
+
+    # Keep mirrored compatibility fields aligned when they are still empty.
+    if is_empty(existing.get("name")) and not is_empty(existing.get("nameSplit", {}).get("latin")):
+        existing["name"] = existing["nameSplit"]["latin"]
+        changed = True
+    if is_empty(existing.get("japaneseName")) and not is_empty(existing.get("nameSplit", {}).get("kanji")):
+        existing["japaneseName"] = existing["nameSplit"]["kanji"]
+        changed = True
 
     return changed
 
 
 def migrate_legacy_record(record: dict[str, Any]) -> dict[str, Any]:
     infobox = record.get("infobox") if isinstance(record.get("infobox"), dict) else {}
-    name_value = record.get("name")
+    slug = clean_text(str(record.get("slug") or ""))
 
-    if isinstance(name_value, dict):
-        latin_value = clean_text(name_value.get("latin", "") or "")
-        latin_value = re.sub(r"[\u3040-\u30ff\u3400-\u9fff]+", "", latin_value).strip()
-        latin_value = re.sub(r"\s+", " ", latin_value)
-        name = {"latin": latin_value or clean_text(str(record.get("slug", "")))}
-        kanji = clean_text(name_value.get("kanji", "") or "")
-        if kanji:
-            name["kanji"] = kanji
+    name_split_value = record.get("nameSplit")
+    if isinstance(name_split_value, dict):
+        latin = clean_text(name_split_value.get("latin") or "")
+        kanji = clean_text(name_split_value.get("kanji") or "")
+        if latin and (not kanji):
+            split_name = split_name_fields({"name": latin, "romaji": "", "japanese": ""}, latin)
+            latin = clean_text(split_name.get("latin") or latin)
+            kanji = clean_text(split_name.get("kanji") or "")
+    elif isinstance(record.get("name"), dict):
+        legacy_name = record.get("name")
+        latin = clean_text(legacy_name.get("latin") or "")
+        kanji = clean_text(legacy_name.get("kanji") or "")
     else:
-        fallback_title = clean_text(str(name_value or record.get("slug", "")))
-        name = split_name_fields(
+        split_name = split_name_fields(
             {
-                "name": fallback_title,
+                "name": str(record.get("name") or ""),
                 "romaji": "",
                 "japanese": str(record.get("japaneseName") or infobox.get("japanese") or ""),
             },
-            fallback_title,
+            clean_text(str(record.get("name") or name_from_slug(slug) or slug)),
         )
+        latin = clean_text(split_name.get("latin") or "")
+        kanji = clean_text(split_name.get("kanji") or "")
 
-    migrated = {
-        "slug": record.get("slug", ""),
-        "name": name,
-        "poste": clean_text(str(record.get("poste") or record.get("position") or infobox.get("position") or "")),
-        "equipes": record.get("equipes") if isinstance(record.get("equipes"), list) else (record.get("teams") if isinstance(record.get("teams"), list) else split_list_field(str(record.get("teams") or infobox.get("team") or ""))),
-        "anciennes_equipes": record.get("anciennes_equipes") if isinstance(record.get("anciennes_equipes"), list) else (record.get("former_team") if isinstance(record.get("former_team"), list) else split_list_field(str(infobox.get("former_team") or ""))),
-        "nationalite": clean_text(str(record.get("nationalite") or record.get("nationality") or infobox.get("nationality") or "")),
+    if not latin:
+        latin = clean_text(name_from_slug(slug) or slug)
+    if not kanji:
+        kanji = clean_text(str(record.get("japaneseName") or infobox.get("japanese") or ""))
+
+    name_split = {"latin": latin, "kanji": kanji}
+
+    teams_sources: list[str] = []
+    for key in ("equipes", "teams", "anciennes_equipes", "former_team"):
+        value = record.get(key)
+        if isinstance(value, list):
+            teams_sources.extend(str(item) for item in value)
+    if not teams_sources:
+        teams_sources = split_list_field(str(infobox.get("team") or "")) + split_list_field(str(infobox.get("former_team") or ""))
+
+    teams = [team for i, team in enumerate(teams_sources) if clean_text(team) and team not in teams_sources[:i]]
+
+    popularity_raw = record.get("popularity") if record.get("popularity") is not None else record.get("popularityRank")
+    try:
+        popularity = int(popularity_raw) if popularity_raw is not None else 999
+    except (TypeError, ValueError):
+        popularity = 999
+
+    return {
+        "slug": slug,
+        "name": latin,
+        "japaneseName": kanji,
+        "nameSplit": name_split,
+        "position": clean_text(str(record.get("position") or record.get("poste") or infobox.get("position") or "")),
+        "teams": [clean_text(team) for team in teams if clean_text(team)],
+        "nationality": clean_text(str(record.get("nationality") or record.get("nationalite") or infobox.get("nationality") or "")),
         "physical": record.get("physical") if isinstance(record.get("physical"), dict) else parse_physical(infobox),
         "description": translate_description_to_french(str(record.get("description") or "")),
         "image": str(record.get("image") or ""),
-        "popularity": int(record.get("popularity") or record.get("popularityRank") or 999),
+        "infobox": infobox if infobox else {key: "" for key in INFOBOX_FIELDS},
+        "popularity": popularity,
+        "popularityRank": popularity,
     }
-
-    migrated["equipes"] = [team for i, team in enumerate(migrated["equipes"]) if team and team not in migrated["equipes"][:i]]
-    migrated["anciennes_equipes"] = [team for i, team in enumerate(migrated["anciennes_equipes"]) if team and team not in migrated["anciennes_equipes"][:i]]
-
-    return migrated
 
 
 def needs_refresh(existing: dict[str, Any]) -> bool:
-    keys_to_check = ("name", "poste", "nationalite", "image")
+    keys_to_check = ("name", "position", "nationality", "image")
     if any(is_empty(existing.get(key)) for key in keys_to_check):
         return True
 
@@ -586,7 +646,7 @@ def main() -> None:
         print(f"[added] {title}")
 
     records = list(records_by_slug.values())
-    records.sort(key=lambda item: str(item.get("name", {}).get("latin", item.get("slug", ""))).casefold())
+    records.sort(key=lambda item: str(item.get("name") or item.get("nameSplit", {}).get("latin") or item.get("slug", "")).casefold())
 
     with OUTPUT_JSON.open("w", encoding="utf-8") as handle:
         json.dump(records, handle, ensure_ascii=False, indent=2)
