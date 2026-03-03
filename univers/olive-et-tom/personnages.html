@@ -9,6 +9,53 @@
     />
     <title>Olive et Tom · Personnages</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <style>
+      .universe-header {
+        padding-block: 0.35rem;
+      }
+
+      .universe-header .container {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+
+      .universe-header h1 {
+        margin: 0;
+        font-size: clamp(1rem, 2.5vw, 1.25rem);
+        line-height: 1.15;
+      }
+
+      .universe-header .home-link,
+      .universe-header .universe-subtitle {
+        margin: 0;
+      }
+
+      .universe-header .universe-subtitle {
+        font-size: 0.8rem;
+        line-height: 1.1;
+        opacity: 0.9;
+      }
+
+      @media (max-width: 640px) {
+        .universe-header {
+          padding-block: 0.3rem;
+        }
+
+        .universe-header .container {
+          gap: 0.3rem;
+          flex-wrap: wrap;
+        }
+
+        .universe-header h1 {
+          font-size: 1rem;
+        }
+
+        .universe-header .universe-subtitle {
+          font-size: 0.75rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <header class="site-header universe-header">
