@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fiche détaillée d'un personnage d'Olive et Tom." />
+    <title>Olive et Tom · Personnage</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <style>
+      .character-detail {
+        padding: 1rem 0 3rem;
+      }
+
+      .character-detail-shell {
+        margin-top: 1rem;
+        background: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(6px);
+        overflow: hidden;
+      }
+
+      .character-detail-loading,
+      .character-detail-not-found {
+        padding: 2rem 1.2rem;
+        text-align: center;
+      }
+
+      .character-detail-loading p,
+      .character-detail-not-found p {
+        margin: 0;
+        font-size: 1rem;
+        color: var(--muted-color);
+      }
+
+      .character-detail-not-found h2 {
+        margin: 0 0 0.55rem;
+        font-size: 1.35rem;
+      }
+
+      .character-detail-content {
+        display: grid;
+        gap: 1rem;
+        padding: 1rem;
+      }
+
+      .character-detail-media {
+        position: relative;
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        background: #eff3ff;
+      }
+
+      .character-detail-image {
+        width: 100%;
+        display: block;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+      }
+
+      .character-detail-main h2 {
+        margin: 0;
+        font-size: clamp(1.45rem, 3vw, 2rem);
+      }
+
+      .character-detail-jp {
+        margin: 0.45rem 0 0;
+        color: var(--muted-color);
+      }
+
+      .character-detail-badges {
+        margin-top: 0.75rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .character-badge {
+        display: inline-flex;
+        align-items: center;
+        border-radius: 999px;
+        background: #e0eafe;
+        color: #1e3a8a;
+        font-weight: 700;
+        font-size: 0.84rem;
+        padding: 0.28rem 0.7rem;
+      }
+
+      .character-detail-block {
+        margin-top: 1rem;
+      }
+
+      .character-detail-block h3 {
+        margin: 0 0 0.5rem;
+        font-size: 1rem;
+      }
+
+      .character-detail-block p,
+      .character-detail-block ul {
+        margin: 0;
+        color: var(--muted-color);
+        line-height: 1.6;
+      }
+
+      .character-detail-block ul {
+        padding-left: 1.1rem;
+      }
+
+      .character-infobox {
+        margin-top: 0.6rem;
+        border-top: 1px solid #dbe3f4;
+        padding-top: 1rem;
+      }
+
+      .character-infobox h3 {
+        margin: 0 0 0.75rem;
+        font-size: 1rem;
+      }
+
+      .character-infobox-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+      }
+
+      .infobox-row {
+        display: grid;
+        grid-template-columns: minmax(120px, 34%) 1fr;
+        gap: 0.55rem;
+        align-items: start;
+        background: #f8faff;
+        border: 1px solid #e1e8f8;
+        border-radius: 10px;
+        padding: 0.55rem 0.65rem;
+      }
+
+      .infobox-key {
+        color: #1f2937;
+        font-weight: 700;
+        font-size: 0.88rem;
+      }
+
+      .infobox-value {
+        color: var(--muted-color);
+        font-size: 0.9rem;
+        line-height: 1.45;
+        word-break: break-word;
+      }
+
+      @media (min-width: 860px) {
+        .character-detail-content {
+          grid-template-columns: minmax(280px, 360px) 1fr;
+          gap: 1.15rem;
+          padding: 1.15rem;
+        }
+
+        .character-infobox-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header universe-header">
+      <div class="container">
+        <a class="home-link" href="/">Accueil</a>
+        <h1>Olive et Tom</h1>
+        <p class="universe-subtitle">Personnage</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="character-detail" aria-labelledby="character-detail-title">
+        <div class="container">
+          <a class="back-link" href="/univers/olive-et-tom/personnages.html">← Retour à la liste</a>
+          <h2 id="character-detail-title" class="visually-hidden">Détail du personnage</h2>
+
+          <article id="character-detail-shell" class="character-detail-shell" aria-live="polite">
+            <div id="loading-state" class="character-detail-loading">
+              <p>Chargement du personnage…</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const shell = document.querySelector("#character-detail-shell");
+      const loadingState = document.querySelector("#loading-state");
+
+      const infoboxLabels = {
+        name: "Nom",
+        japanese: "Nom japonais",
+        romaji: "Romaji",
+        alias: "Alias",
+        gender: "Genre",
+        birthday: "Anniversaire",
+        age: "Âge",
+        height: "Taille",
+        weight: "Poids",
+        blood: "Groupe sanguin",
+        position: "Poste",
+        team: "Équipe actuelle",
+        former_team: "Ancienne équipe",
+        nationality: "Nationalité",
+        status: "Statut",
+        occupation: "Occupation"
+      };
+
+      function safeText(value) {
+        return String(value || "").trim();
+      }
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+      }
+
+      function makePlaceholder(name) {
+        const initial = safeText(name).charAt(0).toUpperCase() || "?";
+        const svg = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="Portrait indisponible de ${escapeHtml(name)}">
+            <defs>
+              <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#16233f"/>
+                <stop offset="100%" stop-color="#345da8"/>
+              </linearGradient>
+            </defs>
+            <rect x="14" y="14" width="612" height="612" rx="72" fill="url(#bg)"/>
+            <text x="320" y="332" text-anchor="middle" dominant-baseline="middle"
+              font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-size="196" font-weight="800"
+              fill="#f5f7ff">${initial}</text>
+          </svg>`;
+
+        return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;
+      }
+
+      function renderNotFound() {
+        loadingState.hidden = true;
+        shell.innerHTML = `
+          <div class="character-detail-not-found">
+            <h2>Personnage introuvable</h2>
+            <p>Le personnage demandé n'existe pas ou n'est pas disponible.</p>
+          </div>
+        `;
+      }
+
+      function getTeams(character) {
+        const teams = Array.isArray(character.teams)
+          ? character.teams.map(safeText).filter(Boolean)
+          : [];
+
+        const infobox = character.infobox && typeof character.infobox === "object"
+          ? character.infobox
+          : {};
+
+        const currentTeam = safeText(infobox.team);
+        const formerTeam = safeText(infobox.former_team);
+
+        if (currentTeam && !teams.includes(currentTeam)) {
+          teams.push(currentTeam);
+        }
+
+        if (formerTeam && !teams.includes(formerTeam)) {
+          teams.push(formerTeam);
+        }
+
+        return { teams, currentTeam, formerTeam };
+      }
+
+      function renderCharacter(character) {
+        loadingState.hidden = true;
+
+        const name = safeText(character.name) || "Personnage";
+        const japaneseName = safeText(character.japaneseName);
+        const position = safeText(character.position);
+        const nationality = safeText(character.nationality);
+        const description = safeText(character.description);
+        const infobox = character.infobox && typeof character.infobox === "object" ? character.infobox : {};
+        const { teams, currentTeam, formerTeam } = getTeams(character);
+
+        const imageSrc = safeText(character.image) || makePlaceholder(name);
+        const infoboxRows = Object.entries(infoboxLabels)
+          .map(([key, label]) => {
+            const value = safeText(infobox[key]);
+            if (!value) {
+              return "";
+            }
+
+            return `
+              <div class="infobox-row">
+                <div class="infobox-key">${escapeHtml(label)}</div>
+                <div class="infobox-value">${escapeHtml(value)}</div>
+              </div>
+            `;
+          })
+          .filter(Boolean)
+          .join("");
+
+        const teamsMarkup = teams.length
+          ? `<ul>${teams.map((team) => `<li>${escapeHtml(team)}</li>`).join("")}</ul>`
+          : "<p>Non renseigné</p>";
+
+        shell.innerHTML = `
+          <div class="character-detail-content">
+            <figure class="character-detail-media">
+              <img class="character-detail-image" src="${escapeHtml(imageSrc)}" alt="Portrait de ${escapeHtml(name)}" />
+            </figure>
+
+            <div class="character-detail-main">
+              <h2>${escapeHtml(name)}</h2>
+              ${japaneseName ? `<p class="character-detail-jp">${escapeHtml(japaneseName)}</p>` : ""}
+
+              <div class="character-detail-badges">
+                ${position ? `<span class="character-badge">${escapeHtml(position)}</span>` : ""}
+                ${nationality ? `<span class="character-badge">${escapeHtml(nationality)}</span>` : ""}
+              </div>
+
+              <div class="character-detail-block">
+                <h3>Équipes (actuelle + anciennes)</h3>
+                ${teamsMarkup}
+              </div>
+
+              <div class="character-detail-block">
+                <h3>Description</h3>
+                <p>${description ? escapeHtml(description) : "Aucune description disponible."}</p>
+              </div>
+
+              <section class="character-infobox" aria-label="Infobox complète">
+                <h3>Informations complémentaires</h3>
+                <div class="character-infobox-grid">
+                  ${infoboxRows || '<p class="infobox-value">Aucune information supplémentaire disponible.</p>'}
+                  ${currentTeam && !safeText(infobox.team) ? `<div class="infobox-row"><div class="infobox-key">Équipe actuelle</div><div class="infobox-value">${escapeHtml(currentTeam)}</div></div>` : ""}
+                  ${formerTeam && !safeText(infobox.former_team) ? `<div class="infobox-row"><div class="infobox-key">Ancienne équipe</div><div class="infobox-value">${escapeHtml(formerTeam)}</div></div>` : ""}
+                </div>
+              </section>
+            </div>
+          </div>
+        `;
+
+        document.title = `Olive et Tom · ${name}`;
+
+        const renderedImage = shell.querySelector(".character-detail-image");
+        if (renderedImage) {
+          renderedImage.addEventListener("error", () => {
+            renderedImage.src = makePlaceholder(name);
+          }, { once: true });
+        }
+      }
+
+      async function init() {
+        const params = new URLSearchParams(window.location.search);
+        const slug = safeText(params.get("slug"));
+
+        if (!slug) {
+          renderNotFound();
+          return;
+        }
+
+        try {
+          const response = await fetch("/assets/data/personnages.json");
+
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+
+          const data = await response.json();
+          const characters = Array.isArray(data) ? data : [];
+          const character = characters.find((entry) => safeText(entry.slug) === slug);
+
+          if (!character) {
+            renderNotFound();
+            return;
+          }
+
+          renderCharacter(character);
+        } catch (error) {
+          console.error("Impossible de charger le personnage:", error);
+          renderNotFound();
+        }
+      }
+
+      init();
+    </script>
+  </body>
+</html>
