@@ -213,6 +213,11 @@ function normalizeCharacter(character) {
     normalizedNationality,
     flag: FLAGS[normalizedNationality] || "",
     searchableText,
+    popularity: Number.isFinite(Number(character.popularity))
+      ? Number(character.popularity)
+      : Number.isFinite(Number(character.popularityRank))
+      ? -Number(character.popularityRank)
+      : 0,
     element: null
   };
 }
@@ -355,15 +360,21 @@ function renderCharacters(data) {
   applyFilters(data);
 }
 
-function sortCharacters(type) {
+function sortCharacters(mode) {
+  console.log("Sorting mode:", mode);
+
   const sortedCharacters = [...charactersData].sort((a, b) => {
-    if (type === "name") {
+    if (mode === "az") {
       return a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
     }
 
-    const aRank = Number.isFinite(Number(a.popularityRank)) ? Number(a.popularityRank) : 999;
-    const bRank = Number.isFinite(Number(b.popularityRank)) ? Number(b.popularityRank) : 999;
-    return aRank - bRank;
+    if (mode === "za") {
+      return b.name.localeCompare(a.name, "fr", { sensitivity: "base" });
+    }
+
+    const aPopularity = Number.isFinite(Number(a.popularity)) ? Number(a.popularity) : 0;
+    const bPopularity = Number.isFinite(Number(b.popularity)) ? Number(b.popularity) : 0;
+    return bPopularity - aPopularity;
   });
 
   renderCharacters(sortedCharacters);
@@ -384,7 +395,7 @@ async function initCharacters() {
     const data = await response.json();
     charactersData = Array.isArray(data)
       ? data
-          .map((character) => ({ ...normalizeCharacter(character), popularityRank: character.popularityRank }))
+          .map((character) => normalizeCharacter(character))
           .filter((character) => character.slug && character.name)
       : [];
 
@@ -395,11 +406,14 @@ async function initCharacters() {
     countryFilter.addEventListener("change", () => applyFilters());
     searchInput.addEventListener("input", debouncedApplyFilters);
     resetFiltersButton.addEventListener("click", () => resetFilters());
-    sortSelect?.addEventListener("change", (e) => {
-      sortCharacters(e.target.value);
-    });
+    if (sortSelect) {
+      sortSelect.value = "popularity";
+      sortSelect.addEventListener("change", (event) => {
+        sortCharacters(event.target.value);
+      });
+    }
 
-    sortCharacters("popularity");
+    sortCharacters(sortSelect?.value || "popularity");
   } catch (error) {
     console.error("Impossible de charger les personnages:", error);
   }
