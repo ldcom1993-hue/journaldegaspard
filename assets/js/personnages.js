@@ -6,6 +6,10 @@ const searchInput = document.querySelector("#filter-search");
 const resultsCount = document.querySelector("#results-count");
 const emptyState = document.querySelector("#empty-state");
 const resetFiltersButton = document.querySelector("#reset-filters");
+const sortSelect = document.querySelector("#sort-select");
+
+let charactersData = [];
+let renderedCharacters = [];
 
 const JAPANESE_NAME_ALLOWED_PREFIXES = [
   "Ryo",
@@ -284,7 +288,7 @@ function debounce(callback, delay) {
   };
 }
 
-function applyFilters(characters) {
+function applyFilters(characters = renderedCharacters) {
   const selectedPosition = positionFilter.value;
   const selectedCountry = countryFilter.value;
   const query = toComparable(searchInput.value);
@@ -311,22 +315,21 @@ function applyFilters(characters) {
   emptyState.hidden = visibleCount !== 0;
 }
 
-function resetFilters(characters) {
+function resetFilters() {
   positionFilter.value = "";
   countryFilter.value = "";
   searchInput.value = "";
-  applyFilters(characters);
+  applyFilters();
   searchInput.focus();
 }
 
-function renderCharacters(characters) {
-  const sortedCharacters = [...characters].sort((a, b) =>
-    a.name.localeCompare(b.name, "fr", { sensitivity: "base" })
-  );
+function renderCharacters(data) {
+  renderedCharacters = data;
+  grid.textContent = "";
 
   const fragment = document.createDocumentFragment();
 
-  sortedCharacters.forEach((character, index) => {
+  data.forEach((character, index) => {
     const card = createCard(character, index);
     character.element = card;
     fragment.appendChild(card);
@@ -335,20 +338,26 @@ function renderCharacters(characters) {
   grid.appendChild(fragment);
 
   requestAnimationFrame(() => {
-    sortedCharacters.forEach((character) => {
+    data.forEach((character) => {
       character.element.classList.add("is-ready");
     });
   });
 
-  populateFilterOptions(sortedCharacters);
+  applyFilters(data);
+}
 
-  const debouncedApplyFilters = debounce(() => applyFilters(sortedCharacters), 150);
-  positionFilter.addEventListener("change", () => applyFilters(sortedCharacters));
-  countryFilter.addEventListener("change", () => applyFilters(sortedCharacters));
-  searchInput.addEventListener("input", debouncedApplyFilters);
-  resetFiltersButton.addEventListener("click", () => resetFilters(sortedCharacters));
+function sortCharacters(type) {
+  const sortedCharacters = [...charactersData].sort((a, b) => {
+    if (type === "name") {
+      return a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
+    }
 
-  applyFilters(sortedCharacters);
+    const aRank = Number.isFinite(Number(a.popularityRank)) ? Number(a.popularityRank) : 999;
+    const bRank = Number.isFinite(Number(b.popularityRank)) ? Number(b.popularityRank) : 999;
+    return aRank - bRank;
+  });
+
+  renderCharacters(sortedCharacters);
 }
 
 async function initCharacters() {
@@ -364,11 +373,24 @@ async function initCharacters() {
     }
 
     const data = await response.json();
-    const characters = Array.isArray(data)
-      ? data.map(normalizeCharacter).filter((character) => character.slug && character.name)
+    charactersData = Array.isArray(data)
+      ? data
+          .map((character) => ({ ...normalizeCharacter(character), popularityRank: character.popularityRank }))
+          .filter((character) => character.slug && character.name)
       : [];
 
-    renderCharacters(characters);
+    populateFilterOptions(charactersData);
+
+    const debouncedApplyFilters = debounce(() => applyFilters(), 150);
+    positionFilter.addEventListener("change", () => applyFilters());
+    countryFilter.addEventListener("change", () => applyFilters());
+    searchInput.addEventListener("input", debouncedApplyFilters);
+    resetFiltersButton.addEventListener("click", () => resetFilters());
+    sortSelect?.addEventListener("change", (e) => {
+      sortCharacters(e.target.value);
+    });
+
+    sortCharacters("popularity");
   } catch (error) {
     console.error("Impossible de charger les personnages:", error);
   }
