@@ -19,8 +19,8 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Run sync script
-        run: python sync_personnages.py
+   #   - name: Run sync script
+   #     run: python sync_personnages.py
 
       - name: Commit and push changes
         run: |
