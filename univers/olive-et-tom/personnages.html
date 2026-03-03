@@ -11,44 +11,147 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <style>
       .universe-header {
-        padding-block: 0.35rem;
+        padding-block: 0.2rem;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.28);
       }
 
       .universe-header .container {
+        position: relative;
         display: flex;
         align-items: center;
-        gap: 0.4rem;
+        justify-content: space-between;
+        gap: 0.5rem;
+        min-height: 2rem;
       }
 
       .universe-header h1 {
         margin: 0;
-        font-size: clamp(1rem, 2.5vw, 1.25rem);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: clamp(1rem, 2.3vw, 1.2rem);
         line-height: 1.15;
+        text-align: center;
+        pointer-events: none;
+        white-space: nowrap;
       }
 
       .universe-header .home-link,
       .universe-header .universe-subtitle {
         margin: 0;
+        font-size: 0.85rem;
+        line-height: 1;
+        white-space: nowrap;
       }
 
       .universe-header .universe-subtitle {
-        font-size: 0.8rem;
-        line-height: 1.1;
         opacity: 0.9;
+      }
+
+      .characters-toolbar {
+        margin-top: 0.75rem;
+        padding: 0.55rem 0.65rem;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 8px 18px rgba(31, 41, 55, 0.06);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+      .characters-filters {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+      .filter-group {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        font-size: 0.8rem;
+      }
+
+      .filter-group span {
+        font-size: 0.74rem;
+        white-space: nowrap;
+      }
+
+      .filter-group select,
+      .filter-group input {
+        width: auto;
+        min-height: 2rem;
+        padding: 0.35rem 0.55rem;
+        border-radius: 10px;
+        font-size: 0.84rem;
+      }
+
+      .filter-group select {
+        min-width: 9rem;
+      }
+
+      .filter-group-search input {
+        min-width: 12rem;
+      }
+
+      .results-count {
+        margin: 0;
+        font-size: 0.82rem;
       }
 
       @media (max-width: 640px) {
         .universe-header {
-          padding-block: 0.3rem;
+          padding-block: 0.35rem;
         }
 
         .universe-header .container {
-          gap: 0.3rem;
+          gap: 0.25rem 0.5rem;
           flex-wrap: wrap;
+          justify-content: center;
         }
 
         .universe-header h1 {
+          position: static;
+          transform: none;
+          width: 100%;
           font-size: 1rem;
+          order: -1;
+        }
+
+        .universe-header .home-link {
+          flex: 1;
+        }
+
+        .universe-header .universe-subtitle {
+          flex: 1;
+          text-align: right;
+        }
+
+        .characters-toolbar {
+          align-items: flex-start;
+          padding: 0.5rem 0.55rem;
+        }
+
+        .characters-filters {
+          width: 100%;
+          gap: 0.45rem;
+        }
+
+        .filter-group {
+          flex: 1 1 100%;
+        }
+
+        .filter-group select,
+        .filter-group input {
+          min-width: 0;
+          width: 100%;
+        }
+
+        .results-count {
+          width: 100%;
         }
 
         .universe-header .universe-subtitle {
