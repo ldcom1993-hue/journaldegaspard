@@ -5,13 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Olive et Tom</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <style>
+      .universe-header {
+        padding-block: 0.2rem;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.28);
+      }
+
+      .universe-header .container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+        min-height: 2rem;
+      }
+
+      .universe-header h1 {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: clamp(1rem, 2.3vw, 1.2rem);
+        line-height: 1.15;
+        text-align: center;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+
+      .universe-header .home-link,
+      .universe-header .universe-subtitle {
+        margin: 0;
+        font-size: 0.85rem;
+        line-height: 1;
+        white-space: nowrap;
+      }
+
+      .universe-header .universe-subtitle {
+        opacity: 0.9;
+        text-align: right;
+      }
+
+      @media (max-width: 640px) {
+        .universe-header {
+          padding-block: 0.35rem;
+        }
+
+        .universe-header .container {
+          gap: 0.25rem 0.5rem;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .universe-header h1 {
+          position: static;
+          transform: none;
+          width: 100%;
+          font-size: 1rem;
+          order: -1;
+        }
+
+        .universe-header .home-link {
+          flex: 1;
+        }
+
+        .universe-header .universe-subtitle {
+          flex: 1;
+          font-size: 0.75rem;
+        }
+      }
+    </style>
   </head>
   <body>
     <header class="site-header universe-header">
       <div class="container">
-        <a href="/" class="back-link">← Retour à l'accueil</a>
+        <a class="home-link" href="/">Accueil</a>
         <h1>Olive et Tom</h1>
-        <p class="universe-subtitle">Explorez les différentes sections de cet univers.</p>
+        <p class="universe-subtitle">Univers</p>
       </div>
     </header>
 
