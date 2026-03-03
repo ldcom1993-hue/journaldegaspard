@@ -1,12 +1,16 @@
 [
   {
     "slug": "adieu",
-    "popularityRank": 999,
     "name": "Adieu",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Adieu",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/adieu.png",
     "infobox": {
@@ -26,16 +30,22 @@
       "nationality": "",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "aguin",
-    "popularityRank": 999,
     "name": "Aguin",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Aguin",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/aguin.png",
     "infobox": {
@@ -55,16 +65,22 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "akira-ichinose",
-    "popularityRank": 999,
-    "name": "Akira Ichinose一ノ瀬 明",
-    "japaneseName": "",
+    "name": "Akira Ichinose",
+    "japaneseName": "一ノ瀬 明",
+    "nameSplit": {
+      "latin": "Akira Ichinose",
+      "kanji": "一ノ瀬 明"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/akira-ichinose.png",
     "infobox": {
@@ -84,16 +100,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "alan-pascal",
-    "popularityRank": 37,
     "name": "Alan Pascal",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Alan Pascal",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {
+      "JBC": {
+        "height_cm": 165,
+        "weight_kg": 53
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/alan-pascal.png",
     "infobox": {
@@ -113,16 +140,27 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 37,
+    "popularityRank": 37
   },
   {
     "slug": "alberto",
-    "popularityRank": 999,
     "name": "Alberto",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Alberto",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {
+      "BWY": {
+        "height_cm": 178,
+        "weight_kg": 70
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/alberto.png",
     "infobox": {
@@ -142,16 +180,27 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "alvez",
-    "popularityRank": 999,
     "name": "Alvez",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Alvez",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {
+      "BWY": {
+        "height_cm": 172,
+        "weight_kg": 63
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/alvez.png",
     "infobox": {
@@ -171,16 +220,27 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": "Lucha libre pro wrestler"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "amoro",
-    "popularityRank": 999,
-    "name": "Amoroアモロ",
-    "japaneseName": "",
+    "name": "Amoro",
+    "japaneseName": "アモロ",
+    "nameSplit": {
+      "latin": "Amoro",
+      "kanji": "アモロ"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "French",
+    "physical": {
+      "JBC": {
+        "height_cm": 172,
+        "weight_kg": 65
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/amoro.png",
     "infobox": {
@@ -200,16 +260,22 @@
       "nationality": "French",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "atsushi-takai",
-    "popularityRank": 999,
     "name": "Atsushi Takai",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Atsushi Takai",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/atsushi-takai.png",
     "infobox": {
@@ -229,16 +295,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "azumi-hayakawa",
-    "popularityRank": 999,
-    "name": "Azumi Hayakawa早川 あづみ",
-    "japaneseName": "",
+    "name": "Azumi Hayakawa",
+    "japaneseName": "早川 あづみ",
+    "nameSplit": {
+      "latin": "Azumi Hayakawa",
+      "kanji": "早川 あづみ"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/azumi-hayakawa.png",
     "infobox": {
@@ -258,16 +330,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Exchange student; Supporter of All Japan Jr. Youth"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "babayan",
-    "popularityRank": 999,
     "name": "Babayan",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Babayan",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Nigerian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/babayan.png",
     "infobox": {
@@ -287,16 +365,22 @@
       "nationality": "Nigerian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "barsole-bara",
-    "popularityRank": 999,
-    "name": "Barsole Baraバルソレ・バーラ",
-    "japaneseName": "",
+    "name": "Barsole Bara",
+    "japaneseName": "バルソレ・バーラ",
+    "nameSplit": {
+      "latin": "Barsole Bara",
+      "kanji": "バルソレ・バーラ"
+    },
     "position": "",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/barsole-bara.png",
     "infobox": {
@@ -316,16 +400,26 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": "Club owner"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "bobang",
-    "popularityRank": 999,
-    "name": "Bobangボバング",
-    "japaneseName": "",
+    "name": "Bobang",
+    "japaneseName": "ボバング",
+    "nameSplit": {
+      "latin": "Bobang",
+      "kanji": "ボバング"
+    },
     "position": "Not fixed",
     "teams": [],
     "nationality": "Nigerian",
+    "physical": {
+      "G23": {
+        "height_cm": 190
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/bobang.png",
     "infobox": {
@@ -345,16 +439,22 @@
       "nationality": "Nigerian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "bollack",
-    "popularityRank": 999,
     "name": "Bollack",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Bollack",
+      "kanji": ""
+    },
     "position": "Wide midfielder",
     "teams": [],
     "nationality": "German",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/bollack.png",
     "infobox": {
@@ -374,16 +474,27 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "bossi",
-    "popularityRank": 999,
     "name": "Bossi",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Bossi",
+      "kanji": ""
+    },
     "position": "Forward, attacking midfielder",
     "teams": [],
     "nationality": "French",
+    "physical": {
+      "JBC": {
+        "height_cm": 167,
+        "weight_kg": 57
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/bossi.png",
     "infobox": {
@@ -403,16 +514,22 @@
       "nationality": "French",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "brescias",
-    "popularityRank": 999,
     "name": "Brescias",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Brescias",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Australian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/brescias.png",
     "infobox": {
@@ -432,16 +549,27 @@
       "nationality": "Australian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "brian-cruyfford",
-    "popularityRank": 18,
     "name": "Brian Cruyfford",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Brian Cruyfford",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {
+      "BWY": {
+        "height_cm": 174,
+        "weight_kg": 62
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/brian-cruyfford.png",
     "infobox": {
@@ -461,16 +589,27 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 18,
+    "popularityRank": 18
   },
   {
     "slug": "brolin",
-    "popularityRank": 999,
     "name": "Brolin",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Brolin",
+      "kanji": ""
+    },
     "position": "Centre back",
     "teams": [],
     "nationality": "Swedish",
+    "physical": {
+      "BWY": {
+        "height_cm": 181,
+        "weight_kg": 79
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/brolin.png",
     "infobox": {
@@ -490,16 +629,22 @@
       "nationality": "Swedish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "callusias",
-    "popularityRank": 999,
-    "name": "Callusiasカリューシャス",
-    "japaneseName": "",
+    "name": "Callusias",
+    "japaneseName": "カリューシャス",
+    "nameSplit": {
+      "latin": "Callusias",
+      "kanji": "カリューシャス"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/callusias.png",
     "infobox": {
@@ -519,16 +664,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "cario",
-    "popularityRank": 999,
     "name": "Cario",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Cario",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/cario.png",
     "infobox": {
@@ -548,16 +699,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "carlo-monetti",
-    "popularityRank": 999,
-    "name": "Carlo Monettiカルロ・モネッティ",
-    "japaneseName": "",
+    "name": "Carlo Monetti",
+    "japaneseName": "カルロ・モネッティ",
+    "nameSplit": {
+      "latin": "Carlo Monetti",
+      "kanji": "カルロ・モネッティ"
+    },
     "position": "",
     "teams": [],
     "nationality": "Italian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/carlo-monetti.png",
     "infobox": {
@@ -577,45 +734,22 @@
       "nationality": "Italian",
       "status": "",
       "occupation": "Head coach"
-    }
-  },
-  {
-    "slug": "carlos-santana",
-    "popularityRank": 32,
-    "name": "Carlos Santana",
-    "japaneseName": "",
-    "position": "Forward",
-    "teams": [],
-    "nationality": "Brazilian",
-    "description": "",
-    "image": "/assets/images/olive-et-tom/carlos-santana.png",
-    "infobox": {
-      "name": "PAGENAMEカルロス・サンターナ",
-      "japanese": "",
-      "romaji": "",
-      "alias": "",
-      "gender": "",
-      "birthday": "May 1",
-      "age": "",
-      "height": "177cm (BWY)",
-      "weight": "67kg, 64kg (BWY)",
-      "blood": "",
-      "position": "Forward",
-      "team": "",
-      "former_team": "",
-      "nationality": "Brazilian",
-      "status": "",
-      "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "carlos-teacher",
-    "popularityRank": 999,
-    "name": "Carlosカルロス",
-    "japaneseName": "",
+    "name": "Carlos",
+    "japaneseName": "カルロス",
+    "nameSplit": {
+      "latin": "Carlos",
+      "kanji": "カルロス"
+    },
     "position": "",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/carlos-teacher.png",
     "infobox": {
@@ -635,16 +769,67 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": "Language teacher"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
+  },
+  {
+    "slug": "carlos-santana",
+    "name": "Carlos Santana",
+    "japaneseName": "",
+    "nameSplit": {
+      "latin": "Carlos Santana",
+      "kanji": ""
+    },
+    "position": "Forward",
+    "teams": [],
+    "nationality": "Brazilian",
+    "physical": {
+      "BWY": {
+        "height_cm": 177,
+        "weight_kg": 64
+      }
+    },
+    "description": "",
+    "image": "/assets/images/olive-et-tom/carlos-santana.png",
+    "infobox": {
+      "name": "PAGENAMEカルロス・サンターナ",
+      "japanese": "",
+      "romaji": "",
+      "alias": "",
+      "gender": "",
+      "birthday": "May 1",
+      "age": "",
+      "height": "177cm (BWY)",
+      "weight": "67kg, 64kg (BWY)",
+      "blood": "",
+      "position": "Forward",
+      "team": "",
+      "former_team": "",
+      "nationality": "Brazilian",
+      "status": "",
+      "occupation": ""
+    },
+    "popularity": 32,
+    "popularityRank": 32
   },
   {
     "slug": "cha-in-cheon",
-    "popularityRank": 999,
     "name": "Cha In Cheon",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Cha In Cheon",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "South Korean",
+    "physical": {
+      "BWY": {
+        "height_cm": 180,
+        "weight_kg": 74
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/cha-in-cheon.png",
     "infobox": {
@@ -664,16 +849,27 @@
       "nationality": "South Korean",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "chana-khongsawat",
-    "popularityRank": 999,
     "name": "Chana Khongsawat",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Chana Khongsawat",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Thai",
+    "physical": {
+      "BWY": {
+        "height_cm": 164,
+        "weight_kg": 53
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/chana-khongsawat.png",
     "infobox": {
@@ -693,16 +889,26 @@
       "nationality": "Thai",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "christiansen",
-    "popularityRank": 999,
     "name": "Christiansen",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Christiansen",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Danish",
+    "physical": {
+      "default": {
+        "height_cm": 1
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/christiansen.png",
     "infobox": {
@@ -722,16 +928,22 @@
       "nationality": "Danish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "daichi-ozora",
-    "popularityRank": 999,
     "name": "Daichi Ozora",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Daichi Ozora",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/daichi-ozora.png",
     "infobox": {
@@ -751,16 +963,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "daje",
-    "popularityRank": 999,
     "name": "Daje",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Daje",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Australian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/daje.png",
     "infobox": {
@@ -780,16 +998,22 @@
       "nationality": "Australian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "danil-silva",
-    "popularityRank": 999,
     "name": "Danil Silva",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Danil Silva",
+      "kanji": ""
+    },
     "position": "Defensive midfielder",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/danil-silva.png",
     "infobox": {
@@ -809,16 +1033,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "davi",
-    "popularityRank": 999,
     "name": "Davi",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Davi",
+      "kanji": ""
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/davi.png",
     "infobox": {
@@ -838,16 +1068,31 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "deuter-muller",
-    "popularityRank": 28,
-    "name": "Deuter Müllerデューター・ミューラー",
-    "japaneseName": "",
+    "name": "Deuter Müller",
+    "japaneseName": "デューター・ミューラー",
+    "nameSplit": {
+      "latin": "Deuter Müller",
+      "kanji": "デューター・ミューラー"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "German",
+    "physical": {
+      "BWY": {
+        "height_cm": 193,
+        "weight_kg": 98
+      },
+      "JBC": {
+        "height_cm": 193,
+        "weight_kg": 96
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/deuter-muller.png",
     "infobox": {
@@ -867,16 +1112,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 28,
+    "popularityRank": 28
   },
   {
     "slug": "diego-barbas",
-    "popularityRank": 999,
     "name": "Diego Barbas",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Diego Barbas",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/diego-barbas.png",
     "infobox": {
@@ -896,16 +1147,22 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": "CoachHead coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "dotor",
-    "popularityRank": 999,
     "name": "Dotor",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Dotor",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Croatian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/dotor.png",
     "infobox": {
@@ -925,16 +1182,22 @@
       "nationality": "Croatian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "east",
-    "popularityRank": 999,
     "name": "East",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "East",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Nigerian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/east.png",
     "infobox": {
@@ -954,16 +1217,27 @@
       "nationality": "Nigerian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "elle-sid-pierre",
-    "popularityRank": 999,
     "name": "Elle Sid Pierre",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Elle Sid Pierre",
+      "kanji": ""
+    },
     "position": "MidfielderDefender",
     "teams": [],
     "nationality": "French",
+    "physical": {
+      "JBC": {
+        "height_cm": 171,
+        "weight_kg": 62
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/elle-sid-pierre.png",
     "infobox": {
@@ -983,16 +1257,22 @@
       "nationality": "French",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "erik-van-saal",
-    "popularityRank": 999,
-    "name": "Erik van Saalエリック・ファンサール",
-    "japaneseName": "",
+    "name": "Erik van Saal",
+    "japaneseName": "エリック・ファンサール",
+    "nameSplit": {
+      "latin": "Erik van Saal",
+      "kanji": "エリック・ファンサール"
+    },
     "position": "",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/erik-van-saal.png",
     "infobox": {
@@ -1012,16 +1292,22 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": "Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "etaw",
-    "popularityRank": 999,
     "name": "Etaw",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Etaw",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Cameroonian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/etaw.png",
     "infobox": {
@@ -1041,16 +1327,22 @@
       "nationality": "Cameroonian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "fabio",
-    "popularityRank": 999,
     "name": "Fabio",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Fabio",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/fabio.png",
     "infobox": {
@@ -1070,16 +1362,27 @@
       "nationality": "",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "falan-khongsawat",
-    "popularityRank": 999,
     "name": "Falan Khongsawat",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Falan Khongsawat",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Thai",
+    "physical": {
+      "BWY": {
+        "height_cm": 171,
+        "weight_kg": 61
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/falan-khongsawat.png",
     "infobox": {
@@ -1099,16 +1402,27 @@
       "nationality": "Thai",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "fei-xiang",
-    "popularityRank": 38,
     "name": "Fei Xiang",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Fei Xiang",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Chinese",
+    "physical": {
+      "BWY": {
+        "height_cm": 203,
+        "weight_kg": 95
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/fei-xiang.png",
     "infobox": {
@@ -1128,16 +1442,22 @@
       "nationality": "Chinese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 38,
+    "popularityRank": 38
   },
   {
     "slug": "fernando-ruiz-blueno",
-    "popularityRank": 999,
-    "name": "Fernando Ruiz Bluenoフェルナンド・ルイス・ブルーノ",
-    "japaneseName": "",
+    "name": "Fernando Ruiz Blueno",
+    "japaneseName": "フェルナンド・ルイス・ブルーノ",
+    "nameSplit": {
+      "latin": "Fernando Ruiz Blueno",
+      "kanji": "フェルナンド・ルイス・ブルーノ"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/fernando-ruiz-blueno.png",
     "infobox": {
@@ -1157,16 +1477,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "fersio-torres",
-    "popularityRank": 999,
     "name": "Fersio Torres",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Fersio Torres",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/fersio-torres.png",
     "infobox": {
@@ -1186,16 +1512,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "flavio-conces",
-    "popularityRank": 999,
-    "name": "Flavio Concésフラビオ・コンセス",
-    "japaneseName": "",
+    "name": "Flavio Concés",
+    "japaneseName": "フラビオ・コンセス",
+    "nameSplit": {
+      "latin": "Flavio Concés",
+      "kanji": "フラビオ・コンセス"
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/flavio-conces.png",
     "infobox": {
@@ -1215,16 +1547,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "francesco-totti",
-    "popularityRank": 999,
     "name": "Francesco Totti",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Francesco Totti",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/francesco-totti.png",
     "infobox": {
@@ -1244,16 +1582,31 @@
       "nationality": "",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "franz-schester",
-    "popularityRank": 999,
     "name": "Franz Schester",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Franz Schester",
+      "kanji": ""
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "German",
+    "physical": {
+      "BWY": {
+        "height_cm": 175,
+        "weight_kg": 66
+      },
+      "JBC": {
+        "height_cm": 168,
+        "weight_kg": 54
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/franz-schester.png",
     "infobox": {
@@ -1273,16 +1626,27 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "fredericks",
-    "popularityRank": 999,
     "name": "Fredericks",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Fredericks",
+      "kanji": ""
+    },
     "position": "Winger",
     "teams": [],
     "nationality": "Swedish",
+    "physical": {
+      "BWY": {
+        "height_cm": 169,
+        "weight_kg": 58
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/fredericks.png",
     "infobox": {
@@ -1302,16 +1666,22 @@
       "nationality": "Swedish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "gakuto-igawa",
-    "popularityRank": 999,
     "name": "Gakuto Igawa",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Gakuto Igawa",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/gakuto-igawa.png",
     "infobox": {
@@ -1331,16 +1701,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "galtoni",
-    "popularityRank": 999,
     "name": "Galtoni",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Galtoni",
+      "kanji": ""
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {
+      "JBC": {
+        "height_cm": 171,
+        "weight_kg": 62
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/galtoni.png",
     "infobox": {
@@ -1360,16 +1741,27 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "galvan",
-    "popularityRank": 999,
-    "name": "Galvanガルバン",
-    "japaneseName": "",
+    "name": "Galvan",
+    "japaneseName": "ガルバン",
+    "nameSplit": {
+      "latin": "Galvan",
+      "kanji": "ガルバン"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {
+      "JBC": {
+        "height_cm": 183,
+        "weight_kg": 83
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/galvan.png",
     "infobox": {
@@ -1389,16 +1781,27 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "garcia",
-    "popularityRank": 999,
     "name": "Garcia",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Garcia",
+      "kanji": ""
+    },
     "position": "Defensive midfielder",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {
+      "BWY": {
+        "height_cm": 183,
+        "weight_kg": 81
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/garcia.png",
     "infobox": {
@@ -1418,16 +1821,22 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": "Lucha libre pro wrestler"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "gati",
-    "popularityRank": 999,
     "name": "Gati",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Gati",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/gati.png",
     "infobox": {
@@ -1447,16 +1856,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "gentile",
-    "popularityRank": 999,
     "name": "Gentile",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Gentile",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/gentile.png",
     "infobox": {
@@ -1476,16 +1891,35 @@
       "nationality": "",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "genzo-wakabayashi",
-    "popularityRank": 3,
-    "name": "Genzo Wakabayashi若林 源三",
-    "japaneseName": "",
+    "name": "Genzo Wakabayashi",
+    "japaneseName": "若林 源三",
+    "nameSplit": {
+      "latin": "Genzo Wakabayashi",
+      "kanji": "若林 源三"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 182,
+        "weight_kg": 74
+      },
+      "JBC": {
+        "height_cm": 170,
+        "weight_kg": 63
+      },
+      "KD": {
+        "height_cm": 161,
+        "weight_kg": 55
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/genzo-wakabayashi.png",
     "infobox": {
@@ -1505,16 +1939,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 3,
+    "popularityRank": 3
   },
   {
     "slug": "gert-keizer",
-    "popularityRank": 999,
     "name": "Gert Keizer",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Gert Keizer",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/gert-keizer.png",
     "infobox": {
@@ -1534,16 +1974,22 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "giis-coleman",
-    "popularityRank": 999,
     "name": "Giis Coleman",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Giis Coleman",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/giis-coleman.png",
     "infobox": {
@@ -1563,16 +2009,31 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": "Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "gino-hernandez",
-    "popularityRank": 16,
     "name": "Gino Hernandez",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Gino Hernandez",
+      "kanji": ""
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Italian",
+    "physical": {
+      "BWY": {
+        "height_cm": 180,
+        "weight_kg": 75
+      },
+      "JBC": {
+        "height_cm": 178,
+        "weight_kg": 72
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/gino-hernandez.png",
     "infobox": {
@@ -1592,16 +2053,22 @@
       "nationality": "Italian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 16,
+    "popularityRank": 16
   },
   {
     "slug": "gordoba-gonzales",
-    "popularityRank": 999,
-    "name": "Gordoba Gonzalesゴルドバ・ゴンザレス",
-    "japaneseName": "",
+    "name": "Gordoba Gonzales",
+    "japaneseName": "ゴルドバ・ゴンザレス",
+    "nameSplit": {
+      "latin": "Gordoba Gonzales",
+      "kanji": "ゴルドバ・ゴンザレス"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/gordoba-gonzales.png",
     "infobox": {
@@ -1621,16 +2088,26 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "gransen",
-    "popularityRank": 999,
     "name": "Gransen",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Gransen",
+      "kanji": ""
+    },
     "position": "Defender }}",
     "teams": [],
     "nationality": "Danish",
+    "physical": {
+      "default": {
+        "height_cm": 1
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/gransen.png",
     "infobox": {
@@ -1650,16 +2127,26 @@
       "nationality": "Danish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "haas",
-    "popularityRank": 999,
     "name": "Haas",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Haas",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Danish",
+    "physical": {
+      "G23": {
+        "height_cm": 193
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/haas.png",
     "infobox": {
@@ -1679,16 +2166,35 @@
       "nationality": "Danish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "hajime-taki",
-    "popularityRank": 50,
-    "name": "Hajime Taki滝 一",
-    "japaneseName": "",
+    "name": "Hajime Taki",
+    "japaneseName": "滝 一",
+    "nameSplit": {
+      "latin": "Hajime Taki",
+      "kanji": "滝 一"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 169,
+        "weight_kg": 59
+      },
+      "JBC": {
+        "height_cm": 163,
+        "weight_kg": 52
+      },
+      "KD": {
+        "height_cm": 143,
+        "weight_kg": 38
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/hajime-taki.png",
     "infobox": {
@@ -1708,16 +2214,39 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 50,
+    "popularityRank": 50
   },
   {
     "slug": "hanji-urabe",
-    "popularityRank": 44,
-    "name": "Hanji Urabe浦辺 反次",
-    "japaneseName": "",
+    "name": "Hanji Urabe",
+    "japaneseName": "浦辺 反次",
+    "nameSplit": {
+      "latin": "Hanji Urabe",
+      "kanji": "浦辺 反次"
+    },
     "position": "Defensive midfielder, Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "G23": {
+        "height_cm": 175,
+        "weight_kg": 65
+      },
+      "BWY": {
+        "height_cm": 173,
+        "weight_kg": 65
+      },
+      "JBC": {
+        "height_cm": 166,
+        "weight_kg": 54
+      },
+      "KD": {
+        "height_cm": 148,
+        "weight_kg": 42
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/hanji-urabe.png",
     "infobox": {
@@ -1737,16 +2266,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 44,
+    "popularityRank": 44
   },
   {
     "slug": "hans-dolman",
-    "popularityRank": 999,
     "name": "Hans Dolman",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Hans Dolman",
+      "kanji": ""
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {
+      "BWY": {
+        "height_cm": 178,
+        "weight_kg": 78
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/hans-dolman.png",
     "infobox": {
@@ -1766,16 +2306,22 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "harry-konwell",
-    "popularityRank": 999,
     "name": "Harry Konwell",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Harry Konwell",
+      "kanji": ""
+    },
     "position": "Attacking midfielder; Forward",
     "teams": [],
     "nationality": "Australian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/harry-konwell.png",
     "infobox": {
@@ -1795,16 +2341,22 @@
       "nationality": "Australian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "hayato-igawa",
-    "popularityRank": 999,
     "name": "Hayato Igawa",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Hayato Igawa",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/hayato-igawa.png",
     "infobox": {
@@ -1824,16 +2376,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "hermann-kaltz",
-    "popularityRank": 27,
     "name": "Hermann Kaltz",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Hermann Kaltz",
+      "kanji": ""
+    },
     "position": "Defensive midfielder; Defender",
     "teams": [],
     "nationality": "German",
+    "physical": {
+      "JBC": {
+        "height_cm": 162,
+        "weight_kg": 55
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/hermann-kaltz.png",
     "infobox": {
@@ -1853,16 +2416,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 27,
+    "popularityRank": 27
   },
   {
     "slug": "hideto-aoba",
-    "popularityRank": 999,
-    "name": "Hideto Aoba青葉 秀人",
-    "japaneseName": "",
+    "name": "Hideto Aoba",
+    "japaneseName": "青葉 秀人",
+    "nameSplit": {
+      "latin": "Hideto Aoba",
+      "kanji": "青葉 秀人"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/hideto-aoba.png",
     "infobox": {
@@ -1882,16 +2451,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "hidetoshi-nakata",
-    "popularityRank": 999,
-    "name": "Hidetoshi Nakata中田 英寿",
-    "japaneseName": "",
+    "name": "Hidetoshi Nakata",
+    "japaneseName": "中田 英寿",
+    "nameSplit": {
+      "latin": "Hidetoshi Nakata",
+      "kanji": "中田 英寿"
+    },
     "position": "midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/hidetoshi-nakata.png",
     "infobox": {
@@ -1911,16 +2486,35 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "hikaru-matsuyama",
-    "popularityRank": 6,
-    "name": "Hikaru Matsuyama松山 光",
-    "japaneseName": "",
+    "name": "Hikaru Matsuyama",
+    "japaneseName": "松山 光",
+    "nameSplit": {
+      "latin": "Hikaru Matsuyama",
+      "kanji": "松山 光"
+    },
     "position": "Defender, Attacking midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 174,
+        "weight_kg": 60
+      },
+      "JBC": {
+        "height_cm": 168,
+        "weight_kg": 57
+      },
+      "KD": {
+        "height_cm": 152,
+        "weight_kg": 44
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/hikaru-matsuyama.png",
     "infobox": {
@@ -1940,16 +2534,31 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 6,
+    "popularityRank": 6
   },
   {
     "slug": "hiroshi-jito",
-    "popularityRank": 22,
-    "name": "Hiroshi Jito次藤 洋",
-    "japaneseName": "",
+    "name": "Hiroshi Jito",
+    "japaneseName": "次藤 洋",
+    "nameSplit": {
+      "latin": "Hiroshi Jito",
+      "kanji": "次藤 洋"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 184,
+        "weight_kg": 83
+      },
+      "JBC": {
+        "height_cm": 180,
+        "weight_kg": 85
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/hiroshi-jito.png",
     "infobox": {
@@ -1969,16 +2578,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 22,
+    "popularityRank": 22
   },
   {
     "slug": "hugo-ramirez",
-    "popularityRank": 999,
     "name": "Hugo Ramirez",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Hugo Ramirez",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/hugo-ramirez.png",
     "infobox": {
@@ -1998,16 +2613,22 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ichiro-misaki",
-    "popularityRank": 999,
-    "name": "Ichiro Misaki岬 一郎",
-    "japaneseName": "",
+    "name": "Ichiro Misaki",
+    "japaneseName": "岬 一郎",
+    "nameSplit": {
+      "latin": "Ichiro Misaki",
+      "kanji": "岬 一郎"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/ichiro-misaki.png",
     "infobox": {
@@ -2027,16 +2648,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Painter"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ienista",
-    "popularityRank": 999,
     "name": "Ienista",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Ienista",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/ienista.png",
     "infobox": {
@@ -2056,16 +2683,27 @@
       "nationality": "",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "isamu-ichijo",
-    "popularityRank": 999,
-    "name": "Isamu Ichijo一条 勇",
-    "japaneseName": "",
+    "name": "Isamu Ichijo",
+    "japaneseName": "一条 勇",
+    "nameSplit": {
+      "latin": "Isamu Ichijo",
+      "kanji": "一条 勇"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "default": {
+        "height_cm": 172,
+        "weight_kg": 75
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/isamu-ichijo.png",
     "infobox": {
@@ -2085,16 +2723,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "iuliano-gozza",
-    "popularityRank": 999,
     "name": "Iuliano Gozza",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Iuliano Gozza",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Italian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/iuliano-gozza.png",
     "infobox": {
@@ -2114,16 +2758,22 @@
       "nationality": "Italian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ivan-inureta",
-    "popularityRank": 999,
     "name": "Ivan Inureta",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Ivan Inureta",
+      "kanji": ""
+    },
     "position": "Head coach",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/ivan-inureta.png",
     "infobox": {
@@ -2143,16 +2793,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ivangel",
-    "popularityRank": 999,
     "name": "Ivangel",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Ivangel",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/ivangel.png",
     "infobox": {
@@ -2172,16 +2828,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "jacks",
-    "popularityRank": 999,
     "name": "Jacks",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Jacks",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Nigerian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/jacks.png",
     "infobox": {
@@ -2201,16 +2863,22 @@
       "nationality": "Nigerian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "jengo",
-    "popularityRank": 999,
-    "name": "Jengo/Achowaジェンゴ/アチョワ",
-    "japaneseName": "",
+    "name": "Jengo/Achowa/",
+    "japaneseName": "ジェンゴ アチョワ",
+    "nameSplit": {
+      "latin": "Jengo/Achowa/",
+      "kanji": "ジェンゴ アチョワ"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Nigerian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/jengo.png",
     "infobox": {
@@ -2230,16 +2898,26 @@
       "nationality": "Nigerian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "jensen",
-    "popularityRank": 999,
     "name": "Jensen",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Jensen",
+      "kanji": ""
+    },
     "position": "Defender }}",
     "teams": [],
     "nationality": "Danish",
+    "physical": {
+      "default": {
+        "height_cm": 1
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/jensen.png",
     "infobox": {
@@ -2259,16 +2937,22 @@
       "nationality": "Danish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "jj-ochado",
-    "popularityRank": 999,
     "name": "Jj Ochado",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Jj Ochado",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Nigerian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/jj-ochado.png",
     "infobox": {
@@ -2288,16 +2972,22 @@
       "nationality": "Nigerian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "joao-aragones",
-    "popularityRank": 999,
-    "name": "Joao Aragonesジョアン・アラゴネス",
-    "japaneseName": "",
+    "name": "Joao Aragones",
+    "japaneseName": "ジョアン・アラゴネス",
+    "nameSplit": {
+      "latin": "Joao Aragones",
+      "kanji": "ジョアン・アラゴネス"
+    },
     "position": "",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/joao-aragones.png",
     "infobox": {
@@ -2317,16 +3007,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": "Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "johan-rensenbrink",
-    "popularityRank": 999,
-    "name": "Johan Rensenbrinkヨハン・レンセンブリンク",
-    "japaneseName": "",
+    "name": "Johan Rensenbrink",
+    "japaneseName": "ヨハン・レンセンブリンク",
+    "nameSplit": {
+      "latin": "Johan Rensenbrink",
+      "kanji": "ヨハン・レンセンブリンク"
+    },
     "position": "Forward, Attacking midfielder",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/johan-rensenbrink.png",
     "infobox": {
@@ -2346,16 +3042,22 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "josep-grandios",
-    "popularityRank": 999,
     "name": "Josep Grandios",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Josep Grandios",
+      "kanji": ""
+    },
     "position": "Defensive midfielder",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/josep-grandios.png",
     "infobox": {
@@ -2375,16 +3077,31 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "juan-diaz",
-    "popularityRank": 11,
     "name": "Juan Diaz",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Juan Diaz",
+      "kanji": ""
+    },
     "position": "Attacking midfielderForward",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {
+      "BWY": {
+        "height_cm": 167,
+        "weight_kg": 56
+      },
+      "JBC": {
+        "height_cm": 164,
+        "weight_kg": 51
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/juan-diaz.png",
     "infobox": {
@@ -2404,16 +3121,35 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 11,
+    "popularityRank": 11
   },
   {
     "slug": "jun-misugi",
-    "popularityRank": 5,
-    "name": "Jun Misugi三杉 淳",
-    "japaneseName": "",
+    "name": "Jun Misugi",
+    "japaneseName": "三杉 淳",
+    "nameSplit": {
+      "latin": "Jun Misugi",
+      "kanji": "三杉 淳"
+    },
     "position": "Defender; Midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 174,
+        "weight_kg": 59
+      },
+      "JBC": {
+        "height_cm": 169,
+        "weight_kg": 57
+      },
+      "KD": {
+        "height_cm": 152,
+        "weight_kg": 42
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/jun-misugi.png",
     "infobox": {
@@ -2433,16 +3169,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Coach (former); Medical student"
-    }
+    },
+    "popularity": 5,
+    "popularityRank": 5
   },
   {
     "slug": "kages",
-    "popularityRank": 999,
     "name": "Kages",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Kages",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Greek",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/kages.png",
     "infobox": {
@@ -2462,16 +3204,26 @@
       "nationality": "Greek",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "kaori-matsumoto",
-    "popularityRank": 999,
-    "name": "Kaori Matsumoto松本 香",
-    "japaneseName": "",
+    "name": "Kaori Matsumoto",
+    "japaneseName": "松本 香",
+    "nameSplit": {
+      "latin": "Kaori Matsumoto",
+      "kanji": "松本 香"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "default": {
+        "height_cm": 172
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/kaori-matsumoto.png",
     "infobox": {
@@ -2491,16 +3243,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Agent/PR; scout (former)"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "karl-heinz-schneider",
-    "popularityRank": 8,
     "name": "Karl Heinz Schneider",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Karl Heinz Schneider",
+      "kanji": ""
+    },
     "position": "Striker",
     "teams": [],
     "nationality": "German",
+    "physical": {
+      "JBC": {
+        "height_cm": 171,
+        "weight_kg": 58
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/karl-heinz-schneider.png",
     "infobox": {
@@ -2520,16 +3283,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 8,
+    "popularityRank": 8
   },
   {
     "slug": "katarina-karen",
-    "popularityRank": 999,
-    "name": "Katarina Karenカタリーナ・カレン",
-    "japaneseName": "",
+    "name": "Katarina Karen",
+    "japaneseName": "カタリーナ・カレン",
+    "nameSplit": {
+      "latin": "Katarina Karen",
+      "kanji": "カタリーナ・カレン"
+    },
     "position": "",
     "teams": [],
     "nationality": "Swedish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/katarina-karen.png",
     "infobox": {
@@ -2549,16 +3318,31 @@
       "nationality": "Swedish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "kazuki-sorimachi",
-    "popularityRank": 41,
-    "name": "Kazuki Sorimachi反町 一樹",
-    "japaneseName": "",
+    "name": "Kazuki Sorimachi",
+    "japaneseName": "反町 一樹",
+    "nameSplit": {
+      "latin": "Kazuki Sorimachi",
+      "kanji": "反町 一樹"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 175,
+        "weight_kg": 59
+      },
+      "JBC": {
+        "height_cm": 168,
+        "weight_kg": 56
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/kazuki-sorimachi.png",
     "infobox": {
@@ -2578,16 +3362,35 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 41,
+    "popularityRank": 41
   },
   {
     "slug": "kazumasa-oda",
-    "popularityRank": 999,
-    "name": "Kazumasa Oda小田 和正",
-    "japaneseName": "",
+    "name": "Kazumasa Oda",
+    "japaneseName": "小田 和正",
+    "nameSplit": {
+      "latin": "Kazumasa Oda",
+      "kanji": "小田 和正"
+    },
     "position": "Forward; Attacking midfielder (RS)",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 171,
+        "weight_kg": 61
+      },
+      "JBC": {
+        "height_cm": 163,
+        "weight_kg": 53
+      },
+      "KD": {
+        "height_cm": 149,
+        "weight_kg": 42
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/kazumasa-oda.png",
     "infobox": {
@@ -2607,16 +3410,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "kazuo-kodama",
-    "popularityRank": 999,
     "name": "Kazuo Kodama",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Kazuo Kodama",
+      "kanji": ""
+    },
     "position": "Forward (retired)",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/kazuo-kodama.png",
     "infobox": {
@@ -2636,16 +3445,35 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Kodama Restaurant manager/cook"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ken-wakashimazu",
-    "popularityRank": 7,
-    "name": "Ken Wakashimazu若島津 健",
-    "japaneseName": "",
+    "name": "Ken Wakashimazu",
+    "japaneseName": "若島津 健",
+    "nameSplit": {
+      "latin": "Ken Wakashimazu",
+      "kanji": "若島津 健"
+    },
     "position": "GoalkeeperForward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 183,
+        "weight_kg": 72
+      },
+      "JBC": {
+        "height_cm": 172,
+        "weight_kg": 60
+      },
+      "KD": {
+        "height_cm": 159,
+        "weight_kg": 50
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/ken-wakashimazu.png",
     "infobox": {
@@ -2665,16 +3493,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Karateka part-time instructor"
-    }
+    },
+    "popularity": 7,
+    "popularityRank": 7
   },
   {
     "slug": "kodai-ozora",
-    "popularityRank": 999,
-    "name": "Kodai Ozora大空 広大",
-    "japaneseName": "",
+    "name": "Kodai Ozora",
+    "japaneseName": "大空 広大",
+    "nameSplit": {
+      "latin": "Kodai Ozora",
+      "kanji": "大空 広大"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/kodai-ozora.png",
     "infobox": {
@@ -2694,16 +3528,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Sea captain"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "koji-nishio",
-    "popularityRank": 45,
-    "name": "Koji Nishio西尾 浩司",
-    "japaneseName": "",
+    "name": "Koji Nishio",
+    "japaneseName": "西尾 浩司",
+    "nameSplit": {
+      "latin": "Koji Nishio",
+      "kanji": "西尾 浩司"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/koji-nishio.png",
     "infobox": {
@@ -2723,16 +3563,35 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 45,
+    "popularityRank": 45
   },
   {
     "slug": "kojiro-hyuga",
-    "popularityRank": 2,
-    "name": "Kojiro Hyuga日向 小次郎",
-    "japaneseName": "",
+    "name": "Kojiro Hyuga",
+    "japaneseName": "日向 小次郎",
+    "nameSplit": {
+      "latin": "Kojiro Hyuga",
+      "kanji": "日向 小次郎"
+    },
     "position": "Striker",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 178,
+        "weight_kg": 64
+      },
+      "JBC": {
+        "height_cm": 170,
+        "weight_kg": 59
+      },
+      "KD": {
+        "height_cm": 158,
+        "weight_kg": 50
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/kojiro-hyuga.png",
     "infobox": {
@@ -2752,16 +3611,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 2,
+    "popularityRank": 2
   },
   {
     "slug": "koshi-kanda",
-    "popularityRank": 999,
-    "name": "Koshi Kanda神田 幸志",
-    "japaneseName": "",
+    "name": "Koshi Kanda",
+    "japaneseName": "神田 幸志",
+    "nameSplit": {
+      "latin": "Koshi Kanda",
+      "kanji": "神田 幸志"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/koshi-kanda.png",
     "infobox": {
@@ -2781,16 +3646,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Amateur BoxerOlympic Japan Boxing team"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "kotaro-furukawa",
-    "popularityRank": 999,
     "name": "Kotaro Furukawa",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Kotaro Furukawa",
+      "kanji": ""
+    },
     "position": "Wide Midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/kotaro-furukawa.png",
     "infobox": {
@@ -2810,16 +3681,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "kouman",
-    "popularityRank": 999,
     "name": "Kouman",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Kouman",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/kouman.png",
     "infobox": {
@@ -2839,16 +3716,22 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "kozo-kira",
-    "popularityRank": 999,
-    "name": "Kozo Kira吉良 耕三",
-    "japaneseName": "",
+    "name": "Kozo Kira",
+    "japaneseName": "吉良 耕三",
+    "nameSplit": {
+      "latin": "Kozo Kira",
+      "kanji": "吉良 耕三"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/kozo-kira.png",
     "infobox": {
@@ -2868,16 +3751,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "CoachJapan Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "kumi-sugimoto",
-    "popularityRank": 999,
-    "name": "Kumi Sugimoto杉本久美",
-    "japaneseName": "",
+    "name": "Kumi Sugimoto",
+    "japaneseName": "杉本久美",
+    "nameSplit": {
+      "latin": "Kumi Sugimoto",
+      "kanji": "杉本久美"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/kumi-sugimoto.png",
     "infobox": {
@@ -2897,16 +3786,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Nankatsu assistant managerFortune teller apprentice"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "larson",
-    "popularityRank": 999,
     "name": "Larson",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Larson",
+      "kanji": ""
+    },
     "position": "Winger",
     "teams": [],
     "nationality": "Swedish",
+    "physical": {
+      "BWY": {
+        "height_cm": 174,
+        "weight_kg": 63
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/larson.png",
     "infobox": {
@@ -2926,16 +3826,27 @@
       "nationality": "Swedish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "lee-yong-un",
-    "popularityRank": 999,
     "name": "Lee Yong Un",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Lee Yong Un",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "South Korean",
+    "physical": {
+      "BWY": {
+        "height_cm": 172,
+        "weight_kg": 68
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/lee-yong-un.png",
     "infobox": {
@@ -2955,16 +3866,27 @@
       "nationality": "South Korean",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "leon-dick",
-    "popularityRank": 999,
-    "name": "Leon Dickレオン・ディック",
-    "japaneseName": "",
+    "name": "Leon Dick",
+    "japaneseName": "レオン・ディック",
+    "nameSplit": {
+      "latin": "Leon Dick",
+      "kanji": "レオン・ディック"
+    },
     "position": "Centre back",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {
+      "BWY": {
+        "height_cm": 180,
+        "weight_kg": 75
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/leon-dick.png",
     "infobox": {
@@ -2984,16 +3906,27 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "lopez",
-    "popularityRank": 999,
     "name": "Lopez",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Lopez",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {
+      "BWY": {
+        "height_cm": 164,
+        "weight_kg": 54
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/lopez.png",
     "infobox": {
@@ -3013,16 +3946,27 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": "Lucha libre pro wrestler"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "louis-napoleon",
-    "popularityRank": 40,
     "name": "Louis Napoleon",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Louis Napoleon",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "French",
+    "physical": {
+      "JBC": {
+        "height_cm": 170,
+        "weight_kg": 63
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/louis-napoleon.png",
     "infobox": {
@@ -3042,16 +3986,27 @@
       "nationality": "French",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 40,
+    "popularityRank": 40
   },
   {
     "slug": "luciano-leo",
-    "popularityRank": 999,
     "name": "Luciano Leo",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Luciano Leo",
+      "kanji": ""
+    },
     "position": "Forward; Attacking midfielder",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {
+      "BWY": {
+        "height_cm": 175,
+        "weight_kg": 61
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/luciano-leo.png",
     "infobox": {
@@ -3071,16 +4026,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "luis-enpoli",
-    "popularityRank": 999,
     "name": "Luis Enpoli",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Luis Enpoli",
+      "kanji": ""
+    },
     "position": "Wide midfielder",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/luis-enpoli.png",
     "infobox": {
@@ -3100,16 +4061,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "makelolo",
-    "popularityRank": 999,
     "name": "Makelolo",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Makelolo",
+      "kanji": ""
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "French",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/makelolo.png",
     "infobox": {
@@ -3129,16 +4096,22 @@
       "nationality": "French",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "maki-akamine",
-    "popularityRank": 999,
-    "name": "Maki Akamine赤嶺 真紀",
-    "japaneseName": "",
+    "name": "Maki Akamine",
+    "japaneseName": "赤嶺 真紀",
+    "nameSplit": {
+      "latin": "Maki Akamine",
+      "kanji": "赤嶺 真紀"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/maki-akamine.png",
     "infobox": {
@@ -3158,16 +4131,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Pro softball player"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "makoto-kitazume",
-    "popularityRank": 999,
-    "name": "Makoto Kitazume北詰 誠",
-    "japaneseName": "",
+    "name": "Makoto Kitazume",
+    "japaneseName": "北詰 誠",
+    "nameSplit": {
+      "latin": "Makoto Kitazume",
+      "kanji": "北詰 誠"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/makoto-kitazume.png",
     "infobox": {
@@ -3187,16 +4166,31 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "makoto-soda",
-    "popularityRank": 13,
-    "name": "Makoto Soda早田 誠",
-    "japaneseName": "",
+    "name": "Makoto Soda",
+    "japaneseName": "早田 誠",
+    "nameSplit": {
+      "latin": "Makoto Soda",
+      "kanji": "早田 誠"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 176,
+        "weight_kg": 63
+      },
+      "JBC": {
+        "height_cm": 168,
+        "weight_kg": 55
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/makoto-soda.png",
     "infobox": {
@@ -3216,16 +4210,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 13,
+    "popularityRank": 13
   },
   {
     "slug": "malic",
-    "popularityRank": 999,
     "name": "Malic",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Malic",
+      "kanji": ""
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Australian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/malic.png",
     "infobox": {
@@ -3245,16 +4245,35 @@
       "nationality": "Australian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mamoru-izawa",
-    "popularityRank": 999,
-    "name": "Mamoru Izawa井沢 守",
-    "japaneseName": "",
+    "name": "Mamoru Izawa",
+    "japaneseName": "井沢 守",
+    "nameSplit": {
+      "latin": "Mamoru Izawa",
+      "kanji": "井沢 守"
+    },
     "position": "Midfielder, Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 177,
+        "weight_kg": 62
+      },
+      "JBC": {
+        "height_cm": 169,
+        "weight_kg": 56
+      },
+      "KD": {
+        "height_cm": 155,
+        "weight_kg": 45
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/mamoru-izawa.png",
     "infobox": {
@@ -3274,16 +4293,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "manatis",
-    "popularityRank": 999,
     "name": "Manatis",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Manatis",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/manatis.png",
     "infobox": {
@@ -3303,16 +4328,27 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "manfred-margus",
-    "popularityRank": 30,
     "name": "Manfred Margus",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Manfred Margus",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "German",
+    "physical": {
+      "JBC": {
+        "height_cm": 173,
+        "weight_kg": 62
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/manfred-margus.png",
     "infobox": {
@@ -3332,16 +4368,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 30,
+    "popularityRank": 30
   },
   {
     "slug": "manuela",
-    "popularityRank": 999,
-    "name": "Manuelaマヌエーラ",
-    "japaneseName": "",
+    "name": "Manuela",
+    "japaneseName": "マヌエーラ",
+    "nameSplit": {
+      "latin": "Manuela",
+      "kanji": "マヌエーラ"
+    },
     "position": "",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/manuela.png",
     "infobox": {
@@ -3361,16 +4403,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "marco-vecchio",
-    "popularityRank": 999,
     "name": "Marco Vecchio",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Marco Vecchio",
+      "kanji": ""
+    },
     "position": "Wide midfielder",
     "teams": [],
     "nationality": "Italian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/marco-vecchio.png",
     "infobox": {
@@ -3390,16 +4438,22 @@
       "nationality": "Italian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "marcos-almieja",
-    "popularityRank": 999,
     "name": "Marcos Almieja",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Marcos Almieja",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/marcos-almieja.png",
     "infobox": {
@@ -3419,16 +4473,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "marientos",
-    "popularityRank": 999,
     "name": "Marientos",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Marientos",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/marientos.png",
     "infobox": {
@@ -3448,16 +4508,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mario-goethe",
-    "popularityRank": 999,
     "name": "Mario Goethe",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Mario Goethe",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "German",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/mario-goethe.png",
     "infobox": {
@@ -3477,16 +4543,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mario-nielsen",
-    "popularityRank": 999,
     "name": "Mario Nielsen",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Mario Nielsen",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Danish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/mario-nielsen.png",
     "infobox": {
@@ -3506,16 +4578,22 @@
       "nationality": "Danish",
       "status": "",
       "occupation": "Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mark-duviga",
-    "popularityRank": 999,
     "name": "Mark Duviga",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Mark Duviga",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Australian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/mark-duviga.png",
     "infobox": {
@@ -3535,16 +4613,27 @@
       "nationality": "Australian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mark-owairan",
-    "popularityRank": 999,
     "name": "Mark Owairan",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Mark Owairan",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Saudi Arabian",
+    "physical": {
+      "BWY": {
+        "height_cm": 178,
+        "weight_kg": 70
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/mark-owairan.png",
     "infobox": {
@@ -3564,16 +4653,22 @@
       "nationality": "Saudi Arabian",
       "status": "",
       "occupation": "Prince"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "masanori-kato",
-    "popularityRank": 999,
-    "name": "Masanori Kato加藤 正則",
-    "japaneseName": "",
+    "name": "Masanori Kato",
+    "japaneseName": "加藤 正則",
+    "nameSplit": {
+      "latin": "Masanori Kato",
+      "kanji": "加藤 正則"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/masanori-kato.png",
     "infobox": {
@@ -3593,16 +4688,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "masao-nakayama",
-    "popularityRank": 999,
-    "name": "Masao Nakayama中山 政男",
-    "japaneseName": "",
+    "name": "Masao Nakayama",
+    "japaneseName": "中山 政男",
+    "nameSplit": {
+      "latin": "Masao Nakayama",
+      "kanji": "中山 政男"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/masao-nakayama.png",
     "infobox": {
@@ -3622,16 +4723,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "matteo",
-    "popularityRank": 999,
     "name": "Matteo",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Matteo",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Italian",
+    "physical": {
+      "BWY": {
+        "height_cm": 171,
+        "weight_kg": 66
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/matteo.png",
     "infobox": {
@@ -3651,16 +4763,22 @@
       "nationality": "Italian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mazzantini",
-    "popularityRank": 999,
     "name": "Mazzantini",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Mazzantini",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Italian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/mazzantini.png",
     "infobox": {
@@ -3680,16 +4798,22 @@
       "nationality": "Italian",
       "status": "",
       "occupation": "Athletic trainer; fitness coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "michael",
-    "popularityRank": 999,
-    "name": "Michaelミカエル",
-    "japaneseName": "",
+    "name": "Michael",
+    "japaneseName": "ミカエル",
+    "nameSplit": {
+      "latin": "Michael",
+      "kanji": "ミカエル"
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/michael.png",
     "infobox": {
@@ -3709,16 +4833,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "michel-olgado",
-    "popularityRank": 999,
     "name": "Michel Olgado",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Michel Olgado",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/michel-olgado.png",
     "infobox": {
@@ -3738,16 +4868,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "michel-toonie",
-    "popularityRank": 999,
     "name": "Michel Toonie",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Michel Toonie",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Unknown",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/michel-toonie.png",
     "infobox": {
@@ -3767,16 +4903,22 @@
       "nationality": "Unknown",
       "status": "",
       "occupation": "Coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "michel-yamada",
-    "popularityRank": 999,
     "name": "Michel Yamada",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Michel Yamada",
+      "kanji": ""
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/michel-yamada.png",
     "infobox": {
@@ -3796,16 +4938,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "minato-gamo",
-    "popularityRank": 999,
-    "name": "Minato Gamo賀茂 港",
-    "japaneseName": "",
+    "name": "Minato Gamo",
+    "japaneseName": "賀茂 港",
+    "nameSplit": {
+      "latin": "Minato Gamo",
+      "kanji": "賀茂 港"
+    },
     "position": "Head coach; Defender (retired)",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/minato-gamo.png",
     "infobox": {
@@ -3825,16 +4973,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "minor-characters",
-    "popularityRank": 999,
     "name": "Minor characters",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Minor characters",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/minor-characters.png",
     "infobox": {
@@ -3854,16 +5008,22 @@
       "nationality": "",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "minoru-honma",
-    "popularityRank": 999,
-    "name": "Minoru Honma本間 実",
-    "japaneseName": "",
+    "name": "Minoru Honma",
+    "japaneseName": "本間 実",
+    "nameSplit": {
+      "latin": "Minoru Honma",
+      "kanji": "本間 実"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/minoru-honma.png",
     "infobox": {
@@ -3883,16 +5043,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mitsuru",
-    "popularityRank": 999,
     "name": "Mitsuru",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Mitsuru",
+      "kanji": ""
+    },
     "position": "Midfielder (retired)",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/mitsuru.png",
     "infobox": {
@@ -3912,16 +5078,35 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Katagiri Konzern's staffPart-time tutor (former)"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mitsuru-sano",
-    "popularityRank": 49,
-    "name": "Mitsuru Sano佐野 滿",
-    "japaneseName": "",
+    "name": "Mitsuru Sano",
+    "japaneseName": "佐野 滿",
+    "nameSplit": {
+      "latin": "Mitsuru Sano",
+      "kanji": "佐野 滿"
+    },
     "position": "Forward; Attacking midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "G23": {
+        "height_cm": 167,
+        "weight_kg": 60
+      },
+      "BWY": {
+        "height_cm": 166,
+        "weight_kg": 54
+      },
+      "JBC": {
+        "height_cm": 159,
+        "weight_kg": 47
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/mitsuru-sano.png",
     "infobox": {
@@ -3941,16 +5126,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 49,
+    "popularityRank": 49
   },
   {
     "slug": "morimichi-kawakami",
-    "popularityRank": 999,
-    "name": "Morimichi Kawakami川上 守道",
-    "japaneseName": "",
+    "name": "Morimichi Kawakami",
+    "japaneseName": "川上 守道",
+    "nameSplit": {
+      "latin": "Morimichi Kawakami",
+      "kanji": "川上 守道"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "KD": {
+        "height_cm": 156,
+        "weight_kg": 47
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/morimichi-kawakami.png",
     "infobox": {
@@ -3970,16 +5166,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "muamba",
-    "popularityRank": 999,
     "name": "Muamba",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Muamba",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Cameroonian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/muamba.png",
     "infobox": {
@@ -3999,16 +5201,22 @@
       "nationality": "Cameroonian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "mumanga",
-    "popularityRank": 999,
     "name": "Mumanga",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Mumanga",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Nigerian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/mumanga.png",
     "infobox": {
@@ -4028,16 +5236,22 @@
       "nationality": "Nigerian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "munemasa-katagiri",
-    "popularityRank": 999,
     "name": "Munemasa Katagiri",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Munemasa Katagiri",
+      "kanji": ""
+    },
     "position": "JFA staff; Talent scout;Forward (retired)",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/munemasa-katagiri.png",
     "infobox": {
@@ -4057,16 +5271,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "natsuko-ozora",
-    "popularityRank": 999,
-    "name": "Natsuko Ozora大空 奈津子",
-    "japaneseName": "",
+    "name": "Natsuko Ozora",
+    "japaneseName": "大空 奈津子",
+    "nameSplit": {
+      "latin": "Natsuko Ozora",
+      "kanji": "大空 奈津子"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/natsuko-ozora.png",
     "infobox": {
@@ -4086,16 +5306,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "HousewifeReporter (former)"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "natureza",
-    "popularityRank": 9,
     "name": "Natureza",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Natureza",
+      "kanji": ""
+    },
     "position": "Attacking midfielderForward",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {
+      "BWY": {
+        "height_cm": 174,
+        "weight_kg": 62
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/natureza.png",
     "infobox": {
@@ -4115,16 +5346,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 9,
+    "popularityRank": 9
   },
   {
     "slug": "netoo",
-    "popularityRank": 999,
     "name": "Netoo",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Netoo",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Cameroonian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/netoo.png",
     "infobox": {
@@ -4144,16 +5381,22 @@
       "nationality": "Cameroonian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "nicola-bassi",
-    "popularityRank": 999,
-    "name": "Nicola Bassiニコラ・バッシ",
-    "japaneseName": "",
+    "name": "Nicola Bassi",
+    "japaneseName": "ニコラ・バッシ",
+    "nameSplit": {
+      "latin": "Nicola Bassi",
+      "kanji": "ニコラ・バッシ"
+    },
     "position": "",
     "teams": [],
     "nationality": "Italian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/nicola-bassi.png",
     "infobox": {
@@ -4173,16 +5416,27 @@
       "nationality": "Italian",
       "status": "",
       "occupation": "Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "noboru-sawaki",
-    "popularityRank": 999,
-    "name": "Noboru Sawaki沢木 昇",
-    "japaneseName": "",
+    "name": "Noboru Sawaki",
+    "japaneseName": "沢木 昇",
+    "nameSplit": {
+      "latin": "Noboru Sawaki",
+      "kanji": "沢木 昇"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "KD": {
+        "height_cm": 150,
+        "weight_kg": 43
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/noboru-sawaki.png",
     "infobox": {
@@ -4202,16 +5456,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "nobuyuki-yumikura",
-    "popularityRank": 999,
     "name": "Nobuyuki Yumikura",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Nobuyuki Yumikura",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/nobuyuki-yumikura.png",
     "infobox": {
@@ -4231,16 +5491,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "noriko-igawa",
-    "popularityRank": 999,
-    "name": "Noriko Igawa井川 紀子",
-    "japaneseName": "",
+    "name": "Noriko Igawa",
+    "japaneseName": "井川 紀子",
+    "nameSplit": {
+      "latin": "Noriko Igawa",
+      "kanji": "井川 紀子"
+    },
     "position": "",
     "teams": [],
     "nationality": "",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/noriko-igawa.png",
     "infobox": {
@@ -4260,16 +5526,22 @@
       "nationality": "",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "oliver-hahn",
-    "popularityRank": 999,
     "name": "Oliver Hahn",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Oliver Hahn",
+      "kanji": ""
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "German",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/oliver-hahn.png",
     "infobox": {
@@ -4289,16 +5561,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "otto-reichardt",
-    "popularityRank": 999,
-    "name": "Otto Reichardtオットー・レイハート",
-    "japaneseName": "",
+    "name": "Otto Reichardt",
+    "japaneseName": "オットー・レイハート",
+    "nameSplit": {
+      "latin": "Otto Reichardt",
+      "kanji": "オットー・レイハート"
+    },
     "position": "",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/otto-reichardt.png",
     "infobox": {
@@ -4318,16 +5596,22 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": "Coach }}"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "otto-zanbidis",
-    "popularityRank": 999,
     "name": "Otto Zanbidis",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Otto Zanbidis",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Greek",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/otto-zanbidis.png",
     "infobox": {
@@ -4347,16 +5631,22 @@
       "nationality": "Greek",
       "status": "",
       "occupation": "Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "pana-saale",
-    "popularityRank": 999,
     "name": "Pana Saale",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Pana Saale",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Senegalese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/pana-saale.png",
     "infobox": {
@@ -4376,16 +5666,22 @@
       "nationality": "Senegalese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "pedro-fonseca",
-    "popularityRank": 999,
     "name": "Pedro Fonseca",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Pedro Fonseca",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Portuguese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/pedro-fonseca.png",
     "infobox": {
@@ -4405,16 +5701,27 @@
       "nationality": "Portuguese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "pepe",
-    "popularityRank": 999,
     "name": "Pepe",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Pepe",
+      "kanji": ""
+    },
     "position": "Forward; Attacking midfielder",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {
+      "BWY": {
+        "height_cm": 171,
+        "weight_kg": 60
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/pepe.png",
     "infobox": {
@@ -4434,16 +5741,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "radunga",
-    "popularityRank": 999,
-    "name": "Radungaラドゥンガ",
-    "japaneseName": "",
+    "name": "Radunga",
+    "japaneseName": "ラドゥンガ",
+    "nameSplit": {
+      "latin": "Radunga",
+      "kanji": "ラドゥンガ"
+    },
     "position": "Defensive midfielder",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/radunga.png",
     "infobox": {
@@ -4463,16 +5776,34 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ramon-victorino",
-    "popularityRank": 20,
-    "name": "Ramon Victorinoラモン・ビクトリーノ",
-    "japaneseName": "",
+    "name": "Ramon Victorino",
+    "japaneseName": "ラモン・ビクトリーノ",
+    "nameSplit": {
+      "latin": "Ramon Victorino",
+      "kanji": "ラモン・ビクトリーノ"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Uruguayan",
+    "physical": {
+      "BWY": {
+        "height_cm": 169,
+        "weight_kg": 59
+      },
+      "JBC": {
+        "height_cm": 166,
+        "weight_kg": 52
+      },
+      "RT": {
+        "weight_kg": 61
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/ramon-victorino.png",
     "infobox": {
@@ -4492,16 +5823,22 @@
       "nationality": "Uruguayan",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 20,
+    "popularityRank": 20
   },
   {
     "slug": "ramon-victorino-ronc",
-    "popularityRank": 999,
-    "name": "Ramon Victorinoラモン・ビクトリーノ",
-    "japaneseName": "",
+    "name": "Ramon Victorino",
+    "japaneseName": "ラモン・ビクトリーノ",
+    "nameSplit": {
+      "latin": "Ramon Victorino",
+      "kanji": "ラモン・ビクトリーノ"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Uruguayan",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/ramon-victorino-ronc.png",
     "infobox": {
@@ -4521,16 +5858,22 @@
       "nationality": "Uruguayan",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "raniel-beniez",
-    "popularityRank": 999,
     "name": "Raniel Beniez",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Raniel Beniez",
+      "kanji": ""
+    },
     "position": "Head coach",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/raniel-beniez.png",
     "infobox": {
@@ -4550,16 +5893,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "raphael",
-    "popularityRank": 999,
     "name": "Raphael",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Raphael",
+      "kanji": ""
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/raphael.png",
     "infobox": {
@@ -4579,16 +5928,27 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ricardo-espadas",
-    "popularityRank": 999,
     "name": "Ricardo Espadas",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Ricardo Espadas",
+      "kanji": ""
+    },
     "position": "GoalkeeperForward",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {
+      "BWY": {
+        "height_cm": 165,
+        "weight_kg": 55
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/ricardo-espadas.png",
     "infobox": {
@@ -4608,16 +5968,22 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "rivaul",
-    "popularityRank": 10,
     "name": "Rivaul",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Rivaul",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/rivaul.png",
     "infobox": {
@@ -4637,16 +6003,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 10,
+    "popularityRank": 10
   },
   {
     "slug": "riveldo",
-    "popularityRank": 999,
     "name": "Riveldo",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Riveldo",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/riveldo.png",
     "infobox": {
@@ -4666,16 +6038,22 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "roberto-carolus",
-    "popularityRank": 999,
-    "name": "Roberto Carolusロベルト・カロルス",
-    "japaneseName": "",
+    "name": "Roberto Carolus",
+    "japaneseName": "ロベルト・カロルス",
+    "nameSplit": {
+      "latin": "Roberto Carolus",
+      "kanji": "ロベルト・カロルス"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/roberto-carolus.png",
     "infobox": {
@@ -4695,16 +6073,32 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "roberto-hongo",
-    "popularityRank": 26,
-    "name": "Roberto Hongoロベルト本郷",
-    "japaneseName": "",
+    "name": "Roberto Hongo",
+    "japaneseName": "ロベルト本郷",
+    "nameSplit": {
+      "latin": "Roberto Hongo",
+      "kanji": "ロベルト本郷"
+    },
     "position": "Attacking midfielder (retired)",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {
+      "BWY": {
+        "height_cm": 178
+      },
+      "KD": {
+        "height_cm": 180
+      },
+      "default": {
+        "weight_kg": 75
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/roberto-hongo.png",
     "infobox": {
@@ -4724,16 +6118,27 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": "Head coach; assistant coach"
-    }
+    },
+    "popularity": 26,
+    "popularityRank": 26
   },
   {
     "slug": "robson",
-    "popularityRank": 999,
-    "name": "Robsonロブソン",
-    "japaneseName": "",
+    "name": "Robson",
+    "japaneseName": "ロブソン",
+    "nameSplit": {
+      "latin": "Robson",
+      "kanji": "ロブソン"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "English",
+    "physical": {
+      "JBC": {
+        "height_cm": 178,
+        "weight_kg": 80
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/robson.png",
     "infobox": {
@@ -4753,16 +6158,22 @@
       "nationality": "English",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ruben-salas",
-    "popularityRank": 999,
-    "name": "Rubén Salasルーベン・サラス",
-    "japaneseName": "",
+    "name": "Rubén Salas",
+    "japaneseName": "ルーベン・サラス",
+    "nameSplit": {
+      "latin": "Rubén Salas",
+      "kanji": "ルーベン・サラス"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/ruben-salas.png",
     "infobox": {
@@ -4782,16 +6193,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "rudi-frank-schneider",
-    "popularityRank": 999,
     "name": "Rudi Frank Schneider",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Rudi Frank Schneider",
+      "kanji": ""
+    },
     "position": "Head coach",
     "teams": [],
     "nationality": "German",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/rudi-frank-schneider.png",
     "infobox": {
@@ -4811,16 +6228,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ruud-krisman",
-    "popularityRank": 999,
-    "name": "Ruud Krismanルート・クリスマン",
-    "japaneseName": "",
+    "name": "Ruud Krisman",
+    "japaneseName": "ルート・クリスマン",
+    "nameSplit": {
+      "latin": "Ruud Krisman",
+      "kanji": "ルート・クリスマン"
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/ruud-krisman.png",
     "infobox": {
@@ -4840,16 +6263,35 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "ryo-ishizaki",
-    "popularityRank": 15,
-    "name": "Ryo Ishizaki石崎 了",
-    "japaneseName": "",
+    "name": "Ryo Ishizaki",
+    "japaneseName": "石崎 了",
+    "nameSplit": {
+      "latin": "Ryo Ishizaki",
+      "kanji": "石崎 了"
+    },
     "position": "Defender; forward (former)",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 174,
+        "weight_kg": 66
+      },
+      "JBC": {
+        "height_cm": 166,
+        "weight_kg": 55
+      },
+      "KD": {
+        "height_cm": 149,
+        "weight_kg": 43
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/ryo-ishizaki.png",
     "infobox": {
@@ -4869,16 +6311,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 15,
+    "popularityRank": 15
   },
   {
     "slug": "ryoma-hino",
-    "popularityRank": 999,
     "name": "Ryoma Hino",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Ryoma Hino",
+      "kanji": ""
+    },
     "position": "Striker",
     "teams": [],
     "nationality": "Uruguayan",
+    "physical": {
+      "BWY": {
+        "height_cm": 178,
+        "weight_kg": 73
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/ryoma-hino.png",
     "infobox": {
@@ -4898,16 +6351,27 @@
       "nationality": "Uruguayan",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "sakun-khongsawat",
-    "popularityRank": 999,
     "name": "Sakun Khongsawat",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Sakun Khongsawat",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Thai",
+    "physical": {
+      "BWY": {
+        "height_cm": 180,
+        "weight_kg": 72
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/sakun-khongsawat.png",
     "infobox": {
@@ -4927,16 +6391,22 @@
       "nationality": "Thai",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "salas",
-    "popularityRank": 999,
     "name": "Salas",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Salas",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/salas.png",
     "infobox": {
@@ -4956,16 +6426,27 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "salinas",
-    "popularityRank": 999,
     "name": "Salinas",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Salinas",
+      "kanji": ""
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Brazilian",
+    "physical": {
+      "BWY": {
+        "height_cm": 176,
+        "weight_kg": 65
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/salinas.png",
     "infobox": {
@@ -4985,16 +6466,27 @@
       "nationality": "Brazilian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "salvatore-gentile",
-    "popularityRank": 17,
-    "name": "Salvatore Gentileサルバトーレ・ジェンティーレ",
-    "japaneseName": "",
+    "name": "Salvatore Gentile",
+    "japaneseName": "サルバトーレ・ジェンティーレ",
+    "nameSplit": {
+      "latin": "Salvatore Gentile",
+      "kanji": "サルバトーレ・ジェンティーレ"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Italian",
+    "physical": {
+      "BWY": {
+        "height_cm": 181,
+        "weight_kg": 71
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/salvatore-gentile.png",
     "infobox": {
@@ -5014,16 +6506,22 @@
       "nationality": "Italian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 17,
+    "popularityRank": 17
   },
   {
     "slug": "samuela",
-    "popularityRank": 999,
     "name": "Samuela",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Samuela",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/samuela.png",
     "infobox": {
@@ -5043,16 +6541,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "sanae-ozora",
-    "popularityRank": 999,
-    "name": "Sanae Ozora大空 早苗",
-    "japaneseName": "",
+    "name": "Sanae Ozora",
+    "japaneseName": "大空 早苗",
+    "nameSplit": {
+      "latin": "Sanae Ozora",
+      "kanji": "大空 早苗"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/sanae-ozora.png",
     "infobox": {
@@ -5072,16 +6576,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Housewife; waitress (former); manager (former); Ōendan (former)"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "saul",
-    "popularityRank": 999,
-    "name": "Saulサウール",
-    "japaneseName": "",
+    "name": "Saul",
+    "japaneseName": "サウール",
+    "nameSplit": {
+      "latin": "Saul",
+      "kanji": "サウール"
+    },
     "position": "",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/saul.png",
     "infobox": {
@@ -5101,16 +6611,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": "Blind football playerFootball player (former)"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "savishe",
-    "popularityRank": 999,
     "name": "Savishe",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Savishe",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/savishe.png",
     "infobox": {
@@ -5130,16 +6646,22 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "schmidt-brothers",
-    "popularityRank": 999,
     "name": "Schmidt Brothers",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Schmidt Brothers",
+      "kanji": ""
+    },
     "position": "DefenderDefensive midfielder",
     "teams": [],
     "nationality": "German",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/schmidt-brothers.png",
     "infobox": {
@@ -5159,16 +6681,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "schweil-teigerbran",
-    "popularityRank": 999,
     "name": "Schweil Teigerbran",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Schweil Teigerbran",
+      "kanji": ""
+    },
     "position": "MidfielderDefender",
     "teams": [],
     "nationality": "German",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/schweil-teigerbran.png",
     "infobox": {
@@ -5188,16 +6716,22 @@
       "nationality": "German",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "seemann",
-    "popularityRank": 999,
     "name": "Seemann",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Seemann",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "German",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/seemann.png",
     "infobox": {
@@ -5217,16 +6751,22 @@
       "nationality": "German",
       "status": "",
       "occupation": "Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "sergio-ramon",
-    "popularityRank": 999,
     "name": "Sergio Ramon",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Sergio Ramon",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/sergio-ramon.png",
     "infobox": {
@@ -5246,16 +6786,27 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "shingo-aoi",
-    "popularityRank": 12,
-    "name": "Shingo Aoi葵 新伍",
-    "japaneseName": "",
+    "name": "Shingo Aoi",
+    "japaneseName": "葵 新伍",
+    "nameSplit": {
+      "latin": "Shingo Aoi",
+      "kanji": "葵 新伍"
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 167,
+        "weight_kg": 55
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/shingo-aoi.png",
     "infobox": {
@@ -5275,16 +6826,34 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 12,
+    "popularityRank": 12
   },
   {
     "slug": "shingo-takasugi",
-    "popularityRank": 999,
-    "name": "Shingo Takasugi高杉 真吾",
-    "japaneseName": "",
+    "name": "Shingo Takasugi",
+    "japaneseName": "高杉 真吾",
+    "nameSplit": {
+      "latin": "Shingo Takasugi",
+      "kanji": "高杉 真吾"
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 181,
+        "weight_kg": 80
+      },
+      "JBC": {
+        "height_cm": 173,
+        "weight_kg": 67
+      },
+      "KD": {
+        "weight_kg": 63
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/shingo-takasugi.png",
     "infobox": {
@@ -5304,16 +6873,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "shinji-sanada",
-    "popularityRank": 999,
-    "name": "Shinji Sanada真田 信次",
-    "japaneseName": "",
+    "name": "Shinji Sanada",
+    "japaneseName": "真田 信次",
+    "nameSplit": {
+      "latin": "Shinji Sanada",
+      "kanji": "真田 信次"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "KD": {
+        "height_cm": 162,
+        "weight_kg": 54
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/shinji-sanada.png",
     "infobox": {
@@ -5333,16 +6913,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "shinnosuke-kazami",
-    "popularityRank": 999,
     "name": "Shinnosuke Kazami",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Shinnosuke Kazami",
+      "kanji": ""
+    },
     "position": "Wide Midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/shinnosuke-kazami.png",
     "infobox": {
@@ -5362,16 +6948,31 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "shun-nitta",
-    "popularityRank": 14,
-    "name": "Shun Nitta新田 瞬",
-    "japaneseName": "",
+    "name": "Shun Nitta",
+    "japaneseName": "新田 瞬",
+    "nameSplit": {
+      "latin": "Shun Nitta",
+      "kanji": "新田 瞬"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 170,
+        "weight_kg": 57
+      },
+      "JBC": {
+        "height_cm": 165,
+        "weight_kg": 51
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/shun-nitta.png",
     "infobox": {
@@ -5391,16 +6992,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 14,
+    "popularityRank": 14
   },
   {
     "slug": "simeore",
-    "popularityRank": 999,
     "name": "Simeore",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Simeore",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/simeore.png",
     "infobox": {
@@ -5420,16 +7027,27 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "singprasert-bunnag",
-    "popularityRank": 999,
     "name": "Singprasert Bunnag",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Singprasert Bunnag",
+      "kanji": ""
+    },
     "position": "Centre back",
     "teams": [],
     "nationality": "Thai",
+    "physical": {
+      "BWY": {
+        "height_cm": 182,
+        "weight_kg": 75
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/singprasert-bunnag.png",
     "infobox": {
@@ -5449,16 +7067,22 @@
       "nationality": "Thai",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "sota-hiraoka",
-    "popularityRank": 999,
-    "name": "Sota Hiraoka平丘 相太",
-    "japaneseName": "",
+    "name": "Sota Hiraoka",
+    "japaneseName": "平丘 相太",
+    "nameSplit": {
+      "latin": "Sota Hiraoka",
+      "kanji": "平丘 相太"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/sota-hiraoka.png",
     "infobox": {
@@ -5478,16 +7102,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "stefan-levin",
-    "popularityRank": 19,
-    "name": "Stefan Levinステファン・レヴィン",
-    "japaneseName": "",
+    "name": "Stefan Levin",
+    "japaneseName": "ステファン・レヴィン",
+    "nameSplit": {
+      "latin": "Stefan Levin",
+      "kanji": "ステファン・レヴィン"
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Swedish",
+    "physical": {
+      "BWY": {
+        "height_cm": 175,
+        "weight_kg": 64
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/stefan-levin.png",
     "infobox": {
@@ -5507,16 +7142,27 @@
       "nationality": "Swedish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 19,
+    "popularityRank": 19
   },
   {
     "slug": "suarez",
-    "popularityRank": 999,
     "name": "Suarez",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Suarez",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {
+      "BWY": {
+        "height_cm": 174,
+        "weight_kg": 62
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/suarez.png",
     "infobox": {
@@ -5536,16 +7182,22 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "tacchinardini",
-    "popularityRank": 999,
     "name": "Tacchinardini",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Tacchinardini",
+      "kanji": ""
+    },
     "position": "Defensive midfielder",
     "teams": [],
     "nationality": "Italian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/tacchinardini.png",
     "infobox": {
@@ -5565,16 +7217,22 @@
       "nationality": "Italian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "tadashi-shiroyama",
-    "popularityRank": 999,
     "name": "Tadashi Shiroyama",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Tadashi Shiroyama",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/tadashi-shiroyama.png",
     "infobox": {
@@ -5594,16 +7252,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "taichi-nakanishi",
-    "popularityRank": 999,
-    "name": "Taichi Nakanishi中西 太一",
-    "japaneseName": "",
+    "name": "Taichi Nakanishi",
+    "japaneseName": "中西 太一",
+    "nameSplit": {
+      "latin": "Taichi Nakanishi",
+      "kanji": "中西 太一"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "KD": {
+        "height_cm": 170,
+        "weight_kg": 70
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/taichi-nakanishi.png",
     "infobox": {
@@ -5623,16 +7292,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "takashi-sugimoto",
-    "popularityRank": 999,
     "name": "Takashi Sugimoto",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Takashi Sugimoto",
+      "kanji": ""
+    },
     "position": "Wide midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/takashi-sugimoto.png",
     "infobox": {
@@ -5652,16 +7327,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "takeshi-furuoya",
-    "popularityRank": 999,
-    "name": "Takeshi Furuoya古尾谷 猛",
-    "japaneseName": "",
+    "name": "Takeshi Furuoya",
+    "japaneseName": "古尾谷 猛",
+    "nameSplit": {
+      "latin": "Takeshi Furuoya",
+      "kanji": "古尾谷 猛"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/takeshi-furuoya.png",
     "infobox": {
@@ -5681,16 +7362,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "takeshi-kishida",
-    "popularityRank": 999,
-    "name": "Takeshi Kishida岸田 猛",
-    "japaneseName": "",
+    "name": "Takeshi Kishida",
+    "japaneseName": "岸田 猛",
+    "nameSplit": {
+      "latin": "Takeshi Kishida",
+      "kanji": "岸田 猛"
+    },
     "position": "Defender; Defensive midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/takeshi-kishida.png",
     "infobox": {
@@ -5710,16 +7397,39 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "takeshi-sawada",
-    "popularityRank": 21,
-    "name": "Takeshi Sawada沢田 タケシ",
-    "japaneseName": "",
+    "name": "Takeshi Sawada",
+    "japaneseName": "沢田 タケシ",
+    "nameSplit": {
+      "latin": "Takeshi Sawada",
+      "kanji": "沢田 タケシ"
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "G23": {
+        "height_cm": 172,
+        "weight_kg": 63
+      },
+      "BWY": {
+        "height_cm": 168,
+        "weight_kg": 55
+      },
+      "JBC": {
+        "height_cm": 162,
+        "weight_kg": 53
+      },
+      "KD": {
+        "height_cm": 136,
+        "weight_kg": 39
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/takeshi-sawada.png",
     "infobox": {
@@ -5739,16 +7449,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 21,
+    "popularityRank": 21
   },
   {
     "slug": "tamotsu-ide",
-    "popularityRank": 999,
     "name": "Tamotsu Ide",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Tamotsu Ide",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/tamotsu-ide.png",
     "infobox": {
@@ -5768,16 +7484,35 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Data Analyst, Coach assistant"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "taro-misaki",
-    "popularityRank": 4,
-    "name": "Taro Misaki岬 太郎",
-    "japaneseName": "",
+    "name": "Taro Misaki",
+    "japaneseName": "岬 太郎",
+    "nameSplit": {
+      "latin": "Taro Misaki",
+      "kanji": "岬 太郎"
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 172,
+        "weight_kg": 57
+      },
+      "JBC": {
+        "height_cm": 165,
+        "weight_kg": 53
+      },
+      "KD": {
+        "height_cm": 146,
+        "weight_kg": 37
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/taro-misaki.png",
     "infobox": {
@@ -5797,16 +7532,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 4,
+    "popularityRank": 4
   },
   {
     "slug": "taro-tsubasa",
-    "popularityRank": 999,
     "name": "Taro Tsubasa",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Taro Tsubasa",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/taro-tsubasa.png",
     "infobox": {
@@ -5826,16 +7567,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "tatsuo-mikami",
-    "popularityRank": 999,
-    "name": "Tatsuo Mikami見上 辰夫",
-    "japaneseName": "",
+    "name": "Tatsuo Mikami",
+    "japaneseName": "見上 辰夫",
+    "nameSplit": {
+      "latin": "Tatsuo Mikami",
+      "kanji": "見上 辰夫"
+    },
     "position": "Goalkeeper (former)",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/tatsuo-mikami.png",
     "infobox": {
@@ -5855,16 +7602,35 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Keeper trainer; Head coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "teppei-kisugi",
-    "popularityRank": 999,
-    "name": "Teppei Kisugi来生 哲兵",
-    "japaneseName": "",
+    "name": "Teppei Kisugi",
+    "japaneseName": "来生 哲兵",
+    "nameSplit": {
+      "latin": "Teppei Kisugi",
+      "kanji": "来生 哲兵"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 170,
+        "weight_kg": 60
+      },
+      "JBC": {
+        "height_cm": 164,
+        "weight_kg": 53
+      },
+      "KD": {
+        "height_cm": 145,
+        "weight_kg": 37
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/teppei-kisugi.png",
     "infobox": {
@@ -5884,16 +7650,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "teruyuki-monio",
-    "popularityRank": 999,
     "name": "Teruyuki Monio",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Teruyuki Monio",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/teruyuki-monio.png",
     "infobox": {
@@ -5913,16 +7685,27 @@
       "nationality": "",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "tetsuo-ishida",
-    "popularityRank": 999,
     "name": "Tetsuo Ishida",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Tetsuo Ishida",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "default": {
+        "height_cm": 164,
+        "weight_kg": 54
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/tetsuo-ishida.png",
     "infobox": {
@@ -5942,16 +7725,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "thoram",
-    "popularityRank": 999,
     "name": "Thoram",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Thoram",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "French",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/thoram.png",
     "infobox": {
@@ -5971,16 +7760,22 @@
       "nationality": "French",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "thwaide",
-    "popularityRank": 999,
     "name": "Thwaide",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Thwaide",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Australian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/thwaide.png",
     "infobox": {
@@ -6000,16 +7795,22 @@
       "nationality": "Australian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "tim-shooker",
-    "popularityRank": 999,
     "name": "Tim Shooker",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Tim Shooker",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Australian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/tim-shooker.png",
     "infobox": {
@@ -6029,16 +7830,27 @@
       "nationality": "Australian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "tomeya-akai",
-    "popularityRank": 999,
     "name": "Tomeya Akai",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Tomeya Akai",
+      "kanji": ""
+    },
     "position": "Defender Defensive midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 174,
+        "weight_kg": 61
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/tomeya-akai.png",
     "infobox": {
@@ -6058,16 +7870,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "toshiya-okano",
-    "popularityRank": 999,
     "name": "Toshiya Okano",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Toshiya Okano",
+      "kanji": ""
+    },
     "position": "Wide midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/toshiya-okano.png",
     "infobox": {
@@ -6087,16 +7905,39 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "tsubasa-ozora",
-    "popularityRank": 1,
-    "name": "Tsubasa Ozora大空 翼",
-    "japaneseName": "",
+    "name": "Tsubasa Ozora",
+    "japaneseName": "大空 翼",
+    "nameSplit": {
+      "latin": "Tsubasa Ozora",
+      "kanji": "大空 翼"
+    },
     "position": "Attacking midfielderForward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "RT": {
+        "height_cm": 175,
+        "weight_kg": 64
+      },
+      "BWY": {
+        "height_cm": 173,
+        "weight_kg": 59
+      },
+      "JBC": {
+        "height_cm": 167,
+        "weight_kg": 55
+      },
+      "KD": {
+        "height_cm": 145,
+        "weight_kg": 39
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/tsubasa-ozora.png",
     "infobox": {
@@ -6116,16 +7957,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 1,
+    "popularityRank": 1
   },
   {
     "slug": "valtes",
-    "popularityRank": 999,
     "name": "Valtes",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Valtes",
+      "kanji": ""
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/valtes.png",
     "infobox": {
@@ -6145,16 +7992,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "van-nistel",
-    "popularityRank": 999,
     "name": "Van Nistel",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Van Nistel",
+      "kanji": ""
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Dutch",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/van-nistel.png",
     "infobox": {
@@ -6174,16 +8027,22 @@
       "nationality": "Dutch",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "varon",
-    "popularityRank": 999,
     "name": "Varon",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Varon",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Argentinian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/varon.png",
     "infobox": {
@@ -6203,16 +8062,22 @@
       "nationality": "Argentinian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "vicente-de-la-pasque",
-    "popularityRank": 999,
-    "name": "Vicente de la Pasqueヴィセンテ・デラパスケ",
-    "japaneseName": "",
+    "name": "Vicente de la Pasque",
+    "japaneseName": "ヴィセンテ・デラパスケ",
+    "nameSplit": {
+      "latin": "Vicente de la Pasque",
+      "kanji": "ヴィセンテ・デラパスケ"
+    },
     "position": "Head coach",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/vicente-de-la-pasque.png",
     "infobox": {
@@ -6232,16 +8097,22 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "victor-camacho",
-    "popularityRank": 999,
     "name": "Victor Camacho",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Victor Camacho",
+      "kanji": ""
+    },
     "position": "",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/victor-camacho.png",
     "infobox": {
@@ -6261,16 +8132,27 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": "Coach"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "vulcan",
-    "popularityRank": 999,
     "name": "Vulcan",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Vulcan",
+      "kanji": ""
+    },
     "position": "Forward; Defender",
     "teams": [],
     "nationality": "Saudi Arabian",
+    "physical": {
+      "BWY": {
+        "height_cm": 210,
+        "weight_kg": 120
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/vulcan.png",
     "infobox": {
@@ -6290,16 +8172,27 @@
       "nationality": "Saudi Arabian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "wang-zhongming",
-    "popularityRank": 999,
     "name": "Wang Zhongming",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Wang Zhongming",
+      "kanji": ""
+    },
     "position": "Forward; Wide midfielder",
     "teams": [],
     "nationality": "Chinese",
+    "physical": {
+      "BWY": {
+        "height_cm": 167,
+        "weight_kg": 54
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/wang-zhongming.png",
     "infobox": {
@@ -6319,16 +8212,27 @@
       "nationality": "Chinese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "wu-junren",
-    "popularityRank": 999,
     "name": "Wu Junren",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Wu Junren",
+      "kanji": ""
+    },
     "position": "MidfielderDefender",
     "teams": [],
     "nationality": "Chinese",
+    "physical": {
+      "BWY": {
+        "height_cm": 170,
+        "weight_kg": 58
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/wu-junren.png",
     "infobox": {
@@ -6348,16 +8252,22 @@
       "nationality": "Chinese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "xavii",
-    "popularityRank": 999,
     "name": "Xavii",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Xavii",
+      "kanji": ""
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "Spanish",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/xavii.png",
     "infobox": {
@@ -6377,16 +8287,27 @@
       "nationality": "Spanish",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "xiao-junguang",
-    "popularityRank": 33,
     "name": "Xiao Junguang",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Xiao Junguang",
+      "kanji": ""
+    },
     "position": "Not fixed",
     "teams": [],
     "nationality": "Chinese",
+    "physical": {
+      "BWY": {
+        "height_cm": 178,
+        "weight_kg": 68
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/xiao-junguang.png",
     "infobox": {
@@ -6406,16 +8327,22 @@
       "nationality": "Chinese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 33,
+    "popularityRank": 33
   },
   {
     "slug": "yasuaki-konno",
-    "popularityRank": 999,
     "name": "Yasuaki Konno",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Yasuaki Konno",
+      "kanji": ""
+    },
     "position": "Defensive midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yasuaki-konno.png",
     "infobox": {
@@ -6435,16 +8362,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yayoi-aoba",
-    "popularityRank": 999,
-    "name": "Yayoi Aoba青葉 弥生",
-    "japaneseName": "",
+    "name": "Yayoi Aoba",
+    "japaneseName": "青葉 弥生",
+    "nameSplit": {
+      "latin": "Yayoi Aoba",
+      "kanji": "青葉 弥生"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "default": {
+        "height_cm": 152,
+        "weight_kg": 48
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/yayoi-aoba.png",
     "infobox": {
@@ -6464,16 +8402,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Assistant nurse;Medical University studentMusashi manager (former)"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yoshiko-fujisawa",
-    "popularityRank": 46,
-    "name": "Yoshiko Fujisawa藤沢 美子",
-    "japaneseName": "",
+    "name": "Yoshiko Fujisawa",
+    "japaneseName": "藤沢 美子",
+    "nameSplit": {
+      "latin": "Yoshiko Fujisawa",
+      "kanji": "藤沢 美子"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yoshiko-fujisawa.png",
     "infobox": {
@@ -6493,16 +8437,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "University student;Furano manager (former)"
-    }
+    },
+    "popularity": 46,
+    "popularityRank": 46
   },
   {
     "slug": "yoshiko-yamaoka",
-    "popularityRank": 999,
-    "name": "Yoshiko Yamaoka山岡 美子",
-    "japaneseName": "",
+    "name": "Yoshiko Yamaoka",
+    "japaneseName": "山岡 美子",
+    "nameSplit": {
+      "latin": "Yoshiko Yamaoka",
+      "kanji": "山岡 美子"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yoshiko-yamaoka.png",
     "infobox": {
@@ -6522,16 +8472,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yoshito-otsubo",
-    "popularityRank": 999,
-    "name": "Yoshito Otsubo大坪 嘉人",
-    "japaneseName": "",
+    "name": "Yoshito Otsubo",
+    "japaneseName": "大坪 嘉人",
+    "nameSplit": {
+      "latin": "Yoshito Otsubo",
+      "kanji": "大坪 嘉人"
+    },
     "position": "Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yoshito-otsubo.png",
     "infobox": {
@@ -6551,16 +8507,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yuji-sakaki",
-    "popularityRank": 999,
     "name": "Yuji Sakaki",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Yuji Sakaki",
+      "kanji": ""
+    },
     "position": "Defender",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yuji-sakaki.png",
     "infobox": {
@@ -6580,16 +8542,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yuji-soga",
-    "popularityRank": 999,
     "name": "Yuji Soga",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Yuji Soga",
+      "kanji": ""
+    },
     "position": "Defender;Forward",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yuji-soga.png",
     "infobox": {
@@ -6609,16 +8577,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yukari-ishizaki",
-    "popularityRank": 999,
-    "name": "Yukari Ishizaki石崎 ゆかり",
-    "japaneseName": "",
+    "name": "Yukari Ishizaki",
+    "japaneseName": "石崎 ゆかり",
+    "nameSplit": {
+      "latin": "Yukari Ishizaki",
+      "kanji": "石崎 ゆかり"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yukari-ishizaki.png",
     "infobox": {
@@ -6638,16 +8612,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Kindergarten teacher; school assistant manager (former)"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yuki-tobe",
-    "popularityRank": 999,
     "name": "Yuki Tobe",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Yuki Tobe",
+      "kanji": ""
+    },
     "position": "Midfielder",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yuki-tobe.png",
     "infobox": {
@@ -6667,16 +8647,22 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yumiko-yamaoka",
-    "popularityRank": 999,
-    "name": "Yumiko Yamaoka山岡 由美子",
-    "japaneseName": "",
+    "name": "Yumiko Yamaoka",
+    "japaneseName": "山岡 由美子",
+    "nameSplit": {
+      "latin": "Yumiko Yamaoka",
+      "kanji": "山岡 由美子"
+    },
     "position": "",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/yumiko-yamaoka.png",
     "infobox": {
@@ -6696,16 +8682,35 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": "Housewife"
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "yuzo-morisaki",
-    "popularityRank": 999,
-    "name": "Yuzo Morisaki森崎 有三",
-    "japaneseName": "",
+    "name": "Yuzo Morisaki",
+    "japaneseName": "森崎 有三",
+    "nameSplit": {
+      "latin": "Yuzo Morisaki",
+      "kanji": "森崎 有三"
+    },
     "position": "Goalkeeper",
     "teams": [],
     "nationality": "Japanese",
+    "physical": {
+      "BWY": {
+        "height_cm": 175,
+        "weight_kg": 65
+      },
+      "JBC": {
+        "height_cm": 168,
+        "weight_kg": 69
+      },
+      "KD": {
+        "height_cm": 158,
+        "weight_kg": 45
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/yuzo-morisaki.png",
     "infobox": {
@@ -6725,16 +8730,27 @@
       "nationality": "Japanese",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "zangiev",
-    "popularityRank": 999,
     "name": "Zangiev",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Zangiev",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Uzbek",
+    "physical": {
+      "BWY": {
+        "height_cm": 178,
+        "weight_kg": 71
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/zangiev.png",
     "infobox": {
@@ -6754,16 +8770,27 @@
       "nationality": "Uzbek",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "zaragoza",
-    "popularityRank": 999,
     "name": "Zaragoza",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Zaragoza",
+      "kanji": ""
+    },
     "position": "Attacking midfielder",
     "teams": [],
     "nationality": "Mexican",
+    "physical": {
+      "BWY": {
+        "height_cm": 176,
+        "weight_kg": 64
+      }
+    },
     "description": "",
     "image": "/assets/images/olive-et-tom/zaragoza.png",
     "infobox": {
@@ -6783,16 +8810,22 @@
       "nationality": "Mexican",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   },
   {
     "slug": "zevic",
-    "popularityRank": 999,
     "name": "Zevic",
     "japaneseName": "",
+    "nameSplit": {
+      "latin": "Zevic",
+      "kanji": ""
+    },
     "position": "Wide midfielder",
     "teams": [],
     "nationality": "Australian",
+    "physical": {},
     "description": "",
     "image": "/assets/images/olive-et-tom/zevic.png",
     "infobox": {
@@ -6812,6 +8845,8 @@
       "nationality": "Australian",
       "status": "",
       "occupation": ""
-    }
+    },
+    "popularity": 999,
+    "popularityRank": 999
   }
 ]

@@ -182,14 +182,26 @@ function shouldShowJapaneseName(character) {
 }
 
 function normalizeCharacter(character) {
-  const name = formatSlugLikeValue(character.name);
-  const japaneseName = formatSlugLikeValue(character.japaneseName);
-  const teams = Array.isArray(character.teams)
-    ? character.teams.map(formatSlugLikeValue).filter(Boolean)
+  const rawName =
+    (character.nameSplit && character.nameSplit.latin) ||
+    (typeof character.name === "object" && character.name ? character.name.latin : "") ||
+    character.name;
+  const rawJapaneseName =
+    (character.nameSplit && character.nameSplit.kanji) ||
+    (typeof character.name === "object" && character.name ? character.name.kanji : "") ||
+    character.japaneseName;
+
+  const name = formatSlugLikeValue(rawName);
+  const japaneseName = formatSlugLikeValue(rawJapaneseName);
+  const rawTeams = Array.isArray(character.teams)
+    ? character.teams
+    : Array.isArray(character.equipes)
+    ? character.equipes
     : [];
+  const teams = rawTeams.map(formatSlugLikeValue).filter(Boolean);
   const description = String(character.description || "").trim();
-  const normalizedPosition = normalizePosition(character.position);
-  const normalizedNationality = normalizeNationality(character.nationality);
+  const normalizedPosition = normalizePosition(character.position || character.poste);
+  const normalizedNationality = normalizeNationality(character.nationality || character.nationalite);
 
   const searchableText = toComparable(
     [
