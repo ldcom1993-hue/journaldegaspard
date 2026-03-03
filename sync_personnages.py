@@ -11,6 +11,7 @@ Behavior:
 
 from __future__ import annotations
 
+import html
 import json
 import re
 import unicodedata
@@ -44,6 +45,8 @@ INFOBOX_FIELDS = [
     "status",
     "occupation",
 ]
+
+ARC_CODES = ("RT", "BWY", "JBC", "WY", "G23", "RS", "MS", "ES", "KD")
 
 TEMPLATE_PREFIXES = (
     "Character",
@@ -180,13 +183,142 @@ def extract_template_block(wikitext: str) -> str:
 def normalize_infobox_value(value: str) -> str:
     value = re.sub(r"<!--.*?-->", "", value, flags=re.DOTALL)
     value = re.sub(r"<ref[^>]*>.*?</ref>", "", value, flags=re.IGNORECASE | re.DOTALL)
+    value = re.sub(r"<br\s*/?>", "\n", value, flags=re.IGNORECASE)
     value = re.sub(r"<[^>]+>", "", value)
     value = re.sub(r"\{\{(?:lang\|ja\|)?([^{}|]+(?:\|[^{}|]+)*)\}\}", lambda m: m.group(1).split("|")[-1], value)
     value = re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", value)
     value = re.sub(r"\[https?://[^\s\]]+\s*([^\]]*)\]", r"\1", value)
     value = re.sub(r"''+", "", value)
+    value = html.unescape(value)
+    value = re.sub(r"\bClick\s*'?\s*Expand'?\s*(?:to\s*view)?\b", "", value, flags=re.IGNORECASE)
     value = re.sub(r"\s+", " ", value)
     return value.strip(" |")
+
+
+def clean_text(value: str) -> str:
+    text = normalize_infobox_value(value)
+    text = re.sub(r"\s*\(\s*\)", "", text)
+    text = re.sub(r"\s*[,;]\s*$", "", text)
+    return text.strip()
+
+
+def to_int(value: str) -> int | None:
+    match = re.search(r"(\d+)", value)
+    if not match:
+        return None
+    return int(match.group(1))
+
+
+def parse_measurements_by_arc(raw_value: str, unit: str) -> dict[str, int]:
+    cleaned = clean_text(raw_value)
+    if not cleaned:
+        return {}
+
+    pairs = re.findall(rf"(\d+)\s*{unit}\s*(?:\(([^)]+)\))?", cleaned, flags=re.IGNORECASE)
+    if not pairs:
+        value = to_int(cleaned)
+        return {"default": value} if value is not None else {}
+
+    parsed: dict[str, int] = {}
+    default_values: list[int] = []
+    for value_text, arc_text in pairs:
+        value = int(value_text)
+        arcs = [arc.strip().upper() for arc in re.split(r"[/,&]", arc_text or "") if arc.strip()]
+        normalized_arcs = [arc for arc in arcs if arc in ARC_CODES]
+
+        if not normalized_arcs:
+            default_values.append(value)
+            continue
+
+        for arc in normalized_arcs:
+            parsed[arc] = value
+
+    if parsed:
+        return parsed
+    if default_values:
+        return {"default": default_values[0]}
+    return {}
+
+
+def parse_physical(infobox: dict[str, str]) -> dict[str, dict[str, int]]:
+    heights = parse_measurements_by_arc(infobox.get("height", ""), "cm")
+    weights = parse_measurements_by_arc(infobox.get("weight", ""), "kg")
+
+    arc_keys = list(dict.fromkeys(list(heights.keys()) + list(weights.keys())))
+    physical: dict[str, dict[str, int]] = {}
+    for arc in arc_keys:
+        arc_data: dict[str, int] = {}
+        if arc in heights:
+            arc_data["height_cm"] = heights[arc]
+        if arc in weights:
+            arc_data["weight_kg"] = weights[arc]
+        if arc_data:
+            physical[arc] = arc_data
+
+    return physical
+
+
+def split_name_fields(infobox: dict[str, str], title: str) -> dict[str, str]:
+    latin_source = clean_text(infobox.get("romaji", "") or infobox.get("name", "") or title)
+    japanese_source = clean_text(infobox.get("japanese", "") or infobox.get("name", ""))
+
+    kanji_match = " ".join(re.findall(r"[\u3040-\u30ff\u3400-\u9fff]+", japanese_source)).strip()
+    latin_candidate = re.sub(r"[\u3040-\u30ff\u3400-\u9fff]+", "", latin_source).strip()
+    latin_candidate = re.sub(r"\s+", " ", latin_candidate)
+    name: dict[str, str] = {"latin": latin_candidate or title}
+    if kanji_match:
+        name["kanji"] = kanji_match
+    return name
+
+
+def split_list_field(value: str) -> list[str]:
+    cleaned = clean_text(value)
+    if not cleaned:
+        return []
+
+    items: list[str] = []
+    for piece in re.split(r"(?:\n|,|;|/)", cleaned):
+        entry = piece.strip(" -*•")
+        if not entry:
+            continue
+        if entry not in items:
+            items.append(entry)
+    return items
+
+
+TRANSLATION_MAP = {
+    " is a ": " est ",
+    " in the manga and anime series ": " dans la série manga et anime ",
+    " manga series ": " série manga ",
+    " anime series ": " série animée ",
+    " from ": " de ",
+    " who plays as ": " qui joue au poste de ",
+    " midfielder": " milieu",
+    " defender": " défenseur",
+    " forward": " attaquant",
+    " goalkeeper": " gardien",
+    " captain": " capitaine",
+    " player": " joueur",
+    " team": " équipe",
+    " national team": " équipe nationale",
+    " japanese": " japonais",
+    " brazilian": " brésilien",
+    " german": " allemand",
+    " french": " français",
+    " argentine": " argentin",
+}
+
+
+def translate_description_to_french(text: str) -> str:
+    translated = clean_text(text)
+    if not translated:
+        return ""
+
+    for source, target in TRANSLATION_MAP.items():
+        translated = re.sub(re.escape(source), target, translated, flags=re.IGNORECASE)
+
+    translated = re.sub(r"\s+", " ", translated).strip()
+    return translated
 
 
 def extract_infobox_fields(wikitext: str) -> dict[str, str]:
@@ -286,19 +418,6 @@ def download_image_if_needed(slug: str, image_url: str | None) -> str:
     return web_path
 
 
-def parse_teams(infobox: dict[str, str]) -> list[str]:
-    raw_parts = [infobox.get("team", ""), infobox.get("former_team", "")]
-    teams: list[str] = []
-    for part in raw_parts:
-        if not part:
-            continue
-        pieces = [p.strip() for p in re.split(r"(?:<br\s*/?>|,|;|\n)", part) if p.strip()]
-        for piece in pieces:
-            if piece not in teams:
-                teams.append(piece)
-    return teams
-
-
 def name_from_slug(slug: str) -> str:
     return " ".join(part.capitalize() for part in slug.split("-") if part)
 
@@ -309,23 +428,28 @@ def is_invalid_infobox_name(name: str) -> bool:
 
 def build_record(title: str, infobox: dict[str, str], description: str, image_path: str) -> dict[str, Any]:
     slug = slugify(title)
-    raw_name = (infobox.get("name") or "").strip()
+    raw_name = clean_text(infobox.get("name") or "")
     if raw_name and is_invalid_infobox_name(raw_name):
         display_name = name_from_slug(slug)
         print(f"[name-fixed-from-slug] {slug}")
     else:
         display_name = raw_name or title
 
+    name = split_name_fields(infobox, display_name)
+    equipes = split_list_field(infobox.get("team", ""))
+    anciennes_equipes = split_list_field(infobox.get("former_team", ""))
+
     return {
         "slug": slug,
-        "name": display_name,
-        "japaneseName": infobox.get("japanese", ""),
-        "position": infobox.get("position", ""),
-        "teams": parse_teams(infobox),
-        "nationality": infobox.get("nationality", ""),
-        "description": description,
+        "name": name,
+        "poste": clean_text(infobox.get("position", "")),
+        "equipes": equipes,
+        "anciennes_equipes": anciennes_equipes,
+        "nationalite": clean_text(infobox.get("nationality", "")),
+        "physical": parse_physical(infobox),
+        "description": translate_description_to_french(description),
         "image": image_path,
-        "infobox": infobox,
+        "popularity": 999,
     }
 
 
@@ -345,39 +469,64 @@ def load_existing_records() -> list[dict[str, Any]]:
 def merge_missing_fields(existing: dict[str, Any], incoming: dict[str, Any]) -> bool:
     changed = False
 
-    existing_name = existing.get("name")
-    incoming_name = incoming.get("name")
-    if isinstance(existing_name, str) and isinstance(incoming_name, str):
-        if is_invalid_infobox_name(existing_name) and not is_empty(incoming_name):
-            existing["name"] = incoming_name
-            changed = True
-
-    for key in ("name", "japaneseName", "position", "nationality", "description", "image"):
+    for key in ("name", "poste", "equipes", "anciennes_equipes", "nationalite", "physical", "description", "image", "popularity"):
         if is_empty(existing.get(key)) and not is_empty(incoming.get(key)):
             existing[key] = incoming[key]
             changed = True
 
-    if is_empty(existing.get("teams")) and not is_empty(incoming.get("teams")):
-        existing["teams"] = incoming["teams"]
-        changed = True
-
-    existing_infobox = existing.get("infobox")
-    if not isinstance(existing_infobox, dict):
-        existing_infobox = {}
-        existing["infobox"] = existing_infobox
-
-    incoming_infobox = incoming.get("infobox", {})
-    if isinstance(incoming_infobox, dict):
-        for field in INFOBOX_FIELDS:
-            if is_empty(existing_infobox.get(field)) and not is_empty(incoming_infobox.get(field)):
-                existing_infobox[field] = incoming_infobox[field]
+    if isinstance(existing.get("name"), dict) and isinstance(incoming.get("name"), dict):
+        for name_key in ("latin", "kanji"):
+            if is_empty(existing["name"].get(name_key)) and not is_empty(incoming["name"].get(name_key)):
+                existing["name"][name_key] = incoming["name"][name_key]
                 changed = True
 
     return changed
 
 
+def migrate_legacy_record(record: dict[str, Any]) -> dict[str, Any]:
+    infobox = record.get("infobox") if isinstance(record.get("infobox"), dict) else {}
+    name_value = record.get("name")
+
+    if isinstance(name_value, dict):
+        latin_value = clean_text(name_value.get("latin", "") or "")
+        latin_value = re.sub(r"[\u3040-\u30ff\u3400-\u9fff]+", "", latin_value).strip()
+        latin_value = re.sub(r"\s+", " ", latin_value)
+        name = {"latin": latin_value or clean_text(str(record.get("slug", "")))}
+        kanji = clean_text(name_value.get("kanji", "") or "")
+        if kanji:
+            name["kanji"] = kanji
+    else:
+        fallback_title = clean_text(str(name_value or record.get("slug", "")))
+        name = split_name_fields(
+            {
+                "name": fallback_title,
+                "romaji": "",
+                "japanese": str(record.get("japaneseName") or infobox.get("japanese") or ""),
+            },
+            fallback_title,
+        )
+
+    migrated = {
+        "slug": record.get("slug", ""),
+        "name": name,
+        "poste": clean_text(str(record.get("poste") or record.get("position") or infobox.get("position") or "")),
+        "equipes": record.get("equipes") if isinstance(record.get("equipes"), list) else (record.get("teams") if isinstance(record.get("teams"), list) else split_list_field(str(record.get("teams") or infobox.get("team") or ""))),
+        "anciennes_equipes": record.get("anciennes_equipes") if isinstance(record.get("anciennes_equipes"), list) else (record.get("former_team") if isinstance(record.get("former_team"), list) else split_list_field(str(infobox.get("former_team") or ""))),
+        "nationalite": clean_text(str(record.get("nationalite") or record.get("nationality") or infobox.get("nationality") or "")),
+        "physical": record.get("physical") if isinstance(record.get("physical"), dict) else parse_physical(infobox),
+        "description": translate_description_to_french(str(record.get("description") or "")),
+        "image": str(record.get("image") or ""),
+        "popularity": int(record.get("popularity") or record.get("popularityRank") or 999),
+    }
+
+    migrated["equipes"] = [team for i, team in enumerate(migrated["equipes"]) if team and team not in migrated["equipes"][:i]]
+    migrated["anciennes_equipes"] = [team for i, team in enumerate(migrated["anciennes_equipes"]) if team and team not in migrated["anciennes_equipes"][:i]]
+
+    return migrated
+
+
 def needs_refresh(existing: dict[str, Any]) -> bool:
-    keys_to_check = ("name", "japaneseName", "position", "nationality", "description", "image", "teams", "infobox")
+    keys_to_check = ("name", "poste", "nationalite", "image")
     if any(is_empty(existing.get(key)) for key in keys_to_check):
         return True
 
@@ -389,7 +538,7 @@ def main() -> None:
     IMAGE_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
 
-    existing_records = load_existing_records()
+    existing_records = [migrate_legacy_record(record) for record in load_existing_records()]
     records_by_slug: dict[str, dict[str, Any]] = {}
 
     for record in existing_records:
@@ -437,7 +586,7 @@ def main() -> None:
         print(f"[added] {title}")
 
     records = list(records_by_slug.values())
-    records.sort(key=lambda item: str(item.get("name", item.get("slug", ""))).casefold())
+    records.sort(key=lambda item: str(item.get("name", {}).get("latin", item.get("slug", ""))).casefold())
 
     with OUTPUT_JSON.open("w", encoding="utf-8") as handle:
         json.dump(records, handle, ensure_ascii=False, indent=2)
