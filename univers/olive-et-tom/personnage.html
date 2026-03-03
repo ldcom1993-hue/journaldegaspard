@@ -35,12 +35,23 @@
 
       .character-detail-shell {
         margin-top: 1rem;
-        background: var(--card-bg);
-        border: 1px solid var(--card-border);
-        border-radius: var(--radius-lg);
-        box-shadow: var(--shadow);
-        backdrop-filter: blur(6px);
+        background: rgba(15, 30, 55, 0.75);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 22px;
+        box-shadow:
+          0 14px 40px rgba(0, 0, 0, 0.55),
+          0 0 30px rgba(110, 193, 255, 0.08);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
         overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .character-detail-shell:hover {
+        transform: translateY(-4px);
+        box-shadow:
+          0 18px 50px rgba(0, 0, 0, 0.65),
+          0 0 40px rgba(110, 193, 255, 0.12);
       }
 
       .character-detail-loading,
@@ -64,14 +75,15 @@
       .character-detail-content {
         display: grid;
         gap: 1rem;
-        padding: 1rem;
+        padding: 1.8rem;
       }
 
       .character-detail-media {
         position: relative;
-        border-radius: var(--radius-md);
+        border-radius: 18px;
         overflow: hidden;
-        background: #eff3ff;
+        background: rgba(11, 18, 33, 0.7);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
       }
 
       .character-detail-image {
@@ -84,11 +96,12 @@
       .character-detail-main h2 {
         margin: 0;
         font-size: clamp(1.45rem, 3vw, 2rem);
+        color: #ffffff;
       }
 
       .character-detail-jp {
         margin: 0.45rem 0 0;
-        color: var(--muted-color);
+        color: #9fb8d6;
       }
 
       .character-detail-badges {
@@ -102,11 +115,11 @@
         display: inline-flex;
         align-items: center;
         border-radius: 999px;
-        background: #e0eafe;
-        color: #1e3a8a;
+        background: rgba(110, 193, 255, 0.15);
+        color: #cfe6ff;
         font-weight: 700;
-        font-size: 0.84rem;
-        padding: 0.28rem 0.7rem;
+        font-size: 0.85rem;
+        padding: 0.3rem 0.8rem;
       }
 
       .character-detail-block {
@@ -116,28 +129,42 @@
       .character-detail-block h3 {
         margin: 0 0 0.5rem;
         font-size: 1rem;
+        color: #ffffff;
       }
 
       .character-detail-block p,
       .character-detail-block ul {
         margin: 0;
-        color: var(--muted-color);
+        color: #e6edf7;
         line-height: 1.6;
       }
 
       .character-detail-block ul {
-        padding-left: 1.1rem;
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .character-detail-block li {
+        background: rgba(110, 193, 255, 0.15);
+        border-radius: 999px;
+        padding: 0.3rem 0.8rem;
+        font-size: 0.85rem;
+        color: #cfe6ff;
       }
 
       .character-infobox {
         margin-top: 0.6rem;
-        border-top: 1px solid #dbe3f4;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
         padding-top: 1rem;
       }
 
       .character-infobox h3 {
         margin: 0 0 0.75rem;
         font-size: 1rem;
+        color: #ffffff;
       }
 
       .character-infobox-grid {
@@ -151,20 +178,20 @@
         grid-template-columns: minmax(120px, 34%) 1fr;
         gap: 0.55rem;
         align-items: start;
-        background: #f8faff;
-        border: 1px solid #e1e8f8;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.12);
         border-radius: 10px;
         padding: 0.55rem 0.65rem;
       }
 
       .infobox-key {
-        color: #1f2937;
+        color: #cfe6ff;
         font-weight: 700;
         font-size: 0.88rem;
       }
 
       .infobox-value {
-        color: var(--muted-color);
+        color: #9fb8d6;
         font-size: 0.9rem;
         line-height: 1.45;
         word-break: break-word;
@@ -174,7 +201,7 @@
         .character-detail-content {
           grid-template-columns: minmax(280px, 360px) 1fr;
           gap: 1.15rem;
-          padding: 1.15rem;
+          padding: 1.8rem;
         }
 
         .character-infobox-grid {
