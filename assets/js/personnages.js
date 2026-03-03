@@ -225,7 +225,7 @@ function createCard(character, index) {
   const team = card.querySelector(".character-team");
   const description = card.querySelector(".character-description");
 
-  link.href = `/univers/olive-et-tom/personnages/${character.slug}.html`;
+  link.href = `/univers/olive-et-tom/personnage.html?slug=${encodeURIComponent(character.slug)}`;
 
   const fallbackImage = makePlaceholder(character.name || "Personnage");
   image.onerror = () => {
