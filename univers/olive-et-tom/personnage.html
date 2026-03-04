@@ -157,6 +157,62 @@
         color: #cfe6ff;
       }
 
+      .detail-cards-grid {
+        margin-top: 1.1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+      }
+
+      .detail-card {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.13);
+        border-radius: 14px;
+        padding: 0.8rem 0.9rem;
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.34);
+      }
+
+      .detail-card h3 {
+        margin: 0 0 0.55rem;
+        font-size: 0.95rem;
+        color: #ffffff;
+      }
+
+      .detail-card-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 0.45rem;
+      }
+
+      .detail-card-list li {
+        color: #e6edf7;
+        line-height: 1.5;
+      }
+
+      .detail-card-list li strong {
+        color: #cfe6ff;
+      }
+
+      .character-detail-kanji-muted {
+        color: #9fb8d6;
+        font-size: 0.88rem;
+      }
+
+      .fandom-details {
+        margin-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        padding-top: 0.8rem;
+      }
+
+      .fandom-details summary {
+        cursor: pointer;
+        color: #cfe6ff;
+        font-weight: 700;
+        margin-bottom: 0.7rem;
+      }
+
       .character-infobox {
         margin-top: 0.6rem;
         border-top: 1px solid rgba(255, 255, 255, 0.12);
@@ -207,6 +263,10 @@
         }
 
         .character-infobox-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .detail-cards-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
       }
@@ -313,47 +373,70 @@
       }
 
       function getNameData(character) {
-        const nameSplit = character.nameSplit && typeof character.nameSplit === "object"
-          ? character.nameSplit
-          : null;
-
         const latinName = safeText(
-          nameSplit?.latin ||
+          (typeof character.name === "object" && character.name ? character.name.latin : "") ||
           (typeof character.name === "string" ? character.name : "") ||
-          (typeof character.name === "object" ? character.name?.latin : "")
+          character.nameSplit?.latin
         ) || "Personnage";
 
-        const japaneseName = safeText(
-          nameSplit?.kanji ||
+        const kanjiName = safeText(
+          (typeof character.name === "object" && character.name ? character.name.kanji : "") ||
           character.japaneseName ||
-          (typeof character.name === "object" ? character.name?.kanji : "")
+          character.nameSplit?.kanji
         );
 
-        return { latinName, japaneseName };
+        return { latinName, kanjiName };
+      }
+
+      function normalizePositionForDetail(rawPosition) {
+        const key = safeText(rawPosition).toLowerCase();
+
+        if (!key || key === "unknown") {
+          return "Autre";
+        }
+
+        if (key.includes("goalkeeper")) {
+          return "Goalkeeper";
+        }
+
+        if (key.includes("defender")) {
+          return "Defender";
+        }
+
+        if (key.includes("midfielder")) {
+          return "Midfielder";
+        }
+
+        if (key.includes("forward")) {
+          return "Forward";
+        }
+
+        return "Autre";
+      }
+
+      function positionUiLabel(position) {
+        const map = {
+          Goalkeeper: "Gardien",
+          Defender: "Défenseur",
+          Midfielder: "Milieu",
+          Forward: "Attaquant",
+          Autre: "Autre"
+        };
+
+        return map[position] || "Autre";
       }
 
       function getCharacterValue(character, primaryKey, legacyKey) {
         return safeText(character[primaryKey] || character[legacyKey]);
       }
 
-      function getTeams(character, infobox) {
-        const rawTeams = Array.isArray(character.teams)
-          ? character.teams
-          : Array.isArray(character.equipes)
-          ? character.equipes
-          : [];
+      function getTeams(character) {
+        const currentTeams = Array.isArray(character.equipes) ? character.equipes : [];
+        const formerTeams = Array.isArray(character.anciennes_equipes) ? character.anciennes_equipes : [];
+        const legacyTeams = Array.isArray(character.teams) ? character.teams : [];
+        const allTeams = [...currentTeams, ...formerTeams, ...legacyTeams].map(safeText).filter(Boolean);
 
-        const teams = rawTeams.map(safeText).filter(Boolean);
-        const currentTeam = safeText(infobox.team);
-        const formerTeam = safeText(infobox.former_team);
-
-        [currentTeam, formerTeam].forEach((teamName) => {
-          if (teamName && !teams.includes(teamName)) {
-            teams.push(teamName);
-          }
-        });
-
-        return { teams, currentTeam, formerTeam };
+        return allTeams.filter((team, index) => allTeams.indexOf(team) === index);
       }
 
       function sortArcKeys(keys) {
@@ -369,42 +452,34 @@
         });
       }
 
-      function renderPhysicalSection(title, physical, fieldKey, unit) {
-        const arcEntries = Object.entries(physical || {})
-          .filter(([, arcData]) => arcData && Number.isFinite(Number(arcData[fieldKey])));
+      function renderPhysicalRows(physical) {
+        const rows = sortArcKeys(Object.keys(physical || {})).map((arc) => {
+          const arcData = physical?.[arc] || {};
+          const height = Number.isFinite(Number(arcData.height_cm)) ? `${Number(arcData.height_cm)} cm` : "";
+          const weight = Number.isFinite(Number(arcData.weight_kg)) ? `${Number(arcData.weight_kg)} kg` : "";
 
-        if (!arcEntries.length) {
-          return "";
-        }
-
-        const sortedEntries = sortArcKeys(arcEntries.map(([arc]) => arc)).map((arc) => {
-          const matchingEntry = arcEntries.find(([entryArc]) => entryArc === arc);
-          if (!matchingEntry) {
+          if (!height && !weight) {
             return "";
           }
 
-          const value = Number(matchingEntry[1][fieldKey]);
           const arcLabel = arc === "default" ? "Valeur" : arc;
-          return `<p>${escapeHtml(arcLabel)} : ${escapeHtml(String(value))} ${unit}</p>`;
-        }).join("");
+          return `<li><strong>${escapeHtml(arcLabel)}</strong> · ${[height, weight].filter(Boolean).join(" · ")}</li>`;
+        }).filter(Boolean);
 
-        if (!sortedEntries) {
-          return "";
-        }
-
-        return `
-          <div class="character-detail-block">
-            <h3>${escapeHtml(title)}</h3>
-            ${sortedEntries}
-          </div>
-        `;
+        return rows.length ? rows.join("") : '<li>Non renseigné</li>';
       }
 
       function buildInfoboxRows(infobox) {
+        const hiddenInfoboxKeys = new Set(["height", "weight", "team", "former_team", "name"]);
+
         return Object.entries(infoboxLabels)
           .map(([key, label]) => {
+            if (hiddenInfoboxKeys.has(key)) {
+              return "";
+            }
+
             const value = safeText(infobox[key]);
-            if (!value) {
+            if (!value || value.toLowerCase().includes("click \"expand\" to view")) {
               return "";
             }
 
@@ -423,21 +498,20 @@
         loadingState.hidden = true;
 
         const infobox = character.infobox && typeof character.infobox === "object" ? character.infobox : {};
-        const { latinName, japaneseName } = getNameData(character);
-        const position = getCharacterValue(character, "position", "poste");
-        const nationality = getCharacterValue(character, "nationality", "nationalite");
+        const { latinName, kanjiName } = getNameData(character);
+        const rawPosition = safeText(character.poste || character.position);
+        const normalizedPosition = normalizePositionForDetail(rawPosition);
+        const positionLabel = positionUiLabel(normalizedPosition);
+        const nationality = getCharacterValue(character, "nationalite", "nationality");
         const description = safeText(character.description);
         const physical = character.physical && typeof character.physical === "object" ? character.physical : {};
-        const { teams } = getTeams(character, infobox);
+        const teams = getTeams(character);
         const imageSrc = safeText(character.image) || makePlaceholder(latinName);
 
         const infoboxRows = buildInfoboxRows(infobox);
-        const heightSection = renderPhysicalSection("Taille", physical, "height_cm", "cm");
-        const weightSection = renderPhysicalSection("Poids", physical, "weight_kg", "kg");
+        const physicalRows = renderPhysicalRows(physical);
 
-        const teamsMarkup = teams.length
-          ? `<ul>${teams.map((team) => `<li>${escapeHtml(team)}</li>`).join("")}</ul>`
-          : "<p>Non renseigné</p>";
+        const teamsMarkup = teams.length ? teams.map((team) => `<li>${escapeHtml(team)}</li>`).join("") : "<li>Non renseigné</li>";
 
         shell.innerHTML = `
           <div class="character-detail-content">
@@ -447,32 +521,48 @@
 
             <div class="character-detail-main">
               <h2>${escapeHtml(latinName)}</h2>
-              ${japaneseName ? `<p class="character-detail-jp">${escapeHtml(japaneseName)}</p>` : ""}
+              ${kanjiName ? `<p class="character-detail-jp">${escapeHtml(kanjiName)}</p>` : ""}
 
               <div class="character-detail-badges">
-                ${position ? `<span class="character-badge">${escapeHtml(position)}</span>` : ""}
+                <span class="character-badge">${escapeHtml(positionLabel)}</span>
                 ${nationality ? `<span class="character-badge">${escapeHtml(nationality)}</span>` : ""}
               </div>
 
-              <div class="character-detail-block">
-                <h3>Équipes (actuelle + anciennes)</h3>
-                ${teamsMarkup}
-              </div>
+              <section class="detail-cards-grid" aria-label="Informations personnage">
+                <article class="detail-card">
+                  <h3>Identité</h3>
+                  <ul class="detail-card-list">
+                    <li><strong>Nom</strong> · ${escapeHtml(latinName)}</li>
+                    ${kanjiName ? `<li><strong>Nom kanji</strong> · <span class="character-detail-kanji-muted">${escapeHtml(kanjiName)}</span></li>` : ""}
+                    <li><strong>Nationalité</strong> · ${nationality ? escapeHtml(nationality) : "Non renseignée"}</li>
+                    <li><strong>Poste</strong> · ${escapeHtml(positionLabel)}</li>
+                  </ul>
+                </article>
 
-              ${heightSection}
-              ${weightSection}
+                <article class="detail-card">
+                  <h3>Équipes</h3>
+                  <ul class="detail-card-list">${teamsMarkup}</ul>
+                </article>
 
-              <div class="character-detail-block">
-                <h3>Description</h3>
-                <p>${description ? escapeHtml(description) : "Aucune description disponible."}</p>
-              </div>
+                <article class="detail-card">
+                  <h3>Physique</h3>
+                  <ul class="detail-card-list">${physicalRows}</ul>
+                </article>
 
-              <section class="character-infobox" aria-label="Infobox complète">
-                <h3>Informations complémentaires</h3>
-                <div class="character-infobox-grid">
-                  ${infoboxRows || '<p class="infobox-value">Aucune information supplémentaire disponible.</p>'}
-                </div>
+                <article class="detail-card">
+                  <h3>Description</h3>
+                  <p>${description ? escapeHtml(description) : "Aucune description disponible."}</p>
+                </article>
               </section>
+
+              ${infoboxRows ? `
+                <details class="fandom-details">
+                  <summary>Détails (Fandom)</summary>
+                  <section class="character-infobox" aria-label="Infobox complète">
+                    <div class="character-infobox-grid">${infoboxRows}</div>
+                  </section>
+                </details>
+              ` : ""}
             </div>
           </div>
         `;
