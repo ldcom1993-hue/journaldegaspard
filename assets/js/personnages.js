@@ -227,11 +227,15 @@ function normalizeCharacter(character) {
     searchableText,
     popularity: Number.isFinite(Number(character.popularity))
       ? Number(character.popularity)
-      : Number.isFinite(Number(character.popularityRank))
-      ? -Number(character.popularityRank)
-      : 0,
+      : 999,
     element: null
   };
+}
+
+function sortByPopularity(a, b) {
+  const pa = Number.isFinite(a.popularity) ? a.popularity : 999;
+  const pb = Number.isFinite(b.popularity) ? b.popularity : 999;
+  return pa - pb;
 }
 
 function setText(element, value) {
@@ -375,19 +379,27 @@ function renderCharacters(data) {
 function sortCharacters(mode) {
   console.log("Sorting mode:", mode);
 
-  const sortedCharacters = [...charactersData].sort((a, b) => {
-    if (mode === "az") {
-      return a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
-    }
+  const sortedCharacters = charactersData
+    .map((character, index) => ({ character, index }))
+    .sort((a, b) => {
+      if (mode === "az") {
+        const value = a.character.name.localeCompare(b.character.name, "fr", {
+          sensitivity: "base"
+        });
+        return value || a.index - b.index;
+      }
 
-    if (mode === "za") {
-      return b.name.localeCompare(a.name, "fr", { sensitivity: "base" });
-    }
+      if (mode === "za") {
+        const value = b.character.name.localeCompare(a.character.name, "fr", {
+          sensitivity: "base"
+        });
+        return value || a.index - b.index;
+      }
 
-    const aPopularity = Number.isFinite(Number(a.popularity)) ? Number(a.popularity) : 0;
-    const bPopularity = Number.isFinite(Number(b.popularity)) ? Number(b.popularity) : 0;
-    return bPopularity - aPopularity;
-  });
+      const value = sortByPopularity(a.character, b.character);
+      return value || a.index - b.index;
+    })
+    .map(({ character }) => character);
 
   renderCharacters(sortedCharacters);
 }
