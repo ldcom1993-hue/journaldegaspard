@@ -200,70 +200,11 @@
         font-size: 0.88rem;
       }
 
-      .fandom-details {
-        margin-top: 1rem;
-        border-top: 1px solid rgba(255, 255, 255, 0.12);
-        padding-top: 0.8rem;
-      }
-
-      .fandom-details summary {
-        cursor: pointer;
-        color: #cfe6ff;
-        font-weight: 700;
-        margin-bottom: 0.7rem;
-      }
-
-      .character-infobox {
-        margin-top: 0.6rem;
-        border-top: 1px solid rgba(255, 255, 255, 0.12);
-        padding-top: 1rem;
-      }
-
-      .character-infobox h3 {
-        margin: 0 0 0.75rem;
-        font-size: 1rem;
-        color: #ffffff;
-      }
-
-      .character-infobox-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.5rem;
-      }
-
-      .infobox-row {
-        display: grid;
-        grid-template-columns: minmax(120px, 34%) 1fr;
-        gap: 0.55rem;
-        align-items: start;
-        background: rgba(255, 255, 255, 0.04);
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 10px;
-        padding: 0.55rem 0.65rem;
-      }
-
-      .infobox-key {
-        color: #cfe6ff;
-        font-weight: 700;
-        font-size: 0.88rem;
-      }
-
-      .infobox-value {
-        color: #9fb8d6;
-        font-size: 0.9rem;
-        line-height: 1.45;
-        word-break: break-word;
-      }
-
       @media (min-width: 860px) {
         .character-detail-content {
           grid-template-columns: minmax(280px, 360px) 1fr;
           gap: 1.15rem;
           padding: 1.8rem;
-        }
-
-        .character-infobox-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
         .detail-cards-grid {
@@ -308,25 +249,6 @@
     <script>
       const shell = document.querySelector("#character-detail-shell");
       const loadingState = document.querySelector("#loading-state");
-
-      const infoboxLabels = {
-        name: "Nom",
-        japanese: "Nom japonais",
-        romaji: "Romaji",
-        alias: "Alias",
-        gender: "Genre",
-        birthday: "Anniversaire",
-        age: "Âge",
-        height: "Taille",
-        weight: "Poids",
-        blood: "Groupe sanguin",
-        position: "Poste",
-        team: "Équipe actuelle",
-        former_team: "Ancienne équipe",
-        nationality: "Nationalité",
-        status: "Statut",
-        occupation: "Occupation"
-      };
 
       const PHYSICAL_ARC_ORDER = ["RT", "BWY", "JBC", "WY", "G23", "RS", "MS", "ES", "KD", "default"];
 
@@ -469,35 +391,9 @@
         return rows.length ? rows.join("") : '<li>Non renseigné</li>';
       }
 
-      function buildInfoboxRows(infobox) {
-        const hiddenInfoboxKeys = new Set(["height", "weight", "team", "former_team", "name"]);
-
-        return Object.entries(infoboxLabels)
-          .map(([key, label]) => {
-            if (hiddenInfoboxKeys.has(key)) {
-              return "";
-            }
-
-            const value = safeText(infobox[key]);
-            if (!value || value.toLowerCase().includes("click \"expand\" to view")) {
-              return "";
-            }
-
-            return `
-              <div class="infobox-row">
-                <div class="infobox-key">${escapeHtml(label)}</div>
-                <div class="infobox-value">${escapeHtml(value)}</div>
-              </div>
-            `;
-          })
-          .filter(Boolean)
-          .join("");
-      }
-
       function renderCharacter(character) {
         loadingState.hidden = true;
 
-        const infobox = character.infobox && typeof character.infobox === "object" ? character.infobox : {};
         const { latinName, kanjiName } = getNameData(character);
         const rawPosition = safeText(character.poste || character.position);
         const normalizedPosition = normalizePositionForDetail(rawPosition);
@@ -508,7 +404,6 @@
         const teams = getTeams(character);
         const imageSrc = safeText(character.image) || makePlaceholder(latinName);
 
-        const infoboxRows = buildInfoboxRows(infobox);
         const physicalRows = renderPhysicalRows(physical);
 
         const teamsMarkup = teams.length ? teams.map((team) => `<li>${escapeHtml(team)}</li>`).join("") : "<li>Non renseigné</li>";
@@ -554,15 +449,6 @@
                   <p>${description ? escapeHtml(description) : "Aucune description disponible."}</p>
                 </article>
               </section>
-
-              ${infoboxRows ? `
-                <details class="fandom-details">
-                  <summary>Détails (Fandom)</summary>
-                  <section class="character-infobox" aria-label="Infobox complète">
-                    <div class="character-infobox-grid">${infoboxRows}</div>
-                  </section>
-                </details>
-              ` : ""}
             </div>
           </div>
         `;
