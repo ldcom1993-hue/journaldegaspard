@@ -134,7 +134,33 @@ function formatSlugLikeValue(value) {
 }
 
 function normalizePosition(position) {
-  const key = toComparable(position);
+  const rawPosition =
+    typeof position === "object" && position
+      ? position.position || position.poste || ""
+      : position;
+
+  const key = toComparable(rawPosition);
+
+  if (!key || key === "unknown") {
+    return "Autre";
+  }
+
+  if (key.includes("goalkeeper")) {
+    return "Goalkeeper";
+  }
+
+  if (key.includes("defender")) {
+    return "Defender";
+  }
+
+  if (key.includes("midfielder")) {
+    return "Midfielder";
+  }
+
+  if (key.includes("forward")) {
+    return "Forward";
+  }
+
   return POSITION_MAP[key] || "Autre";
 }
 
