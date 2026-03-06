@@ -207,6 +207,14 @@ function shouldShowJapaneseName(character) {
   return JAPANESE_NAME_ALLOWED_PREFIXES.some((prefix) => character.name.startsWith(prefix));
 }
 
+
+function relationDisplayName(item) {
+  if (item && typeof item === "object") {
+    return formatSlugLikeValue(item.name || item.slug || "");
+  }
+  return formatSlugLikeValue(item);
+}
+
 function normalizeCharacter(character) {
   const rawName =
     (character.nameSplit && character.nameSplit.latin) ||
@@ -224,7 +232,7 @@ function normalizeCharacter(character) {
     : Array.isArray(character.equipes)
     ? character.equipes
     : [];
-  const teams = rawTeams.map(formatSlugLikeValue).filter(Boolean);
+  const teams = rawTeams.map(relationDisplayName).filter(Boolean);
   const description = String(character.description || "").trim();
   const normalizedPosition = normalizePosition(character.position || character.poste);
   const normalizedNationality = normalizeNationality(character.nationality || character.nationalite);

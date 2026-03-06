@@ -157,6 +157,15 @@
         color: #cfe6ff;
       }
 
+      .detail-chip-link {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .detail-chip-link:hover {
+        text-decoration: underline;
+      }
+
       .detail-cards-grid {
         margin-top: 1.1rem;
         display: grid;
@@ -352,13 +361,73 @@
         return safeText(character[primaryKey] || character[legacyKey]);
       }
 
+      function normalizeRelationItem(item, fallbackBasePath) {
+        if (item && typeof item === "object") {
+          const slug = safeText(item.slug);
+          const name = safeText(item.name || item.slug);
+          const url = safeText(item.url) || (slug ? `${fallbackBasePath}${encodeURIComponent(slug)}` : "");
+          if (!name) {
+            return null;
+          }
+          return { slug, name, url };
+        }
+
+        const name = safeText(item);
+        if (!name) {
+          return null;
+        }
+
+        const slug = name
+          .normalize("NFD")
+          .replace(/[̀-ͯ]/g, "")
+          .toLowerCase()
+          .replace(/[^a-z0-9\s-]/g, "")
+          .replace(/\s+/g, "-")
+          .replace(/-+/g, "-")
+          .replace(/^-|-$/g, "");
+
+        return {
+          slug,
+          name,
+          url: slug ? `${fallbackBasePath}${encodeURIComponent(slug)}` : ""
+        };
+      }
+
+      function dedupeRelations(items) {
+        const unique = [];
+        const seen = new Set();
+
+        items.forEach((item) => {
+          if (!item) {
+            return;
+          }
+          const key = item.slug || item.name.toLowerCase();
+          if (seen.has(key)) {
+            return;
+          }
+          seen.add(key);
+          unique.push(item);
+        });
+
+        return unique;
+      }
+
       function getTeams(character) {
         const currentTeams = Array.isArray(character.equipes) ? character.equipes : [];
         const formerTeams = Array.isArray(character.anciennes_equipes) ? character.anciennes_equipes : [];
-        const legacyTeams = Array.isArray(character.teams) ? character.teams : [];
-        const allTeams = [...currentTeams, ...formerTeams, ...legacyTeams].map(safeText).filter(Boolean);
+        const standardTeams = Array.isArray(character.teams) ? character.teams : [];
+        return dedupeRelations(
+          [...currentTeams, ...formerTeams, ...standardTeams].map((item) =>
+            normalizeRelationItem(item, "/univers/olive-et-tom/equipe.html?slug=")
+          )
+        );
+      }
 
-        return allTeams.filter((team, index) => allTeams.indexOf(team) === index);
+      function getTechniques(character) {
+        const techniques = Array.isArray(character.techniques) ? character.techniques : [];
+        return dedupeRelations(
+          techniques.map((item) => normalizeRelationItem(item, "/univers/olive-et-tom/technique.html?slug="))
+        );
       }
 
       function sortArcKeys(keys) {
@@ -402,11 +471,22 @@
         const description = safeText(character.description);
         const physical = character.physical && typeof character.physical === "object" ? character.physical : {};
         const teams = getTeams(character);
+        const techniques = getTechniques(character);
         const imageSrc = safeText(character.image) || makePlaceholder(latinName);
 
         const physicalRows = renderPhysicalRows(physical);
 
-        const teamsMarkup = teams.length ? teams.map((team) => `<li>${escapeHtml(team)}</li>`).join("") : "<li>Non renseigné</li>";
+        const teamsMarkup = teams.length
+          ? teams
+              .map((team) => `<li>${team.url ? `<a class="detail-chip-link" href="${escapeHtml(team.url)}">${escapeHtml(team.name)}</a>` : escapeHtml(team.name)}</li>`)
+              .join("")
+          : "<li>Non renseigné</li>";
+
+        const techniquesMarkup = techniques.length
+          ? techniques
+              .map((technique) => `<li>${technique.url ? `<a class="detail-chip-link" href="${escapeHtml(technique.url)}">${escapeHtml(technique.name)}</a>` : escapeHtml(technique.name)}</li>`)
+              .join("")
+          : "<li>Non renseigné</li>";
 
         shell.innerHTML = `
           <div class="character-detail-content">
@@ -437,6 +517,11 @@
                 <article class="detail-card">
                   <h3>Équipes</h3>
                   <ul class="detail-card-list">${teamsMarkup}</ul>
+                </article>
+
+                <article class="detail-card">
+                  <h3>Techniques</h3>
+                  <ul class="detail-card-list">${techniquesMarkup}</ul>
                 </article>
 
                 <article class="detail-card">
