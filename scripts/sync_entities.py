@@ -14,8 +14,8 @@ import json
 from pathlib import Path
 from typing import Any
 
-from fandom.client import fetch_category_titles, fetch_intro_extract, fetch_page_wikitext
-from fandom.extract_teams import extract_teams_from_infobox
+from fandom.client import fetch_category_titles, fetch_intro_extract, fetch_page_html, fetch_page_wikitext
+from fandom.extract_teams import extract_teams_from_infobox, extract_teams_from_page_html
 from fandom.extract_techniques import (
     build_technique_to_users_map,
     extract_techniques_from_infobox,
@@ -60,6 +60,9 @@ def main() -> None:
     team_links_by_character: dict[str, list[str]] = {}
     technique_links_by_character: dict[str, list[str]] = {}
 
+    characters_with_teams = 0
+    characters_with_techniques = 0
+
     print(f"[info] loaded {len(personnages)} characters from personnages.json")
     print(f"[info] found {len(title_by_slug)} character titles in Fandom category")
 
@@ -80,6 +83,14 @@ def main() -> None:
         infobox = extract_infobox_fields(wikitext)
 
         teams = extract_teams_from_infobox(infobox)
+        if not teams:
+            try:
+                page_html = fetch_page_html(title)
+            except RuntimeError as exc:
+                print(f"[warn] skip team html fallback for {slug}: {exc}")
+            else:
+                teams = extract_teams_from_page_html(page_html)
+
         if teams:
             team_links_by_character[slug] = teams
 
@@ -87,7 +98,7 @@ def main() -> None:
         if techniques:
             technique_links_by_character[slug] = techniques
 
-    print(f"[info] team links from infobox: {sum(len(v) for v in team_links_by_character.values())}")
+    print(f"[info] team links from infobox/html: {sum(len(v) for v in team_links_by_character.values())}")
     print(f"[info] technique links from infobox: {sum(len(v) for v in technique_links_by_character.values())}")
 
     # Robust source priority for techniques:
@@ -108,6 +119,11 @@ def main() -> None:
             technique_links_by_character.setdefault(user_slug, [])
             if technique_name not in technique_links_by_character[user_slug]:
                 technique_links_by_character[user_slug].append(technique_name)
+
+    characters_with_teams = sum(1 for links in team_links_by_character.values() if links)
+    characters_with_techniques = sum(1 for links in technique_links_by_character.values() if links)
+    print(f"[info] characters with teams extracted: {characters_with_teams}")
+    print(f"[info] characters with techniques extracted: {characters_with_techniques}")
 
     teams_payload: dict[str, dict[str, Any]] = {}
     techniques_payload: dict[str, dict[str, Any]] = {}
@@ -187,6 +203,8 @@ def main() -> None:
     safe_write_non_empty_list(TECHNIQUES_JSON, techniques, minimum_items=1, label="techniques.json")
     safe_write_non_empty_list(PERSONNAGES_JSON, personnages_sorted, minimum_items=50, label="personnages.json")
 
+    print(f"[info] total generated teams: {len(equipes)}")
+    print(f"[info] total generated techniques: {len(techniques)}")
     print(f"[ok] wrote {len(equipes)} teams to {EQUIPES_JSON}")
     print(f"[ok] wrote {len(techniques)} techniques to {TECHNIQUES_JSON}")
     print(f"[ok] updated {len(personnages_sorted)} characters in {PERSONNAGES_JSON}")

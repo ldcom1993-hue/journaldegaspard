@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 
 from .client import fetch_category_titles, fetch_page_links
-from .normalize import clean_text, normalize_entity_name, split_list_field
+from .normalize import clean_text, normalize_entity_name, split_list_field, slugify
 
 TECHNIQUE_INFOBOX_FIELDS = (
     "technique",
@@ -18,10 +18,7 @@ TECHNIQUE_INFOBOX_FIELDS = (
 )
 
 TECHNIQUE_CATEGORY_CANDIDATES = (
-    "Category:Special Techniques",
-    "Category:Special_Techniques",
-    "Category:Techniques",
-    "Category:Moves",
+    "Category:List of techniques",
 )
 
 
@@ -41,9 +38,43 @@ def _is_probable_technique_name(title: str) -> bool:
         return False
     if ":" in normalized:
         return False
-    if normalized.lower() in {"special techniques", "techniques", "moves"}:
+    if normalized.lower() in {"special techniques", "techniques", "moves", "list of techniques"}:
         return False
     return bool(re.search(r"[A-Za-z]", normalized))
+
+
+def _character_title_from_techniques_page(title: str) -> str | None:
+    cleaned = clean_text(title)
+    if not cleaned:
+        return None
+
+    if not cleaned.endswith("/Techniques"):
+        return None
+
+    character_title = cleaned[: -len("/Techniques")].strip()
+    return character_title or None
+
+
+def _is_probable_technique_link(title: str, owner_title: str) -> bool:
+    normalized = clean_text(title)
+    if not normalized:
+        return False
+    if normalized == owner_title:
+        return False
+    if normalized.startswith(("Category:", "Template:", "File:")):
+        return False
+    lowered = normalized.lower()
+    if lowered.endswith("/techniques"):
+        return False
+    if lowered in {
+        "techniques",
+        "special techniques",
+        "category:list of techniques",
+        "list of techniques",
+        "team",
+    }:
+        return False
+    return _is_probable_technique_name(normalized)
 
 
 def fetch_technique_titles_from_categories() -> list[str]:
@@ -55,8 +86,6 @@ def fetch_technique_titles_from_categories() -> list[str]:
             continue
 
         for title in candidates:
-            if not _is_probable_technique_name(title):
-                continue
             if title not in titles:
                 titles.append(title)
 
@@ -65,17 +94,28 @@ def fetch_technique_titles_from_categories() -> list[str]:
 
 def build_technique_to_users_map(technique_titles: list[str], known_character_titles: set[str]) -> dict[str, list[str]]:
     technique_to_users: dict[str, list[str]] = {}
+    known_character_slugs = {slugify(title): title for title in known_character_titles}
+
     for title in technique_titles:
+        character_title = _character_title_from_techniques_page(title)
+        if not character_title:
+            continue
+
+        character_slug = slugify(character_title)
+        canonical_character_title = known_character_slugs.get(character_slug)
+        if not canonical_character_title:
+            continue
+
         try:
             links = fetch_page_links(title)
         except RuntimeError:
             continue
 
-        users: list[str] = []
         for linked_title in links:
-            if linked_title in known_character_titles and linked_title not in users:
-                users.append(linked_title)
-
-        technique_to_users[title] = users
+            if not _is_probable_technique_link(linked_title, canonical_character_title):
+                continue
+            technique_to_users.setdefault(linked_title, [])
+            if canonical_character_title not in technique_to_users[linked_title]:
+                technique_to_users[linked_title].append(canonical_character_title)
 
     return technique_to_users

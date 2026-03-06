@@ -57,6 +57,18 @@ def fetch_page_wikitext(title: str) -> str:
     return payload.get("parse", {}).get("wikitext", {}).get("*", "")
 
 
+def fetch_page_html(title: str) -> str:
+    payload = api_get_json(
+        {
+            "action": "parse",
+            "page": title,
+            "prop": "text",
+            "format": "json",
+        }
+    )
+    return payload.get("parse", {}).get("text", {}).get("*", "")
+
+
 def fetch_intro_extract(title: str) -> str:
     payload = api_get_json(
         {
