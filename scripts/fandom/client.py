@@ -69,6 +69,54 @@ def fetch_page_html(title: str) -> str:
     return payload.get("parse", {}).get("text", {}).get("*", "")
 
 
+def fetch_page_sections(title: str) -> list[dict[str, str]]:
+    payload = api_get_json(
+        {
+            "action": "parse",
+            "page": title,
+            "prop": "sections",
+            "format": "json",
+        }
+    )
+    sections = payload.get("parse", {}).get("sections", [])
+    return [section for section in sections if isinstance(section, dict)]
+
+
+def fetch_page_section_html(title: str, section_index: int) -> str:
+    payload = api_get_json(
+        {
+            "action": "parse",
+            "page": title,
+            "section": str(section_index),
+            "prop": "text",
+            "format": "json",
+        }
+    )
+    return payload.get("parse", {}).get("text", {}).get("*", "")
+
+
+def fetch_page_section_links(title: str, section_index: int) -> list[str]:
+    links: list[str] = []
+    params: dict[str, Any] = {
+        "action": "parse",
+        "page": title,
+        "section": str(section_index),
+        "prop": "links",
+        "format": "json",
+    }
+
+    while True:
+        payload = api_get_json(params)
+        links.extend(str(link.get("*", "")).strip() for link in payload.get("parse", {}).get("links", []))
+
+        continuation = payload.get("continue")
+        if not continuation:
+            break
+        params.update(continuation)
+
+    return [item for item in links if item and not item.startswith(("Category:", "Template:", "File:"))]
+
+
 def fetch_intro_extract(title: str) -> str:
     payload = api_get_json(
         {

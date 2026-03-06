@@ -14,8 +14,20 @@ import json
 from pathlib import Path
 from typing import Any
 
-from fandom.client import fetch_category_titles, fetch_intro_extract, fetch_page_html, fetch_page_wikitext
-from fandom.extract_teams import extract_teams_from_infobox, extract_teams_from_page_html
+from fandom.client import (
+    fetch_category_titles,
+    fetch_intro_extract,
+    fetch_page_section_html,
+    fetch_page_section_links,
+    fetch_page_sections,
+    fetch_page_wikitext,
+)
+from fandom.extract_teams import (
+    extract_teams_from_infobox,
+    extract_teams_from_page_section_html,
+    extract_teams_from_section_links,
+    find_team_section_indexes,
+)
 from fandom.extract_techniques import (
     build_technique_to_users_map,
     extract_techniques_from_infobox,
@@ -28,6 +40,7 @@ from fandom.writers import safe_write_non_empty_list
 PERSONNAGES_JSON = Path("assets/data/personnages.json")
 EQUIPES_JSON = Path("assets/data/equipes.json")
 TECHNIQUES_JSON = Path("assets/data/techniques.json")
+DEBUG_TEAM_TITLES = {"Kojiro Hyuga", "Tsubasa Ozora", "Genzo Wakabayashi"}
 
 
 def load_personnages() -> list[dict[str, Any]]:
@@ -60,8 +73,9 @@ def main() -> None:
     team_links_by_character: dict[str, list[str]] = {}
     technique_links_by_character: dict[str, list[str]] = {}
 
-    characters_with_teams = 0
-    characters_with_techniques = 0
+    total_team_sections_found = 0
+    characters_with_teams_via_team_section = 0
+    matched_character_titles = 0
 
     print(f"[info] loaded {len(personnages)} characters from personnages.json")
     print(f"[info] found {len(title_by_slug)} character titles in Fandom category")
@@ -73,6 +87,7 @@ def main() -> None:
         title = title_by_slug.get(slug)
         if not title:
             continue
+        matched_character_titles += 1
 
         try:
             wikitext = fetch_page_wikitext(title)
@@ -85,11 +100,54 @@ def main() -> None:
         teams = extract_teams_from_infobox(infobox)
         if not teams:
             try:
-                page_html = fetch_page_html(title)
+                sections = fetch_page_sections(title)
             except RuntimeError as exc:
-                print(f"[warn] skip team html fallback for {slug}: {exc}")
+                print(f"[warn] skip team sections fallback for {slug}: {exc}")
             else:
-                teams = extract_teams_from_page_html(page_html)
+                team_indexes = find_team_section_indexes(sections)
+                total_team_sections_found += len(team_indexes)
+
+                section_lines = [str(section.get("line", "")).strip() for section in sections]
+                if title in DEBUG_TEAM_TITLES:
+                    print(f"[debug][team] {title} sections: {section_lines}")
+                    print(f"[debug][team] {title} Team section indexes: {team_indexes}")
+
+                section_teams: list[str] = []
+                for section_index in team_indexes:
+                    section_links: list[str] = []
+                    try:
+                        section_links = fetch_page_section_links(title, section_index)
+                    except RuntimeError as exc:
+                        print(f"[warn] skip section links for {slug} (section={section_index}): {exc}")
+
+                    links_teams = extract_teams_from_section_links(section_links)
+                    if title in DEBUG_TEAM_TITLES:
+                        print(f"[debug][team] {title} section={section_index} links: {section_links}")
+
+                    if links_teams:
+                        for candidate in links_teams:
+                            if candidate not in section_teams:
+                                section_teams.append(candidate)
+                        continue
+
+                    try:
+                        section_html = fetch_page_section_html(title, section_index)
+                    except RuntimeError as exc:
+                        print(f"[warn] skip section html for {slug} (section={section_index}): {exc}")
+                        continue
+
+                    html_teams = extract_teams_from_page_section_html(section_html)
+                    for candidate in html_teams:
+                        if candidate not in section_teams:
+                            section_teams.append(candidate)
+
+                teams = section_teams
+
+                if title in DEBUG_TEAM_TITLES:
+                    print(f"[debug][team] {title} retained teams: {teams}")
+
+                if teams:
+                    characters_with_teams_via_team_section += 1
 
         if teams:
             team_links_by_character[slug] = teams
@@ -98,7 +156,10 @@ def main() -> None:
         if techniques:
             technique_links_by_character[slug] = techniques
 
-    print(f"[info] team links from infobox/html: {sum(len(v) for v in team_links_by_character.values())}")
+    print(f"[info] characters with matching Fandom title: {matched_character_titles}")
+    print(f"[info] total Team sections found: {total_team_sections_found}")
+    print(f"[info] characters with teams via Team section: {characters_with_teams_via_team_section}")
+    print(f"[info] team links from infobox/Team section: {sum(len(v) for v in team_links_by_character.values())}")
     print(f"[info] technique links from infobox: {sum(len(v) for v in technique_links_by_character.values())}")
 
     # Robust source priority for techniques:

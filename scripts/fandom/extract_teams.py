@@ -14,6 +14,19 @@ TEAM_INFOBOX_FIELDS = (
     "team_name",
 )
 
+TEAM_STRUCTURE_STOPWORDS = {
+    "team",
+    "teams",
+    "level",
+    "current career",
+    "past career",
+    "youth",
+    "high school",
+    "middle school",
+    "elementary school",
+    "club",
+    "olympic",
+}
 
 def extract_teams_from_infobox(infobox: dict[str, str]) -> list[str]:
     teams: list[str] = []
@@ -27,43 +40,47 @@ def extract_teams_from_infobox(infobox: dict[str, str]) -> list[str]:
                 teams.append(normalized)
     return teams
 
+def _is_structural_false_positive(candidate: str) -> bool:
+    lowered = candidate.strip().lower()
+    return lowered in TEAM_STRUCTURE_STOPWORDS
 
-def extract_teams_from_page_html(page_html: str) -> list[str]:
-    if not page_html:
-        return []
-
+def _dedupe_normalized(candidates: list[str]) -> list[str]:
     teams: list[str] = []
-
-    section_match = re.search(
-        r'<h[2-6][^>]*>\s*<span[^>]*>\s*Team\s*</span>\s*</h[2-6]>(.*?)(?=<h[2-6][^>]*>|$)',
-        page_html,
-        flags=re.IGNORECASE | re.DOTALL,
-    )
-    if not section_match:
-        return []
-
-    section_html = section_match.group(1)
-
-    for linked_team in re.findall(r'<a[^>]+title="([^"]+)"[^>]*>', section_html, flags=re.IGNORECASE):
-        normalized = normalize_entity_name(linked_team)
-        if not normalized:
-            continue
-        if normalized.lower() in {"team", "teams"}:
+    for candidate in candidates:
+        normalized = normalize_entity_name(candidate)
+        if not normalized or _is_structural_false_positive(normalized):
             continue
         if normalized not in teams:
             teams.append(normalized)
+    return teams
 
+def extract_teams_from_page_section_html(section_html: str) -> list[str]:
+    if not section_html:
+        return []
+
+    linked_titles = re.findall(r'<a[^>]+title="([^"]+)"[^>]*>', section_html, flags=re.IGNORECASE)
+    teams = _dedupe_normalized(linked_titles)
     if teams:
         return teams
 
     stripped = re.sub(r"<[^>]+>", " ", section_html)
-    for candidate in split_list_field(stripped):
-        normalized = normalize_entity_name(candidate)
-        if not normalized:
-            continue
-        if normalized.lower() in {"team", "teams"}:
-            continue
-        if normalized not in teams:
-            teams.append(normalized)
+    return _dedupe_normalized(split_list_field(stripped))
 
-    return teams
+def extract_teams_from_section_links(section_links: list[str]) -> list[str]:
+    return _dedupe_normalized(section_links)
+
+def find_team_section_indexes(sections: list[dict[str, str]]) -> list[int]:
+    indexes: list[int] = []
+    for section in sections:
+        line = normalize_entity_name(str(section.get("line", "")))
+        if line.lower() != "team":
+            continue
+
+        raw_index = str(section.get("index", "")).strip()
+        if not raw_index.isdigit():
+            continue
+
+        index = int(raw_index)
+        if index not in indexes:
+            indexes.append(index)
+    return indexes
