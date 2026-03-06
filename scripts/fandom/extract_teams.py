@@ -28,6 +28,158 @@ TEAM_STRUCTURE_STOPWORDS = {
     "olympic",
 }
 
+KNOWN_TEAM_SEEDS = {
+    "Nankatsu SC",
+    "Nankatsu MS",
+    "Nankatsu Elementary School",
+    "Shutetsu",
+    "Shutetsu SC",
+    "Meiwa FC",
+    "Toho Academy",
+    "Toho Academy MS",
+    "Toho Academy HS",
+    "Furano",
+    "Furano MS",
+    "Furano Elementary School",
+    "Musashi",
+    "Musashi FC",
+    "Musashi MS",
+    "Hanawa",
+    "Hanawa FC",
+    "Otomo",
+    "Otomo MS",
+    "Hirado",
+    "Hirado MS",
+    "Azumaichi",
+    "Naniwa",
+    "Minamiuwa",
+    "Akita",
+    "Ootomo",
+    "Tachibana Brothers Team",
+    "All Japan",
+    "All Japan Jr. Youth",
+    "Japan Jr. Youth",
+    "Japan Youth",
+    "All Japan Youth",
+    "Olympic Japan",
+    "Japan National Team",
+    "Japan",
+    "Brazil",
+    "Brazil Youth",
+    "Brazil National Team",
+    "Argentina",
+    "Argentina Youth",
+    "Argentina Jr. Youth",
+    "France",
+    "France Youth",
+    "Germany",
+    "Germany Youth",
+    "Hamburg",
+    "Hamburger SV",
+    "Bayern Munich",
+    "FC Bayern Munich",
+    "Werder Bremen",
+    "SV Werder Bremen",
+    "Borussia Dortmund",
+    "Juventus",
+    "Juventus FC",
+    "Inter Milan",
+    "AC Reggiana",
+    "Parma",
+    "FC Barcelona",
+    "Barcelona",
+    "Catalonia",
+    "Valencia",
+    "Real Madrid",
+    "Sao Paulo",
+    "CR Flamengo",
+    "Santos",
+    "Corinthians",
+    "River Plate",
+    "Boca Juniors",
+}
+
+PAGE_LINK_BLACKLIST = {
+    "Captain Tsubasa",
+    "Description",
+    "Biography",
+    "History",
+    "Trivia",
+    "Notes",
+    "External links",
+    "Gallery",
+    "Etymology",
+    "Techniques",
+    "List of techniques",
+    "Manga",
+    "Anime",
+    "Movie",
+    "OVA",
+    "Episode",
+    "Road to 2002",
+    "Golden-23",
+    "Rising Sun",
+    "World Youth",
+    "J Boys' Challenge",
+    "Kids' Dream",
+    "Battle of World Youth",
+    "Overseas Fierce Fights",
+}
+
+POSITIVE_TEAM_PATTERNS = (
+    "fc",
+    "sc",
+    "academy",
+    "youth",
+    "jr. youth",
+    "junior youth",
+    "hs",
+    "ms",
+    "elementary",
+    "school",
+    "national team",
+    "olympic",
+    "club",
+    "united",
+    "city",
+    "sv",
+    "ac",
+    "inter",
+    "borussia",
+    "bayern",
+    "juventus",
+    "barcelona",
+    "madrid",
+    "flamengo",
+    "santos",
+    "river",
+    "boca",
+)
+
+TEAM_FALSE_POSITIVE_PATTERNS = (
+    "arc",
+    "episode",
+    "chapter",
+    "manga",
+    "anime",
+    "movie",
+    "ova",
+    "soundtrack",
+    "opening",
+    "ending",
+    "navigation",
+    "template",
+    "category",
+    "list of",
+    "technique",
+    "dribble",
+    "shot",
+    "pass",
+)
+
+PAGE_LINK_BLACKLIST_LOWER = {item.lower() for item in PAGE_LINK_BLACKLIST}
+KNOWN_TEAM_SEEDS_LOWER = {item.lower() for item in KNOWN_TEAM_SEEDS}
+
 def extract_teams_from_infobox(infobox: dict[str, str]) -> list[str]:
     teams: list[str] = []
     for field in TEAM_INFOBOX_FIELDS:
@@ -68,6 +220,54 @@ def extract_teams_from_page_section_html(section_html: str) -> list[str]:
 
 def extract_teams_from_section_links(section_links: list[str]) -> list[str]:
     return _dedupe_normalized(section_links)
+
+
+def _contains_positive_team_pattern(candidate: str) -> bool:
+    lowered = candidate.lower()
+    candidate_words = set(re.findall(r"[a-z]+", lowered))
+    for pattern in POSITIVE_TEAM_PATTERNS:
+        if " " in pattern:
+            if pattern in lowered:
+                return True
+            continue
+        if pattern in candidate_words:
+            return True
+    return False
+
+
+def _is_false_positive_link(candidate: str) -> bool:
+    lowered = candidate.lower()
+    if lowered in PAGE_LINK_BLACKLIST_LOWER:
+        return True
+    return any(pattern in lowered for pattern in TEAM_FALSE_POSITIVE_PATTERNS)
+
+
+def extract_team_candidates_from_page_links(page_links: list[str], known_character_titles: set[str]) -> list[str]:
+    candidates: list[str] = []
+    known_character_titles_lower = {title.lower() for title in known_character_titles}
+
+    for link in page_links:
+        normalized = normalize_entity_name(link)
+        if not normalized:
+            continue
+
+        lowered = normalized.lower()
+        if lowered in known_character_titles_lower:
+            continue
+        if lowered.startswith(("category:", "template:", "file:")):
+            continue
+        if _is_structural_false_positive(normalized) or _is_false_positive_link(normalized):
+            continue
+
+        if lowered in KNOWN_TEAM_SEEDS_LOWER or _contains_positive_team_pattern(normalized):
+            candidates.append(normalized)
+
+    return candidates
+
+
+def extract_teams_from_page_links(page_links: list[str], known_character_titles: set[str]) -> list[str]:
+    candidates = extract_team_candidates_from_page_links(page_links, known_character_titles)
+    return _dedupe_normalized(candidates)
 
 def find_team_section_indexes(sections: list[dict[str, str]]) -> list[int]:
     indexes: list[int] = []

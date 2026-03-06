@@ -17,6 +17,7 @@ from typing import Any
 from fandom.client import (
     fetch_category_titles,
     fetch_intro_extract,
+    fetch_page_links,
     fetch_page_section_html,
     fetch_page_section_links,
     fetch_page_sections,
@@ -24,6 +25,8 @@ from fandom.client import (
 )
 from fandom.extract_teams import (
     extract_teams_from_infobox,
+    extract_team_candidates_from_page_links,
+    extract_teams_from_page_links,
     extract_teams_from_page_section_html,
     extract_teams_from_section_links,
     find_team_section_indexes,
@@ -75,6 +78,8 @@ def main() -> None:
 
     total_team_sections_found = 0
     characters_with_teams_via_team_section = 0
+    characters_with_teams_via_page_links = 0
+    total_page_link_team_candidates = 0
     matched_character_titles = 0
 
     print(f"[info] loaded {len(personnages)} characters from personnages.json")
@@ -149,6 +154,24 @@ def main() -> None:
                 if teams:
                     characters_with_teams_via_team_section += 1
 
+        if not teams:
+            try:
+                page_links = fetch_page_links(title)
+            except RuntimeError as exc:
+                print(f"[warn] skip page links team fallback for {slug}: {exc}")
+            else:
+                page_link_candidates = extract_team_candidates_from_page_links(page_links, known_character_titles)
+                teams = extract_teams_from_page_links(page_links, known_character_titles)
+                total_page_link_team_candidates += len(page_link_candidates)
+
+                if title in DEBUG_TEAM_TITLES:
+                    print(f"[debug][team] {title} page links count: {len(page_links)}")
+                    print(f"[debug][team] {title} page link team candidates: {page_link_candidates}")
+                    print(f"[debug][team] {title} final teams after page links fallback: {teams}")
+
+                if teams:
+                    characters_with_teams_via_page_links += 1
+
         if teams:
             team_links_by_character[slug] = teams
 
@@ -159,7 +182,9 @@ def main() -> None:
     print(f"[info] characters with matching Fandom title: {matched_character_titles}")
     print(f"[info] total Team sections found: {total_team_sections_found}")
     print(f"[info] characters with teams via Team section: {characters_with_teams_via_team_section}")
-    print(f"[info] team links from infobox/Team section: {sum(len(v) for v in team_links_by_character.values())}")
+    print(f"[info] characters with teams via page links: {characters_with_teams_via_page_links}")
+    print(f"[info] total team candidates retained from page links: {total_page_link_team_candidates}")
+    print(f"[info] team links from infobox/Team section/page links: {sum(len(v) for v in team_links_by_character.values())}")
     print(f"[info] technique links from infobox: {sum(len(v) for v in technique_links_by_character.values())}")
 
     # Robust source priority for techniques:
