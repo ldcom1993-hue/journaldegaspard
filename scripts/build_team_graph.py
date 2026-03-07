@@ -32,9 +32,11 @@ EQUIPES_JSON = Path("assets/data/equipes.json")
 
 TEAM_CATEGORY_CANDIDATES = (
     "Category:Teams",
-    "Category:School Teams",
+    "Category:Junior Youth Teams",
+    "Category:Middle School Teams",
+    "Category:High School Teams",
+    "Category:Professional Teams",
     "Category:National Teams",
-    "Category:Club Teams",
 )
 
 PLAYER_SECTION_KEYWORDS = (
