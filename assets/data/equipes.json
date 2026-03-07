@@ -9,21 +9,6 @@
     "image": "",
     "players": [
       {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "seemann",
-        "name": "Seemann",
-        "url": "/univers/olive-et-tom/personnage.html?slug=seemann"
-      },
-      {
         "slug": "stefan-levin",
         "name": "Stefan Levin",
         "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
@@ -47,43 +32,6 @@
     ]
   },
   {
-    "slug": "ac-milan",
-    "name": "AC Milan",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=ac-milan",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      }
-    ]
-  },
-  {
-    "slug": "ac-milan-juniores",
-    "name": "AC Milan Juniores",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=ac-milan-juniores",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "matteo",
-        "name": "Matteo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=matteo"
-      }
-    ]
-  },
-  {
     "slug": "ac-reggiana",
     "name": "AC Reggiana",
     "type": "club",
@@ -93,55 +41,14 @@
     "image": "",
     "players": [
       {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      },
-      {
         "slug": "iuliano-gozza",
         "name": "Iuliano Gozza",
         "url": "/univers/olive-et-tom/personnage.html?slug=iuliano-gozza"
       },
       {
-        "slug": "kaori-matsumoto",
-        "name": "Kaori Matsumoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kaori-matsumoto"
-      },
-      {
         "slug": "kojiro-hyuga",
         "name": "Kojiro Hyuga",
         "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "mazzantini",
-        "name": "Mazzantini",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mazzantini"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
-  },
-  {
-    "slug": "all-europe-jr-youth",
-    "name": "All Europe Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=all-europe-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "yayoi-aoba",
-        "name": "Yayoi Aoba",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yayoi-aoba"
       }
     ]
   },
@@ -155,64 +62,14 @@
     "image": "",
     "players": [
       {
-        "slug": "amoro",
-        "name": "Amoro",
-        "url": "/univers/olive-et-tom/personnage.html?slug=amoro"
-      },
-      {
-        "slug": "azumi-hayakawa",
-        "name": "Azumi Hayakawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=azumi-hayakawa"
-      },
-      {
-        "slug": "bossi",
-        "name": "Bossi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=bossi"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
         "slug": "genzo-wakabayashi",
         "name": "Genzo Wakabayashi",
         "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
       },
       {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
         "slug": "hiroshi-jito",
         "name": "Hiroshi Jito",
         "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "isamu-ichijo",
-        "name": "Isamu Ichijo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
       },
       {
         "slug": "kazuki-sorimachi",
@@ -225,24 +82,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
       },
       {
-        "slug": "kodai-ozora",
-        "name": "Kodai Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kodai-ozora"
-      },
-      {
         "slug": "kojiro-hyuga",
         "name": "Kojiro Hyuga",
         "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
       },
       {
         "slug": "makoto-soda",
@@ -255,11 +97,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
       },
       {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
         "slug": "masanori-kato",
         "name": "Masanori Kato",
         "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
@@ -268,11 +105,6 @@
         "slug": "mitsuru-sano",
         "name": "Mitsuru Sano",
         "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      },
-      {
-        "slug": "morimichi-kawakami",
-        "name": "Morimichi Kawakami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=morimichi-kawakami"
       },
       {
         "slug": "noboru-sawaki",
@@ -313,42 +145,6 @@
         "slug": "tsubasa-ozora",
         "name": "Tsubasa Ozora",
         "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "yayoi-aoba",
-        "name": "Yayoi Aoba",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yayoi-aoba"
-      },
-      {
-        "slug": "yumiko-yamaoka",
-        "name": "Yumiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yumiko-yamaoka"
-      }
-    ]
-  },
-  {
-    "slug": "all-japan-jr-youth-1986-film",
-    "name": "All Japan Jr. Youth (1986 film)",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-1986-film",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "munemasa-katagiri",
-        "name": "Munemasa Katagiri",
-        "url": "/univers/olive-et-tom/personnage.html?slug=munemasa-katagiri"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
       }
     ]
   },
@@ -378,54 +174,9 @@
     "image": "",
     "players": [
       {
-        "slug": "alvez",
-        "name": "Alvez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alvez"
-      },
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "chana-khongsawat",
-        "name": "Chana Khongsawat",
-        "url": "/univers/olive-et-tom/personnage.html?slug=chana-khongsawat"
-      },
-      {
-        "slug": "falan-khongsawat",
-        "name": "Falan Khongsawat",
-        "url": "/univers/olive-et-tom/personnage.html?slug=falan-khongsawat"
-      },
-      {
-        "slug": "fei-xiang",
-        "name": "Fei Xiang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
-      },
-      {
-        "slug": "garcia",
-        "name": "Garcia",
-        "url": "/univers/olive-et-tom/personnage.html?slug=garcia"
-      },
-      {
         "slug": "genzo-wakabayashi",
         "name": "Genzo Wakabayashi",
         "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "gert-keizer",
-        "name": "Gert Keizer",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gert-keizer"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
       },
       {
         "slug": "hanji-urabe",
@@ -433,34 +184,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
       },
       {
-        "slug": "hans-dolman",
-        "name": "Hans Dolman",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hans-dolman"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
         "slug": "hiroshi-jito",
         "name": "Hiroshi Jito",
         "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "ichiro-misaki",
-        "name": "Ichiro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ichiro-misaki"
-      },
-      {
-        "slug": "kaori-matsumoto",
-        "name": "Kaori Matsumoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kaori-matsumoto"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
       },
       {
         "slug": "kazuki-sorimachi",
@@ -478,31 +204,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
       },
       {
-        "slug": "kumi-sugimoto",
-        "name": "Kumi Sugimoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
-      },
-      {
-        "slug": "larson",
-        "name": "Larson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=larson"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong Un",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
-      },
-      {
-        "slug": "leon-dick",
-        "name": "Leon Dick",
-        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
         "slug": "makoto-soda",
         "name": "Makoto Soda",
         "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
@@ -511,11 +212,6 @@
         "slug": "mamoru-izawa",
         "name": "Mamoru Izawa",
         "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
       },
       {
         "slug": "minato-gamo",
@@ -528,41 +224,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
       },
       {
-        "slug": "munemasa-katagiri",
-        "name": "Munemasa Katagiri",
-        "url": "/univers/olive-et-tom/personnage.html?slug=munemasa-katagiri"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      },
-      {
-        "slug": "sakun-khongsawat",
-        "name": "Sakun Khongsawat",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sakun-khongsawat"
-      },
-      {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
-      },
-      {
         "slug": "shingo-takasugi",
         "name": "Shingo Takasugi",
         "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
@@ -571,26 +232,6 @@
         "slug": "shun-nitta",
         "name": "Shun Nitta",
         "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "singprasert-bunnag",
-        "name": "Singprasert Bunnag",
-        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "suarez",
-        "name": "Suarez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
-      },
-      {
-        "slug": "takeshi-furuoya",
-        "name": "Takeshi Furuoya",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-furuoya"
       },
       {
         "slug": "takeshi-kishida",
@@ -611,88 +252,6 @@
         "slug": "tsubasa-ozora",
         "name": "Tsubasa Ozora",
         "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "wang-zhongming",
-        "name": "Wang Zhongming",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wang-zhongming"
-      },
-      {
-        "slug": "wu-junren",
-        "name": "Wu Junren",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wu-junren"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      },
-      {
-        "slug": "yumiko-yamaoka",
-        "name": "Yumiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yumiko-yamaoka"
-      }
-    ]
-  },
-  {
-    "slug": "all-south-america-jr-youth",
-    "name": "All South America Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=all-south-america-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      }
-    ]
-  },
-  {
-    "slug": "argentina",
-    "name": "Argentina",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=argentina",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "galtoni",
-        "name": "Galtoni",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galtoni"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "savishe",
-        "name": "Savishe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=savishe"
-      },
-      {
-        "slug": "simeore",
-        "name": "Simeore",
-        "url": "/univers/olive-et-tom/personnage.html?slug=simeore"
-      },
-      {
-        "slug": "varon",
-        "name": "Varon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=varon"
       }
     ]
   },
@@ -714,21 +273,6 @@
         "slug": "galtoni",
         "name": "Galtoni",
         "url": "/univers/olive-et-tom/personnage.html?slug=galtoni"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
       }
     ]
   },
@@ -747,64 +291,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
       },
       {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
         "slug": "galvan",
         "name": "Galvan",
         "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
       },
       {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
         "slug": "juan-diaz",
         "name": "Juan Diaz",
         "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong Un",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
-      },
-      {
-        "slug": "leon-dick",
-        "name": "Leon Dick",
-        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
       },
       {
         "slug": "savishe",
@@ -839,11 +333,6 @@
     "image": "",
     "players": [
       {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
         "slug": "fersio-torres",
         "name": "Fersio Torres",
         "url": "/univers/olive-et-tom/personnage.html?slug=fersio-torres"
@@ -852,22 +341,6 @@
         "slug": "singprasert-bunnag",
         "name": "Singprasert Bunnag",
         "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      }
-    ]
-  },
-  {
-    "slug": "australia-national-team",
-    "name": "Australia national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=australia-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "giis-coleman",
-        "name": "Giis Coleman",
-        "url": "/univers/olive-et-tom/personnage.html?slug=giis-coleman"
       }
     ]
   },
@@ -884,16 +357,6 @@
         "slug": "makoto-soda",
         "name": "Makoto Soda",
         "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
-      },
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      },
-      {
-        "slug": "taichi-nakanishi",
-        "name": "Taichi Nakanishi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
       }
     ]
   },
@@ -912,113 +375,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=barsole-bara"
       },
       {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
         "slug": "luciano-leo",
         "name": "Luciano Leo",
         "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      }
-    ]
-  },
-  {
-    "slug": "bayern-jr-youth",
-    "name": "Bayern Jr. Youth",
-    "type": "club",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=bayern-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      }
-    ]
-  },
-  {
-    "slug": "bayern-munich",
-    "name": "Bayern Munich",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=bayern-munich",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
-    "slug": "belgium-jr-youth",
-    "name": "Belgium Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=belgium-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      }
-    ]
-  },
-  {
-    "slug": "belgium-national-team",
-    "name": "Belgium national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=belgium-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
       }
     ]
   },
@@ -1044,22 +403,6 @@
     ]
   },
   {
-    "slug": "bolanos-fc",
-    "name": "Bolanos FC",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=bolanos-fc",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "gakuto-igawa",
-        "name": "Gakuto Igawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gakuto-igawa"
-      }
-    ]
-  },
-  {
     "slug": "borussia-dortmund",
     "name": "Borussia Dortmund",
     "type": "club",
@@ -1072,22 +415,6 @@
         "slug": "schweil-teigerbran",
         "name": "Schweil Teigerbran",
         "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
-      }
-    ]
-  },
-  {
-    "slug": "borussia-dortmundnext-dream",
-    "name": "Borussia Dortmund/Next Dream",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=borussia-dortmundnext-dream",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "schmidt-brothers",
-        "name": "Schmidt Brothers",
-        "url": "/univers/olive-et-tom/personnage.html?slug=schmidt-brothers"
       }
     ]
   },
@@ -1113,102 +440,6 @@
     ]
   },
   {
-    "slug": "brazil",
-    "name": "Brazil",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=brazil",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "barsole-bara",
-        "name": "Barsole Bara",
-        "url": "/univers/olive-et-tom/personnage.html?slug=barsole-bara"
-      },
-      {
-        "slug": "cario",
-        "name": "Cario",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cario"
-      },
-      {
-        "slug": "carlos-teacher",
-        "name": "Carlos",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-teacher"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "danil-silva",
-        "name": "Danil Silva",
-        "url": "/univers/olive-et-tom/personnage.html?slug=danil-silva"
-      },
-      {
-        "slug": "flavio-conces",
-        "name": "Flavio Concés",
-        "url": "/univers/olive-et-tom/personnage.html?slug=flavio-conces"
-      },
-      {
-        "slug": "joao-aragones",
-        "name": "Joao Aragones",
-        "url": "/univers/olive-et-tom/personnage.html?slug=joao-aragones"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "marcos-almieja",
-        "name": "Marcos Almieja",
-        "url": "/univers/olive-et-tom/personnage.html?slug=marcos-almieja"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "riveldo",
-        "name": "Riveldo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=riveldo"
-      },
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      },
-      {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
-      }
-    ]
-  },
-  {
     "slug": "brazil-middle-school",
     "name": "Brazil (Middle school)",
     "type": "school",
@@ -1221,58 +452,6 @@
         "slug": "carlos-santana",
         "name": "Carlos Santana",
         "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
-    "slug": "brazil-jr-youth-ronc",
-    "name": "Brazil Jr. Youth (RoNC)",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=brazil-jr-youth-ronc",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
-    "slug": "brazil-national-team",
-    "name": "Brazil national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=brazil-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "danil-silva",
-        "name": "Danil Silva",
-        "url": "/univers/olive-et-tom/personnage.html?slug=danil-silva"
-      },
-      {
-        "slug": "joao-aragones",
-        "name": "Joao Aragones",
-        "url": "/univers/olive-et-tom/personnage.html?slug=joao-aragones"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
       }
     ]
   },
@@ -1291,84 +470,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
       },
       {
-        "slug": "brolin",
-        "name": "Brolin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
-      },
-      {
         "slug": "carlos-santana",
         "name": "Carlos Santana",
         "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
       },
       {
-        "slug": "danil-silva",
-        "name": "Danil Silva",
-        "url": "/univers/olive-et-tom/personnage.html?slug=danil-silva"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "fredericks",
-        "name": "Fredericks",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fredericks"
-      },
-      {
-        "slug": "hanji-urabe",
-        "name": "Hanji Urabe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "larson",
-        "name": "Larson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=larson"
-      },
-      {
         "slug": "luciano-leo",
         "name": "Luciano Leo",
         "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
       },
       {
         "slug": "natureza",
@@ -1381,29 +490,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
       },
       {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
         "slug": "roberto-hongo",
         "name": "Roberto Hongo",
         "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
       },
       {
         "slug": "salinas",
@@ -1411,71 +500,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
       },
       {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
         "slug": "tsubasa-ozora",
         "name": "Tsubasa Ozora",
         "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
-        "slug": "yoshiko-yamaoka",
-        "name": "Yoshiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-yamaoka"
-      }
-    ]
-  },
-  {
-    "slug": "brazil-youth-vs-japan-youth",
-    "name": "Brazil Youth vs. Japan Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth-vs-japan-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
-      }
-    ]
-  },
-  {
-    "slug": "bremen-jr-youth",
-    "name": "Bremen Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=bremen-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
       }
     ]
   },
@@ -1496,58 +523,6 @@
     ]
   },
   {
-    "slug": "cameroon-youth",
-    "name": "Cameroon Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=cameroon-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      }
-    ]
-  },
-  {
-    "slug": "canada-jr-youth",
-    "name": "Canada Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=canada-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      }
-    ]
-  },
-  {
     "slug": "captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
     "name": "Captain Tsubasa: Saikyo no Teki! Holanda Youth (1994 film)",
     "type": "national",
@@ -1560,11 +535,6 @@
         "slug": "genzo-wakabayashi",
         "name": "Genzo Wakabayashi",
         "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
       }
     ]
   },
@@ -1578,189 +548,9 @@
     "image": "",
     "players": [
       {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "alvez",
-        "name": "Alvez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alvez"
-      },
-      {
-        "slug": "barsole-bara",
-        "name": "Barsole Bara",
-        "url": "/univers/olive-et-tom/personnage.html?slug=barsole-bara"
-      },
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "brolin",
-        "name": "Brolin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
-      },
-      {
-        "slug": "cario",
-        "name": "Cario",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cario"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "chana-khongsawat",
-        "name": "Chana Khongsawat",
-        "url": "/univers/olive-et-tom/personnage.html?slug=chana-khongsawat"
-      },
-      {
-        "slug": "falan-khongsawat",
-        "name": "Falan Khongsawat",
-        "url": "/univers/olive-et-tom/personnage.html?slug=falan-khongsawat"
-      },
-      {
-        "slug": "fei-xiang",
-        "name": "Fei Xiang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
-      },
-      {
-        "slug": "fredericks",
-        "name": "Fredericks",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fredericks"
-      },
-      {
-        "slug": "garcia",
-        "name": "Garcia",
-        "url": "/univers/olive-et-tom/personnage.html?slug=garcia"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "kaori-matsumoto",
-        "name": "Kaori Matsumoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kaori-matsumoto"
-      },
-      {
-        "slug": "katarina-karen",
-        "name": "Katarina Karen",
-        "url": "/univers/olive-et-tom/personnage.html?slug=katarina-karen"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "larson",
-        "name": "Larson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=larson"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong Un",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
-      },
-      {
-        "slug": "leon-dick",
-        "name": "Leon Dick",
-        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
-      },
-      {
-        "slug": "lopez",
-        "name": "Lopez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lopez"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "maki-akamine",
-        "name": "Maki Akamine",
-        "url": "/univers/olive-et-tom/personnage.html?slug=maki-akamine"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "matteo",
-        "name": "Matteo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=matteo"
-      },
-      {
-        "slug": "michel-yamada",
-        "name": "Michel Yamada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-yamada"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "nicola-bassi",
-        "name": "Nicola Bassi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=nicola-bassi"
-      },
-      {
-        "slug": "nobuyuki-yumikura",
-        "name": "Nobuyuki Yumikura",
-        "url": "/univers/olive-et-tom/personnage.html?slug=nobuyuki-yumikura"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
         "slug": "ryoma-hino",
         "name": "Ryoma Hino",
         "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "sakun-khongsawat",
-        "name": "Sakun Khongsawat",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sakun-khongsawat"
-      },
-      {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
       },
       {
         "slug": "shingo-aoi",
@@ -1768,79 +558,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
       },
       {
-        "slug": "singprasert-bunnag",
-        "name": "Singprasert Bunnag",
-        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      },
-      {
         "slug": "stefan-levin",
         "name": "Stefan Levin",
         "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "suarez",
-        "name": "Suarez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
-      },
-      {
-        "slug": "takashi-sugimoto",
-        "name": "Takashi Sugimoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takashi-sugimoto"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "tomeya-akai",
-        "name": "Tomeya Akai",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tomeya-akai"
-      },
-      {
-        "slug": "toshiya-okano",
-        "name": "Toshiya Okano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=toshiya-okano"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
-        "slug": "wang-zhongming",
-        "name": "Wang Zhongming",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wang-zhongming"
-      },
-      {
-        "slug": "wu-junren",
-        "name": "Wu Junren",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wu-junren"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      },
-      {
-        "slug": "yuji-sakaki",
-        "name": "Yuji Sakaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuji-sakaki"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
-      },
-      {
-        "slug": "zangiev",
-        "name": "Zangiev",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zangiev"
-      },
-      {
-        "slug": "zaragoza",
-        "name": "Zaragoza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
       }
     ]
   },
@@ -1857,101 +577,6 @@
         "slug": "brian-cruyfford",
         "name": "Brian Cruyfford",
         "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "daichi-ozora",
-        "name": "Daichi Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=daichi-ozora"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "gert-keizer",
-        "name": "Gert Keizer",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gert-keizer"
-      },
-      {
-        "slug": "hans-dolman",
-        "name": "Hans Dolman",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hans-dolman"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "johan-rensenbrink",
-        "name": "Johan Rensenbrink",
-        "url": "/univers/olive-et-tom/personnage.html?slug=johan-rensenbrink"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "kumi-sugimoto",
-        "name": "Kumi Sugimoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
-      },
-      {
-        "slug": "leon-dick",
-        "name": "Leon Dick",
-        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "ruud-krisman",
-        "name": "Ruud Krisman",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ruud-krisman"
-      },
-      {
-        "slug": "taichi-nakanishi",
-        "name": "Taichi Nakanishi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
       }
     ]
   },
@@ -1970,46 +595,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
       },
       {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
         "slug": "wang-zhongming",
         "name": "Wang Zhongming",
         "url": "/univers/olive-et-tom/personnage.html?slug=wang-zhongming"
@@ -2023,78 +608,6 @@
         "slug": "xiao-junguang",
         "name": "Xiao Junguang",
         "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      },
-      {
-        "slug": "yayoi-aoba",
-        "name": "Yayoi Aoba",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yayoi-aoba"
-      },
-      {
-        "slug": "zangiev",
-        "name": "Zangiev",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zangiev"
-      }
-    ]
-  },
-  {
-    "slug": "chinese-taipei-youth",
-    "name": "Chinese Taipei Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=chinese-taipei-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "singprasert-bunnag",
-        "name": "Singprasert Bunnag",
-        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      }
-    ]
-  },
-  {
-    "slug": "colombia-youth",
-    "name": "Colombia Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "brolin",
-        "name": "Brolin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "fredericks",
-        "name": "Fredericks",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fredericks"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "larson",
-        "name": "Larson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=larson"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
       }
     ]
   },
@@ -2116,16 +629,6 @@
         "slug": "luciano-leo",
         "name": "Luciano Leo",
         "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -2138,21 +641,6 @@
     "description": "",
     "image": "",
     "players": [
-      {
-        "slug": "amoro",
-        "name": "Amoro",
-        "url": "/univers/olive-et-tom/personnage.html?slug=amoro"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
       {
         "slug": "robson",
         "name": "Robson",
@@ -2196,16 +684,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=bobang"
       },
       {
-        "slug": "iuliano-gozza",
-        "name": "Iuliano Gozza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=iuliano-gozza"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
         "slug": "marco-vecchio",
         "name": "Marco Vecchio",
         "url": "/univers/olive-et-tom/personnage.html?slug=marco-vecchio"
@@ -2232,11 +710,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
       },
       {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
         "slug": "karl-heinz-schneider",
         "name": "Karl Heinz Schneider",
         "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
@@ -2245,11 +718,6 @@
         "slug": "rudi-frank-schneider",
         "name": "Rudi Frank Schneider",
         "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "seemann",
-        "name": "Seemann",
-        "url": "/univers/olive-et-tom/personnage.html?slug=seemann"
       },
       {
         "slug": "stefan-levin",
@@ -2273,24 +741,9 @@
     "image": "",
     "players": [
       {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
         "slug": "karl-heinz-schneider",
         "name": "Karl Heinz Schneider",
         "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
       }
     ]
   },
@@ -2343,22 +796,6 @@
     ]
   },
   {
-    "slug": "fc-internazionale-milano",
-    "name": "FC Internazionale Milano",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=fc-internazionale-milano",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      }
-    ]
-  },
-  {
     "slug": "fc-tokyo",
     "name": "FC Tokyo",
     "type": "club",
@@ -2368,76 +805,9 @@
     "image": "",
     "players": [
       {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
         "slug": "jun-misugi",
         "name": "Jun Misugi",
         "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      }
-    ]
-  },
-  {
-    "slug": "flamengo",
-    "name": "Flamengo",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=flamengo",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
-    "slug": "france",
-    "name": "France",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=france",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "amoro",
-        "name": "Amoro",
-        "url": "/univers/olive-et-tom/personnage.html?slug=amoro"
-      },
-      {
-        "slug": "bossi",
-        "name": "Bossi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=bossi"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "makelolo",
-        "name": "Makelolo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makelolo"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "thoram",
-        "name": "Thoram",
-        "url": "/univers/olive-et-tom/personnage.html?slug=thoram"
       }
     ]
   },
@@ -2461,70 +831,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=bossi"
       },
       {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
         "slug": "elle-sid-pierre",
         "name": "Elle Sid Pierre",
         "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
       },
       {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
         "slug": "louis-napoleon",
         "name": "Louis Napoleon",
         "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "robson",
-        "name": "Robson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=robson"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "france-national-team",
-    "name": "France national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=france-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "adieu",
-        "name": "Adieu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=adieu"
-      },
-      {
-        "slug": "thoram",
-        "name": "Thoram",
-        "url": "/univers/olive-et-tom/personnage.html?slug=thoram"
       }
     ]
   },
@@ -2538,60 +852,14 @@
     "image": "",
     "players": [
       {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
         "slug": "elle-sid-pierre",
         "name": "Elle Sid Pierre",
         "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
       },
       {
-        "slug": "hans-dolman",
-        "name": "Hans Dolman",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hans-dolman"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "leon-dick",
-        "name": "Leon Dick",
-        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
-      },
-      {
         "slug": "louis-napoleon",
         "name": "Louis Napoleon",
         "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      }
-    ]
-  },
-  {
-    "slug": "furano",
-    "name": "Furano",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=furano",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "masanori-kato",
-        "name": "Masanori Kato",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
       }
     ]
   },
@@ -2615,19 +883,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=kazumasa-oda"
       },
       {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
         "slug": "masanori-kato",
         "name": "Masanori Kato",
         "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
       }
     ]
   },
@@ -2651,116 +909,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=kazumasa-oda"
       },
       {
-        "slug": "masanori-kato",
-        "name": "Masanori Kato",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
-      },
-      {
-        "slug": "tetsuo-ishida",
-        "name": "Tetsuo Ishida",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tetsuo-ishida"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
         "slug": "yoshiko-fujisawa",
         "name": "Yoshiko Fujisawa",
         "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-fujisawa"
-      }
-    ]
-  },
-  {
-    "slug": "furano-public-high-school",
-    "name": "Furano Public High School",
-    "type": "school",
-    "age_category": "high-school",
-    "url": "/univers/olive-et-tom/equipe.html?slug=furano-public-high-school",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "kazumasa-oda",
-        "name": "Kazumasa Oda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazumasa-oda"
-      }
-    ]
-  },
-  {
-    "slug": "germany",
-    "name": "Germany",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=germany",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "bollack",
-        "name": "Bollack",
-        "url": "/univers/olive-et-tom/personnage.html?slug=bollack"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "mario-goethe",
-        "name": "Mario Goethe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mario-goethe"
-      },
-      {
-        "slug": "oliver-hahn",
-        "name": "Oliver Hahn",
-        "url": "/univers/olive-et-tom/personnage.html?slug=oliver-hahn"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "schmidt-brothers",
-        "name": "Schmidt Brothers",
-        "url": "/univers/olive-et-tom/personnage.html?slug=schmidt-brothers"
-      },
-      {
-        "slug": "schweil-teigerbran",
-        "name": "Schweil Teigerbran",
-        "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
-      },
-      {
-        "slug": "seemann",
-        "name": "Seemann",
-        "url": "/univers/olive-et-tom/personnage.html?slug=seemann"
       }
     ]
   },
@@ -2779,77 +930,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
       },
       {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "morimichi-kawakami",
-        "name": "Morimichi Kawakami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=morimichi-kawakami"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "yumiko-yamaoka",
-        "name": "Yumiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yumiko-yamaoka"
-      }
-    ]
-  },
-  {
-    "slug": "germany-national-team",
-    "name": "Germany national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=germany-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "bollack",
-        "name": "Bollack",
-        "url": "/univers/olive-et-tom/personnage.html?slug=bollack"
-      },
-      {
         "slug": "franz-schester",
         "name": "Franz Schester",
         "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
@@ -2858,11 +938,6 @@
         "slug": "hermann-kaltz",
         "name": "Hermann Kaltz",
         "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
       }
     ]
   },
@@ -2876,31 +951,6 @@
     "image": "",
     "players": [
       {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "brolin",
-        "name": "Brolin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
         "slug": "deuter-muller",
         "name": "Deuter Müller",
         "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
@@ -2909,16 +959,6 @@
         "slug": "franz-schester",
         "name": "Franz Schester",
         "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "fredericks",
-        "name": "Fredericks",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fredericks"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
       },
       {
         "slug": "genzo-wakabayashi",
@@ -2931,24 +971,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
       },
       {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
         "slug": "karl-heinz-schneider",
         "name": "Karl Heinz Schneider",
         "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "larson",
-        "name": "Larson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=larson"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
       },
       {
         "slug": "manfred-margus",
@@ -2956,97 +981,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
       },
       {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
         "slug": "rudi-frank-schneider",
         "name": "Rudi Frank Schneider",
         "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
-    "slug": "ghana-youth",
-    "name": "Ghana Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=ghana-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong Un",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
-      }
-    ]
-  },
-  {
-    "slug": "greece-national-team",
-    "name": "Greece national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=greece-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "kages",
-        "name": "Kages",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kages"
-      },
-      {
-        "slug": "otto-zanbidis",
-        "name": "Otto Zanbidis",
-        "url": "/univers/olive-et-tom/personnage.html?slug=otto-zanbidis"
-      }
-    ]
-  },
-  {
-    "slug": "hamburg-jr-youth",
-    "name": "Hamburg Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=hamburg-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
       }
     ]
   },
@@ -3060,49 +997,14 @@
     "image": "",
     "players": [
       {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
         "slug": "genzo-wakabayashi",
         "name": "Genzo Wakabayashi",
         "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
       },
       {
-        "slug": "hans-dolman",
-        "name": "Hans Dolman",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hans-dolman"
-      },
-      {
         "slug": "hermann-kaltz",
         "name": "Hermann Kaltz",
         "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
       },
       {
         "slug": "rudi-frank-schneider",
@@ -3113,52 +1015,6 @@
         "slug": "seemann",
         "name": "Seemann",
         "url": "/univers/olive-et-tom/personnage.html?slug=seemann"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      }
-    ]
-  },
-  {
-    "slug": "hamburger-sv-jr",
-    "name": "Hamburger SV Jr.",
-    "type": "club",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -3175,52 +1031,6 @@
         "slug": "genzo-wakabayashi",
         "name": "Genzo Wakabayashi",
         "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "seemann",
-        "name": "Seemann",
-        "url": "/univers/olive-et-tom/personnage.html?slug=seemann"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      }
-    ]
-  },
-  {
-    "slug": "hanawa-middle-school",
-    "name": "Hanawa Middle School",
-    "type": "school",
-    "age_category": "middle-school",
-    "url": "/univers/olive-et-tom/equipe.html?slug=hanawa-middle-school",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "kumi-sugimoto",
-        "name": "Kumi Sugimoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
       }
     ]
   },
@@ -3312,11 +1122,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=matteo"
       },
       {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
         "slug": "nicola-bassi",
         "name": "Nicola Bassi",
         "url": "/univers/olive-et-tom/personnage.html?slug=nicola-bassi"
@@ -3325,52 +1130,6 @@
         "slug": "shingo-aoi",
         "name": "Shingo Aoi",
         "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "tomeya-akai",
-        "name": "Tomeya Akai",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tomeya-akai"
-      }
-    ]
-  },
-  {
-    "slug": "iraq-youth",
-    "name": "Iraq Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong Un",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
       }
     ]
   },
@@ -3384,65 +1143,9 @@
     "image": "",
     "players": [
       {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
         "slug": "gino-hernandez",
         "name": "Gino Hernandez",
         "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      }
-    ]
-  },
-  {
-    "slug": "italy-national-team",
-    "name": "Italy national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=italy-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "tacchinardini",
-        "name": "Tacchinardini",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tacchinardini"
       }
     ]
   },
@@ -3456,600 +1159,14 @@
     "image": "",
     "players": [
       {
-        "slug": "alvez",
-        "name": "Alvez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alvez"
-      },
-      {
-        "slug": "francesco-totti",
-        "name": "Francesco Totti",
-        "url": "/univers/olive-et-tom/personnage.html?slug=francesco-totti"
-      },
-      {
-        "slug": "garcia",
-        "name": "Garcia",
-        "url": "/univers/olive-et-tom/personnage.html?slug=garcia"
-      },
-      {
         "slug": "gino-hernandez",
         "name": "Gino Hernandez",
         "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
       },
       {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
         "slug": "salvatore-gentile",
         "name": "Salvatore Gentile",
         "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "suarez",
-        "name": "Suarez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
-      },
-      {
-        "slug": "zaragoza",
-        "name": "Zaragoza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
-      }
-    ]
-  },
-  {
-    "slug": "japan",
-    "name": "Japan",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=japan",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "akira-ichinose",
-        "name": "Akira Ichinose",
-        "url": "/univers/olive-et-tom/personnage.html?slug=akira-ichinose"
-      },
-      {
-        "slug": "atsushi-takai",
-        "name": "Atsushi Takai",
-        "url": "/univers/olive-et-tom/personnage.html?slug=atsushi-takai"
-      },
-      {
-        "slug": "daichi-ozora",
-        "name": "Daichi Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=daichi-ozora"
-      },
-      {
-        "slug": "gakuto-igawa",
-        "name": "Gakuto Igawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gakuto-igawa"
-      },
-      {
-        "slug": "hayato-igawa",
-        "name": "Hayato Igawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hayato-igawa"
-      },
-      {
-        "slug": "hideto-aoba",
-        "name": "Hideto Aoba",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hideto-aoba"
-      },
-      {
-        "slug": "hidetoshi-nakata",
-        "name": "Hidetoshi Nakata",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hidetoshi-nakata"
-      },
-      {
-        "slug": "ichiro-misaki",
-        "name": "Ichiro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ichiro-misaki"
-      },
-      {
-        "slug": "isamu-ichijo",
-        "name": "Isamu Ichijo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "kaori-matsumoto",
-        "name": "Kaori Matsumoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kaori-matsumoto"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "kazuo-kodama",
-        "name": "Kazuo Kodama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuo-kodama"
-      },
-      {
-        "slug": "kodai-ozora",
-        "name": "Kodai Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kodai-ozora"
-      },
-      {
-        "slug": "koji-nishio",
-        "name": "Koji Nishio",
-        "url": "/univers/olive-et-tom/personnage.html?slug=koji-nishio"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "koshi-kanda",
-        "name": "Koshi Kanda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=koshi-kanda"
-      },
-      {
-        "slug": "kotaro-furukawa",
-        "name": "Kotaro Furukawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kotaro-furukawa"
-      },
-      {
-        "slug": "maki-akamine",
-        "name": "Maki Akamine",
-        "url": "/univers/olive-et-tom/personnage.html?slug=maki-akamine"
-      },
-      {
-        "slug": "michel-yamada",
-        "name": "Michel Yamada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-yamada"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "minoru-honma",
-        "name": "Minoru Honma",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minoru-honma"
-      },
-      {
-        "slug": "mitsuru",
-        "name": "Mitsuru",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru"
-      },
-      {
-        "slug": "morimichi-kawakami",
-        "name": "Morimichi Kawakami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=morimichi-kawakami"
-      },
-      {
-        "slug": "munemasa-katagiri",
-        "name": "Munemasa Katagiri",
-        "url": "/univers/olive-et-tom/personnage.html?slug=munemasa-katagiri"
-      },
-      {
-        "slug": "natsuko-ozora",
-        "name": "Natsuko Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natsuko-ozora"
-      },
-      {
-        "slug": "nobuyuki-yumikura",
-        "name": "Nobuyuki Yumikura",
-        "url": "/univers/olive-et-tom/personnage.html?slug=nobuyuki-yumikura"
-      },
-      {
-        "slug": "ryo-ishizaki",
-        "name": "Ryo Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      },
-      {
-        "slug": "shinji-sanada",
-        "name": "Shinji Sanada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shinji-sanada"
-      },
-      {
-        "slug": "shinnosuke-kazami",
-        "name": "Shinnosuke Kazami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shinnosuke-kazami"
-      },
-      {
-        "slug": "sota-hiraoka",
-        "name": "Sota Hiraoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sota-hiraoka"
-      },
-      {
-        "slug": "tadashi-shiroyama",
-        "name": "Tadashi Shiroyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tadashi-shiroyama"
-      },
-      {
-        "slug": "takashi-sugimoto",
-        "name": "Takashi Sugimoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takashi-sugimoto"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "tetsuo-ishida",
-        "name": "Tetsuo Ishida",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tetsuo-ishida"
-      },
-      {
-        "slug": "tomeya-akai",
-        "name": "Tomeya Akai",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tomeya-akai"
-      },
-      {
-        "slug": "toshiya-okano",
-        "name": "Toshiya Okano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=toshiya-okano"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "yasuaki-konno",
-        "name": "Yasuaki Konno",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yasuaki-konno"
-      },
-      {
-        "slug": "yayoi-aoba",
-        "name": "Yayoi Aoba",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yayoi-aoba"
-      },
-      {
-        "slug": "yoshiko-fujisawa",
-        "name": "Yoshiko Fujisawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-fujisawa"
-      },
-      {
-        "slug": "yoshiko-yamaoka",
-        "name": "Yoshiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-yamaoka"
-      },
-      {
-        "slug": "yoshito-otsubo",
-        "name": "Yoshito Otsubo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshito-otsubo"
-      },
-      {
-        "slug": "yuji-sakaki",
-        "name": "Yuji Sakaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuji-sakaki"
-      },
-      {
-        "slug": "yuji-soga",
-        "name": "Yuji Soga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuji-soga"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
-      },
-      {
-        "slug": "yuki-tobe",
-        "name": "Yuki Tobe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuki-tobe"
-      },
-      {
-        "slug": "yumiko-yamaoka",
-        "name": "Yumiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yumiko-yamaoka"
-      }
-    ]
-  },
-  {
-    "slug": "japan-jr-youth",
-    "name": "Japan Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=japan-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      }
-    ]
-  },
-  {
-    "slug": "japan-national-team",
-    "name": "Japan national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=japan-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "bollack",
-        "name": "Bollack",
-        "url": "/univers/olive-et-tom/personnage.html?slug=bollack"
-      },
-      {
-        "slug": "hidetoshi-nakata",
-        "name": "Hidetoshi Nakata",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hidetoshi-nakata"
-      }
-    ]
-  },
-  {
-    "slug": "japan-youth",
-    "name": "Japan Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "fei-xiang",
-        "name": "Fei Xiang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "hajime-taki",
-        "name": "Hajime Taki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
-      },
-      {
-        "slug": "hanji-urabe",
-        "name": "Hanji Urabe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
-      },
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "kazumasa-oda",
-        "name": "Kazumasa Oda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazumasa-oda"
-      },
-      {
-        "slug": "kumi-sugimoto",
-        "name": "Kumi Sugimoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
-      },
-      {
-        "slug": "maki-akamine",
-        "name": "Maki Akamine",
-        "url": "/univers/olive-et-tom/personnage.html?slug=maki-akamine"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "masao-nakayama",
-        "name": "Masao Nakayama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
-      },
-      {
-        "slug": "michel-yamada",
-        "name": "Michel Yamada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-yamada"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "minoru-honma",
-        "name": "Minoru Honma",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minoru-honma"
-      },
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "nobuyuki-yumikura",
-        "name": "Nobuyuki Yumikura",
-        "url": "/univers/olive-et-tom/personnage.html?slug=nobuyuki-yumikura"
-      },
-      {
-        "slug": "ryo-ishizaki",
-        "name": "Ryo Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      },
-      {
-        "slug": "shinji-sanada",
-        "name": "Shinji Sanada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shinji-sanada"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
-      },
-      {
-        "slug": "tomeya-akai",
-        "name": "Tomeya Akai",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tomeya-akai"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
-      },
-      {
-        "slug": "yuzo-morisaki",
-        "name": "Yuzo Morisaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
-      },
-      {
-        "slug": "zangiev",
-        "name": "Zangiev",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zangiev"
-      },
-      {
-        "slug": "zaragoza",
-        "name": "Zaragoza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
-      }
-    ]
-  },
-  {
-    "slug": "jousei-high-school",
-    "name": "Jousei high school",
-    "type": "school",
-    "age_category": "high-school",
-    "url": "/univers/olive-et-tom/equipe.html?slug=jousei-high-school",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "kotaro-furukawa",
-        "name": "Kotaro Furukawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kotaro-furukawa"
-      },
-      {
-        "slug": "shinnosuke-kazami",
-        "name": "Shinnosuke Kazami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shinnosuke-kazami"
-      }
-    ]
-  },
-  {
-    "slug": "junior-youth-world-challenge",
-    "name": "Junior Youth World Challenge",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=junior-youth-world-challenge",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
       }
     ]
   },
@@ -4076,11 +1193,6 @@
         "slug": "dotor",
         "name": "Dotor",
         "url": "/univers/olive-et-tom/personnage.html?slug=dotor"
-      },
-      {
-        "slug": "kaori-matsumoto",
-        "name": "Kaori Matsumoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kaori-matsumoto"
       },
       {
         "slug": "kojiro-hyuga",
@@ -4117,11 +1229,6 @@
         "slug": "salvatore-gentile",
         "name": "Salvatore Gentile",
         "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "thoram",
-        "name": "Thoram",
-        "url": "/univers/olive-et-tom/personnage.html?slug=thoram"
       }
     ]
   },
@@ -4189,27 +1296,6 @@
     ]
   },
   {
-    "slug": "malaysia-jr-youth",
-    "name": "Malaysia Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=malaysia-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      }
-    ]
-  },
-  {
     "slug": "manchester-united-fc",
     "name": "Manchester United FC",
     "type": "club",
@@ -4222,11 +1308,6 @@
         "slug": "brian-cruyfford",
         "name": "Brian Cruyfford",
         "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "luis-enpoli",
-        "name": "Luis Enpoli",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luis-enpoli"
       }
     ]
   },
@@ -4239,11 +1320,6 @@
     "description": "",
     "image": "",
     "players": [
-      {
-        "slug": "isamu-ichijo",
-        "name": "Isamu Ichijo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
-      },
       {
         "slug": "ken-wakashimazu",
         "name": "Ken Wakashimazu",
@@ -4260,19 +1336,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
       },
       {
-        "slug": "masanori-kato",
-        "name": "Masanori Kato",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
-      },
-      {
         "slug": "noboru-sawaki",
         "name": "Noboru Sawaki",
         "url": "/univers/olive-et-tom/personnage.html?slug=noboru-sawaki"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
       },
       {
         "slug": "takeshi-sawada",
@@ -4283,11 +1349,6 @@
         "slug": "taro-misaki",
         "name": "Taro Misaki",
         "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -4304,11 +1365,6 @@
         "slug": "ken-wakashimazu",
         "name": "Ken Wakashimazu",
         "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "makoto-kitazume",
-        "name": "Makoto Kitazume",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-kitazume"
       },
       {
         "slug": "noboru-sawaki",
@@ -4337,49 +1393,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=garcia"
       },
       {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
         "slug": "lopez",
         "name": "Lopez",
         "url": "/univers/olive-et-tom/personnage.html?slug=lopez"
       },
       {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
         "slug": "ricardo-espadas",
         "name": "Ricardo Espadas",
         "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
       },
       {
         "slug": "suarez",
@@ -4390,38 +1411,6 @@
         "slug": "zaragoza",
         "name": "Zaragoza",
         "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
-      }
-    ]
-  },
-  {
-    "slug": "minamiuwa",
-    "name": "Minamiuwa",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=minamiuwa",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "masanori-kato",
-        "name": "Masanori Kato",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
-      }
-    ]
-  },
-  {
-    "slug": "minamiuwa-middle-school",
-    "name": "Minamiuwa middle school",
-    "type": "school",
-    "age_category": "middle-school",
-    "url": "/univers/olive-et-tom/equipe.html?slug=minamiuwa-middle-school",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "tetsuo-ishida",
-        "name": "Tetsuo Ishida",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tetsuo-ishida"
       }
     ]
   },
@@ -4461,67 +1450,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
       },
       {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
-      },
-      {
-        "slug": "masao-nakayama",
-        "name": "Masao Nakayama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
-      },
-      {
-        "slug": "minoru-honma",
-        "name": "Minoru Honma",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minoru-honma"
-      },
-      {
-        "slug": "shinji-sanada",
-        "name": "Shinji Sanada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shinji-sanada"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "yayoi-aoba",
-        "name": "Yayoi Aoba",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yayoi-aoba"
-      }
-    ]
-  },
-  {
-    "slug": "musashi-middle-school",
-    "name": "Musashi middle school",
-    "type": "school",
-    "age_category": "middle-school",
-    "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "akira-ichinose",
-        "name": "Akira Ichinose",
-        "url": "/univers/olive-et-tom/personnage.html?slug=akira-ichinose"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "makoto-kitazume",
-        "name": "Makoto Kitazume",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-kitazume"
-      },
-      {
         "slug": "minoru-honma",
         "name": "Minoru Honma",
         "url": "/univers/olive-et-tom/personnage.html?slug=minoru-honma"
@@ -4555,27 +1483,6 @@
     ]
   },
   {
-    "slug": "nakahara-middle-school",
-    "name": "Nakahara middle school",
-    "type": "school",
-    "age_category": "middle-school",
-    "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-middle-school",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      }
-    ]
-  },
-  {
     "slug": "naniwa-fc",
     "name": "Naniwa FC",
     "type": "club",
@@ -4588,11 +1495,6 @@
         "slug": "taichi-nakanishi",
         "name": "Taichi Nakanishi",
         "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -4622,44 +1524,9 @@
     "image": "",
     "players": [
       {
-        "slug": "daichi-ozora",
-        "name": "Daichi Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=daichi-ozora"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "kodai-ozora",
-        "name": "Kodai Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kodai-ozora"
-      },
-      {
-        "slug": "ryo-ishizaki",
-        "name": "Ryo Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
-      },
-      {
         "slug": "taro-misaki",
         "name": "Taro Misaki",
         "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
       },
       {
         "slug": "tsubasa-ozora",
@@ -4688,11 +1555,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
       },
       {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
         "slug": "kumi-sugimoto",
         "name": "Kumi Sugimoto",
         "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
@@ -4711,11 +1573,6 @@
         "slug": "ryo-ishizaki",
         "name": "Ryo Ishizaki",
         "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
       },
       {
         "slug": "shingo-takasugi",
@@ -4743,11 +1600,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
       },
       {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
-      },
-      {
         "slug": "yuzo-morisaki",
         "name": "Yuzo Morisaki",
         "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
@@ -4769,24 +1621,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
       },
       {
-        "slug": "isamu-ichijo",
-        "name": "Isamu Ichijo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
         "slug": "kumi-sugimoto",
         "name": "Kumi Sugimoto",
         "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
-      },
-      {
-        "slug": "makoto-kitazume",
-        "name": "Makoto Kitazume",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-kitazume"
       },
       {
         "slug": "mamoru-izawa",
@@ -4799,24 +1636,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
       },
       {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
         "slug": "shingo-takasugi",
         "name": "Shingo Takasugi",
         "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
       },
       {
         "slug": "takeshi-furuoya",
@@ -4832,16 +1654,6 @@
         "slug": "tsubasa-ozora",
         "name": "Tsubasa Ozora",
         "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "yoshiko-fujisawa",
-        "name": "Yoshiko Fujisawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-fujisawa"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
       },
       {
         "slug": "yuzo-morisaki",
@@ -4880,16 +1692,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
       },
       {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kodai-ozora",
-        "name": "Kodai Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kodai-ozora"
-      },
-      {
         "slug": "koji-nishio",
         "name": "Koji Nishio",
         "url": "/univers/olive-et-tom/personnage.html?slug=koji-nishio"
@@ -4910,11 +1712,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
       },
       {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
         "slug": "shingo-takasugi",
         "name": "Shingo Takasugi",
         "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
@@ -4928,11 +1725,6 @@
         "slug": "tadashi-shiroyama",
         "name": "Tadashi Shiroyama",
         "url": "/univers/olive-et-tom/personnage.html?slug=tadashi-shiroyama"
-      },
-      {
-        "slug": "taichi-nakanishi",
-        "name": "Taichi Nakanishi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
       },
       {
         "slug": "takeshi-kishida",
@@ -4962,48 +1754,6 @@
     ]
   },
   {
-    "slug": "nankatsu-sc-selection-team",
-    "name": "Nankatsu SC (selection team)",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc-selection-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
-      },
-      {
-        "slug": "tadashi-shiroyama",
-        "name": "Tadashi Shiroyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tadashi-shiroyama"
-      }
-    ]
-  },
-  {
-    "slug": "netherlands-national-team",
-    "name": "Netherlands national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      },
-      {
-        "slug": "kouman",
-        "name": "Kouman",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kouman"
-      }
-    ]
-  },
-  {
     "slug": "netherlands-youth",
     "name": "Netherlands Youth",
     "type": "national",
@@ -5013,49 +1763,9 @@
     "image": "",
     "players": [
       {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
         "slug": "brian-cruyfford",
         "name": "Brian Cruyfford",
         "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
       },
       {
         "slug": "gert-keizer",
@@ -5068,39 +1778,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=hans-dolman"
       },
       {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
         "slug": "johan-rensenbrink",
         "name": "Johan Rensenbrink",
         "url": "/univers/olive-et-tom/personnage.html?slug=johan-rensenbrink"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong Un",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
       },
       {
         "slug": "leon-dick",
@@ -5108,54 +1788,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
       },
       {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "makoto-soda",
-        "name": "Makoto Soda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
         "slug": "otto-reichardt",
         "name": "Otto Reichardt",
         "url": "/univers/olive-et-tom/personnage.html?slug=otto-reichardt"
       },
       {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
         "slug": "ruud-krisman",
         "name": "Ruud Krisman",
         "url": "/univers/olive-et-tom/personnage.html?slug=ruud-krisman"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
       }
     ]
   },
@@ -5177,7 +1817,7 @@
   },
   {
     "slug": "nishigaoka-elementary-school",
-    "name": "Nishigaoka elementary school",
+    "name": "Nishigaoka Elementary School",
     "type": "school",
     "age_category": "elementary",
     "url": "/univers/olive-et-tom/equipe.html?slug=nishigaoka-elementary-school",
@@ -5200,11 +1840,6 @@
     "description": "",
     "image": "",
     "players": [
-      {
-        "slug": "ichiro-misaki",
-        "name": "Ichiro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ichiro-misaki"
-      },
       {
         "slug": "kazuo-kodama",
         "name": "Kazuo Kodama",
@@ -5242,11 +1877,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
       },
       {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
         "slug": "diego-barbas",
         "name": "Diego Barbas",
         "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
@@ -5262,34 +1892,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
       },
       {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "jj-ochado",
-        "name": "Jj Ochado",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jj-ochado"
-      },
-      {
         "slug": "juan-diaz",
         "name": "Juan Diaz",
         "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
       },
       {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
         "slug": "simeore",
         "name": "Simeore",
         "url": "/univers/olive-et-tom/personnage.html?slug=simeore"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
       },
       {
         "slug": "varon",
@@ -5308,11 +1918,6 @@
     "image": "",
     "players": [
       {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
         "slug": "alberto",
         "name": "Alberto",
         "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
@@ -5323,49 +1928,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
       },
       {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
         "slug": "joao-aragones",
         "name": "Joao Aragones",
         "url": "/univers/olive-et-tom/personnage.html?slug=joao-aragones"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
       },
       {
         "slug": "luciano-leo",
@@ -5403,19 +1968,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
       },
       {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
         "slug": "salinas",
         "name": "Salinas",
         "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
       }
     ]
   },
@@ -5434,11 +1989,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=etaw"
       },
       {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
         "slug": "muamba",
         "name": "Muamba",
         "url": "/univers/olive-et-tom/personnage.html?slug=muamba"
@@ -5454,31 +2004,6 @@
     "description": "",
     "image": "",
     "players": [
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "wu-junren",
-        "name": "Wu Junren",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wu-junren"
-      },
       {
         "slug": "xiao-junguang",
         "name": "Xiao Junguang",
@@ -5514,11 +2039,6 @@
         "slug": "louis-napoleon",
         "name": "Louis Napoleon",
         "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
       }
     ]
   },
@@ -5542,44 +2062,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
       },
       {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
         "slug": "hermann-kaltz",
         "name": "Hermann Kaltz",
         "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
       },
       {
-        "slug": "isamu-ichijo",
-        "name": "Isamu Ichijo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "kages",
-        "name": "Kages",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kages"
-      },
-      {
         "slug": "karl-heinz-schneider",
         "name": "Karl Heinz Schneider",
         "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
       },
       {
         "slug": "manfred-margus",
@@ -5592,49 +2082,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=mario-goethe"
       },
       {
-        "slug": "masanori-kato",
-        "name": "Masanori Kato",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
-      },
-      {
-        "slug": "masao-nakayama",
-        "name": "Masao Nakayama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
-      },
-      {
-        "slug": "michel-yamada",
-        "name": "Michel Yamada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-yamada"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "robson",
-        "name": "Robson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=robson"
-      },
-      {
         "slug": "rudi-frank-schneider",
         "name": "Rudi Frank Schneider",
         "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
       },
       {
         "slug": "schmidt-brothers",
@@ -5645,21 +2095,6 @@
         "slug": "schweil-teigerbran",
         "name": "Schweil Teigerbran",
         "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "taichi-nakanishi",
-        "name": "Taichi Nakanishi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
       }
     ]
   },
@@ -5673,29 +2108,9 @@
     "image": "",
     "players": [
       {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
         "slug": "atsushi-takai",
         "name": "Atsushi Takai",
         "url": "/univers/olive-et-tom/personnage.html?slug=atsushi-takai"
-      },
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
       },
       {
         "slug": "gakuto-igawa",
@@ -5703,39 +2118,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=gakuto-igawa"
       },
       {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
         "slug": "genzo-wakabayashi",
         "name": "Genzo Wakabayashi",
         "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
       },
       {
-        "slug": "gert-keizer",
-        "name": "Gert Keizer",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gert-keizer"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
         "slug": "hanji-urabe",
         "name": "Hanji Urabe",
         "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "hidetoshi-nakata",
-        "name": "Hidetoshi Nakata",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hidetoshi-nakata"
       },
       {
         "slug": "hikaru-matsuyama",
@@ -5748,34 +2138,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
       },
       {
-        "slug": "hugo-ramirez",
-        "name": "Hugo Ramirez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hugo-ramirez"
-      },
-      {
-        "slug": "isamu-ichijo",
-        "name": "Isamu Ichijo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
         "slug": "jun-misugi",
         "name": "Jun Misugi",
         "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "kages",
-        "name": "Kages",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kages"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
       },
       {
         "slug": "kazuki-sorimachi",
@@ -5793,24 +2158,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
       },
       {
-        "slug": "kodai-ozora",
-        "name": "Kodai Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kodai-ozora"
-      },
-      {
         "slug": "kojiro-hyuga",
         "name": "Kojiro Hyuga",
         "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "koshi-kanda",
-        "name": "Koshi Kanda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=koshi-kanda"
-      },
-      {
-        "slug": "kotaro-furukawa",
-        "name": "Kotaro Furukawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kotaro-furukawa"
       },
       {
         "slug": "kozo-kira",
@@ -5828,19 +2178,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
       },
       {
-        "slug": "masanori-kato",
-        "name": "Masanori Kato",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
-      },
-      {
         "slug": "masao-nakayama",
         "name": "Masao Nakayama",
         "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
-      },
-      {
-        "slug": "michel-yamada",
-        "name": "Michel Yamada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-yamada"
       },
       {
         "slug": "minato-gamo",
@@ -5848,34 +2188,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
       },
       {
-        "slug": "minoru-honma",
-        "name": "Minoru Honma",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minoru-honma"
-      },
-      {
         "slug": "mitsuru-sano",
         "name": "Mitsuru Sano",
         "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "riveldo",
-        "name": "Riveldo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=riveldo"
-      },
-      {
-        "slug": "robson",
-        "name": "Robson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=robson"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
       },
       {
         "slug": "ryo-ishizaki",
@@ -5883,39 +2198,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
       },
       {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "schweil-teigerbran",
-        "name": "Schweil Teigerbran",
-        "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
-      },
-      {
         "slug": "shingo-aoi",
         "name": "Shingo Aoi",
         "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
       },
       {
-        "slug": "shinnosuke-kazami",
-        "name": "Shinnosuke Kazami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shinnosuke-kazami"
-      },
-      {
         "slug": "shun-nitta",
         "name": "Shun Nitta",
         "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "suarez",
-        "name": "Suarez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
       },
       {
         "slug": "taichi-nakanishi",
@@ -5961,11 +2251,6 @@
         "slug": "yuzo-morisaki",
         "name": "Yuzo Morisaki",
         "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
-      },
-      {
-        "slug": "zaragoza",
-        "name": "Zaragoza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
       }
     ]
   },
@@ -5982,21 +2267,6 @@
         "slug": "hugo-ramirez",
         "name": "Hugo Ramirez",
         "url": "/univers/olive-et-tom/personnage.html?slug=hugo-ramirez"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
       },
       {
         "slug": "manatis",
@@ -6035,11 +2305,6 @@
     "image": "",
     "players": [
       {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
         "slug": "brian-cruyfford",
         "name": "Brian Cruyfford",
         "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
@@ -6048,21 +2313,6 @@
         "slug": "davi",
         "name": "Davi",
         "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      },
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
       },
       {
         "slug": "gert-keizer",
@@ -6078,11 +2328,6 @@
         "slug": "johan-rensenbrink",
         "name": "Johan Rensenbrink",
         "url": "/univers/olive-et-tom/personnage.html?slug=johan-rensenbrink"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
       },
       {
         "slug": "kouman",
@@ -6103,27 +2348,6 @@
         "slug": "ruud-krisman",
         "name": "Ruud Krisman",
         "url": "/univers/olive-et-tom/personnage.html?slug=ruud-krisman"
-      },
-      {
-        "slug": "yoshiko-fujisawa",
-        "name": "Yoshiko Fujisawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-fujisawa"
-      }
-    ]
-  },
-  {
-    "slug": "olympic-new-zealand",
-    "name": "Olympic New Zealand",
-    "type": "national",
-    "age_category": "olympic",
-    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-new-zealand",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
       }
     ]
   },
@@ -6137,34 +2361,9 @@
     "image": "",
     "players": [
       {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
         "slug": "bobang",
         "name": "Bobang",
         "url": "/univers/olive-et-tom/personnage.html?slug=bobang"
-      },
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
       },
       {
         "slug": "jengo",
@@ -6175,47 +2374,6 @@
         "slug": "jj-ochado",
         "name": "Jj Ochado",
         "url": "/univers/olive-et-tom/personnage.html?slug=jj-ochado"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "michel-toonie",
-        "name": "Michel Toonie",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-toonie"
-      }
-    ]
-  },
-  {
-    "slug": "olympic-senegal",
-    "name": "Olympic Senegal",
-    "type": "national",
-    "age_category": "olympic",
-    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-senegal",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
       }
     ]
   },
@@ -6254,21 +2412,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=josep-grandios"
       },
       {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "koshi-kanda",
-        "name": "Koshi Kanda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=koshi-kanda"
-      },
-      {
         "slug": "michael",
         "name": "Michael",
         "url": "/univers/olive-et-tom/personnage.html?slug=michael"
@@ -6277,16 +2420,6 @@
         "slug": "raphael",
         "name": "Raphael",
         "url": "/univers/olive-et-tom/personnage.html?slug=raphael"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "suarez",
-        "name": "Suarez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
       },
       {
         "slug": "valtes",
@@ -6302,32 +2435,6 @@
         "slug": "xavii",
         "name": "Xavii",
         "url": "/univers/olive-et-tom/personnage.html?slug=xavii"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      },
-      {
-        "slug": "zaragoza",
-        "name": "Zaragoza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
-      }
-    ]
-  },
-  {
-    "slug": "otomo",
-    "name": "Otomo",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=otomo",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
       }
     ]
   },
@@ -6351,11 +2458,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
       },
       {
-        "slug": "koji-nishio",
-        "name": "Koji Nishio",
-        "url": "/univers/olive-et-tom/personnage.html?slug=koji-nishio"
-      },
-      {
         "slug": "masao-nakayama",
         "name": "Masao Nakayama",
         "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
@@ -6364,11 +2466,6 @@
         "slug": "shun-nitta",
         "name": "Shun Nitta",
         "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "tadashi-shiroyama",
-        "name": "Tadashi Shiroyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tadashi-shiroyama"
       },
       {
         "slug": "takeshi-kishida",
@@ -6397,30 +2494,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=jj-ochado"
       },
       {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
         "slug": "taro-misaki",
         "name": "Taro Misaki",
         "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "parma",
-    "name": "Parma",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=parma",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "tacchinardini",
-        "name": "Tacchinardini",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tacchinardini"
       }
     ]
   },
@@ -6439,121 +2515,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=brescias"
       },
       {
-        "slug": "carlo-monetti",
-        "name": "Carlo Monetti",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlo-monetti"
-      },
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      },
-      {
-        "slug": "mazzantini",
-        "name": "Mazzantini",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mazzantini"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
         "slug": "thoram",
         "name": "Thoram",
         "url": "/univers/olive-et-tom/personnage.html?slug=thoram"
-      }
-    ]
-  },
-  {
-    "slug": "portugal-jr-youth",
-    "name": "Portugal Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=portugal-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      }
-    ]
-  },
-  {
-    "slug": "real-madrid",
-    "name": "Real Madrid",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "callusias",
-        "name": "Callusias",
-        "url": "/univers/olive-et-tom/personnage.html?slug=callusias"
-      },
-      {
-        "slug": "flavio-conces",
-        "name": "Flavio Concés",
-        "url": "/univers/olive-et-tom/personnage.html?slug=flavio-conces"
-      },
-      {
-        "slug": "gati",
-        "name": "Gati",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gati"
-      },
-      {
-        "slug": "ivangel",
-        "name": "Ivangel",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ivangel"
-      },
-      {
-        "slug": "makelolo",
-        "name": "Makelolo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makelolo"
-      },
-      {
-        "slug": "michel-olgado",
-        "name": "Michel Olgado",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-olgado"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "vicente-de-la-pasque",
-        "name": "Vicente de la Pasque",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vicente-de-la-pasque"
       }
     ]
   },
@@ -6572,39 +2536,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=callusias"
       },
       {
-        "slug": "cario",
-        "name": "Cario",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cario"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "erik-van-saal",
-        "name": "Erik van Saal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=erik-van-saal"
-      },
-      {
         "slug": "fernando-ruiz-blueno",
         "name": "Fernando Ruiz Blueno",
         "url": "/univers/olive-et-tom/personnage.html?slug=fernando-ruiz-blueno"
       },
       {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
         "slug": "ivangel",
         "name": "Ivangel",
         "url": "/univers/olive-et-tom/personnage.html?slug=ivangel"
-      },
-      {
-        "slug": "koshi-kanda",
-        "name": "Koshi Kanda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=koshi-kanda"
       },
       {
         "slug": "luis-enpoli",
@@ -6637,16 +2576,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
       },
       {
-        "slug": "pedro-fonseca",
-        "name": "Pedro Fonseca",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pedro-fonseca"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
         "slug": "roberto-carolus",
         "name": "Roberto Carolus",
         "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
@@ -6660,11 +2589,6 @@
         "slug": "sergio-ramon",
         "name": "Sergio Ramon",
         "url": "/univers/olive-et-tom/personnage.html?slug=sergio-ramon"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -6678,24 +2602,9 @@
     "image": "",
     "players": [
       {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
         "slug": "joao-aragones",
         "name": "Joao Aragones",
         "url": "/univers/olive-et-tom/personnage.html?slug=joao-aragones"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
       },
       {
         "slug": "pepe",
@@ -6711,11 +2620,6 @@
         "slug": "roberto-hongo",
         "name": "Roberto Hongo",
         "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
       },
       {
         "slug": "tsubasa-ozora",
@@ -6737,11 +2641,6 @@
         "slug": "pepe",
         "name": "Pepe",
         "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -6755,101 +2654,14 @@
     "image": "",
     "players": [
       {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "fei-xiang",
-        "name": "Fei Xiang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong Un",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
-      },
-      {
         "slug": "mark-owairan",
         "name": "Mark Owairan",
         "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
       },
       {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
         "slug": "vulcan",
         "name": "Vulcan",
         "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
-        "slug": "wang-zhongming",
-        "name": "Wang Zhongming",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wang-zhongming"
-      },
-      {
-        "slug": "wu-junren",
-        "name": "Wu Junren",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wu-junren"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      },
-      {
-        "slug": "zangiev",
-        "name": "Zangiev",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zangiev"
-      }
-    ]
-  },
-  {
-    "slug": "seine-jr-youth",
-    "name": "Seine Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=seine-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      }
-    ]
-  },
-  {
-    "slug": "shimada-elementary-soccer-club",
-    "name": "Shimada Elementary Soccer Club",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=shimada-elementary-soccer-club",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "mamoru-izawa",
-        "name": "Mamoru Izawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
       }
     ]
   },
@@ -6871,27 +2683,6 @@
         "slug": "morimichi-kawakami",
         "name": "Morimichi Kawakami",
         "url": "/univers/olive-et-tom/personnage.html?slug=morimichi-kawakami"
-      },
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
-      }
-    ]
-  },
-  {
-    "slug": "shinjo-fc",
-    "name": "Shinjo FC",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=shinjo-fc",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -6905,60 +2696,9 @@
     "image": "",
     "players": [
       {
-        "slug": "hideto-aoba",
-        "name": "Hideto Aoba",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hideto-aoba"
-      },
-      {
         "slug": "tsubasa-ozora",
         "name": "Tsubasa Ozora",
         "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "shutetsu",
-    "name": "Shutetsu",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "hajime-taki",
-        "name": "Hajime Taki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
-      },
-      {
-        "slug": "kodai-ozora",
-        "name": "Kodai Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kodai-ozora"
-      },
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
-      },
-      {
-        "slug": "yuzo-morisaki",
-        "name": "Yuzo Morisaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
       }
     ]
   },
@@ -6987,11 +2727,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
       },
       {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
         "slug": "teppei-kisugi",
         "name": "Teppei Kisugi",
         "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
@@ -7018,11 +2753,6 @@
     "image": "",
     "players": [
       {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
         "slug": "cha-in-cheon",
         "name": "Cha In Cheon",
         "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
@@ -7031,82 +2761,6 @@
         "slug": "lee-yong-un",
         "name": "Lee Yong Un",
         "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
-      },
-      {
-        "slug": "leon-dick",
-        "name": "Leon Dick",
-        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "sota-hiraoka",
-        "name": "Sota Hiraoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sota-hiraoka"
-      },
-      {
-        "slug": "teruyuki-monio",
-        "name": "Teruyuki Monio",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teruyuki-monio"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      },
-      {
-        "slug": "yoshito-otsubo",
-        "name": "Yoshito Otsubo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshito-otsubo"
-      }
-    ]
-  },
-  {
-    "slug": "spain-national-team",
-    "name": "Spain national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=spain-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "fernando-ruiz-blueno",
-        "name": "Fernando Ruiz Blueno",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fernando-ruiz-blueno"
-      },
-      {
-        "slug": "ivangel",
-        "name": "Ivangel",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ivangel"
-      },
-      {
-        "slug": "luis-enpoli",
-        "name": "Luis Enpoli",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luis-enpoli"
-      },
-      {
-        "slug": "marientos",
-        "name": "Marientos",
-        "url": "/univers/olive-et-tom/personnage.html?slug=marientos"
-      },
-      {
-        "slug": "xavii",
-        "name": "Xavii",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xavii"
       }
     ]
   },
@@ -7151,24 +2805,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
       },
       {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
         "slug": "manfred-margus",
         "name": "Manfred Margus",
         "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -7187,54 +2826,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
       },
       {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
         "slug": "fredericks",
         "name": "Fredericks",
         "url": "/univers/olive-et-tom/personnage.html?slug=fredericks"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "katarina-karen",
-        "name": "Katarina Karen",
-        "url": "/univers/olive-et-tom/personnage.html?slug=katarina-karen"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kumi-sugimoto",
-        "name": "Kumi Sugimoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
       },
       {
         "slug": "larson",
@@ -7242,39 +2836,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=larson"
       },
       {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
         "slug": "stefan-levin",
         "name": "Stefan Levin",
         "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -7345,49 +2909,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=falan-khongsawat"
       },
       {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
         "slug": "sakun-khongsawat",
         "name": "Sakun Khongsawat",
         "url": "/univers/olive-et-tom/personnage.html?slug=sakun-khongsawat"
       },
       {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
         "slug": "singprasert-bunnag",
         "name": "Singprasert Bunnag",
         "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -7401,19 +2930,9 @@
     "image": "",
     "players": [
       {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
         "slug": "kazuki-sorimachi",
         "name": "Kazuki Sorimachi",
         "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "kazumasa-oda",
-        "name": "Kazumasa Oda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazumasa-oda"
       },
       {
         "slug": "ken-wakashimazu",
@@ -7424,16 +2943,6 @@
         "slug": "kojiro-hyuga",
         "name": "Kojiro Hyuga",
         "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "taichi-nakanishi",
-        "name": "Taichi Nakanishi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
-      },
-      {
-        "slug": "takeshi-kishida",
-        "name": "Takeshi Kishida",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-kishida"
       },
       {
         "slug": "takeshi-sawada",
@@ -7457,16 +2966,6 @@
     "image": "",
     "players": [
       {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "kaori-matsumoto",
-        "name": "Kaori Matsumoto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kaori-matsumoto"
-      },
-      {
         "slug": "kazuki-sorimachi",
         "name": "Kazuki Sorimachi",
         "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
@@ -7482,144 +2981,14 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
       },
       {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
-      },
-      {
         "slug": "makoto-kitazume",
         "name": "Makoto Kitazume",
         "url": "/univers/olive-et-tom/personnage.html?slug=makoto-kitazume"
       },
       {
-        "slug": "noboru-sawaki",
-        "name": "Noboru Sawaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=noboru-sawaki"
-      },
-      {
         "slug": "takeshi-sawada",
         "name": "Takeshi Sawada",
         "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
-      }
-    ]
-  },
-  {
-    "slug": "uae-youth",
-    "name": "UAE Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=uae-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "fei-xiang",
-        "name": "Fei Xiang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
-        "slug": "wang-zhongming",
-        "name": "Wang Zhongming",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wang-zhongming"
-      },
-      {
-        "slug": "wu-junren",
-        "name": "Wu Junren",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wu-junren"
-      },
-      {
-        "slug": "zangiev",
-        "name": "Zangiev",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zangiev"
-      }
-    ]
-  },
-  {
-    "slug": "united-arab-emirates-youth",
-    "name": "United Arab Emirates Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=united-arab-emirates-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      }
-    ]
-  },
-  {
-    "slug": "united-states",
-    "name": "United States",
-    "type": "club",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=united-states",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "yoshiko-fujisawa",
-        "name": "Yoshiko Fujisawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-fujisawa"
-      }
-    ]
-  },
-  {
-    "slug": "united-states-jr-youth-1986",
-    "name": "United States Jr. Youth (1986)",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=united-states-jr-youth-1986",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      }
-    ]
-  },
-  {
-    "slug": "united-states-youth",
-    "name": "United States Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=united-states-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
       }
     ]
   },
@@ -7632,26 +3001,6 @@
     "description": "",
     "image": "",
     "players": [
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
       {
         "slug": "ramon-victorino",
         "name": "Ramon Victorino",
@@ -7676,22 +3025,6 @@
     ]
   },
   {
-    "slug": "uruguay-national-team",
-    "name": "Uruguay national team",
-    "type": "national",
-    "age_category": "adult",
-    "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-national-team",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      }
-    ]
-  },
-  {
     "slug": "uruguay-youth",
     "name": "Uruguay Youth",
     "type": "national",
@@ -7701,135 +3034,14 @@
     "image": "",
     "players": [
       {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "alvez",
-        "name": "Alvez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alvez"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "garcia",
-        "name": "Garcia",
-        "url": "/univers/olive-et-tom/personnage.html?slug=garcia"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
         "slug": "ramon-victorino",
         "name": "Ramon Victorino",
         "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
       },
       {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
         "slug": "ryoma-hino",
         "name": "Ryoma Hino",
         "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "suarez",
-        "name": "Suarez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "zaragoza",
-        "name": "Zaragoza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
-      }
-    ]
-  },
-  {
-    "slug": "usa-youth",
-    "name": "USA Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "brolin",
-        "name": "Brolin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "fredericks",
-        "name": "Fredericks",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fredericks"
-      },
-      {
-        "slug": "larson",
-        "name": "Larson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=larson"
       }
     ]
   },
@@ -7843,55 +3055,9 @@
     "image": "",
     "players": [
       {
-        "slug": "fei-xiang",
-        "name": "Fei Xiang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
-        "slug": "wang-zhongming",
-        "name": "Wang Zhongming",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wang-zhongming"
-      },
-      {
-        "slug": "wu-junren",
-        "name": "Wu Junren",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wu-junren"
-      },
-      {
         "slug": "zangiev",
         "name": "Zangiev",
         "url": "/univers/olive-et-tom/personnage.html?slug=zangiev"
-      }
-    ]
-  },
-  {
-    "slug": "west-germany-jr-youth",
-    "name": "West Germany Jr. Youth",
-    "type": "national",
-    "age_category": "youth",
-    "url": "/univers/olive-et-tom/equipe.html?slug=west-germany-jr-youth",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
       }
     ]
   },

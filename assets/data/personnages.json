@@ -25,46 +25,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
       },
       {
-        "slug": "cr-flamengo",
-        "name": "CR Flamengo",
-        "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo"
-      },
-      {
-        "slug": "furano-middle-school",
-        "name": "Furano Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "hamburger-sv-jr",
-        "name": "Hamburger SV Jr.",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "musashi-fc",
-        "name": "Musashi FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      },
-      {
-        "slug": "naniwa-fc",
-        "name": "Naniwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-fc"
-      },
-      {
         "slug": "nankatsu-elementary-school",
         "name": "Nankatsu Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
@@ -80,39 +40,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
       },
       {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
       },
       {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      },
-      {
         "slug": "sao-paulo-fc",
         "name": "Sao Paulo FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      },
-      {
-        "slug": "sao-paulo-fc-youth-squads",
-        "name": "Sao Paulo FC - Youth squads",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc-youth-squads"
-      },
-      {
-        "slug": "shinjo-fc",
-        "name": "Shinjo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shinjo-fc"
       },
       {
         "slug": "shumei-gakkan-middle-school",
@@ -123,31 +58,6 @@
         "slug": "shutetsu-elementary-school",
         "name": "Shutetsu Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
-      },
-      {
-        "slug": "sv-werder-bremen-jr-youth",
-        "name": "SV Werder Bremen Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Japanese",
@@ -580,16 +490,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
       },
       {
-        "slug": "fc-albese",
-        "name": "FC Albese",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-albese"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "juventus-fc",
         "name": "Juventus FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
@@ -603,11 +503,6 @@
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
       },
       {
         "slug": "toho-academy-high-school",
@@ -901,19 +796,9 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "1fc-koln",
-        "name": "1.FC Koln",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln"
-      },
-      {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-jr-youth-1986-film",
-        "name": "All Japan Jr. Youth (1986 film)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-1986-film"
       },
       {
         "slug": "all-japan-youth",
@@ -926,39 +811,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film"
       },
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
         "slug": "fc-bayern-munich",
         "name": "FC Bayern Munich",
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
       },
       {
-        "slug": "fc-bayern-munich-jr-youth",
-        "name": "FC Bayern Munich Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich-jr-youth"
-      },
-      {
         "slug": "fc-bayern-munichnext-dream",
         "name": "FC Bayern Munich/Next Dream",
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munichnext-dream"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
       },
       {
         "slug": "germany-youth",
@@ -976,39 +836,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
       },
       {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      },
-      {
         "slug": "nankatsu-sc",
         "name": "Nankatsu SC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
       },
       {
         "slug": "olympic-japan",
@@ -1016,49 +846,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
       },
       {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
         "slug": "shimizu-fc",
         "name": "Shimizu FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=shimizu-fc"
       },
       {
-        "slug": "shutetsu",
-        "name": "Shutetsu",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu"
-      },
-      {
         "slug": "shutetsu-elementary-school",
         "name": "Shutetsu Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -1217,26 +1012,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
       },
       {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "furano-elementary-soccer-club",
-        "name": "Furano Elementary Soccer Club",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "kujukuri-fc",
         "name": "Kujukuri FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=kujukuri-fc"
@@ -1248,7 +1023,7 @@
       },
       {
         "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
+        "name": "Nankatsu Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
       },
       {
@@ -1262,19 +1037,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
       },
       {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "nishimine-elementary-school",
         "name": "Nishimine Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
       },
       {
         "slug": "olympic-japan",
@@ -1285,16 +1050,6 @@
         "slug": "paris-saint-germain-fc",
         "name": "Paris Saint-Germain FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "shutetsu-elementary-school",
-        "name": "Shutetsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
       },
       {
         "slug": "toho-academy-high-school",
@@ -1543,44 +1298,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-tokyo"
       },
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "musashi-fc",
         "name": "Musashi FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
       },
       {
-        "slug": "musashi-middle-school",
-        "name": "Musashi middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
       }
     ],
     "nationality": "Japanese",
@@ -1739,21 +1464,6 @@
     "position": "Defender, Attacking midfielder",
     "teams": [
       {
-        "slug": "all-south-america-jr-youth",
-        "name": "All South America Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-south-america-jr-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "fc-tokyo",
-        "name": "FC Tokyo",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-tokyo"
-      },
-      {
         "slug": "furano-elementary-soccer-club",
         "name": "Furano Elementary Soccer Club",
         "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club"
@@ -1764,39 +1474,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
       },
       {
-        "slug": "furano-public-high-school",
-        "name": "Furano Public High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-public-high-school"
-      },
-      {
-        "slug": "hamburger-sv-jr",
-        "name": "Hamburger SV Jr.",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
-      },
-      {
-        "slug": "united-states-jr-youth-1986",
-        "name": "United States Jr. Youth (1986)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=united-states-jr-youth-1986"
       }
     ],
     "nationality": "Japanese",
@@ -1910,56 +1590,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
       },
       {
-        "slug": "argentina-jr-youth",
-        "name": "Argentina Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "fc-bayern-munich-jr-youth",
-        "name": "FC Bayern Munich Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich-jr-youth"
-      },
-      {
-        "slug": "france-youth",
-        "name": "France Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
-        "slug": "furano-elementary-soccer-club",
-        "name": "Furano Elementary Soccer Club",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "hamburger-sv-jr-youth",
-        "name": "Hamburger SV Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
         "slug": "meiwa-fc",
         "name": "Meiwa FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
@@ -1970,64 +1600,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-higashi-middle-school"
       },
       {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "musashi-middle-school",
-        "name": "Musashi Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "sv-werder-bremen-jr-youth",
-        "name": "SV Werder Bremen Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
       },
       {
         "slug": "toho-academy-high-school",
@@ -2038,11 +1613,6 @@
         "slug": "toho-academy-middle-school",
         "name": "Toho Academy Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Japanese",
@@ -2171,36 +1741,6 @@
     "position": "Striker",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "bayern-munich",
-        "name": "Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bayern-munich"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "canada-jr-youth",
-        "name": "Canada Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=canada-jr-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
         "slug": "fc-bayern-munich",
         "name": "FC Bayern Munich",
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
@@ -2211,64 +1751,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich-jr-youth"
       },
       {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
         "slug": "germany-youth",
         "name": "Germany Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
       },
       {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "hamburger-sv-jr",
-        "name": "Hamburger SV Jr.",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr"
-      },
-      {
-        "slug": "iraq-youth",
-        "name": "Iraq Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "portugal-jr-youth",
-        "name": "Portugal Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=portugal-jr-youth"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
       }
     ],
     "nationality": "German",
@@ -2404,39 +1894,14 @@
     "position": "Attacking midfielderForward",
     "teams": [
       {
-        "slug": "belgium-national-team",
-        "name": "Belgium national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=belgium-national-team"
-      },
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
         "slug": "brazil-youth",
         "name": "Brazil Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
       },
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
       },
       {
         "slug": "real-madrid-cf",
@@ -2587,44 +2052,9 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "brazil-national-team",
-        "name": "Brazil national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-national-team"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-china",
-        "name": "Olympic China",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china"
-      },
-      {
-        "slug": "olympic-france",
-        "name": "Olympic France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-senegal",
-        "name": "Olympic Senegal",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-senegal"
       }
     ],
     "nationality": "Brazilian",
@@ -2755,11 +2185,6 @@
     "position": "Attacking midfielderForward",
     "teams": [
       {
-        "slug": "argentina",
-        "name": "Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina"
-      },
-      {
         "slug": "argentina-youth",
         "name": "Argentina Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
@@ -2770,54 +2195,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=boca-juniors"
       },
       {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "hamburger-sv-jr-youth",
-        "name": "Hamburger SV Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-argentina",
         "name": "Olympic Argentina",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
       }
     ],
     "nationality": "Argentinian",
@@ -3002,24 +2382,9 @@
     "position": "Midfielder",
     "teams": [
       {
-        "slug": "ac-reggiana",
-        "name": "AC Reggiana",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
         "slug": "captain-tsubasa-world-youth-hen-1994",
         "name": "Captain Tsubasa: World Youth Hen (1994)",
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
       },
       {
         "slug": "fc-albese",
@@ -3037,54 +2402,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera"
       },
       {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "nakahara-fc",
         "name": "Nakahara FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-fc"
       },
       {
-        "slug": "nakahara-middle-school",
-        "name": "Nakahara middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-middle-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Japanese",
@@ -3255,11 +2580,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=azumaichi-middle-school"
       },
       {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
@@ -3362,44 +2682,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
       },
       {
-        "slug": "bayern-jr-youth",
-        "name": "Bayern Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bayern-jr-youth"
-      },
-      {
-        "slug": "belgium-jr-youth",
-        "name": "Belgium Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=belgium-jr-youth"
-      },
-      {
-        "slug": "bremen-jr-youth",
-        "name": "Bremen Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bremen-jr-youth"
-      },
-      {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "hamburger-sv-jr-youth",
-        "name": "Hamburger SV Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
       },
       {
         "slug": "nankatsu-sc",
@@ -3415,16 +2700,6 @@
         "slug": "otomo-middle-school",
         "name": "Otomo Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Japanese",
@@ -3534,21 +2809,6 @@
     "position": "Defender; forward (former)",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
@@ -3619,51 +2879,6 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "ac-milan",
-        "name": "AC Milan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-milan"
-      },
-      {
-        "slug": "ac-milan-juniores",
-        "name": "AC Milan Juniores",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-milan-juniores"
-      },
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "argentina-jr-youth",
-        "name": "Argentina Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth"
-      },
-      {
-        "slug": "bremen-jr-youth",
-        "name": "Bremen Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bremen-jr-youth"
-      },
-      {
-        "slug": "fc-internazionale-milano",
-        "name": "FC Internazionale Milano",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-internazionale-milano"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "hamburg-jr-youth",
-        "name": "Hamburg Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburg-jr-youth"
-      },
-      {
         "slug": "inter-juniores",
         "name": "Inter Juniores",
         "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores"
@@ -3687,26 +2902,6 @@
         "slug": "italy-youth",
         "name": "Italy Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Italian",
@@ -3781,11 +2976,6 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "italy-youth",
         "name": "Italy Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
@@ -3799,36 +2989,6 @@
         "slug": "juventus-primavera",
         "name": "Juventus Primavera",
         "url": "/univers/olive-et-tom/equipe.html?slug=juventus-primavera"
-      },
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "parma-ac",
-        "name": "Parma AC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=parma-ac"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Italian",
@@ -3894,39 +3054,9 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
         "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "france-youth",
-        "name": "France Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "ghana-youth",
-        "name": "Ghana Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ghana-youth"
       },
       {
         "slug": "manchester-united-fc",
@@ -3939,29 +3069,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
       },
       {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
         "slug": "olympic-netherlands",
         "name": "Olympic Netherlands",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
       }
     ],
     "nationality": "Dutch",
@@ -4067,21 +3177,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln"
       },
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "bayern-munich",
-        "name": "Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bayern-munich"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
         "slug": "captain-tsubasa-world-youth-hen-1994",
         "name": "Captain Tsubasa: World Youth Hen (1994)",
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
@@ -4092,39 +3187,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
       },
       {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "junior-youth-world-challenge",
-        "name": "Junior Youth World Challenge",
-        "url": "/univers/olive-et-tom/equipe.html?slug=junior-youth-world-challenge"
-      },
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
         "slug": "sweden-youth",
         "name": "Sweden Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Swedish",
@@ -4270,41 +3335,6 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "belgium-jr-youth",
-        "name": "Belgium Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=belgium-jr-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
         "slug": "sv-werder-bremen",
         "name": "SV Werder Bremen",
         "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen"
@@ -4318,11 +3348,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "west-germany-jr-youth",
-        "name": "West Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=west-germany-jr-youth"
       }
     ],
     "nationality": "Uruguayan",
@@ -4443,11 +3468,6 @@
         "slug": "all-japan-youth",
         "name": "All Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
       },
       {
         "slug": "meiwa-fc",
@@ -4762,26 +3782,6 @@
     "position": "Attacking midfielder (retired)",
     "teams": [
       {
-        "slug": "all-japan-jr-youth-1986-film",
-        "name": "All Japan Jr. Youth (1986 film)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-1986-film"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "brazil-national-team",
-        "name": "Brazil national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-national-team"
-      },
-      {
         "slug": "brazil-youth",
         "name": "Brazil Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
@@ -4793,7 +3793,7 @@
       },
       {
         "slug": "sao-paulo-fc",
-        "name": "São Paulo FC",
+        "name": "Sao Paulo FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
       }
     ],
@@ -4930,64 +3930,9 @@
     "position": "Defensive midfielder; Defender",
     "teams": [
       {
-        "slug": "1fc-koln",
-        "name": "1.FC Koln",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln"
-      },
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "canada-jr-youth",
-        "name": "Canada Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=canada-jr-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "colombia-youth",
-        "name": "Colombia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth"
-      },
-      {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
-      },
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
         "slug": "germany-jr-youth",
         "name": "Germany Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "germany-national-team",
-        "name": "Germany national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-national-team"
       },
       {
         "slug": "germany-youth",
@@ -4995,74 +3940,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
       },
       {
-        "slug": "hamburg-jr-youth",
-        "name": "Hamburg Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburg-jr-youth"
-      },
-      {
         "slug": "hamburger-sv",
         "name": "Hamburger SV",
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
       },
       {
-        "slug": "hamburger-sv-jr",
-        "name": "Hamburger SV Jr.",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr"
-      },
-      {
-        "slug": "iraq-youth",
-        "name": "Iraq Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-china",
-        "name": "Olympic China",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-senegal",
-        "name": "Olympic Senegal",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-senegal"
-      },
-      {
-        "slug": "portugal-jr-youth",
-        "name": "Portugal Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=portugal-jr-youth"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "united-states-youth",
-        "name": "United States Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=united-states-youth"
-      },
-      {
-        "slug": "uruguay-jr-youth",
-        "name": "Uruguay Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth"
       }
     ],
     "nationality": "German",
@@ -5168,36 +4053,6 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "colombia-youth",
-        "name": "Colombia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth"
-      },
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
         "slug": "germany-jr-youth",
         "name": "Germany Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
@@ -5208,64 +4063,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
       },
       {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-china",
-        "name": "Olympic China",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-senegal",
-        "name": "Olympic Senegal",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-senegal"
-      },
-      {
-        "slug": "portugal-jr-youth",
-        "name": "Portugal Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=portugal-jr-youth"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "uruguay-jr-youth",
-        "name": "Uruguay Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth"
-      },
-      {
-        "slug": "usa-youth",
-        "name": "USA Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth"
       }
     ],
     "nationality": "German",
@@ -5355,69 +4155,14 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "canada-jr-youth",
-        "name": "Canada Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=canada-jr-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "colombia-youth",
-        "name": "Colombia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth"
-      },
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
         "slug": "germany-youth",
         "name": "Germany Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
       },
       {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "portugal-jr-youth",
-        "name": "Portugal Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=portugal-jr-youth"
       },
       {
         "slug": "sv-werder-bremen",
@@ -5428,21 +4173,6 @@
         "slug": "sv-werder-bremen-jr-youth",
         "name": "SV Werder Bremen Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "united-states-youth",
-        "name": "United States Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=united-states-youth"
-      },
-      {
-        "slug": "uruguay-jr-youth",
-        "name": "Uruguay Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth"
       }
     ],
     "nationality": "German",
@@ -5513,34 +4243,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "atletico-madrid",
-        "name": "Atletico Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=atletico-madrid"
-      },
-      {
-        "slug": "bara-fc",
-        "name": "Bara FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bara-fc"
-      },
-      {
-        "slug": "belgium-national-team",
-        "name": "Belgium national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=belgium-national-team"
-      },
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
         "slug": "brazil-middle-school",
         "name": "Brazil (Middle school)",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-middle-school"
-      },
-      {
-        "slug": "brazil-jr-youth-ronc",
-        "name": "Brazil Jr. Youth (RoNC)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-jr-youth-ronc"
       },
       {
         "slug": "brazil-youth",
@@ -5548,54 +4253,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
       },
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
         "slug": "cr-flamengo",
         "name": "CR Flamengo",
         "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo"
       },
       {
-        "slug": "flamengo",
-        "name": "Flamengo",
-        "url": "/univers/olive-et-tom/equipe.html?slug=flamengo"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Brazilian",
@@ -5821,19 +4486,9 @@
     "position": "Not fixed",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
         "slug": "borussia-monchengladbach",
         "name": "Borussia Monchengladbach",
         "url": "/univers/olive-et-tom/equipe.html?slug=borussia-monchengladbach"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
       },
       {
         "slug": "china-youth",
@@ -5846,44 +4501,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
       },
       {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "iraq-youth",
-        "name": "Iraq Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
         "slug": "olympic-china",
         "name": "Olympic China",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
       }
     ],
     "nationality": "Chinese",
@@ -5984,11 +4604,6 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "argentina",
-        "name": "Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina"
-      },
-      {
         "slug": "argentina-youth",
         "name": "Argentina Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
@@ -5999,44 +4614,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=boca-juniors"
       },
       {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "hamburg-jr-youth",
-        "name": "Hamburg Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburg-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-argentina",
         "name": "Olympic Argentina",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
       }
     ],
     "nationality": "Argentinian",
@@ -6122,39 +4702,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "china-youth",
         "name": "China Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "uae-youth",
-        "name": "UAE Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uae-youth"
-      },
-      {
-        "slug": "uzbekistan-youth",
-        "name": "Uzbekistan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
       }
     ],
     "nationality": "Chinese",
@@ -6220,21 +4770,6 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "england-jr-youth",
-        "name": "England Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=england-jr-youth"
-      },
-      {
-        "slug": "france",
-        "name": "France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france"
-      },
-      {
         "slug": "france-jr-youth",
         "name": "France Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
@@ -6243,16 +4778,6 @@
         "slug": "france-youth",
         "name": "France Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
-        "slug": "malaysia-jr-youth",
-        "name": "Malaysia Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=malaysia-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
       },
       {
         "slug": "olympic-france",
@@ -6356,36 +4881,6 @@
         "slug": "all-japan-youth",
         "name": "All Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
       },
       {
         "slug": "olympic-japan",
@@ -6505,16 +5000,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
       },
       {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
@@ -6526,7 +5011,7 @@
       },
       {
         "slug": "nishigaoka-elementary-school",
-        "name": "Nishigaoka elementary school",
+        "name": "Nishigaoka Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nishigaoka-elementary-school"
       },
       {
@@ -6610,19 +5095,9 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "nankatsu-sc",
         "name": "Nankatsu SC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "otomo-middle-school",
-        "name": "Otomo middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -6665,26 +5140,6 @@
         "slug": "furano-middle-school",
         "name": "Furano Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "united-states",
-        "name": "United States",
-        "url": "/univers/olive-et-tom/equipe.html?slug=united-states"
       }
     ],
     "nationality": "Japanese",
@@ -6737,11 +5192,6 @@
         "slug": "hirado-middle-school",
         "name": "Hirado Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=hirado-middle-school"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
       },
       {
         "slug": "kunimi-gakuin-high-school",
@@ -6860,11 +5310,6 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
@@ -6878,11 +5323,6 @@
         "slug": "nankatsu-sc",
         "name": "Nankatsu SC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "shutetsu",
-        "name": "Shutetsu",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu"
       },
       {
         "slug": "shutetsu-elementary-school",
@@ -6976,11 +5416,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=arsenal-fc"
       },
       {
-        "slug": "france-national-team",
-        "name": "France national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-national-team"
-      },
-      {
         "slug": "olympic-france",
         "name": "Olympic France",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france"
@@ -7065,19 +5500,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "musashi-fc",
         "name": "Musashi FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      },
-      {
-        "slug": "musashi-middle-school",
-        "name": "Musashi middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -7117,44 +5542,14 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "belgium-national-team",
-        "name": "Belgium national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=belgium-national-team"
-      },
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
         "slug": "brazil-youth",
         "name": "Brazil Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
       },
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Brazilian",
@@ -7220,29 +5615,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
         "slug": "mexico-youth",
         "name": "Mexico Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Mexican",
@@ -7286,21 +5661,6 @@
     },
     "position": "Goalkeeper",
     "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "england-jr-youth",
-        "name": "England Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=england-jr-youth"
-      },
-      {
-        "slug": "france",
-        "name": "France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france"
-      },
       {
         "slug": "france-jr-youth",
         "name": "France Jr. Youth",
@@ -7349,11 +5709,6 @@
     "position": "",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
@@ -7394,13 +5749,7 @@
       "kanji": "早川 あづみ"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -7483,16 +5832,6 @@
         "slug": "bara-fc",
         "name": "Bara FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=bara-fc"
-      },
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
       }
     ],
     "nationality": "Brazilian",
@@ -7581,23 +5920,7 @@
       "kanji": ""
     },
     "position": "Wide midfielder",
-    "teams": [
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
-        "slug": "germany-national-team",
-        "name": "Germany national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-national-team"
-      },
-      {
-        "slug": "japan-national-team",
-        "name": "Japan national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-national-team"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {},
     "description": "",
@@ -7634,16 +5957,6 @@
     },
     "position": "Forward, attacking midfielder",
     "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "france",
-        "name": "France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france"
-      },
       {
         "slug": "france-jr-youth",
         "name": "France Jr. Youth",
@@ -7739,34 +6052,9 @@
     "position": "Centre back",
     "teams": [
       {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "colombia-youth",
-        "name": "Colombia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
         "slug": "sweden-youth",
         "name": "Sweden Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "usa-youth",
-        "name": "USA Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth"
       }
     ],
     "nationality": "Swedish",
@@ -7852,11 +6140,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
       },
       {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
-      },
-      {
         "slug": "real-madrid-cf",
         "name": "Real Madrid CF",
         "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
@@ -7897,23 +6180,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -7954,11 +6221,6 @@
         "slug": "juventus-fc",
         "name": "Juventus FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      },
-      {
-        "slug": "parma-ac",
-        "name": "Parma AC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=parma-ac"
       }
     ],
     "nationality": "Italian",
@@ -7996,13 +6258,7 @@
       "kanji": "カルロス"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -8040,44 +6296,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
         "slug": "borussia-monchengladbach",
         "name": "Borussia Monchengladbach",
         "url": "/univers/olive-et-tom/equipe.html?slug=borussia-monchengladbach"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "ghana-youth",
-        "name": "Ghana Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ghana-youth"
-      },
-      {
-        "slug": "iraq-youth",
-        "name": "Iraq Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
       },
       {
         "slug": "south-korea-youth",
@@ -8147,16 +6368,6 @@
     },
     "position": "Forward",
     "teams": [
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
       {
         "slug": "thailand-middle-school",
         "name": "Thailand (Middle school)",
@@ -8248,23 +6459,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -8336,23 +6531,7 @@
       "kanji": ""
     },
     "position": "Defensive midfielder",
-    "teams": [
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "brazil-national-team",
-        "name": "Brazil national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-national-team"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -8390,29 +6569,14 @@
     "position": "Midfielder",
     "teams": [
       {
-        "slug": "ac-reggiana",
-        "name": "AC Reggiana",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana"
-      },
-      {
         "slug": "juventus-fc",
         "name": "Juventus FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
       },
       {
-        "slug": "netherlands-national-team",
-        "name": "Netherlands national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-national-team"
-      },
-      {
         "slug": "olympic-netherlands",
         "name": "Olympic Netherlands",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "parma-ac",
-        "name": "Parma AC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=parma-ac"
       }
     ],
     "nationality": "Dutch",
@@ -8503,59 +6667,14 @@
     "position": "",
     "teams": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "argentina",
-        "name": "Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina"
-      },
-      {
         "slug": "argentina-jr-youth",
         "name": "Argentina Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth"
       },
       {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
         "slug": "olympic-argentina",
         "name": "Olympic Argentina",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
       }
     ],
     "nationality": "Argentinian",
@@ -8679,29 +6798,9 @@
     "position": "MidfielderDefender",
     "teams": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "england-jr-youth",
-        "name": "England Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=england-jr-youth"
-      },
-      {
         "slug": "fc-girondins-de-bordeaux",
         "name": "FC Girondins de Bordeaux",
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-girondins-de-bordeaux"
-      },
-      {
-        "slug": "france",
-        "name": "France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france"
       },
       {
         "slug": "france-jr-youth",
@@ -8714,21 +6813,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
       },
       {
-        "slug": "malaysia-jr-youth",
-        "name": "Malaysia Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=malaysia-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
         "slug": "olympic-france",
         "name": "Olympic France",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france"
@@ -8737,11 +6821,6 @@
         "slug": "paris-saint-germain-fc",
         "name": "Paris Saint-Germain FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc"
-      },
-      {
-        "slug": "seine-jr-youth",
-        "name": "Seine Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=seine-jr-youth"
       }
     ],
     "nationality": "French",
@@ -8895,13 +6974,7 @@
       "kanji": "エリック・ファンサール"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {},
     "description": "",
@@ -9017,16 +7090,6 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "thailand-middle-school",
         "name": "Thailand (Middle school)",
         "url": "/univers/olive-et-tom/equipe.html?slug=thailand-middle-school"
@@ -9087,11 +7150,6 @@
         "slug": "real-madrid-cf",
         "name": "Real Madrid CF",
         "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      },
-      {
-        "slug": "spain-national-team",
-        "name": "Spain national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=spain-national-team"
       }
     ],
     "nationality": "Spanish",
@@ -9176,18 +7234,7 @@
       "kanji": "フラビオ・コンセス"
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -9223,13 +7270,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "",
     "physical": {},
     "description": "",
@@ -9267,44 +7308,9 @@
     "position": "Midfielder",
     "teams": [
       {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "canada-jr-youth",
-        "name": "Canada Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=canada-jr-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "colombia-youth",
-        "name": "Colombia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth"
-      },
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
         "slug": "germany-jr-youth",
         "name": "Germany Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "germany-national-team",
-        "name": "Germany national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-national-team"
       },
       {
         "slug": "germany-youth",
@@ -9312,34 +7318,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
       },
       {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "portugal-jr-youth",
-        "name": "Portugal Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=portugal-jr-youth"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
       },
       {
         "slug": "sv-werder-bremen",
@@ -9350,21 +7331,6 @@
         "slug": "sv-werder-bremen-jr-youth",
         "name": "SV Werder Bremen Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "uruguay-jr-youth",
-        "name": "Uruguay Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth"
-      },
-      {
-        "slug": "usa-youth",
-        "name": "USA Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth"
       }
     ],
     "nationality": "German",
@@ -9494,34 +7460,9 @@
     "position": "Winger",
     "teams": [
       {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "colombia-youth",
-        "name": "Colombia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
         "slug": "sweden-youth",
         "name": "Sweden Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "usa-youth",
-        "name": "USA Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth"
       }
     ],
     "nationality": "Swedish",
@@ -9565,16 +7506,6 @@
     },
     "position": "Defender",
     "teams": [
-      {
-        "slug": "bolanos-fc",
-        "name": "Bolanos FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bolanos-fc"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
       {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
@@ -9639,11 +7570,6 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "argentina",
-        "name": "Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina"
-      },
-      {
         "slug": "argentina-jr-youth",
         "name": "Argentina Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth"
@@ -9696,54 +7622,14 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
         "slug": "argentina-youth",
         "name": "Argentina Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
       },
       {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-argentina",
         "name": "Olympic Argentina",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
       }
     ],
     "nationality": "Argentinian",
@@ -9814,29 +7700,9 @@
     "position": "Defensive midfielder",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
         "slug": "mexico-youth",
         "name": "Mexico Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Mexican",
@@ -9879,13 +7745,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -9959,24 +7819,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
       },
       {
         "slug": "olympic-netherlands",
@@ -10019,13 +7864,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "australia-national-team",
-        "name": "Australia national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=australia-national-team"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {},
     "description": "",
@@ -10179,26 +8018,6 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "france-youth",
-        "name": "France Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
@@ -10291,13 +8110,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -10333,18 +8146,7 @@
       "kanji": "青葉 秀人"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "shumei-gakkan-middle-school",
-        "name": "Shumei Gakkan middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shumei-gakkan-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -10380,23 +8182,7 @@
       "kanji": "中田 英寿"
     },
     "position": "midfielder",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-national-team",
-        "name": "Japan national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-national-team"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -10433,11 +8219,6 @@
     },
     "position": "Attacking midfielder",
     "teams": [
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
       {
         "slug": "olympic-mexico",
         "name": "Olympic Mexico",
@@ -10479,23 +8260,7 @@
       "kanji": "岬 一郎"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "nishimine-elementary-school",
-        "name": "Nishimine Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -10575,39 +8340,9 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
         "slug": "nankatsu-sc",
         "name": "Nankatsu SC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
       },
       {
         "slug": "otomo-middle-school",
@@ -10660,11 +8395,6 @@
         "slug": "ac-reggiana",
         "name": "AC Reggiana",
         "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana"
-      },
-      {
-        "slug": "fc-albese",
-        "name": "FC Albese",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-albese"
       }
     ],
     "nationality": "Italian",
@@ -10761,19 +8491,9 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
-      },
-      {
         "slug": "real-madrid-cf",
         "name": "Real Madrid CF",
         "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      },
-      {
-        "slug": "spain-national-team",
-        "name": "Spain national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=spain-national-team"
       }
     ],
     "nationality": "Spanish",
@@ -10931,11 +8651,6 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      },
-      {
         "slug": "olympic-nigeria",
         "name": "Olympic Nigeria",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
@@ -10983,16 +8698,6 @@
     "position": "",
     "teams": [
       {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "brazil-national-team",
-        "name": "Brazil national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-national-team"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
@@ -11039,11 +8744,6 @@
     },
     "position": "Forward, Attacking midfielder",
     "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
       {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
@@ -11132,23 +8832,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "greece-national-team",
-        "name": "Greece national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=greece-national-team"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Greek",
     "physical": {},
     "description": "",
@@ -11184,38 +8868,7 @@
       "kanji": "松本 香"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "ac-reggiana",
-        "name": "AC Reggiana",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "default": {
@@ -11255,18 +8908,7 @@
       "kanji": "カタリーナ・カレン"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Swedish",
     "physical": {},
     "description": "",
@@ -11314,24 +8956,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
       },
       {
-        "slug": "furano-public-high-school",
-        "name": "Furano Public High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-public-high-school"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
       }
     ],
     "nationality": "Japanese",
@@ -11384,11 +9011,6 @@
     "position": "Forward (retired)",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "nishimine-elementary-school",
         "name": "Nishimine Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school"
@@ -11429,38 +9051,7 @@
       "kanji": "大空 広大"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shutetsu",
-        "name": "Shutetsu",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -11496,28 +9087,7 @@
       "kanji": "神田 幸志"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -11553,23 +9123,7 @@
       "kanji": ""
     },
     "position": "Wide Midfielder",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "jousei-high-school",
-        "name": "Jousei high school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=jousei-high-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -11606,11 +9160,6 @@
     },
     "position": "Defender",
     "teams": [
-      {
-        "slug": "netherlands-national-team",
-        "name": "Netherlands national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-national-team"
-      },
       {
         "slug": "olympic-netherlands",
         "name": "Olympic Netherlands",
@@ -11654,44 +9203,14 @@
     "position": "",
     "teams": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
         "slug": "meiwa-fc",
         "name": "Meiwa FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
       },
       {
-        "slug": "musashi-fc",
-        "name": "Musashi FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      },
-      {
-        "slug": "nankatsu-sc-selection-team",
-        "name": "Nankatsu SC (selection team)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc-selection-team"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      },
-      {
-        "slug": "olympic-new-zealand",
-        "name": "Olympic New Zealand",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-new-zealand"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -11731,26 +9250,6 @@
     "position": "",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "hanawa-middle-school",
-        "name": "Hanawa Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hanawa-middle-school"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
@@ -11759,11 +9258,6 @@
         "slug": "nankatsu-middle-school",
         "name": "Nankatsu Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
       }
     ],
     "nationality": "Japanese",
@@ -11803,39 +9297,9 @@
     "position": "Winger",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "colombia-youth",
-        "name": "Colombia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
         "slug": "sweden-youth",
         "name": "Sweden Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "usa-youth",
-        "name": "USA Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth"
       }
     ],
     "nationality": "Swedish",
@@ -11879,41 +9343,6 @@
     },
     "position": "Forward",
     "teams": [
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "ghana-youth",
-        "name": "Ghana Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ghana-youth"
-      },
-      {
-        "slug": "iraq-youth",
-        "name": "Iraq Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
       {
         "slug": "south-korea-youth",
         "name": "South Korea Youth",
@@ -11962,31 +9391,6 @@
     "position": "Centre back",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "france-youth",
-        "name": "France Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
@@ -11995,11 +9399,6 @@
         "slug": "olympic-netherlands",
         "name": "Olympic Netherlands",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
       }
     ],
     "nationality": "Dutch",
@@ -12043,11 +9442,6 @@
     },
     "position": "Forward",
     "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
       {
         "slug": "mexico-youth",
         "name": "Mexico Youth",
@@ -12096,24 +9490,9 @@
     "position": "Forward; Attacking midfielder",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
         "slug": "bara-fc",
         "name": "Bara FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=bara-fc"
-      },
-      {
-        "slug": "belgium-national-team",
-        "name": "Belgium national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=belgium-national-team"
-      },
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
       },
       {
         "slug": "brazil-youth",
@@ -12121,34 +9500,14 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
       },
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "cr-flamengo",
         "name": "CR Flamengo",
         "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo"
       },
       {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Brazilian",
@@ -12234,19 +9593,9 @@
     "position": "Wide midfielder",
     "teams": [
       {
-        "slug": "manchester-united-fc",
-        "name": "Manchester United FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=manchester-united-fc"
-      },
-      {
         "slug": "real-madrid-cf",
         "name": "Real Madrid CF",
         "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      },
-      {
-        "slug": "spain-national-team",
-        "name": "Spain national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=spain-national-team"
       }
     ],
     "nationality": "Spanish",
@@ -12285,16 +9634,6 @@
     },
     "position": "Midfielder",
     "teams": [
-      {
-        "slug": "france",
-        "name": "France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france"
-      },
-      {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
-      },
       {
         "slug": "real-madrid-cf",
         "name": "Real Madrid CF",
@@ -12336,23 +9675,7 @@
       "kanji": "赤嶺 真紀"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -12389,21 +9712,6 @@
     },
     "position": "",
     "teams": [
-      {
-        "slug": "meiwa-higashi-middle-school",
-        "name": "Meiwa Higashi Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-higashi-middle-school"
-      },
-      {
-        "slug": "musashi-middle-school",
-        "name": "Musashi Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
       {
         "slug": "toho-academy-middle-school",
         "name": "Toho Academy Middle School",
@@ -12511,11 +9819,6 @@
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shimada-elementary-soccer-club",
-        "name": "Shimada Elementary Soccer Club",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shimada-elementary-soccer-club"
       },
       {
         "slug": "shutetsu-elementary-school",
@@ -12737,13 +10040,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -12784,11 +10081,6 @@
         "slug": "real-madrid-cf",
         "name": "Real Madrid CF",
         "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      },
-      {
-        "slug": "spain-national-team",
-        "name": "Spain national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=spain-national-team"
       }
     ],
     "nationality": "Spanish",
@@ -12827,11 +10119,6 @@
     },
     "position": "Forward",
     "teams": [
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
       {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
@@ -12953,69 +10240,9 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "cameroon-youth",
-        "name": "Cameroon Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=cameroon-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "france-youth",
-        "name": "France Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "junior-youth-world-challenge",
-        "name": "Junior Youth World Challenge",
-        "url": "/univers/olive-et-tom/equipe.html?slug=junior-youth-world-challenge"
-      },
-      {
         "slug": "saudi-arabia-youth",
         "name": "Saudi Arabia Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      },
-      {
-        "slug": "uae-youth",
-        "name": "UAE Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uae-youth"
-      },
-      {
-        "slug": "uzbekistan-youth",
-        "name": "Uzbekistan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
       }
     ],
     "nationality": "Saudi Arabian",
@@ -13121,39 +10348,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
       },
       {
-        "slug": "furano",
-        "name": "Furano",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano"
-      },
-      {
         "slug": "furano-elementary-soccer-club",
         "name": "Furano Elementary Soccer Club",
         "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club"
-      },
-      {
-        "slug": "furano-middle-school",
-        "name": "Furano middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "minamiuwa",
-        "name": "Minamiuwa",
-        "url": "/univers/olive-et-tom/equipe.html?slug=minamiuwa"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
       }
     ],
     "nationality": "Japanese",
@@ -13193,16 +10390,6 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "musashi-fc",
-        "name": "Musashi FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
@@ -13211,11 +10398,6 @@
         "slug": "nankatsu-sc",
         "name": "Nankatsu SC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
       },
       {
         "slug": "olympic-japan",
@@ -13270,16 +10452,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=ac-chievo-verona"
       },
       {
-        "slug": "ac-milan-juniores",
-        "name": "AC Milan Juniores",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-milan-juniores"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "inter-juniores",
         "name": "Inter Juniores",
         "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores"
@@ -13332,19 +10504,9 @@
     "position": "",
     "teams": [
       {
-        "slug": "ac-reggiana",
-        "name": "AC Reggiana",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana"
-      },
-      {
         "slug": "juventus-fc",
         "name": "Juventus FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      },
-      {
-        "slug": "parma-ac",
-        "name": "Parma AC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=parma-ac"
       }
     ],
     "nationality": "Italian",
@@ -13383,11 +10545,6 @@
     },
     "position": "Midfielder",
     "teams": [
-      {
-        "slug": "olympic-cameroon",
-        "name": "Olympic Cameroon",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-cameroon"
-      },
       {
         "slug": "olympic-spain",
         "name": "Olympic Spain",
@@ -13562,11 +10719,6 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
-      },
-      {
         "slug": "real-madrid-cf",
         "name": "Real Madrid CF",
         "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
@@ -13607,13 +10759,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
-      }
-    ],
+    "teams": [],
     "nationality": "Unknown",
     "physical": {},
     "description": "",
@@ -13649,33 +10795,7 @@
       "kanji": ""
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -13718,94 +10838,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
       },
       {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "inter-primavera",
-        "name": "Inter Primavera",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera"
-      },
-      {
-        "slug": "iraq-youth",
-        "name": "Iraq Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      },
-      {
-        "slug": "united-arab-emirates-youth",
-        "name": "United Arab Emirates Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=united-arab-emirates-youth"
-      },
-      {
-        "slug": "uzbekistan-youth",
-        "name": "Uzbekistan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
       }
     ],
     "nationality": "Japanese",
@@ -13887,29 +10922,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "musashi-fc",
         "name": "Musashi FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      },
-      {
-        "slug": "musashi-middle-school",
-        "name": "Musashi middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
       }
     ],
     "nationality": "Japanese",
@@ -13948,11 +10963,6 @@
     },
     "position": "Midfielder (retired)",
     "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
       {
         "slug": "nishimine-elementary-school",
         "name": "Nishimine Elementary School",
@@ -13995,21 +11005,6 @@
     },
     "position": "Goalkeeper",
     "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
       {
         "slug": "shimizu-fc",
         "name": "Shimizu FC",
@@ -14134,23 +11129,7 @@
       "kanji": ""
     },
     "position": "JFA staff; Talent scout;Forward (retired)",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth-1986-film",
-        "name": "All Japan Jr. Youth (1986 film)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-1986-film"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -14186,13 +11165,7 @@
       "kanji": "大空 奈津子"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -14266,11 +11239,6 @@
     "position": "",
     "teams": [
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "inter-juniores",
         "name": "Inter Juniores",
         "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores"
@@ -14331,11 +11299,6 @@
         "slug": "meiwa-higashi-middle-school",
         "name": "Meiwa Higashi Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-higashi-middle-school"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -14378,23 +11341,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -14482,13 +11429,7 @@
       "kanji": ""
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {},
     "description": "",
@@ -14571,13 +11512,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "greece-national-team",
-        "name": "Greece national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=greece-national-team"
-      }
-    ],
+    "teams": [],
     "nationality": "Greek",
     "physical": {},
     "description": "",
@@ -14649,13 +11584,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Portuguese",
     "physical": {},
     "description": "",
@@ -14693,34 +11622,9 @@
     "position": "Forward; Attacking midfielder",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "belgium-national-team",
-        "name": "Belgium national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=belgium-national-team"
-      },
-      {
         "slug": "brazil-youth",
         "name": "Brazil Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "cr-flamengo",
-        "name": "CR Flamengo",
-        "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
       },
       {
         "slug": "olympic-brazil",
@@ -14736,11 +11640,6 @@
         "slug": "sao-paulo-fc-youth-squads",
         "name": "Sao Paulo FC - Youth squads",
         "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc-youth-squads"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Brazilian",
@@ -14846,34 +11745,9 @@
     "position": "Defensive midfielder",
     "teams": [
       {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "brazil-national-team",
-        "name": "Brazil national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-national-team"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "paris-saint-germain-fc",
-        "name": "Paris Saint-Germain FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
       },
       {
         "slug": "sao-paulo-fc",
@@ -15095,29 +11969,9 @@
     "position": "GoalkeeperForward",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "everton-fc",
         "name": "Everton FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=everton-fc"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
       },
       {
         "slug": "mexico-youth",
@@ -15125,24 +11979,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
       },
       {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
         "slug": "olympic-mexico",
         "name": "Olympic Mexico",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Mexican",
@@ -15221,18 +12060,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -15269,11 +12097,6 @@
     },
     "position": "Defender",
     "teams": [
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
       {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
@@ -15361,21 +12184,6 @@
         "slug": "england-jr-youth",
         "name": "England Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=england-jr-youth"
-      },
-      {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
       }
     ],
     "nationality": "English",
@@ -15456,39 +12264,9 @@
     "position": "Head coach",
     "teams": [
       {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
         "slug": "fc-bayern-munich",
         "name": "FC Bayern Munich",
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
-      },
-      {
-        "slug": "fc-bayern-munich-jr-youth",
-        "name": "FC Bayern Munich Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich-jr-youth"
-      },
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
-        "slug": "germany-national-team",
-        "name": "Germany national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-national-team"
       },
       {
         "slug": "germany-youth",
@@ -15501,44 +12279,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
       },
       {
-        "slug": "hamburger-sv-jr-youth",
-        "name": "Hamburger SV Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-china",
-        "name": "Olympic China",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-senegal",
-        "name": "Olympic Senegal",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-senegal"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
       }
     ],
     "nationality": "German",
@@ -15577,11 +12320,6 @@
     },
     "position": "Midfielder",
     "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
       {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
@@ -15630,16 +12368,6 @@
     "position": "Striker",
     "teams": [
       {
-        "slug": "ac-reggiana",
-        "name": "AC Reggiana",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
         "slug": "ca-river-plate",
         "name": "CA River Plate",
         "url": "/univers/olive-et-tom/equipe.html?slug=ca-river-plate"
@@ -15648,36 +12376,6 @@
         "slug": "captain-tsubasa-world-youth-hen-1994",
         "name": "Captain Tsubasa: World Youth Hen (1994)",
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "uruguay-national-team",
-        "name": "Uruguay national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-national-team"
       },
       {
         "slug": "uruguay-youth",
@@ -15803,16 +12501,6 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "thailand-middle-school",
         "name": "Thailand (Middle school)",
         "url": "/univers/olive-et-tom/equipe.html?slug=thailand-middle-school"
@@ -15907,44 +12595,14 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "brazil",
-        "name": "Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
-      },
-      {
         "slug": "brazil-youth",
         "name": "Brazil Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
       },
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Brazilian",
@@ -16029,38 +12687,7 @@
       "kanji": "大空 早苗"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -16134,11 +12761,6 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "argentina",
-        "name": "Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina"
-      },
-      {
         "slug": "argentina-youth",
         "name": "Argentina Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
@@ -16180,16 +12802,6 @@
     },
     "position": "DefenderDefensive midfielder",
     "teams": [
-      {
-        "slug": "borussia-dortmundnext-dream",
-        "name": "Borussia Dortmund/Next Dream",
-        "url": "/univers/olive-et-tom/equipe.html?slug=borussia-dortmundnext-dream"
-      },
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
       {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
@@ -16238,19 +12850,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=borussia-dortmund"
       },
       {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
       }
     ],
     "nationality": "German",
@@ -16311,29 +12913,9 @@
     "position": "",
     "teams": [
       {
-        "slug": "1fc-koln",
-        "name": "1.FC Koln",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln"
-      },
-      {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
-      },
-      {
-        "slug": "germany",
-        "name": "Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany"
-      },
-      {
         "slug": "hamburger-sv",
         "name": "Hamburger SV",
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "hamburger-sv-jr-youth",
-        "name": "Hamburger SV Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
       }
     ],
     "nationality": "German",
@@ -16420,44 +13002,19 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
       },
       {
-        "slug": "azumaichi-middle-school",
-        "name": "Azumaichi middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=azumaichi-middle-school"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-jr-youth",
-        "name": "Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-jr-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
       },
       {
         "slug": "nankatsu-middle-school",
-        "name": "Nankatsu middle school",
+        "name": "Nankatsu Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
       },
       {
         "slug": "nankatsu-sc",
         "name": "Nankatsu SC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "shutetsu",
-        "name": "Shutetsu",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu"
       }
     ],
     "nationality": "Japanese",
@@ -16550,24 +13107,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "musashi-fc",
         "name": "Musashi FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      },
-      {
-        "slug": "musashi-middle-school",
-        "name": "Musashi middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -16610,23 +13152,7 @@
       "kanji": ""
     },
     "position": "Wide Midfielder",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "jousei-high-school",
-        "name": "Jousei high school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=jousei-high-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -16663,11 +13189,6 @@
     },
     "position": "",
     "teams": [
-      {
-        "slug": "argentina",
-        "name": "Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina"
-      },
       {
         "slug": "olympic-argentina",
         "name": "Olympic Argentina",
@@ -16711,24 +13232,9 @@
     "position": "Centre back",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
         "slug": "atletico-madrid",
         "name": "Atletico Madrid",
         "url": "/univers/olive-et-tom/equipe.html?slug=atletico-madrid"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "chinese-taipei-youth",
-        "name": "Chinese Taipei Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=chinese-taipei-youth"
       },
       {
         "slug": "thailand-youth",
@@ -16799,19 +13305,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "kunimi-gakuin-high-school",
         "name": "Kunimi Gakuin High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
       }
     ],
     "nationality": "Japanese",
@@ -16851,44 +13347,14 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
         "slug": "mexico-youth",
         "name": "Mexico Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
       },
       {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
         "slug": "olympic-mexico",
         "name": "Olympic Mexico",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Mexican",
@@ -16933,19 +13399,9 @@
     "position": "Defensive midfielder",
     "teams": [
       {
-        "slug": "italy-national-team",
-        "name": "Italy national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-national-team"
-      },
-      {
         "slug": "juventus-fc",
         "name": "Juventus FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      },
-      {
-        "slug": "parma",
-        "name": "Parma",
-        "url": "/univers/olive-et-tom/equipe.html?slug=parma"
       }
     ],
     "nationality": "Italian",
@@ -16985,24 +13441,9 @@
     "position": "",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "nankatsu-sc",
         "name": "Nankatsu SC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "nankatsu-sc-selection-team",
-        "name": "Nankatsu SC (selection team)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc-selection-team"
-      },
-      {
-        "slug": "otomo-middle-school",
-        "name": "Otomo Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -17042,16 +13483,6 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "azumaichi-middle-school",
-        "name": "Azumaichi Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=azumaichi-middle-school"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
         "slug": "naniwa-fc",
         "name": "Naniwa FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-fc"
@@ -17062,16 +13493,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-middle-school"
       },
       {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
@@ -17080,11 +13501,6 @@
         "slug": "tatsunami-high-school",
         "name": "Tatsunami High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=tatsunami-high-school"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
       }
     ],
     "nationality": "Japanese",
@@ -17127,18 +13543,7 @@
       "kanji": ""
     },
     "position": "Wide midfielder",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -17175,11 +13580,6 @@
     },
     "position": "",
     "teams": [
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
       {
         "slug": "nankatsu-middle-school",
         "name": "Nankatsu Middle School",
@@ -17241,11 +13641,6 @@
         "slug": "otomo-middle-school",
         "name": "Otomo Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
       },
       {
         "slug": "yamabuki-elementary-school",
@@ -17311,44 +13706,9 @@
     "position": "",
     "teams": [
       {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "nakahara-middle-school",
-        "name": "Nakahara middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-middle-school"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
       }
     ],
     "nationality": "Japanese",
@@ -17429,69 +13789,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
       },
       {
-        "slug": "argentina-jr-youth",
-        "name": "Argentina Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth"
-      },
-      {
-        "slug": "belgium-jr-youth",
-        "name": "Belgium Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=belgium-jr-youth"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "france",
-        "name": "France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "hamburger-sv-jr",
-        "name": "Hamburger SV Jr.",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr"
-      },
-      {
-        "slug": "hamburger-sv-jr-youth",
-        "name": "Hamburger SV Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shutetsu",
-        "name": "Shutetsu",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu"
-      },
-      {
-        "slug": "sv-werder-bremen-jr-youth",
-        "name": "SV Werder Bremen Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth"
       }
     ],
     "nationality": "Japanese",
@@ -17536,16 +13836,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
       },
       {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
@@ -17564,16 +13854,6 @@
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shimizu-fc",
-        "name": "Shimizu FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shimizu-fc"
-      },
-      {
-        "slug": "shutetsu",
-        "name": "Shutetsu",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu"
       },
       {
         "slug": "shutetsu-elementary-school",
@@ -17660,13 +13940,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "",
     "physical": {},
     "description": "",
@@ -17707,21 +13981,6 @@
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "furano-middle-school",
-        "name": "Furano middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "minamiuwa-middle-school",
-        "name": "Minamiuwa middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=minamiuwa-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -17765,21 +14024,6 @@
     },
     "position": "Defender",
     "teams": [
-      {
-        "slug": "france",
-        "name": "France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france"
-      },
-      {
-        "slug": "france-national-team",
-        "name": "France national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-national-team"
-      },
-      {
-        "slug": "juventus-primavera",
-        "name": "Juventus Primavera",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-primavera"
-      },
       {
         "slug": "parma-ac",
         "name": "Parma AC",
@@ -17899,28 +14143,7 @@
       "kanji": ""
     },
     "position": "Defender Defensive midfielder",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "inter-primavera",
-        "name": "Inter Primavera",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -17992,18 +14215,7 @@
       "kanji": ""
     },
     "position": "Wide midfielder",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -18119,11 +14331,6 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "argentina",
-        "name": "Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina"
-      },
-      {
         "slug": "olympic-argentina",
         "name": "Olympic Argentina",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
@@ -18164,13 +14371,7 @@
       "kanji": "ヴィセンテ・デラパスケ"
     },
     "position": "Head coach",
-    "teams": [
-      {
-        "slug": "real-madrid",
-        "name": "Real Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -18250,54 +14451,9 @@
     "position": "Forward; Defender",
     "teams": [
       {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "cameroon-youth",
-        "name": "Cameroon Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=cameroon-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "france-youth",
-        "name": "France Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "saudi-arabia-youth",
         "name": "Saudi Arabia Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      },
-      {
-        "slug": "uae-youth",
-        "name": "UAE Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uae-youth"
-      },
-      {
-        "slug": "uzbekistan-youth",
-        "name": "Uzbekistan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
       }
     ],
     "nationality": "Saudi Arabian",
@@ -18342,34 +14498,9 @@
     "position": "Forward; Wide midfielder",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "china-youth",
         "name": "China Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "uae-youth",
-        "name": "UAE Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uae-youth"
-      },
-      {
-        "slug": "uzbekistan-youth",
-        "name": "Uzbekistan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
       }
     ],
     "nationality": "Chinese",
@@ -18414,39 +14545,9 @@
     "position": "MidfielderDefender",
     "teams": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
         "slug": "china-youth",
         "name": "China Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "olympic-china",
-        "name": "Olympic China",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "uae-youth",
-        "name": "UAE Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uae-youth"
-      },
-      {
-        "slug": "uzbekistan-youth",
-        "name": "Uzbekistan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
       }
     ],
     "nationality": "Chinese",
@@ -18494,11 +14595,6 @@
         "slug": "olympic-spain",
         "name": "Olympic Spain",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "spain-national-team",
-        "name": "Spain national team",
-        "url": "/univers/olive-et-tom/equipe.html?slug=spain-national-team"
       }
     ],
     "nationality": "Spanish",
@@ -18536,13 +14632,7 @@
       "kanji": ""
     },
     "position": "Defensive midfielder",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -18580,34 +14670,9 @@
     "position": "",
     "teams": [
       {
-        "slug": "all-europe-jr-youth",
-        "name": "All Europe Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-europe-jr-youth"
-      },
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "musashi-fc",
         "name": "Musashi FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      },
-      {
-        "slug": "musashi-middle-school",
-        "name": "Musashi middle school",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school"
       }
     ],
     "nationality": "Japanese",
@@ -18650,18 +14715,7 @@
       "kanji": "山岡 美子"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -18699,19 +14753,9 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
         "slug": "kunimi-gakuin-high-school",
         "name": "Kunimi Gakuin High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
       }
     ],
     "nationality": "Japanese",
@@ -18749,18 +14793,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -18797,11 +14830,6 @@
     },
     "position": "Defender;Forward",
     "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
       {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
@@ -18843,63 +14871,7 @@
       "kanji": "石崎 ゆかり"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "brazil-youth-vs-japan-youth",
-        "name": "Brazil Youth vs. Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth-vs-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
-        "name": "Captain Tsubasa: Saikyo no Teki! Holanda Youth (1994 film)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "otomo",
-        "name": "Otomo",
-        "url": "/univers/olive-et-tom/equipe.html?slug=otomo"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -18935,13 +14907,7 @@
       "kanji": ""
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -18977,28 +14943,7 @@
       "kanji": "山岡 由美子"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "japan",
-        "name": "Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -19036,11 +14981,6 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "nankatsu-high-school",
         "name": "Nankatsu High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
@@ -19059,11 +14999,6 @@
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shutetsu",
-        "name": "Shutetsu",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu"
       },
       {
         "slug": "shutetsu-elementary-school",
@@ -19172,31 +15107,6 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      },
-      {
-        "slug": "uae-youth",
-        "name": "UAE Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uae-youth"
-      },
-      {
         "slug": "uzbekistan-youth",
         "name": "Uzbekistan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
@@ -19244,44 +15154,14 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
         "slug": "mexico-youth",
         "name": "Mexico Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
       },
       {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
         "slug": "olympic-mexico",
         "name": "Olympic Mexico",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
       }
     ],
     "nationality": "Mexican",
