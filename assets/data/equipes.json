@@ -2,6 +2,8 @@
   {
     "slug": "1fc-koln",
     "name": "1.FC Koln",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln",
     "description": "",
     "image": "",
@@ -29,110 +31,10 @@
     ]
   },
   {
-    "slug": "16th-national-middle-school-soccer-tournament",
-    "name": "16th National Middle School Soccer Tournament",
-    "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-soccer-tournament",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "makoto-kitazume",
-        "name": "Makoto Kitazume",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-kitazume"
-      },
-      {
-        "slug": "noboru-sawaki",
-        "name": "Noboru Sawaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=noboru-sawaki"
-      },
-      {
-        "slug": "ryo-ishizaki",
-        "name": "Ryo Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
-      },
-      {
-        "slug": "taichi-nakanishi",
-        "name": "Taichi Nakanishi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
-      },
-      {
-        "slug": "takeshi-furuoya",
-        "name": "Takeshi Furuoya",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-furuoya"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      }
-    ]
-  },
-  {
-    "slug": "16th-national-middle-school-tournament",
-    "name": "16th National middle school tournament",
-    "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-tournament",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "masanori-kato",
-        "name": "Masanori Kato",
-        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
-      },
-      {
-        "slug": "tetsuo-ishida",
-        "name": "Tetsuo Ishida",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tetsuo-ishida"
-      }
-    ]
-  },
-  {
-    "slug": "1st-international-jr-youth-tournament-in-france",
-    "name": "1st International Jr. Youth Tournament in France",
-    "url": "/univers/olive-et-tom/equipe.html?slug=1st-international-jr-youth-tournament-in-france",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
     "slug": "ac-chievo-verona",
     "name": "AC Chievo Verona",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=ac-chievo-verona",
     "description": "",
     "image": "",
@@ -147,6 +49,8 @@
   {
     "slug": "ac-milan",
     "name": "AC Milan",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=ac-milan",
     "description": "",
     "image": "",
@@ -161,6 +65,8 @@
   {
     "slug": "ac-milan-juniores",
     "name": "AC Milan Juniores",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=ac-milan-juniores",
     "description": "",
     "image": "",
@@ -180,6 +86,8 @@
   {
     "slug": "ac-reggiana",
     "name": "AC Reggiana",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana",
     "description": "",
     "image": "",
@@ -222,95 +130,10 @@
     ]
   },
   {
-    "slug": "afc-youth-championship-bwy",
-    "name": "AFC Youth Championship (BWY)",
-    "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-bwy",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "yayoi-aoba",
-        "name": "Yayoi Aoba",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yayoi-aoba"
-      },
-      {
-        "slug": "zangiev",
-        "name": "Zangiev",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zangiev"
-      }
-    ]
-  },
-  {
-    "slug": "afc-youth-championship-g23",
-    "name": "AFC Youth Championship (G23)",
-    "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-g23",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      }
-    ]
-  },
-  {
-    "slug": "afc-youth-championship-qualification",
-    "name": "AFC Youth Championship qualification",
-    "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-qualification",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
     "slug": "all-europe-jr-youth",
     "name": "All Europe Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=all-europe-jr-youth",
     "description": "",
     "image": "",
@@ -325,6 +148,8 @@
   {
     "slug": "all-japan-jr-youth",
     "name": "All Japan Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth",
     "description": "",
     "image": "",
@@ -504,6 +329,8 @@
   {
     "slug": "all-japan-jr-youth-1986-film",
     "name": "All Japan Jr. Youth (1986 film)",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-1986-film",
     "description": "",
     "image": "",
@@ -528,6 +355,8 @@
   {
     "slug": "all-japan-jr-youth-ronc",
     "name": "All Japan Jr. Youth (RoNC)",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-ronc",
     "description": "",
     "image": "",
@@ -542,6 +371,8 @@
   {
     "slug": "all-japan-youth",
     "name": "All Japan Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth",
     "description": "",
     "image": "",
@@ -806,6 +637,8 @@
   {
     "slug": "all-south-america-jr-youth",
     "name": "All South America Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=all-south-america-jr-youth",
     "description": "",
     "image": "",
@@ -820,6 +653,8 @@
   {
     "slug": "argentina",
     "name": "Argentina",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=argentina",
     "description": "",
     "image": "",
@@ -864,6 +699,8 @@
   {
     "slug": "argentina-jr-youth",
     "name": "Argentina Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth",
     "description": "",
     "image": "",
@@ -898,6 +735,8 @@
   {
     "slug": "argentina-youth",
     "name": "Argentina Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth",
     "description": "",
     "image": "",
@@ -977,6 +816,8 @@
   {
     "slug": "arsenal-fc",
     "name": "Arsenal FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=arsenal-fc",
     "description": "",
     "image": "",
@@ -991,6 +832,8 @@
   {
     "slug": "atletico-madrid",
     "name": "Atletico Madrid",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=atletico-madrid",
     "description": "",
     "image": "",
@@ -1015,6 +858,8 @@
   {
     "slug": "australia-national-team",
     "name": "Australia national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=australia-national-team",
     "description": "",
     "image": "",
@@ -1029,6 +874,8 @@
   {
     "slug": "azumaichi-middle-school",
     "name": "Azumaichi Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=azumaichi-middle-school",
     "description": "",
     "image": "",
@@ -1053,6 +900,8 @@
   {
     "slug": "bara-fc",
     "name": "Bara FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=bara-fc",
     "description": "",
     "image": "",
@@ -1077,6 +926,8 @@
   {
     "slug": "bayern-jr-youth",
     "name": "Bayern Jr. Youth",
+    "type": "club",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=bayern-jr-youth",
     "description": "",
     "image": "",
@@ -1091,6 +942,8 @@
   {
     "slug": "bayern-munich",
     "name": "Bayern Munich",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=bayern-munich",
     "description": "",
     "image": "",
@@ -1110,6 +963,8 @@
   {
     "slug": "belgium-jr-youth",
     "name": "Belgium Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=belgium-jr-youth",
     "description": "",
     "image": "",
@@ -1134,6 +989,8 @@
   {
     "slug": "belgium-national-team",
     "name": "Belgium national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=belgium-national-team",
     "description": "",
     "image": "",
@@ -1168,6 +1025,8 @@
   {
     "slug": "boca-juniors",
     "name": "Boca Juniors",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=boca-juniors",
     "description": "",
     "image": "",
@@ -1187,6 +1046,8 @@
   {
     "slug": "bolanos-fc",
     "name": "Bolanos FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=bolanos-fc",
     "description": "",
     "image": "",
@@ -1201,6 +1062,8 @@
   {
     "slug": "borussia-dortmund",
     "name": "Borussia Dortmund",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=borussia-dortmund",
     "description": "",
     "image": "",
@@ -1215,6 +1078,8 @@
   {
     "slug": "borussia-dortmundnext-dream",
     "name": "Borussia Dortmund/Next Dream",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=borussia-dortmundnext-dream",
     "description": "",
     "image": "",
@@ -1229,6 +1094,8 @@
   {
     "slug": "borussia-monchengladbach",
     "name": "Borussia Monchengladbach",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=borussia-monchengladbach",
     "description": "",
     "image": "",
@@ -1248,6 +1115,8 @@
   {
     "slug": "brazil",
     "name": "Brazil",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=brazil",
     "description": "",
     "image": "",
@@ -1342,6 +1211,8 @@
   {
     "slug": "brazil-middle-school",
     "name": "Brazil (Middle school)",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=brazil-middle-school",
     "description": "",
     "image": "",
@@ -1356,6 +1227,8 @@
   {
     "slug": "brazil-jr-youth-ronc",
     "name": "Brazil Jr. Youth (RoNC)",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=brazil-jr-youth-ronc",
     "description": "",
     "image": "",
@@ -1370,6 +1243,8 @@
   {
     "slug": "brazil-national-team",
     "name": "Brazil national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=brazil-national-team",
     "description": "",
     "image": "",
@@ -1404,6 +1279,8 @@
   {
     "slug": "brazil-youth",
     "name": "Brazil Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
     "description": "",
     "image": "",
@@ -1568,6 +1445,8 @@
   {
     "slug": "brazil-youth-vs-japan-youth",
     "name": "Brazil Youth vs. Japan Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth-vs-japan-youth",
     "description": "",
     "image": "",
@@ -1582,6 +1461,8 @@
   {
     "slug": "bremen-jr-youth",
     "name": "Bremen Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=bremen-jr-youth",
     "description": "",
     "image": "",
@@ -1601,6 +1482,8 @@
   {
     "slug": "ca-river-plate",
     "name": "CA River Plate",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=ca-river-plate",
     "description": "",
     "image": "",
@@ -1615,6 +1498,8 @@
   {
     "slug": "cameroon-youth",
     "name": "Cameroon Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=cameroon-youth",
     "description": "",
     "image": "",
@@ -1634,6 +1519,8 @@
   {
     "slug": "canada-jr-youth",
     "name": "Canada Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=canada-jr-youth",
     "description": "",
     "image": "",
@@ -1663,6 +1550,8 @@
   {
     "slug": "captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
     "name": "Captain Tsubasa: Saikyo no Teki! Holanda Youth (1994 film)",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
     "description": "",
     "image": "",
@@ -1682,6 +1571,8 @@
   {
     "slug": "captain-tsubasa-world-youth-hen-1994",
     "name": "Captain Tsubasa: World Youth Hen (1994)",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994",
     "description": "",
     "image": "",
@@ -1956,6 +1847,8 @@
   {
     "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
     "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
     "description": "",
     "image": "",
@@ -2065,6 +1958,8 @@
   {
     "slug": "china-youth",
     "name": "China Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=china-youth",
     "description": "",
     "image": "",
@@ -2144,6 +2039,8 @@
   {
     "slug": "chinese-taipei-youth",
     "name": "Chinese Taipei Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=chinese-taipei-youth",
     "description": "",
     "image": "",
@@ -2158,6 +2055,8 @@
   {
     "slug": "colombia-youth",
     "name": "Colombia Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=colombia-youth",
     "description": "",
     "image": "",
@@ -2202,6 +2101,8 @@
   {
     "slug": "cr-flamengo",
     "name": "CR Flamengo",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo",
     "description": "",
     "image": "",
@@ -2231,6 +2132,8 @@
   {
     "slug": "england-jr-youth",
     "name": "England Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=england-jr-youth",
     "description": "",
     "image": "",
@@ -2260,6 +2163,8 @@
   {
     "slug": "everton-fc",
     "name": "Everton FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=everton-fc",
     "description": "",
     "image": "",
@@ -2279,6 +2184,8 @@
   {
     "slug": "fc-albese",
     "name": "FC Albese",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-albese",
     "description": "",
     "image": "",
@@ -2313,6 +2220,8 @@
   {
     "slug": "fc-bayern-munich",
     "name": "FC Bayern Munich",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich",
     "description": "",
     "image": "",
@@ -2357,6 +2266,8 @@
   {
     "slug": "fc-bayern-munich-jr-youth",
     "name": "FC Bayern Munich Jr. Youth",
+    "type": "club",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich-jr-youth",
     "description": "",
     "image": "",
@@ -2386,6 +2297,8 @@
   {
     "slug": "fc-bayern-munichnext-dream",
     "name": "FC Bayern Munich/Next Dream",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munichnext-dream",
     "description": "",
     "image": "",
@@ -2400,6 +2313,8 @@
   {
     "slug": "fc-girondins-de-bordeaux",
     "name": "FC Girondins de Bordeaux",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-girondins-de-bordeaux",
     "description": "",
     "image": "",
@@ -2414,6 +2329,8 @@
   {
     "slug": "fc-groningen",
     "name": "FC Groningen",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-groningen",
     "description": "",
     "image": "",
@@ -2428,6 +2345,8 @@
   {
     "slug": "fc-internazionale-milano",
     "name": "FC Internazionale Milano",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-internazionale-milano",
     "description": "",
     "image": "",
@@ -2442,6 +2361,8 @@
   {
     "slug": "fc-tokyo",
     "name": "FC Tokyo",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-tokyo",
     "description": "",
     "image": "",
@@ -2461,6 +2382,8 @@
   {
     "slug": "flamengo",
     "name": "Flamengo",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=flamengo",
     "description": "",
     "image": "",
@@ -2475,6 +2398,8 @@
   {
     "slug": "france",
     "name": "France",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=france",
     "description": "",
     "image": "",
@@ -2519,6 +2444,8 @@
   {
     "slug": "france-jr-youth",
     "name": "France Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth",
     "description": "",
     "image": "",
@@ -2583,6 +2510,8 @@
   {
     "slug": "france-national-team",
     "name": "France national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=france-national-team",
     "description": "",
     "image": "",
@@ -2602,6 +2531,8 @@
   {
     "slug": "france-youth",
     "name": "France Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=france-youth",
     "description": "",
     "image": "",
@@ -2651,6 +2582,8 @@
   {
     "slug": "furano",
     "name": "Furano",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=furano",
     "description": "",
     "image": "",
@@ -2665,6 +2598,8 @@
   {
     "slug": "furano-elementary-soccer-club",
     "name": "Furano Elementary Soccer Club",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club",
     "description": "",
     "image": "",
@@ -2699,6 +2634,8 @@
   {
     "slug": "furano-middle-school",
     "name": "Furano Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school",
     "description": "",
     "image": "",
@@ -2738,6 +2675,8 @@
   {
     "slug": "furano-public-high-school",
     "name": "Furano Public High School",
+    "type": "school",
+    "age_category": "high-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=furano-public-high-school",
     "description": "",
     "image": "",
@@ -2757,6 +2696,8 @@
   {
     "slug": "germany",
     "name": "Germany",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=germany",
     "description": "",
     "image": "",
@@ -2826,6 +2767,8 @@
   {
     "slug": "germany-jr-youth",
     "name": "Germany Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth",
     "description": "",
     "image": "",
@@ -2895,6 +2838,8 @@
   {
     "slug": "germany-national-team",
     "name": "Germany national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=germany-national-team",
     "description": "",
     "image": "",
@@ -2924,6 +2869,8 @@
   {
     "slug": "germany-youth",
     "name": "Germany Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth",
     "description": "",
     "image": "",
@@ -3033,6 +2980,8 @@
   {
     "slug": "ghana-youth",
     "name": "Ghana Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=ghana-youth",
     "description": "",
     "image": "",
@@ -3057,6 +3006,8 @@
   {
     "slug": "greece-national-team",
     "name": "Greece national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=greece-national-team",
     "description": "",
     "image": "",
@@ -3076,6 +3027,8 @@
   {
     "slug": "hamburg-jr-youth",
     "name": "Hamburg Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=hamburg-jr-youth",
     "description": "",
     "image": "",
@@ -3100,6 +3053,8 @@
   {
     "slug": "hamburger-sv",
     "name": "Hamburger SV",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv",
     "description": "",
     "image": "",
@@ -3174,6 +3129,8 @@
   {
     "slug": "hamburger-sv-jr",
     "name": "Hamburger SV Jr.",
+    "type": "club",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr",
     "description": "",
     "image": "",
@@ -3208,6 +3165,8 @@
   {
     "slug": "hamburger-sv-jr-youth",
     "name": "Hamburger SV Jr. Youth",
+    "type": "club",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth",
     "description": "",
     "image": "",
@@ -3252,6 +3211,8 @@
   {
     "slug": "hanawa-middle-school",
     "name": "Hanawa Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=hanawa-middle-school",
     "description": "",
     "image": "",
@@ -3266,6 +3227,8 @@
   {
     "slug": "hirado-middle-school",
     "name": "Hirado Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=hirado-middle-school",
     "description": "",
     "image": "",
@@ -3285,6 +3248,8 @@
   {
     "slug": "inter-juniores",
     "name": "Inter Juniores",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores",
     "description": "",
     "image": "",
@@ -3314,6 +3279,8 @@
   {
     "slug": "inter-milan",
     "name": "Inter Milan",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=inter-milan",
     "description": "",
     "image": "",
@@ -3328,6 +3295,8 @@
   {
     "slug": "inter-primavera",
     "name": "Inter Primavera",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera",
     "description": "",
     "image": "",
@@ -3365,82 +3334,10 @@
     ]
   },
   {
-    "slug": "international-jr-youth-tournament",
-    "name": "International Jr. Youth Tournament",
-    "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
-        "slug": "amoro",
-        "name": "Amoro",
-        "url": "/univers/olive-et-tom/personnage.html?slug=amoro"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "ichiro-misaki",
-        "name": "Ichiro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ichiro-misaki"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      }
-    ]
-  },
-  {
     "slug": "iraq-youth",
     "name": "Iraq Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth",
     "description": "",
     "image": "",
@@ -3480,6 +3377,8 @@
   {
     "slug": "italy-jr-youth",
     "name": "Italy Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth",
     "description": "",
     "image": "",
@@ -3534,6 +3433,8 @@
   {
     "slug": "italy-national-team",
     "name": "Italy national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=italy-national-team",
     "description": "",
     "image": "",
@@ -3548,6 +3449,8 @@
   {
     "slug": "italy-youth",
     "name": "Italy Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth",
     "description": "",
     "image": "",
@@ -3617,6 +3520,8 @@
   {
     "slug": "japan",
     "name": "Japan",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=japan",
     "description": "",
     "image": "",
@@ -3881,6 +3786,8 @@
   {
     "slug": "japan-jr-youth",
     "name": "Japan Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=japan-jr-youth",
     "description": "",
     "image": "",
@@ -3895,6 +3802,8 @@
   {
     "slug": "japan-national-team",
     "name": "Japan national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=japan-national-team",
     "description": "",
     "image": "",
@@ -3914,6 +3823,8 @@
   {
     "slug": "japan-youth",
     "name": "Japan Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth",
     "description": "",
     "image": "",
@@ -4103,6 +4014,8 @@
   {
     "slug": "jousei-high-school",
     "name": "Jousei high school",
+    "type": "school",
+    "age_category": "high-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=jousei-high-school",
     "description": "",
     "image": "",
@@ -4122,6 +4035,8 @@
   {
     "slug": "junior-youth-world-challenge",
     "name": "Junior Youth World Challenge",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=junior-youth-world-challenge",
     "description": "",
     "image": "",
@@ -4141,6 +4056,8 @@
   {
     "slug": "juventus-fc",
     "name": "Juventus FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc",
     "description": "",
     "image": "",
@@ -4190,6 +4107,8 @@
   {
     "slug": "juventus-primavera",
     "name": "Juventus Primavera",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=juventus-primavera",
     "description": "",
     "image": "",
@@ -4209,6 +4128,8 @@
   {
     "slug": "kujukuri-fc",
     "name": "Kujukuri FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=kujukuri-fc",
     "description": "",
     "image": "",
@@ -4223,6 +4144,8 @@
   {
     "slug": "kunimi-gakuin-high-school",
     "name": "Kunimi Gakuin High School",
+    "type": "school",
+    "age_category": "high-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school",
     "description": "",
     "image": "",
@@ -4252,6 +4175,8 @@
   {
     "slug": "liverpool-fc",
     "name": "Liverpool FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=liverpool-fc",
     "description": "",
     "image": "",
@@ -4264,217 +4189,10 @@
     ]
   },
   {
-    "slug": "madrid-olympics-tournament",
-    "name": "Madrid Olympics tournament",
-    "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
-        "slug": "bobang",
-        "name": "Bobang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=bobang"
-      },
-      {
-        "slug": "christiansen",
-        "name": "Christiansen",
-        "url": "/univers/olive-et-tom/personnage.html?slug=christiansen"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "diego-barbas",
-        "name": "Diego Barbas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "haas",
-        "name": "Haas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=haas"
-      },
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "ichiro-misaki",
-        "name": "Ichiro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ichiro-misaki"
-      },
-      {
-        "slug": "jj-ochado",
-        "name": "Jj Ochado",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jj-ochado"
-      },
-      {
-        "slug": "johan-rensenbrink",
-        "name": "Johan Rensenbrink",
-        "url": "/univers/olive-et-tom/personnage.html?slug=johan-rensenbrink"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "kazuo-kodama",
-        "name": "Kazuo Kodama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuo-kodama"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "mario-goethe",
-        "name": "Mario Goethe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mario-goethe"
-      },
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
-        "slug": "mitsuru",
-        "name": "Mitsuru",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru"
-      },
-      {
-        "slug": "natsuko-ozora",
-        "name": "Natsuko Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natsuko-ozora"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      },
-      {
-        "slug": "robson",
-        "name": "Robson",
-        "url": "/univers/olive-et-tom/personnage.html?slug=robson"
-      },
-      {
-        "slug": "ryo-ishizaki",
-        "name": "Ryo Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
-      },
-      {
-        "slug": "saul",
-        "name": "Saul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=saul"
-      },
-      {
-        "slug": "schweil-teigerbran",
-        "name": "Schweil Teigerbran",
-        "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
-      },
-      {
-        "slug": "seemann",
-        "name": "Seemann",
-        "url": "/univers/olive-et-tom/personnage.html?slug=seemann"
-      },
-      {
-        "slug": "singprasert-bunnag",
-        "name": "Singprasert Bunnag",
-        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "toshiya-okano",
-        "name": "Toshiya Okano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=toshiya-okano"
-      },
-      {
-        "slug": "yukari-ishizaki",
-        "name": "Yukari Ishizaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yukari-ishizaki"
-      },
-      {
-        "slug": "yumiko-yamaoka",
-        "name": "Yumiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yumiko-yamaoka"
-      },
-      {
-        "slug": "zaragoza",
-        "name": "Zaragoza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
-      }
-    ]
-  },
-  {
     "slug": "malaysia-jr-youth",
     "name": "Malaysia Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=malaysia-jr-youth",
     "description": "",
     "image": "",
@@ -4494,6 +4212,8 @@
   {
     "slug": "manchester-united-fc",
     "name": "Manchester United FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=manchester-united-fc",
     "description": "",
     "image": "",
@@ -4513,6 +4233,8 @@
   {
     "slug": "meiwa-fc",
     "name": "Meiwa FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc",
     "description": "",
     "image": "",
@@ -4572,6 +4294,8 @@
   {
     "slug": "meiwa-higashi-middle-school",
     "name": "Meiwa Higashi Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-higashi-middle-school",
     "description": "",
     "image": "",
@@ -4596,6 +4320,8 @@
   {
     "slug": "mexico-youth",
     "name": "Mexico Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth",
     "description": "",
     "image": "",
@@ -4670,6 +4396,8 @@
   {
     "slug": "minamiuwa",
     "name": "Minamiuwa",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=minamiuwa",
     "description": "",
     "image": "",
@@ -4684,6 +4412,8 @@
   {
     "slug": "minamiuwa-middle-school",
     "name": "Minamiuwa middle school",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=minamiuwa-middle-school",
     "description": "",
     "image": "",
@@ -4698,6 +4428,8 @@
   {
     "slug": "minor-charactersbattle-of-world-youth",
     "name": "Minor characters/Battle of World Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=minor-charactersbattle-of-world-youth",
     "description": "",
     "image": "",
@@ -4712,6 +4444,8 @@
   {
     "slug": "musashi-fc",
     "name": "Musashi FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc",
     "description": "",
     "image": "",
@@ -4761,6 +4495,8 @@
   {
     "slug": "musashi-middle-school",
     "name": "Musashi middle school",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=musashi-middle-school",
     "description": "",
     "image": "",
@@ -4805,6 +4541,8 @@
   {
     "slug": "nakahara-fc",
     "name": "Nakahara FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-fc",
     "description": "",
     "image": "",
@@ -4819,6 +4557,8 @@
   {
     "slug": "nakahara-middle-school",
     "name": "Nakahara middle school",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-middle-school",
     "description": "",
     "image": "",
@@ -4838,6 +4578,8 @@
   {
     "slug": "naniwa-fc",
     "name": "Naniwa FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-fc",
     "description": "",
     "image": "",
@@ -4857,6 +4599,8 @@
   {
     "slug": "naniwa-middle-school",
     "name": "Naniwa Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-middle-school",
     "description": "",
     "image": "",
@@ -4870,7 +4614,9 @@
   },
   {
     "slug": "nankatsu-elementary-school",
-    "name": "Nankatsu elementary school",
+    "name": "Nankatsu Elementary School",
+    "type": "school",
+    "age_category": "elementary",
     "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school",
     "description": "",
     "image": "",
@@ -4925,6 +4671,8 @@
   {
     "slug": "nankatsu-high-school",
     "name": "Nankatsu High School",
+    "type": "school",
+    "age_category": "high-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school",
     "description": "",
     "image": "",
@@ -5009,6 +4757,8 @@
   {
     "slug": "nankatsu-middle-school",
     "name": "Nankatsu Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school",
     "description": "",
     "image": "",
@@ -5103,6 +4853,8 @@
   {
     "slug": "nankatsu-sc",
     "name": "Nankatsu SC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc",
     "description": "",
     "image": "",
@@ -5212,6 +4964,8 @@
   {
     "slug": "nankatsu-sc-selection-team",
     "name": "Nankatsu SC (selection team)",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc-selection-team",
     "description": "",
     "image": "",
@@ -5231,6 +4985,8 @@
   {
     "slug": "netherlands-national-team",
     "name": "Netherlands national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-national-team",
     "description": "",
     "image": "",
@@ -5250,6 +5006,8 @@
   {
     "slug": "netherlands-youth",
     "name": "Netherlands Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth",
     "description": "",
     "image": "",
@@ -5404,6 +5162,8 @@
   {
     "slug": "newcastle-united-fc",
     "name": "Newcastle United FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=newcastle-united-fc",
     "description": "",
     "image": "",
@@ -5418,6 +5178,8 @@
   {
     "slug": "nishigaoka-elementary-school",
     "name": "Nishigaoka elementary school",
+    "type": "school",
+    "age_category": "elementary",
     "url": "/univers/olive-et-tom/equipe.html?slug=nishigaoka-elementary-school",
     "description": "",
     "image": "",
@@ -5432,6 +5194,8 @@
   {
     "slug": "nishimine-elementary-school",
     "name": "Nishimine Elementary School",
+    "type": "school",
+    "age_category": "elementary",
     "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school",
     "description": "",
     "image": "",
@@ -5461,6 +5225,8 @@
   {
     "slug": "olympic-argentina",
     "name": "Olympic Argentina",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina",
     "description": "",
     "image": "",
@@ -5535,6 +5301,8 @@
   {
     "slug": "olympic-brazil",
     "name": "Olympic Brazil",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil",
     "description": "",
     "image": "",
@@ -5654,6 +5422,8 @@
   {
     "slug": "olympic-cameroon",
     "name": "Olympic Cameroon",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-cameroon",
     "description": "",
     "image": "",
@@ -5678,6 +5448,8 @@
   {
     "slug": "olympic-china",
     "name": "Olympic China",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china",
     "description": "",
     "image": "",
@@ -5717,6 +5489,8 @@
   {
     "slug": "olympic-france",
     "name": "Olympic France",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france",
     "description": "",
     "image": "",
@@ -5751,6 +5525,8 @@
   {
     "slug": "olympic-germany",
     "name": "Olympic Germany",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany",
     "description": "",
     "image": "",
@@ -5890,6 +5666,8 @@
   {
     "slug": "olympic-japan",
     "name": "Olympic Japan",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan",
     "description": "",
     "image": "",
@@ -6194,6 +5972,8 @@
   {
     "slug": "olympic-mexico",
     "name": "Olympic Mexico",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico",
     "description": "",
     "image": "",
@@ -6248,6 +6028,8 @@
   {
     "slug": "olympic-netherlands",
     "name": "Olympic Netherlands",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands",
     "description": "",
     "image": "",
@@ -6332,6 +6114,8 @@
   {
     "slug": "olympic-new-zealand",
     "name": "Olympic New Zealand",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-new-zealand",
     "description": "",
     "image": "",
@@ -6346,6 +6130,8 @@
   {
     "slug": "olympic-nigeria",
     "name": "Olympic Nigeria",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria",
     "description": "",
     "image": "",
@@ -6405,6 +6191,8 @@
   {
     "slug": "olympic-senegal",
     "name": "Olympic Senegal",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-senegal",
     "description": "",
     "image": "",
@@ -6434,6 +6222,8 @@
   {
     "slug": "olympic-spain",
     "name": "Olympic Spain",
+    "type": "national",
+    "age_category": "olympic",
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain",
     "description": "",
     "image": "",
@@ -6528,6 +6318,8 @@
   {
     "slug": "otomo",
     "name": "Otomo",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=otomo",
     "description": "",
     "image": "",
@@ -6542,6 +6334,8 @@
   {
     "slug": "otomo-middle-school",
     "name": "Otomo Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school",
     "description": "",
     "image": "",
@@ -6586,6 +6380,8 @@
   {
     "slug": "paris-saint-germain-fc",
     "name": "Paris Saint-Germain FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc",
     "description": "",
     "image": "",
@@ -6615,6 +6411,8 @@
   {
     "slug": "parma",
     "name": "Parma",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=parma",
     "description": "",
     "image": "",
@@ -6629,6 +6427,8 @@
   {
     "slug": "parma-ac",
     "name": "Parma AC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=parma-ac",
     "description": "",
     "image": "",
@@ -6668,6 +6468,8 @@
   {
     "slug": "portugal-jr-youth",
     "name": "Portugal Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=portugal-jr-youth",
     "description": "",
     "image": "",
@@ -6702,6 +6504,8 @@
   {
     "slug": "real-madrid",
     "name": "Real Madrid",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid",
     "description": "",
     "image": "",
@@ -6756,6 +6560,8 @@
   {
     "slug": "real-madrid-cf",
     "name": "Real Madrid CF",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf",
     "description": "",
     "image": "",
@@ -6865,6 +6671,8 @@
   {
     "slug": "sao-paulo-fc",
     "name": "Sao Paulo FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc",
     "description": "",
     "image": "",
@@ -6919,6 +6727,8 @@
   {
     "slug": "sao-paulo-fc-youth-squads",
     "name": "Sao Paulo FC - Youth squads",
+    "type": "club",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc-youth-squads",
     "description": "",
     "image": "",
@@ -6938,6 +6748,8 @@
   {
     "slug": "saudi-arabia-youth",
     "name": "Saudi Arabia Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth",
     "description": "",
     "image": "",
@@ -7012,6 +6824,8 @@
   {
     "slug": "seine-jr-youth",
     "name": "Seine Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=seine-jr-youth",
     "description": "",
     "image": "",
@@ -7026,6 +6840,8 @@
   {
     "slug": "shimada-elementary-soccer-club",
     "name": "Shimada Elementary Soccer Club",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=shimada-elementary-soccer-club",
     "description": "",
     "image": "",
@@ -7040,6 +6856,8 @@
   {
     "slug": "shimizu-fc",
     "name": "Shimizu FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=shimizu-fc",
     "description": "",
     "image": "",
@@ -7064,6 +6882,8 @@
   {
     "slug": "shinjo-fc",
     "name": "Shinjo FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=shinjo-fc",
     "description": "",
     "image": "",
@@ -7077,7 +6897,9 @@
   },
   {
     "slug": "shumei-gakkan-middle-school",
-    "name": "Shumei Gakkan middle school",
+    "name": "Shumei Gakkan Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=shumei-gakkan-middle-school",
     "description": "",
     "image": "",
@@ -7097,6 +6919,8 @@
   {
     "slug": "shutetsu",
     "name": "Shutetsu",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu",
     "description": "",
     "image": "",
@@ -7141,6 +6965,8 @@
   {
     "slug": "shutetsu-elementary-school",
     "name": "Shutetsu Elementary School",
+    "type": "school",
+    "age_category": "elementary",
     "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
     "description": "",
     "image": "",
@@ -7185,6 +7011,8 @@
   {
     "slug": "south-korea-youth",
     "name": "South Korea Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth",
     "description": "",
     "image": "",
@@ -7249,6 +7077,8 @@
   {
     "slug": "spain-national-team",
     "name": "Spain national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=spain-national-team",
     "description": "",
     "image": "",
@@ -7283,6 +7113,8 @@
   {
     "slug": "sv-werder-bremen",
     "name": "SV Werder Bremen",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen",
     "description": "",
     "image": "",
@@ -7307,6 +7139,8 @@
   {
     "slug": "sv-werder-bremen-jr-youth",
     "name": "SV Werder Bremen Jr. Youth",
+    "type": "club",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth",
     "description": "",
     "image": "",
@@ -7341,6 +7175,8 @@
   {
     "slug": "sweden-youth",
     "name": "Sweden Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth",
     "description": "",
     "image": "",
@@ -7445,6 +7281,8 @@
   {
     "slug": "tatsunami-high-school",
     "name": "Tatsunami High School",
+    "type": "school",
+    "age_category": "high-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=tatsunami-high-school",
     "description": "",
     "image": "",
@@ -7464,6 +7302,8 @@
   {
     "slug": "thailand-middle-school",
     "name": "Thailand (Middle school)",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=thailand-middle-school",
     "description": "",
     "image": "",
@@ -7488,6 +7328,8 @@
   {
     "slug": "thailand-youth",
     "name": "Thailand Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth",
     "description": "",
     "image": "",
@@ -7552,6 +7394,8 @@
   {
     "slug": "toho-academy-high-school",
     "name": "Toho Academy High School",
+    "type": "school",
+    "age_category": "high-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school",
     "description": "",
     "image": "",
@@ -7606,6 +7450,8 @@
   {
     "slug": "toho-academy-middle-school",
     "name": "Toho Academy Middle School",
+    "type": "school",
+    "age_category": "middle-school",
     "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school",
     "description": "",
     "image": "",
@@ -7670,6 +7516,8 @@
   {
     "slug": "uae-youth",
     "name": "UAE Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=uae-youth",
     "description": "",
     "image": "",
@@ -7709,6 +7557,8 @@
   {
     "slug": "united-arab-emirates-youth",
     "name": "United Arab Emirates Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=united-arab-emirates-youth",
     "description": "",
     "image": "",
@@ -7723,6 +7573,8 @@
   {
     "slug": "united-states",
     "name": "United States",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=united-states",
     "description": "",
     "image": "",
@@ -7737,6 +7589,8 @@
   {
     "slug": "united-states-jr-youth-1986",
     "name": "United States Jr. Youth (1986)",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=united-states-jr-youth-1986",
     "description": "",
     "image": "",
@@ -7751,6 +7605,8 @@
   {
     "slug": "united-states-youth",
     "name": "United States Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=united-states-youth",
     "description": "",
     "image": "",
@@ -7770,6 +7626,8 @@
   {
     "slug": "uruguay-jr-youth",
     "name": "Uruguay Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth",
     "description": "",
     "image": "",
@@ -7804,6 +7662,8 @@
   {
     "slug": "uruguay-jr-youth-ronc",
     "name": "Uruguay Jr. Youth (RoNC)",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth-ronc",
     "description": "",
     "image": "",
@@ -7818,6 +7678,8 @@
   {
     "slug": "uruguay-national-team",
     "name": "Uruguay national team",
+    "type": "national",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-national-team",
     "description": "",
     "image": "",
@@ -7832,6 +7694,8 @@
   {
     "slug": "uruguay-youth",
     "name": "Uruguay Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth",
     "description": "",
     "image": "",
@@ -7936,6 +7800,8 @@
   {
     "slug": "usa-youth",
     "name": "USA Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth",
     "description": "",
     "image": "",
@@ -7970,6 +7836,8 @@
   {
     "slug": "uzbekistan-youth",
     "name": "Uzbekistan Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth",
     "description": "",
     "image": "",
@@ -8014,6 +7882,8 @@
   {
     "slug": "west-germany-jr-youth",
     "name": "West Germany Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
     "url": "/univers/olive-et-tom/equipe.html?slug=west-germany-jr-youth",
     "description": "",
     "image": "",
@@ -8028,6 +7898,8 @@
   {
     "slug": "west-ham-united-fc",
     "name": "West Ham United FC",
+    "type": "club",
+    "age_category": "adult",
     "url": "/univers/olive-et-tom/equipe.html?slug=west-ham-united-fc",
     "description": "",
     "image": "",
@@ -8040,257 +7912,10 @@
     ]
   },
   {
-    "slug": "world-youth-tournament",
-    "name": "World Youth tournament",
-    "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "alvez",
-        "name": "Alvez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alvez"
-      },
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "fredericks",
-        "name": "Fredericks",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fredericks"
-      },
-      {
-        "slug": "garcia",
-        "name": "Garcia",
-        "url": "/univers/olive-et-tom/personnage.html?slug=garcia"
-      },
-      {
-        "slug": "gert-keizer",
-        "name": "Gert Keizer",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gert-keizer"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "johan-rensenbrink",
-        "name": "Johan Rensenbrink",
-        "url": "/univers/olive-et-tom/personnage.html?slug=johan-rensenbrink"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "katarina-karen",
-        "name": "Katarina Karen",
-        "url": "/univers/olive-et-tom/personnage.html?slug=katarina-karen"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kodai-ozora",
-        "name": "Kodai Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kodai-ozora"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong Un",
-        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
-      },
-      {
-        "slug": "leon-dick",
-        "name": "Leon Dick",
-        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "michel-yamada",
-        "name": "Michel Yamada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-yamada"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
-      },
-      {
-        "slug": "nobuyuki-yumikura",
-        "name": "Nobuyuki Yumikura",
-        "url": "/univers/olive-et-tom/personnage.html?slug=nobuyuki-yumikura"
-      },
-      {
-        "slug": "otto-reichardt",
-        "name": "Otto Reichardt",
-        "url": "/univers/olive-et-tom/personnage.html?slug=otto-reichardt"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "rudi-frank-schneider",
-        "name": "Rudi Frank Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "sanae-ozora",
-        "name": "Sanae Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=sanae-ozora"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "suarez",
-        "name": "Suarez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
-      },
-      {
-        "slug": "tamotsu-ide",
-        "name": "Tamotsu Ide",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tatsuo-mikami",
-        "name": "Tatsuo Mikami",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
-      },
-      {
-        "slug": "vulcan",
-        "name": "Vulcan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
-      },
-      {
-        "slug": "wu-junren",
-        "name": "Wu Junren",
-        "url": "/univers/olive-et-tom/personnage.html?slug=wu-junren"
-      },
-      {
-        "slug": "yoshiko-yamaoka",
-        "name": "Yoshiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-yamaoka"
-      },
-      {
-        "slug": "yuji-sakaki",
-        "name": "Yuji Sakaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuji-sakaki"
-      },
-      {
-        "slug": "yumiko-yamaoka",
-        "name": "Yumiko Yamaoka",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yumiko-yamaoka"
-      },
-      {
-        "slug": "zaragoza",
-        "name": "Zaragoza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
-      }
-    ]
-  },
-  {
     "slug": "yamabuki-elementary-school",
     "name": "Yamabuki Elementary School",
+    "type": "school",
+    "age_category": "elementary",
     "url": "/univers/olive-et-tom/equipe.html?slug=yamabuki-elementary-school",
     "description": "",
     "image": "",

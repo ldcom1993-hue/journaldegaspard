@@ -906,11 +906,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln"
       },
       {
-        "slug": "1st-international-jr-youth-tournament-in-france",
-        "name": "1st International Jr. Youth Tournament in France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1st-international-jr-youth-tournament-in-france"
-      },
-      {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
@@ -984,11 +979,6 @@
         "slug": "japan-youth",
         "name": "Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "nankatsu-elementary-school",
@@ -1217,11 +1207,6 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "afc-youth-championship-qualification",
-        "name": "AFC Youth Championship Qualification",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-qualification"
-      },
-      {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
@@ -1255,11 +1240,6 @@
         "slug": "kujukuri-fc",
         "name": "Kujukuri FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=kujukuri-fc"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "meiwa-fc",
@@ -1320,11 +1300,6 @@
         "slug": "toho-academy-high-school",
         "name": "Toho Academy High School",
         "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -1822,11 +1797,6 @@
         "slug": "united-states-jr-youth-1986",
         "name": "United States Jr. Youth (1986)",
         "url": "/univers/olive-et-tom/equipe.html?slug=united-states-jr-youth-1986"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -1929,21 +1899,6 @@
     },
     "position": "GoalkeeperForward",
     "teams": [
-      {
-        "slug": "1st-international-jr-youth-tournament-in-france",
-        "name": "1st International Jr. Youth Tournament in France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1st-international-jr-youth-tournament-in-france"
-      },
-      {
-        "slug": "afc-youth-championship-bwy",
-        "name": "AFC Youth Championship (BWY)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-bwy"
-      },
-      {
-        "slug": "afc-youth-championship-qualification",
-        "name": "AFC Youth Championship qualification",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-qualification"
-      },
       {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
@@ -2088,11 +2043,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -2286,19 +2236,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
         "slug": "iraq-youth",
         "name": "Iraq Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "netherlands-youth",
@@ -2329,11 +2269,6 @@
         "slug": "sweden-youth",
         "name": "Sweden Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "German",
@@ -2850,19 +2785,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
         "slug": "italy-jr-youth",
         "name": "Italy Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "netherlands-youth",
@@ -3427,16 +3352,6 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "afc-youth-championship-bwy",
-        "name": "AFC Youth Championship (BWY)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-bwy"
-      },
-      {
-        "slug": "afc-youth-championship-qualification",
-        "name": "AFC Youth Championship qualification",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-qualification"
-      },
-      {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
@@ -3470,11 +3385,6 @@
         "slug": "hamburger-sv-jr-youth",
         "name": "Hamburger SV Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
       },
       {
         "slug": "meiwa-fc",
@@ -3515,11 +3425,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -3629,11 +3534,6 @@
     "position": "Defender; forward (former)",
     "teams": [
       {
-        "slug": "16th-national-middle-school-soccer-tournament",
-        "name": "16th National Middle School Soccer Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-soccer-tournament"
-      },
-      {
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
@@ -3642,11 +3542,6 @@
         "slug": "japan-youth",
         "name": "Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "nankatsu-elementary-school",
@@ -3784,11 +3679,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
         "slug": "italy-jr-youth",
         "name": "Italy Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
@@ -3817,11 +3707,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Italian",
@@ -3896,11 +3781,6 @@
     "position": "Defender",
     "teams": [
       {
-        "slug": "1st-international-jr-youth-tournament-in-france",
-        "name": "1st International Jr. Youth Tournament in France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1st-international-jr-youth-tournament-in-france"
-      },
-      {
         "slug": "captain-tsubasa-world-youth-hen-1994",
         "name": "Captain Tsubasa: World Youth Hen (1994)",
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
@@ -3919,11 +3799,6 @@
         "slug": "juventus-primavera",
         "name": "Juventus Primavera",
         "url": "/univers/olive-et-tom/equipe.html?slug=juventus-primavera"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "mexico-youth",
@@ -3954,11 +3829,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Italian",
@@ -4092,11 +3962,6 @@
         "slug": "south-korea-youth",
         "name": "South Korea Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Dutch",
@@ -4202,11 +4067,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln"
       },
       {
-        "slug": "1st-international-jr-youth-tournament-in-france",
-        "name": "1st International Jr. Youth Tournament in France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1st-international-jr-youth-tournament-in-france"
-      },
-      {
         "slug": "all-japan-youth",
         "name": "All Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
@@ -4242,11 +4102,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=junior-youth-world-challenge"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "mexico-youth",
         "name": "Mexico Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
@@ -4270,11 +4125,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Swedish",
@@ -4445,11 +4295,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
         "slug": "italy-youth",
         "name": "Italy Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
@@ -4478,11 +4323,6 @@
         "slug": "west-germany-jr-youth",
         "name": "West Germany Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=west-germany-jr-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Uruguayan",
@@ -4594,11 +4434,6 @@
     },
     "position": "Attacking midfielder",
     "teams": [
-      {
-        "slug": "afc-youth-championship-g23",
-        "name": "AFC Youth Championship (G23)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-g23"
-      },
       {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
@@ -4785,11 +4620,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
@@ -4955,11 +4785,6 @@
         "slug": "brazil-youth",
         "name": "Brazil Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "olympic-brazil",
@@ -5185,11 +5010,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
         "slug": "iraq-youth",
         "name": "Iraq Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=iraq-youth"
@@ -5243,11 +5063,6 @@
         "slug": "uruguay-jr-youth",
         "name": "Uruguay Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "German",
@@ -5403,11 +5218,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
@@ -5456,11 +5266,6 @@
         "slug": "usa-youth",
         "name": "USA Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "German",
@@ -5791,11 +5596,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Brazilian",
@@ -6209,16 +6009,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburg-jr-youth"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
@@ -6455,16 +6245,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "malaysia-jr-youth",
         "name": "Malaysia Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=malaysia-jr-youth"
@@ -6593,11 +6373,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
@@ -6626,11 +6401,6 @@
         "slug": "toho-academy-middle-school",
         "name": "Toho Academy Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -7385,11 +7155,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Brazilian",
@@ -7478,11 +7243,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Mexican",
@@ -7545,11 +7305,6 @@
         "slug": "france-jr-youth",
         "name": "France Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
       }
     ],
     "nationality": "French",
@@ -7780,11 +7535,6 @@
         "slug": "fc-albese",
         "name": "FC Albese",
         "url": "/univers/olive-et-tom/equipe.html?slug=fc-albese"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "olympic-nigeria",
@@ -8333,11 +8083,6 @@
         "slug": "south-korea-youth",
         "name": "South Korea Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "South Korean",
@@ -8463,13 +8208,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      }
-    ],
+    "teams": [],
     "nationality": "Danish",
     "physical": {
       "default": {
@@ -8764,11 +8503,6 @@
     "position": "",
     "teams": [
       {
-        "slug": "1st-international-jr-youth-tournament-in-france",
-        "name": "1st International Jr. Youth Tournament in France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1st-international-jr-youth-tournament-in-france"
-      },
-      {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
@@ -8797,11 +8531,6 @@
         "slug": "italy-jr-youth",
         "name": "Italy Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "olympic-argentina",
@@ -8985,11 +8714,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "malaysia-jr-youth",
         "name": "Malaysia Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=malaysia-jr-youth"
@@ -9018,11 +8742,6 @@
         "slug": "seine-jr-youth",
         "name": "Seine Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=seine-jr-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "French",
@@ -9598,11 +9317,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
         "slug": "italy-jr-youth",
         "name": "Italy Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
@@ -9651,11 +9365,6 @@
         "slug": "usa-youth",
         "name": "USA Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "German",
@@ -9813,11 +9522,6 @@
         "slug": "usa-youth",
         "name": "USA Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=usa-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Swedish",
@@ -10012,11 +9716,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
@@ -10138,11 +9837,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Mexican",
@@ -10288,11 +9982,6 @@
         "slug": "olympic-netherlands",
         "name": "Olympic Netherlands",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Dutch",
@@ -10448,13 +10137,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      }
-    ],
+    "teams": [],
     "nationality": "Danish",
     "physical": {
       "G23": {
@@ -10803,19 +10486,9 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
       },
       {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
-      },
-      {
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "nishimine-elementary-school",
@@ -11258,11 +10931,6 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "olympic-argentina",
         "name": "Olympic Argentina",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
@@ -11377,11 +11045,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "netherlands-youth",
         "name": "Netherlands Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
@@ -11390,11 +11053,6 @@
         "slug": "olympic-netherlands",
         "name": "Olympic Netherlands",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Dutch",
@@ -11607,11 +11265,6 @@
         "slug": "sweden-youth",
         "name": "Sweden Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Swedish",
@@ -11736,11 +11389,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "nishimine-elementary-school",
         "name": "Nishimine Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school"
@@ -11811,11 +11459,6 @@
         "slug": "shutetsu",
         "name": "Shutetsu",
         "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -12010,11 +11653,6 @@
     },
     "position": "",
     "teams": [
-      {
-        "slug": "afc-youth-championship-qualification",
-        "name": "AFC Youth Championship qualification",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-qualification"
-      },
       {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
@@ -12280,11 +11918,6 @@
         "slug": "south-korea-youth",
         "name": "South Korea Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "South Korean",
@@ -12367,11 +12000,6 @@
         "slug": "south-korea-youth",
         "name": "South Korea Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Dutch",
@@ -12521,11 +12149,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Brazilian",
@@ -12766,11 +12389,6 @@
     },
     "position": "",
     "teams": [
-      {
-        "slug": "16th-national-middle-school-soccer-tournament",
-        "name": "16th National Middle School Soccer Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-soccer-tournament"
-      },
       {
         "slug": "meiwa-higashi-middle-school",
         "name": "Meiwa Higashi Middle School",
@@ -13215,11 +12833,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=germany"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
@@ -13403,11 +13016,6 @@
         "slug": "uzbekistan-youth",
         "name": "Uzbekistan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Saudi Arabian",
@@ -13507,11 +13115,6 @@
     },
     "position": "Goalkeeper",
     "teams": [
-      {
-        "slug": "16th-national-middle-school-tournament",
-        "name": "16th National middle school tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-tournament"
-      },
       {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
@@ -13780,11 +13383,6 @@
     },
     "position": "Midfielder",
     "teams": [
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
       {
         "slug": "olympic-cameroon",
         "name": "Olympic Cameroon",
@@ -14076,11 +13674,6 @@
         "slug": "olympic-japan",
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -14119,11 +13712,6 @@
     },
     "position": "Head coach; Defender (retired)",
     "teams": [
-      {
-        "slug": "afc-youth-championship-qualification",
-        "name": "AFC Youth Championship Qualification",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-qualification"
-      },
       {
         "slug": "all-japan-youth",
         "name": "All Japan Youth",
@@ -14218,11 +13806,6 @@
         "slug": "uzbekistan-youth",
         "name": "Uzbekistan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -14369,11 +13952,6 @@
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "nishimine-elementary-school",
@@ -14613,11 +14191,6 @@
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -14745,11 +14318,6 @@
     "position": "Forward",
     "teams": [
       {
-        "slug": "16th-national-middle-school-soccer-tournament",
-        "name": "16th National Middle School Soccer Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-soccer-tournament"
-      },
-      {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
@@ -14825,11 +14393,6 @@
         "slug": "japan-youth",
         "name": "Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -14971,11 +14534,6 @@
         "slug": "olympic-netherlands",
         "name": "Olympic Netherlands",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Dutch",
@@ -15183,11 +14741,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Brazilian",
@@ -15301,11 +14854,6 @@
         "slug": "brazil-national-team",
         "name": "Brazil national team",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-national-team"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "olympic-brazil",
@@ -15572,11 +15120,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "mexico-youth",
         "name": "Mexico Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
@@ -15600,11 +15143,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Mexican",
@@ -15737,11 +15275,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
@@ -15835,11 +15368,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
@@ -15928,11 +15456,6 @@
     "position": "Head coach",
     "teams": [
       {
-        "slug": "1st-international-jr-youth-tournament-in-france",
-        "name": "1st International Jr. Youth Tournament in France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1st-international-jr-youth-tournament-in-france"
-      },
-      {
         "slug": "argentina-youth",
         "name": "Argentina Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
@@ -16016,11 +15539,6 @@
         "slug": "sweden-youth",
         "name": "Sweden Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "German",
@@ -16165,11 +15683,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Uruguayan",
@@ -16432,11 +15945,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Brazilian",
@@ -16523,19 +16031,9 @@
     "position": "",
     "teams": [
       {
-        "slug": "16th-national-middle-school-soccer-tournament",
-        "name": "16th National Middle School Soccer Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-soccer-tournament"
-      },
-      {
         "slug": "captain-tsubasa-world-youth-hen-1994",
         "name": "Captain Tsubasa: World Youth Hen (1994)",
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "international-jr-youth-tournament",
-        "name": "International Jr. Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=international-jr-youth-tournament"
       },
       {
         "slug": "japan",
@@ -16546,11 +16044,6 @@
         "slug": "japan-youth",
         "name": "Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "nankatsu-elementary-school",
@@ -16566,11 +16059,6 @@
         "slug": "nankatsu-middle-school",
         "name": "Nankatsu Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -16608,13 +16096,7 @@
       "kanji": "サウール"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -16761,11 +16243,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=germany"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "olympic-germany",
         "name": "Olympic Germany",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
@@ -16857,11 +16334,6 @@
         "slug": "hamburger-sv-jr-youth",
         "name": "Hamburger SV Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       }
     ],
     "nationality": "German",
@@ -17259,11 +16731,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=chinese-taipei-youth"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "thailand-youth",
         "name": "Thailand Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
@@ -17422,11 +16889,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Mexican",
@@ -17580,11 +17042,6 @@
     "position": "Goalkeeper",
     "teams": [
       {
-        "slug": "16th-national-middle-school-soccer-tournament",
-        "name": "16th National Middle School Soccer Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-soccer-tournament"
-      },
-      {
         "slug": "azumaichi-middle-school",
         "name": "Azumaichi Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=azumaichi-middle-school"
@@ -17718,11 +17175,6 @@
     },
     "position": "",
     "teams": [
-      {
-        "slug": "16th-national-middle-school-soccer-tournament",
-        "name": "16th National Middle School Soccer Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-soccer-tournament"
-      },
       {
         "slug": "all-japan-youth",
         "name": "All Japan Youth",
@@ -17859,16 +17311,6 @@
     "position": "",
     "teams": [
       {
-        "slug": "afc-youth-championship-bwy",
-        "name": "AFC Youth Championship (BWY)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-bwy"
-      },
-      {
-        "slug": "afc-youth-championship-qualification",
-        "name": "AFC Youth Championship qualification",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-qualification"
-      },
-      {
         "slug": "brazil-youth",
         "name": "Brazil Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
@@ -17894,11 +17336,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "nakahara-middle-school",
         "name": "Nakahara middle school",
         "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-middle-school"
@@ -17912,11 +17349,6 @@
         "slug": "thailand-youth",
         "name": "Thailand Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -17992,11 +17424,6 @@
     "position": "Goalkeeper (former)",
     "teams": [
       {
-        "slug": "16th-national-middle-school-soccer-tournament",
-        "name": "16th National Middle School Soccer Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-soccer-tournament"
-      },
-      {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
@@ -18065,11 +17492,6 @@
         "slug": "sv-werder-bremen-jr-youth",
         "name": "SV Werder Bremen Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -18281,11 +17703,6 @@
     },
     "position": "Attacking midfielder",
     "teams": [
-      {
-        "slug": "16th-national-middle-school-tournament",
-        "name": "16th National middle school tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=16th-national-middle-school-tournament"
-      },
       {
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
@@ -18585,11 +18002,6 @@
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -18886,11 +18298,6 @@
         "slug": "uzbekistan-youth",
         "name": "Uzbekistan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Saudi Arabian",
@@ -19040,11 +18447,6 @@
         "slug": "uzbekistan-youth",
         "name": "Uzbekistan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Chinese",
@@ -19178,11 +18580,6 @@
     "position": "",
     "teams": [
       {
-        "slug": "afc-youth-championship-bwy",
-        "name": "AFC Youth Championship (BWY)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-bwy"
-      },
-      {
         "slug": "all-europe-jr-youth",
         "name": "All Europe Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-europe-jr-youth"
@@ -19263,11 +18660,6 @@
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -19367,11 +18759,6 @@
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -19486,11 +18873,6 @@
         "slug": "japan-youth",
         "name": "Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
       },
       {
         "slug": "nankatsu-high-school",
@@ -19615,16 +18997,6 @@
         "slug": "japan",
         "name": "Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=japan"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Japanese",
@@ -19800,11 +19172,6 @@
     "position": "Attacking midfielder",
     "teams": [
       {
-        "slug": "afc-youth-championship-bwy",
-        "name": "AFC Youth Championship (BWY)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=afc-youth-championship-bwy"
-      },
-      {
         "slug": "captain-tsubasa-world-youth-hen-1994",
         "name": "Captain Tsubasa: World Youth Hen (1994)",
         "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
@@ -19892,11 +19259,6 @@
         "url": "/univers/olive-et-tom/equipe.html?slug=japan-youth"
       },
       {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics Tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=madrid-olympics-tournament"
-      },
-      {
         "slug": "mexico-youth",
         "name": "Mexico Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
@@ -19920,11 +19282,6 @@
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      },
-      {
-        "slug": "world-youth-tournament",
-        "name": "World Youth tournament",
-        "url": "/univers/olive-et-tom/equipe.html?slug=world-youth-tournament"
       }
     ],
     "nationality": "Mexican",
