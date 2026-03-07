@@ -8,58 +8,7 @@
       "kanji": "大空 翼"
     },
     "position": "Attacking midfielderForward",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      },
-      {
-        "slug": "shumei-gakkan-middle-school",
-        "name": "Shumei Gakkan Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shumei-gakkan-middle-school"
-      },
-      {
-        "slug": "shutetsu-elementary-school",
-        "name": "Shutetsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "RT": {
@@ -473,48 +422,7 @@
       "kanji": "日向 小次郎"
     },
     "position": "Striker",
-    "teams": [
-      {
-        "slug": "ac-reggiana",
-        "name": "AC Reggiana",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana"
-      },
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -794,68 +702,7 @@
       "kanji": "若林 源三"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
-        "name": "Captain Tsubasa: Saikyo no Teki! Holanda Youth (1994 film)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film"
-      },
-      {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
-      },
-      {
-        "slug": "fc-bayern-munichnext-dream",
-        "name": "FC Bayern Munich/Next Dream",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munichnext-dream"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "hamburger-sv-jr-youth",
-        "name": "Hamburger SV Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shimizu-fc",
-        "name": "Shimizu FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shimizu-fc"
-      },
-      {
-        "slug": "shutetsu-elementary-school",
-        "name": "Shutetsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -1000,63 +847,7 @@
       "kanji": "岬 太郎"
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "kujukuri-fc",
-        "name": "Kujukuri FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=kujukuri-fc"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "nishimine-elementary-school",
-        "name": "Nishimine Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "paris-saint-germain-fc",
-        "name": "Paris Saint-Germain FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -1291,23 +1082,7 @@
       "kanji": "三杉 淳"
     },
     "position": "Defender; Midfielder",
-    "teams": [
-      {
-        "slug": "fc-tokyo",
-        "name": "FC Tokyo",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-tokyo"
-      },
-      {
-        "slug": "musashi-fc",
-        "name": "Musashi FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -1462,23 +1237,7 @@
       "kanji": "松山 光"
     },
     "position": "Defender, Attacking midfielder",
-    "teams": [
-      {
-        "slug": "furano-elementary-soccer-club",
-        "name": "Furano Elementary Soccer Club",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club"
-      },
-      {
-        "slug": "furano-middle-school",
-        "name": "Furano Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -1578,43 +1337,7 @@
       "kanji": "若島津 健"
     },
     "position": "GoalkeeperForward",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "meiwa-higashi-middle-school",
-        "name": "Meiwa Higashi Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-higashi-middle-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -1739,28 +1462,7 @@
       "kanji": ""
     },
     "position": "Striker",
-    "teams": [
-      {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
-      },
-      {
-        "slug": "fc-bayern-munich-jr-youth",
-        "name": "FC Bayern Munich Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich-jr-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {
       "JBC": {
@@ -1892,23 +1594,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielderForward",
-    "teams": [
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {
       "BWY": {
@@ -2050,13 +1736,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -2183,23 +1863,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielderForward",
-    "teams": [
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "boca-juniors",
-        "name": "Boca Juniors",
-        "url": "/univers/olive-et-tom/equipe.html?slug=boca-juniors"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {
       "BWY": {
@@ -2380,38 +2044,7 @@
       "kanji": "葵 新伍"
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "fc-albese",
-        "name": "FC Albese",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-albese"
-      },
-      {
-        "slug": "inter-juniores",
-        "name": "Inter Juniores",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores"
-      },
-      {
-        "slug": "inter-primavera",
-        "name": "Inter Primavera",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera"
-      },
-      {
-        "slug": "nakahara-fc",
-        "name": "Nakahara FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-fc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -2563,33 +2196,7 @@
       "kanji": "早田 誠"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "azumaichi-middle-school",
-        "name": "Azumaichi Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=azumaichi-middle-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "tatsunami-high-school",
-        "name": "Tatsunami High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=tatsunami-high-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -2670,38 +2277,7 @@
       "kanji": "新田 瞬"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "otomo-middle-school",
-        "name": "Otomo Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -2807,28 +2383,7 @@
       "kanji": "石崎 了"
     },
     "position": "Defender; forward (former)",
-    "teams": [
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -2877,33 +2432,7 @@
       "kanji": ""
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "inter-juniores",
-        "name": "Inter Juniores",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores"
-      },
-      {
-        "slug": "inter-milan",
-        "name": "Inter Milan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-milan"
-      },
-      {
-        "slug": "inter-primavera",
-        "name": "Inter Primavera",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera"
-      },
-      {
-        "slug": "italy-jr-youth",
-        "name": "Italy Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth"
-      },
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {
       "BWY": {
@@ -2974,23 +2503,7 @@
       "kanji": "サルバトーレ・ジェンティーレ"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "italy-youth",
-        "name": "Italy Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth"
-      },
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      },
-      {
-        "slug": "juventus-primavera",
-        "name": "Juventus Primavera",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-primavera"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {
       "BWY": {
@@ -3052,28 +2565,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993"
-      },
-      {
-        "slug": "manchester-united-fc",
-        "name": "Manchester United FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=manchester-united-fc"
-      },
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {
       "BWY": {
@@ -3170,28 +2662,7 @@
       "kanji": "ステファン・レヴィン"
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "1fc-koln",
-        "name": "1.FC Koln",
-        "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
-      },
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Swedish",
     "physical": {
       "BWY": {
@@ -3333,23 +2804,7 @@
       "kanji": "ラモン・ビクトリーノ"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "sv-werder-bremen",
-        "name": "SV Werder Bremen",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen"
-      },
-      {
-        "slug": "uruguay-jr-youth",
-        "name": "Uruguay Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Uruguayan",
     "physical": {
       "BWY": {
@@ -3458,38 +2913,7 @@
       "kanji": "沢田 タケシ"
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "G23": {
@@ -3618,33 +3042,7 @@
       "kanji": "次藤 洋"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "hirado-middle-school",
-        "name": "Hirado Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hirado-middle-school"
-      },
-      {
-        "slug": "kunimi-gakuin-high-school",
-        "name": "Kunimi Gakuin High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -3780,23 +3178,7 @@
       "kanji": "ロベルト本郷"
     },
     "position": "Attacking midfielder (retired)",
-    "teams": [
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {
       "BWY": {
@@ -3928,28 +3310,7 @@
       "kanji": ""
     },
     "position": "Defensive midfielder; Defender",
-    "teams": [
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {
       "JBC": {
@@ -4051,23 +3412,7 @@
       "kanji": "デューター・ミューラー"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {
       "BWY": {
@@ -4153,28 +3498,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "sv-werder-bremen",
-        "name": "SV Werder Bremen",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen"
-      },
-      {
-        "slug": "sv-werder-bremen-jr-youth",
-        "name": "SV Werder Bremen Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {
       "JBC": {
@@ -4241,28 +3565,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "brazil-middle-school",
-        "name": "Brazil (Middle school)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-middle-school"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "cr-flamengo",
-        "name": "CR Flamengo",
-        "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {
       "BWY": {
@@ -4484,28 +3787,7 @@
       "kanji": ""
     },
     "position": "Not fixed",
-    "teams": [
-      {
-        "slug": "borussia-monchengladbach",
-        "name": "Borussia Monchengladbach",
-        "url": "/univers/olive-et-tom/equipe.html?slug=borussia-monchengladbach"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      },
-      {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
-      },
-      {
-        "slug": "olympic-china",
-        "name": "Olympic China",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china"
-      }
-    ],
+    "teams": [],
     "nationality": "Chinese",
     "physical": {
       "BWY": {
@@ -4602,23 +3884,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "boca-juniors",
-        "name": "Boca Juniors",
-        "url": "/univers/olive-et-tom/equipe.html?slug=boca-juniors"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {
       "JBC": {
@@ -4700,13 +3966,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Chinese",
     "physical": {
       "BWY": {
@@ -4768,23 +4028,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "france-youth",
-        "name": "France Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
-        "slug": "olympic-france",
-        "name": "Olympic France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france"
-      }
-    ],
+    "teams": [],
     "nationality": "French",
     "physical": {
       "JBC": {
@@ -4871,33 +4115,7 @@
       "kanji": "反町 一樹"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "toho-academy-high-school",
-        "name": "Toho Academy High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school"
-      },
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -4988,43 +4206,7 @@
       "kanji": "浦辺 反次"
     },
     "position": "Defensive midfielder, Defender",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth-ronc",
-        "name": "All Japan Jr. Youth (RoNC)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-ronc"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "nishigaoka-elementary-school",
-        "name": "Nishigaoka Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nishigaoka-elementary-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "otomo-middle-school",
-        "name": "Otomo Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "G23": {
@@ -5093,13 +4275,7 @@
       "kanji": "西尾 浩司"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -5135,13 +4311,7 @@
       "kanji": "藤沢 美子"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "furano-middle-school",
-        "name": "Furano Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -5177,33 +4347,7 @@
       "kanji": "佐野 滿"
     },
     "position": "Forward; Attacking midfielder",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "hirado-middle-school",
-        "name": "Hirado Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hirado-middle-school"
-      },
-      {
-        "slug": "kunimi-gakuin-high-school",
-        "name": "Kunimi Gakuin High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "G23": {
@@ -5308,28 +4452,7 @@
       "kanji": "滝 一"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "shutetsu-elementary-school",
-        "name": "Shutetsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -5409,18 +4532,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "arsenal-fc",
-        "name": "Arsenal FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=arsenal-fc"
-      },
-      {
-        "slug": "olympic-france",
-        "name": "Olympic France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france"
-      }
-    ],
+    "teams": [],
     "nationality": "",
     "physical": {},
     "description": "",
@@ -5456,13 +4568,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {},
     "description": "",
@@ -5498,13 +4604,7 @@
       "kanji": "一ノ瀬 明"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "musashi-fc",
-        "name": "Musashi FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -5540,18 +4640,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {
       "BWY": {
@@ -5613,13 +4702,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {
       "BWY": {
@@ -5660,13 +4743,7 @@
       "kanji": "アモロ"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "French",
     "physical": {
       "JBC": {
@@ -5707,13 +4784,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -5785,13 +4856,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "fc-groningen",
-        "name": "FC Groningen",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-groningen"
-      }
-    ],
+    "teams": [],
     "nationality": "Nigerian",
     "physical": {},
     "description": "",
@@ -5827,13 +4892,7 @@
       "kanji": "バルソレ・バーラ"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "bara-fc",
-        "name": "Bara FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bara-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -5869,18 +4928,7 @@
       "kanji": "ボバング"
     },
     "position": "Not fixed",
-    "teams": [
-      {
-        "slug": "fc-albese",
-        "name": "FC Albese",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-albese"
-      },
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
-      }
-    ],
+    "teams": [],
     "nationality": "Nigerian",
     "physical": {
       "G23": {
@@ -5956,18 +5004,7 @@
       "kanji": ""
     },
     "position": "Forward, attacking midfielder",
-    "teams": [
-      {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "olympic-france",
-        "name": "Olympic France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france"
-      }
-    ],
+    "teams": [],
     "nationality": "French",
     "physical": {
       "JBC": {
@@ -6008,13 +5045,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "parma-ac",
-        "name": "Parma AC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=parma-ac"
-      }
-    ],
+    "teams": [],
     "nationality": "Australian",
     "physical": {},
     "description": "",
@@ -6050,13 +5081,7 @@
       "kanji": ""
     },
     "position": "Centre back",
-    "teams": [
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Swedish",
     "physical": {
       "BWY": {
@@ -6133,18 +5158,7 @@
       "kanji": "カリューシャス"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -6216,13 +5230,7 @@
       "kanji": "カルロ・モネッティ"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {},
     "description": "",
@@ -6294,18 +5302,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "borussia-monchengladbach",
-        "name": "Borussia Monchengladbach",
-        "url": "/univers/olive-et-tom/equipe.html?slug=borussia-monchengladbach"
-      },
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "South Korean",
     "physical": {
       "BWY": {
@@ -6367,18 +5364,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "thailand-middle-school",
-        "name": "Thailand (Middle school)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-middle-school"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Thai",
     "physical": {
       "BWY": {
@@ -6567,18 +5553,7 @@
       "kanji": ""
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {},
     "description": "",
@@ -6665,18 +5640,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "argentina-jr-youth",
-        "name": "Argentina Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {},
     "description": "",
@@ -6712,13 +5676,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Croatian",
     "physical": {},
     "description": "",
@@ -6754,13 +5712,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "west-ham-united-fc",
-        "name": "West Ham United FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=west-ham-united-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Nigerian",
     "physical": {},
     "description": "",
@@ -6796,33 +5748,7 @@
       "kanji": ""
     },
     "position": "MidfielderDefender",
-    "teams": [
-      {
-        "slug": "fc-girondins-de-bordeaux",
-        "name": "FC Girondins de Bordeaux",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-girondins-de-bordeaux"
-      },
-      {
-        "slug": "france-jr-youth",
-        "name": "France Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth"
-      },
-      {
-        "slug": "france-youth",
-        "name": "France Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=france-youth"
-      },
-      {
-        "slug": "olympic-france",
-        "name": "Olympic France",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france"
-      },
-      {
-        "slug": "paris-saint-germain-fc",
-        "name": "Paris Saint-Germain FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "French",
     "physical": {
       "JBC": {
@@ -7010,13 +5936,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "olympic-cameroon",
-        "name": "Olympic Cameroon",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-cameroon"
-      }
-    ],
+    "teams": [],
     "nationality": "Cameroonian",
     "physical": {},
     "description": "",
@@ -7088,18 +6008,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "thailand-middle-school",
-        "name": "Thailand (Middle school)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-middle-school"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Thai",
     "physical": {
       "BWY": {
@@ -7140,18 +6049,7 @@
       "kanji": "フェルナンド・ルイス・ブルーノ"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -7187,18 +6085,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "atletico-madrid",
-        "name": "Atletico Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=atletico-madrid"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -7306,33 +6193,7 @@
       "kanji": ""
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "germany-jr-youth",
-        "name": "Germany Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      },
-      {
-        "slug": "sv-werder-bremen",
-        "name": "SV Werder Bremen",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen"
-      },
-      {
-        "slug": "sv-werder-bremen-jr-youth",
-        "name": "SV Werder Bremen Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {
       "BWY": {
@@ -7458,13 +6319,7 @@
       "kanji": ""
     },
     "position": "Winger",
-    "teams": [
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Swedish",
     "physical": {
       "BWY": {
@@ -7505,13 +6360,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -7568,18 +6417,7 @@
       "kanji": ""
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "argentina-jr-youth",
-        "name": "Argentina Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {
       "JBC": {
@@ -7620,18 +6458,7 @@
       "kanji": "ガルバン"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {
       "JBC": {
@@ -7698,13 +6525,7 @@
       "kanji": ""
     },
     "position": "Defensive midfielder",
-    "teams": [
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {
       "BWY": {
@@ -7817,18 +6638,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {},
     "description": "",
@@ -8016,18 +6826,7 @@
       "kanji": ""
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {
       "BWY": {
@@ -8068,13 +6867,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder; Forward",
-    "teams": [
-      {
-        "slug": "liverpool-fc",
-        "name": "Liverpool FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=liverpool-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Australian",
     "physical": {},
     "description": "",
@@ -8218,13 +7011,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {},
     "description": "",
@@ -8296,13 +7083,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      }
-    ],
+    "teams": [],
     "nationality": "",
     "physical": {},
     "description": "",
@@ -8338,18 +7119,7 @@
       "kanji": "一条 勇"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "otomo-middle-school",
-        "name": "Otomo Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "default": {
@@ -8390,13 +7160,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "ac-reggiana",
-        "name": "AC Reggiana",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {},
     "description": "",
@@ -8489,13 +7253,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -8567,13 +7325,7 @@
       "kanji": "ジェンゴ アチョワ"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
-      }
-    ],
+    "teams": [],
     "nationality": "Nigerian",
     "physical": {},
     "description": "",
@@ -8649,18 +7401,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "olympic-nigeria",
-        "name": "Olympic Nigeria",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria"
-      },
-      {
-        "slug": "paris-saint-germain-fc",
-        "name": "Paris Saint-Germain FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Nigerian",
     "physical": {},
     "description": "",
@@ -8696,18 +7437,7 @@
       "kanji": "ジョアン・アラゴネス"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -8743,18 +7473,7 @@
       "kanji": "ヨハン・レンセンブリンク"
     },
     "position": "Forward, Attacking midfielder",
-    "teams": [
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {},
     "description": "",
@@ -8790,13 +7509,7 @@
       "kanji": ""
     },
     "position": "Defensive midfielder",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -8944,23 +7657,7 @@
       "kanji": "小田 和正"
     },
     "position": "Forward; Attacking midfielder (RS)",
-    "teams": [
-      {
-        "slug": "furano-elementary-soccer-club",
-        "name": "Furano Elementary Soccer Club",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club"
-      },
-      {
-        "slug": "furano-middle-school",
-        "name": "Furano Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -9009,13 +7706,7 @@
       "kanji": ""
     },
     "position": "Forward (retired)",
-    "teams": [
-      {
-        "slug": "nishimine-elementary-school",
-        "name": "Nishimine Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -9159,13 +7850,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {},
     "description": "",
@@ -9201,18 +7886,7 @@
       "kanji": "吉良 耕三"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -9248,18 +7922,7 @@
       "kanji": "杉本久美"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -9295,13 +7958,7 @@
       "kanji": ""
     },
     "position": "Winger",
-    "teams": [
-      {
-        "slug": "sweden-youth",
-        "name": "Sweden Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Swedish",
     "physical": {
       "BWY": {
@@ -9342,13 +7999,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "south-korea-youth",
-        "name": "South Korea Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "South Korean",
     "physical": {
       "BWY": {
@@ -9389,18 +8040,7 @@
       "kanji": "レオン・ディック"
     },
     "position": "Centre back",
-    "teams": [
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {
       "BWY": {
@@ -9441,13 +8081,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {
       "BWY": {
@@ -9488,28 +8122,7 @@
       "kanji": ""
     },
     "position": "Forward; Attacking midfielder",
-    "teams": [
-      {
-        "slug": "bara-fc",
-        "name": "Bara FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=bara-fc"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "cr-flamengo",
-        "name": "CR Flamengo",
-        "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {
       "BWY": {
@@ -9591,13 +8204,7 @@
       "kanji": ""
     },
     "position": "Wide midfielder",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -9633,13 +8240,7 @@
       "kanji": ""
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "French",
     "physical": {},
     "description": "",
@@ -9711,13 +8312,7 @@
       "kanji": "北詰 誠"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "toho-academy-middle-school",
-        "name": "Toho Academy Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -9789,43 +8384,7 @@
       "kanji": "井沢 守"
     },
     "position": "Midfielder, Defender",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shutetsu-elementary-school",
-        "name": "Shutetsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -9920,13 +8479,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {},
     "description": "",
@@ -9998,13 +8551,7 @@
       "kanji": ""
     },
     "position": "Wide midfielder",
-    "teams": [
-      {
-        "slug": "fc-albese",
-        "name": "FC Albese",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-albese"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {},
     "description": "",
@@ -10076,13 +8623,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -10118,13 +8659,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {},
     "description": "",
@@ -10196,13 +8731,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "newcastle-united-fc",
-        "name": "Newcastle United FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=newcastle-united-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Australian",
     "physical": {},
     "description": "",
@@ -10238,13 +8767,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Saudi Arabian",
     "physical": {
       "BWY": {
@@ -10341,18 +8864,7 @@
       "kanji": "加藤 正則"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "furano-elementary-soccer-club",
-        "name": "Furano Elementary Soccer Club",
-        "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -10388,28 +8900,7 @@
       "kanji": "中山 政男"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "otomo-middle-school",
-        "name": "Otomo Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -10445,23 +8936,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "ac-chievo-verona",
-        "name": "AC Chievo Verona",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ac-chievo-verona"
-      },
-      {
-        "slug": "inter-juniores",
-        "name": "Inter Juniores",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores"
-      },
-      {
-        "slug": "inter-primavera",
-        "name": "Inter Primavera",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {
       "BWY": {
@@ -10502,13 +8977,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {},
     "description": "",
@@ -10544,18 +9013,7 @@
       "kanji": "ミカエル"
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -10717,13 +9175,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -10831,18 +9283,7 @@
       "kanji": "賀茂 港"
     },
     "position": "Head coach; Defender (retired)",
-    "teams": [
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -10878,13 +9319,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "minor-charactersbattle-of-world-youth",
-        "name": "Minor characters/Battle of World Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=minor-charactersbattle-of-world-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "",
     "physical": {},
     "description": "",
@@ -10920,13 +9355,7 @@
       "kanji": "本間 実"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "musashi-fc",
-        "name": "Musashi FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -10962,13 +9391,7 @@
       "kanji": ""
     },
     "position": "Midfielder (retired)",
-    "teams": [
-      {
-        "slug": "nishimine-elementary-school",
-        "name": "Nishimine Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -11004,13 +9427,7 @@
       "kanji": "川上 守道"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "shimizu-fc",
-        "name": "Shimizu FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shimizu-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "KD": {
@@ -11051,13 +9468,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "olympic-cameroon",
-        "name": "Olympic Cameroon",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-cameroon"
-      }
-    ],
+    "teams": [],
     "nationality": "Cameroonian",
     "physical": {},
     "description": "",
@@ -11237,18 +9648,7 @@
       "kanji": "ニコラ・バッシ"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "inter-juniores",
-        "name": "Inter Juniores",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores"
-      },
-      {
-        "slug": "inter-primavera",
-        "name": "Inter Primavera",
-        "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {},
     "description": "",
@@ -11284,23 +9684,7 @@
       "kanji": "沢木 昇"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "meiwa-higashi-middle-school",
-        "name": "Meiwa Higashi Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-higashi-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "KD": {
@@ -11465,18 +9849,7 @@
       "kanji": "オットー・レイハート"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {},
     "description": "",
@@ -11620,28 +9993,7 @@
       "kanji": ""
     },
     "position": "Forward; Attacking midfielder",
-    "teams": [
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      },
-      {
-        "slug": "sao-paulo-fc-youth-squads",
-        "name": "Sao Paulo FC - Youth squads",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc-youth-squads"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {
       "BWY": {
@@ -11743,18 +10095,7 @@
       "kanji": "ラドゥンガ"
     },
     "position": "Defensive midfielder",
-    "teams": [
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -11841,13 +10182,7 @@
       "kanji": "ラモン・ビクトリーノ"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "uruguay-jr-youth-ronc",
-        "name": "Uruguay Jr. Youth (RoNC)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth-ronc"
-      }
-    ],
+    "teams": [],
     "nationality": "Uruguayan",
     "physical": {},
     "description": "",
@@ -11919,13 +10254,7 @@
       "kanji": ""
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -11967,23 +10296,7 @@
       "kanji": ""
     },
     "position": "GoalkeeperForward",
-    "teams": [
-      {
-        "slug": "everton-fc",
-        "name": "Everton FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=everton-fc"
-      },
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {
       "BWY": {
@@ -12096,18 +10409,7 @@
       "kanji": "ロベルト・カロルス"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      },
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {},
     "description": "",
@@ -12179,13 +10481,7 @@
       "kanji": "ロブソン"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "england-jr-youth",
-        "name": "England Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=england-jr-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "English",
     "physical": {
       "JBC": {
@@ -12262,28 +10558,7 @@
       "kanji": ""
     },
     "position": "Head coach",
-    "teams": [
-      {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich"
-      },
-      {
-        "slug": "germany-youth",
-        "name": "Germany Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {},
     "description": "",
@@ -12319,18 +10594,7 @@
       "kanji": "ルート・クリスマン"
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "netherlands-youth",
-        "name": "Netherlands Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands"
-      }
-    ],
+    "teams": [],
     "nationality": "Dutch",
     "physical": {},
     "description": "",
@@ -12366,23 +10630,7 @@
       "kanji": ""
     },
     "position": "Striker",
-    "teams": [
-      {
-        "slug": "ca-river-plate",
-        "name": "CA River Plate",
-        "url": "/univers/olive-et-tom/equipe.html?slug=ca-river-plate"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Uruguayan",
     "physical": {
       "BWY": {
@@ -12499,18 +10747,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "thailand-middle-school",
-        "name": "Thailand (Middle school)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-middle-school"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Thai",
     "physical": {
       "BWY": {
@@ -12551,13 +10788,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {},
     "description": "",
@@ -12593,18 +10824,7 @@
       "kanji": ""
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth"
-      },
-      {
-        "slug": "olympic-brazil",
-        "name": "Olympic Brazil",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil"
-      }
-    ],
+    "teams": [],
     "nationality": "Brazilian",
     "physical": {
       "BWY": {
@@ -12645,13 +10865,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -12759,13 +10973,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "argentina-youth",
-        "name": "Argentina Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {},
     "description": "",
@@ -12801,13 +11009,7 @@
       "kanji": ""
     },
     "position": "DefenderDefensive midfielder",
-    "teams": [
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {},
     "description": "",
@@ -12843,18 +11045,7 @@
       "kanji": ""
     },
     "position": "MidfielderDefender",
-    "teams": [
-      {
-        "slug": "borussia-dortmund",
-        "name": "Borussia Dortmund",
-        "url": "/univers/olive-et-tom/equipe.html?slug=borussia-dortmund"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {},
     "description": "",
@@ -12911,13 +11102,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv"
-      }
-    ],
+    "teams": [],
     "nationality": "German",
     "physical": {},
     "description": "",
@@ -12953,13 +11138,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -12995,28 +11174,7 @@
       "kanji": "高杉 真吾"
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -13105,13 +11263,7 @@
       "kanji": "真田 信次"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "musashi-fc",
-        "name": "Musashi FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "KD": {
@@ -13188,13 +11340,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {},
     "description": "",
@@ -13230,18 +11376,7 @@
       "kanji": ""
     },
     "position": "Centre back",
-    "teams": [
-      {
-        "slug": "atletico-madrid",
-        "name": "Atletico Madrid",
-        "url": "/univers/olive-et-tom/equipe.html?slug=atletico-madrid"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Thai",
     "physical": {
       "BWY": {
@@ -13303,13 +11438,7 @@
       "kanji": "平丘 相太"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "kunimi-gakuin-high-school",
-        "name": "Kunimi Gakuin High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -13345,18 +11474,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {
       "BWY": {
@@ -13397,13 +11515,7 @@
       "kanji": ""
     },
     "position": "Defensive midfielder",
-    "teams": [
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {},
     "description": "",
@@ -13439,13 +11551,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -13481,28 +11587,7 @@
       "kanji": "中西 太一"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "naniwa-fc",
-        "name": "Naniwa FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-fc"
-      },
-      {
-        "slug": "naniwa-middle-school",
-        "name": "Naniwa Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-middle-school"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "tatsunami-high-school",
-        "name": "Tatsunami High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=tatsunami-high-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "KD": {
@@ -13579,13 +11664,7 @@
       "kanji": "古尾谷 猛"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -13621,33 +11700,7 @@
       "kanji": "岸田 猛"
     },
     "position": "Defender; Defensive midfielder",
-    "teams": [
-      {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "otomo-middle-school",
-        "name": "Otomo Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school"
-      },
-      {
-        "slug": "yamabuki-elementary-school",
-        "name": "Yamabuki Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=yamabuki-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -13704,13 +11757,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -13782,18 +11829,7 @@
       "kanji": "見上 辰夫"
     },
     "position": "Goalkeeper (former)",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -13829,38 +11865,7 @@
       "kanji": "来生 哲兵"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      },
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shutetsu-elementary-school",
-        "name": "Shutetsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -13976,13 +11981,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "default": {
@@ -14023,13 +12022,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "parma-ac",
-        "name": "Parma AC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=parma-ac"
-      }
-    ],
+    "teams": [],
     "nationality": "French",
     "physical": {},
     "description": "",
@@ -14101,13 +12094,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "everton-fc",
-        "name": "Everton FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=everton-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Australian",
     "physical": {},
     "description": "",
@@ -14251,13 +12238,7 @@
       "kanji": ""
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -14329,13 +12310,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina"
-      }
-    ],
+    "teams": [],
     "nationality": "Argentinian",
     "physical": {},
     "description": "",
@@ -14407,13 +12382,7 @@
       "kanji": ""
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -14449,13 +12418,7 @@
       "kanji": ""
     },
     "position": "Forward; Defender",
-    "teams": [
-      {
-        "slug": "saudi-arabia-youth",
-        "name": "Saudi Arabia Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Saudi Arabian",
     "physical": {
       "BWY": {
@@ -14496,13 +12459,7 @@
       "kanji": ""
     },
     "position": "Forward; Wide midfielder",
-    "teams": [
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Chinese",
     "physical": {
       "BWY": {
@@ -14543,13 +12500,7 @@
       "kanji": ""
     },
     "position": "MidfielderDefender",
-    "teams": [
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=china-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Chinese",
     "physical": {
       "BWY": {
@@ -14590,13 +12541,7 @@
       "kanji": ""
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -14668,13 +12613,7 @@
       "kanji": "青葉 弥生"
     },
     "position": "",
-    "teams": [
-      {
-        "slug": "musashi-fc",
-        "name": "Musashi FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "default": {
@@ -14751,13 +12690,7 @@
       "kanji": "大坪 嘉人"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "kunimi-gakuin-high-school",
-        "name": "Kunimi Gakuin High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -14829,13 +12762,7 @@
       "kanji": ""
     },
     "position": "Defender;Forward",
-    "teams": [
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {},
     "description": "",
@@ -14979,33 +12906,7 @@
       "kanji": "森崎 有三"
     },
     "position": "Goalkeeper",
-    "teams": [
-      {
-        "slug": "nankatsu-high-school",
-        "name": "Nankatsu High School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu Middle School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan"
-      },
-      {
-        "slug": "shutetsu-elementary-school",
-        "name": "Shutetsu Elementary School",
-        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school"
-      }
-    ],
+    "teams": [],
     "nationality": "Japanese",
     "physical": {
       "BWY": {
@@ -15105,13 +13006,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "uzbekistan-youth",
-        "name": "Uzbekistan Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth"
-      }
-    ],
+    "teams": [],
     "nationality": "Uzbek",
     "physical": {
       "BWY": {
@@ -15152,18 +13047,7 @@
       "kanji": ""
     },
     "position": "Attacking midfielder",
-    "teams": [
-      {
-        "slug": "mexico-youth",
-        "name": "Mexico Youth",
-        "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth"
-      },
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico"
-      }
-    ],
+    "teams": [],
     "nationality": "Mexican",
     "physical": {
       "BWY": {
