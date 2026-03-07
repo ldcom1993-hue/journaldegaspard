@@ -144,7 +144,10 @@ def main() -> None:
         teams = extract_teams_from_infobox(infobox)
 
         if not teams:
-            team_candidates = extract_teams_from_page_links(page_links)
+            team_candidates = extract_teams_from_page_links(
+    page_links,
+    known_character_titles
+)
             teams = filter_real_teams(team_candidates, wikitext)
 
         if teams:
