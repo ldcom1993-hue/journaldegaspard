@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -16,14 +17,19 @@ jobs:
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
 
           local-dir: ./
-
           server-dir: /www/
 
           dangerous-clean-slate: false
+
+          exclude: |
+            **/.git*
+            **/.github*
+            scripts/**
+            docs/**
+            README.md
