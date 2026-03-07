@@ -15,8 +15,8 @@ from fandom.client import (
 )
 
 from fandom.extract_teams import (
+    extract_team_candidates_from_page_links,
     extract_teams_from_infobox,
-    extract_teams_from_page_links,
 )
 
 from fandom.extract_techniques import (
@@ -28,6 +28,7 @@ from fandom.extract_techniques import (
 from fandom.normalize import (
     classify_team,
     extract_infobox_fields,
+    infer_parent_team,
     normalize_entity_name,
     slugify,
 )
@@ -45,6 +46,14 @@ PERSONNAGES_JSON = Path("assets/data/personnages.json")
 EQUIPES_JSON = Path("assets/data/equipes.json")
 TECHNIQUES_JSON = Path("assets/data/techniques.json")
 
+RESIDUAL_TEAM_BLACKLIST = {
+    "Brazil Youth",
+    "Shutetsu Elementary School",
+}
+
+TEAM_CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
+RESIDUAL_TEAM_BLACKLIST_LOWER = {name.casefold() for name in RESIDUAL_TEAM_BLACKLIST}
+
 
 # ------------------------------------------------------------
 # Utilities
@@ -60,16 +69,24 @@ def load_personnages() -> list[dict[str, Any]]:
     return [entry for entry in payload if isinstance(entry, dict)]
 
 
-def dedupe_refs(refs: list[dict[str, str]]) -> list[dict[str, str]]:
-    unique: dict[str, dict[str, str]] = {}
+def dedupe_refs(refs: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    unique: dict[str, dict[str, Any]] = {}
 
     for ref in refs:
-        slug = ref.get("slug", "").strip()
-
+        slug = str(ref.get("slug", "")).strip()
         if not slug:
             continue
 
-        unique[slug] = ref
+        previous = unique.get(slug)
+        if not previous:
+            unique[slug] = ref
+            continue
+
+        prev_confidence = str(previous.get("confidence", "medium"))
+        new_confidence = str(ref.get("confidence", "medium"))
+
+        if TEAM_CONFIDENCE_ORDER.get(new_confidence, 0) >= TEAM_CONFIDENCE_ORDER.get(prev_confidence, 0):
+            unique[slug] = ref
 
     return sort_entities(list(unique.values()))
 
@@ -86,6 +103,11 @@ def validate_team_membership(team_name: str, character_name: str) -> bool:
         return False
 
     return character_name.lower() in team_wikitext.lower()
+
+
+def is_residual_blacklisted(team_name: str) -> bool:
+    normalized = normalize_entity_name(team_name)
+    return normalized.casefold() in RESIDUAL_TEAM_BLACKLIST_LOWER
 
 
 # ------------------------------------------------------------
@@ -109,7 +131,7 @@ def main() -> None:
 
     known_character_titles = set(title_by_slug.values())
 
-    team_links_by_character: dict[str, list[str]] = {}
+    team_links_by_character: dict[str, list[dict[str, Any]]] = {}
     technique_links_by_character: dict[str, list[str]] = {}
 
     print(f"[info] loaded {len(personnages)} characters")
@@ -140,27 +162,38 @@ def main() -> None:
 
         infobox = extract_infobox_fields(wikitext)
 
-        teams = extract_teams_from_infobox(infobox)
+        extracted_team_refs: list[dict[str, Any]] = []
 
-        # fallback via page links
-        if not teams:
+        for team in extract_teams_from_infobox(infobox):
+            if is_residual_blacklisted(team):
+                continue
+            extracted_team_refs.append({"name": team, "confidence": "high"})
 
-            team_candidates = extract_teams_from_page_links(
+        if not extracted_team_refs:
+            team_candidates = extract_team_candidates_from_page_links(
                 page_links,
-                known_character_titles
+                known_character_titles,
             )
 
-            validated_teams: list[str] = []
-
             for team in team_candidates:
+                if is_residual_blacklisted(team):
+                    continue
 
                 if validate_team_membership(team, title):
-                    validated_teams.append(team)
+                    extracted_team_refs.append({"name": team, "confidence": "medium"})
+                else:
+                    extracted_team_refs.append({"name": team, "confidence": "low"})
 
-            teams = validated_teams
-
-        if teams:
-            team_links_by_character[slug] = teams
+        if extracted_team_refs:
+            team_links_by_character[slug] = dedupe_refs(
+                [
+                    {
+                        **entity_ref(team_ref["name"], "equipe"),
+                        "confidence": team_ref["confidence"],
+                    }
+                    for team_ref in extracted_team_refs
+                ]
+            )
 
         techniques = extract_techniques_from_infobox(infobox)
 
@@ -218,10 +251,7 @@ def main() -> None:
         if not slug:
             continue
 
-        linked_team_refs = [
-            entity_ref(team, "equipe")
-            for team in team_links_by_character.get(slug, [])
-        ]
+        linked_team_refs = team_links_by_character.get(slug, [])
 
         linked_technique_refs = [
             entity_ref(t, "technique")
@@ -230,7 +260,7 @@ def main() -> None:
 
         teams_initial = dedupe_refs(linked_team_refs)
 
-        filtered_team_refs: list[dict[str, str]] = []
+        filtered_team_refs: list[dict[str, Any]] = []
 
         character_pointer = character_ref(record)
 
@@ -239,6 +269,10 @@ def main() -> None:
         # ----------------------------
 
         for team_ref in teams_initial:
+            confidence = str(team_ref.get("confidence", "low"))
+
+            if confidence not in ("high", "medium"):
+                continue
 
             classification = classify_team(team_ref["name"] or team_ref["slug"])
 
@@ -250,12 +284,13 @@ def main() -> None:
             team_slug = team_ref["slug"]
 
             if team_slug not in teams_payload:
-
+                parent_team = infer_parent_team(team_ref["name"])
                 teams_payload[team_slug] = {
                     "slug": team_ref["slug"],
                     "name": team_ref["name"],
                     "type": classification["type"],
                     "age_category": classification["age_category"],
+                    "parent_team": parent_team,
                     "url": team_ref["url"],
                     "description": "",
                     "image": "",

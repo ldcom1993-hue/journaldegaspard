@@ -23,7 +23,7 @@ from pathlib import Path
 from typing import Any
 
 from fandom.client import fetch_category_titles, fetch_page_wikitext
-from fandom.normalize import classify_team, normalize_entity_name, slugify
+from fandom.normalize import classify_team, infer_parent_team, normalize_entity_name, slugify
 from fandom.relations import entity_ref, sort_entities
 from fandom.writers import safe_write_non_empty_list
 
@@ -223,6 +223,7 @@ def build_team_payload(
         "name": team_ref["name"],
         "type": classification["type"],
         "age_category": classification["age_category"],
+        "parent_team": infer_parent_team(team_ref["name"]),
         "url": team_ref["url"],
         "description": "",
         "image": "",
@@ -261,6 +262,7 @@ def main() -> None:
             "slug": payload["slug"],
             "name": payload["name"],
             "url": payload["url"],
+            "confidence": "high",
         }
 
         for slug in player_slugs:
