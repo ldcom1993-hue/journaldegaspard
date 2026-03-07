@@ -1,0 +1,1 @@
+run: python scripts/build_team_graph.py
