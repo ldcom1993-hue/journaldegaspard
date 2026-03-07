@@ -4,21 +4,26 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy to OVH
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+
           local-dir: ./
-          server-dir: /
+
+          server-dir: /www/
+
+          dangerous-clean-slate: false
