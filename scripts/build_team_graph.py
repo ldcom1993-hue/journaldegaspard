@@ -288,7 +288,7 @@ def main() -> None:
     safe_write_non_empty_list(
         EQUIPES_JSON,
         equipes_payload,
-        minimum_items=1,
+        minimum_items=0,
         label="equipes.json",
     )
 
