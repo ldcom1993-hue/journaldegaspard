@@ -46,13 +46,7 @@ PERSONNAGES_JSON = Path("assets/data/personnages.json")
 EQUIPES_JSON = Path("assets/data/equipes.json")
 TECHNIQUES_JSON = Path("assets/data/techniques.json")
 
-RESIDUAL_TEAM_BLACKLIST = {
-    "Brazil Youth",
-    "Shutetsu Elementary School",
-}
-
 TEAM_CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
-RESIDUAL_TEAM_BLACKLIST_LOWER = {name.casefold() for name in RESIDUAL_TEAM_BLACKLIST}
 
 
 # ------------------------------------------------------------
@@ -74,40 +68,49 @@ def dedupe_refs(refs: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     for ref in refs:
         slug = str(ref.get("slug", "")).strip()
+
         if not slug:
             continue
 
         previous = unique.get(slug)
+
         if not previous:
             unique[slug] = ref
             continue
 
-        prev_confidence = str(previous.get("confidence", "medium"))
-        new_confidence = str(ref.get("confidence", "medium"))
+        prev_conf = str(previous.get("confidence", "medium"))
+        new_conf = str(ref.get("confidence", "medium"))
 
-        if TEAM_CONFIDENCE_ORDER.get(new_confidence, 0) >= TEAM_CONFIDENCE_ORDER.get(prev_confidence, 0):
+        if TEAM_CONFIDENCE_ORDER.get(new_conf, 0) >= TEAM_CONFIDENCE_ORDER.get(prev_conf, 0):
             unique[slug] = ref
 
     return sort_entities(list(unique.values()))
 
 
 def validate_team_membership(team_name: str, character_name: str) -> bool:
-    """
-    Validate that the team page actually references the character.
-    This eliminates most opponent teams.
-    """
-
     try:
-        team_wikitext = fetch_page_wikitext(team_name)
+        wikitext = fetch_page_wikitext(team_name)
     except Exception:
         return False
 
-    return character_name.lower() in team_wikitext.lower()
+    return character_name.lower() in wikitext.lower()
 
 
-def is_residual_blacklisted(team_name: str) -> bool:
-    normalized = normalize_entity_name(team_name)
-    return normalized.casefold() in RESIDUAL_TEAM_BLACKLIST_LOWER
+def is_invalid_team_name(name: str) -> bool:
+    lowered = name.lower()
+
+    invalid_keywords = [
+        "film",
+        "movie",
+        "episode",
+        "captain tsubasa:",
+        "game",
+        "ronc",
+        "challenge",
+        "tournament",
+    ]
+
+    return any(k in lowered for k in invalid_keywords)
 
 
 # ------------------------------------------------------------
@@ -119,7 +122,7 @@ def main() -> None:
     personnages = load_personnages()
 
     if not personnages:
-        raise RuntimeError("No characters available for enrichment")
+        raise RuntimeError("No characters available")
 
     category_titles = fetch_category_titles("Category:Characters")
 
@@ -137,10 +140,6 @@ def main() -> None:
     print(f"[info] loaded {len(personnages)} characters")
     print(f"[info] found {len(title_by_slug)} Fandom character titles")
 
-    # ------------------------------------------------------------
-    # Extract teams and techniques
-    # ------------------------------------------------------------
-
     for record in personnages:
 
         slug = str(record.get("slug", "")).strip()
@@ -156,8 +155,7 @@ def main() -> None:
         try:
             wikitext = fetch_page_wikitext(title)
             page_links = fetch_page_links(title)
-        except RuntimeError as exc:
-            print(f"[warn] skip fetch for {slug}: {exc}")
+        except RuntimeError:
             continue
 
         infobox = extract_infobox_fields(wikitext)
@@ -165,26 +163,39 @@ def main() -> None:
         extracted_team_refs: list[dict[str, Any]] = []
 
         for team in extract_teams_from_infobox(infobox):
-            if is_residual_blacklisted(team):
+
+            if is_invalid_team_name(team):
                 continue
-            extracted_team_refs.append({"name": team, "confidence": "high"})
+
+            extracted_team_refs.append({
+                "name": team,
+                "confidence": "high",
+            })
 
         if not extracted_team_refs:
+
             team_candidates = extract_team_candidates_from_page_links(
                 page_links,
                 known_character_titles,
             )
 
             for team in team_candidates:
-                if is_residual_blacklisted(team):
+
+                if is_invalid_team_name(team):
                     continue
 
                 if validate_team_membership(team, title):
-                    extracted_team_refs.append({"name": team, "confidence": "medium"})
+                    confidence = "medium"
                 else:
-                    extracted_team_refs.append({"name": team, "confidence": "low"})
+                    confidence = "low"
+
+                extracted_team_refs.append({
+                    "name": team,
+                    "confidence": confidence,
+                })
 
         if extracted_team_refs:
+
             team_links_by_character[slug] = dedupe_refs(
                 [
                     {
@@ -200,10 +211,6 @@ def main() -> None:
         if techniques:
             technique_links_by_character[slug] = techniques
 
-    # ------------------------------------------------------------
-    # Techniques fallback via categories
-    # ------------------------------------------------------------
-
     technique_titles = fetch_technique_titles_from_categories()
 
     technique_to_users = build_technique_to_users_map(
@@ -215,7 +222,7 @@ def main() -> None:
 
         technique_name = normalize_entity_name(technique_title)
 
-        if not technique_name or not user_titles:
+        if not technique_name:
             continue
 
         for user_title in user_titles:
@@ -227,19 +234,11 @@ def main() -> None:
             if technique_name not in technique_links_by_character[user_slug]:
                 technique_links_by_character[user_slug].append(technique_name)
 
-    # ------------------------------------------------------------
-    # Logging
-    # ------------------------------------------------------------
-
     characters_with_teams = sum(1 for v in team_links_by_character.values() if v)
     characters_with_techniques = sum(1 for v in technique_links_by_character.values() if v)
 
     print(f"[info] characters with teams extracted: {characters_with_teams}")
     print(f"[info] characters with techniques extracted: {characters_with_techniques}")
-
-    # ------------------------------------------------------------
-    # Build entities payload
-    # ------------------------------------------------------------
 
     teams_payload: dict[str, dict[str, Any]] = {}
     techniques_payload: dict[str, dict[str, Any]] = {}
@@ -264,17 +263,19 @@ def main() -> None:
 
         character_pointer = character_ref(record)
 
-        # ----------------------------
-        # Teams
-        # ----------------------------
-
         for team_ref in teams_initial:
+
             confidence = str(team_ref.get("confidence", "low"))
 
             if confidence not in ("high", "medium"):
                 continue
 
-            classification = classify_team(team_ref["name"] or team_ref["slug"])
+            team_name = team_ref["name"] or team_ref["slug"]
+
+            if is_invalid_team_name(team_name):
+                continue
+
+            classification = classify_team(team_name)
 
             if classification["type"] == "competition":
                 continue
@@ -284,7 +285,9 @@ def main() -> None:
             team_slug = team_ref["slug"]
 
             if team_slug not in teams_payload:
-                parent_team = infer_parent_team(team_ref["name"])
+
+                parent_team = infer_parent_team(team_name)
+
                 teams_payload[team_slug] = {
                     "slug": team_ref["slug"],
                     "name": team_ref["name"],
@@ -300,10 +303,6 @@ def main() -> None:
             teams_payload[team_slug]["players"].append(character_pointer)
 
         record["teams"] = dedupe_refs(filtered_team_refs)
-
-        # ----------------------------
-        # Techniques
-        # ----------------------------
 
         record["techniques"] = dedupe_refs(linked_technique_refs)
 
@@ -324,31 +323,22 @@ def main() -> None:
 
             techniques_payload[technique_slug]["users"].append(character_pointer)
 
-    # ------------------------------------------------------------
-    # Final JSON
-    # ------------------------------------------------------------
+    equipes = sort_entities([
+        {
+            **team,
+            "players": dedupe_refs(team.get("players", [])),
+        }
+        for team in teams_payload.values()
+    ])
 
-    equipes = sort_entities(
-        [
-            {
-                **team,
-                "players": dedupe_refs(team.get("players", [])),
-            }
-            for team in teams_payload.values()
-        ]
-    )
+    techniques = sort_entities([
+        {
+            **technique,
+            "users": dedupe_refs(technique.get("users", [])),
+        }
+        for technique in techniques_payload.values()
+    ])
 
-    techniques = sort_entities(
-        [
-            {
-                **technique,
-                "users": dedupe_refs(technique.get("users", [])),
-            }
-            for technique in techniques_payload.values()
-        ]
-    )
-
-    # fetch technique descriptions
     for technique in techniques:
         try:
             technique["description"] = fetch_intro_extract(technique["name"])
@@ -363,26 +353,9 @@ def main() -> None:
         ),
     )
 
-    safe_write_non_empty_list(
-        EQUIPES_JSON,
-        equipes,
-        minimum_items=1,
-        label="equipes.json",
-    )
-
-    safe_write_non_empty_list(
-        TECHNIQUES_JSON,
-        techniques,
-        minimum_items=1,
-        label="techniques.json",
-    )
-
-    safe_write_non_empty_list(
-        PERSONNAGES_JSON,
-        personnages_sorted,
-        minimum_items=50,
-        label="personnages.json",
-    )
+    safe_write_non_empty_list(EQUIPES_JSON, equipes, minimum_items=1, label="equipes.json")
+    safe_write_non_empty_list(TECHNIQUES_JSON, techniques, minimum_items=1, label="techniques.json")
+    safe_write_non_empty_list(PERSONNAGES_JSON, personnages_sorted, minimum_items=50, label="personnages.json")
 
     print(f"[ok] wrote {len(equipes)} teams")
     print(f"[ok] wrote {len(techniques)} techniques")
