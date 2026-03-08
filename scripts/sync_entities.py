@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import json
-import re
 from pathlib import Path
 from typing import Any
 
@@ -47,45 +46,13 @@ PERSONNAGES_JSON = Path("assets/data/personnages.json")
 EQUIPES_JSON = Path("assets/data/equipes.json")
 TECHNIQUES_JSON = Path("assets/data/techniques.json")
 
-TEAM_CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
-OPPONENT_CONTEXT_PATTERNS = (
-    r"\bvs\.?\b",
-    r"\bagainst\b",
-    r"\bmatch(?:es)?\b",
-    r"\bwon\b",
-    r"\blost\b",
-    r"\bdefeated\b",
-    r"\bdefeat(?:ed)?\b",
-)
-
-COUNTRY_ALIASES = {
-    "japan": "japan",
-    "japanese": "japan",
-    "brazil": "brazil",
-    "brazilian": "brazil",
-    "argentina": "argentina",
-    "argentinian": "argentina",
-    "france": "france",
-    "french": "france",
-    "germany": "germany",
-    "german": "germany",
-    "italy": "italy",
-    "italian": "italy",
-    "spain": "spain",
-    "spanish": "spain",
-    "netherlands": "netherlands",
-    "dutch": "netherlands",
-    "thailand": "thailand",
-    "thai": "thailand",
-    "sweden": "sweden",
-    "swedish": "sweden",
-    "uruguay": "uruguay",
-    "england": "england",
-    "mexico": "mexico",
-    "portugal": "portugal",
+RESIDUAL_TEAM_BLACKLIST = {
+    "Brazil Youth",
+    "Shutetsu Elementary School",
 }
 
-TEAM_PAGE_CACHE: dict[str, str] = {}
+TEAM_CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
+RESIDUAL_TEAM_BLACKLIST_LOWER = {name.casefold() for name in RESIDUAL_TEAM_BLACKLIST}
 
 
 # ------------------------------------------------------------
@@ -124,101 +91,23 @@ def dedupe_refs(refs: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return sort_entities(list(unique.values()))
 
 
-def fetch_team_wikitext_cached(team_name: str) -> str:
-    if team_name in TEAM_PAGE_CACHE:
-        return TEAM_PAGE_CACHE[team_name]
-
-    try:
-        team_wikitext = fetch_page_wikitext(team_name)
-    except Exception:
-        team_wikitext = ""
-
-    TEAM_PAGE_CACHE[team_name] = team_wikitext
-    return team_wikitext
-
-
 def validate_team_membership(team_name: str, character_name: str) -> bool:
     """
     Validate that the team page actually references the character.
     This eliminates most opponent teams.
     """
-    team_wikitext = fetch_team_wikitext_cached(team_name)
-    if not team_wikitext:
+
+    try:
+        team_wikitext = fetch_page_wikitext(team_name)
+    except Exception:
         return False
+
     return character_name.lower() in team_wikitext.lower()
 
 
-def normalize_country(value: str) -> str:
-    lowered = normalize_entity_name(value).lower()
-    tokens = re.findall(r"[a-z]+", lowered)
-    for token in tokens:
-        mapped = COUNTRY_ALIASES.get(token)
-        if mapped:
-            return mapped
-    return ""
-
-
-def infer_team_country(team_name: str) -> str:
-    lowered = normalize_entity_name(team_name).lower()
-    for alias, canonical in COUNTRY_ALIASES.items():
-        if re.search(rf"\b{re.escape(alias)}\b", lowered):
-            return canonical
-    return ""
-
-
-def is_opponent_context_only(team_name: str, character_wikitext: str) -> bool:
-    if not character_wikitext:
-        return False
-
-    normalized_team = normalize_entity_name(team_name)
-    if not normalized_team:
-        return False
-
-    pattern = re.compile(rf"(.{{0,80}}\b{re.escape(normalized_team)}\b.{{0,80}})", re.IGNORECASE)
-    snippets = pattern.findall(character_wikitext)
-
-    if not snippets:
-        return False
-
-    opponent_hits = 0
-
-    for snippet in snippets:
-        lowered = snippet.lower()
-        if any(re.search(context_pattern, lowered) for context_pattern in OPPONENT_CONTEXT_PATTERNS):
-            opponent_hits += 1
-
-    return opponent_hits == len(snippets)
-
-
-def infer_team_confidence(
-    *,
-    team_name: str,
-    character_name: str,
-    character_wikitext: str,
-    source: str,
-    character_nationality: str,
-) -> str:
-    if source == "infobox":
-        return "high"
-
-    roster_validated = validate_team_membership(team_name, character_name)
-    if roster_validated:
-        return "medium"
-
-    confidence = "low"
-
-    if is_opponent_context_only(team_name, character_wikitext):
-        return "low"
-
-    team_classification = classify_team(team_name)
-    if team_classification["type"] == "national" and team_classification["age_category"] in ("youth", "olympic", "adult"):
-        team_country = infer_team_country(team_name)
-        player_country = normalize_country(character_nationality)
-
-        if team_country and player_country and team_country != player_country:
-            return "low"
-
-    return confidence
+def is_residual_blacklisted(team_name: str) -> bool:
+    normalized = normalize_entity_name(team_name)
+    return normalized.casefold() in RESIDUAL_TEAM_BLACKLIST_LOWER
 
 
 # ------------------------------------------------------------
@@ -275,21 +164,10 @@ def main() -> None:
 
         extracted_team_refs: list[dict[str, Any]] = []
 
-        character_nationality = str(record.get("nationality", "")).strip()
-
         for team in extract_teams_from_infobox(infobox):
-            extracted_team_refs.append(
-                {
-                    "name": team,
-                    "confidence": infer_team_confidence(
-                        team_name=team,
-                        character_name=title,
-                        character_wikitext=wikitext,
-                        source="infobox",
-                        character_nationality=character_nationality,
-                    ),
-                }
-            )
+            if is_residual_blacklisted(team):
+                continue
+            extracted_team_refs.append({"name": team, "confidence": "high"})
 
         if not extracted_team_refs:
             team_candidates = extract_team_candidates_from_page_links(
@@ -298,18 +176,13 @@ def main() -> None:
             )
 
             for team in team_candidates:
-                extracted_team_refs.append(
-                    {
-                        "name": team,
-                        "confidence": infer_team_confidence(
-                            team_name=team,
-                            character_name=title,
-                            character_wikitext=wikitext,
-                            source="page_links",
-                            character_nationality=character_nationality,
-                        ),
-                    }
-                )
+                if is_residual_blacklisted(team):
+                    continue
+
+                if validate_team_membership(team, title):
+                    extracted_team_refs.append({"name": team, "confidence": "medium"})
+                else:
+                    extracted_team_refs.append({"name": team, "confidence": "low"})
 
         if extracted_team_refs:
             team_links_by_character[slug] = dedupe_refs(
@@ -418,16 +291,11 @@ def main() -> None:
                     "type": classification["type"],
                     "age_category": classification["age_category"],
                     "parent_team": parent_team,
-                    "confidence": confidence,
                     "url": team_ref["url"],
                     "description": "",
                     "image": "",
                     "players": [],
                 }
-
-            existing_confidence = str(teams_payload[team_slug].get("confidence", "low"))
-            if TEAM_CONFIDENCE_ORDER.get(confidence, 0) > TEAM_CONFIDENCE_ORDER.get(existing_confidence, 0):
-                teams_payload[team_slug]["confidence"] = confidence
 
             teams_payload[team_slug]["players"].append(character_pointer)
 
