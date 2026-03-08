@@ -1,101 +1,294 @@
 from __future__ import annotations
 
+import html
 import re
 import unicodedata
-import html
 
+
+# ------------------------------------------------------------
+# Slug
+# ------------------------------------------------------------
 
 def slugify(text: str) -> str:
     normalized = unicodedata.normalize("NFKD", text)
     ascii_text = normalized.encode("ascii", "ignore").decode("ascii")
+
     slug = re.sub(r"[^a-z0-9\s-]", "", ascii_text.lower())
     slug = re.sub(r"\s+", "-", slug).strip("-")
     slug = re.sub(r"-+", "-", slug)
+
     return slug or "entity"
 
 
+# ------------------------------------------------------------
+# Cleaning helpers
+# ------------------------------------------------------------
+
 def normalize_infobox_value(value: str) -> str:
-    value = re.sub(r"<ref[^>]*>.*?</ref>", "", value, flags=re.IGNORECASE | re.DOTALL)
-    value = re.sub(r"<br\s*/?>", "\n", value, flags=re.IGNORECASE)
-    value = re.sub(r"<[^>]+>", "", value)
-    value = html.unescape(value)
-    value = re.sub(r"\s+", " ", value)
-    return value.strip(" |")
 
-
-def normalize_entity_name(value: str) -> str:
     if not value:
         return ""
 
-    name = normalize_infobox_value(str(value))
-    name = re.sub(r"\s+", " ", name).strip()
+    value = re.sub(r"<ref[^>]*>.*?</ref>", "", value, flags=re.IGNORECASE | re.DOTALL)
 
-    return name
+    value = re.sub(r"<br\s*/?>", "\n", value, flags=re.IGNORECASE)
+
+    value = re.sub(r"<[^>]+>", "", value)
+
+    value = re.sub(
+        r"\{\{(?:lang\|ja\|)?([^{}|]+(?:\|[^{}|]+)*)\}\}",
+        lambda m: m.group(1).split("|")[-1],
+        value,
+    )
+
+    value = re.sub(
+        r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]",
+        r"\1",
+        value,
+    )
+
+    value = re.sub(
+        r"\[https?://[^\s\]]+\s*([^\]]*)\]",
+        r"\1",
+        value,
+    )
+
+    value = re.sub(r"''+", "", value)
+
+    value = html.unescape(value)
+
+    value = re.sub(r"\s+", " ", value)
+
+    return value.strip(" |")
+
+
+def clean_text(value: str) -> str:
+
+    text = normalize_infobox_value(str(value or ""))
+
+    text = re.sub(r"\s*\(\s*\)", "", text)
+
+    text = re.sub(r"\s*[,;]\s*$", "", text)
+
+    return text.strip()
+
+
+# ------------------------------------------------------------
+# Split lists
+# ------------------------------------------------------------
+
+def split_list_field(value: str) -> list[str]:
+
+    cleaned = clean_text(value)
+
+    if not cleaned:
+        return []
+
+    pieces = re.split(r"(?:\n|,|;|/|\|)", cleaned)
+
+    items: list[str] = []
+
+    for piece in pieces:
+
+        entry = piece.strip(" -*•")
+
+        if not entry:
+            continue
+
+        if entry not in items:
+            items.append(entry)
+
+    return items
+
+
+# ------------------------------------------------------------
+# Infobox parsing
+# ------------------------------------------------------------
+
+def extract_template_block(wikitext: str) -> str:
+
+    for template_start in re.finditer(r"\{\{\s*([^\n\|\}]+)", wikitext):
+
+        template_name = template_start.group(1).strip().lower()
+
+        if "infobox" not in template_name and "character" not in template_name:
+            continue
+
+        start = template_start.start()
+
+        i = start
+        depth = 0
+
+        while i < len(wikitext) - 1:
+
+            pair = wikitext[i : i + 2]
+
+            if pair == "{{":
+                depth += 1
+                i += 2
+                continue
+
+            if pair == "}}":
+                depth -= 1
+                i += 2
+
+                if depth <= 0:
+                    return wikitext[start:i]
+
+                continue
+
+            i += 1
+
+        return ""
+
+    return ""
 
 
 def extract_infobox_fields(wikitext: str) -> dict[str, str]:
+
+    infobox_text = extract_template_block(wikitext)
+
+    if not infobox_text:
+        return {}
+
     values: dict[str, str] = {}
 
-    for line in wikitext.splitlines():
-        if "=" not in line:
+    current_key: str | None = None
+    buffer: list[str] = []
+
+    def flush() -> None:
+
+        nonlocal current_key
+        nonlocal buffer
+
+        if current_key is None:
+            return
+
+        joined = normalize_infobox_value("\n".join(buffer))
+
+        values[current_key] = joined
+
+        current_key = None
+        buffer = []
+
+    for raw_line in infobox_text.splitlines():
+
+        line = raw_line.rstrip()
+
+        key_match = re.match(r"^\|\s*([a-zA-Z0-9_]+)\s*=\s*(.*)$", line)
+
+        if key_match:
+
+            flush()
+
+            current_key = key_match.group(1).lower()
+
+            buffer = [key_match.group(2)]
+
             continue
 
-        if line.strip().startswith("|"):
+        if current_key is not None:
+            buffer.append(line)
 
-            parts = line.split("=", 1)
-
-            key = parts[0].strip("| ").lower()
-            value = parts[1].strip()
-
-            values[key] = normalize_infobox_value(value)
+    flush()
 
     return values
 
 
+# ------------------------------------------------------------
+# Entity name normalization
+# ------------------------------------------------------------
+
+def normalize_entity_name(value: str) -> str:
+
+    name = clean_text(value)
+
+    return re.sub(r"\s+", " ", name).strip()
+
+
+# ------------------------------------------------------------
+# Team classification
+# ------------------------------------------------------------
+
+COMPETITION_KEYWORDS = (
+    "tournament",
+    "cup",
+    "league",
+    "championship",
+)
+
+CLUB_TEAM_KEYWORDS = (
+    "fc",
+    "sc",
+    "sv",
+    "club",
+)
+
+NATIONAL_TEAM_KEYWORDS = (
+    "japan",
+    "brazil",
+    "germany",
+    "france",
+    "argentina",
+)
+
+
+def _contains_any_keyword(lowered_name: str, keywords: tuple[str, ...]) -> bool:
+    return any(keyword in lowered_name for keyword in keywords)
+
+
 def classify_team(name: str) -> dict[str, str]:
 
-    lowered = name.lower()
+    normalized_name = normalize_entity_name(name)
 
-    if "elementary school" in lowered:
+    lowered_name = normalized_name.lower()
+
+    if _contains_any_keyword(lowered_name, COMPETITION_KEYWORDS):
+        return {"type": "competition", "age_category": "adult"}
+
+    if "elementary school" in lowered_name:
         return {"type": "school", "age_category": "elementary"}
 
-    if "middle school" in lowered:
+    if "middle school" in lowered_name or "junior high" in lowered_name:
         return {"type": "school", "age_category": "middle-school"}
 
-    if "high school" in lowered:
+    if "high school" in lowered_name:
         return {"type": "school", "age_category": "high-school"}
 
-    if "jr" in lowered or "youth" in lowered:
-        return {"type": "national", "age_category": "youth"}
-
-    if "olympic" in lowered:
+    if "olympic" in lowered_name:
         return {"type": "national", "age_category": "olympic"}
 
-    if "fc" in lowered or "sc" in lowered or "sv" in lowered:
+    if "jr" in lowered_name or "youth" in lowered_name:
+        return {"type": "national", "age_category": "youth"}
+
+    if _contains_any_keyword(lowered_name, CLUB_TEAM_KEYWORDS):
         return {"type": "club", "age_category": "adult"}
+
+    if _contains_any_keyword(lowered_name, NATIONAL_TEAM_KEYWORDS):
+        return {"type": "national", "age_category": "adult"}
 
     return {"type": "club", "age_category": "adult"}
 
 
+# ------------------------------------------------------------
+# Parent team grouping
+# ------------------------------------------------------------
+
 def infer_parent_team(name: str) -> str | None:
 
-    n = normalize_entity_name(name)
+    normalized_name = normalize_entity_name(name)
 
-    replacements = [
-        " Elementary School",
-        " Middle School",
-        " High School",
-        " Jr. Youth",
-        " Youth",
-        " SC",
-        " FC",
-    ]
+    if not normalized_name:
+        return None
 
-    for r in replacements:
-        if n.endswith(r):
-            return n.replace(r, "").strip()
+    parent = re.sub(
+        r"\s+(elementary school|middle school|high school|junior high|jr\.? youth|youth|national team)$",
+        "",
+        normalized_name,
+        flags=re.IGNORECASE,
+    ).strip()
 
-    if "All Japan" in n or "Olympic Japan" in n:
-        return "Japan"
+    if not parent or parent.casefold() == normalized_name.casefold():
+        return None
 
-    return None
+    return parent
