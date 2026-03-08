@@ -224,6 +224,7 @@ def build_team_payload(
         "type": classification["type"],
         "age_category": classification["age_category"],
         "parent_team": infer_parent_team(team_ref["name"]),
+        "confidence": "high",
         "url": team_ref["url"],
         "description": "",
         "image": "",
