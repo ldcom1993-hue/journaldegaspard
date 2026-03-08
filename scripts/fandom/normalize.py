@@ -222,10 +222,13 @@ def infer_parent_team(name: str) -> str | None:
     if not normalized_name:
         return None
 
+    parent = normalized_name
+    parent = re.sub(r"^olympic\s+", "", parent, flags=re.IGNORECASE)
+    parent = re.sub(r"^all\s+", "", parent, flags=re.IGNORECASE)
     parent = re.sub(
-        r"\s+(elementary school|middle school|high school|junior high|ms|hs|es|sc|fc|jr\.? youth|youth|national team)$",
+        r"\s+(elementary school|middle school|high school|junior high|ms|hs|es|sc|fc|jr\.? youth|junior youth|youth|national team)$",
         "",
-        normalized_name,
+        parent,
         flags=re.IGNORECASE,
     ).strip()
 

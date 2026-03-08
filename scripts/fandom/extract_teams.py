@@ -28,77 +28,6 @@ TEAM_STRUCTURE_STOPWORDS = {
     "olympic",
 }
 
-KNOWN_TEAM_SEEDS = {
-    "Nankatsu SC",
-    "Nankatsu MS",
-    "Nankatsu Elementary School",
-    "Shutetsu",
-    "Shutetsu SC",
-    "Meiwa FC",
-    "Toho Academy",
-    "Toho Academy MS",
-    "Toho Academy HS",
-    "Furano",
-    "Furano MS",
-    "Furano Elementary School",
-    "Musashi",
-    "Musashi FC",
-    "Musashi MS",
-    "Hanawa",
-    "Hanawa FC",
-    "Otomo",
-    "Otomo MS",
-    "Hirado",
-    "Hirado MS",
-    "Azumaichi",
-    "Naniwa",
-    "Minamiuwa",
-    "Akita",
-    "Ootomo",
-    "Tachibana Brothers Team",
-    "All Japan",
-    "All Japan Jr. Youth",
-    "Japan Jr. Youth",
-    "Japan Youth",
-    "All Japan Youth",
-    "Olympic Japan",
-    "Japan National Team",
-    "Japan",
-    "Brazil",
-    "Brazil Youth",
-    "Brazil National Team",
-    "Argentina",
-    "Argentina Youth",
-    "Argentina Jr. Youth",
-    "France",
-    "France Youth",
-    "Germany",
-    "Germany Youth",
-    "Hamburg",
-    "Hamburger SV",
-    "Bayern Munich",
-    "FC Bayern Munich",
-    "Werder Bremen",
-    "SV Werder Bremen",
-    "Borussia Dortmund",
-    "Juventus",
-    "Juventus FC",
-    "Inter Milan",
-    "AC Reggiana",
-    "Parma",
-    "FC Barcelona",
-    "Barcelona",
-    "Catalonia",
-    "Valencia",
-    "Real Madrid",
-    "Sao Paulo",
-    "CR Flamengo",
-    "Santos",
-    "Corinthians",
-    "River Plate",
-    "Boca Juniors",
-}
-
 PAGE_LINK_BLACKLIST = {
     "Captain Tsubasa",
     "Description",
@@ -178,7 +107,7 @@ TEAM_FALSE_POSITIVE_PATTERNS = (
 )
 
 PAGE_LINK_BLACKLIST_LOWER = {item.lower() for item in PAGE_LINK_BLACKLIST}
-KNOWN_TEAM_SEEDS_LOWER = {item.lower() for item in KNOWN_TEAM_SEEDS}
+
 
 def extract_teams_from_infobox(infobox: dict[str, str]) -> list[str]:
     teams: list[str] = []
@@ -259,7 +188,7 @@ def extract_team_candidates_from_page_links(page_links: list[str], known_charact
         if _is_structural_false_positive(normalized) or _is_false_positive_link(normalized):
             continue
 
-        if lowered in KNOWN_TEAM_SEEDS_LOWER or _contains_positive_team_pattern(normalized):
+        if _contains_positive_team_pattern(normalized):
             candidates.append(normalized)
 
     return candidates
