@@ -1,1 +1,3304 @@
-[]
+[
+  {
+    "slug": "1fc-koln",
+    "name": "1.FC Koln",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "stefan-levin",
+        "name": "Stefan Levin",
+        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
+      }
+    ]
+  },
+  {
+    "slug": "ac-chievo-verona",
+    "name": "AC Chievo Verona",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=ac-chievo-verona",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "matteo",
+        "name": "Matteo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=matteo"
+      }
+    ]
+  },
+  {
+    "slug": "ac-reggiana",
+    "name": "AC Reggiana",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=ac-reggiana",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "iuliano-gozza",
+        "name": "Iuliano Gozza",
+        "url": "/univers/olive-et-tom/personnage.html?slug=iuliano-gozza"
+      },
+      {
+        "slug": "kojiro-hyuga",
+        "name": "Kojiro Hyuga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
+      }
+    ]
+  },
+  {
+    "slug": "all-japan-jr-youth",
+    "name": "All Japan Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Japan",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "hiroshi-jito",
+        "name": "Hiroshi Jito",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
+      },
+      {
+        "slug": "kazuki-sorimachi",
+        "name": "Kazuki Sorimachi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
+      },
+      {
+        "slug": "ken-wakashimazu",
+        "name": "Ken Wakashimazu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
+      },
+      {
+        "slug": "kojiro-hyuga",
+        "name": "Kojiro Hyuga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
+      },
+      {
+        "slug": "makoto-soda",
+        "name": "Makoto Soda",
+        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
+      },
+      {
+        "slug": "mamoru-izawa",
+        "name": "Mamoru Izawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
+      },
+      {
+        "slug": "masanori-kato",
+        "name": "Masanori Kato",
+        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
+      },
+      {
+        "slug": "mitsuru-sano",
+        "name": "Mitsuru Sano",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
+      },
+      {
+        "slug": "noboru-sawaki",
+        "name": "Noboru Sawaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=noboru-sawaki"
+      },
+      {
+        "slug": "shun-nitta",
+        "name": "Shun Nitta",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
+      },
+      {
+        "slug": "takeshi-sawada",
+        "name": "Takeshi Sawada",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      },
+      {
+        "slug": "tatsuo-mikami",
+        "name": "Tatsuo Mikami",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
+      },
+      {
+        "slug": "teppei-kisugi",
+        "name": "Teppei Kisugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
+      },
+      {
+        "slug": "tetsuo-ishida",
+        "name": "Tetsuo Ishida",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tetsuo-ishida"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      }
+    ]
+  },
+  {
+    "slug": "all-japan-jr-youth-ronc",
+    "name": "All Japan Jr. Youth (RoNC)",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Japan Jr. Youth (RoNC)",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-ronc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hanji-urabe",
+        "name": "Hanji Urabe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
+      }
+    ]
+  },
+  {
+    "slug": "all-japan-youth",
+    "name": "All Japan Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Japan",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "hanji-urabe",
+        "name": "Hanji Urabe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
+      },
+      {
+        "slug": "hiroshi-jito",
+        "name": "Hiroshi Jito",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
+      },
+      {
+        "slug": "kazuki-sorimachi",
+        "name": "Kazuki Sorimachi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
+      },
+      {
+        "slug": "ken-wakashimazu",
+        "name": "Ken Wakashimazu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
+      },
+      {
+        "slug": "kojiro-hyuga",
+        "name": "Kojiro Hyuga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
+      },
+      {
+        "slug": "makoto-soda",
+        "name": "Makoto Soda",
+        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
+      },
+      {
+        "slug": "mamoru-izawa",
+        "name": "Mamoru Izawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
+      },
+      {
+        "slug": "minato-gamo",
+        "name": "Minato Gamo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
+      },
+      {
+        "slug": "mitsuru-sano",
+        "name": "Mitsuru Sano",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
+      },
+      {
+        "slug": "shingo-takasugi",
+        "name": "Shingo Takasugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
+      },
+      {
+        "slug": "shun-nitta",
+        "name": "Shun Nitta",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
+      },
+      {
+        "slug": "takeshi-kishida",
+        "name": "Takeshi Kishida",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-kishida"
+      },
+      {
+        "slug": "takeshi-sawada",
+        "name": "Takeshi Sawada",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      }
+    ]
+  },
+  {
+    "slug": "argentina-jr-youth",
+    "name": "Argentina Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Argentina",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=argentina-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "diego-barbas",
+        "name": "Diego Barbas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
+      },
+      {
+        "slug": "galtoni",
+        "name": "Galtoni",
+        "url": "/univers/olive-et-tom/personnage.html?slug=galtoni"
+      }
+    ]
+  },
+  {
+    "slug": "argentina-youth",
+    "name": "Argentina Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Argentina",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=argentina-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "alan-pascal",
+        "name": "Alan Pascal",
+        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
+      },
+      {
+        "slug": "galvan",
+        "name": "Galvan",
+        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
+      },
+      {
+        "slug": "juan-diaz",
+        "name": "Juan Diaz",
+        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
+      },
+      {
+        "slug": "savishe",
+        "name": "Savishe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=savishe"
+      }
+    ]
+  },
+  {
+    "slug": "arsenal-fc",
+    "name": "Arsenal FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Arsenal",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=arsenal-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "adieu",
+        "name": "Adieu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=adieu"
+      }
+    ]
+  },
+  {
+    "slug": "atletico-madrid",
+    "name": "Atletico Madrid",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=atletico-madrid",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "fersio-torres",
+        "name": "Fersio Torres",
+        "url": "/univers/olive-et-tom/personnage.html?slug=fersio-torres"
+      },
+      {
+        "slug": "singprasert-bunnag",
+        "name": "Singprasert Bunnag",
+        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
+      }
+    ]
+  },
+  {
+    "slug": "azumaichi-middle-school",
+    "name": "Azumaichi Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Azumaichi",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=azumaichi-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "makoto-soda",
+        "name": "Makoto Soda",
+        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
+      }
+    ]
+  },
+  {
+    "slug": "bara-fc",
+    "name": "Bara FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Bara",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=bara-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "barsole-bara",
+        "name": "Barsole Bara",
+        "url": "/univers/olive-et-tom/personnage.html?slug=barsole-bara"
+      },
+      {
+        "slug": "luciano-leo",
+        "name": "Luciano Leo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
+      }
+    ]
+  },
+  {
+    "slug": "boca-juniors",
+    "name": "Boca Juniors",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=boca-juniors",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "alan-pascal",
+        "name": "Alan Pascal",
+        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
+      },
+      {
+        "slug": "juan-diaz",
+        "name": "Juan Diaz",
+        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
+      }
+    ]
+  },
+  {
+    "slug": "borussia-dortmund",
+    "name": "Borussia Dortmund",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=borussia-dortmund",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "schweil-teigerbran",
+        "name": "Schweil Teigerbran",
+        "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
+      }
+    ]
+  },
+  {
+    "slug": "borussia-monchengladbach",
+    "name": "Borussia Monchengladbach",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=borussia-monchengladbach",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "cha-in-cheon",
+        "name": "Cha In Cheon",
+        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
+      },
+      {
+        "slug": "xiao-junguang",
+        "name": "Xiao Junguang",
+        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
+      }
+    ]
+  },
+  {
+    "slug": "brazil-middle-school",
+    "name": "Brazil (Middle school)",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=brazil-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "carlos-santana",
+        "name": "Carlos Santana",
+        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
+      }
+    ]
+  },
+  {
+    "slug": "brazil-youth",
+    "name": "Brazil Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Brazil",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "alberto",
+        "name": "Alberto",
+        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
+      },
+      {
+        "slug": "carlos-santana",
+        "name": "Carlos Santana",
+        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
+      },
+      {
+        "slug": "luciano-leo",
+        "name": "Luciano Leo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
+      },
+      {
+        "slug": "natureza",
+        "name": "Natureza",
+        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
+      },
+      {
+        "slug": "pepe",
+        "name": "Pepe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
+      },
+      {
+        "slug": "roberto-hongo",
+        "name": "Roberto Hongo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
+      },
+      {
+        "slug": "salinas",
+        "name": "Salinas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      }
+    ]
+  },
+  {
+    "slug": "ca-river-plate",
+    "name": "CA River Plate",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=ca-river-plate",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "ryoma-hino",
+        "name": "Ryoma Hino",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
+      }
+    ]
+  },
+  {
+    "slug": "captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
+    "name": "Captain Tsubasa: Saikyo no Teki! Holanda Youth (1994 film)",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      }
+    ]
+  },
+  {
+    "slug": "captain-tsubasa-world-youth-hen-1994",
+    "name": "Captain Tsubasa: World Youth Hen (1994)",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "ryoma-hino",
+        "name": "Ryoma Hino",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
+      },
+      {
+        "slug": "shingo-aoi",
+        "name": "Shingo Aoi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
+      },
+      {
+        "slug": "stefan-levin",
+        "name": "Stefan Levin",
+        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
+      }
+    ]
+  },
+  {
+    "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
+    "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "brian-cruyfford",
+        "name": "Brian Cruyfford",
+        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
+      }
+    ]
+  },
+  {
+    "slug": "china-youth",
+    "name": "China Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "China",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=china-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "fei-xiang",
+        "name": "Fei Xiang",
+        "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
+      },
+      {
+        "slug": "wang-zhongming",
+        "name": "Wang Zhongming",
+        "url": "/univers/olive-et-tom/personnage.html?slug=wang-zhongming"
+      },
+      {
+        "slug": "wu-junren",
+        "name": "Wu Junren",
+        "url": "/univers/olive-et-tom/personnage.html?slug=wu-junren"
+      },
+      {
+        "slug": "xiao-junguang",
+        "name": "Xiao Junguang",
+        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
+      }
+    ]
+  },
+  {
+    "slug": "cr-flamengo",
+    "name": "CR Flamengo",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "carlos-santana",
+        "name": "Carlos Santana",
+        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
+      },
+      {
+        "slug": "luciano-leo",
+        "name": "Luciano Leo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
+      }
+    ]
+  },
+  {
+    "slug": "england-jr-youth",
+    "name": "England Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "England",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=england-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "robson",
+        "name": "Robson",
+        "url": "/univers/olive-et-tom/personnage.html?slug=robson"
+      }
+    ]
+  },
+  {
+    "slug": "everton-fc",
+    "name": "Everton FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Everton",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=everton-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "ricardo-espadas",
+        "name": "Ricardo Espadas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
+      },
+      {
+        "slug": "tim-shooker",
+        "name": "Tim Shooker",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tim-shooker"
+      }
+    ]
+  },
+  {
+    "slug": "fc-albese",
+    "name": "FC Albese",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=fc-albese",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "bobang",
+        "name": "Bobang",
+        "url": "/univers/olive-et-tom/personnage.html?slug=bobang"
+      },
+      {
+        "slug": "marco-vecchio",
+        "name": "Marco Vecchio",
+        "url": "/univers/olive-et-tom/personnage.html?slug=marco-vecchio"
+      },
+      {
+        "slug": "shingo-aoi",
+        "name": "Shingo Aoi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
+      }
+    ]
+  },
+  {
+    "slug": "fc-bayern-munich",
+    "name": "FC Bayern Munich",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "karl-heinz-schneider",
+        "name": "Karl Heinz Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
+      },
+      {
+        "slug": "rudi-frank-schneider",
+        "name": "Rudi Frank Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
+      },
+      {
+        "slug": "stefan-levin",
+        "name": "Stefan Levin",
+        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
+      },
+      {
+        "slug": "xiao-junguang",
+        "name": "Xiao Junguang",
+        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
+      }
+    ]
+  },
+  {
+    "slug": "fc-bayern-munich-jr-youth",
+    "name": "FC Bayern Munich Jr. Youth",
+    "type": "club",
+    "age_category": "youth",
+    "parent_team": "FC Bayern Munich",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "karl-heinz-schneider",
+        "name": "Karl Heinz Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
+      }
+    ]
+  },
+  {
+    "slug": "fc-bayern-munichnext-dream",
+    "name": "FC Bayern Munich/Next Dream",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munichnext-dream",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      }
+    ]
+  },
+  {
+    "slug": "fc-girondins-de-bordeaux",
+    "name": "FC Girondins de Bordeaux",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=fc-girondins-de-bordeaux",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "elle-sid-pierre",
+        "name": "Elle Sid Pierre",
+        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
+      }
+    ]
+  },
+  {
+    "slug": "fc-groningen",
+    "name": "FC Groningen",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=fc-groningen",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "babayan",
+        "name": "Babayan",
+        "url": "/univers/olive-et-tom/personnage.html?slug=babayan"
+      }
+    ]
+  },
+  {
+    "slug": "fc-tokyo",
+    "name": "FC Tokyo",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=fc-tokyo",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "jun-misugi",
+        "name": "Jun Misugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
+      }
+    ]
+  },
+  {
+    "slug": "france-jr-youth",
+    "name": "France Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "France",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=france-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "amoro",
+        "name": "Amoro",
+        "url": "/univers/olive-et-tom/personnage.html?slug=amoro"
+      },
+      {
+        "slug": "bossi",
+        "name": "Bossi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=bossi"
+      },
+      {
+        "slug": "elle-sid-pierre",
+        "name": "Elle Sid Pierre",
+        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
+      },
+      {
+        "slug": "louis-napoleon",
+        "name": "Louis Napoleon",
+        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
+      }
+    ]
+  },
+  {
+    "slug": "france-youth",
+    "name": "France Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "France",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=france-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "elle-sid-pierre",
+        "name": "Elle Sid Pierre",
+        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
+      },
+      {
+        "slug": "louis-napoleon",
+        "name": "Louis Napoleon",
+        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
+      }
+    ]
+  },
+  {
+    "slug": "furano-elementary-soccer-club",
+    "name": "Furano Elementary Soccer Club",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hikaru-matsuyama",
+        "name": "Hikaru Matsuyama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
+      },
+      {
+        "slug": "kazumasa-oda",
+        "name": "Kazumasa Oda",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazumasa-oda"
+      },
+      {
+        "slug": "masanori-kato",
+        "name": "Masanori Kato",
+        "url": "/univers/olive-et-tom/personnage.html?slug=masanori-kato"
+      }
+    ]
+  },
+  {
+    "slug": "furano-middle-school",
+    "name": "Furano Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Furano",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=furano-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hikaru-matsuyama",
+        "name": "Hikaru Matsuyama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
+      },
+      {
+        "slug": "kazumasa-oda",
+        "name": "Kazumasa Oda",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazumasa-oda"
+      },
+      {
+        "slug": "yoshiko-fujisawa",
+        "name": "Yoshiko Fujisawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yoshiko-fujisawa"
+      }
+    ]
+  },
+  {
+    "slug": "germany-jr-youth",
+    "name": "Germany Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Germany",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=germany-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "deuter-muller",
+        "name": "Deuter Müller",
+        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
+      },
+      {
+        "slug": "franz-schester",
+        "name": "Franz Schester",
+        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
+      },
+      {
+        "slug": "hermann-kaltz",
+        "name": "Hermann Kaltz",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
+      }
+    ]
+  },
+  {
+    "slug": "germany-youth",
+    "name": "Germany Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Germany",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=germany-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "deuter-muller",
+        "name": "Deuter Müller",
+        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
+      },
+      {
+        "slug": "franz-schester",
+        "name": "Franz Schester",
+        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
+      },
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "hermann-kaltz",
+        "name": "Hermann Kaltz",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
+      },
+      {
+        "slug": "karl-heinz-schneider",
+        "name": "Karl Heinz Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
+      },
+      {
+        "slug": "manfred-margus",
+        "name": "Manfred Margus",
+        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
+      },
+      {
+        "slug": "rudi-frank-schneider",
+        "name": "Rudi Frank Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
+      }
+    ]
+  },
+  {
+    "slug": "hamburger-sv",
+    "name": "Hamburger SV",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "hermann-kaltz",
+        "name": "Hermann Kaltz",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
+      },
+      {
+        "slug": "rudi-frank-schneider",
+        "name": "Rudi Frank Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
+      },
+      {
+        "slug": "seemann",
+        "name": "Seemann",
+        "url": "/univers/olive-et-tom/personnage.html?slug=seemann"
+      }
+    ]
+  },
+  {
+    "slug": "hamburger-sv-jr-youth",
+    "name": "Hamburger SV Jr. Youth",
+    "type": "club",
+    "age_category": "youth",
+    "parent_team": "Hamburger SV",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      }
+    ]
+  },
+  {
+    "slug": "hirado-middle-school",
+    "name": "Hirado Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Hirado",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=hirado-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hiroshi-jito",
+        "name": "Hiroshi Jito",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
+      },
+      {
+        "slug": "mitsuru-sano",
+        "name": "Mitsuru Sano",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
+      }
+    ]
+  },
+  {
+    "slug": "inter-juniores",
+    "name": "Inter Juniores",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=inter-juniores",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "gino-hernandez",
+        "name": "Gino Hernandez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
+      },
+      {
+        "slug": "matteo",
+        "name": "Matteo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=matteo"
+      },
+      {
+        "slug": "nicola-bassi",
+        "name": "Nicola Bassi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=nicola-bassi"
+      },
+      {
+        "slug": "shingo-aoi",
+        "name": "Shingo Aoi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
+      }
+    ]
+  },
+  {
+    "slug": "inter-milan",
+    "name": "Inter Milan",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=inter-milan",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "gino-hernandez",
+        "name": "Gino Hernandez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
+      }
+    ]
+  },
+  {
+    "slug": "inter-primavera",
+    "name": "Inter Primavera",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=inter-primavera",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "gino-hernandez",
+        "name": "Gino Hernandez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
+      },
+      {
+        "slug": "matteo",
+        "name": "Matteo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=matteo"
+      },
+      {
+        "slug": "nicola-bassi",
+        "name": "Nicola Bassi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=nicola-bassi"
+      },
+      {
+        "slug": "shingo-aoi",
+        "name": "Shingo Aoi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
+      }
+    ]
+  },
+  {
+    "slug": "italy-jr-youth",
+    "name": "Italy Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Italy",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=italy-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "gino-hernandez",
+        "name": "Gino Hernandez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
+      }
+    ]
+  },
+  {
+    "slug": "italy-youth",
+    "name": "Italy Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Italy",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=italy-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "gino-hernandez",
+        "name": "Gino Hernandez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
+      },
+      {
+        "slug": "salvatore-gentile",
+        "name": "Salvatore Gentile",
+        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
+      }
+    ]
+  },
+  {
+    "slug": "juventus-fc",
+    "name": "Juventus FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Juventus",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "carlo-monetti",
+        "name": "Carlo Monetti",
+        "url": "/univers/olive-et-tom/personnage.html?slug=carlo-monetti"
+      },
+      {
+        "slug": "davi",
+        "name": "Davi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
+      },
+      {
+        "slug": "dotor",
+        "name": "Dotor",
+        "url": "/univers/olive-et-tom/personnage.html?slug=dotor"
+      },
+      {
+        "slug": "kojiro-hyuga",
+        "name": "Kojiro Hyuga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
+      },
+      {
+        "slug": "mazzantini",
+        "name": "Mazzantini",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mazzantini"
+      },
+      {
+        "slug": "salvatore-gentile",
+        "name": "Salvatore Gentile",
+        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
+      },
+      {
+        "slug": "tacchinardini",
+        "name": "Tacchinardini",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tacchinardini"
+      }
+    ]
+  },
+  {
+    "slug": "juventus-primavera",
+    "name": "Juventus Primavera",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=juventus-primavera",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "salvatore-gentile",
+        "name": "Salvatore Gentile",
+        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
+      }
+    ]
+  },
+  {
+    "slug": "kujukuri-fc",
+    "name": "Kujukuri FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Kujukuri",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=kujukuri-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      }
+    ]
+  },
+  {
+    "slug": "kunimi-gakuin-high-school",
+    "name": "Kunimi Gakuin High School",
+    "type": "school",
+    "age_category": "high-school",
+    "parent_team": "Kunimi Gakuin",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=kunimi-gakuin-high-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hiroshi-jito",
+        "name": "Hiroshi Jito",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
+      },
+      {
+        "slug": "mitsuru-sano",
+        "name": "Mitsuru Sano",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
+      },
+      {
+        "slug": "sota-hiraoka",
+        "name": "Sota Hiraoka",
+        "url": "/univers/olive-et-tom/personnage.html?slug=sota-hiraoka"
+      },
+      {
+        "slug": "yoshito-otsubo",
+        "name": "Yoshito Otsubo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yoshito-otsubo"
+      }
+    ]
+  },
+  {
+    "slug": "liverpool-fc",
+    "name": "Liverpool FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Liverpool",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=liverpool-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "harry-konwell",
+        "name": "Harry Konwell",
+        "url": "/univers/olive-et-tom/personnage.html?slug=harry-konwell"
+      }
+    ]
+  },
+  {
+    "slug": "manchester-united-fc",
+    "name": "Manchester United FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Manchester United",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=manchester-united-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "brian-cruyfford",
+        "name": "Brian Cruyfford",
+        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
+      }
+    ]
+  },
+  {
+    "slug": "meiwa-fc",
+    "name": "Meiwa FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Meiwa",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "ken-wakashimazu",
+        "name": "Ken Wakashimazu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
+      },
+      {
+        "slug": "kojiro-hyuga",
+        "name": "Kojiro Hyuga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
+      },
+      {
+        "slug": "kozo-kira",
+        "name": "Kozo Kira",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
+      },
+      {
+        "slug": "noboru-sawaki",
+        "name": "Noboru Sawaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=noboru-sawaki"
+      },
+      {
+        "slug": "takeshi-sawada",
+        "name": "Takeshi Sawada",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      }
+    ]
+  },
+  {
+    "slug": "meiwa-higashi-middle-school",
+    "name": "Meiwa Higashi Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Meiwa Higashi",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-higashi-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "ken-wakashimazu",
+        "name": "Ken Wakashimazu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
+      },
+      {
+        "slug": "noboru-sawaki",
+        "name": "Noboru Sawaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=noboru-sawaki"
+      }
+    ]
+  },
+  {
+    "slug": "mexico-youth",
+    "name": "Mexico Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Mexico",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=mexico-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "alvez",
+        "name": "Alvez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=alvez"
+      },
+      {
+        "slug": "garcia",
+        "name": "Garcia",
+        "url": "/univers/olive-et-tom/personnage.html?slug=garcia"
+      },
+      {
+        "slug": "lopez",
+        "name": "Lopez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=lopez"
+      },
+      {
+        "slug": "ricardo-espadas",
+        "name": "Ricardo Espadas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
+      },
+      {
+        "slug": "suarez",
+        "name": "Suarez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
+      },
+      {
+        "slug": "zaragoza",
+        "name": "Zaragoza",
+        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
+      }
+    ]
+  },
+  {
+    "slug": "minor-charactersbattle-of-world-youth",
+    "name": "Minor characters/Battle of World Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Minor characters/Battle of World",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=minor-charactersbattle-of-world-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "minor-characters",
+        "name": "Minor characters",
+        "url": "/univers/olive-et-tom/personnage.html?slug=minor-characters"
+      }
+    ]
+  },
+  {
+    "slug": "musashi-fc",
+    "name": "Musashi FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Musashi",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "akira-ichinose",
+        "name": "Akira Ichinose",
+        "url": "/univers/olive-et-tom/personnage.html?slug=akira-ichinose"
+      },
+      {
+        "slug": "jun-misugi",
+        "name": "Jun Misugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
+      },
+      {
+        "slug": "minoru-honma",
+        "name": "Minoru Honma",
+        "url": "/univers/olive-et-tom/personnage.html?slug=minoru-honma"
+      },
+      {
+        "slug": "shinji-sanada",
+        "name": "Shinji Sanada",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shinji-sanada"
+      },
+      {
+        "slug": "yayoi-aoba",
+        "name": "Yayoi Aoba",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yayoi-aoba"
+      }
+    ]
+  },
+  {
+    "slug": "nakahara-fc",
+    "name": "Nakahara FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Nakahara",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "shingo-aoi",
+        "name": "Shingo Aoi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
+      }
+    ]
+  },
+  {
+    "slug": "naniwa-fc",
+    "name": "Naniwa FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Naniwa",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "taichi-nakanishi",
+        "name": "Taichi Nakanishi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
+      }
+    ]
+  },
+  {
+    "slug": "naniwa-middle-school",
+    "name": "Naniwa Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Naniwa",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "taichi-nakanishi",
+        "name": "Taichi Nakanishi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
+      }
+    ]
+  },
+  {
+    "slug": "nankatsu-elementary-school",
+    "name": "Nankatsu Elementary School",
+    "type": "school",
+    "age_category": "elementary",
+    "parent_team": "Nankatsu",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      }
+    ]
+  },
+  {
+    "slug": "nankatsu-high-school",
+    "name": "Nankatsu High School",
+    "type": "school",
+    "age_category": "high-school",
+    "parent_team": "Nankatsu",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-high-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hajime-taki",
+        "name": "Hajime Taki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
+      },
+      {
+        "slug": "hanji-urabe",
+        "name": "Hanji Urabe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
+      },
+      {
+        "slug": "kumi-sugimoto",
+        "name": "Kumi Sugimoto",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
+      },
+      {
+        "slug": "mamoru-izawa",
+        "name": "Mamoru Izawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
+      },
+      {
+        "slug": "masao-nakayama",
+        "name": "Masao Nakayama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
+      },
+      {
+        "slug": "ryo-ishizaki",
+        "name": "Ryo Ishizaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
+      },
+      {
+        "slug": "shingo-takasugi",
+        "name": "Shingo Takasugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
+      },
+      {
+        "slug": "shun-nitta",
+        "name": "Shun Nitta",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
+      },
+      {
+        "slug": "takeshi-kishida",
+        "name": "Takeshi Kishida",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-kishida"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      },
+      {
+        "slug": "teppei-kisugi",
+        "name": "Teppei Kisugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
+      },
+      {
+        "slug": "yuzo-morisaki",
+        "name": "Yuzo Morisaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
+      }
+    ]
+  },
+  {
+    "slug": "nankatsu-middle-school",
+    "name": "Nankatsu Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Nankatsu",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hajime-taki",
+        "name": "Hajime Taki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
+      },
+      {
+        "slug": "kumi-sugimoto",
+        "name": "Kumi Sugimoto",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kumi-sugimoto"
+      },
+      {
+        "slug": "mamoru-izawa",
+        "name": "Mamoru Izawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
+      },
+      {
+        "slug": "ryo-ishizaki",
+        "name": "Ryo Ishizaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
+      },
+      {
+        "slug": "shingo-takasugi",
+        "name": "Shingo Takasugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
+      },
+      {
+        "slug": "takeshi-furuoya",
+        "name": "Takeshi Furuoya",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-furuoya"
+      },
+      {
+        "slug": "teppei-kisugi",
+        "name": "Teppei Kisugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      },
+      {
+        "slug": "yuzo-morisaki",
+        "name": "Yuzo Morisaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
+      }
+    ]
+  },
+  {
+    "slug": "nankatsu-sc",
+    "name": "Nankatsu SC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Nankatsu",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "hajime-taki",
+        "name": "Hajime Taki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
+      },
+      {
+        "slug": "hanji-urabe",
+        "name": "Hanji Urabe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
+      },
+      {
+        "slug": "isamu-ichijo",
+        "name": "Isamu Ichijo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
+      },
+      {
+        "slug": "koji-nishio",
+        "name": "Koji Nishio",
+        "url": "/univers/olive-et-tom/personnage.html?slug=koji-nishio"
+      },
+      {
+        "slug": "mamoru-izawa",
+        "name": "Mamoru Izawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
+      },
+      {
+        "slug": "masao-nakayama",
+        "name": "Masao Nakayama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
+      },
+      {
+        "slug": "ryo-ishizaki",
+        "name": "Ryo Ishizaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
+      },
+      {
+        "slug": "shingo-takasugi",
+        "name": "Shingo Takasugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
+      },
+      {
+        "slug": "shun-nitta",
+        "name": "Shun Nitta",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
+      },
+      {
+        "slug": "tadashi-shiroyama",
+        "name": "Tadashi Shiroyama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tadashi-shiroyama"
+      },
+      {
+        "slug": "takeshi-kishida",
+        "name": "Takeshi Kishida",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-kishida"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      },
+      {
+        "slug": "teppei-kisugi",
+        "name": "Teppei Kisugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      },
+      {
+        "slug": "yuzo-morisaki",
+        "name": "Yuzo Morisaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
+      }
+    ]
+  },
+  {
+    "slug": "netherlands-youth",
+    "name": "Netherlands Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Netherlands",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=netherlands-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "brian-cruyfford",
+        "name": "Brian Cruyfford",
+        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
+      },
+      {
+        "slug": "gert-keizer",
+        "name": "Gert Keizer",
+        "url": "/univers/olive-et-tom/personnage.html?slug=gert-keizer"
+      },
+      {
+        "slug": "hans-dolman",
+        "name": "Hans Dolman",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hans-dolman"
+      },
+      {
+        "slug": "johan-rensenbrink",
+        "name": "Johan Rensenbrink",
+        "url": "/univers/olive-et-tom/personnage.html?slug=johan-rensenbrink"
+      },
+      {
+        "slug": "leon-dick",
+        "name": "Leon Dick",
+        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
+      },
+      {
+        "slug": "otto-reichardt",
+        "name": "Otto Reichardt",
+        "url": "/univers/olive-et-tom/personnage.html?slug=otto-reichardt"
+      },
+      {
+        "slug": "ruud-krisman",
+        "name": "Ruud Krisman",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ruud-krisman"
+      }
+    ]
+  },
+  {
+    "slug": "newcastle-united-fc",
+    "name": "Newcastle United FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Newcastle United",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=newcastle-united-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "mark-duviga",
+        "name": "Mark Duviga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mark-duviga"
+      }
+    ]
+  },
+  {
+    "slug": "nishigaoka-elementary-school",
+    "name": "Nishigaoka Elementary School",
+    "type": "school",
+    "age_category": "elementary",
+    "parent_team": "Nishigaoka",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=nishigaoka-elementary-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hanji-urabe",
+        "name": "Hanji Urabe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
+      }
+    ]
+  },
+  {
+    "slug": "nishimine-elementary-school",
+    "name": "Nishimine Elementary School",
+    "type": "school",
+    "age_category": "elementary",
+    "parent_team": "Nishimine",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=nishimine-elementary-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "kazuo-kodama",
+        "name": "Kazuo Kodama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazuo-kodama"
+      },
+      {
+        "slug": "mitsuru",
+        "name": "Mitsuru",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-argentina",
+    "name": "Olympic Argentina",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Argentina",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "aguin",
+        "name": "Aguin",
+        "url": "/univers/olive-et-tom/personnage.html?slug=aguin"
+      },
+      {
+        "slug": "alan-pascal",
+        "name": "Alan Pascal",
+        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
+      },
+      {
+        "slug": "diego-barbas",
+        "name": "Diego Barbas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=diego-barbas"
+      },
+      {
+        "slug": "galtoni",
+        "name": "Galtoni",
+        "url": "/univers/olive-et-tom/personnage.html?slug=galtoni"
+      },
+      {
+        "slug": "galvan",
+        "name": "Galvan",
+        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
+      },
+      {
+        "slug": "juan-diaz",
+        "name": "Juan Diaz",
+        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
+      },
+      {
+        "slug": "simeore",
+        "name": "Simeore",
+        "url": "/univers/olive-et-tom/personnage.html?slug=simeore"
+      },
+      {
+        "slug": "varon",
+        "name": "Varon",
+        "url": "/univers/olive-et-tom/personnage.html?slug=varon"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-brazil",
+    "name": "Olympic Brazil",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Brazil",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "alberto",
+        "name": "Alberto",
+        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
+      },
+      {
+        "slug": "carlos-santana",
+        "name": "Carlos Santana",
+        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
+      },
+      {
+        "slug": "joao-aragones",
+        "name": "Joao Aragones",
+        "url": "/univers/olive-et-tom/personnage.html?slug=joao-aragones"
+      },
+      {
+        "slug": "luciano-leo",
+        "name": "Luciano Leo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
+      },
+      {
+        "slug": "natureza",
+        "name": "Natureza",
+        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
+      },
+      {
+        "slug": "pepe",
+        "name": "Pepe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
+      },
+      {
+        "slug": "radunga",
+        "name": "Radunga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
+      },
+      {
+        "slug": "rivaul",
+        "name": "Rivaul",
+        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
+      },
+      {
+        "slug": "roberto-carolus",
+        "name": "Roberto Carolus",
+        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
+      },
+      {
+        "slug": "roberto-hongo",
+        "name": "Roberto Hongo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
+      },
+      {
+        "slug": "salinas",
+        "name": "Salinas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-cameroon",
+    "name": "Olympic Cameroon",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Cameroon",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-cameroon",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "etaw",
+        "name": "Etaw",
+        "url": "/univers/olive-et-tom/personnage.html?slug=etaw"
+      },
+      {
+        "slug": "muamba",
+        "name": "Muamba",
+        "url": "/univers/olive-et-tom/personnage.html?slug=muamba"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-china",
+    "name": "Olympic China",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "China",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "xiao-junguang",
+        "name": "Xiao Junguang",
+        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-france",
+    "name": "Olympic France",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "France",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "adieu",
+        "name": "Adieu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=adieu"
+      },
+      {
+        "slug": "bossi",
+        "name": "Bossi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=bossi"
+      },
+      {
+        "slug": "elle-sid-pierre",
+        "name": "Elle Sid Pierre",
+        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
+      },
+      {
+        "slug": "louis-napoleon",
+        "name": "Louis Napoleon",
+        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-germany",
+    "name": "Olympic Germany",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Germany",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "deuter-muller",
+        "name": "Deuter Müller",
+        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
+      },
+      {
+        "slug": "franz-schester",
+        "name": "Franz Schester",
+        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
+      },
+      {
+        "slug": "hermann-kaltz",
+        "name": "Hermann Kaltz",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
+      },
+      {
+        "slug": "karl-heinz-schneider",
+        "name": "Karl Heinz Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
+      },
+      {
+        "slug": "manfred-margus",
+        "name": "Manfred Margus",
+        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
+      },
+      {
+        "slug": "mario-goethe",
+        "name": "Mario Goethe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mario-goethe"
+      },
+      {
+        "slug": "rudi-frank-schneider",
+        "name": "Rudi Frank Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=rudi-frank-schneider"
+      },
+      {
+        "slug": "schmidt-brothers",
+        "name": "Schmidt Brothers",
+        "url": "/univers/olive-et-tom/personnage.html?slug=schmidt-brothers"
+      },
+      {
+        "slug": "schweil-teigerbran",
+        "name": "Schweil Teigerbran",
+        "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-japan",
+    "name": "Olympic Japan",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Japan",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "atsushi-takai",
+        "name": "Atsushi Takai",
+        "url": "/univers/olive-et-tom/personnage.html?slug=atsushi-takai"
+      },
+      {
+        "slug": "gakuto-igawa",
+        "name": "Gakuto Igawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=gakuto-igawa"
+      },
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "hanji-urabe",
+        "name": "Hanji Urabe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
+      },
+      {
+        "slug": "hikaru-matsuyama",
+        "name": "Hikaru Matsuyama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
+      },
+      {
+        "slug": "hiroshi-jito",
+        "name": "Hiroshi Jito",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
+      },
+      {
+        "slug": "jun-misugi",
+        "name": "Jun Misugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
+      },
+      {
+        "slug": "kazuki-sorimachi",
+        "name": "Kazuki Sorimachi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
+      },
+      {
+        "slug": "kazumasa-oda",
+        "name": "Kazumasa Oda",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazumasa-oda"
+      },
+      {
+        "slug": "ken-wakashimazu",
+        "name": "Ken Wakashimazu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
+      },
+      {
+        "slug": "kojiro-hyuga",
+        "name": "Kojiro Hyuga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
+      },
+      {
+        "slug": "kozo-kira",
+        "name": "Kozo Kira",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kozo-kira"
+      },
+      {
+        "slug": "makoto-soda",
+        "name": "Makoto Soda",
+        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
+      },
+      {
+        "slug": "mamoru-izawa",
+        "name": "Mamoru Izawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
+      },
+      {
+        "slug": "masao-nakayama",
+        "name": "Masao Nakayama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
+      },
+      {
+        "slug": "minato-gamo",
+        "name": "Minato Gamo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=minato-gamo"
+      },
+      {
+        "slug": "mitsuru-sano",
+        "name": "Mitsuru Sano",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
+      },
+      {
+        "slug": "ryo-ishizaki",
+        "name": "Ryo Ishizaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ryo-ishizaki"
+      },
+      {
+        "slug": "shingo-aoi",
+        "name": "Shingo Aoi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
+      },
+      {
+        "slug": "shun-nitta",
+        "name": "Shun Nitta",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
+      },
+      {
+        "slug": "taichi-nakanishi",
+        "name": "Taichi Nakanishi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
+      },
+      {
+        "slug": "takeshi-sawada",
+        "name": "Takeshi Sawada",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
+      },
+      {
+        "slug": "tamotsu-ide",
+        "name": "Tamotsu Ide",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tamotsu-ide"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      },
+      {
+        "slug": "tatsuo-mikami",
+        "name": "Tatsuo Mikami",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tatsuo-mikami"
+      },
+      {
+        "slug": "teppei-kisugi",
+        "name": "Teppei Kisugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      },
+      {
+        "slug": "yuji-soga",
+        "name": "Yuji Soga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yuji-soga"
+      },
+      {
+        "slug": "yuzo-morisaki",
+        "name": "Yuzo Morisaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-mexico",
+    "name": "Olympic Mexico",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Mexico",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hugo-ramirez",
+        "name": "Hugo Ramirez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hugo-ramirez"
+      },
+      {
+        "slug": "manatis",
+        "name": "Manatis",
+        "url": "/univers/olive-et-tom/personnage.html?slug=manatis"
+      },
+      {
+        "slug": "ricardo-espadas",
+        "name": "Ricardo Espadas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
+      },
+      {
+        "slug": "salas",
+        "name": "Salas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=salas"
+      },
+      {
+        "slug": "suarez",
+        "name": "Suarez",
+        "url": "/univers/olive-et-tom/personnage.html?slug=suarez"
+      },
+      {
+        "slug": "zaragoza",
+        "name": "Zaragoza",
+        "url": "/univers/olive-et-tom/personnage.html?slug=zaragoza"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-netherlands",
+    "name": "Olympic Netherlands",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Netherlands",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "brian-cruyfford",
+        "name": "Brian Cruyfford",
+        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
+      },
+      {
+        "slug": "davi",
+        "name": "Davi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
+      },
+      {
+        "slug": "gert-keizer",
+        "name": "Gert Keizer",
+        "url": "/univers/olive-et-tom/personnage.html?slug=gert-keizer"
+      },
+      {
+        "slug": "hans-dolman",
+        "name": "Hans Dolman",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hans-dolman"
+      },
+      {
+        "slug": "johan-rensenbrink",
+        "name": "Johan Rensenbrink",
+        "url": "/univers/olive-et-tom/personnage.html?slug=johan-rensenbrink"
+      },
+      {
+        "slug": "kouman",
+        "name": "Kouman",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kouman"
+      },
+      {
+        "slug": "leon-dick",
+        "name": "Leon Dick",
+        "url": "/univers/olive-et-tom/personnage.html?slug=leon-dick"
+      },
+      {
+        "slug": "otto-reichardt",
+        "name": "Otto Reichardt",
+        "url": "/univers/olive-et-tom/personnage.html?slug=otto-reichardt"
+      },
+      {
+        "slug": "ruud-krisman",
+        "name": "Ruud Krisman",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ruud-krisman"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-nigeria",
+    "name": "Olympic Nigeria",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Nigeria",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "bobang",
+        "name": "Bobang",
+        "url": "/univers/olive-et-tom/personnage.html?slug=bobang"
+      },
+      {
+        "slug": "jengo",
+        "name": "Jengo/Achowa/",
+        "url": "/univers/olive-et-tom/personnage.html?slug=jengo"
+      },
+      {
+        "slug": "jj-ochado",
+        "name": "Jj Ochado",
+        "url": "/univers/olive-et-tom/personnage.html?slug=jj-ochado"
+      }
+    ]
+  },
+  {
+    "slug": "olympic-spain",
+    "name": "Olympic Spain",
+    "type": "national",
+    "age_category": "olympic",
+    "parent_team": "Spain",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "callusias",
+        "name": "Callusias",
+        "url": "/univers/olive-et-tom/personnage.html?slug=callusias"
+      },
+      {
+        "slug": "fernando-ruiz-blueno",
+        "name": "Fernando Ruiz Blueno",
+        "url": "/univers/olive-et-tom/personnage.html?slug=fernando-ruiz-blueno"
+      },
+      {
+        "slug": "fersio-torres",
+        "name": "Fersio Torres",
+        "url": "/univers/olive-et-tom/personnage.html?slug=fersio-torres"
+      },
+      {
+        "slug": "ienista",
+        "name": "Ienista",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ienista"
+      },
+      {
+        "slug": "josep-grandios",
+        "name": "Josep Grandios",
+        "url": "/univers/olive-et-tom/personnage.html?slug=josep-grandios"
+      },
+      {
+        "slug": "michael",
+        "name": "Michael",
+        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
+      },
+      {
+        "slug": "raphael",
+        "name": "Raphael",
+        "url": "/univers/olive-et-tom/personnage.html?slug=raphael"
+      },
+      {
+        "slug": "valtes",
+        "name": "Valtes",
+        "url": "/univers/olive-et-tom/personnage.html?slug=valtes"
+      },
+      {
+        "slug": "victor-camacho",
+        "name": "Victor Camacho",
+        "url": "/univers/olive-et-tom/personnage.html?slug=victor-camacho"
+      },
+      {
+        "slug": "xavii",
+        "name": "Xavii",
+        "url": "/univers/olive-et-tom/personnage.html?slug=xavii"
+      }
+    ]
+  },
+  {
+    "slug": "otomo-middle-school",
+    "name": "Otomo Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Otomo",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=otomo-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hanji-urabe",
+        "name": "Hanji Urabe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
+      },
+      {
+        "slug": "isamu-ichijo",
+        "name": "Isamu Ichijo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=isamu-ichijo"
+      },
+      {
+        "slug": "masao-nakayama",
+        "name": "Masao Nakayama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=masao-nakayama"
+      },
+      {
+        "slug": "shun-nitta",
+        "name": "Shun Nitta",
+        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
+      },
+      {
+        "slug": "takeshi-kishida",
+        "name": "Takeshi Kishida",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-kishida"
+      }
+    ]
+  },
+  {
+    "slug": "paris-saint-germain-fc",
+    "name": "Paris Saint-Germain FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Paris Saint-Germain",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "elle-sid-pierre",
+        "name": "Elle Sid Pierre",
+        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
+      },
+      {
+        "slug": "jj-ochado",
+        "name": "Jj Ochado",
+        "url": "/univers/olive-et-tom/personnage.html?slug=jj-ochado"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      }
+    ]
+  },
+  {
+    "slug": "parma-ac",
+    "name": "Parma AC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=parma-ac",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "brescias",
+        "name": "Brescias",
+        "url": "/univers/olive-et-tom/personnage.html?slug=brescias"
+      },
+      {
+        "slug": "thoram",
+        "name": "Thoram",
+        "url": "/univers/olive-et-tom/personnage.html?slug=thoram"
+      }
+    ]
+  },
+  {
+    "slug": "real-madrid-cf",
+    "name": "Real Madrid CF",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "callusias",
+        "name": "Callusias",
+        "url": "/univers/olive-et-tom/personnage.html?slug=callusias"
+      },
+      {
+        "slug": "fernando-ruiz-blueno",
+        "name": "Fernando Ruiz Blueno",
+        "url": "/univers/olive-et-tom/personnage.html?slug=fernando-ruiz-blueno"
+      },
+      {
+        "slug": "ivangel",
+        "name": "Ivangel",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ivangel"
+      },
+      {
+        "slug": "luis-enpoli",
+        "name": "Luis Enpoli",
+        "url": "/univers/olive-et-tom/personnage.html?slug=luis-enpoli"
+      },
+      {
+        "slug": "makelolo",
+        "name": "Makelolo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=makelolo"
+      },
+      {
+        "slug": "marientos",
+        "name": "Marientos",
+        "url": "/univers/olive-et-tom/personnage.html?slug=marientos"
+      },
+      {
+        "slug": "michael",
+        "name": "Michael",
+        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
+      },
+      {
+        "slug": "michel-olgado",
+        "name": "Michel Olgado",
+        "url": "/univers/olive-et-tom/personnage.html?slug=michel-olgado"
+      },
+      {
+        "slug": "natureza",
+        "name": "Natureza",
+        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
+      },
+      {
+        "slug": "roberto-carolus",
+        "name": "Roberto Carolus",
+        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
+      },
+      {
+        "slug": "samuela",
+        "name": "Samuela",
+        "url": "/univers/olive-et-tom/personnage.html?slug=samuela"
+      },
+      {
+        "slug": "sergio-ramon",
+        "name": "Sergio Ramon",
+        "url": "/univers/olive-et-tom/personnage.html?slug=sergio-ramon"
+      }
+    ]
+  },
+  {
+    "slug": "sao-paulo-fc",
+    "name": "Sao Paulo FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Sao Paulo",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "joao-aragones",
+        "name": "Joao Aragones",
+        "url": "/univers/olive-et-tom/personnage.html?slug=joao-aragones"
+      },
+      {
+        "slug": "pepe",
+        "name": "Pepe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
+      },
+      {
+        "slug": "radunga",
+        "name": "Radunga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
+      },
+      {
+        "slug": "roberto-hongo",
+        "name": "Roberto Hongo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      }
+    ]
+  },
+  {
+    "slug": "sao-paulo-fc-youth-squads",
+    "name": "Sao Paulo FC - Youth squads",
+    "type": "club",
+    "age_category": "youth",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc-youth-squads",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "pepe",
+        "name": "Pepe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
+      }
+    ]
+  },
+  {
+    "slug": "saudi-arabia-youth",
+    "name": "Saudi Arabia Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Saudi Arabia",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=saudi-arabia-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "mark-owairan",
+        "name": "Mark Owairan",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
+      },
+      {
+        "slug": "vulcan",
+        "name": "Vulcan",
+        "url": "/univers/olive-et-tom/personnage.html?slug=vulcan"
+      }
+    ]
+  },
+  {
+    "slug": "shimizu-fc",
+    "name": "Shimizu FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "Shimizu",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=shimizu-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "morimichi-kawakami",
+        "name": "Morimichi Kawakami",
+        "url": "/univers/olive-et-tom/personnage.html?slug=morimichi-kawakami"
+      }
+    ]
+  },
+  {
+    "slug": "shumei-gakkan-middle-school",
+    "name": "Shumei Gakkan Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Shumei Gakkan",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=shumei-gakkan-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      }
+    ]
+  },
+  {
+    "slug": "shutetsu-elementary-school",
+    "name": "Shutetsu Elementary School",
+    "type": "school",
+    "age_category": "elementary",
+    "parent_team": "Shutetsu",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "hajime-taki",
+        "name": "Hajime Taki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
+      },
+      {
+        "slug": "mamoru-izawa",
+        "name": "Mamoru Izawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
+      },
+      {
+        "slug": "teppei-kisugi",
+        "name": "Teppei Kisugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      },
+      {
+        "slug": "yuzo-morisaki",
+        "name": "Yuzo Morisaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
+      }
+    ]
+  },
+  {
+    "slug": "south-korea-youth",
+    "name": "South Korea Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "South Korea",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=south-korea-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "cha-in-cheon",
+        "name": "Cha In Cheon",
+        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
+      },
+      {
+        "slug": "lee-yong-un",
+        "name": "Lee Yong Un",
+        "url": "/univers/olive-et-tom/personnage.html?slug=lee-yong-un"
+      }
+    ]
+  },
+  {
+    "slug": "sv-werder-bremen",
+    "name": "SV Werder Bremen",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "franz-schester",
+        "name": "Franz Schester",
+        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
+      },
+      {
+        "slug": "manfred-margus",
+        "name": "Manfred Margus",
+        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
+      },
+      {
+        "slug": "ramon-victorino",
+        "name": "Ramon Victorino",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
+      }
+    ]
+  },
+  {
+    "slug": "sv-werder-bremen-jr-youth",
+    "name": "SV Werder Bremen Jr. Youth",
+    "type": "club",
+    "age_category": "youth",
+    "parent_team": "SV Werder Bremen",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "franz-schester",
+        "name": "Franz Schester",
+        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
+      },
+      {
+        "slug": "manfred-margus",
+        "name": "Manfred Margus",
+        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
+      }
+    ]
+  },
+  {
+    "slug": "sweden-youth",
+    "name": "Sweden Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Sweden",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=sweden-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "brolin",
+        "name": "Brolin",
+        "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
+      },
+      {
+        "slug": "fredericks",
+        "name": "Fredericks",
+        "url": "/univers/olive-et-tom/personnage.html?slug=fredericks"
+      },
+      {
+        "slug": "larson",
+        "name": "Larson",
+        "url": "/univers/olive-et-tom/personnage.html?slug=larson"
+      },
+      {
+        "slug": "stefan-levin",
+        "name": "Stefan Levin",
+        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
+      }
+    ]
+  },
+  {
+    "slug": "tatsunami-high-school",
+    "name": "Tatsunami High School",
+    "type": "school",
+    "age_category": "high-school",
+    "parent_team": "Tatsunami",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=tatsunami-high-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "makoto-soda",
+        "name": "Makoto Soda",
+        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
+      },
+      {
+        "slug": "taichi-nakanishi",
+        "name": "Taichi Nakanishi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taichi-nakanishi"
+      }
+    ]
+  },
+  {
+    "slug": "thailand-middle-school",
+    "name": "Thailand (Middle school)",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=thailand-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "chana-khongsawat",
+        "name": "Chana Khongsawat",
+        "url": "/univers/olive-et-tom/personnage.html?slug=chana-khongsawat"
+      },
+      {
+        "slug": "falan-khongsawat",
+        "name": "Falan Khongsawat",
+        "url": "/univers/olive-et-tom/personnage.html?slug=falan-khongsawat"
+      },
+      {
+        "slug": "sakun-khongsawat",
+        "name": "Sakun Khongsawat",
+        "url": "/univers/olive-et-tom/personnage.html?slug=sakun-khongsawat"
+      }
+    ]
+  },
+  {
+    "slug": "thailand-youth",
+    "name": "Thailand Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Thailand",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=thailand-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "chana-khongsawat",
+        "name": "Chana Khongsawat",
+        "url": "/univers/olive-et-tom/personnage.html?slug=chana-khongsawat"
+      },
+      {
+        "slug": "falan-khongsawat",
+        "name": "Falan Khongsawat",
+        "url": "/univers/olive-et-tom/personnage.html?slug=falan-khongsawat"
+      },
+      {
+        "slug": "sakun-khongsawat",
+        "name": "Sakun Khongsawat",
+        "url": "/univers/olive-et-tom/personnage.html?slug=sakun-khongsawat"
+      },
+      {
+        "slug": "singprasert-bunnag",
+        "name": "Singprasert Bunnag",
+        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
+      }
+    ]
+  },
+  {
+    "slug": "toho-academy-high-school",
+    "name": "Toho Academy High School",
+    "type": "school",
+    "age_category": "high-school",
+    "parent_team": "Toho Academy",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-high-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "kazuki-sorimachi",
+        "name": "Kazuki Sorimachi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
+      },
+      {
+        "slug": "ken-wakashimazu",
+        "name": "Ken Wakashimazu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
+      },
+      {
+        "slug": "kojiro-hyuga",
+        "name": "Kojiro Hyuga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
+      },
+      {
+        "slug": "takeshi-sawada",
+        "name": "Takeshi Sawada",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
+      },
+      {
+        "slug": "taro-misaki",
+        "name": "Taro Misaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
+      }
+    ]
+  },
+  {
+    "slug": "toho-academy-middle-school",
+    "name": "Toho Academy Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Toho Academy",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=toho-academy-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "kazuki-sorimachi",
+        "name": "Kazuki Sorimachi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
+      },
+      {
+        "slug": "ken-wakashimazu",
+        "name": "Ken Wakashimazu",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
+      },
+      {
+        "slug": "kojiro-hyuga",
+        "name": "Kojiro Hyuga",
+        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
+      },
+      {
+        "slug": "makoto-kitazume",
+        "name": "Makoto Kitazume",
+        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-kitazume"
+      },
+      {
+        "slug": "takeshi-sawada",
+        "name": "Takeshi Sawada",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
+      }
+    ]
+  },
+  {
+    "slug": "uruguay-jr-youth",
+    "name": "Uruguay Jr. Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Uruguay",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "ramon-victorino",
+        "name": "Ramon Victorino",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
+      }
+    ]
+  },
+  {
+    "slug": "uruguay-jr-youth-ronc",
+    "name": "Uruguay Jr. Youth (RoNC)",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": null,
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth-ronc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "ramon-victorino-ronc",
+        "name": "Ramon Victorino",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino-ronc"
+      }
+    ]
+  },
+  {
+    "slug": "uruguay-youth",
+    "name": "Uruguay Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Uruguay",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "ramon-victorino",
+        "name": "Ramon Victorino",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
+      },
+      {
+        "slug": "ryoma-hino",
+        "name": "Ryoma Hino",
+        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
+      }
+    ]
+  },
+  {
+    "slug": "uzbekistan-youth",
+    "name": "Uzbekistan Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Uzbekistan",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=uzbekistan-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "zangiev",
+        "name": "Zangiev",
+        "url": "/univers/olive-et-tom/personnage.html?slug=zangiev"
+      }
+    ]
+  },
+  {
+    "slug": "west-ham-united-fc",
+    "name": "West Ham United FC",
+    "type": "club",
+    "age_category": "adult",
+    "parent_team": "West Ham United",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=west-ham-united-fc",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "east",
+        "name": "East",
+        "url": "/univers/olive-et-tom/personnage.html?slug=east"
+      }
+    ]
+  },
+  {
+    "slug": "yamabuki-elementary-school",
+    "name": "Yamabuki Elementary School",
+    "type": "school",
+    "age_category": "elementary",
+    "parent_team": "Yamabuki",
+    "confidence": "medium",
+    "url": "/univers/olive-et-tom/equipe.html?slug=yamabuki-elementary-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "takeshi-kishida",
+        "name": "Takeshi Kishida",
+        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-kishida"
+      }
+    ]
+  }
+]
