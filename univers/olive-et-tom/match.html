@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Duel à distance en tour par tour : construisez, tirez au but ou défendez. Premier à trois buts."
+    />
+    <title>Duel — Olive et Tom</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/match.css" />
+  </head>
+  <body>
+    <header class="site-header match-header">
+      <div class="container">
+        <a class="home-link" href="./index.html" aria-label="Retour à l'univers Olive et Tom">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M14.5 5.5 8 12l6.5 6.5"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="none"
+            />
+          </svg>
+        </a>
+        <h1>Duel</h1>
+        <p class="match-subtitle">Olive et Tom</p>
+      </div>
+    </header>
+
+    <main class="container match-main">
+      <!-- =================================================================
+           ÉCRAN 1 — Accueil : créer une partie ou en rejoindre une
+           ================================================================= -->
+      <section id="ecran-accueil" class="ecran" aria-labelledby="accueil-titre">
+        <div class="panneau">
+          <h2 id="accueil-titre">Jouer à deux, à distance</h2>
+          <p class="panneau-texte">
+            Un joueur crée le match et transmet son code à l'autre. Chaque manche, vous choisissez
+            en même temps, sans voir le coup d'en face. Premier à trois buts.
+          </p>
+
+          <button type="button" id="btn-creer" class="btn-primaire">Créer un match</button>
+
+          <div class="separateur"><span>ou</span></div>
+
+          <label class="champ-label" for="champ-code">Rejoindre avec un code</label>
+          <div class="champ-groupe">
+            <input
+              type="text"
+              id="champ-code"
+              class="champ-code"
+              maxlength="4"
+              inputmode="text"
+              autocomplete="off"
+              autocapitalize="characters"
+              spellcheck="false"
+              placeholder="A B C D"
+              aria-describedby="accueil-erreur"
+            />
+            <button type="button" id="btn-rejoindre" class="btn-primaire">Rejoindre</button>
+          </div>
+
+          <p id="accueil-erreur" class="message-erreur" role="alert" hidden></p>
+        </div>
+
+        <details class="regles">
+          <summary>Comment on joue</summary>
+          <div class="regles-corps">
+            <p>Trois coups, choisis en secret et révélés en même temps.</p>
+            <ul class="regles-liste">
+              <li>
+                <span class="pastille pastille--construire" aria-hidden="true"></span>
+                <strong>Construire</strong> — vous gagnez une action. C'est la seule façon d'avoir
+                de quoi tirer, mais vous êtes à découvert.
+              </li>
+              <li>
+                <span class="pastille pastille--tirer" aria-hidden="true"></span>
+                <strong>Tirer au but</strong> — coûte une action. Vous marquez si l'adversaire
+                construisait.
+              </li>
+              <li>
+                <span class="pastille pastille--defendre" aria-hidden="true"></span>
+                <strong>Défendre</strong> — bloque un tir et vous rend une action. Inutile face à
+                une construction, et interdit deux manches de suite.
+              </li>
+            </ul>
+          </div>
+        </details>
+      </section>
+
+      <!-- =================================================================
+           ÉCRAN 2 — Salon : le créateur attend son adversaire
+           ================================================================= -->
+      <section id="ecran-salon" class="ecran" hidden aria-labelledby="salon-titre">
+        <div class="panneau panneau--centre">
+          <h2 id="salon-titre">Votre code de match</h2>
+          <p class="code-partie" id="code-affiche" aria-live="polite">····</p>
+
+          <button type="button" id="btn-copier" class="btn-secondaire">Copier le lien</button>
+
+          <p class="panneau-texte attente" aria-live="polite">
+            <span class="pulsation" aria-hidden="true"></span>
+            En attente du second joueur…
+          </p>
+
+          <button type="button" id="btn-quitter-salon" class="btn-lien">Annuler</button>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           ÉCRAN 3 — Le match
+           ================================================================= -->
+      <section id="ecran-match" class="ecran" hidden aria-labelledby="match-titre">
+        <h2 id="match-titre" class="visually-hidden">Match en cours</h2>
+
+        <!-- Tableau de score -->
+        <div class="tableau-score">
+          <div class="score-camp">
+            <p class="score-nom" id="score-nom-adversaire">Adversaire</p>
+            <p class="score-buts" id="score-buts-adversaire">0</p>
+          </div>
+          <div class="score-milieu">
+            <p class="score-manche">Manche <span id="score-manche">1</span></p>
+            <p class="score-objectif" id="score-objectif">3 buts pour gagner</p>
+          </div>
+          <div class="score-camp">
+            <p class="score-nom" id="score-nom-moi">Vous</p>
+            <p class="score-buts score-buts--moi" id="score-buts-moi">0</p>
+          </div>
+        </div>
+
+        <!-- Terrain : zone de révélation simultanée -->
+        <div class="terrain">
+          <div class="terrain-camp">
+            <div class="revelation" id="revelation-adversaire" data-etat="attente">
+              <span class="revelation-icone" aria-hidden="true"></span>
+              <span class="revelation-nom"></span>
+            </div>
+            <ul class="jauge" id="jauge-adversaire" aria-label="Actions de l'adversaire"></ul>
+          </div>
+
+          <div class="terrain-ligne" aria-hidden="true">
+            <span class="terrain-rond"></span>
+          </div>
+
+          <div class="terrain-camp">
+            <div class="revelation" id="revelation-moi" data-etat="attente">
+              <span class="revelation-icone" aria-hidden="true"></span>
+              <span class="revelation-nom"></span>
+            </div>
+            <ul class="jauge" id="jauge-moi" aria-label="Vos actions disponibles"></ul>
+          </div>
+        </div>
+
+        <p class="recit" id="recit" role="status" aria-live="polite">
+          Choisissez votre coup pour lancer la première manche.
+        </p>
+
+        <!-- Coups -->
+        <div class="coups" role="group" aria-label="Choisir un coup">
+          <button type="button" class="coup coup--construire" data-coup="construire">
+            <span class="coup-icone" aria-hidden="true"></span>
+            <span class="coup-nom">Construire</span>
+            <span class="coup-detail">+1 action</span>
+          </button>
+
+          <button type="button" class="coup coup--tirer" data-coup="tirer">
+            <span class="coup-icone" aria-hidden="true"></span>
+            <span class="coup-nom">Tirer au but</span>
+            <span class="coup-detail">−1 action</span>
+          </button>
+
+          <button type="button" class="coup coup--defendre" data-coup="defendre">
+            <span class="coup-icone" aria-hidden="true"></span>
+            <span class="coup-nom">Défendre</span>
+            <span class="coup-detail">Bloque un tir</span>
+          </button>
+        </div>
+
+        <p class="message-erreur" id="match-erreur" role="alert" hidden></p>
+      </section>
+
+      <!-- =================================================================
+           ÉCRAN 4 — Fin du match
+           ================================================================= -->
+      <section id="ecran-fin" class="ecran" hidden aria-labelledby="fin-titre">
+        <div class="panneau panneau--centre">
+          <p class="fin-verdict" id="fin-verdict" aria-hidden="true"></p>
+          <h2 id="fin-titre">Match terminé</h2>
+          <p class="fin-score" id="fin-score">0 — 0</p>
+
+          <button type="button" id="btn-revanche" class="btn-primaire">Demander la revanche</button>
+          <p class="panneau-texte" id="fin-attente" hidden>
+            <span class="pulsation" aria-hidden="true"></span>
+            En attente de la réponse de l'adversaire…
+          </p>
+
+          <button type="button" id="btn-nouveau" class="btn-lien">Quitter le match</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/js/match.js" defer></script>
+  </body>
+</html>

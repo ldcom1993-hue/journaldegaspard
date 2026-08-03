@@ -33,3 +33,7 @@ jobs:
             scripts/**
             docs/**
             README.md
+            agents.md
+            # État vivant des parties du duel : appartient au serveur,
+            # un déploiement ne doit jamais y toucher.
+            api/parties/**

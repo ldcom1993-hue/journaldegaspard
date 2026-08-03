@@ -1,0 +1,9 @@
+# État des parties en cours du duel — généré par api/partie.php à l'exécution.
+# Ne doit jamais être versionné ni déployé : c'est de la donnée vivante,
+# propre au serveur, avec des jetons de session dedans.
+api/parties/
+
+# Divers
+.DS_Store
+Thumbs.db
+*.log
