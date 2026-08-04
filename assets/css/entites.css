@@ -1,0 +1,472 @@
+/*
+ * Journal de Gaspard — styles des pages d'entités (équipes, techniques).
+ *
+ * Extension de style.css, à charger après lui. Couvre les deux pages liste
+ * et les deux fiches détail, qui partagent la même grammaire visuelle.
+ *
+ * Ni les équipes ni les techniques n'ont d'image dans les données : les cartes
+ * de liste sont donc typographiques, et la matière visuelle des fiches vient
+ * des portraits des personnages liés.
+ */
+
+/* ------------------------------------------------------------------------ */
+/* En-tête d'univers                                                         */
+/* ------------------------------------------------------------------------ */
+
+.universe-header {
+  padding-block: 0.2rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.28);
+}
+
+.universe-header .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-height: 2rem;
+}
+
+.universe-header h1 {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(1rem, 2.3vw, 1.2rem);
+  line-height: 1.15;
+  text-align: center;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.universe-header .home-link,
+.universe-header .universe-subtitle {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.universe-header .universe-subtitle {
+  opacity: 0.9;
+  text-align: right;
+}
+
+.universe-header .home-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: inherit;
+  opacity: 0.9;
+  transition: opacity 0.18s ease;
+}
+
+.universe-header .home-link:hover {
+  opacity: 0.65;
+}
+
+.universe-header .home-link svg {
+  width: 21px;
+  height: 21px;
+  stroke: currentColor;
+  fill: none;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Page liste — barre d'outils                                               */
+/* ------------------------------------------------------------------------ */
+
+.entities {
+  padding: 1rem 0 3rem;
+}
+
+.entities-toolbar {
+  position: sticky;
+  top: 0.8rem;
+  z-index: 10;
+  margin-top: 1.2rem;
+  padding: 1.2rem;
+  border-radius: 22px;
+  background: rgba(15, 30, 55, 0.75);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 10px 35px rgba(0, 0, 0, 0.45),
+    0 0 25px rgba(110, 193, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.entities-filters {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.entities-toolbar .filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+}
+
+.entities-toolbar .filter-group span {
+  font-weight: 600;
+  color: #cfe6ff;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.entities-toolbar .filter-group select,
+.entities-toolbar .filter-group input {
+  width: auto;
+  min-height: 2rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(10, 20, 40, 0.9);
+  color: #ffffff;
+  font-size: 0.84rem;
+}
+
+.entities-toolbar .filter-group select {
+  min-width: 9rem;
+}
+
+.entities-toolbar .filter-group-search input {
+  min-width: 13rem;
+}
+
+.entities-toolbar .results-count {
+  margin: 0;
+  color: #9fd4ff;
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Page liste — cartes                                                       */
+/* ------------------------------------------------------------------------ */
+
+.entities-grid {
+  /* padding-bottom : laisse respirer le soulèvement des cartes au survol. */
+  margin-top: 1.2rem;
+  padding-bottom: 1rem;
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+
+.entity-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.35s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.entity-card.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.entity-card:hover,
+.entity-card:focus-within {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.entity-card.is-hidden {
+  display: none;
+}
+
+.entity-card-link {
+  display: block;
+  height: 100%;
+  padding: 0.95rem 1rem 1.05rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.entity-card-link:focus-visible {
+  outline: none;
+  border-radius: 16px;
+  box-shadow: 0 0 0 3px rgba(110, 193, 255, 0.35);
+}
+
+.entity-card-name {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.entity-card-badges {
+  margin: 0.6rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.entity-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  background: rgba(110, 193, 255, 0.15);
+  color: #cfe6ff;
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.entity-card-meta {
+  margin: 0.6rem 0 0;
+  color: var(--muted-color);
+  font-size: 0.8rem;
+}
+
+.entity-error {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: var(--muted-color);
+}
+
+/* ------------------------------------------------------------------------ */
+/* Fiche détail                                                              */
+/* ------------------------------------------------------------------------ */
+
+.entity-detail {
+  padding: 1rem 0 3rem;
+}
+
+.entity-detail-shell {
+  margin-top: 1rem;
+  background: rgba(15, 30, 55, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 22px;
+  box-shadow:
+    0 14px 40px rgba(0, 0, 0, 0.55),
+    0 0 30px rgba(110, 193, 255, 0.08);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  overflow: hidden;
+}
+
+.entity-detail-content {
+  padding: 1.6rem 1.4rem 1.8rem;
+}
+
+.entity-detail-loading,
+.entity-detail-empty {
+  padding: 2rem 1.2rem;
+  text-align: center;
+}
+
+.entity-detail-empty h2 {
+  margin: 0 0 0.55rem;
+  font-size: 1.35rem;
+}
+
+.entity-detail-loading p,
+.entity-detail-empty p {
+  margin: 0;
+  color: var(--muted-color);
+}
+
+/*
+ * style.css habille tous les <header> (fond, flou, bordure) pour l'en-tête de
+ * site. L'en-tête de fiche est un <header> sémantique imbriqué : on annule cet
+ * habillage, sinon un bandeau clair se dessine derrière le titre.
+ */
+.entity-detail-header {
+  background: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-bottom: none;
+  padding: 0;
+}
+
+.entity-detail-header h2 {
+  margin: 0;
+  font-size: clamp(1.4rem, 3vw, 1.95rem);
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.entity-detail-subtitle {
+  margin: 0.4rem 0 0;
+  color: #9fb8d6;
+  font-size: 0.88rem;
+}
+
+.entity-detail-badges {
+  margin: 0.75rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.entity-detail-section {
+  margin-top: 1.6rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.entity-detail-section h3 {
+  margin: 0 0 0.9rem;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.entity-detail-none {
+  margin: 0;
+  color: var(--muted-color);
+}
+
+/* Mini-cartes des personnages liés */
+
+.entity-person-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+}
+
+.entity-person {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.entity-person:hover,
+.entity-person:focus-within {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.4);
+}
+
+.entity-person-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.entity-person-link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(110, 193, 255, 0.35);
+}
+
+.entity-person-image {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  background: rgba(11, 18, 33, 0.7);
+}
+
+.entity-person-body {
+  padding: 0.55rem 0.65rem 0.7rem;
+}
+
+.entity-person-name {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.entity-person-position {
+  width: fit-content;
+  margin: 0.4rem 0 0;
+  padding: 0.14rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(191, 219, 254, 0.2);
+  color: #dbeafe;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------------------ */
+/* Responsive                                                                */
+/* ------------------------------------------------------------------------ */
+
+@media (max-width: 640px) {
+  .universe-header {
+    padding-block: 0.35rem;
+  }
+
+  .universe-header .container {
+    gap: 0.25rem 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .universe-header h1 {
+    position: static;
+    transform: none;
+    width: 100%;
+    font-size: 1rem;
+    order: -1;
+  }
+
+  .universe-header .home-link {
+    flex: 1;
+  }
+
+  .universe-header .universe-subtitle {
+    flex: 1;
+    font-size: 0.75rem;
+  }
+
+  .entities-toolbar {
+    align-items: flex-start;
+    padding: 0.9rem;
+  }
+
+  .entities-filters {
+    width: 100%;
+    gap: 0.45rem;
+  }
+
+  .entities-toolbar .filter-group {
+    flex: 1 1 100%;
+  }
+
+  .entities-toolbar .filter-group select,
+  .entities-toolbar .filter-group input {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .entities-toolbar .results-count {
+    width: 100%;
+  }
+
+  .entities-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+  }
+
+  .entity-person-grid {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 0.6rem;
+  }
+
+  .entity-detail-content {
+    padding: 1.2rem 1rem 1.4rem;
+  }
+}
