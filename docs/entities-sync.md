@@ -41,6 +41,8 @@ Chaque personnage conserve ses champs existants (`slug`, `name`, `image`, `popul
 ### `assets/data/techniques.json`
 
 - `slug`, `name`, `url`, `description`, `image`
+- `japanese_name` : nom en kana/kanji, isolé du champ `name` de l'infobox
+- `first_appearance` : œuvre et chapitre, souvent vide côté wiki
 - `users`: tableau de pointeurs vers personnages (`slug`, `name`, `url`)
 
 ## Stratégie d'extraction
@@ -54,12 +56,41 @@ Chaque personnage conserve ses champs existants (`slug`, `name`, `image`, `popul
 
 ### Techniques
 
-1. Extraction via champs infobox si présents (`technique`, `special_move`, etc.).
-2. Complément robuste via catégories techniques Fandom (`Category:Special Techniques`, etc.).
-3. Pour chaque page technique, récupération des liens de page et intersection avec les titres de personnages connus.
-4. Construction relation réciproque (`personnages -> techniques`, puis `techniques -> users`).
+**Le catalogue des catégories du wiki fait autorité.** Une technique existe
+parce que le wiki la recense dans l'une de ces huit catégories, jamais parce
+qu'une page la mentionne :
 
-> Ce choix évite de dépendre uniquement d'heuristiques de sections libres dans les pages personnages.
+`Ground shots`, `Aerial shots`, `Dribbles and feints`, `Cooperative tactics`,
+`Defensive techniques`, `Passes`, `Saves`, `Tactics and skills`.
+
+1. Construction du catalogue (`fetch_technique_catalog`), sous-pages exclues
+   (`Drive Shot/Variations` est une annexe, pas une technique).
+2. Amorçage de `techniques.json` depuis ce catalogue : une technique que
+   nulle page ne cite existe quand même, avec `users` vide.
+3. Relations : parcours des pages `<Personnage>/Techniques`, dont on ne retient
+   que les liens présents au catalogue.
+4. Fiche de chaque technique (`fetch_technique_details`) : introduction, nom
+   japonais, première apparition.
+
+> Le filtrage par catalogue a remplacé une heuristique sur les noms de liens.
+> Celle-ci retenait tout lien « à l'allure de technique » figurant sur une page
+> `/Techniques`, où voisinent coéquipiers, clubs et tomes du manga : sur 304
+> entrées produites, 203 n'étaient pas des techniques (`AC Reggiana`,
+> `Captain Tsubasa (1981)`), et 55 vraies techniques manquaient. Le nom du
+> template ne permet pas de trancher — une technique utilise
+> `Infobox character`, comme un personnage.
+
+> Limite connue : une technique réelle mais non catégorisée sur le wiki est
+> absente du catalogue (`Back-Heel Pass`). Le correctif est à porter en amont,
+> sur le wiki.
+
+### Description des pages
+
+Ce wiki n'a pas l'extension **TextExtracts** : `prop=extracts` y répond `200`
+en signalant un paramètre inconnu, sans lever d'erreur — les descriptions
+étaient donc vides sur la totalité du catalogue, silencieusement. Elles sont
+désormais lues sur le HTML rendu (`action=parse&prop=text`), dont on prend le
+premier paragraphe utile (`first_paragraph_from_html`).
 
 ## Robustesse / sécurité
 

@@ -117,20 +117,28 @@ def fetch_page_section_links(title: str, section_index: int) -> list[str]:
     return [item for item in links if item and not item.startswith(("Category:", "Template:", "File:"))]
 
 
-def fetch_intro_extract(title: str) -> str:
+def fetch_page_wikitext_and_html(title: str) -> tuple[str, str]:
+    """
+    Récupère source et rendu d'une page en un seul appel.
+
+    Ce wiki n'a pas l'extension TextExtracts : `prop=extracts` y répond 200 en
+    signalant un paramètre inconnu, et renvoie donc silencieusement du vide.
+    L'introduction se lit sur le HTML rendu, et l'infobox sur le wikitexte.
+    """
     payload = api_get_json(
         {
-            "action": "query",
-            "prop": "extracts",
-            "titles": title,
-            "exintro": "1",
-            "plaintext": "1",
+            "action": "parse",
+            "page": title,
+            "prop": "wikitext|text",
             "format": "json",
         }
     )
-    pages = payload.get("query", {}).get("pages", {})
-    page = next(iter(pages.values()), {})
-    return str(page.get("extract", "") or "").strip()
+    parse = payload.get("parse", {})
+
+    return (
+        parse.get("wikitext", {}).get("*", ""),
+        parse.get("text", {}).get("*", ""),
+    )
 
 
 def fetch_page_links(title: str) -> list[str]:

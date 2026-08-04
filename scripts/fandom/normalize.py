@@ -196,6 +196,76 @@ def extract_infobox_fields(wikitext: str) -> dict[str, str]:
 
 
 # ------------------------------------------------------------
+# Intro paragraph
+# ------------------------------------------------------------
+
+# Blocs à écarter avant de chercher le texte : ils précèdent l'introduction
+# dans le HTML rendu et contiennent eux aussi des <p>.
+_HTML_ASIDE_BLOCKS = re.compile(
+    r"<(aside|table|figure|style|script|div\s+class=\"[^\"]*(?:toc|navbox|hatnote)[^\"]*\")\b.*?</\1>",
+    re.IGNORECASE | re.DOTALL,
+)
+
+_HTML_REFERENCE_MARKS = re.compile(r"<sup\b.*?</sup>", re.IGNORECASE | re.DOTALL)
+
+_HTML_PARAGRAPH = re.compile(r"<p\b[^>]*>(.*?)</p>", re.IGNORECASE | re.DOTALL)
+
+
+def first_paragraph_from_html(html_text: str, minimum_length: int = 40) -> str:
+    """
+    Renvoie le premier vrai paragraphe d'une page rendue.
+
+    Le wiki n'expose pas prop=extracts : on repart donc du HTML de action=parse.
+    Les premiers <p> sont souvent vides ou tiennent lieu d'espacement sous
+    l'infobox, d'où le seuil de longueur.
+    """
+    if not html_text:
+        return ""
+
+    cleaned = _HTML_ASIDE_BLOCKS.sub(" ", html_text)
+    cleaned = _HTML_REFERENCE_MARKS.sub("", cleaned)
+
+    for match in _HTML_PARAGRAPH.finditer(cleaned):
+        text = re.sub(r"<[^>]+>", "", match.group(1))
+        text = html.unescape(text)
+        text = re.sub(r"\s+", " ", text).strip()
+
+        if len(text) >= minimum_length:
+            return text
+
+    return ""
+
+
+# ------------------------------------------------------------
+# Japanese names
+# ------------------------------------------------------------
+
+# Kana, kanji et signes d'itération/allongement.
+_JAPANESE_RUN = re.compile(r"[぀-ヿ㐀-䶿一-鿿々ー]+")
+
+
+def extract_japanese_name(value: str) -> str:
+    """
+    Isole le nom japonais d'un champ d'infobox.
+
+    Le champ `name` mêle le nom de page et sa translittération
+    ("{{PAGENAME}}<br><font size=2>タイガーショット</font>") : on ne garde que
+    la plus longue suite de caractères japonais.
+    """
+    runs = _JAPANESE_RUN.findall(str(value or ""))
+
+    return max(runs, key=len) if runs else ""
+
+
+def strip_template_residue(value: str) -> str:
+    """
+    Retire les accolades fermantes qu'un champ d'infobox vide laisse traîner
+    quand il termine le template.
+    """
+    return re.sub(r"[{}|]+\s*$", "", clean_text(value)).strip(" ,;")
+
+
+# ------------------------------------------------------------
 # Entity name normalization
 # ------------------------------------------------------------
 
