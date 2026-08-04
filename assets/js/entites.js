@@ -483,8 +483,10 @@ export async function createEntityListPage(config) {
  * @param {string}   config.relationKey     Clé du tableau de personnages liés.
  * @param {string}   config.titlePrefix     Préfixe du <title> de la page.
  * @param {object}   config.labels          { notFound, notFoundHint, section, relation, relations }
- * @param {function} [config.getBadges]     entry => string[] affichés sous le titre.
- * @param {function} [config.getSubtitle]   entry => string affiché en surtitre discret.
+ * @param {function} [config.getBadges]      entry => string[] affichés sous le titre.
+ * @param {function} [config.getSubtitle]    entry => string affiché en surtitre discret.
+ * @param {function} [config.getDescription] entry => texte de présentation.
+ * @param {function} [config.getFacts]       entry => [{ label, value }] ; les valeurs vides sont tues.
  */
 export async function createEntityDetailPage(config) {
   const shell = document.querySelector("#entity-detail-shell");
@@ -542,6 +544,39 @@ export async function createEntityDetailPage(config) {
       });
 
       header.appendChild(badgeRow);
+    }
+
+    const description = config.getDescription ? safeText(config.getDescription(entry)) : "";
+
+    if (description) {
+      const descriptionEl = document.createElement("p");
+      descriptionEl.className = "entity-detail-description";
+      descriptionEl.textContent = description;
+      header.appendChild(descriptionEl);
+    }
+
+    // Faits complémentaires (première apparition…). Les champs vides sont
+    // tus plutôt qu'affichés en « non renseigné » : le wiki en laisse
+    // beaucoup à blanc, et les répéter noierait le peu qui est rempli.
+    const facts = (config.getFacts ? config.getFacts(entry) : []).filter(
+      (fact) => fact && safeText(fact.value)
+    );
+
+    if (facts.length) {
+      const list = document.createElement("dl");
+      list.className = "entity-detail-facts";
+
+      facts.forEach((fact) => {
+        const term = document.createElement("dt");
+        term.textContent = fact.label;
+
+        const value = document.createElement("dd");
+        value.textContent = safeText(fact.value);
+
+        list.append(term, value);
+      });
+
+      header.appendChild(list);
     }
 
     content.appendChild(header);

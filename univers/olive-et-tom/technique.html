@@ -52,7 +52,12 @@
           notFound: "Technique introuvable",
           notFoundHint: "La technique demandée n'existe pas ou n'est pas disponible.",
           section: "Utilisée par"
-        }
+        },
+        getSubtitle: (technique) => technique.japanese_name,
+        getDescription: (technique) => technique.description,
+        getFacts: (technique) => [
+          { label: "Première apparition", value: technique.first_appearance }
+        ]
       });
     </script>
   </body>

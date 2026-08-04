@@ -1,23 +1,11 @@
 [
   {
-    "slug": "16th-national-middle-school-tournament",
-    "name": "16th National middle school tournament",
-    "url": "/univers/olive-et-tom/technique.html?slug=16th-national-middle-school-tournament",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      }
-    ]
-  },
-  {
     "slug": "2-steps-overhead",
     "name": "2 Steps Overhead",
     "url": "/univers/olive-et-tom/technique.html?slug=2-steps-overhead",
-    "description": "",
+    "japanese_name": "オーバーヘッド",
+    "first_appearance": "",
+    "description": "This is, in fact, an advanced technique of the Overhead by using each of the player's legs in a two-step sequence.",
     "image": "",
     "users": [
       {
@@ -41,7 +29,9 @@
     "slug": "abs-pass",
     "name": "Abs Pass",
     "url": "/univers/olive-et-tom/technique.html?slug=abs-pass",
-    "description": "",
+    "japanese_name": "腹筋パス",
+    "first_appearance": "",
+    "description": "With all his might, Rivaul is able to do a pass with the center of his abdomen after withholding the strength of the opponent's kick, being able to counterattack instead.",
     "image": "",
     "users": [
       {
@@ -52,137 +42,42 @@
     ]
   },
   {
-    "slug": "ac-reggiana",
-    "name": "AC Reggiana",
-    "url": "/univers/olive-et-tom/technique.html?slug=ac-reggiana",
-    "description": "",
+    "slug": "accel-shot",
+    "name": "Accel Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=accel-shot",
+    "japanese_name": "アクセルシュート",
+    "first_appearance": "Captain Tsubasa: Rise of New Champions",
+    "description": "By changing how the power is transferred to the ball, this shot accelerates as it nears the goal.",
     "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "alan-pascal",
-    "name": "Alan Pascal",
-    "url": "/univers/olive-et-tom/technique.html?slug=alan-pascal",
-    "description": "",
+    "slug": "analyze-shot",
+    "name": "Analyze Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=analyze-shot",
+    "japanese_name": "アナライズシュート",
+    "first_appearance": "Captain Tsubasa: Rise of New Champions",
+    "description": "\"Using a perspicacious eye, the goalie's tiniest habits can be exploited for an unstoppable shot.\"",
     "image": "",
-    "users": [
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "alan-pascal-ronc",
-    "name": "Alan Pascal (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=alan-pascal-ronc",
-    "description": "",
+    "slug": "arc-bridge-shot",
+    "name": "Arc Bridge Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=arc-bridge-shot",
+    "japanese_name": "アークブリッジシュート",
+    "first_appearance": "Rise of New Champions",
+    "description": "A shot with a zig-zagging path after being kicked using a series of spins.",
     "image": "",
-    "users": [
-      {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      }
-    ]
-  },
-  {
-    "slug": "alberto-ronc",
-    "name": "Alberto (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=alberto-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      }
-    ]
-  },
-  {
-    "slug": "all-japan-jr-youth",
-    "name": "All Japan Jr. Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=all-japan-jr-youth",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      }
-    ]
-  },
-  {
-    "slug": "all-japan-youth",
-    "name": "All Japan Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=all-japan-youth",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "singprasert-bunnag",
-        "name": "Singprasert Bunnag",
-        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      }
-    ]
-  },
-  {
-    "slug": "aoi",
-    "name": "Aoi",
-    "url": "/univers/olive-et-tom/technique.html?slug=aoi",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
-    "slug": "argentina-jr",
-    "name": "Argentina Jr.",
-    "url": "/univers/olive-et-tom/technique.html?slug=argentina-jr",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "arrow-shot",
     "name": "Arrow Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=arrow-shot",
-    "description": "",
+    "japanese_name": "アローシュート",
+    "first_appearance": "",
+    "description": "This technique was first used in the World Youth Tournament. The user is holding his foot with his hand on purpose, adding spring power like a bow and arrow, resulting in an increased shooting power, the ball ends up rising just like the Raiju shot. It was also called Rising Arrow Shot, since the ball is rising just like the Raiju Shot.",
     "image": "",
     "users": [
       {
@@ -206,7 +101,9 @@
     "slug": "aurora-feint",
     "name": "Aurora Feint",
     "url": "/univers/olive-et-tom/technique.html?slug=aurora-feint",
-    "description": "",
+    "japanese_name": "オーロラフェイント",
+    "first_appearance": "",
+    "description": "This is a special dribble in which Levin appears to multiply seven times, just like a rainbow, which makes it harder for the defender to know how to defend. Also known as Feint of 7 Colors (7 Iro no Feint). His dribble feint is so fast, his opponents become confused trying to steal the ball from what turns out to be just his afterimage as he leaves them far behind. A defensive version, the Aurora Curtain, can be used in order to not let the attacking player to know from which direction the tackle will come.",
     "image": "",
     "users": [
       {
@@ -235,7 +132,9 @@
     "slug": "avalanche-attack",
     "name": "Avalanche Attack",
     "url": "/univers/olive-et-tom/technique.html?slug=avalanche-attack",
-    "description": "",
+    "japanese_name": "雪崩攻撃",
+    "first_appearance": "",
+    "description": "To be able to do this technique, the whole team rush towards the opposition's goal like a descending avalanche, passing to each other as they move in for the kill.",
     "image": "",
     "users": [
       {
@@ -251,92 +150,22 @@
     ]
   },
   {
-    "slug": "back-heel-pass",
-    "name": "Back-Heel Pass",
-    "url": "/univers/olive-et-tom/technique.html?slug=back-heel-pass",
-    "description": "",
+    "slug": "batigoal",
+    "name": "Batigoal",
+    "url": "/univers/olive-et-tom/technique.html?slug=batigoal",
+    "japanese_name": "バティゴール",
+    "first_appearance": "",
+    "description": "This is Batin's trademark technique, and is a good replacement for the Hyper Twin Shot due to Caggiale's absence. This shot, combined with Batin's high shooting stats, can beat the best keepers in the game. For this, Batin is considered Argentina's strongest individual, even more so than Diaz.",
     "image": "",
-    "users": [
-      {
-        "slug": "mamoru-izawa",
-        "name": "Mamoru Izawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      }
-    ]
-  },
-  {
-    "slug": "barcelona",
-    "name": "Barcelona",
-    "url": "/univers/olive-et-tom/technique.html?slug=barcelona",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      }
-    ]
-  },
-  {
-    "slug": "battle-of-world-youth",
-    "name": "Battle of World Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=battle-of-world-youth",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "birdcage",
     "name": "Birdcage",
     "url": "/univers/olive-et-tom/technique.html?slug=birdcage",
-    "description": "",
+    "japanese_name": "鳥かご",
+    "first_appearance": "",
+    "description": "The team just circulates the ball in a part of the field, making it difficult for opponents players to take the ball back. It's efficient to waste time, thus it should be used when in the lead, in order to nullify goal chances for the opponents by denying them possession.",
     "image": "",
     "users": [
       {
@@ -347,10 +176,22 @@
     ]
   },
   {
+    "slug": "blake-shot",
+    "name": "Blake Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=blake-shot",
+    "japanese_name": "ブレイクシュート",
+    "first_appearance": "",
+    "description": "Blake Shot (ブレイクシュート, bureiku shūto) is the long-range shot of Blake Martin.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "body-block",
     "name": "Body Block",
     "url": "/univers/olive-et-tom/technique.html?slug=body-block",
-    "description": "",
+    "japanese_name": "ボディブロック",
+    "first_appearance": "",
+    "description": "This all-or-nothing technique is a keeper's last resort. When up against a shot that he has no other way of stopping, the keeper plays out his body and hopes that part of it will make contact with the ball.",
     "image": "",
     "users": [
       {
@@ -364,79 +205,15 @@
     "slug": "boomerang-shot",
     "name": "Boomerang Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=boomerang-shot",
-    "description": "",
+    "japanese_name": "ブーメランシュート",
+    "first_appearance": "",
+    "description": "Misaki mastered this special shot, which cuts a large boomerang-like arc, while in Africa. He positions himself to the side of the goal and shoots so that the ball rises up. This shot doesn't lose momentum even when used to shoot from a tight angle.",
     "image": "",
     "users": [
       {
         "slug": "taro-misaki",
         "name": "Taro Misaki",
         "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "boys-fight",
-    "name": "Boys' Fight",
-    "url": "/univers/olive-et-tom/technique.html?slug=boys-fight",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
-  },
-  {
-    "slug": "brazil-youth",
-    "name": "Brazil Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=brazil-youth",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
-  },
-  {
-    "slug": "brian-cruyfford-ronc",
-    "name": "Brian Cruyfford (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=brian-cruyfford-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      }
-    ]
-  },
-  {
-    "slug": "bunnag",
-    "name": "Bunnag",
-    "url": "/univers/olive-et-tom/technique.html?slug=bunnag",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
       }
     ]
   },
@@ -444,7 +221,9 @@
     "slug": "cannon-shot",
     "name": "Cannon Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=cannon-shot",
-    "description": "",
+    "japanese_name": "キャノンシュート",
+    "first_appearance": "Captain Tsubasa, chapter 92",
+    "description": "The Cannon Shot (キャノンシュート, kyanon shūto) is Louis Napoleon's trademark shot.",
     "image": "",
     "users": [
       {
@@ -455,475 +234,22 @@
     ]
   },
   {
-    "slug": "captain-tsubasa",
-    "name": "Captain Tsubasa",
-    "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa",
-    "description": "",
+    "slug": "clone-dribble",
+    "name": "Clone Dribble",
+    "url": "/univers/olive-et-tom/technique.html?slug=clone-dribble",
+    "japanese_name": "分身ドリブル",
+    "first_appearance": "",
+    "description": "This is a dribble skill that allows the player to move so swiftly that an image of the user is left behind.",
     "image": "",
-    "users": [
-      {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "brolin",
-        "name": "Brolin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      },
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "fei-xiang",
-        "name": "Fei Xiang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=fei-xiang"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "gakuto-igawa",
-        "name": "Gakuto Igawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gakuto-igawa"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "hanji-urabe",
-        "name": "Hanji Urabe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "iuliano-gozza",
-        "name": "Iuliano Gozza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=iuliano-gozza"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "makoto-soda",
-        "name": "Makoto Soda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
-      },
-      {
-        "slug": "mamoru-izawa",
-        "name": "Mamoru Izawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
-      },
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "nobuyuki-yumikura",
-        "name": "Nobuyuki Yumikura",
-        "url": "/univers/olive-et-tom/personnage.html?slug=nobuyuki-yumikura"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "raphael",
-        "name": "Raphael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=raphael"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "schweil-teigerbran",
-        "name": "Schweil Teigerbran",
-        "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "singprasert-bunnag",
-        "name": "Singprasert Bunnag",
-        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "takeshi-kishida",
-        "name": "Takeshi Kishida",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-kishida"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tomeya-akai",
-        "name": "Tomeya Akai",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tomeya-akai"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      },
-      {
-        "slug": "yuzo-morisaki",
-        "name": "Yuzo Morisaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-1981",
-    "name": "Captain Tsubasa (1981)",
-    "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-1981",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-2018-tv-series",
-    "name": "Captain Tsubasa (2018 TV series)",
-    "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-2018-tv-series",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-tsukurou-dream-team-nndyahoomobage",
-    "name": "Captain Tsubasa - Tsukurou Dream Team (NND/Yahoo!Mobage)",
-    "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-tsukurou-dream-team-nndyahoomobage",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-25th-anniversary-2005",
-    "name": "Captain Tsubasa 25th Anniversary (2005)",
-    "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-25th-anniversary-2005",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-manga",
-    "name": "Captain Tsubasa manga",
-    "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-manga",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-zero-kimero-miracle-shot",
-    "name": "Captain Tsubasa ZERO - Kimero! Miracle Shot",
-    "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-zero-kimero-miracle-shot",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      }
-    ]
-  },
-  {
-    "slug": "carlos-bara-ronc",
-    "name": "Carlos Bara (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=carlos-bara-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
-    "slug": "carlos-santana",
-    "name": "Carlos Santana",
-    "url": "/univers/olive-et-tom/technique.html?slug=carlos-santana",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "china-youth",
-    "name": "China Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=china-youth",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "counter-shot",
     "name": "Counter Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=counter-shot",
-    "description": "",
+    "japanese_name": "カウンターシュート",
+    "first_appearance": "",
+    "description": "The Counter Shot (カウンターシュート, kauntā shūto) is an individual skill from a player which counters the opponents' shot.",
     "image": "",
     "users": [
       {
@@ -939,128 +265,62 @@
     ]
   },
   {
-    "slug": "cruyfford",
-    "name": "Cruyfford",
-    "url": "/univers/olive-et-tom/technique.html?slug=cruyfford",
-    "description": "",
+    "slug": "cruyff-turn",
+    "name": "Cruyff Turn",
+    "url": "/univers/olive-et-tom/technique.html?slug=cruyff-turn",
+    "japanese_name": "クライフターン",
+    "first_appearance": "",
+    "description": "The Cruyff Turn (クライフターン) is a special skill in some Captain Tsubasa videogames.",
     "image": "",
-    "users": [
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "danil-silva",
-    "name": "Danil Silva",
-    "url": "/univers/olive-et-tom/technique.html?slug=danil-silva",
-    "description": "",
+    "slug": "crystal-overhead",
+    "name": "Crystal Overhead",
+    "url": "/univers/olive-et-tom/technique.html?slug=crystal-overhead",
+    "japanese_name": "クリスタルオーバーヘッド",
+    "first_appearance": "",
+    "description": "The Crystal Overhead (クリスタルオーバーヘッド) is a shot move from Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "david-trezeguet",
-    "name": "David Trézéguet",
-    "url": "/univers/olive-et-tom/technique.html?slug=david-trezeguet",
-    "description": "",
+    "slug": "curtain-call-shot",
+    "name": "Curtain Call Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=curtain-call-shot",
+    "japanese_name": "カーテンコールシュート",
+    "first_appearance": "",
+    "description": "This shot is a beautiful combination of power and skill with a perfectly timed axe kick.",
     "image": "",
-    "users": [
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "deuter-muller",
-    "name": "Deuter Muller",
-    "url": "/univers/olive-et-tom/technique.html?slug=deuter-muller",
-    "description": "",
+    "slug": "cyclone",
+    "name": "Cyclone",
+    "url": "/univers/olive-et-tom/technique.html?slug=cyclone",
+    "japanese_name": "サイクロン",
+    "first_appearance": "",
+    "description": "Cyclone (サイクロン) is a special shot that Tsubasa develops and constantly improves in the Tecmo series.",
     "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "deuter-muller-ronc",
-    "name": "Deuter Muller (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=deuter-muller-ronc",
-    "description": "",
+    "slug": "diaz-style-drive-shot",
+    "name": "Diaz-Style Drive Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=diaz-style-drive-shot",
+    "japanese_name": "ディアス式ドライブシュート",
+    "first_appearance": "",
+    "description": "Diaz-Style Drive Shot (ディアス式ドライブシュート) is a shot of Juan Diaz.",
     "image": "",
-    "users": [
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      }
-    ]
-  },
-  {
-    "slug": "diaz",
-    "name": "Diaz",
-    "url": "/univers/olive-et-tom/technique.html?slug=diaz",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      }
-    ]
-  },
-  {
-    "slug": "direct-jumping-volley",
-    "name": "Direct Jumping Volley",
-    "url": "/univers/olive-et-tom/technique.html?slug=direct-jumping-volley",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "diving-catch",
     "name": "Diving Catch",
     "url": "/univers/olive-et-tom/technique.html?slug=diving-catch",
-    "description": "",
+    "japanese_name": "ダイビングキャッチ",
+    "first_appearance": "",
+    "description": "Diving Catch (ダイビングキャッチ) is the ability of the keeper to fly towards the ball, either catching it before or while diving.",
     "image": "",
     "users": [
       {
@@ -1089,7 +349,9 @@
     "slug": "diving-header",
     "name": "Diving Header",
     "url": "/univers/olive-et-tom/technique.html?slug=diving-header",
-    "description": "",
+    "japanese_name": "ダイビングヘッド",
+    "first_appearance": "",
+    "description": "This is the act of diving horizontally towards the ball and hit it with the head. It requires moving at a high-speed while also hitting the ball accurately with a significant amount of skill. It is both an offensive and a defensive technique.",
     "image": "",
     "users": [
       {
@@ -1170,10 +432,22 @@
     ]
   },
   {
+    "slug": "double-force-shot",
+    "name": "Double Force Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=double-force-shot",
+    "japanese_name": "ダブルフォースシュート",
+    "first_appearance": "",
+    "description": "A special technique where Carlos flicks the ball backwards to Alberto, who launches a Sacred Shot that Carlos then lands a Rolling Overhead Kick on, making the shot even more fearsome. On the Brazil Route of Episode of New Hero, it is this move that Brazil uses to break the deadlock against Germany, who are playing Deuter Muller for the first time.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "dragon-shot",
     "name": "Dragon Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=dragon-shot",
-    "description": "",
+    "japanese_name": "ドラゴンシュート",
+    "first_appearance": "",
+    "description": "Dragon Shot (ドラゴンシュート, doragon shūto) is Hino's \"power shot\", for which he was known as the \"Japanese Bomber\".",
     "image": "",
     "users": [
       {
@@ -1184,29 +458,12 @@
     ]
   },
   {
-    "slug": "drive-pass",
-    "name": "Drive Pass",
-    "url": "/univers/olive-et-tom/technique.html?slug=drive-pass",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
     "slug": "drive-shot",
     "name": "Drive Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=drive-shot",
-    "description": "",
+    "japanese_name": "ドライブシュート",
+    "first_appearance": "Captain Tsubasa (1981), chapter 67",
+    "description": "Drive Shot (ドライブシュート, doraibu shūto) is a special shot, original from South American professional players.",
     "image": "",
     "users": [
       {
@@ -1267,24 +524,12 @@
     ]
   },
   {
-    "slug": "drive-shotvariations",
-    "name": "Drive Shot/Variations",
-    "url": "/univers/olive-et-tom/technique.html?slug=drive-shotvariations",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
     "slug": "drive-tiger-twin-shot",
     "name": "Drive Tiger Twin Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=drive-tiger-twin-shot",
-    "description": "",
+    "japanese_name": "ドライブタイガーツインシュート",
+    "first_appearance": "",
+    "description": "The Drive Tiger Twin Shot (ドライブタイガーツインシュート, doraibu taigā tsuin shūto) is a combined skill from Tsubasa Ozora and Kojiro Hyuga.",
     "image": "",
     "users": [
       {
@@ -1300,10 +545,22 @@
     ]
   },
   {
+    "slug": "dual-slider-shot",
+    "name": "Dual Slider Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=dual-slider-shot",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "The Dual Slider Shot (デュアルスライダーショット) is Elle Sid Pierre's Super Shot.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "eagle-shot",
     "name": "Eagle Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=eagle-shot",
-    "description": "",
+    "japanese_name": "イーグルショット",
+    "first_appearance": "",
+    "description": "Eagle Shot (イーグルショット, īguru shotto), also known as Northland Shot (北国シュート, kitaguni shūto) or Wild Eagle Shot (荒鷲ショット, īguru shotto) is Hikaru Matsuyama's signature technique, which is a long distance ground shot.",
     "image": "",
     "users": [
       {
@@ -1319,52 +576,12 @@
     ]
   },
   {
-    "slug": "edgar-davids",
-    "name": "Edgar Davids",
-    "url": "/univers/olive-et-tom/technique.html?slug=edgar-davids",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      }
-    ]
-  },
-  {
     "slug": "eiffel-attack",
     "name": "Eiffel Attack",
     "url": "/univers/olive-et-tom/technique.html?slug=eiffel-attack",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      }
-    ]
-  },
-  {
-    "slug": "elle-sid-pierre",
-    "name": "Elle Sid Pierre",
-    "url": "/univers/olive-et-tom/technique.html?slug=elle-sid-pierre",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "elle-sid-pierre-ronc",
-    "name": "Elle Sid Pierre (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=elle-sid-pierre-ronc",
-    "description": "",
+    "japanese_name": "エッフェル攻撃",
+    "first_appearance": "",
+    "description": "Eiffel Attack (エッフェル攻撃), or Eiffel Tower Rush, is a cooperative technique between Louis Napoleon and Elle Sid Pierre.",
     "image": "",
     "users": [
       {
@@ -1378,7 +595,9 @@
     "slug": "face-block",
     "name": "Face Block",
     "url": "/univers/olive-et-tom/technique.html?slug=face-block",
-    "description": "",
+    "japanese_name": "顔面ブロック",
+    "first_appearance": "",
+    "description": "As the name suggests, the player uses his face to block the shot. It can only be pulled off with a reckless spirit and lack of fear.",
     "image": "",
     "users": [
       {
@@ -1409,29 +628,22 @@
     ]
   },
   {
-    "slug": "fc-bayern-munich",
-    "name": "FC Bayern Munich",
-    "url": "/univers/olive-et-tom/technique.html?slug=fc-bayern-munich",
-    "description": "",
+    "slug": "faery-shot",
+    "name": "Faery Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=faery-shot",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "The Faery Shot (デュアルスライダーショット) is Cornelius Heine's Super Shot.",
     "image": "",
-    "users": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "fire-shot",
     "name": "Fire Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=fire-shot",
-    "description": "",
+    "japanese_name": "ファイヤーショット",
+    "first_appearance": "",
+    "description": "Fire Shot (ファイヤーショット) is Karl Heinz Schneider's special shot.",
     "image": "",
     "users": [
       {
@@ -1457,24 +669,12 @@
     ]
   },
   {
-    "slug": "flamengo",
-    "name": "Flamengo",
-    "url": "/univers/olive-et-tom/technique.html?slug=flamengo",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
     "slug": "flamingo-clip",
     "name": "Flamingo Clip",
     "url": "/univers/olive-et-tom/technique.html?slug=flamingo-clip",
-    "description": "",
+    "japanese_name": "フラミンゴクリップ",
+    "first_appearance": "",
+    "description": "Flamingo Clip (フラミンゴクリップ, furamingo kurippu) is a skill to dodge an incoming tackle.",
     "image": "",
     "users": [
       {
@@ -1493,7 +693,9 @@
     "slug": "flash-raiju-shot",
     "name": "Flash Raiju Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=flash-raiju-shot",
-    "description": "",
+    "japanese_name": "閃光雷獣シュート",
+    "first_appearance": "",
+    "description": "Flash Raiju Shot (閃光雷獣シュート, senkō raijū shūto) is a special combination technique from Kojiro Hyuga, Tsubasa & Taro Misaki.",
     "image": "",
     "users": [
       {
@@ -1514,10 +716,22 @@
     ]
   },
   {
+    "slug": "flores-dribble",
+    "name": "Flores Dribble",
+    "url": "/univers/olive-et-tom/technique.html?slug=flores-dribble",
+    "japanese_name": "フローレスドリブル",
+    "first_appearance": "",
+    "description": "The Flores Dribble (フローレスドリブル) is a dribble move from Rise of New Champions.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "flying-drive-shot",
     "name": "Flying Drive Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=flying-drive-shot",
-    "description": "",
+    "japanese_name": "フライングドライブシュート",
+    "first_appearance": "",
+    "description": "This is Tsubasa's special mid-range shot learnt after the 3-year-gap during his time in Brazil, thanks to Roberto's teachings. It is also used by his rivals Natureza, Santana and football genius Misugi later on, when playing for FC Tokyo.",
     "image": "",
     "users": [
       {
@@ -1563,24 +777,32 @@
     ]
   },
   {
-    "slug": "forward-rotation",
-    "name": "Forward Rotation",
-    "url": "/univers/olive-et-tom/technique.html?slug=forward-rotation",
-    "description": "",
+    "slug": "flying-kneel-shot",
+    "name": "Flying Kneel Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=flying-kneel-shot",
+    "japanese_name": "フライングニールシュート",
+    "first_appearance": "",
+    "description": "An aerial shot that changes the trajectory of the ball with a spinning kick from above.",
     "image": "",
-    "users": [
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      }
-    ]
+    "users": []
+  },
+  {
+    "slug": "forcible-dribble",
+    "name": "Forcible Dribble",
+    "url": "/univers/olive-et-tom/technique.html?slug=forcible-dribble",
+    "japanese_name": "強引なドリブル",
+    "first_appearance": "",
+    "description": "The player runs towards the opponent, using mere physical strength to break through forcibly. This is the equivalent to the Straight Line Dribble in the Tecmo game series.",
+    "image": "",
+    "users": []
   },
   {
     "slug": "forward-somersault-block",
     "name": "Forward Somersault Block",
     "url": "/univers/olive-et-tom/technique.html?slug=forward-somersault-block",
-    "description": "",
+    "japanese_name": "前転ブロック",
+    "first_appearance": "",
+    "description": "The Forward Somersault Block (前転ブロック, zenten burokku) is an individual's skill block by using the heel of the player's foot.",
     "image": "",
     "users": [
       {
@@ -1606,10 +828,22 @@
     ]
   },
   {
+    "slug": "forward-somersault-dribble",
+    "name": "Forward Somersault Dribble",
+    "url": "/univers/olive-et-tom/technique.html?slug=forward-somersault-dribble",
+    "japanese_name": "前転ドリブル",
+    "first_appearance": "",
+    "description": "The Forward Somersault Dribble (前転ドリブル) is a dribble performed by Juan Diaz.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "forward-somersault-shot",
     "name": "Forward Somersault Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=forward-somersault-shot",
-    "description": "",
+    "japanese_name": "前転シュート",
+    "first_appearance": "",
+    "description": "The Forward Somersault Shot (前転シュート, zenten shūto) is an individual's skill shot by using the heel of the player's foot.",
     "image": "",
     "users": [
       {
@@ -1625,24 +859,12 @@
     ]
   },
   {
-    "slug": "franz-schester-ronc",
-    "name": "Franz Schester (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=franz-schester-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      }
-    ]
-  },
-  {
     "slug": "french-style-dribble",
     "name": "French-style Dribble",
     "url": "/univers/olive-et-tom/technique.html?slug=french-style-dribble",
-    "description": "",
+    "japanese_name": "フランス式ドリブル",
+    "first_appearance": "",
+    "description": "The French-style Dribble (フランス式ドリブル, furansu shiki doriburu) is used by players who have acquired a French-style while dribbling.",
     "image": "",
     "users": [
       {
@@ -1661,7 +883,9 @@
     "slug": "full-metal-phantom",
     "name": "Full Metal Phantom",
     "url": "/univers/olive-et-tom/technique.html?slug=full-metal-phantom",
-    "description": "",
+    "japanese_name": "フルメタルファントム",
+    "first_appearance": "",
+    "description": "This is a cooperation technique between Santana and Natureza, that they created in order to further differentiate themselves from the Japanese Golden Combi, Tsubasa and Misaki, and their usual Twin Shot.",
     "image": "",
     "users": [
       {
@@ -1677,307 +901,28 @@
     ]
   },
   {
-    "slug": "furano",
-    "name": "Furano",
-    "url": "/univers/olive-et-tom/technique.html?slug=furano",
-    "description": "",
+    "slug": "furukawa-turn",
+    "name": "Furukawa Turn",
+    "url": "/univers/olive-et-tom/technique.html?slug=furukawa-turn",
+    "japanese_name": "古川ターン",
+    "first_appearance": "Captain Tsubasa: Golden-23, chapter 104",
+    "description": "Furukawa Turn (古川ターン, furukawa tān) is Kotaro's trademark dribble",
     "image": "",
-    "users": [
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      }
-    ]
-  },
-  {
-    "slug": "furano-middle-school",
-    "name": "Furano middle school",
-    "url": "/univers/olive-et-tom/technique.html?slug=furano-middle-school",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      }
-    ]
-  },
-  {
-    "slug": "galvan",
-    "name": "Galvan",
-    "url": "/univers/olive-et-tom/technique.html?slug=galvan",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      }
-    ]
-  },
-  {
-    "slug": "galvan-ronc",
-    "name": "Galvan (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=galvan-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      }
-    ]
-  },
-  {
-    "slug": "genzo-wakabayashi",
-    "name": "Genzo Wakabayashi",
-    "url": "/univers/olive-et-tom/technique.html?slug=genzo-wakabayashi",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
-    "slug": "genzo-wakabayashi-ronc",
-    "name": "Genzo Wakabayashi (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=genzo-wakabayashi-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      }
-    ]
-  },
-  {
-    "slug": "germany-jr",
-    "name": "Germany Jr.",
-    "url": "/univers/olive-et-tom/technique.html?slug=germany-jr",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      }
-    ]
-  },
-  {
-    "slug": "gino-hernandez-ronc",
-    "name": "Gino Hernandez (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=gino-hernandez-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      }
-    ]
-  },
-  {
-    "slug": "golden-age",
-    "name": "Golden Age",
-    "url": "/univers/olive-et-tom/technique.html?slug=golden-age",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
-  },
-  {
-    "slug": "golden-combi",
-    "name": "Golden Combi",
-    "url": "/univers/olive-et-tom/technique.html?slug=golden-combi",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "yuzo-morisaki",
-        "name": "Yuzo Morisaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "golden-eagle-shot",
     "name": "Golden Eagle Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=golden-eagle-shot",
-    "description": "",
+    "japanese_name": "ゴールデンイーグルショット",
+    "first_appearance": "",
+    "description": "The Golden Eagle Shot (ゴールデンイーグルショット, gōruden īguru shotto) is Carlos Santana's trademark shot.",
     "image": "",
     "users": [
       {
         "slug": "carlos-santana",
         "name": "Carlos Santana",
         "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
-    "slug": "golden-right-hand",
-    "name": "Golden Right Hand",
-    "url": "/univers/olive-et-tom/technique.html?slug=golden-right-hand",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "gino-hernandez",
-        "name": "Gino Hernandez",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gino-hernandez"
-      }
-    ]
-  },
-  {
-    "slug": "golden-23",
-    "name": "Golden-23",
-    "url": "/univers/olive-et-tom/technique.html?slug=golden-23",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "makoto-soda",
-        "name": "Makoto Soda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
-      },
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      }
-    ]
-  },
-  {
-    "slug": "gordoba-gonzales",
-    "name": "Gordoba Gonzales",
-    "url": "/univers/olive-et-tom/technique.html?slug=gordoba-gonzales",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "gozza",
-    "name": "Gozza",
-    "url": "/univers/olive-et-tom/technique.html?slug=gozza",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "iuliano-gozza",
-        "name": "Iuliano Gozza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=iuliano-gozza"
       }
     ]
   },
@@ -1985,7 +930,9 @@
     "slug": "green-cut-pass",
     "name": "Green-Cut Pass",
     "url": "/univers/olive-et-tom/technique.html?slug=green-cut-pass",
-    "description": "",
+    "japanese_name": "グリーンカットパス",
+    "first_appearance": "",
+    "description": "The technique first appeared on World Youth ch.29 \"Soldiers who grow up\". It is a special skill that puts a sharp backspin on a middle pass. It's a technical pass that bounces once before reaching a teammate, making it easy to trap.",
     "image": "",
     "users": [
       {
@@ -2011,71 +958,22 @@
     ]
   },
   {
-    "slug": "hajime-taki-ronc",
-    "name": "Hajime Taki (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=hajime-taki-ronc",
-    "description": "",
+    "slug": "heavenly-shot",
+    "name": "Heavenly Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=heavenly-shot",
+    "japanese_name": "ヘブンリーシュート",
+    "first_appearance": "",
+    "description": "This shot appears in Captain Tsubasa: Rise of New Champions. With an intense backspin from flying through the air, this floats up right in front of goal.",
     "image": "",
-    "users": [
-      {
-        "slug": "hajime-taki",
-        "name": "Hajime Taki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
-      }
-    ]
-  },
-  {
-    "slug": "hamburger-sv",
-    "name": "Hamburger SV",
-    "url": "/univers/olive-et-tom/technique.html?slug=hamburger-sv",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
-    "slug": "hamburger-sv-jr-youth",
-    "name": "Hamburger SV Jr. Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=hamburger-sv-jr-youth",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      }
-    ]
-  },
-  {
-    "slug": "hanji-urabe-ronc",
-    "name": "Hanji Urabe (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=hanji-urabe-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hanji-urabe",
-        "name": "Hanji Urabe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hanji-urabe"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "hedgehog-dribble",
     "name": "Hedgehog Dribble",
     "url": "/univers/olive-et-tom/technique.html?slug=hedgehog-dribble",
-    "description": "",
+    "japanese_name": "ハリネズミドリブル",
+    "first_appearance": "",
+    "description": "The Hedgehog Dribble (ハリネズミドリブル, harinezumi doriburu) is an individual skill from the German Hermann Kaltz.",
     "image": "",
     "users": [
       {
@@ -2089,7 +987,9 @@
     "slug": "heel-lift",
     "name": "Heel Lift",
     "url": "/univers/olive-et-tom/technique.html?slug=heel-lift",
-    "description": "",
+    "japanese_name": "ヒールリフト",
+    "first_appearance": "",
+    "description": "In this technique, the player kicks the ball up with his heel, sending it over the heads of his opponents, then slips past them while the ball is outside their field of vision.",
     "image": "",
     "users": [
       {
@@ -2143,7 +1043,9 @@
     "slug": "heel-pass",
     "name": "Heel Pass",
     "url": "/univers/olive-et-tom/technique.html?slug=heel-pass",
-    "description": "",
+    "japanese_name": "ヒールパス",
+    "first_appearance": "",
+    "description": "The Heel Pass (ヒールパス), also called Back-Heel Pass (バックヒールパス), is an individual skill play which is used to pass and trick opponents.",
     "image": "",
     "users": [
       {
@@ -2179,38 +1081,32 @@
     ]
   },
   {
-    "slug": "hermann-kaltz-ronc",
-    "name": "Hermann Kaltz (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=hermann-kaltz-ronc",
-    "description": "",
+    "slug": "hi-dragon-shot",
+    "name": "Hi-Dragon Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=hi-dragon-shot",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "This unlockable Super Shot first appears in Captain Tsubasa: Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "hernandez",
-    "name": "Hernandez",
-    "url": "/univers/olive-et-tom/technique.html?slug=hernandez",
-    "description": "",
+    "slug": "high-fire-shot",
+    "name": "High Fire Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=high-fire-shot",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "An unbeatable shot that makes use of practical experience to add greater flames to the Fire Shot.",
     "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "high-speed-tornado-sky-alpha",
     "name": "High Speed Tornado Sky Alpha",
     "url": "/univers/olive-et-tom/technique.html?slug=high-speed-tornado-sky-alpha",
-    "description": "",
+    "japanese_name": "ハイスピードトルネードスカイアルファ",
+    "first_appearance": "",
+    "description": "During the Madrid Olympics, Tsubasa and Misaki put all their efforts to surpass Santana and Natureza's Full Metal Phantom. This technique is a combination between Hino's Tornado Shot, Santana's Arrow Shot, Xiao Junguang's Reactive Fast Kick Quick Gun with Tsubasa's Rolling Overhead Kick and Misaki's Jumping Volley.",
     "image": "",
     "users": [
       {
@@ -2236,311 +1132,32 @@
     ]
   },
   {
-    "slug": "hikaru-matsuyama",
-    "name": "Hikaru Matsuyama",
-    "url": "/univers/olive-et-tom/technique.html?slug=hikaru-matsuyama",
-    "description": "",
+    "slug": "high-stinger-shot",
+    "name": "High Stinger Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=high-stinger-shot",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "The High Stinger Shot is Brian Cruyfford's Super Shot in Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "hikaru-matsuyama-ronc",
-    "name": "Hikaru Matsuyama (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=hikaru-matsuyama-ronc",
-    "description": "",
+    "slug": "hyper-twin-shot",
+    "name": "Hyper Twin Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=hyper-twin-shot",
+    "japanese_name": "ハイパーツインショット",
+    "first_appearance": "",
+    "description": "The Hyper Twin Shot (ハイパーツインショット, haipā tsuin shotto) is a combination shot of Batin and Caggiale.",
     "image": "",
-    "users": [
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      }
-    ]
-  },
-  {
-    "slug": "hino",
-    "name": "Hino",
-    "url": "/univers/olive-et-tom/technique.html?slug=hino",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      }
-    ]
-  },
-  {
-    "slug": "hiroshi-jito-ronc",
-    "name": "Hiroshi Jito (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=hiroshi-jito-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      }
-    ]
-  },
-  {
-    "slug": "hyuga",
-    "name": "Hyuga",
-    "url": "/univers/olive-et-tom/technique.html?slug=hyuga",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      },
-      {
-        "slug": "iuliano-gozza",
-        "name": "Iuliano Gozza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=iuliano-gozza"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "hyuga-kojiro",
-    "name": "Hyuga Kojiro",
-    "url": "/univers/olive-et-tom/technique.html?slug=hyuga-kojiro",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
-  },
-  {
-    "slug": "ishizaki",
-    "name": "Ishizaki",
-    "url": "/univers/olive-et-tom/technique.html?slug=ishizaki",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      }
-    ]
-  },
-  {
-    "slug": "izawa",
-    "name": "Izawa",
-    "url": "/univers/olive-et-tom/technique.html?slug=izawa",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hajime-taki",
-        "name": "Hajime Taki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
-      },
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
-      }
-    ]
-  },
-  {
-    "slug": "j-boys-challenge",
-    "name": "J Boys' Challenge",
-    "url": "/univers/olive-et-tom/technique.html?slug=j-boys-challenge",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      }
-    ]
-  },
-  {
-    "slug": "japan-jr",
-    "name": "Japan Jr.",
-    "url": "/univers/olive-et-tom/technique.html?slug=japan-jr",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      }
-    ]
-  },
-  {
-    "slug": "japan-youth",
-    "name": "Japan Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=japan-youth",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
-    "slug": "jito",
-    "name": "Jito",
-    "url": "/univers/olive-et-tom/technique.html?slug=jito",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      }
-    ]
-  },
-  {
-    "slug": "juan-diaz",
-    "name": "Juan Diaz",
-    "url": "/univers/olive-et-tom/technique.html?slug=juan-diaz",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "juan-diaz-ronc",
-    "name": "Juan Diaz (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=juan-diaz-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "jumping-header",
     "name": "Jumping Header",
     "url": "/univers/olive-et-tom/technique.html?slug=jumping-header",
-    "description": "",
+    "japanese_name": "ジャンピングヘッド",
+    "first_appearance": "",
+    "description": "This technique requires that the player possesses sufficient skill to keep his balance in mid-air while accurately hitting the ball. Tall forwards such as Wakashimazu and Hyuga can use the Jumping Header not only for scoring, but also for post-play purposes.",
     "image": "",
     "users": [
       {
@@ -2619,7 +1236,9 @@
     "slug": "jumping-peregrine-falcon-volley",
     "name": "Jumping Peregrine Falcon Volley",
     "url": "/univers/olive-et-tom/technique.html?slug=jumping-peregrine-falcon-volley",
-    "description": "",
+    "japanese_name": "ジャンピング隼ーボレー",
+    "first_appearance": "",
+    "description": "Jumping Peregrine Falcon Volley (ジャンピング隼ーボレー, janpingu hayabusa borē) is a Peregrine Falcon Shot used in mid air in an angled direction before it has time to reach the ground.",
     "image": "",
     "users": [
       {
@@ -2638,7 +1257,9 @@
     "slug": "jumping-tiger-volley",
     "name": "Jumping Tiger Volley",
     "url": "/univers/olive-et-tom/technique.html?slug=jumping-tiger-volley",
-    "description": "",
+    "japanese_name": "ジャンピングタイガーボレー",
+    "first_appearance": "",
+    "description": "Jumping Tiger Volley (ジャンピングタイガーボレー, janpingu taigā borē) is a Tiger Shot (possibly even the Neo Tiger Shot) used in mid air in an angled direction before it has time to reach the ground.",
     "image": "",
     "users": [
       {
@@ -2657,7 +1278,9 @@
     "slug": "jumping-volley",
     "name": "Jumping Volley",
     "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley",
-    "description": "",
+    "japanese_name": "ジャンピングボレー",
+    "first_appearance": "",
+    "description": "Jumping Volley (ジャンピングボレー) is a way to shoot a ball directly in mid air with the leg in an angled direction before it has time to reach the ground.",
     "image": "",
     "users": [
       {
@@ -2753,375 +1376,52 @@
     ]
   },
   {
-    "slug": "jun-misugi",
-    "name": "Jun Misugi",
-    "url": "/univers/olive-et-tom/technique.html?slug=jun-misugi",
-    "description": "",
+    "slug": "justice-blake",
+    "name": "Justice Blake",
+    "url": "/univers/olive-et-tom/technique.html?slug=justice-blake",
+    "japanese_name": "ジャスティス・ブレイク",
+    "first_appearance": "",
+    "description": "\"A combo shot making use of incredible power adjusted by fine control.\"",
     "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "jun-misugi-ronc",
-    "name": "Jun Misugi (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=jun-misugi-ronc",
-    "description": "",
+    "slug": "knuckle-shot",
+    "name": "Knuckle Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=knuckle-shot",
+    "japanese_name": "ナックルシュート",
+    "first_appearance": "",
+    "description": "This shot loses its spin mid-flight, causing it to fall unexpectedly.",
     "image": "",
-    "users": [
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "kamisori-shot",
-    "name": "Kamisori Shot",
-    "url": "/univers/olive-et-tom/technique.html?slug=kamisori-shot",
-    "description": "",
+    "slug": "la-orquesta",
+    "name": "La Orquesta",
+    "url": "/univers/olive-et-tom/technique.html?slug=la-orquesta",
+    "japanese_name": "ラ・オルケスタ",
+    "first_appearance": "",
+    "description": "This technique was featured in Captain Tsubasa 5. Utilizing the whole team's speed and technique, Campione performs a high speed one touch one-two combo, similar to tiki taka playstyle.",
     "image": "",
-    "users": [
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "karl-heinz-schneider",
-    "name": "Karl Heinz Schneider",
-    "url": "/univers/olive-et-tom/technique.html?slug=karl-heinz-schneider",
-    "description": "",
+    "slug": "lethal-twin",
+    "name": "Lethal Twin",
+    "url": "/univers/olive-et-tom/technique.html?slug=lethal-twin",
+    "japanese_name": "リーサルツイン",
+    "first_appearance": "",
+    "description": "The Lethal Twin (リーサルツイン, rīsaru tsuin) is a combination shot of Santana and Coimbra.",
     "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
-    "slug": "karl-heinz-schneider-ronc",
-    "name": "Karl Heinz Schneider (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=karl-heinz-schneider-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      }
-    ]
-  },
-  {
-    "slug": "kashima-antlers",
-    "name": "Kashima Antlers",
-    "url": "/univers/olive-et-tom/technique.html?slug=kashima-antlers",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      }
-    ]
-  },
-  {
-    "slug": "kazuki-sorimachi",
-    "name": "Kazuki Sorimachi",
-    "url": "/univers/olive-et-tom/technique.html?slug=kazuki-sorimachi",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      }
-    ]
-  },
-  {
-    "slug": "kazuki-sorimachi-ronc",
-    "name": "Kazuki Sorimachi (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=kazuki-sorimachi-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      }
-    ]
-  },
-  {
-    "slug": "kazumasa-oda",
-    "name": "Kazumasa Oda",
-    "url": "/univers/olive-et-tom/technique.html?slug=kazumasa-oda",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      }
-    ]
-  },
-  {
-    "slug": "ken-wakashimazu",
-    "name": "Ken Wakashimazu",
-    "url": "/univers/olive-et-tom/technique.html?slug=ken-wakashimazu",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "khongsawat-brothers",
-    "name": "Khongsawat brothers",
-    "url": "/univers/olive-et-tom/technique.html?slug=khongsawat-brothers",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "singprasert-bunnag",
-        "name": "Singprasert Bunnag",
-        "url": "/univers/olive-et-tom/personnage.html?slug=singprasert-bunnag"
-      }
-    ]
-  },
-  {
-    "slug": "kids-dream",
-    "name": "Kids' Dream",
-    "url": "/univers/olive-et-tom/technique.html?slug=kids-dream",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      }
-    ]
-  },
-  {
-    "slug": "kisugi",
-    "name": "Kisugi",
-    "url": "/univers/olive-et-tom/technique.html?slug=kisugi",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hajime-taki",
-        "name": "Hajime Taki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
-      },
-      {
-        "slug": "mamoru-izawa",
-        "name": "Mamoru Izawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
-      },
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
-      }
-    ]
-  },
-  {
-    "slug": "kojiro-hyuga",
-    "name": "Kojiro Hyuga",
-    "url": "/univers/olive-et-tom/technique.html?slug=kojiro-hyuga",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "kojiro-hyuga-ronc",
-    "name": "Kojiro Hyuga (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=kojiro-hyuga-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      }
-    ]
-  },
-  {
-    "slug": "kotaro-furukawa",
-    "name": "Kotaro Furukawa",
-    "url": "/univers/olive-et-tom/technique.html?slug=kotaro-furukawa",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      }
-    ]
-  },
-  {
-    "slug": "kozo-kira",
-    "name": "Kozo Kira",
-    "url": "/univers/olive-et-tom/technique.html?slug=kozo-kira",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      }
-    ]
-  },
-  {
-    "slug": "larson",
-    "name": "Larson",
-    "url": "/univers/olive-et-tom/technique.html?slug=larson",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      }
-    ]
-  },
-  {
-    "slug": "lee-yong-un",
-    "name": "Lee Yong-un",
-    "url": "/univers/olive-et-tom/technique.html?slug=lee-yong-un",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "cha-in-cheon",
-        "name": "Cha In Cheon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=cha-in-cheon"
-      }
-    ]
-  },
-  {
-    "slug": "levin",
-    "name": "Levin",
-    "url": "/univers/olive-et-tom/technique.html?slug=levin",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "levin-shot",
     "name": "Levin Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=levin-shot",
-    "description": "",
+    "japanese_name": "レヴィンシュート",
+    "first_appearance": "",
+    "description": "Levin, the \"Field's God of Destruction\", gives this shot a bullet-like spin. Speed is sacrificed in the process, but the power created is great enough to shatter a stone statue.",
     "image": "",
     "users": [
       {
@@ -3145,7 +1445,9 @@
     "slug": "loop-pass",
     "name": "Loop Pass",
     "url": "/univers/olive-et-tom/technique.html?slug=loop-pass",
-    "description": "",
+    "japanese_name": "ループパス",
+    "first_appearance": "",
+    "description": "This pass travels softly over the heads of the opposition, with a high, circular course. Its trajectory makes it difficult to intercept, allowing it to land gently at the receiver's feet.",
     "image": "",
     "users": [
       {
@@ -3169,7 +1471,9 @@
     "slug": "loop-shot",
     "name": "Loop Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=loop-shot",
-    "description": "",
+    "japanese_name": "ループシュート",
+    "first_appearance": "",
+    "description": "This technique is usually used in one-on-one situations. The player kicks the ball upwards as if scooping it up from underneath, giving the shot a high, circular course that passes over the head of the keeper and then comes back down into the goal.",
     "image": "",
     "users": [
       {
@@ -3205,273 +1509,52 @@
     ]
   },
   {
-    "slug": "louis-napoleon-ronc",
-    "name": "Louis Napoleon (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=louis-napoleon-ronc",
-    "description": "",
+    "slug": "lucha-aerial-attack",
+    "name": "Lucha Aerial Attack",
+    "url": "/univers/olive-et-tom/technique.html?slug=lucha-aerial-attack",
+    "japanese_name": "空中ルチャ殺法",
+    "first_appearance": "",
+    "description": "The overwhelming aerial technique of the Five Soldiers of the Aztec Sun. One player helps launch the other into the air for a heading pass, then another runs in to unleash a volley shot.",
     "image": "",
-    "users": [
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "luciano-leo",
-    "name": "Luciano Leo",
-    "url": "/univers/olive-et-tom/technique.html?slug=luciano-leo",
-    "description": "",
+    "slug": "matador-trick",
+    "name": "Matador Trick",
+    "url": "/univers/olive-et-tom/technique.html?slug=matador-trick",
+    "japanese_name": "マタドールトリック",
+    "first_appearance": "",
+    "description": "The Matador Trick (マタドールトリック) is a dribble move from Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "luciano-leo-ronc",
-    "name": "Luciano Leo (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=luciano-leo-ronc",
-    "description": "",
+    "slug": "megalozone-shot",
+    "name": "Megalozone Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=megalozone-shot",
+    "japanese_name": "メガロゾーンシュート",
+    "first_appearance": "",
+    "description": "This is Stratto's trademark technique and his only special shot, which usually makes keepers fly. It was developed by Stratto while playing for Sao Paulo alongside Tsubasa, in order to settle the debt with Claudio Meao.",
     "image": "",
-    "users": [
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "madrid-olympics-tournament",
-    "name": "Madrid Olympics tournament",
-    "url": "/univers/olive-et-tom/technique.html?slug=madrid-olympics-tournament",
-    "description": "",
+    "slug": "miracle-bound",
+    "name": "Miracle Bound",
+    "url": "/univers/olive-et-tom/technique.html?slug=miracle-bound",
+    "japanese_name": "ミラクルバウンド",
+    "first_appearance": "",
+    "description": "Miracle Bound (ミラクルバウンド) is a supershot move from Rise of New Champions, an improvement of the Miracle Overhead Shot, with its own sequence of acrobatic moves.",
     "image": "",
-    "users": [
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "maki-akamine",
-    "name": "Maki Akamine",
-    "url": "/univers/olive-et-tom/technique.html?slug=maki-akamine",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      }
-    ]
-  },
-  {
-    "slug": "makoto-soda",
-    "name": "Makoto Soda",
-    "url": "/univers/olive-et-tom/technique.html?slug=makoto-soda",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      }
-    ]
-  },
-  {
-    "slug": "makoto-soda-ronc",
-    "name": "Makoto Soda (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=makoto-soda-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "makoto-soda",
-        "name": "Makoto Soda",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makoto-soda"
-      }
-    ]
-  },
-  {
-    "slug": "mamoru-izawa",
-    "name": "Mamoru Izawa",
-    "url": "/univers/olive-et-tom/technique.html?slug=mamoru-izawa",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      }
-    ]
-  },
-  {
-    "slug": "mamoru-izawa-ronc",
-    "name": "Mamoru Izawa (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=mamoru-izawa-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "mamoru-izawa",
-        "name": "Mamoru Izawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
-      }
-    ]
-  },
-  {
-    "slug": "manabu-okawa",
-    "name": "Manabu Okawa",
-    "url": "/univers/olive-et-tom/technique.html?slug=manabu-okawa",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
-  },
-  {
-    "slug": "manfred-margus-ronc",
-    "name": "Manfred Margus (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=manfred-margus-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "manfred-margus",
-        "name": "Manfred Margus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=manfred-margus"
-      }
-    ]
-  },
-  {
-    "slug": "marientos",
-    "name": "Marientos",
-    "url": "/univers/olive-et-tom/technique.html?slug=marientos",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
-      }
-    ]
-  },
-  {
-    "slug": "matsuyama",
-    "name": "Matsuyama",
-    "url": "/univers/olive-et-tom/technique.html?slug=matsuyama",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "meiwa-fc",
-    "name": "Meiwa FC",
-    "url": "/univers/olive-et-tom/technique.html?slug=meiwa-fc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "michael",
-    "name": "Michael",
-    "url": "/univers/olive-et-tom/technique.html?slug=michael",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "michel-yamada",
-    "name": "Michel Yamada",
-    "url": "/univers/olive-et-tom/technique.html?slug=michel-yamada",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      }
-    ]
-  },
-  {
-    "slug": "minato-gamo",
-    "name": "Minato Gamo",
-    "url": "/univers/olive-et-tom/technique.html?slug=minato-gamo",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "miracle-overhead-shot",
     "name": "Miracle Overhead Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=miracle-overhead-shot",
-    "description": "",
+    "japanese_name": "ミラクルオーバーヘッドシュート",
+    "first_appearance": "",
+    "description": "Miracle Overhead Shot (ミラクルオーバーヘッドシュート) is a more advanced technique of the Overhead Kick, with a sequence of acrobatic moves.",
     "image": "",
     "users": [
       {
@@ -3482,24 +1565,22 @@
     ]
   },
   {
-    "slug": "miraculous-overhead-shot",
-    "name": "Miraculous Overhead Shot",
-    "url": "/univers/olive-et-tom/technique.html?slug=miraculous-overhead-shot",
-    "description": "",
+    "slug": "mirage-chapeau",
+    "name": "Mirage Chapeau",
+    "url": "/univers/olive-et-tom/technique.html?slug=mirage-chapeau",
+    "japanese_name": "ミラージュシャペウ",
+    "first_appearance": "",
+    "description": "The Mirage Chapeau (ミラージュシャペウ) is a dribble move from Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "mirage-shot",
     "name": "Mirage Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=mirage-shot",
-    "description": "",
+    "japanese_name": "ミラージュショット",
+    "first_appearance": "",
+    "description": "When Schneider kicks the ball, it looks like the ball is covered with fire and it travels at a really fast speed. Its special characteristic is that of making a color-light illusion effect to anyone who tried to counter it. It is the equivalent to his canon counterpart, the Fire Shot.",
     "image": "",
     "users": [
       {
@@ -3510,238 +1591,32 @@
     ]
   },
   {
-    "slug": "misaki",
-    "name": "Misaki",
-    "url": "/univers/olive-et-tom/technique.html?slug=misaki",
-    "description": "",
+    "slug": "mirage-shot-tecmo",
+    "name": "Mirage Shot (Tecmo)",
+    "url": "/univers/olive-et-tom/technique.html?slug=mirage-shot-tecmo",
+    "japanese_name": "ミラージュシュート",
+    "first_appearance": "",
+    "description": "This is a shot that leaves multiple afterimages, creating a vivid illusion.",
     "image": "",
-    "users": [
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "misugi",
-    "name": "Misugi",
-    "url": "/univers/olive-et-tom/technique.html?slug=misugi",
-    "description": "",
+    "slug": "neo-drive-shot",
+    "name": "Neo Drive Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=neo-drive-shot",
+    "japanese_name": "ネオドライブシュート",
+    "first_appearance": "",
+    "description": "Neo Drive Shot (ネオドライブシュート, neo doraibu shūto) is the improvement of the Drive Shot, exclusive to Tsubasa Ozora in Rise of New Champions and World Fighters.",
     "image": "",
-    "users": [
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "mitsuru-sano-ronc",
-    "name": "Mitsuru Sano (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=mitsuru-sano-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      }
-    ]
-  },
-  {
-    "slug": "morisaki",
-    "name": "Morisaki",
-    "url": "/univers/olive-et-tom/technique.html?slug=morisaki",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      }
-    ]
-  },
-  {
-    "slug": "mouse-dribble",
-    "name": "Mouse Dribble",
-    "url": "/univers/olive-et-tom/technique.html?slug=mouse-dribble",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      }
-    ]
-  },
-  {
-    "slug": "muller",
-    "name": "Muller",
-    "url": "/univers/olive-et-tom/technique.html?slug=muller",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      }
-    ]
-  },
-  {
-    "slug": "munemasa-katagiri",
-    "name": "Munemasa Katagiri",
-    "url": "/univers/olive-et-tom/technique.html?slug=munemasa-katagiri",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      }
-    ]
-  },
-  {
-    "slug": "nankatsu-elementary-school",
-    "name": "Nankatsu elementary school",
-    "url": "/univers/olive-et-tom/technique.html?slug=nankatsu-elementary-school",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
-  },
-  {
-    "slug": "nankatsu-middle-school",
-    "name": "Nankatsu middle school",
-    "url": "/univers/olive-et-tom/technique.html?slug=nankatsu-middle-school",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      }
-    ]
-  },
-  {
-    "slug": "nankatsu-sc",
-    "name": "Nankatsu SC",
-    "url": "/univers/olive-et-tom/technique.html?slug=nankatsu-sc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "napoleon",
-    "name": "Napoleon",
-    "url": "/univers/olive-et-tom/technique.html?slug=napoleon",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      }
-    ]
-  },
-  {
-    "slug": "natureza",
-    "name": "Natureza",
-    "url": "/univers/olive-et-tom/technique.html?slug=natureza",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "neo-drive-tiger-twin-shot",
     "name": "Neo Drive Tiger Twin Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=neo-drive-tiger-twin-shot",
-    "description": "",
+    "japanese_name": "ネオドライブタイガーツインシュート",
+    "first_appearance": "",
+    "description": "The Neo Drive Tiger Twin Shot (ドライブタイガーツインシュート) is the super shot (combo) between Tsubasa Ozora and Kojiro Hyuga in Rise of New Champions.",
     "image": "",
     "users": [
       {
@@ -3755,7 +1630,9 @@
     "slug": "neo-fire-shot",
     "name": "Neo Fire Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=neo-fire-shot",
-    "description": "",
+    "japanese_name": "ネオ・ファイヤーショット",
+    "first_appearance": "",
+    "description": "Schneider's authentic special shot. A kick with more power than the net-burning Fire Shot. It assails the opponent's goal with an infernal force.",
     "image": "",
     "users": [
       {
@@ -3769,7 +1646,9 @@
     "slug": "neo-tiger-shot",
     "name": "Neo Tiger Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=neo-tiger-shot",
-    "description": "",
+    "japanese_name": "ネオタイガーショット",
+    "first_appearance": "",
+    "description": "Neo Tiger Shot (ネオタイガーショット, neo taigā shotto) is the improvement of the Tiger Shot; this is a more powerful straight shot and a trademark technique of Kojiro Hyuga.",
     "image": "",
     "users": [
       {
@@ -3780,35 +1659,33 @@
     ]
   },
   {
-    "slug": "nitta",
-    "name": "Nitta",
-    "url": "/univers/olive-et-tom/technique.html?slug=nitta",
-    "description": "",
+    "slug": "no-rotation-shot",
+    "name": "No Rotation Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=no-rotation-shot",
+    "japanese_name": "無回転シュート",
+    "first_appearance": "Golden-23, chapter 36",
+    "description": "No Rotation Shot (無回転シュート, mukaiten shūto) is Ochado's trademark shot",
     "image": "",
     "users": [
       {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
+        "slug": "brian-cruyfford",
+        "name": "Brian Cruyfford",
+        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
       },
       {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      }
-    ]
-  },
-  {
-    "slug": "nozaki",
-    "name": "Nozaki",
-    "url": "/univers/olive-et-tom/technique.html?slug=nozaki",
-    "description": "",
-    "image": "",
-    "users": [
+        "slug": "karl-heinz-schneider",
+        "name": "Karl Heinz Schneider",
+        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
+      },
       {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
+        "slug": "natureza",
+        "name": "Natureza",
+        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -3816,7 +1693,9 @@
     "slug": "offside-trap",
     "name": "Offside Trap",
     "url": "/univers/olive-et-tom/technique.html?slug=offside-trap",
-    "description": "",
+    "japanese_name": "オフサイドトラップ",
+    "first_appearance": "",
+    "description": "The Offside Trap (オフサイドトラップ, ofusaido torappu) is a tactic used by very strategically-talented or experienced players.",
     "image": "",
     "users": [
       {
@@ -3824,128 +1703,6 @@
         "name": "Brian Cruyfford",
         "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
       },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      }
-    ]
-  },
-  {
-    "slug": "olympic-argentina",
-    "name": "Olympic Argentina",
-    "url": "/univers/olive-et-tom/technique.html?slug=olympic-argentina",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "olympic-germany",
-    "name": "Olympic Germany",
-    "url": "/univers/olive-et-tom/technique.html?slug=olympic-germany",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "gakuto-igawa",
-        "name": "Gakuto Igawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=gakuto-igawa"
-      },
-      {
-        "slug": "yuzo-morisaki",
-        "name": "Yuzo Morisaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
-      }
-    ]
-  },
-  {
-    "slug": "olympic-japan",
-    "name": "Olympic Japan",
-    "url": "/univers/olive-et-tom/technique.html?slug=olympic-japan",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      }
-    ]
-  },
-  {
-    "slug": "olympic-mexico",
-    "name": "Olympic Mexico",
-    "url": "/univers/olive-et-tom/technique.html?slug=olympic-mexico",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      }
-    ]
-  },
-  {
-    "slug": "olympic-netherlands",
-    "name": "Olympic Netherlands",
-    "url": "/univers/olive-et-tom/technique.html?slug=olympic-netherlands",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
-      }
-    ]
-  },
-  {
-    "slug": "olympic-spain",
-    "name": "Olympic Spain",
-    "url": "/univers/olive-et-tom/technique.html?slug=olympic-spain",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      }
-    ]
-  },
-  {
-    "slug": "otomo-middle-school",
-    "name": "Otomo Middle School",
-    "url": "/univers/olive-et-tom/technique.html?slug=otomo-middle-school",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "overhead",
-    "name": "Overhead",
-    "url": "/univers/olive-et-tom/technique.html?slug=overhead",
-    "description": "",
-    "image": "",
-    "users": [
       {
         "slug": "elle-sid-pierre",
         "name": "Elle Sid Pierre",
@@ -3962,7 +1719,9 @@
     "slug": "overhead-clear",
     "name": "Overhead Clear",
     "url": "/univers/olive-et-tom/technique.html?slug=overhead-clear",
-    "description": "",
+    "japanese_name": "オーバーヘッドクリア",
+    "first_appearance": "",
+    "description": "The Overhead Clear (オーバーヘッドクリア) is a block used by some players in the manga series and the Tecmo game series.",
     "image": "",
     "users": [
       {
@@ -3986,7 +1745,9 @@
     "slug": "overhead-fire",
     "name": "Overhead Fire",
     "url": "/univers/olive-et-tom/technique.html?slug=overhead-fire",
-    "description": "",
+    "japanese_name": "ーオーバーヘッド",
+    "first_appearance": "",
+    "description": "This is an Overhead Kick made with the Fire Shot. It is considered an improvement to his trademark special shot. This technique should not be confused with the Fire Overhead Kick, since it is only a combination between a feint Overhead and then a regular Fire Shot.",
     "image": "",
     "users": [
       {
@@ -4000,7 +1761,9 @@
     "slug": "overhead-kick",
     "name": "Overhead Kick",
     "url": "/univers/olive-et-tom/technique.html?slug=overhead-kick",
-    "description": "",
+    "japanese_name": "オーバーヘッドキック",
+    "first_appearance": "",
+    "description": "Overhead Kick (オーバーヘッドキック, ōbāheddo kikku) is a way to shoot a ball in the air with the leg, rather than using, for example, a header.",
     "image": "",
     "users": [
       {
@@ -4089,7 +1852,9 @@
     "slug": "overhead-pass",
     "name": "Overhead Pass",
     "url": "/univers/olive-et-tom/technique.html?slug=overhead-pass",
-    "description": "",
+    "japanese_name": "オーバーヘッドパス",
+    "first_appearance": "",
+    "description": "The Overhead Pass (オーバーヘッドパス) is an aerial skill done by several players.",
     "image": "",
     "users": [
       {
@@ -4118,7 +1883,9 @@
     "slug": "overhead-tiger",
     "name": "Overhead Tiger",
     "url": "/univers/olive-et-tom/technique.html?slug=overhead-tiger",
-    "description": "",
+    "japanese_name": "オーバーヘッド",
+    "first_appearance": "",
+    "description": "This is basically a diving overhead made with the Tiger Shot developed by Hyuga. It is considered his greatest skill achieved during the National middle school tournament. With the assistance of Sawada to do a higher jump, he goes straight from a back-flip, doing a somersault and then turn it into an overhead kick, giving the ball incredible force.",
     "image": "",
     "users": [
       {
@@ -4132,7 +1899,9 @@
     "slug": "overlap",
     "name": "Overlap",
     "url": "/univers/olive-et-tom/technique.html?slug=overlap",
-    "description": "",
+    "japanese_name": "オーバーラップ",
+    "first_appearance": "",
+    "description": "When a defensive player runs beyond his midfielder or striker, without a switch of positions, to go into the attack, it is called an overlap. This is a way to outnumber the opponent and have more options available to attack, or even to exploit a weak point.",
     "image": "",
     "users": [
       {
@@ -4143,67 +1912,12 @@
     ]
   },
   {
-    "slug": "overseas-fierce-fights",
-    "name": "Overseas Fierce Fights",
-    "url": "/univers/olive-et-tom/technique.html?slug=overseas-fierce-fights",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
-      }
-    ]
-  },
-  {
-    "slug": "pascal",
-    "name": "Pascal",
-    "url": "/univers/olive-et-tom/technique.html?slug=pascal",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      }
-    ]
-  },
-  {
-    "slug": "pepe",
-    "name": "Pepe",
-    "url": "/univers/olive-et-tom/technique.html?slug=pepe",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
     "slug": "peregrine-falcon-running-volley",
     "name": "Peregrine Falcon Running Volley",
     "url": "/univers/olive-et-tom/technique.html?slug=peregrine-falcon-running-volley",
-    "description": "",
+    "japanese_name": "隼ランニングボレー",
+    "first_appearance": "",
+    "description": "The Peregrine Falcon Running Volley (隼ランニングボレー, hayabusa ranningu borē) is Shun Nitta's signature shot.",
     "image": "",
     "users": [
       {
@@ -4217,7 +1931,9 @@
     "slug": "peregrine-falcon-shot",
     "name": "Peregrine Falcon Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=peregrine-falcon-shot",
-    "description": "",
+    "japanese_name": "隼シュート",
+    "first_appearance": "",
+    "description": "The Peregrine Falcon Shot (隼シュート, hayabusa shūto) is Shun Nitta's signature shot, made possible by Nitta's naturally strong legs.",
     "image": "",
     "users": [
       {
@@ -4231,7 +1947,9 @@
     "slug": "peregrine-falcon-tackle",
     "name": "Peregrine Falcon Tackle",
     "url": "/univers/olive-et-tom/technique.html?slug=peregrine-falcon-tackle",
-    "description": "",
+    "japanese_name": "隼タックル",
+    "first_appearance": "",
+    "description": "Peregrine Falcon Tackle (隼タックル, hayabusa takkuru) is a tackle, exclusive to the Japanese Shun Nitta.",
     "image": "",
     "users": [
       {
@@ -4242,29 +1960,22 @@
     ]
   },
   {
-    "slug": "pierre",
-    "name": "Pierre",
-    "url": "/univers/olive-et-tom/technique.html?slug=pierre",
-    "description": "",
+    "slug": "picturesque-shot",
+    "name": "Picturesque Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=picturesque-shot",
+    "japanese_name": "ピクチャレスクシュート",
+    "first_appearance": "",
+    "description": "Picturesque Shot (ピクチャレスクシュート, pikucharesuku shūto) is the shot of Taro Misaki in Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "post-play",
     "name": "Post Play",
     "url": "/univers/olive-et-tom/technique.html?slug=post-play",
-    "description": "",
+    "japanese_name": "ポストプレイ",
+    "first_appearance": "",
+    "description": "To carry out this tactic, a player on the front line, or more specifically, in a dangerous position for the opponent, has to receive the ball from a cross, a long pass or a clear, then start an attack from there.",
     "image": "",
     "users": [
       {
@@ -4283,7 +1994,9 @@
     "slug": "power-defense",
     "name": "Power Defense",
     "url": "/univers/olive-et-tom/technique.html?slug=power-defense",
-    "description": "",
+    "japanese_name": "パワーディフェンス",
+    "first_appearance": "",
+    "description": "The Power Defense (パワーディフェンス, pawā difensu) is a way of defending used by players who have a lot of strength.",
     "image": "",
     "users": [
       {
@@ -4307,7 +2020,9 @@
     "slug": "power-dribble",
     "name": "Power Dribble",
     "url": "/univers/olive-et-tom/technique.html?slug=power-dribble",
-    "description": "",
+    "japanese_name": "パワードリブル",
+    "first_appearance": "",
+    "description": "In order to perform this technique, the player uses his brute strength to push forward, sending any opponents who try to stop him flying.",
     "image": "",
     "users": [
       {
@@ -4321,7 +2036,9 @@
     "slug": "quick-firing-gun-with-a-reactive-kick",
     "name": "Quick-Firing Gun with a Reactive Kick",
     "url": "/univers/olive-et-tom/technique.html?slug=quick-firing-gun-with-a-reactive-kick",
-    "description": "",
+    "japanese_name": "反動蹴速迅砲",
+    "first_appearance": "",
+    "description": "The user must counter a shot or clearance with a shot of their own. More specifically, the user strikes at the right timing on opponent's kick, adding his power to the shot and making the ball fly at an amazing speed.",
     "image": "",
     "users": [
       {
@@ -4332,10 +2049,22 @@
     ]
   },
   {
+    "slug": "rabona-illusion",
+    "name": "Rabona Illusion",
+    "url": "/univers/olive-et-tom/technique.html?slug=rabona-illusion",
+    "japanese_name": "ラボーナイリュージョン",
+    "first_appearance": "",
+    "description": "\"A trick shot that confuses the goalie by switching which is making the kick at the last second.\"",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "raiju-shot",
     "name": "Raiju Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot",
-    "description": "",
+    "japanese_name": "雷獣シュート",
+    "first_appearance": "",
+    "description": "Just before kicking the ball, the player kicks off against the ground, bending his leg back and using the momentum to unleash this special shot. Powerful enough to split a huge tree in two, the shot rises sharply just in front of the keeper.",
     "image": "",
     "users": [
       {
@@ -4391,52 +2120,12 @@
     ]
   },
   {
-    "slug": "rail",
-    "name": "Rail",
-    "url": "/univers/olive-et-tom/technique.html?slug=rail",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
-      }
-    ]
-  },
-  {
-    "slug": "ramon-victorino",
-    "name": "Ramon Victorino",
-    "url": "/univers/olive-et-tom/technique.html?slug=ramon-victorino",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "louis-napoleon",
-        "name": "Louis Napoleon",
-        "url": "/univers/olive-et-tom/personnage.html?slug=louis-napoleon"
-      }
-    ]
-  },
-  {
-    "slug": "ramon-victorino-ronc",
-    "name": "Ramon Victorino (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=ramon-victorino-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      }
-    ]
-  },
-  {
     "slug": "razor-cross",
     "name": "Razor Cross",
     "url": "/univers/olive-et-tom/technique.html?slug=razor-cross",
-    "description": "",
+    "japanese_name": "カミソリクロス",
+    "first_appearance": "",
+    "description": "This technique reappropriates the \"Razor Shot\" use as a pass, and more specifically as a cross. The ball curves in an arc, doing a special bending, just like his shot.",
     "image": "",
     "users": [
       {
@@ -4450,7 +2139,9 @@
     "slug": "razor-shot",
     "name": "Razor Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=razor-shot",
-    "description": "",
+    "japanese_name": "カミソリシュート",
+    "first_appearance": "",
+    "description": "Razor Shot (カミソリシュート, kamisori shūto) is Makoto Soda's signature shot.",
     "image": "",
     "users": [
       {
@@ -4469,7 +2160,9 @@
     "slug": "razor-tackle",
     "name": "Razor Tackle",
     "url": "/univers/olive-et-tom/technique.html?slug=razor-tackle",
-    "description": "",
+    "japanese_name": "カミソリタックル",
+    "first_appearance": "",
+    "description": "A special tackle used by Soda, who's known as the \"Ace Killer\". He uses a razor-sharp slide tackle from inside his opponent's blind spot. It is an excellent way to take the ball away from a player with a special dribble, or a very skilled one.",
     "image": "",
     "users": [
       {
@@ -4480,87 +2173,12 @@
     ]
   },
   {
-    "slug": "reactive-fast-kick-quick-gun",
-    "name": "Reactive Fast Kick Quick Gun",
-    "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      }
-    ]
-  },
-  {
-    "slug": "real-japan-7",
-    "name": "Real Japan 7",
-    "url": "/univers/olive-et-tom/technique.html?slug=real-japan-7",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      }
-    ]
-  },
-  {
-    "slug": "ricardo-espadas-ronc",
-    "name": "Ricardo Espadas (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=ricardo-espadas-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      }
-    ]
-  },
-  {
     "slug": "right-angle-defense",
     "name": "Right-Angle Defense",
     "url": "/univers/olive-et-tom/technique.html?slug=right-angle-defense",
-    "description": "",
+    "japanese_name": "直角ディフェンス",
+    "first_appearance": "",
+    "description": "In this technique, the defender turns 90 degrees right in front of the opponent who has already done a similar 90 degree feint and has dribbled away to the side, then said user chases him just as fast in order to take the ball. This tackle was designed as a countermeasure against Aoi's \"Right-Angle Feint\".",
     "image": "",
     "users": [
       {
@@ -4589,7 +2207,9 @@
     "slug": "right-angle-feint",
     "name": "Right-Angle Feint",
     "url": "/univers/olive-et-tom/technique.html?slug=right-angle-feint",
-    "description": "",
+    "japanese_name": "直角フェイント",
+    "first_appearance": "",
+    "description": "By turning sharply without losing any speed, the player is able to slip straight past his opponent. The knack behind this technique is to first touch the ball hard to perform the right angle, then softly when controlling the ball back, doing another hard touch after that is allowing the user to resume his dribbling with the same speed.",
     "image": "",
     "users": [
       {
@@ -4638,7 +2258,9 @@
     "slug": "right-angle-tornado-feint",
     "name": "Right-Angle Tornado Feint",
     "url": "/univers/olive-et-tom/technique.html?slug=right-angle-tornado-feint",
-    "description": "",
+    "japanese_name": "フェイント",
+    "first_appearance": "",
+    "description": "Aoi performs a Right-Angle Feint, then, at the moment his opponent is deceived by it, he rotates his body and presses forward, leaving his marker behind. This is specifically prepared by Aoi in order to counter the Right-Angle Defense from his rival Salvatore Gentile.",
     "image": "",
     "users": [
       {
@@ -4649,44 +2271,12 @@
     ]
   },
   {
-    "slug": "rise-of-new-champions",
-    "name": "Rise of New Champions",
-    "url": "/univers/olive-et-tom/technique.html?slug=rise-of-new-champions",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "hajime-taki",
-        "name": "Hajime Taki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
     "slug": "rising-bazooka",
     "name": "Rising Bazooka",
     "url": "/univers/olive-et-tom/technique.html?slug=rising-bazooka",
-    "description": "",
+    "japanese_name": "ライジングバズーカ",
+    "first_appearance": "",
+    "description": "A powerful shot born of the superhuman power of Brolin. The ball, kicked with all of his strength, moves along the ground and suddenly hops before flying into the goal. With all his might, he attempted to beat Wakabayashi with this shot.",
     "image": "",
     "users": [
       {
@@ -4697,179 +2287,18 @@
     ]
   },
   {
-    "slug": "rising-sun",
-    "name": "Rising Sun",
-    "url": "/univers/olive-et-tom/technique.html?slug=rising-sun",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=galvan"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "schweil-teigerbran",
-        "name": "Schweil Teigerbran",
-        "url": "/univers/olive-et-tom/personnage.html?slug=schweil-teigerbran"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "rivaul",
-    "name": "Rivaul",
-    "url": "/univers/olive-et-tom/technique.html?slug=rivaul",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
     "slug": "rivaul-turn",
     "name": "Rivaul Turn",
     "url": "/univers/olive-et-tom/technique.html?slug=rivaul-turn",
-    "description": "",
+    "japanese_name": "リバウールターン",
+    "first_appearance": "",
+    "description": "It's a sequence of fast and complex moves: Going one way while sending the ball to the other side, kicking it forward with the other leg, turn around and getting past the opponent.",
     "image": "",
     "users": [
       {
         "slug": "rivaul",
         "name": "Rivaul",
         "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "road-to-2002",
-    "name": "Road to 2002",
-    "url": "/univers/olive-et-tom/technique.html?slug=road-to-2002",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Müller",
-        "url": "/univers/olive-et-tom/personnage.html?slug=deuter-muller"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "roberto",
-    "name": "Roberto",
-    "url": "/univers/olive-et-tom/technique.html?slug=roberto",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "roberto-carlos",
-    "name": "Roberto Carlos",
-    "url": "/univers/olive-et-tom/technique.html?slug=roberto-carlos",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-carolus"
-      }
-    ]
-  },
-  {
-    "slug": "roberto-carolus",
-    "name": "Roberto Carolus",
-    "url": "/univers/olive-et-tom/technique.html?slug=roberto-carolus",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      }
-    ]
-  },
-  {
-    "slug": "roberto-hongo",
-    "name": "Roberto Hongo",
-    "url": "/univers/olive-et-tom/technique.html?slug=roberto-hongo",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
       },
       {
         "slug": "tsubasa-ozora",
@@ -4882,21 +2311,9 @@
     "slug": "rolling-arrow-jumping-overhead",
     "name": "Rolling Arrow Jumping Overhead",
     "url": "/univers/olive-et-tom/technique.html?slug=rolling-arrow-jumping-overhead",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
-    "slug": "rolling-overhead",
-    "name": "Rolling Overhead",
-    "url": "/univers/olive-et-tom/technique.html?slug=rolling-overhead",
-    "description": "",
+    "japanese_name": "ローリングアロージャンピングオーバーヘッド",
+    "first_appearance": "",
+    "description": "Rolling Arrow Jumping Overhead (ローリングアロージャンピングオーバーヘッド) is the special aerial shot from Carlos Santana.",
     "image": "",
     "users": [
       {
@@ -4910,7 +2327,9 @@
     "slug": "rolling-overhead-kick",
     "name": "Rolling Overhead Kick",
     "url": "/univers/olive-et-tom/technique.html?slug=rolling-overhead-kick",
-    "description": "",
+    "japanese_name": "ローリングオーバーヘッドキック",
+    "first_appearance": "",
+    "description": "Rolling Overhead Kick (ローリングオーバーヘッドキック/シュート, rōringu ōbāheddo kikku) is a more advanced technique of the Overhead, combining it with a rotation movement in mid-air with the leg.",
     "image": "",
     "users": [
       {
@@ -4934,7 +2353,9 @@
     "slug": "roulette",
     "name": "Roulette",
     "url": "/univers/olive-et-tom/technique.html?slug=roulette",
-    "description": "",
+    "japanese_name": "ルーレット",
+    "first_appearance": "",
+    "description": "The Roulette first appeared on Road to 2002, chapter 58.",
     "image": "",
     "users": [
       {
@@ -4955,76 +2376,12 @@
     ]
   },
   {
-    "slug": "rovesciata",
-    "name": "Rovesciata",
-    "url": "/univers/olive-et-tom/technique.html?slug=rovesciata",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
-  },
-  {
-    "slug": "running-volley",
-    "name": "Running Volley",
-    "url": "/univers/olive-et-tom/technique.html?slug=running-volley",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "ruud-gullit",
-    "name": "Ruud Gullit",
-    "url": "/univers/olive-et-tom/technique.html?slug=ruud-gullit",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
-  },
-  {
-    "slug": "ryo-ishizaki",
-    "name": "Ryo Ishizaki",
-    "url": "/univers/olive-et-tom/technique.html?slug=ryo-ishizaki",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
-  },
-  {
     "slug": "sss",
     "name": "S.S.S",
     "url": "/univers/olive-et-tom/technique.html?slug=sss",
-    "description": "",
+    "japanese_name": "・",
+    "first_appearance": "",
+    "description": "The S.S.S (S・S・S) or Speed Slide Shot, is Misaki's long and special shot, which is superior to the Boomerang Shot and the Slider Shot.",
     "image": "",
     "users": [
       {
@@ -5035,106 +2392,32 @@
     ]
   },
   {
-    "slug": "salinas",
-    "name": "Salinas",
-    "url": "/univers/olive-et-tom/technique.html?slug=salinas",
-    "description": "",
+    "slug": "sagittarius-shot",
+    "name": "Sagittarius Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=sagittarius-shot",
+    "japanese_name": "サジタリウスシュート",
+    "first_appearance": "",
+    "description": "As a result of his hard training, Carlos puts a spin on the ball, doing a green-cut effect. With this extra impact, Carlos does an effective long shot.",
     "image": "",
-    "users": [
-      {
-        "slug": "alberto",
-        "name": "Alberto",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "salvatore-gentile",
-    "name": "Salvatore Gentile",
-    "url": "/univers/olive-et-tom/technique.html?slug=salvatore-gentile",
-    "description": "",
+    "slug": "sandstorm-shot",
+    "name": "Sandstorm Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=sandstorm-shot",
+    "japanese_name": "サンドストームシュート",
+    "first_appearance": "",
+    "description": "The Sandstorm Shot (サンドストームシュート) is a shot move from Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
-  },
-  {
-    "slug": "sano",
-    "name": "Sano",
-    "url": "/univers/olive-et-tom/technique.html?slug=sano",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      }
-    ]
-  },
-  {
-    "slug": "santana",
-    "name": "Santana",
-    "url": "/univers/olive-et-tom/technique.html?slug=santana",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "santana-turn",
     "name": "Santana Turn",
     "url": "/univers/olive-et-tom/technique.html?slug=santana-turn",
-    "description": "",
+    "japanese_name": "サンターナターン",
+    "first_appearance": "",
+    "description": "Just as the player reaches a defender, he turns around in front of the opponent, effectively hiding the ball from him, and kicks the ball over himself, allowing the user to go beside him, around the defender's side before he realizes what is happening..",
     "image": "",
     "users": [
       {
@@ -5150,104 +2433,12 @@
     ]
   },
   {
-    "slug": "sao-paulo",
-    "name": "Sao Paulo",
-    "url": "/univers/olive-et-tom/technique.html?slug=sao-paulo",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
-    "slug": "sao-paulo-fc",
-    "name": "Sao Paulo FC",
-    "url": "/univers/olive-et-tom/technique.html?slug=sao-paulo-fc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      }
-    ]
-  },
-  {
-    "slug": "sawada",
-    "name": "Sawada",
-    "url": "/univers/olive-et-tom/technique.html?slug=sawada",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      }
-    ]
-  },
-  {
-    "slug": "schneider",
-    "name": "Schneider",
-    "url": "/univers/olive-et-tom/technique.html?slug=schneider",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      }
-    ]
-  },
-  {
-    "slug": "schneider-1983-anime",
-    "name": "Schneider (1983 anime)",
-    "url": "/univers/olive-et-tom/technique.html?slug=schneider-1983-anime",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      }
-    ]
-  },
-  {
-    "slug": "schweil-teigerbran",
-    "name": "Schweil Teigerbran",
-    "url": "/univers/olive-et-tom/technique.html?slug=schweil-teigerbran",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      }
-    ]
-  },
-  {
     "slug": "scramble-face-block",
     "name": "Scramble Face Block",
     "url": "/univers/olive-et-tom/technique.html?slug=scramble-face-block",
-    "description": "",
+    "japanese_name": "スクランブル顔面ブロック",
+    "first_appearance": "",
+    "description": "Ishizaki uses Jito's strong legs to jump towards the ball and block it with his face. He first did this to block Galvan's jumping lariat on the goal post before the final whistle of the match between Japan Jr. and Argentina Jr.",
     "image": "",
     "users": [
       {
@@ -5261,7 +2452,9 @@
     "slug": "segway-dribble",
     "name": "Segway Dribble",
     "url": "/univers/olive-et-tom/technique.html?slug=segway-dribble",
-    "description": "",
+    "japanese_name": "セグウェイドリブル",
+    "first_appearance": "",
+    "description": "The Segway Dribble (セグウェイドリブル, seguuei doriburu) is an individual skill which is mainly used by the Spanish Michael.",
     "image": "",
     "users": [
       {
@@ -5285,7 +2478,9 @@
     "slug": "sepak-takraw-shot",
     "name": "Sepak Takraw Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=sepak-takraw-shot",
-    "description": "",
+    "japanese_name": "セパタクローシュート",
+    "first_appearance": "",
+    "description": "Sepak Takraw Shot (セパタクローシュート, sepatakurō shūto) is a way to shoot the ball in a cooperative way in mid air by using the Sepak Takraw, or kick volleyball, is a sport native to Southeast Asia.",
     "image": "",
     "users": [
       {
@@ -5296,115 +2491,22 @@
     ]
   },
   {
-    "slug": "shingo-aoi",
-    "name": "Shingo Aoi",
-    "url": "/univers/olive-et-tom/technique.html?slug=shingo-aoi",
-    "description": "",
+    "slug": "shadow-strike",
+    "name": "Shadow Strike",
+    "url": "/univers/olive-et-tom/technique.html?slug=shadow-strike",
+    "japanese_name": "シャドウストライク",
+    "first_appearance": "",
+    "description": "Either Alcion or Nitta pretends to shoot while it is in fact a pass for the other one, who is hiding behind like a shadow.",
     "image": "",
-    "users": [
-      {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/personnage.html?slug=alan-pascal"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      }
-    ]
-  },
-  {
-    "slug": "shingo-takasugi-ronc",
-    "name": "Shingo Takasugi (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=shingo-takasugi-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      }
-    ]
-  },
-  {
-    "slug": "shinnosuke-kazami",
-    "name": "Shinnosuke Kazami",
-    "url": "/univers/olive-et-tom/technique.html?slug=shinnosuke-kazami",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "shun-nitta",
-    "name": "Shun Nitta",
-    "url": "/univers/olive-et-tom/technique.html?slug=shun-nitta",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "shun-nitta-ronc",
-    "name": "Shun Nitta (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=shun-nitta-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shun-nitta"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "sky-hawk-shot",
     "name": "Sky Hawk Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=sky-hawk-shot",
-    "description": "",
+    "japanese_name": "スカイホークシュート",
+    "first_appearance": "",
+    "description": "The Sky Hawk Shot (スカイホークシュート, sukai hōku shūto) is Rivaul's trademark shot.",
     "image": "",
     "users": [
       {
@@ -5418,7 +2520,9 @@
     "slug": "sky-rocket-volley",
     "name": "Sky Rocket Volley",
     "url": "/univers/olive-et-tom/technique.html?slug=sky-rocket-volley",
-    "description": "",
+    "japanese_name": "スカイロケットボレー",
+    "first_appearance": "",
+    "description": "The Sky Rocket Volley (スカイロケットボレー) is Jun Misugi's Super Shot.",
     "image": "",
     "users": [
       {
@@ -5432,7 +2536,9 @@
     "slug": "skydive-shot",
     "name": "Skydive Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=skydive-shot",
-    "description": "",
+    "japanese_name": "スカイダイブシュート",
+    "first_appearance": "",
+    "description": "For this technique, Tsubasa uses the ball to enter into the goal to score. The technique was completed by his own means without relying on his mentor Roberto, and while keeping the ball, he pulled out all the other players and jumped to the goal.",
     "image": "",
     "users": [
       {
@@ -5446,7 +2552,9 @@
     "slug": "skylab-hurricane",
     "name": "Skylab Hurricane",
     "url": "/univers/olive-et-tom/technique.html?slug=skylab-hurricane",
-    "description": "",
+    "japanese_name": "スカイラブハリケーン",
+    "first_appearance": "",
+    "description": "Skylab Hurricane (スカイラブハリケーン, sukairabu harikēn) is the trademark technique of the Tachibana twins, developed during the Boys' Fight arc.",
     "image": "",
     "users": [
       {
@@ -5467,10 +2575,22 @@
     ]
   },
   {
+    "slug": "skylab-triangle",
+    "name": "Skylab Triangle",
+    "url": "/univers/olive-et-tom/technique.html?slug=skylab-triangle",
+    "japanese_name": "",
+    "first_appearance": "Rise of New Champions",
+    "description": "An unnoticed Combo Shot made by a third player when all eyes are on the Skylab Hurricane.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "skylab-twin-shot",
     "name": "Skylab Twin Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=skylab-twin-shot",
-    "description": "",
+    "japanese_name": "スカイラブツインシュート",
+    "first_appearance": "",
+    "description": "In this combination play, Jito serves as launch pad for the Tachibana Twins, launching them from the soles of his left and right feet at a low angle. Still hurtling through the air, they then unleash a Twin Shot while the ball is flying low. This is a variation of the Skylab Hurricane, and can thus still be called like that.",
     "image": "",
     "users": [
       {
@@ -5484,7 +2604,9 @@
     "slug": "skywing-shot",
     "name": "Skywing Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=skywing-shot",
-    "description": "",
+    "japanese_name": "スカイウイングシュート",
+    "first_appearance": "",
+    "description": "Skywing Shot (スカイウイングシュート) is Tsubasa's special mid-range shot learnt from Roberto. It was first shown during the World Youth tournament.",
     "image": "",
     "users": [
       {
@@ -5520,10 +2642,22 @@
     ]
   },
   {
+    "slug": "slice-shot",
+    "name": "Slice Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=slice-shot",
+    "japanese_name": "スライスシュート",
+    "first_appearance": "",
+    "description": "The Slice Shot (スライスシュート) is a shot move from Rise of New Champions.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "slider-shot",
     "name": "Slider Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=slider-shot",
-    "description": "",
+    "japanese_name": "スライダーシュート",
+    "first_appearance": "Captain Tsubasa (1981), chapter 99",
+    "description": "The shot first appeared in Captain Tsubasa ch.99 \"Attack of the beautiful beast\". This shot gives the ball a vertical spin. By putting a rotation effect on the ball, but hitting the ball stronger compared to the Drive Shot beforehand, the ball will go straightwise and fall sharply just before the keeper is about to catch it . By keeping this original shot secret that far in the tournament for victory purposes even so, the shot effect was simple for Tsubasa to mimick it .",
     "image": "",
     "users": [
       {
@@ -5539,10 +2673,22 @@
     ]
   },
   {
+    "slug": "sliding-force",
+    "name": "Sliding Force",
+    "url": "/univers/olive-et-tom/technique.html?slug=sliding-force",
+    "japanese_name": "スライディング部隊",
+    "first_appearance": "",
+    "description": "The Sliding Force (スライディング部隊), or Sliding Tackle Force (スライディングタックル部隊), is a tactic where several members of the same squad do several tackle attempts in order to steal the ball from the opponent.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "sliding-shot",
     "name": "Sliding Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=sliding-shot",
-    "description": "",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "Sliding Shot (スライディングシュート, suraidingu shūto) is a shot made by several players in Captain Tsubasa series.",
     "image": "",
     "users": [
       {
@@ -5601,7 +2747,9 @@
     "slug": "sliding-tackle",
     "name": "Sliding Tackle",
     "url": "/univers/olive-et-tom/technique.html?slug=sliding-tackle",
-    "description": "",
+    "japanese_name": "スライディングタックル",
+    "first_appearance": "",
+    "description": "The Sliding Tackle (スライディングタックル) is a defensive technique.",
     "image": "",
     "users": [
       {
@@ -5650,7 +2798,9 @@
     "slug": "snowboard-dribble",
     "name": "Snowboard Dribble",
     "url": "/univers/olive-et-tom/technique.html?slug=snowboard-dribble",
-    "description": "",
+    "japanese_name": "スノーボードドリブル",
+    "first_appearance": "",
+    "description": "After sending off a pass, Diaz acrobatically breaks away from his defender and rides the sliding ball like a snowboard across the pitch. This is somewhat similar to Michael's Segway Dribble, but the main difference between the two techniques is that Diaz's requires the user to bend his knees, riding in a stance similar to riding a snowboard, with both feet on the ball, while in Michael's, the user is standing straight, putting only one foot on the ball, while using the other foot to steer.",
     "image": "",
     "users": [
       {
@@ -5661,48 +2811,12 @@
     ]
   },
   {
-    "slug": "sorimachi",
-    "name": "Sorimachi",
-    "url": "/univers/olive-et-tom/technique.html?slug=sorimachi",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      }
-    ]
-  },
-  {
-    "slug": "south-american-dribble",
-    "name": "South American Dribble",
-    "url": "/univers/olive-et-tom/technique.html?slug=south-american-dribble",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      }
-    ]
-  },
-  {
     "slug": "south-american-style-dribble",
     "name": "South American-style Dribble",
     "url": "/univers/olive-et-tom/technique.html?slug=south-american-style-dribble",
-    "description": "",
+    "japanese_name": "南米式ドリブル",
+    "first_appearance": "",
+    "description": "The South American-style Dribble (南米式ドリブル, nanbei shiki doriburu) is used by players who have acquired a South American-style while dribbling.",
     "image": "",
     "users": [
       {
@@ -5733,10 +2847,42 @@
     ]
   },
   {
+    "slug": "speed-shot",
+    "name": "Speed Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=speed-shot",
+    "japanese_name": "スピードシュート",
+    "first_appearance": "",
+    "description": "Speed Shot (スピードシュート, supīdo shūto) is the shot made by several players from Rise of New Champions.",
+    "image": "",
+    "users": []
+  },
+  {
+    "slug": "speedy-sliding-shot",
+    "name": "Speedy Sliding Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=speedy-sliding-shot",
+    "japanese_name": "スピーディ・スライディング・シュート",
+    "first_appearance": "",
+    "description": "The Speedy Sliding Shot also named S・S・S, is Larson special shot.",
+    "image": "",
+    "users": []
+  },
+  {
+    "slug": "spiral-jumping-volley",
+    "name": "Spiral Jumping Volley",
+    "url": "/univers/olive-et-tom/technique.html?slug=spiral-jumping-volley",
+    "japanese_name": "スパイラルジャンピングボレー",
+    "first_appearance": "",
+    "description": "Spiral Jumping Volley (スパイラルジャンピングボレー) is a volley skill used by the Dutch Brian Cruyfford.",
+    "image": "",
+    "users": []
+  },
+  {
     "slug": "spiral-shot",
     "name": "Spiral Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=spiral-shot",
-    "description": "",
+    "japanese_name": "スパイラルシュート",
+    "first_appearance": "",
+    "description": "Spiral Shot (スパイラルシュート, supairaru shūto) is a special shot from Brian Cruyfford.",
     "image": "",
     "users": [
       {
@@ -5750,7 +2896,9 @@
     "slug": "spiral-turn",
     "name": "Spiral Turn",
     "url": "/univers/olive-et-tom/technique.html?slug=spiral-turn",
-    "description": "",
+    "japanese_name": "スパイラルターン",
+    "first_appearance": "",
+    "description": "In this technical dribbling technique, the player starts by faking the use of a Heel Lift but then twists around his body and bounces the ball against his opponent's feet. His opponent is then left in the air, expecting such Heel Lift, allowing the player to easily leave him behind.",
     "image": "",
     "users": [
       {
@@ -5761,43 +2909,32 @@
     ]
   },
   {
-    "slug": "stefan-levin",
-    "name": "Stefan Levin",
-    "url": "/univers/olive-et-tom/technique.html?slug=stefan-levin",
-    "description": "",
+    "slug": "starburst",
+    "name": "Starburst",
+    "url": "/univers/olive-et-tom/technique.html?slug=starburst",
+    "japanese_name": "スターバースト",
+    "first_appearance": "",
+    "description": "One of the strongest shots in the game, described as a \"menacing surefire shot\". The shot makes a curve and travels at an incredible speed. With Alcion's very high stats, this shot can score against most keepers.",
     "image": "",
-    "users": [
-      {
-        "slug": "tomeya-akai",
-        "name": "Tomeya Akai",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tomeya-akai"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "stefan-levin-ronc",
-    "name": "Stefan Levin (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=stefan-levin-ronc",
-    "description": "",
+    "slug": "stinger-shot",
+    "name": "Stinger Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=stinger-shot",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "The Stinger Shot is a shot move in Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "straight-line-dribble",
     "name": "Straight Line Dribble",
     "url": "/univers/olive-et-tom/technique.html?slug=straight-line-dribble",
-    "description": "",
+    "japanese_name": "直線的ドリブル",
+    "first_appearance": "",
+    "description": "Here, the user simply runs with the ball in a straight line. For this technique, the user must have some muscular strength but also have full determination to enter the penalty area, in order to have an opportunity to score. The only way to keep on dribbling in a straight line in that case is to break through the players forcibly, so in order to successfully break through, the user must be stronger physically than his opponent.",
     "image": "",
     "users": [
       {
@@ -5856,7 +2993,9 @@
     "slug": "submarine-defense",
     "name": "Submarine Defense",
     "url": "/univers/olive-et-tom/technique.html?slug=submarine-defense",
-    "description": "",
+    "japanese_name": "サブマリンディフェンス",
+    "first_appearance": "",
+    "description": "Even if someone is getting past him , or if the ball is taken from him , by falling and using his hand on the ground, he can perform a regular tackle, a circular tackle or using the strength of his upper body, come back towards a running or jumping opponent before performing the tackle.",
     "image": "",
     "users": [
       {
@@ -5877,233 +3016,32 @@
     ]
   },
   {
-    "slug": "tachibana-twins",
-    "name": "Tachibana Twins",
-    "url": "/univers/olive-et-tom/technique.html?slug=tachibana-twins",
-    "description": "",
+    "slug": "super-blake-shot",
+    "name": "Super Blake Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=super-blake-shot",
+    "japanese_name": "スーパーブレイクシュート",
+    "first_appearance": "",
+    "description": "This super shot of rank SS appears in Captain Tsubasa: Rise of New Champions.",
     "image": "",
-    "users": [
-      {
-        "slug": "hiroshi-jito",
-        "name": "Hiroshi Jito",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hiroshi-jito"
-      },
-      {
-        "slug": "ricardo-espadas",
-        "name": "Ricardo Espadas",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ricardo-espadas"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "takasugi",
-    "name": "Takasugi",
-    "url": "/univers/olive-et-tom/technique.html?slug=takasugi",
-    "description": "",
+    "slug": "super-sharpness-shot",
+    "name": "Super Sharpness Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=super-sharpness-shot",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "This unlockable Super Shot first appears in Captain Tsubasa: Rise of New Champions. The shot is likely inspired by the New Levin Shot that appeared in the manga.",
     "image": "",
-    "users": [
-      {
-        "slug": "mamoru-izawa",
-        "name": "Mamoru Izawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
-      }
-    ]
-  },
-  {
-    "slug": "takeshi-kishida-ronc",
-    "name": "Takeshi Kishida (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=takeshi-kishida-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "takeshi-kishida",
-        "name": "Takeshi Kishida",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-kishida"
-      }
-    ]
-  },
-  {
-    "slug": "takeshi-sawada",
-    "name": "Takeshi Sawada",
-    "url": "/univers/olive-et-tom/technique.html?slug=takeshi-sawada",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "takeshi-sawada-ronc",
-    "name": "Takeshi Sawada (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=takeshi-sawada-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      }
-    ]
-  },
-  {
-    "slug": "taki",
-    "name": "Taki",
-    "url": "/univers/olive-et-tom/technique.html?slug=taki",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hajime-taki",
-        "name": "Hajime Taki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
-      },
-      {
-        "slug": "mamoru-izawa",
-        "name": "Mamoru Izawa",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
-      },
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
-      }
-    ]
-  },
-  {
-    "slug": "taro-misaki",
-    "name": "Taro Misaki",
-    "url": "/univers/olive-et-tom/technique.html?slug=taro-misaki",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "taro-misaki-ronc",
-    "name": "Taro Misaki (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=taro-misaki-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      }
-    ]
-  },
-  {
-    "slug": "tatakae-dream-team",
-    "name": "Tatakae Dream Team",
-    "url": "/univers/olive-et-tom/technique.html?slug=tatakae-dream-team",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      }
-    ]
-  },
-  {
-    "slug": "teigerbran",
-    "name": "Teigerbran",
-    "url": "/univers/olive-et-tom/technique.html?slug=teigerbran",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      }
-    ]
-  },
-  {
-    "slug": "teppei-kisugi-ronc",
-    "name": "Teppei Kisugi (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=teppei-kisugi-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "teppei-kisugi",
-        "name": "Teppei Kisugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
-      }
-    ]
-  },
-  {
-    "slug": "thailand-youth",
-    "name": "Thailand Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=thailand-youth",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "yuzo-morisaki",
-        "name": "Yuzo Morisaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "tiger-shot",
     "name": "Tiger Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=tiger-shot",
-    "description": "",
+    "japanese_name": "タイガーショット",
+    "first_appearance": "",
+    "description": "Tiger Shot (タイガーショット, taigā shotto) is Hyuga's trademark shot, developed during the Boys' Fight arc.",
     "image": "",
     "users": [
       {
@@ -6122,7 +3060,9 @@
     "slug": "tornado-arrow-skywing-shot",
     "name": "Tornado Arrow Skywing Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=tornado-arrow-skywing-shot",
-    "description": "",
+    "japanese_name": "トルネードアロースカイウイングシュート",
+    "first_appearance": "Battle of World Youth arc, ch. 62",
+    "description": "Tornado Arrow Skywing Shot (トルネードアロースカイウイングシュート) is the special ground shot from Carlos Santana in Battle of World Youth arc. It is later used by Michael under the name Tornado Arrow Raiju Shot (トルネードアロー雷獣シュート).",
     "image": "",
     "users": [
       {
@@ -6141,7 +3081,9 @@
     "slug": "tornado-shot",
     "name": "Tornado Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=tornado-shot",
-    "description": "",
+    "japanese_name": "トルネードシュート",
+    "first_appearance": "",
+    "description": "Tornado Shot (トルネードシュート, torunēdo shūto) is Ryoma Hino's signature shot. He positions himself to the side of the goal and shoots so that the ball rises up.",
     "image": "",
     "users": [
       {
@@ -6170,7 +3112,9 @@
     "slug": "total-football",
     "name": "Total Football",
     "url": "/univers/olive-et-tom/technique.html?slug=total-football",
-    "description": "",
+    "japanese_name": "トータルフットボール",
+    "first_appearance": "",
+    "description": "The Total Football (トータルフットボール, tōtaru futtobōru) is a cooperative tactic of the Netherlands squad.",
     "image": "",
     "users": [
       {
@@ -6184,7 +3128,9 @@
     "slug": "triangle-jump",
     "name": "Triangle Jump",
     "url": "/univers/olive-et-tom/technique.html?slug=triangle-jump",
-    "description": "",
+    "japanese_name": "三角飛び",
+    "first_appearance": "",
+    "description": "This is a skill that Wakashimazu developed during his training in Wakado karate. He then applied it as a keeper. When caught on the wrong side of the goal, he jumps on a goal post and dives to the opposite side.",
     "image": "",
     "users": [
       {
@@ -6210,171 +3156,22 @@
     ]
   },
   {
-    "slug": "tsubasa",
-    "name": "Tsubasa",
-    "url": "/univers/olive-et-tom/technique.html?slug=tsubasa",
-    "description": "",
+    "slug": "triangle-shot",
+    "name": "Triangle Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=triangle-shot",
+    "japanese_name": "トライアングルシュート",
+    "first_appearance": "",
+    "description": "Triangle Shot (トライアングルシュート, toraianguru shūto) is the trademark technique of the Tachibana twins during the Kids' Dream arc.",
     "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/personnage.html?slug=elle-sid-pierre"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "mitsuru-sano",
-        "name": "Mitsuru Sano",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mitsuru-sano"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
-      },
-      {
-        "slug": "radunga",
-        "name": "Radunga",
-        "url": "/univers/olive-et-tom/personnage.html?slug=radunga"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/personnage.html?slug=rivaul"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      }
-    ]
-  },
-  {
-    "slug": "tsubasa-ozora",
-    "name": "Tsubasa Ozora",
-    "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      },
-      {
-        "slug": "hermann-kaltz",
-        "name": "Hermann Kaltz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=hermann-kaltz"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=jun-misugi"
-      },
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=taro-misaki"
-      },
-      {
-        "slug": "yuzo-morisaki",
-        "name": "Yuzo Morisaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
-      }
-    ]
-  },
-  {
-    "slug": "tsubasa-ozora-ronc",
-    "name": "Tsubasa Ozora (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "tsuyoshi-oda",
-    "name": "Tsuyoshi Oda",
-    "url": "/univers/olive-et-tom/technique.html?slug=tsuyoshi-oda",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "shingo-takasugi",
-        "name": "Shingo Takasugi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-takasugi"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "turning-back-kick",
     "name": "Turning Back Kick",
     "url": "/univers/olive-et-tom/technique.html?slug=turning-back-kick",
-    "description": "",
+    "japanese_name": "後ろ蹴り",
+    "first_appearance": "",
+    "description": "Turning Back Kick or Ushiro-Geri (後ろ蹴り) is a basic kick employed in Karate.",
     "image": "",
     "users": [
       {
@@ -6385,24 +3182,12 @@
     ]
   },
   {
-    "slug": "twin-overhead",
-    "name": "Twin Overhead",
-    "url": "/univers/olive-et-tom/technique.html?slug=twin-overhead",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/personnage.html?slug=takeshi-sawada"
-      }
-    ]
-  },
-  {
     "slug": "twin-shot",
     "name": "Twin Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=twin-shot",
-    "description": "",
+    "japanese_name": "ツインシュート",
+    "first_appearance": "Captain Tsubasa (1981), chapter 37",
+    "description": "This technique is done when two people are shooting the ball at the same time, on purpose or by chance . The result is a swinging ball, resembling multiple balls, and making difficult for the keeper to know where the ball is, and thus harder to catch and repel. While there isn't a unique way to perform the technique, it was most often done with volley shots, but also jumping volleys and overheads.",
     "image": "",
     "users": [
       {
@@ -6491,7 +3276,9 @@
     "slug": "two-stage-flying-drive-shot",
     "name": "Two-Stage Flying Drive Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=two-stage-flying-drive-shot",
-    "description": "",
+    "japanese_name": "段フライングドライブシュート",
+    "first_appearance": "",
+    "description": "A special skill shot born from Natureza's superhuman talent for football. He gives the ball a powerful sidespin, causing it to curve twice then bounce and change trajectory again just before reaching the goal.",
     "image": "",
     "users": [
       {
@@ -6507,24 +3294,12 @@
     ]
   },
   {
-    "slug": "u-20-japan",
-    "name": "U-20 Japan",
-    "url": "/univers/olive-et-tom/technique.html?slug=u-20-japan",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
-      }
-    ]
-  },
-  {
     "slug": "uppercut-defense",
     "name": "Uppercut Defense",
     "url": "/univers/olive-et-tom/technique.html?slug=uppercut-defense",
-    "description": "",
+    "japanese_name": "アッパーカットディフェンス",
+    "first_appearance": "",
+    "description": "The keeper does a boxing uppercut from directly underneath, allowing him to repell even the most fierce and powerful shots while only exerting minimal energy.",
     "image": "",
     "users": [
       {
@@ -6540,168 +3315,48 @@
     ]
   },
   {
-    "slug": "uruguay-jr-youth",
-    "name": "Uruguay Jr. Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=uruguay-jr-youth",
-    "description": "",
+    "slug": "vendemiaire-cannon",
+    "name": "Vendémiaire Cannon",
+    "url": "/univers/olive-et-tom/technique.html?slug=vendemiaire-cannon",
+    "japanese_name": "",
+    "first_appearance": "Rise of New Champions",
+    "description": "The Vendémiaire Cannon (スカイロケットボレー) is Louis Napoleon's Super Shot.",
     "image": "",
-    "users": [
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "uruguay-youth",
-    "name": "Uruguay Youth",
-    "url": "/univers/olive-et-tom/technique.html?slug=uruguay-youth",
-    "description": "",
+    "slug": "vulture-shot",
+    "name": "Vulture Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=vulture-shot",
+    "japanese_name": "ヴァルチャーショット",
+    "first_appearance": "",
+    "description": "With the scavenging instincts of a vulture, this shot preys on opportunity.",
     "image": "",
-    "users": [
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      }
-    ]
+    "users": []
   },
   {
-    "slug": "victorino",
-    "name": "Victorino",
-    "url": "/univers/olive-et-tom/technique.html?slug=victorino",
-    "description": "",
+    "slug": "wild-eagle-shot",
+    "name": "Wild Eagle Shot",
+    "url": "/univers/olive-et-tom/technique.html?slug=wild-eagle-shot",
+    "japanese_name": "",
+    "first_appearance": "",
+    "description": "A ground-crawling shot even wilder than the Eagle Shot.",
     "image": "",
-    "users": [
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino"
-      },
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      }
-    ]
-  },
-  {
-    "slug": "wakabayashi",
-    "name": "Wakabayashi",
-    "url": "/univers/olive-et-tom/technique.html?slug=wakabayashi",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "brolin",
-        "name": "Brolin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brolin"
-      },
-      {
-        "slug": "franz-schester",
-        "name": "Franz Schester",
-        "url": "/univers/olive-et-tom/personnage.html?slug=franz-schester"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/personnage.html?slug=juan-diaz"
-      },
-      {
-        "slug": "mark-owairan",
-        "name": "Mark Owairan",
-        "url": "/univers/olive-et-tom/personnage.html?slug=mark-owairan"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/personnage.html?slug=xiao-junguang"
-      }
-    ]
-  },
-  {
-    "slug": "wakashimazu",
-    "name": "Wakashimazu",
-    "url": "/univers/olive-et-tom/technique.html?slug=wakashimazu",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ken-wakashimazu"
-      }
-    ]
+    "users": []
   },
   {
     "slug": "wild-tiger-shot",
     "name": "Wild Tiger Shot",
     "url": "/univers/olive-et-tom/technique.html?slug=wild-tiger-shot",
-    "description": "",
+    "japanese_name": "ワイルドタイガーショット",
+    "first_appearance": "Captain Tsubasa: Road to 2002, chapter 15",
+    "description": "Wild Tiger Shot (ワイルドタイガーショット) is the improved version of Hyuga's Tiger Shot, a shot he used to replace his Raiju Shot during the Serie A of Italy",
     "image": "",
     "users": [
       {
         "slug": "kojiro-hyuga",
         "name": "Kojiro Hyuga",
         "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
-      }
-    ]
-  },
-  {
-    "slug": "willem-arminius",
-    "name": "Willem Arminius",
-    "url": "/univers/olive-et-tom/technique.html?slug=willem-arminius",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "davi",
-        "name": "Davi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=davi"
-      }
-    ]
-  },
-  {
-    "slug": "xiao-junguang",
-    "name": "Xiao Junguang",
-    "url": "/univers/olive-et-tom/technique.html?slug=xiao-junguang",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/personnage.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
-      }
-    ]
-  },
-  {
-    "slug": "yuzo-morisaki-ronc",
-    "name": "Yuzo Morisaki (RoNC)",
-    "url": "/univers/olive-et-tom/technique.html?slug=yuzo-morisaki-ronc",
-    "description": "",
-    "image": "",
-    "users": [
-      {
-        "slug": "yuzo-morisaki",
-        "name": "Yuzo Morisaki",
-        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
       }
     ]
   }

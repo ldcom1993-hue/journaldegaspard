@@ -60,7 +60,7 @@
     "name": "All Japan Jr. Youth",
     "type": "national",
     "age_category": "youth",
-    "parent_team": "Japan",
+    "parent_team": "All Japan",
     "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth",
     "description": "",
     "image": "",
@@ -153,12 +153,12 @@
     ]
   },
   {
-    "slug": "all-japan-jr-youth-ronc",
-    "name": "All Japan Jr. Youth (RoNC)",
+    "slug": "all-japan-jr-youth-tamsoft",
+    "name": "All Japan Jr. Youth (Tamsoft)",
     "type": "national",
     "age_category": "youth",
-    "parent_team": "Japan Jr. Youth (RoNC)",
-    "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-ronc",
+    "parent_team": null,
+    "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-tamsoft",
     "description": "",
     "image": "",
     "players": [
@@ -174,7 +174,7 @@
     "name": "All Japan Youth",
     "type": "national",
     "age_category": "youth",
-    "parent_team": "Japan",
+    "parent_team": "All Japan",
     "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth",
     "description": "",
     "image": "",
@@ -320,7 +320,7 @@
     "name": "Arsenal FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Arsenal",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=arsenal-fc",
     "description": "",
     "image": "",
@@ -376,7 +376,7 @@
     "name": "Bara FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Bara",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=bara-fc",
     "description": "",
     "image": "",
@@ -472,6 +472,58 @@
     ]
   },
   {
+    "slug": "brazil-youth",
+    "name": "Brazil Youth",
+    "type": "national",
+    "age_category": "youth",
+    "parent_team": "Brazil",
+    "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "alberto",
+        "name": "Alberto",
+        "url": "/univers/olive-et-tom/personnage.html?slug=alberto"
+      },
+      {
+        "slug": "carlos-santana",
+        "name": "Carlos Santana",
+        "url": "/univers/olive-et-tom/personnage.html?slug=carlos-santana"
+      },
+      {
+        "slug": "luciano-leo",
+        "name": "Luciano Leo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=luciano-leo"
+      },
+      {
+        "slug": "natureza",
+        "name": "Natureza",
+        "url": "/univers/olive-et-tom/personnage.html?slug=natureza"
+      },
+      {
+        "slug": "pepe",
+        "name": "Pepe",
+        "url": "/univers/olive-et-tom/personnage.html?slug=pepe"
+      },
+      {
+        "slug": "roberto-hongo",
+        "name": "Roberto Hongo",
+        "url": "/univers/olive-et-tom/personnage.html?slug=roberto-hongo"
+      },
+      {
+        "slug": "salinas",
+        "name": "Salinas",
+        "url": "/univers/olive-et-tom/personnage.html?slug=salinas"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      }
+    ]
+  },
+  {
     "slug": "ca-river-plate",
     "name": "CA River Plate",
     "type": "club",
@@ -485,67 +537,6 @@
         "slug": "ryoma-hino",
         "name": "Ryoma Hino",
         "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
-    "name": "Captain Tsubasa: Saikyo no Teki! Holanda Youth (1994 film)",
-    "type": "national",
-    "age_category": "youth",
-    "parent_team": null,
-    "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-world-youth-hen-1994",
-    "name": "Captain Tsubasa: World Youth Hen (1994)",
-    "type": "national",
-    "age_category": "youth",
-    "parent_team": null,
-    "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "ryoma-hino",
-        "name": "Ryoma Hino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ryoma-hino"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/personnage.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/personnage.html?slug=stefan-levin"
-      }
-    ]
-  },
-  {
-    "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-    "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-    "type": "national",
-    "age_category": "youth",
-    "parent_team": null,
-    "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "brian-cruyfford",
-        "name": "Brian Cruyfford",
-        "url": "/univers/olive-et-tom/personnage.html?slug=brian-cruyfford"
       }
     ]
   },
@@ -625,7 +616,7 @@
     "name": "Everton FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Everton",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=everton-fc",
     "description": "",
     "image": "",
@@ -709,7 +700,7 @@
   {
     "slug": "fc-bayern-munich-jr-youth",
     "name": "FC Bayern Munich Jr. Youth",
-    "type": "club",
+    "type": "national",
     "age_category": "youth",
     "parent_team": "FC Bayern Munich",
     "url": "/univers/olive-et-tom/equipe.html?slug=fc-bayern-munich-jr-youth",
@@ -873,6 +864,23 @@
     ]
   },
   {
+    "slug": "furano-high-school",
+    "name": "Furano High School",
+    "type": "school",
+    "age_category": "high-school",
+    "parent_team": "Furano",
+    "url": "/univers/olive-et-tom/equipe.html?slug=furano-high-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "hikaru-matsuyama",
+        "name": "Hikaru Matsuyama",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hikaru-matsuyama"
+      }
+    ]
+  },
+  {
     "slug": "furano-middle-school",
     "name": "Furano Middle School",
     "type": "school",
@@ -1008,7 +1016,7 @@
   {
     "slug": "hamburger-sv-jr-youth",
     "name": "Hamburger SV Jr. Youth",
-    "type": "club",
+    "type": "national",
     "age_category": "youth",
     "parent_team": "Hamburger SV",
     "url": "/univers/olive-et-tom/equipe.html?slug=hamburger-sv-jr-youth",
@@ -1169,7 +1177,7 @@
     "name": "Juventus FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Juventus",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc",
     "description": "",
     "image": "",
@@ -1185,11 +1193,6 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=davi"
       },
       {
-        "slug": "dotor",
-        "name": "Dotor",
-        "url": "/univers/olive-et-tom/personnage.html?slug=dotor"
-      },
-      {
         "slug": "kojiro-hyuga",
         "name": "Kojiro Hyuga",
         "url": "/univers/olive-et-tom/personnage.html?slug=kojiro-hyuga"
@@ -1203,11 +1206,6 @@
         "slug": "salvatore-gentile",
         "name": "Salvatore Gentile",
         "url": "/univers/olive-et-tom/personnage.html?slug=salvatore-gentile"
-      },
-      {
-        "slug": "tacchinardini",
-        "name": "Tacchinardini",
-        "url": "/univers/olive-et-tom/personnage.html?slug=tacchinardini"
       }
     ]
   },
@@ -1233,7 +1231,7 @@
     "name": "Kujukuri FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Kujukuri",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=kujukuri-fc",
     "description": "",
     "image": "",
@@ -1282,7 +1280,7 @@
     "name": "Liverpool FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Liverpool",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=liverpool-fc",
     "description": "",
     "image": "",
@@ -1299,7 +1297,7 @@
     "name": "Manchester United FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Manchester United",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=manchester-united-fc",
     "description": "",
     "image": "",
@@ -1316,7 +1314,7 @@
     "name": "Meiwa FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Meiwa",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=meiwa-fc",
     "description": "",
     "image": "",
@@ -1418,6 +1416,23 @@
     ]
   },
   {
+    "slug": "minamiuwa-middle-school",
+    "name": "Minamiuwa Middle School",
+    "type": "school",
+    "age_category": "middle-school",
+    "parent_team": "Minamiuwa",
+    "url": "/univers/olive-et-tom/equipe.html?slug=minamiuwa-middle-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "tetsuo-ishida",
+        "name": "Tetsuo Ishida",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tetsuo-ishida"
+      }
+    ]
+  },
+  {
     "slug": "minor-charactersbattle-of-world-youth",
     "name": "Minor characters/Battle of World Youth",
     "type": "national",
@@ -1439,7 +1454,7 @@
     "name": "Musashi FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Musashi",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=musashi-fc",
     "description": "",
     "image": "",
@@ -1476,7 +1491,7 @@
     "name": "Nakahara FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Nakahara",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=nakahara-fc",
     "description": "",
     "image": "",
@@ -1493,7 +1508,7 @@
     "name": "Naniwa FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Naniwa",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=naniwa-fc",
     "description": "",
     "image": "",
@@ -1678,7 +1693,7 @@
     "name": "Nankatsu SC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Nankatsu",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc",
     "description": "",
     "image": "",
@@ -1817,7 +1832,7 @@
     "name": "Newcastle United FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Newcastle United",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=newcastle-united-fc",
     "description": "",
     "image": "",
@@ -1878,7 +1893,7 @@
     "name": "Olympic Argentina",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Argentina",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-argentina",
     "description": "",
     "image": "",
@@ -1930,7 +1945,7 @@
     "name": "Olympic Brazil",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Brazil",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil",
     "description": "",
     "image": "",
@@ -1997,7 +2012,7 @@
     "name": "Olympic Cameroon",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Cameroon",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-cameroon",
     "description": "",
     "image": "",
@@ -2019,7 +2034,7 @@
     "name": "Olympic China",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "China",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-china",
     "description": "",
     "image": "",
@@ -2036,7 +2051,7 @@
     "name": "Olympic France",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "France",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-france",
     "description": "",
     "image": "",
@@ -2068,7 +2083,7 @@
     "name": "Olympic Germany",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Germany",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-germany",
     "description": "",
     "image": "",
@@ -2125,7 +2140,7 @@
     "name": "Olympic Japan",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Japan",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan",
     "description": "",
     "image": "",
@@ -2282,7 +2297,7 @@
     "name": "Olympic Mexico",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Mexico",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-mexico",
     "description": "",
     "image": "",
@@ -2324,7 +2339,7 @@
     "name": "Olympic Netherlands",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Netherlands",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-netherlands",
     "description": "",
     "image": "",
@@ -2381,7 +2396,7 @@
     "name": "Olympic Nigeria",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Nigeria",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-nigeria",
     "description": "",
     "image": "",
@@ -2408,7 +2423,7 @@
     "name": "Olympic Spain",
     "type": "national",
     "age_category": "olympic",
-    "parent_team": "Spain",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=olympic-spain",
     "description": "",
     "image": "",
@@ -2507,7 +2522,7 @@
     "name": "Paris Saint-Germain FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Paris Saint-Germain",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=paris-saint-germain-fc",
     "description": "",
     "image": "",
@@ -2572,34 +2587,9 @@
         "url": "/univers/olive-et-tom/personnage.html?slug=fernando-ruiz-blueno"
       },
       {
-        "slug": "ivangel",
-        "name": "Ivangel",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ivangel"
-      },
-      {
-        "slug": "luis-enpoli",
-        "name": "Luis Enpoli",
-        "url": "/univers/olive-et-tom/personnage.html?slug=luis-enpoli"
-      },
-      {
-        "slug": "makelolo",
-        "name": "Makelolo",
-        "url": "/univers/olive-et-tom/personnage.html?slug=makelolo"
-      },
-      {
-        "slug": "marientos",
-        "name": "Marientos",
-        "url": "/univers/olive-et-tom/personnage.html?slug=marientos"
-      },
-      {
         "slug": "michael",
         "name": "Michael",
         "url": "/univers/olive-et-tom/personnage.html?slug=michael"
-      },
-      {
-        "slug": "michel-olgado",
-        "name": "Michel Olgado",
-        "url": "/univers/olive-et-tom/personnage.html?slug=michel-olgado"
       },
       {
         "slug": "natureza",
@@ -2628,7 +2618,7 @@
     "name": "Sao Paulo FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Sao Paulo",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc",
     "description": "",
     "image": "",
@@ -2663,7 +2653,7 @@
   {
     "slug": "sao-paulo-fc-youth-squads",
     "name": "Sao Paulo FC - Youth squads",
-    "type": "club",
+    "type": "national",
     "age_category": "youth",
     "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=sao-paulo-fc-youth-squads",
@@ -2704,7 +2694,7 @@
     "name": "Shimizu FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "Shimizu",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=shimizu-fc",
     "description": "",
     "image": "",
@@ -2735,6 +2725,48 @@
         "slug": "tsubasa-ozora",
         "name": "Tsubasa Ozora",
         "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      }
+    ]
+  },
+  {
+    "slug": "shutetsu-elementary-school",
+    "name": "Shutetsu Elementary School",
+    "type": "school",
+    "age_category": "elementary",
+    "parent_team": "Shutetsu",
+    "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
+    "description": "",
+    "image": "",
+    "players": [
+      {
+        "slug": "genzo-wakabayashi",
+        "name": "Genzo Wakabayashi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=genzo-wakabayashi"
+      },
+      {
+        "slug": "hajime-taki",
+        "name": "Hajime Taki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=hajime-taki"
+      },
+      {
+        "slug": "mamoru-izawa",
+        "name": "Mamoru Izawa",
+        "url": "/univers/olive-et-tom/personnage.html?slug=mamoru-izawa"
+      },
+      {
+        "slug": "teppei-kisugi",
+        "name": "Teppei Kisugi",
+        "url": "/univers/olive-et-tom/personnage.html?slug=teppei-kisugi"
+      },
+      {
+        "slug": "tsubasa-ozora",
+        "name": "Tsubasa Ozora",
+        "url": "/univers/olive-et-tom/personnage.html?slug=tsubasa-ozora"
+      },
+      {
+        "slug": "yuzo-morisaki",
+        "name": "Yuzo Morisaki",
+        "url": "/univers/olive-et-tom/personnage.html?slug=yuzo-morisaki"
       }
     ]
   },
@@ -2790,7 +2822,7 @@
   {
     "slug": "sv-werder-bremen-jr-youth",
     "name": "SV Werder Bremen Jr. Youth",
-    "type": "club",
+    "type": "national",
     "age_category": "youth",
     "parent_team": "SV Werder Bremen",
     "url": "/univers/olive-et-tom/equipe.html?slug=sv-werder-bremen-jr-youth",
@@ -3014,23 +3046,6 @@
     ]
   },
   {
-    "slug": "uruguay-jr-youth-ronc",
-    "name": "Uruguay Jr. Youth (RoNC)",
-    "type": "national",
-    "age_category": "youth",
-    "parent_team": null,
-    "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth-ronc",
-    "description": "",
-    "image": "",
-    "players": [
-      {
-        "slug": "ramon-victorino-ronc",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/personnage.html?slug=ramon-victorino-ronc"
-      }
-    ]
-  },
-  {
     "slug": "uruguay-youth",
     "name": "Uruguay Youth",
     "type": "national",
@@ -3074,7 +3089,7 @@
     "name": "West Ham United FC",
     "type": "club",
     "age_category": "adult",
-    "parent_team": "West Ham United",
+    "parent_team": null,
     "url": "/univers/olive-et-tom/equipe.html?slug=west-ham-united-fc",
     "description": "",
     "image": "",

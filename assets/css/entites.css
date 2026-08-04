@@ -316,6 +316,32 @@
   gap: 0.4rem;
 }
 
+.entity-detail-description {
+  max-width: 68ch;
+  margin: 1rem 0 0;
+  color: var(--text-color);
+  line-height: 1.65;
+}
+
+.entity-detail-facts {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.3rem 0.8rem;
+  margin: 1rem 0 0;
+}
+
+.entity-detail-facts dt {
+  color: #9fb8d6;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.entity-detail-facts dd {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-color);
+}
+
 .entity-detail-section {
   margin-top: 1.6rem;
   padding-top: 1.2rem;
