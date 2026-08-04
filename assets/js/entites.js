@@ -161,6 +161,57 @@ const revealObserver = new IntersectionObserver(
 );
 
 // ---------------------------------------------------------------------------
+// Lien de retour
+// ---------------------------------------------------------------------------
+
+/**
+ * Rend le lien de retour d'une fiche fidèle au parcours réel.
+ *
+ * Une fiche s'atteint aussi bien depuis sa liste que depuis un personnage :
+ * renvoyer systématiquement vers la liste sort le visiteur de son fil. On
+ * revient donc dans l'historique, ce qui restitue au passage la position de
+ * défilement et les filtres de la page quittée.
+ *
+ * Le href reste la liste : c'est le repli quand il n'y a pas d'historique
+ * exploitable (lien partagé, ouverture directe, nouvel onglet), et il garde le
+ * clic-milieu et le ctrl-clic fonctionnels.
+ */
+function setupBackLink() {
+  const link = document.querySelector(".back-link");
+
+  if (!link || !document.referrer) {
+    return;
+  }
+
+  let referrer;
+
+  try {
+    referrer = new URL(document.referrer);
+  } catch {
+    return;
+  }
+
+  if (referrer.origin !== window.location.origin || window.history.length <= 1) {
+    return;
+  }
+
+  // Si l'on vient d'ailleurs que de la liste, l'intitulé ne doit plus la nommer.
+  if (referrer.pathname !== new URL(link.href).pathname) {
+    link.textContent = "← Retour";
+  }
+
+  link.addEventListener("click", (event) => {
+    // Laisse filer les clics qui ouvrent ailleurs : ils doivent mener à la liste.
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+
+    event.preventDefault();
+    window.history.back();
+  });
+}
+
+// ---------------------------------------------------------------------------
 // Cartes personnage (utilisées par les fiches détail)
 // ---------------------------------------------------------------------------
 
@@ -441,6 +492,9 @@ export async function createEntityDetailPage(config) {
   if (!shell) {
     return;
   }
+
+  // Avant tout chargement : le retour doit marcher même si la donnée échoue.
+  setupBackLink();
 
   function renderNotFound() {
     shell.innerHTML = `
