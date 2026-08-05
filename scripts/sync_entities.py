@@ -16,6 +16,7 @@ from fandom.client import (
 from fandom.extract_teams import (
     extract_team_candidates_from_page_links,
     extract_teams_from_infobox,
+    fetch_team_details,
 )
 
 from fandom.extract_techniques import (
@@ -325,6 +326,7 @@ def main() -> None:
                     "age_category": classification["age_category"],
                     "parent_team": parent_team,
                     "url": team_ref["url"],
+                    "japanese_name": "",
                     "description": "",
                     "image": "",
                     "players": [],
@@ -360,6 +362,12 @@ def main() -> None:
         }
         for technique in techniques_payload.values()
     ])
+
+    for index, equipe in enumerate(equipes, start=1):
+        equipe.update(fetch_team_details(equipe["name"]))
+
+        if index % 25 == 0:
+            print(f"[info] team details fetched: {index}/{len(equipes)}")
 
     for index, technique in enumerate(techniques, start=1):
         technique.update(fetch_technique_details(technique["name"]))
