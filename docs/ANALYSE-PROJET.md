@@ -54,6 +54,19 @@ Le nom du template ne pouvait pas servir de critère : une vraie technique utili
 - `first_appearance` n'est rempli que 13 fois sur 155, le champ étant réellement vide côté source. Les fiches taisent les champs vides plutôt que d'aligner des « non renseigné ».
 - **Aucune image de technique n'est récupérée**, alors que 13 pages sur 14 en ont une. `agents.md` interdit le hotlink, et télécharger ~150 visuels doublerait le poids du dépôt — chantier à part (voir §7).
 
+### Le même angle mort côté équipes, corrigé dans la foulée
+
+`description` et `image` étaient vides sur les **102 équipes**, pour une raison voisine : la page d'une équipe était bien récupérée par `fetch_page_wikitext`, mais uniquement pour vérifier qu'un joueur y figurait (`validate_team_membership`) — jamais pour son contenu. Le correctif des techniques s'est transposé tel quel (`fetch_team_details`).
+
+| `equipes.json` | Avant | Après |
+|---|---|---|
+| Avec description | **0 / 102** | **98 / 102** |
+| Avec nom japonais | 0 / 102 | 100 / 102 |
+
+Les quatre équipes restantes (`ac-chievo-verona`, `brazil-middle-school`, `liverpool-fc`, `newcastle-united-fc`) ont une page dépourvue de tout paragraphe de prose — quand elle existe. Vérifié page par page : ce n'est pas un défaut d'extraction.
+
+**Deux angles morts identiques à deux endroits du même pipeline** : la donnée était chargée, mais personne ne la lisait. C'est le motif à retenir de ce chantier — voir le verdict en §8.
+
 ---
 
 ## 2. Stack technique
@@ -123,7 +136,7 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
 │   │   └── entites.js            # Module ES partagé listes/fiches entités (639 l.)
 │   ├── data/
 │   │   ├── personnages.json      # 235 entrées — 330 Ko
-│   │   ├── equipes.json          # 102 entrées — 85 Ko
+│   │   ├── equipes.json          # 102 entrées — 104 Ko
 │   │   └── techniques.json       # 155 entrées — 119 Ko
 │   └── images/olive-et-tom/      # 268 PNG — ~12 Mo
 │
@@ -143,7 +156,7 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
 │   └── fandom/
 │       ├── client.py             # Couche API MediaWiki
 │       ├── normalize.py          # Nettoyage, infobox, slugify (294 l.)
-│       ├── extract_teams.py      # Extraction équipes (215 l.)
+│       ├── extract_teams.py      # Extraction + fiches équipes (244 l.)
 │       ├── extract_techniques.py # Catalogue + fiches techniques (179 l.)
 │       ├── relations.py          # Construction des refs {slug,name,url}
 │       └── writers.py            # Écriture atomique + garde-fous
@@ -198,7 +211,7 @@ Fandom Captain Tsubasa (API MediaWiki)
 }
 ```
 
-**`equipes.json`** : `slug, name, type (club|national|school), age_category, parent_team, url, description, image, players[]`
+**`equipes.json`** : `slug, name, type (club|national|school), age_category, parent_team, url, japanese_name, description, image, players[]`
 
 **`techniques.json`** : `slug, name, url, japanese_name, first_appearance, description, image, users[]`
 
@@ -254,8 +267,8 @@ Deux versions coexistent avec des contenus différents : `/sync_personnages.py` 
 **11. Aucun cache-busting sur les assets**
 `style.css`, `personnages.js`, `entites.js`, `match.js` sont tous servis sans version ni empreinte, et le déploiement FTP ne pose aucun en-tête de cache. Constaté en développement : le navigateur a resservi un ancien `entites.js` pendant plusieurs rechargements successifs, y compris après un rechargement forcé. **En production, une partie des visiteurs conservera l'ancien JS/CSS après chaque mise à jour**, avec le risque d'un JS périmé face à des données neuves. Un suffixe de version sur les `src`/`href` suffirait.
 
-**12. Descriptions et images vides sur les équipes**
-`equipes.json` a encore `description` et `image` à `""` sur les 102 entrées — même angle mort que celui corrigé côté techniques : `fetch_page_wikitext` est bien appelé pour les équipes ([sync_entities.py:92](../scripts/sync_entities.py:92)), mais seuls les champs de structure en sont extraits. Le correctif est le même que celui appliqué aux techniques et devrait se transposer directement.
+**12. ~~Descriptions vides sur les équipes~~ — ✅ résolu**
+`equipes.json` avait `description` et `image` à `""` sur les 102 entrées. La description et le nom japonais sont désormais lus (98/102 et 100/102) — voir §1. **Les images restent vides**, sur les équipes comme sur les techniques : `agents.md` interdit le hotlink, et les télécharger est un chantier à part (piste n°6).
 
 ### 🟡 Qualité / perf
 
@@ -323,13 +336,14 @@ php -S localhost:8000
 
 | # | Chantier | Effort | Impact |
 |---|---|---|---|
-| ~~1~~ | ~~Créer `equipe.html` / `technique.html` et les listes~~ — ✅ livré (PR #55) | — | — |
-| 1 | Réparer ou retirer `update_ct_portraits.py` (cible `personnages.json`, pas le JS) + désactiver le cron en attendant | S | 🔥 Élevé |
-| 2 | Versionner les assets (`?v=…` sur les `src`/`href`) — sans quoi chaque déploiement laisse des visiteurs sur un JS/CSS périmé | S | 🔥 Élevé |
-| 3 | Mettre à jour `agents.md` : exception PHP du duel, et modules ES désormais utilisés | S | Élevé |
-| 4 | Couche de traduction FR (noms, positions, nationalités) conforme à `agents.md` | M | Élevé |
-| 5 | Descriptions et images des équipes — transposer le correctif appliqué aux techniques | S | Élevé |
-| 6 | Télécharger les visuels de techniques (13/14 en ont un sur le wiki) dans `assets/images/`, sans hotlink | M | Moyen |
+| ~~—~~ | ~~Créer `equipe.html` / `technique.html` et les listes~~ — ✅ livré (PR #55) | — | — |
+| ~~—~~ | ~~Descriptions des équipes~~ — ✅ livré, images exceptées (piste n°6) | — | — |
+| 1 | Assertions de qualité en sortie de pipeline (« si moins de X % des entrées ont une description, échouer ») — c'est ce qui aurait détecté les deux angles morts | S | 🔥 Élevé |
+| 2 | Réparer ou retirer `update_ct_portraits.py` (cible `personnages.json`, pas le JS) + désactiver le cron en attendant | S | 🔥 Élevé |
+| 3 | Versionner les assets (`?v=…` sur les `src`/`href`) — sans quoi chaque déploiement laisse des visiteurs sur un JS/CSS périmé | S | 🔥 Élevé |
+| 4 | Mettre à jour `agents.md` : exception PHP du duel, et modules ES désormais utilisés | S | Élevé |
+| 5 | Couche de traduction FR (noms, positions, nationalités) conforme à `agents.md` | M | Élevé |
+| 6 | Télécharger les visuels d'équipes et de techniques dans `assets/images/`, sans hotlink — seul champ encore vide des deux catalogues | M | Moyen |
 | 7 | Migrer `personnages.js` et `personnage.html` vers `assets/js/entites.js` — le module partagé existe déjà | S | Moyen |
 | 8 | Nettoyer les assets orphelins + le fichier au nom contenant une tabulation | S | Moyen |
 | 9 | Dédupliquer `sync_personnages.py`, supprimer ou réparer `fetch-all-character-images.yml` | S | Moyen |
@@ -348,7 +362,11 @@ php -S localhost:8000
 
 **L'écart front/back est comblé** (PR #55) : les quatre pages entités existent, et le pipeline de techniques a été réparé au passage.
 
-**Le vrai risque, maintenant : les défaillances muettes.** Les deux bugs des techniques n'ont pas fait de bruit — l'API répondait `200`, le script se terminait sur `[ok]`, la CI était verte, et pourtant 100 % des descriptions étaient vides et deux tiers du catalogue étaient des artefacts. Rien ne l'a signalé pendant des mois. Le pipeline gagnerait des assertions de sortie (« si moins de X % des entrées ont une description, échouer ») bien plus que des tests unitaires. Le garde-fou `minimum_items` de `writers.py` va dans ce sens : il ne surveille que le volume, jamais la qualité.
+**Le vrai risque, maintenant : les défaillances muettes.** Les bugs des techniques n'ont pas fait de bruit — l'API répondait `200`, le script se terminait sur `[ok]`, la CI était verte, et pourtant 100 % des descriptions étaient vides et deux tiers du catalogue étaient des artefacts. Rien ne l'a signalé pendant des mois.
+
+Ce n'est pas un accident isolé : **le même angle mort existait à un second endroit du pipeline**, sur les équipes, et pour la même raison — la page était chargée, mais personne n'en lisait le contenu. Deux occurrences du même motif dans le même fichier, invisibles l'une comme l'autre. C'est ce qui rend le diagnostic généralisable plutôt qu'anecdotique.
+
+Le pipeline gagnerait des **assertions de qualité en sortie** (« si moins de X % des entrées ont une description, échouer ») bien plus que des tests unitaires. Le garde-fou `minimum_items` de `writers.py` va dans ce sens, mais ne surveille que le volume — jamais la qualité. Un champ vide à 100 % passait sans encombre.
 
 **Le second angle mort est le cache** : sans versionnement des assets, une correction déployée n'atteint pas forcément le visiteur. Un bug corrigé peut donc rester visible en production sans que rien ne l'indique — même famille de problème, autre bout de la chaîne.
 
