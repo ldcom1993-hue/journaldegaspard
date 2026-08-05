@@ -158,21 +158,97 @@ le serveur, jamais d'après une règle codée côté client.
 
 ---
 
-## V2 envisagée — personnages et techniques
+## V2 conçue — le mode Équipe
 
-Le dépôt contient déjà 235 personnages et 304 techniques avec leurs relations
-(`assets/data/personnages.json`, `techniques.json`), qui ne sont affichés nulle
-part. Piste : chaque joueur choisit un personnage avant le match, et sa
-technique signature modifie la matrice.
+Le mode actuel devient **Classique** et ne bouge pas. À côté, un mode **Équipe**
+où chaque joueur compose une équipe de trois personnages avant le coup d'envoi,
+et où les techniques de ces personnages infléchissent le déroulement.
 
-- Drive Shoot (Tsubasa) — coûte 3 actions, traverse une défense
-- Tigre Shoot (Hyuga) — coûte 2 actions, marque même sur un tir adverse
-- Parade de Wakabayashi — la défense rapporte 2 actions au lieu d'1
+### Les trois familles
 
-Chaque personnage aurait une seule technique, utilisable une fois par match.
-Ça transforme un pierre-feuille-ciseaux symétrique en jeu de bluff asymétrique,
-et ça donne enfin un usage aux données de techniques.
+Les catégories du wiki, qui servent déjà à constituer le catalogue de
+techniques (voir `entities-sync.md`), se projettent directement sur les trois
+coups du jeu :
 
-**Prérequis technique** : ajouter un champ `personnage` par joueur dans l'état
-serveur, et une phase `selection` avant `en-cours`. La matrice reste dans
-`resoudreManche()`, avec les techniques appliquées en surcouche.
+| Catégories wiki | Famille |
+|---|---|
+| Ground shots, Aerial shots | **Tir** |
+| Passes, Dribbles and feints, Cooperative tactics, Tactics and skills | **Construction** |
+| Saves, Defensive techniques | **Défense** |
+
+### Composition
+
+**Trois personnages, un par famille.** La contrainte n'est pas cosmétique :
+sur les 155 techniques, 101 relèvent du tir contre 16 de la défense. Sans elle,
+personne ne prendrait jamais de défenseur et le mode se réduirait à une course
+au tir. Elle transforme la faiblesse du corpus en décision de jeu.
+
+Le vivier est de **60 personnages** — ceux qui ont au moins une technique. Les
+175 autres n'apporteraient qu'un nom.
+
+Aucune contrainte de poste pour l'instant : un gardien n'est pas obligatoire.
+Les postes restent affichés, à titre indicatif.
+
+**Draft simultané et secret, doublons autorisés entre les deux joueurs.** Trois
+raisons : tout est déjà simultané et caché dans ce jeu ; il n'y a pas d'ordre de
+tour à gérer ; et surtout, avec une dizaine de personnages défensifs jouables,
+l'exclusivité rendrait la contrainte de composition intenable à deux.
+
+### Les techniques en jeu
+
+**Chaque personnage est une cartouche, utilisable une fois par match.** Une
+équipe de trois donne donc trois techniques sur l'ensemble de la partie.
+
+Un personnage n'apporte qu'**une seule technique**, sa signature, quel que soit
+son arsenal. C'est ce qui empêche Tsubasa et ses 38 techniques d'être un choix
+automatique. Sa polyvalence peut se traduire autrement — sa carte jouable dans
+deux familles, par exemple — mais jamais en volume.
+
+Au moment de choisir son coup, un joueur peut y attacher une cartouche encore
+disponible.
+
+| Famille | Effet | Coût |
+|---|---|---|
+| **Tir** | Marque même si l'adversaire défend | 2 actions |
+| **Tir** | Tirer avec 0 action | — |
+| **Construction** | +2 actions au lieu de +1 | — |
+| **Construction** | Esquive : annule le tir adverse sans défendre | 1 action |
+| **Défense** | Lève l'interdit de défendre deux manches de suite | — |
+| **Défense** | La défense rapporte 2 actions | — |
+
+### Information cachée
+
+Le mode Classique ne laisse rien filtrer ; le mode Équipe doit tenir la même
+ligne.
+
+- Les deux équipes sont **publiques au coup d'envoi**. Sans ça, le draft n'a
+  aucun enjeu de lecture.
+- La cartouche attachée à un coup reste **secrète jusqu'à la résolution**,
+  exactement comme le coup lui-même. Elle ne doit pas être sérialisée avant.
+- Les cartouches dépensées deviennent **publiques**. Compter ce qu'il reste à
+  l'adversaire fait partie du jeu.
+
+### Prérequis
+
+**Côté données** — deux champs manquent aujourd'hui à `techniques.json` :
+
+- `famille` : les catégories ont servi à filtrer le catalogue, puis ont été
+  jetées. Il faut les conserver.
+- la **technique signature** d'un personnage. Le wiki la marque via une
+  catégorie `<Personnage> pages` (`Tiger Shot` → `Kojiro Hyuga pages`), mais
+  seulement pour 28 personnages. Repli pour les autres : la technique ayant le
+  moins d'utilisateurs, donc la plus personnelle. Le champ `users` fournit au
+  passage une courbe de puissance gratuite — une technique partagée par vingt
+  personnages est banale, une exclusive est forte.
+
+**Côté serveur** — un champ `mode` (`classique` | `equipe`) dans l'état, fixé à
+la création et affiché dans le salon ; une phase `selection` entre `salon` et
+`en-cours` ; un champ `equipe` et un champ `cartouchesDepensees` par joueur.
+
+**La matrice de résolution ne bouge pas.** Les techniques s'appliquent en
+surcouche, après elle, dans `resoudreManche()`. C'est ce qui garantit que le
+mode Classique reste littéralement le code d'aujourd'hui.
+
+Enfin, `techniquesAutorisees` doit accompagner `coupsAutorises` dans la
+projection d'état : le client ne doit pas plus décider de la légalité d'une
+cartouche que de celle d'un coup.
