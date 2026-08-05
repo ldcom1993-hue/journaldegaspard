@@ -22,6 +22,12 @@
         "confidence": "medium"
       },
       {
+        "slug": "brazil-youth",
+        "name": "Brazil Youth",
+        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+        "confidence": "medium"
+      },
+      {
         "slug": "nankatsu-elementary-school",
         "name": "Nankatsu Elementary School",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-elementary-school",
@@ -55,6 +61,12 @@
         "slug": "shumei-gakkan-middle-school",
         "name": "Shumei Gakkan Middle School",
         "url": "/univers/olive-et-tom/equipe.html?slug=shumei-gakkan-middle-school",
+        "confidence": "medium"
+      },
+      {
+        "slug": "shutetsu-elementary-school",
+        "name": "Shutetsu Elementary School",
+        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
         "confidence": "medium"
       }
     ],
@@ -116,26 +128,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=aurora-feint"
       },
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-1981",
-        "name": "Captain Tsubasa (1981)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-1981"
-      },
-      {
-        "slug": "captain-tsubasa-25th-anniversary-2005",
-        "name": "Captain Tsubasa 25th Anniversary (2005)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-25th-anniversary-2005"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/technique.html?slug=carlos-santana"
-      },
-      {
         "slug": "counter-shot",
         "name": "Counter Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=counter-shot"
@@ -146,19 +138,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
       },
       {
-        "slug": "drive-pass",
-        "name": "Drive Pass",
-        "url": "/univers/olive-et-tom/technique.html?slug=drive-pass"
-      },
-      {
         "slug": "drive-shot",
         "name": "Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
-      },
-      {
-        "slug": "drive-shotvariations",
-        "name": "Drive Shot/Variations",
-        "url": "/univers/olive-et-tom/technique.html?slug=drive-shotvariations"
       },
       {
         "slug": "drive-tiger-twin-shot",
@@ -169,11 +151,6 @@
         "slug": "eagle-shot",
         "name": "Eagle Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=eagle-shot"
-      },
-      {
-        "slug": "elle-sid-pierre",
-        "name": "Elle Sid Pierre",
-        "url": "/univers/olive-et-tom/technique.html?slug=elle-sid-pierre"
       },
       {
         "slug": "face-block",
@@ -196,16 +173,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=forward-somersault-shot"
       },
       {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
-        "slug": "gordoba-gonzales",
-        "name": "Gordoba Gonzales",
-        "url": "/univers/olive-et-tom/technique.html?slug=gordoba-gonzales"
-      },
-      {
         "slug": "green-cut-pass",
         "name": "Green-Cut Pass",
         "url": "/univers/olive-et-tom/technique.html?slug=green-cut-pass"
@@ -221,21 +188,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=high-speed-tornado-sky-alpha"
       },
       {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/technique.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/technique.html?slug=juan-diaz"
-      },
-      {
         "slug": "jumping-header",
         "name": "Jumping Header",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
@@ -246,39 +198,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/technique.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/technique.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/technique.html?slug=michael"
-      },
-      {
-        "slug": "misaki",
-        "name": "Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=misaki"
-      },
-      {
-        "slug": "olympic-argentina",
-        "name": "Olympic Argentina",
-        "url": "/univers/olive-et-tom/technique.html?slug=olympic-argentina"
-      },
-      {
-        "slug": "otomo-middle-school",
-        "name": "Otomo Middle School",
-        "url": "/univers/olive-et-tom/technique.html?slug=otomo-middle-school"
+        "slug": "no-rotation-shot",
+        "name": "No Rotation Shot",
+        "url": "/univers/olive-et-tom/technique.html?slug=no-rotation-shot"
       },
       {
         "slug": "overhead-clear",
@@ -296,19 +218,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-pass"
       },
       {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/technique.html?slug=pepe"
-      },
-      {
         "slug": "raiju-shot",
         "name": "Raiju Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot"
-      },
-      {
-        "slug": "reactive-fast-kick-quick-gun",
-        "name": "Reactive Fast Kick Quick Gun",
-        "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun"
       },
       {
         "slug": "right-angle-feint",
@@ -316,29 +228,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-feint"
       },
       {
-        "slug": "rise-of-new-champions",
-        "name": "Rise of New Champions",
-        "url": "/univers/olive-et-tom/technique.html?slug=rise-of-new-champions"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/technique.html?slug=rivaul"
-      },
-      {
         "slug": "rivaul-turn",
         "name": "Rivaul Turn",
         "url": "/univers/olive-et-tom/technique.html?slug=rivaul-turn"
-      },
-      {
-        "slug": "roberto",
-        "name": "Roberto",
-        "url": "/univers/olive-et-tom/technique.html?slug=roberto"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/technique.html?slug=roberto-hongo"
       },
       {
         "slug": "rolling-overhead-kick",
@@ -351,11 +243,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=roulette"
       },
       {
-        "slug": "running-volley",
-        "name": "Running Volley",
-        "url": "/univers/olive-et-tom/technique.html?slug=running-volley"
-      },
-      {
         "slug": "santana-turn",
         "name": "Santana Turn",
         "url": "/univers/olive-et-tom/technique.html?slug=santana-turn"
@@ -364,21 +251,6 @@
         "slug": "segway-dribble",
         "name": "Segway Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=segway-dribble"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "shinnosuke-kazami",
-        "name": "Shinnosuke Kazami",
-        "url": "/univers/olive-et-tom/technique.html?slug=shinnosuke-kazami"
-      },
-      {
-        "slug": "shun-nitta",
-        "name": "Shun Nitta",
-        "url": "/univers/olive-et-tom/technique.html?slug=shun-nitta"
       },
       {
         "slug": "skydive-shot",
@@ -406,11 +278,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=south-american-style-dribble"
       },
       {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/technique.html?slug=stefan-levin"
-      },
-      {
         "slug": "straight-line-dribble",
         "name": "Straight Line Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=straight-line-dribble"
@@ -419,16 +286,6 @@
         "slug": "submarine-defense",
         "name": "Submarine Defense",
         "url": "/univers/olive-et-tom/technique.html?slug=submarine-defense"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/technique.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=taro-misaki"
       },
       {
         "slug": "tornado-shot",
@@ -441,24 +298,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=triangle-jump"
       },
       {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
-      },
-      {
-        "slug": "tsubasa-ozora-ronc",
-        "name": "Tsubasa Ozora (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora-ronc"
-      },
-      {
         "slug": "twin-shot",
         "name": "Twin Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=twin-shot"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/technique.html?slug=xiao-junguang"
       }
     ]
   },
@@ -560,26 +402,6 @@
     "popularityRank": 2,
     "techniques": [
       {
-        "slug": "16th-national-middle-school-tournament",
-        "name": "16th National middle school tournament",
-        "url": "/univers/olive-et-tom/technique.html?slug=16th-national-middle-school-tournament"
-      },
-      {
-        "slug": "ac-reggiana",
-        "name": "AC Reggiana",
-        "url": "/univers/olive-et-tom/technique.html?slug=ac-reggiana"
-      },
-      {
-        "slug": "battle-of-world-youth",
-        "name": "Battle of World Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=battle-of-world-youth"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "counter-shot",
         "name": "Counter Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=counter-shot"
@@ -605,16 +427,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=flash-raiju-shot"
       },
       {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=japan-youth"
-      },
-      {
         "slug": "jumping-header",
         "name": "Jumping Header",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
@@ -623,46 +435,6 @@
         "slug": "jumping-tiger-volley",
         "name": "Jumping Tiger Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-tiger-volley"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/technique.html?slug=karl-heinz-schneider"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/technique.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kids-dream",
-        "name": "Kids' Dream",
-        "url": "/univers/olive-et-tom/technique.html?slug=kids-dream"
-      },
-      {
-        "slug": "kojiro-hyuga-ronc",
-        "name": "Kojiro Hyuga (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=kojiro-hyuga-ronc"
-      },
-      {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/technique.html?slug=kozo-kira"
-      },
-      {
-        "slug": "maki-akamine",
-        "name": "Maki Akamine",
-        "url": "/univers/olive-et-tom/technique.html?slug=maki-akamine"
-      },
-      {
-        "slug": "minato-gamo",
-        "name": "Minato Gamo",
-        "url": "/univers/olive-et-tom/technique.html?slug=minato-gamo"
-      },
-      {
-        "slug": "muller",
-        "name": "Muller",
-        "url": "/univers/olive-et-tom/technique.html?slug=muller"
       },
       {
         "slug": "neo-drive-tiger-twin-shot",
@@ -690,11 +462,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-tiger"
       },
       {
-        "slug": "overseas-fierce-fights",
-        "name": "Overseas Fierce Fights",
-        "url": "/univers/olive-et-tom/technique.html?slug=overseas-fierce-fights"
-      },
-      {
         "slug": "post-play",
         "name": "Post Play",
         "url": "/univers/olive-et-tom/technique.html?slug=post-play"
@@ -705,44 +472,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot"
       },
       {
-        "slug": "reactive-fast-kick-quick-gun",
-        "name": "Reactive Fast Kick Quick Gun",
-        "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun"
-      },
-      {
         "slug": "right-angle-feint",
         "name": "Right-Angle Feint",
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-feint"
       },
       {
-        "slug": "rise-of-new-champions",
-        "name": "Rise of New Champions",
-        "url": "/univers/olive-et-tom/technique.html?slug=rise-of-new-champions"
-      },
-      {
-        "slug": "rising-sun",
-        "name": "Rising Sun",
-        "url": "/univers/olive-et-tom/technique.html?slug=rising-sun"
-      },
-      {
-        "slug": "road-to-2002",
-        "name": "Road to 2002",
-        "url": "/univers/olive-et-tom/technique.html?slug=road-to-2002"
-      },
-      {
-        "slug": "roberto-hongo",
-        "name": "Roberto Hongo",
-        "url": "/univers/olive-et-tom/technique.html?slug=roberto-hongo"
-      },
-      {
         "slug": "rolling-overhead-kick",
         "name": "Rolling Overhead Kick",
         "url": "/univers/olive-et-tom/technique.html?slug=rolling-overhead-kick"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=shingo-aoi"
       },
       {
         "slug": "skywing-shot",
@@ -760,24 +497,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=straight-line-dribble"
       },
       {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/technique.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=taro-misaki"
-      },
-      {
         "slug": "tiger-shot",
         "name": "Tiger Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=tiger-shot"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
       },
       {
         "slug": "twin-shot",
@@ -811,12 +533,6 @@
         "slug": "all-japan-youth",
         "name": "All Japan Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-youth",
-        "confidence": "medium"
-      },
-      {
-        "slug": "captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
-        "name": "Captain Tsubasa: Saikyo no Teki! Holanda Youth (1994 film)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-saikyo-no-teki-holanda-youth-1994-film",
         "confidence": "medium"
       },
       {
@@ -866,6 +582,12 @@
         "name": "Shimizu FC",
         "url": "/univers/olive-et-tom/equipe.html?slug=shimizu-fc",
         "confidence": "medium"
+      },
+      {
+        "slug": "shutetsu-elementary-school",
+        "name": "Shutetsu Elementary School",
+        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
+        "confidence": "medium"
       }
     ],
     "nationality": "Japanese",
@@ -912,16 +634,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=birdcage"
       },
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-1981",
-        "name": "Captain Tsubasa (1981)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-1981"
-      },
-      {
         "slug": "diving-catch",
         "name": "Diving Catch",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-catch"
@@ -932,44 +644,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
       },
       {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/technique.html?slug=fc-bayern-munich"
-      },
-      {
         "slug": "forward-somersault-block",
         "name": "Forward Somersault Block",
         "url": "/univers/olive-et-tom/technique.html?slug=forward-somersault-block"
       },
       {
-        "slug": "genzo-wakabayashi-ronc",
-        "name": "Genzo Wakabayashi (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=genzo-wakabayashi-ronc"
-      },
-      {
-        "slug": "germany-jr",
-        "name": "Germany Jr.",
-        "url": "/univers/olive-et-tom/technique.html?slug=germany-jr"
-      },
-      {
         "slug": "green-cut-pass",
         "name": "Green-Cut Pass",
         "url": "/univers/olive-et-tom/technique.html?slug=green-cut-pass"
-      },
-      {
-        "slug": "hamburger-sv-jr-youth",
-        "name": "Hamburger SV Jr. Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=hamburger-sv-jr-youth"
-      },
-      {
-        "slug": "j-boys-challenge",
-        "name": "J Boys' Challenge",
-        "url": "/univers/olive-et-tom/technique.html?slug=j-boys-challenge"
-      },
-      {
-        "slug": "khongsawat-brothers",
-        "name": "Khongsawat brothers",
-        "url": "/univers/olive-et-tom/technique.html?slug=khongsawat-brothers"
       },
       {
         "slug": "levin-shot",
@@ -980,16 +662,6 @@
         "slug": "mirage-shot",
         "name": "Mirage Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=mirage-shot"
-      },
-      {
-        "slug": "road-to-2002",
-        "name": "Road to 2002",
-        "url": "/univers/olive-et-tom/technique.html?slug=road-to-2002"
-      },
-      {
-        "slug": "schneider-1983-anime",
-        "name": "Schneider (1983 anime)",
-        "url": "/univers/olive-et-tom/technique.html?slug=schneider-1983-anime"
       },
       {
         "slug": "triangle-jump",
@@ -1119,24 +791,9 @@
     "popularityRank": 4,
     "techniques": [
       {
-        "slug": "battle-of-world-youth",
-        "name": "Battle of World Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=battle-of-world-youth"
-      },
-      {
         "slug": "boomerang-shot",
         "name": "Boomerang Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=boomerang-shot"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "cruyfford",
-        "name": "Cruyfford",
-        "url": "/univers/olive-et-tom/technique.html?slug=cruyfford"
       },
       {
         "slug": "diving-header",
@@ -1152,11 +809,6 @@
         "slug": "french-style-dribble",
         "name": "French-style Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=french-style-dribble"
-      },
-      {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
       },
       {
         "slug": "green-cut-pass",
@@ -1179,11 +831,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=high-speed-tornado-sky-alpha"
       },
       {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
-      },
-      {
         "slug": "jumping-header",
         "name": "Jumping Header",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
@@ -1194,39 +841,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/technique.html?slug=ken-wakashimazu"
-      },
-      {
         "slug": "loop-shot",
         "name": "Loop Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=loop-shot"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/technique.html?slug=madrid-olympics-tournament"
-      },
-      {
-        "slug": "matsuyama",
-        "name": "Matsuyama",
-        "url": "/univers/olive-et-tom/technique.html?slug=matsuyama"
-      },
-      {
-        "slug": "misaki",
-        "name": "Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=misaki"
-      },
-      {
-        "slug": "misugi",
-        "name": "Misugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=misugi"
-      },
-      {
-        "slug": "nankatsu-sc",
-        "name": "Nankatsu SC",
-        "url": "/univers/olive-et-tom/technique.html?slug=nankatsu-sc"
       },
       {
         "slug": "overhead-kick",
@@ -1239,16 +856,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot"
       },
       {
-        "slug": "rising-sun",
-        "name": "Rising Sun",
-        "url": "/univers/olive-et-tom/technique.html?slug=rising-sun"
-      },
-      {
-        "slug": "road-to-2002",
-        "name": "Road to 2002",
-        "url": "/univers/olive-et-tom/technique.html?slug=road-to-2002"
-      },
-      {
         "slug": "roulette",
         "name": "Roulette",
         "url": "/univers/olive-et-tom/technique.html?slug=roulette"
@@ -1257,11 +864,6 @@
         "slug": "sss",
         "name": "S.S.S",
         "url": "/univers/olive-et-tom/technique.html?slug=sss"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=shingo-aoi"
       },
       {
         "slug": "skywing-shot",
@@ -1277,26 +879,6 @@
         "slug": "straight-line-dribble",
         "name": "Straight Line Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=straight-line-dribble"
-      },
-      {
-        "slug": "takeshi-sawada",
-        "name": "Takeshi Sawada",
-        "url": "/univers/olive-et-tom/technique.html?slug=takeshi-sawada"
-      },
-      {
-        "slug": "taro-misaki-ronc",
-        "name": "Taro Misaki (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=taro-misaki-ronc"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora"
       },
       {
         "slug": "twin-shot",
@@ -1373,29 +955,9 @@
     "popularityRank": 5,
     "techniques": [
       {
-        "slug": "all-japan-jr-youth",
-        "name": "All Japan Jr. Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=all-japan-jr-youth"
-      },
-      {
         "slug": "avalanche-attack",
         "name": "Avalanche Attack",
         "url": "/univers/olive-et-tom/technique.html?slug=avalanche-attack"
-      },
-      {
-        "slug": "battle-of-world-youth",
-        "name": "Battle of World Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=battle-of-world-youth"
-      },
-      {
-        "slug": "boys-fight",
-        "name": "Boys' Fight",
-        "url": "/univers/olive-et-tom/technique.html?slug=boys-fight"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
       },
       {
         "slug": "diving-header",
@@ -1413,54 +975,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=flying-drive-shot"
       },
       {
-        "slug": "furano-middle-school",
-        "name": "Furano middle school",
-        "url": "/univers/olive-et-tom/technique.html?slug=furano-middle-school"
-      },
-      {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
-      },
-      {
-        "slug": "j-boys-challenge",
-        "name": "J Boys' Challenge",
-        "url": "/univers/olive-et-tom/technique.html?slug=j-boys-challenge"
-      },
-      {
-        "slug": "jito",
-        "name": "Jito",
-        "url": "/univers/olive-et-tom/technique.html?slug=jito"
-      },
-      {
         "slug": "jumping-volley",
         "name": "Jumping Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
-        "slug": "jun-misugi-ronc",
-        "name": "Jun Misugi (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=jun-misugi-ronc"
-      },
-      {
-        "slug": "kids-dream",
-        "name": "Kids' Dream",
-        "url": "/univers/olive-et-tom/technique.html?slug=kids-dream"
-      },
-      {
-        "slug": "munemasa-katagiri",
-        "name": "Munemasa Katagiri",
-        "url": "/univers/olive-et-tom/technique.html?slug=munemasa-katagiri"
-      },
-      {
         "slug": "offside-trap",
         "name": "Offside Trap",
         "url": "/univers/olive-et-tom/technique.html?slug=offside-trap"
-      },
-      {
-        "slug": "overhead",
-        "name": "Overhead",
-        "url": "/univers/olive-et-tom/technique.html?slug=overhead"
       },
       {
         "slug": "overhead-kick",
@@ -1471,11 +993,6 @@
         "slug": "sky-rocket-volley",
         "name": "Sky Rocket Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=sky-rocket-volley"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -1493,6 +1010,12 @@
         "slug": "furano-elementary-soccer-club",
         "name": "Furano Elementary Soccer Club",
         "url": "/univers/olive-et-tom/equipe.html?slug=furano-elementary-soccer-club",
+        "confidence": "medium"
+      },
+      {
+        "slug": "furano-high-school",
+        "name": "Furano High School",
+        "url": "/univers/olive-et-tom/equipe.html?slug=furano-high-school",
         "confidence": "medium"
       },
       {
@@ -1552,44 +1075,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=avalanche-attack"
       },
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "eagle-shot",
         "name": "Eagle Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=eagle-shot"
-      },
-      {
-        "slug": "furano",
-        "name": "Furano",
-        "url": "/univers/olive-et-tom/technique.html?slug=furano"
-      },
-      {
-        "slug": "furano-middle-school",
-        "name": "Furano middle school",
-        "url": "/univers/olive-et-tom/technique.html?slug=furano-middle-school"
-      },
-      {
-        "slug": "hikaru-matsuyama-ronc",
-        "name": "Hikaru Matsuyama (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=hikaru-matsuyama-ronc"
-      },
-      {
-        "slug": "kazumasa-oda",
-        "name": "Kazumasa Oda",
-        "url": "/univers/olive-et-tom/technique.html?slug=kazumasa-oda"
-      },
-      {
-        "slug": "matsuyama",
-        "name": "Matsuyama",
-        "url": "/univers/olive-et-tom/technique.html?slug=matsuyama"
-      },
-      {
-        "slug": "misaki",
-        "name": "Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=misaki"
       },
       {
         "slug": "twin-shot",
@@ -1690,16 +1178,6 @@
     "popularityRank": 7,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "diaz",
-        "name": "Diaz",
-        "url": "/univers/olive-et-tom/technique.html?slug=diaz"
-      },
-      {
         "slug": "diving-catch",
         "name": "Diving Catch",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-catch"
@@ -1708,26 +1186,6 @@
         "slug": "forward-somersault-block",
         "name": "Forward Somersault Block",
         "url": "/univers/olive-et-tom/technique.html?slug=forward-somersault-block"
-      },
-      {
-        "slug": "golden-23",
-        "name": "Golden-23",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-23"
-      },
-      {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
-      },
-      {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/technique.html?slug=kozo-kira"
-      },
-      {
-        "slug": "nitta",
-        "name": "Nitta",
-        "url": "/univers/olive-et-tom/technique.html?slug=nitta"
       },
       {
         "slug": "overhead-kick",
@@ -1758,11 +1216,6 @@
         "slug": "twin-shot",
         "name": "Twin Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=twin-shot"
-      },
-      {
-        "slug": "wakashimazu",
-        "name": "Wakashimazu",
-        "url": "/univers/olive-et-tom/technique.html?slug=wakashimazu"
       }
     ]
   },
@@ -1832,21 +1285,6 @@
     "popularityRank": 8,
     "techniques": [
       {
-        "slug": "battle-of-world-youth",
-        "name": "Battle of World Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=battle-of-world-youth"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-zero-kimero-miracle-shot",
-        "name": "Captain Tsubasa ZERO - Kimero! Miracle Shot",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-zero-kimero-miracle-shot"
-      },
-      {
         "slug": "fire-shot",
         "name": "Fire Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=fire-shot"
@@ -1855,16 +1293,6 @@
         "slug": "jumping-volley",
         "name": "Jumping Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
-      },
-      {
-        "slug": "karl-heinz-schneider-ronc",
-        "name": "Karl Heinz Schneider (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=karl-heinz-schneider-ronc"
-      },
-      {
-        "slug": "levin",
-        "name": "Levin",
-        "url": "/univers/olive-et-tom/technique.html?slug=levin"
       },
       {
         "slug": "loop-shot",
@@ -1877,6 +1305,11 @@
         "url": "/univers/olive-et-tom/technique.html?slug=neo-fire-shot"
       },
       {
+        "slug": "no-rotation-shot",
+        "name": "No Rotation Shot",
+        "url": "/univers/olive-et-tom/technique.html?slug=no-rotation-shot"
+      },
+      {
         "slug": "overhead-fire",
         "name": "Overhead Fire",
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-fire"
@@ -1887,39 +1320,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-kick"
       },
       {
-        "slug": "reactive-fast-kick-quick-gun",
-        "name": "Reactive Fast Kick Quick Gun",
-        "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun"
-      },
-      {
-        "slug": "schneider",
-        "name": "Schneider",
-        "url": "/univers/olive-et-tom/technique.html?slug=schneider"
-      },
-      {
-        "slug": "schweil-teigerbran",
-        "name": "Schweil Teigerbran",
-        "url": "/univers/olive-et-tom/technique.html?slug=schweil-teigerbran"
-      },
-      {
         "slug": "straight-line-dribble",
         "name": "Straight Line Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=straight-line-dribble"
       },
       {
-        "slug": "teigerbran",
-        "name": "Teigerbran",
-        "url": "/univers/olive-et-tom/technique.html?slug=teigerbran"
-      },
-      {
         "slug": "twin-shot",
         "name": "Twin Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=twin-shot"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/technique.html?slug=xiao-junguang"
       }
     ]
   },
@@ -1933,6 +1341,12 @@
     },
     "position": "Attacking midfielderForward",
     "teams": [
+      {
+        "slug": "brazil-youth",
+        "name": "Brazil Youth",
+        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+        "confidence": "medium"
+      },
       {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
@@ -1987,29 +1401,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=aurora-feint"
       },
       {
-        "slug": "back-heel-pass",
-        "name": "Back-Heel Pass",
-        "url": "/univers/olive-et-tom/technique.html?slug=back-heel-pass"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Muller",
-        "url": "/univers/olive-et-tom/technique.html?slug=deuter-muller"
-      },
-      {
         "slug": "flying-drive-shot",
         "name": "Flying Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=flying-drive-shot"
-      },
-      {
-        "slug": "forward-rotation",
-        "name": "Forward Rotation",
-        "url": "/univers/olive-et-tom/technique.html?slug=forward-rotation"
       },
       {
         "slug": "full-metal-phantom",
@@ -2027,34 +1421,19 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
+        "slug": "no-rotation-shot",
+        "name": "No Rotation Shot",
+        "url": "/univers/olive-et-tom/technique.html?slug=no-rotation-shot"
+      },
+      {
         "slug": "raiju-shot",
         "name": "Raiju Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot"
       },
       {
-        "slug": "reactive-fast-kick-quick-gun",
-        "name": "Reactive Fast Kick Quick Gun",
-        "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun"
-      },
-      {
-        "slug": "roberto-carolus",
-        "name": "Roberto Carolus",
-        "url": "/univers/olive-et-tom/technique.html?slug=roberto-carolus"
-      },
-      {
-        "slug": "santana",
-        "name": "Santana",
-        "url": "/univers/olive-et-tom/technique.html?slug=santana"
-      },
-      {
         "slug": "skywing-shot",
         "name": "Skywing Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=skywing-shot"
-      },
-      {
-        "slug": "south-american-dribble",
-        "name": "South American Dribble",
-        "url": "/univers/olive-et-tom/technique.html?slug=south-american-dribble"
       },
       {
         "slug": "tornado-shot",
@@ -2070,11 +1449,6 @@
         "slug": "two-stage-flying-drive-shot",
         "name": "Two-Stage Flying Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=two-stage-flying-drive-shot"
-      },
-      {
-        "slug": "wakabayashi",
-        "name": "Wakabayashi",
-        "url": "/univers/olive-et-tom/technique.html?slug=wakabayashi"
       }
     ]
   },
@@ -2126,21 +1500,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=abs-pass"
       },
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-25th-anniversary-2005",
-        "name": "Captain Tsubasa 25th Anniversary (2005)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-25th-anniversary-2005"
-      },
-      {
-        "slug": "golden-23",
-        "name": "Golden-23",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-23"
-      },
-      {
         "slug": "jumping-volley",
         "name": "Jumping Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
@@ -2151,39 +1510,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=loop-pass"
       },
       {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/technique.html?slug=natureza"
-      },
-      {
         "slug": "overhead-kick",
         "name": "Overhead Kick",
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-kick"
       },
       {
-        "slug": "overseas-fierce-fights",
-        "name": "Overseas Fierce Fights",
-        "url": "/univers/olive-et-tom/technique.html?slug=overseas-fierce-fights"
-      },
-      {
-        "slug": "reactive-fast-kick-quick-gun",
-        "name": "Reactive Fast Kick Quick Gun",
-        "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun"
-      },
-      {
-        "slug": "rising-sun",
-        "name": "Rising Sun",
-        "url": "/univers/olive-et-tom/technique.html?slug=rising-sun"
-      },
-      {
         "slug": "rivaul-turn",
         "name": "Rivaul Turn",
         "url": "/univers/olive-et-tom/technique.html?slug=rivaul-turn"
-      },
-      {
-        "slug": "santana",
-        "name": "Santana",
-        "url": "/univers/olive-et-tom/technique.html?slug=santana"
       },
       {
         "slug": "sky-hawk-shot",
@@ -2199,11 +1533,6 @@
         "slug": "submarine-defense",
         "name": "Submarine Defense",
         "url": "/univers/olive-et-tom/technique.html?slug=submarine-defense"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
       },
       {
         "slug": "twin-shot",
@@ -2281,39 +1610,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=2-steps-overhead"
       },
       {
-        "slug": "alan-pascal",
-        "name": "Alan Pascal",
-        "url": "/univers/olive-et-tom/technique.html?slug=alan-pascal"
-      },
-      {
-        "slug": "argentina-jr",
-        "name": "Argentina Jr.",
-        "url": "/univers/olive-et-tom/technique.html?slug=argentina-jr"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-1981",
-        "name": "Captain Tsubasa (1981)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-1981"
-      },
-      {
-        "slug": "diaz",
-        "name": "Diaz",
-        "url": "/univers/olive-et-tom/technique.html?slug=diaz"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
-      },
-      {
-        "slug": "drive-pass",
-        "name": "Drive Pass",
-        "url": "/univers/olive-et-tom/technique.html?slug=drive-pass"
       },
       {
         "slug": "drive-shot",
@@ -2331,29 +1630,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=forward-somersault-shot"
       },
       {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
-        "slug": "golden-23",
-        "name": "Golden-23",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-23"
-      },
-      {
         "slug": "heel-lift",
         "name": "Heel Lift",
         "url": "/univers/olive-et-tom/technique.html?slug=heel-lift"
-      },
-      {
-        "slug": "japan-jr",
-        "name": "Japan Jr.",
-        "url": "/univers/olive-et-tom/technique.html?slug=japan-jr"
-      },
-      {
-        "slug": "juan-diaz-ronc",
-        "name": "Juan Diaz (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=juan-diaz-ronc"
       },
       {
         "slug": "jumping-volley",
@@ -2361,29 +1640,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
-        "slug": "michael",
-        "name": "Michael",
-        "url": "/univers/olive-et-tom/technique.html?slug=michael"
-      },
-      {
-        "slug": "miraculous-overhead-shot",
-        "name": "Miraculous Overhead Shot",
-        "url": "/univers/olive-et-tom/technique.html?slug=miraculous-overhead-shot"
-      },
-      {
         "slug": "overhead-kick",
         "name": "Overhead Kick",
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-kick"
-      },
-      {
-        "slug": "pascal",
-        "name": "Pascal",
-        "url": "/univers/olive-et-tom/technique.html?slug=pascal"
-      },
-      {
-        "slug": "rising-sun",
-        "name": "Rising Sun",
-        "url": "/univers/olive-et-tom/technique.html?slug=rising-sun"
       },
       {
         "slug": "segway-dribble",
@@ -2399,16 +1658,6 @@
         "slug": "south-american-style-dribble",
         "name": "South American-style Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=south-american-style-dribble"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
-      },
-      {
-        "slug": "wakabayashi",
-        "name": "Wakabayashi",
-        "url": "/univers/olive-et-tom/technique.html?slug=wakabayashi"
       }
     ]
   },
@@ -2422,12 +1671,6 @@
     },
     "position": "Midfielder",
     "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994",
-        "confidence": "medium"
-      },
       {
         "slug": "fc-albese",
         "name": "FC Albese",
@@ -2490,26 +1733,6 @@
     "popularityRank": 12,
     "techniques": [
       {
-        "slug": "aoi",
-        "name": "Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=aoi"
-      },
-      {
-        "slug": "bunnag",
-        "name": "Bunnag",
-        "url": "/univers/olive-et-tom/technique.html?slug=bunnag"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "direct-jumping-volley",
-        "name": "Direct Jumping Volley",
-        "url": "/univers/olive-et-tom/technique.html?slug=direct-jumping-volley"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
@@ -2518,21 +1741,6 @@
         "slug": "face-block",
         "name": "Face Block",
         "url": "/univers/olive-et-tom/technique.html?slug=face-block"
-      },
-      {
-        "slug": "golden-age",
-        "name": "Golden Age",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-age"
-      },
-      {
-        "slug": "hernandez",
-        "name": "Hernandez",
-        "url": "/univers/olive-et-tom/technique.html?slug=hernandez"
-      },
-      {
-        "slug": "juan-diaz",
-        "name": "Juan Diaz",
-        "url": "/univers/olive-et-tom/technique.html?slug=juan-diaz"
       },
       {
         "slug": "jumping-volley",
@@ -2560,44 +1768,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-tornado-feint"
       },
       {
-        "slug": "rovesciata",
-        "name": "Rovesciata",
-        "url": "/univers/olive-et-tom/technique.html?slug=rovesciata"
-      },
-      {
-        "slug": "ruud-gullit",
-        "name": "Ruud Gullit",
-        "url": "/univers/olive-et-tom/technique.html?slug=ruud-gullit"
-      },
-      {
-        "slug": "ryo-ishizaki",
-        "name": "Ryo Ishizaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=ryo-ishizaki"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/technique.html?slug=salvatore-gentile"
-      },
-      {
         "slug": "straight-line-dribble",
         "name": "Straight Line Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=straight-line-dribble"
       },
       {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
-      },
-      {
         "slug": "twin-shot",
         "name": "Twin Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=twin-shot"
-      },
-      {
-        "slug": "uruguay-youth",
-        "name": "Uruguay Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=uruguay-youth"
       }
     ]
   },
@@ -2677,24 +1855,9 @@
     "popularityRank": 13,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "flying-drive-shot",
         "name": "Flying Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=flying-drive-shot"
-      },
-      {
-        "slug": "golden-23",
-        "name": "Golden-23",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-23"
-      },
-      {
-        "slug": "makoto-soda-ronc",
-        "name": "Makoto Soda (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=makoto-soda-ronc"
       },
       {
         "slug": "razor-cross",
@@ -2795,34 +1958,14 @@
     "popularityRank": 14,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "jumping-peregrine-falcon-volley",
         "name": "Jumping Peregrine Falcon Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-peregrine-falcon-volley"
       },
       {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/technique.html?slug=ken-wakashimazu"
-      },
-      {
         "slug": "loop-shot",
         "name": "Loop Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=loop-shot"
-      },
-      {
-        "slug": "michel-yamada",
-        "name": "Michel Yamada",
-        "url": "/univers/olive-et-tom/technique.html?slug=michel-yamada"
-      },
-      {
-        "slug": "nitta",
-        "name": "Nitta",
-        "url": "/univers/olive-et-tom/technique.html?slug=nitta"
       },
       {
         "slug": "peregrine-falcon-running-volley",
@@ -2838,16 +1981,6 @@
         "slug": "peregrine-falcon-tackle",
         "name": "Peregrine Falcon Tackle",
         "url": "/univers/olive-et-tom/technique.html?slug=peregrine-falcon-tackle"
-      },
-      {
-        "slug": "real-japan-7",
-        "name": "Real Japan 7",
-        "url": "/univers/olive-et-tom/technique.html?slug=real-japan-7"
-      },
-      {
-        "slug": "shun-nitta-ronc",
-        "name": "Shun Nitta (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=shun-nitta-ronc"
       },
       {
         "slug": "triangle-jump",
@@ -3006,29 +2139,9 @@
     "popularityRank": 16,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "diving-catch",
         "name": "Diving Catch",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-catch"
-      },
-      {
-        "slug": "gino-hernandez-ronc",
-        "name": "Gino Hernandez (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=gino-hernandez-ronc"
-      },
-      {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
-        "slug": "golden-right-hand",
-        "name": "Golden Right Hand",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-right-hand"
       }
     ]
   },
@@ -3092,11 +2205,6 @@
     "popularityRank": 17,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "right-angle-defense",
         "name": "Right-Angle Defense",
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-defense"
@@ -3105,11 +2213,6 @@
         "slug": "right-angle-feint",
         "name": "Right-Angle Feint",
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-feint"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=shingo-aoi"
       }
     ]
   },
@@ -3123,12 +2226,6 @@
     },
     "position": "Attacking midfielder",
     "teams": [
-      {
-        "slug": "captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "name": "Captain Tsubasa: World Youth Tokubetsu Hen - Saikyo no Teki! Holanda Youth (1993)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-tokubetsu-hen-saikyo-no-teki-holanda-youth-1993",
-        "confidence": "medium"
-      },
       {
         "slug": "manchester-united-fc",
         "name": "Manchester United FC",
@@ -3179,21 +2276,6 @@
     "popularityRank": 18,
     "techniques": [
       {
-        "slug": "brian-cruyfford-ronc",
-        "name": "Brian Cruyfford (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=brian-cruyfford-ronc"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "cruyfford",
-        "name": "Cruyfford",
-        "url": "/univers/olive-et-tom/technique.html?slug=cruyfford"
-      },
-      {
         "slug": "heel-lift",
         "name": "Heel Lift",
         "url": "/univers/olive-et-tom/technique.html?slug=heel-lift"
@@ -3204,14 +2286,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
+        "slug": "no-rotation-shot",
+        "name": "No Rotation Shot",
+        "url": "/univers/olive-et-tom/technique.html?slug=no-rotation-shot"
+      },
+      {
         "slug": "offside-trap",
         "name": "Offside Trap",
         "url": "/univers/olive-et-tom/technique.html?slug=offside-trap"
-      },
-      {
-        "slug": "olympic-netherlands",
-        "name": "Olympic Netherlands",
-        "url": "/univers/olive-et-tom/technique.html?slug=olympic-netherlands"
       },
       {
         "slug": "overhead-kick",
@@ -3249,12 +2331,6 @@
         "slug": "1fc-koln",
         "name": "1.FC Koln",
         "url": "/univers/olive-et-tom/equipe.html?slug=1fc-koln",
-        "confidence": "medium"
-      },
-      {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994",
         "confidence": "medium"
       },
       {
@@ -3301,24 +2377,9 @@
     "popularityRank": 19,
     "techniques": [
       {
-        "slug": "aoi",
-        "name": "Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=aoi"
-      },
-      {
         "slug": "aurora-feint",
         "name": "Aurora Feint",
         "url": "/univers/olive-et-tom/technique.html?slug=aurora-feint"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Muller",
-        "url": "/univers/olive-et-tom/technique.html?slug=deuter-muller"
       },
       {
         "slug": "drive-shot",
@@ -3326,39 +2387,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
       },
       {
-        "slug": "fc-bayern-munich",
-        "name": "FC Bayern Munich",
-        "url": "/univers/olive-et-tom/technique.html?slug=fc-bayern-munich"
-      },
-      {
         "slug": "fire-shot",
         "name": "Fire Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=fire-shot"
       },
       {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/technique.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/technique.html?slug=hamburger-sv"
-      },
-      {
         "slug": "heel-pass",
         "name": "Heel Pass",
         "url": "/univers/olive-et-tom/technique.html?slug=heel-pass"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=japan-youth"
-      },
-      {
-        "slug": "karl-heinz-schneider",
-        "name": "Karl Heinz Schneider",
-        "url": "/univers/olive-et-tom/technique.html?slug=karl-heinz-schneider"
       },
       {
         "slug": "levin-shot",
@@ -3371,34 +2407,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=loop-shot"
       },
       {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/technique.html?slug=natureza"
-      },
-      {
-        "slug": "reactive-fast-kick-quick-gun",
-        "name": "Reactive Fast Kick Quick Gun",
-        "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun"
-      },
-      {
         "slug": "right-angle-feint",
         "name": "Right-Angle Feint",
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-feint"
-      },
-      {
-        "slug": "stefan-levin-ronc",
-        "name": "Stefan Levin (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=stefan-levin-ronc"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "xiao-junguang",
-        "name": "Xiao Junguang",
-        "url": "/univers/olive-et-tom/technique.html?slug=xiao-junguang"
       }
     ]
   },
@@ -3469,29 +2480,9 @@
     "popularityRank": 20,
     "techniques": [
       {
-        "slug": "battle-of-world-youth",
-        "name": "Battle of World Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=battle-of-world-youth"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
-      },
-      {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
-        "slug": "hino",
-        "name": "Hino",
-        "url": "/univers/olive-et-tom/technique.html?slug=hino"
       },
       {
         "slug": "jumping-header",
@@ -3504,16 +2495,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
-        "slug": "ramon-victorino-ronc",
-        "name": "Ramon Victorino (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=ramon-victorino-ronc"
-      },
-      {
-        "slug": "running-volley",
-        "name": "Running Volley",
-        "url": "/univers/olive-et-tom/technique.html?slug=running-volley"
-      },
-      {
         "slug": "sliding-shot",
         "name": "Sliding Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-shot"
@@ -3522,11 +2503,6 @@
         "slug": "sliding-tackle",
         "name": "Sliding Tackle",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-tackle"
-      },
-      {
-        "slug": "victorino",
-        "name": "Victorino",
-        "url": "/univers/olive-et-tom/technique.html?slug=victorino"
       }
     ]
   },
@@ -3620,74 +2596,14 @@
     "popularityRank": 21,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "drive-shot",
         "name": "Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
       },
       {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/technique.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
-      },
-      {
         "slug": "jumping-volley",
         "name": "Jumping Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
-      },
-      {
-        "slug": "kazuki-sorimachi",
-        "name": "Kazuki Sorimachi",
-        "url": "/univers/olive-et-tom/technique.html?slug=kazuki-sorimachi"
-      },
-      {
-        "slug": "ken-wakashimazu",
-        "name": "Ken Wakashimazu",
-        "url": "/univers/olive-et-tom/technique.html?slug=ken-wakashimazu"
-      },
-      {
-        "slug": "kozo-kira",
-        "name": "Kozo Kira",
-        "url": "/univers/olive-et-tom/technique.html?slug=kozo-kira"
-      },
-      {
-        "slug": "meiwa-fc",
-        "name": "Meiwa FC",
-        "url": "/univers/olive-et-tom/technique.html?slug=meiwa-fc"
-      },
-      {
-        "slug": "misaki",
-        "name": "Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=misaki"
-      },
-      {
-        "slug": "sawada",
-        "name": "Sawada",
-        "url": "/univers/olive-et-tom/technique.html?slug=sawada"
-      },
-      {
-        "slug": "takeshi-sawada-ronc",
-        "name": "Takeshi Sawada (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=takeshi-sawada-ronc"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
-      },
-      {
-        "slug": "twin-overhead",
-        "name": "Twin Overhead",
-        "url": "/univers/olive-et-tom/technique.html?slug=twin-overhead"
       },
       {
         "slug": "twin-shot",
@@ -3772,54 +2688,9 @@
     "popularityRank": 22,
     "techniques": [
       {
-        "slug": "argentina-jr",
-        "name": "Argentina Jr.",
-        "url": "/univers/olive-et-tom/technique.html?slug=argentina-jr"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "drive-shot",
         "name": "Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
-      },
-      {
-        "slug": "galvan",
-        "name": "Galvan",
-        "url": "/univers/olive-et-tom/technique.html?slug=galvan"
-      },
-      {
-        "slug": "hiroshi-jito-ronc",
-        "name": "Hiroshi Jito (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=hiroshi-jito-ronc"
-      },
-      {
-        "slug": "ishizaki",
-        "name": "Ishizaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=ishizaki"
-      },
-      {
-        "slug": "japan-jr",
-        "name": "Japan Jr.",
-        "url": "/univers/olive-et-tom/technique.html?slug=japan-jr"
-      },
-      {
-        "slug": "jito",
-        "name": "Jito",
-        "url": "/univers/olive-et-tom/technique.html?slug=jito"
-      },
-      {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=jun-misugi"
-      },
-      {
-        "slug": "nankatsu-middle-school",
-        "name": "Nankatsu middle school",
-        "url": "/univers/olive-et-tom/technique.html?slug=nankatsu-middle-school"
       },
       {
         "slug": "power-defense",
@@ -3830,11 +2701,6 @@
         "slug": "power-dribble",
         "name": "Power Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=power-dribble"
-      },
-      {
-        "slug": "sano",
-        "name": "Sano",
-        "url": "/univers/olive-et-tom/technique.html?slug=sano"
       },
       {
         "slug": "scramble-face-block",
@@ -3855,11 +2721,6 @@
         "slug": "sliding-shot",
         "name": "Sliding Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-shot"
-      },
-      {
-        "slug": "tachibana-twins",
-        "name": "Tachibana Twins",
-        "url": "/univers/olive-et-tom/technique.html?slug=tachibana-twins"
       }
     ]
   },
@@ -3873,6 +2734,12 @@
     },
     "position": "Attacking midfielder (retired)",
     "teams": [
+      {
+        "slug": "brazil-youth",
+        "name": "Brazil Youth",
+        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+        "confidence": "medium"
+      },
       {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
@@ -3922,26 +2789,6 @@
     "popularityRank": 26,
     "techniques": [
       {
-        "slug": "boys-fight",
-        "name": "Boys' Fight",
-        "url": "/univers/olive-et-tom/technique.html?slug=boys-fight"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-2018-tv-series",
-        "name": "Captain Tsubasa (2018 TV series)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-2018-tv-series"
-      },
-      {
         "slug": "drive-shot",
         "name": "Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
@@ -3957,54 +2804,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=heel-lift"
       },
       {
-        "slug": "hyuga-kojiro",
-        "name": "Hyuga Kojiro",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga-kojiro"
-      },
-      {
-        "slug": "kamisori-shot",
-        "name": "Kamisori Shot",
-        "url": "/univers/olive-et-tom/technique.html?slug=kamisori-shot"
-      },
-      {
-        "slug": "manabu-okawa",
-        "name": "Manabu Okawa",
-        "url": "/univers/olive-et-tom/technique.html?slug=manabu-okawa"
-      },
-      {
-        "slug": "nankatsu-elementary-school",
-        "name": "Nankatsu elementary school",
-        "url": "/univers/olive-et-tom/technique.html?slug=nankatsu-elementary-school"
-      },
-      {
         "slug": "overhead-kick",
         "name": "Overhead Kick",
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-kick"
       },
       {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/technique.html?slug=salinas"
-      },
-      {
-        "slug": "santana",
-        "name": "Santana",
-        "url": "/univers/olive-et-tom/technique.html?slug=santana"
-      },
-      {
-        "slug": "sao-paulo-fc",
-        "name": "Sao Paulo FC",
-        "url": "/univers/olive-et-tom/technique.html?slug=sao-paulo-fc"
-      },
-      {
         "slug": "skywing-shot",
         "name": "Skywing Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=skywing-shot"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
       }
     ]
   },
@@ -4074,19 +2881,9 @@
     "popularityRank": 27,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "hedgehog-dribble",
         "name": "Hedgehog Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=hedgehog-dribble"
-      },
-      {
-        "slug": "hermann-kaltz-ronc",
-        "name": "Hermann Kaltz (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=hermann-kaltz-ronc"
       },
       {
         "slug": "high-speed-tornado-sky-alpha",
@@ -4109,29 +2906,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-defense"
       },
       {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/technique.html?slug=rivaul"
-      },
-      {
-        "slug": "salvatore-gentile",
-        "name": "Salvatore Gentile",
-        "url": "/univers/olive-et-tom/technique.html?slug=salvatore-gentile"
-      },
-      {
         "slug": "submarine-defense",
         "name": "Submarine Defense",
         "url": "/univers/olive-et-tom/technique.html?slug=submarine-defense"
-      },
-      {
-        "slug": "taro-misaki",
-        "name": "Taro Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=taro-misaki"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora"
       }
     ]
   },
@@ -4198,26 +2975,6 @@
     "popularity": 28,
     "popularityRank": 28,
     "techniques": [
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-manga",
-        "name": "Captain Tsubasa manga",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-manga"
-      },
-      {
-        "slug": "deuter-muller-ronc",
-        "name": "Deuter Muller (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=deuter-muller-ronc"
-      },
-      {
-        "slug": "road-to-2002",
-        "name": "Road to 2002",
-        "url": "/univers/olive-et-tom/technique.html?slug=road-to-2002"
-      },
       {
         "slug": "roulette",
         "name": "Roulette",
@@ -4306,11 +3063,6 @@
     "popularityRank": 30,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
@@ -4319,11 +3071,6 @@
         "slug": "jumping-header",
         "name": "Jumping Header",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
-      },
-      {
-        "slug": "manfred-margus-ronc",
-        "name": "Manfred Margus (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=manfred-margus-ronc"
       },
       {
         "slug": "sliding-shot",
@@ -4346,6 +3093,12 @@
         "slug": "brazil-middle-school",
         "name": "Brazil (Middle school)",
         "url": "/univers/olive-et-tom/equipe.html?slug=brazil-middle-school",
+        "confidence": "medium"
+      },
+      {
+        "slug": "brazil-youth",
+        "name": "Brazil Youth",
+        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
         "confidence": "medium"
       },
       {
@@ -4397,39 +3150,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=arrow-shot"
       },
       {
-        "slug": "barcelona",
-        "name": "Barcelona",
-        "url": "/univers/olive-et-tom/technique.html?slug=barcelona"
-      },
-      {
-        "slug": "battle-of-world-youth",
-        "name": "Battle of World Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=battle-of-world-youth"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "carlos-bara-ronc",
-        "name": "Carlos Bara (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=carlos-bara-ronc"
-      },
-      {
-        "slug": "deuter-muller",
-        "name": "Deuter Muller",
-        "url": "/univers/olive-et-tom/technique.html?slug=deuter-muller"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
-      },
-      {
-        "slug": "flamengo",
-        "name": "Flamengo",
-        "url": "/univers/olive-et-tom/technique.html?slug=flamengo"
       },
       {
         "slug": "flying-drive-shot",
@@ -4442,19 +3165,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=full-metal-phantom"
       },
       {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
         "slug": "golden-eagle-shot",
         "name": "Golden Eagle Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=golden-eagle-shot"
-      },
-      {
-        "slug": "golden-23",
-        "name": "Golden-23",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-23"
       },
       {
         "slug": "heel-lift",
@@ -4467,34 +3180,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=heel-pass"
       },
       {
-        "slug": "hino",
-        "name": "Hino",
-        "url": "/univers/olive-et-tom/technique.html?slug=hino"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/technique.html?slug=luciano-leo"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/technique.html?slug=natureza"
-      },
-      {
         "slug": "raiju-shot",
         "name": "Raiju Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot"
-      },
-      {
-        "slug": "rise-of-new-champions",
-        "name": "Rise of New Champions",
-        "url": "/univers/olive-et-tom/technique.html?slug=rise-of-new-champions"
-      },
-      {
-        "slug": "roberto",
-        "name": "Roberto",
-        "url": "/univers/olive-et-tom/technique.html?slug=roberto"
       },
       {
         "slug": "rolling-arrow-jumping-overhead",
@@ -4502,29 +3190,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=rolling-arrow-jumping-overhead"
       },
       {
-        "slug": "rolling-overhead",
-        "name": "Rolling Overhead",
-        "url": "/univers/olive-et-tom/technique.html?slug=rolling-overhead"
-      },
-      {
         "slug": "rolling-overhead-kick",
         "name": "Rolling Overhead Kick",
         "url": "/univers/olive-et-tom/technique.html?slug=rolling-overhead-kick"
       },
       {
-        "slug": "santana",
-        "name": "Santana",
-        "url": "/univers/olive-et-tom/technique.html?slug=santana"
-      },
-      {
         "slug": "santana-turn",
         "name": "Santana Turn",
         "url": "/univers/olive-et-tom/technique.html?slug=santana-turn"
-      },
-      {
-        "slug": "sao-paulo",
-        "name": "Sao Paulo",
-        "url": "/univers/olive-et-tom/technique.html?slug=sao-paulo"
       },
       {
         "slug": "skywing-shot",
@@ -4552,24 +3225,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=tornado-shot"
       },
       {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora"
-      },
-      {
         "slug": "twin-shot",
         "name": "Twin Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=twin-shot"
-      },
-      {
-        "slug": "u-20-japan",
-        "name": "U-20 Japan",
-        "url": "/univers/olive-et-tom/technique.html?slug=u-20-japan"
       }
     ]
   },
@@ -4639,16 +3297,6 @@
     "popularityRank": 33,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "china-youth",
-        "name": "China Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=china-youth"
-      },
-      {
         "slug": "fire-shot",
         "name": "Fire Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=fire-shot"
@@ -4662,36 +3310,6 @@
         "slug": "jumping-volley",
         "name": "Jumping Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
-      },
-      {
-        "slug": "levin",
-        "name": "Levin",
-        "url": "/univers/olive-et-tom/technique.html?slug=levin"
-      },
-      {
-        "slug": "reactive-fast-kick-quick-gun",
-        "name": "Reactive Fast Kick Quick Gun",
-        "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun"
-      },
-      {
-        "slug": "schneider",
-        "name": "Schneider",
-        "url": "/univers/olive-et-tom/technique.html?slug=schneider"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=shingo-aoi"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
-      },
-      {
-        "slug": "wakabayashi",
-        "name": "Wakabayashi",
-        "url": "/univers/olive-et-tom/technique.html?slug=wakabayashi"
       }
     ]
   },
@@ -4755,21 +3373,6 @@
     "popularityRank": 37,
     "techniques": [
       {
-        "slug": "alan-pascal-ronc",
-        "name": "Alan Pascal (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=alan-pascal-ronc"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
         "slug": "overhead-kick",
         "name": "Overhead Kick",
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-kick"
@@ -4778,11 +3381,6 @@
         "slug": "right-angle-feint",
         "name": "Right-Angle Feint",
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-feint"
-      },
-      {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=shingo-aoi"
       },
       {
         "slug": "sliding-tackle",
@@ -4843,11 +3441,6 @@
     "popularity": 38,
     "popularityRank": 38,
     "techniques": [
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
       {
         "slug": "diving-header",
         "name": "Diving Header",
@@ -4928,41 +3521,6 @@
         "slug": "cannon-shot",
         "name": "Cannon Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=cannon-shot"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "larson",
-        "name": "Larson",
-        "url": "/univers/olive-et-tom/technique.html?slug=larson"
-      },
-      {
-        "slug": "louis-napoleon-ronc",
-        "name": "Louis Napoleon (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=louis-napoleon-ronc"
-      },
-      {
-        "slug": "misaki",
-        "name": "Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=misaki"
-      },
-      {
-        "slug": "napoleon",
-        "name": "Napoleon",
-        "url": "/univers/olive-et-tom/technique.html?slug=napoleon"
-      },
-      {
-        "slug": "pierre",
-        "name": "Pierre",
-        "url": "/univers/olive-et-tom/technique.html?slug=pierre"
-      },
-      {
-        "slug": "ramon-victorino",
-        "name": "Ramon Victorino",
-        "url": "/univers/olive-et-tom/technique.html?slug=ramon-victorino"
       },
       {
         "slug": "straight-line-dribble",
@@ -5047,49 +3605,14 @@
     "popularityRank": 41,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
       },
       {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
-      },
-      {
         "slug": "jumping-header",
         "name": "Jumping Header",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
-      },
-      {
-        "slug": "kazuki-sorimachi-ronc",
-        "name": "Kazuki Sorimachi (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=kazuki-sorimachi-ronc"
-      },
-      {
-        "slug": "sawada",
-        "name": "Sawada",
-        "url": "/univers/olive-et-tom/technique.html?slug=sawada"
-      },
-      {
-        "slug": "sorimachi",
-        "name": "Sorimachi",
-        "url": "/univers/olive-et-tom/technique.html?slug=sorimachi"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=thailand-youth"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
       }
     ]
   },
@@ -5104,9 +3627,9 @@
     "position": "Defensive midfielder, Defender",
     "teams": [
       {
-        "slug": "all-japan-jr-youth-ronc",
-        "name": "All Japan Jr. Youth (RoNC)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-ronc",
+        "slug": "all-japan-jr-youth-tamsoft",
+        "name": "All Japan Jr. Youth (Tamsoft)",
+        "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth-tamsoft",
         "confidence": "medium"
       },
       {
@@ -5188,16 +3711,6 @@
     "popularity": 44,
     "popularityRank": 44,
     "techniques": [
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "hanji-urabe-ronc",
-        "name": "Hanji Urabe (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=hanji-urabe-ronc"
-      },
       {
         "slug": "sliding-shot",
         "name": "Sliding Shot",
@@ -5371,59 +3884,9 @@
     "popularityRank": 49,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "golden-23",
-        "name": "Golden-23",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-23"
-      },
-      {
-        "slug": "hikaru-matsuyama",
-        "name": "Hikaru Matsuyama",
-        "url": "/univers/olive-et-tom/technique.html?slug=hikaru-matsuyama"
-      },
-      {
-        "slug": "jito",
-        "name": "Jito",
-        "url": "/univers/olive-et-tom/technique.html?slug=jito"
-      },
-      {
-        "slug": "kotaro-furukawa",
-        "name": "Kotaro Furukawa",
-        "url": "/univers/olive-et-tom/technique.html?slug=kotaro-furukawa"
-      },
-      {
-        "slug": "mitsuru-sano-ronc",
-        "name": "Mitsuru Sano (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=mitsuru-sano-ronc"
-      },
-      {
-        "slug": "mouse-dribble",
-        "name": "Mouse Dribble",
-        "url": "/univers/olive-et-tom/technique.html?slug=mouse-dribble"
-      },
-      {
         "slug": "overhead-kick",
         "name": "Overhead Kick",
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-kick"
-      },
-      {
-        "slug": "sano",
-        "name": "Sano",
-        "url": "/univers/olive-et-tom/technique.html?slug=sano"
-      },
-      {
-        "slug": "shinnosuke-kazami",
-        "name": "Shinnosuke Kazami",
-        "url": "/univers/olive-et-tom/technique.html?slug=shinnosuke-kazami"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
       }
     ]
   },
@@ -5453,6 +3916,12 @@
         "slug": "nankatsu-sc",
         "name": "Nankatsu SC",
         "url": "/univers/olive-et-tom/equipe.html?slug=nankatsu-sc",
+        "confidence": "medium"
+      },
+      {
+        "slug": "shutetsu-elementary-school",
+        "name": "Shutetsu Elementary School",
+        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
         "confidence": "medium"
       }
     ],
@@ -5495,34 +3964,9 @@
     "popularityRank": 50,
     "techniques": [
       {
-        "slug": "hajime-taki-ronc",
-        "name": "Hajime Taki (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=hajime-taki-ronc"
-      },
-      {
-        "slug": "izawa",
-        "name": "Izawa",
-        "url": "/univers/olive-et-tom/technique.html?slug=izawa"
-      },
-      {
-        "slug": "kisugi",
-        "name": "Kisugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=kisugi"
-      },
-      {
-        "slug": "rise-of-new-champions",
-        "name": "Rise of New Champions",
-        "url": "/univers/olive-et-tom/technique.html?slug=rise-of-new-champions"
-      },
-      {
         "slug": "sliding-shot",
         "name": "Sliding Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-shot"
-      },
-      {
-        "slug": "taki",
-        "name": "Taki",
-        "url": "/univers/olive-et-tom/technique.html?slug=taki"
       }
     ]
   },
@@ -5672,6 +4116,12 @@
     "position": "Defender",
     "teams": [
       {
+        "slug": "brazil-youth",
+        "name": "Brazil Youth",
+        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+        "confidence": "medium"
+      },
+      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil",
@@ -5708,21 +4158,6 @@
     "popularity": 999,
     "popularityRank": 999,
     "techniques": [
-      {
-        "slug": "alberto-ronc",
-        "name": "Alberto (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=alberto-ronc"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "salinas",
-        "name": "Salinas",
-        "url": "/univers/olive-et-tom/technique.html?slug=salinas"
-      },
       {
         "slug": "sliding-tackle",
         "name": "Sliding Tackle",
@@ -6225,11 +4660,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "face-block",
         "name": "Face Block",
         "url": "/univers/olive-et-tom/technique.html?slug=face-block"
@@ -6253,11 +4683,6 @@
         "slug": "rising-bazooka",
         "name": "Rising Bazooka",
         "url": "/univers/olive-et-tom/technique.html?slug=rising-bazooka"
-      },
-      {
-        "slug": "wakabayashi",
-        "name": "Wakabayashi",
-        "url": "/univers/olive-et-tom/technique.html?slug=wakabayashi"
       }
     ]
   },
@@ -6478,21 +4903,6 @@
     "popularity": 999,
     "popularityRank": 999,
     "techniques": [
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-tsukurou-dream-team-nndyahoomobage",
-        "name": "Captain Tsubasa - Tsukurou Dream Team (NND/Yahoo!Mobage)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-tsukurou-dream-team-nndyahoomobage"
-      },
-      {
-        "slug": "lee-yong-un",
-        "name": "Lee Yong-un",
-        "url": "/univers/olive-et-tom/technique.html?slug=lee-yong-un"
-      },
       {
         "slug": "straight-line-dribble",
         "name": "Straight Line Dribble",
@@ -6751,29 +5161,9 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "david-trezeguet",
-        "name": "David Trézéguet",
-        "url": "/univers/olive-et-tom/technique.html?slug=david-trezeguet"
-      },
-      {
-        "slug": "edgar-davids",
-        "name": "Edgar Davids",
-        "url": "/univers/olive-et-tom/technique.html?slug=edgar-davids"
-      },
-      {
         "slug": "heel-pass",
         "name": "Heel Pass",
         "url": "/univers/olive-et-tom/technique.html?slug=heel-pass"
-      },
-      {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
       },
       {
         "slug": "jumping-header",
@@ -6781,24 +5171,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
       },
       {
-        "slug": "misaki",
-        "name": "Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=misaki"
-      },
-      {
-        "slug": "misugi",
-        "name": "Misugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=misugi"
-      },
-      {
         "slug": "overhead-pass",
         "name": "Overhead Pass",
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-pass"
-      },
-      {
-        "slug": "willem-arminius",
-        "name": "Willem Arminius",
-        "url": "/univers/olive-et-tom/technique.html?slug=willem-arminius"
       }
     ]
   },
@@ -6860,14 +5235,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc",
-        "confidence": "medium"
-      }
-    ],
+    "teams": [],
     "nationality": "Croatian",
     "physical": {},
     "description": "",
@@ -7009,16 +5377,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-1981",
-        "name": "Captain Tsubasa (1981)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-1981"
-      },
-      {
         "slug": "drive-shot",
         "name": "Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
@@ -7027,11 +5385,6 @@
         "slug": "eiffel-attack",
         "name": "Eiffel Attack",
         "url": "/univers/olive-et-tom/technique.html?slug=eiffel-attack"
-      },
-      {
-        "slug": "elle-sid-pierre-ronc",
-        "name": "Elle Sid Pierre (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=elle-sid-pierre-ronc"
       },
       {
         "slug": "flamingo-clip",
@@ -7049,34 +5402,14 @@
         "url": "/univers/olive-et-tom/technique.html?slug=heel-lift"
       },
       {
-        "slug": "japan-jr",
-        "name": "Japan Jr.",
-        "url": "/univers/olive-et-tom/technique.html?slug=japan-jr"
-      },
-      {
         "slug": "jumping-volley",
         "name": "Jumping Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
-        "slug": "misaki",
-        "name": "Misaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=misaki"
-      },
-      {
-        "slug": "napoleon",
-        "name": "Napoleon",
-        "url": "/univers/olive-et-tom/technique.html?slug=napoleon"
-      },
-      {
         "slug": "offside-trap",
         "name": "Offside Trap",
         "url": "/univers/olive-et-tom/technique.html?slug=offside-trap"
-      },
-      {
-        "slug": "overhead",
-        "name": "Overhead",
-        "url": "/univers/olive-et-tom/technique.html?slug=overhead"
       },
       {
         "slug": "overhead-clear",
@@ -7094,11 +5427,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-pass"
       },
       {
-        "slug": "pierre",
-        "name": "Pierre",
-        "url": "/univers/olive-et-tom/technique.html?slug=pierre"
-      },
-      {
         "slug": "slider-shot",
         "name": "Slider Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=slider-shot"
@@ -7107,16 +5435,6 @@
         "slug": "straight-line-dribble",
         "name": "Straight Line Dribble",
         "url": "/univers/olive-et-tom/technique.html?slug=straight-line-dribble"
-      },
-      {
-        "slug": "tatakae-dream-team",
-        "name": "Tatakae Dream Team",
-        "url": "/univers/olive-et-tom/technique.html?slug=tatakae-dream-team"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
       }
     ]
   },
@@ -7535,44 +5853,14 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-1981",
-        "name": "Captain Tsubasa (1981)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-1981"
-      },
-      {
         "slug": "flamingo-clip",
         "name": "Flamingo Clip",
         "url": "/univers/olive-et-tom/technique.html?slug=flamingo-clip"
       },
       {
-        "slug": "franz-schester-ronc",
-        "name": "Franz Schester (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=franz-schester-ronc"
-      },
-      {
-        "slug": "genzo-wakabayashi",
-        "name": "Genzo Wakabayashi",
-        "url": "/univers/olive-et-tom/technique.html?slug=genzo-wakabayashi"
-      },
-      {
-        "slug": "hamburger-sv",
-        "name": "Hamburger SV",
-        "url": "/univers/olive-et-tom/technique.html?slug=hamburger-sv"
-      },
-      {
         "slug": "heel-pass",
         "name": "Heel Pass",
         "url": "/univers/olive-et-tom/technique.html?slug=heel-pass"
-      },
-      {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=kojiro-hyuga"
       },
       {
         "slug": "loop-pass",
@@ -7598,21 +5886,6 @@
         "slug": "sliding-tackle",
         "name": "Sliding Tackle",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-tackle"
-      },
-      {
-        "slug": "tatakae-dream-team",
-        "name": "Tatakae Dream Team",
-        "url": "/univers/olive-et-tom/technique.html?slug=tatakae-dream-team"
-      },
-      {
-        "slug": "uruguay-jr-youth",
-        "name": "Uruguay Jr. Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=uruguay-jr-youth"
-      },
-      {
-        "slug": "wakabayashi",
-        "name": "Wakabayashi",
-        "url": "/univers/olive-et-tom/technique.html?slug=wakabayashi"
       }
     ]
   },
@@ -7707,19 +5980,9 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "jumping-header",
         "name": "Jumping Header",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/technique.html?slug=olympic-germany"
       },
       {
         "slug": "skylab-hurricane",
@@ -7836,16 +6099,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "galvan-ronc",
-        "name": "Galvan (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=galvan-ronc"
-      },
-      {
         "slug": "power-defense",
         "name": "Power Defense",
         "url": "/univers/olive-et-tom/technique.html?slug=power-defense"
@@ -7854,11 +6107,6 @@
         "slug": "raiju-shot",
         "name": "Raiju Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot"
-      },
-      {
-        "slug": "rising-sun",
-        "name": "Rising Sun",
-        "url": "/univers/olive-et-tom/technique.html?slug=rising-sun"
       }
     ]
   },
@@ -8607,21 +6855,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "gozza",
-        "name": "Gozza",
-        "url": "/univers/olive-et-tom/technique.html?slug=gozza"
-      },
-      {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
-      },
-      {
         "slug": "sliding-tackle",
         "name": "Sliding Tackle",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-tackle"
@@ -8673,14 +6906,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf",
-        "confidence": "medium"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -9703,6 +7929,12 @@
         "confidence": "medium"
       },
       {
+        "slug": "brazil-youth",
+        "name": "Brazil Youth",
+        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+        "confidence": "medium"
+      },
+      {
         "slug": "cr-flamengo",
         "name": "CR Flamengo",
         "url": "/univers/olive-et-tom/equipe.html?slug=cr-flamengo",
@@ -9746,39 +7978,9 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
         "slug": "heel-pass",
         "name": "Heel Pass",
         "url": "/univers/olive-et-tom/technique.html?slug=heel-pass"
-      },
-      {
-        "slug": "kashima-antlers",
-        "name": "Kashima Antlers",
-        "url": "/univers/olive-et-tom/technique.html?slug=kashima-antlers"
-      },
-      {
-        "slug": "luciano-leo-ronc",
-        "name": "Luciano Leo (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=luciano-leo-ronc"
-      },
-      {
-        "slug": "pepe",
-        "name": "Pepe",
-        "url": "/univers/olive-et-tom/technique.html?slug=pepe"
-      },
-      {
-        "slug": "santana",
-        "name": "Santana",
-        "url": "/univers/olive-et-tom/technique.html?slug=santana"
       },
       {
         "slug": "twin-shot",
@@ -9796,14 +7998,7 @@
       "kanji": ""
     },
     "position": "Wide midfielder",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf",
-        "confidence": "medium"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -9839,14 +8034,7 @@
       "kanji": ""
     },
     "position": "Midfielder",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf",
-        "confidence": "medium"
-      }
-    ],
+    "teams": [],
     "nationality": "French",
     "physical": {},
     "description": "",
@@ -10033,6 +8221,12 @@
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan",
         "confidence": "medium"
+      },
+      {
+        "slug": "shutetsu-elementary-school",
+        "name": "Shutetsu Elementary School",
+        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
+        "confidence": "medium"
       }
     ],
     "nationality": "Japanese",
@@ -10074,16 +8268,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "back-heel-pass",
-        "name": "Back-Heel Pass",
-        "url": "/univers/olive-et-tom/technique.html?slug=back-heel-pass"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
@@ -10094,29 +8278,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
       },
       {
-        "slug": "kisugi",
-        "name": "Kisugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=kisugi"
-      },
-      {
         "slug": "loop-pass",
         "name": "Loop Pass",
         "url": "/univers/olive-et-tom/technique.html?slug=loop-pass"
-      },
-      {
-        "slug": "mamoru-izawa-ronc",
-        "name": "Mamoru Izawa (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=mamoru-izawa-ronc"
-      },
-      {
-        "slug": "takasugi",
-        "name": "Takasugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=takasugi"
-      },
-      {
-        "slug": "taki",
-        "name": "Taki",
-        "url": "/univers/olive-et-tom/technique.html?slug=taki"
       }
     ]
   },
@@ -10287,14 +8451,7 @@
       "kanji": ""
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf",
-        "confidence": "medium"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -10491,16 +8648,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "aoi",
-        "name": "Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=aoi"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "drive-shot",
         "name": "Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
@@ -10516,34 +8663,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
       },
       {
-        "slug": "jun-misugi",
-        "name": "Jun Misugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=jun-misugi"
-      },
-      {
-        "slug": "misugi",
-        "name": "Misugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=misugi"
-      },
-      {
         "slug": "overhead-kick",
         "name": "Overhead Kick",
         "url": "/univers/olive-et-tom/technique.html?slug=overhead-kick"
-      },
-      {
-        "slug": "sano",
-        "name": "Sano",
-        "url": "/univers/olive-et-tom/technique.html?slug=sano"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
-      },
-      {
-        "slug": "wakabayashi",
-        "name": "Wakabayashi",
-        "url": "/univers/olive-et-tom/technique.html?slug=wakabayashi"
       }
     ]
   },
@@ -10814,16 +8936,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=arrow-shot"
       },
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "carlos-santana",
-        "name": "Carlos Santana",
-        "url": "/univers/olive-et-tom/technique.html?slug=carlos-santana"
-      },
-      {
         "slug": "drive-shot",
         "name": "Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
@@ -10849,34 +8961,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-peregrine-falcon-volley"
       },
       {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=kojiro-hyuga"
-      },
-      {
         "slug": "levin-shot",
         "name": "Levin Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=levin-shot"
-      },
-      {
-        "slug": "makoto-soda",
-        "name": "Makoto Soda",
-        "url": "/univers/olive-et-tom/technique.html?slug=makoto-soda"
-      },
-      {
-        "slug": "olympic-japan",
-        "name": "Olympic Japan",
-        "url": "/univers/olive-et-tom/technique.html?slug=olympic-japan"
-      },
-      {
-        "slug": "olympic-mexico",
-        "name": "Olympic Mexico",
-        "url": "/univers/olive-et-tom/technique.html?slug=olympic-mexico"
-      },
-      {
-        "slug": "olympic-spain",
-        "name": "Olympic Spain",
-        "url": "/univers/olive-et-tom/technique.html?slug=olympic-spain"
       },
       {
         "slug": "overhead-kick",
@@ -10899,11 +8986,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=razor-shot"
       },
       {
-        "slug": "reactive-fast-kick-quick-gun",
-        "name": "Reactive Fast Kick Quick Gun",
-        "url": "/univers/olive-et-tom/technique.html?slug=reactive-fast-kick-quick-gun"
-      },
-      {
         "slug": "right-angle-feint",
         "name": "Right-Angle Feint",
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-feint"
@@ -10914,19 +8996,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=segway-dribble"
       },
       {
-        "slug": "shingo-aoi",
-        "name": "Shingo Aoi",
-        "url": "/univers/olive-et-tom/technique.html?slug=shingo-aoi"
-      },
-      {
         "slug": "tornado-arrow-skywing-shot",
         "name": "Tornado Arrow Skywing Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=tornado-arrow-skywing-shot"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora"
       },
       {
         "slug": "two-stage-flying-drive-shot",
@@ -10944,14 +9016,7 @@
       "kanji": ""
     },
     "position": "Defender",
-    "teams": [
-      {
-        "slug": "real-madrid-cf",
-        "name": "Real Madrid CF",
-        "url": "/univers/olive-et-tom/equipe.html?slug=real-madrid-cf",
-        "confidence": "medium"
-      }
-    ],
+    "teams": [],
     "nationality": "Spanish",
     "physical": {},
     "description": "",
@@ -11608,11 +9673,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "drive-shot",
         "name": "Drive Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=drive-shot"
@@ -11864,6 +9924,12 @@
     "position": "Forward; Attacking midfielder",
     "teams": [
       {
+        "slug": "brazil-youth",
+        "name": "Brazil Youth",
+        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+        "confidence": "medium"
+      },
+      {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-brazil",
@@ -11913,59 +9979,14 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "back-heel-pass",
-        "name": "Back-Heel Pass",
-        "url": "/univers/olive-et-tom/technique.html?slug=back-heel-pass"
-      },
-      {
-        "slug": "brazil-youth",
-        "name": "Brazil Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=brazil-youth"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
       },
       {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
-        "slug": "kashima-antlers",
-        "name": "Kashima Antlers",
-        "url": "/univers/olive-et-tom/technique.html?slug=kashima-antlers"
-      },
-      {
-        "slug": "luciano-leo",
-        "name": "Luciano Leo",
-        "url": "/univers/olive-et-tom/technique.html?slug=luciano-leo"
-      },
-      {
-        "slug": "running-volley",
-        "name": "Running Volley",
-        "url": "/univers/olive-et-tom/technique.html?slug=running-volley"
-      },
-      {
         "slug": "sliding-shot",
         "name": "Sliding Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-shot"
-      },
-      {
-        "slug": "south-american-dribble",
-        "name": "South American Dribble",
-        "url": "/univers/olive-et-tom/technique.html?slug=south-american-dribble"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
       },
       {
         "slug": "twin-shot",
@@ -12023,49 +10044,9 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "barcelona",
-        "name": "Barcelona",
-        "url": "/univers/olive-et-tom/technique.html?slug=barcelona"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "danil-silva",
-        "name": "Danil Silva",
-        "url": "/univers/olive-et-tom/technique.html?slug=danil-silva"
-      },
-      {
         "slug": "forward-somersault-block",
         "name": "Forward Somersault Block",
         "url": "/univers/olive-et-tom/technique.html?slug=forward-somersault-block"
-      },
-      {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
-        "slug": "rising-sun",
-        "name": "Rising Sun",
-        "url": "/univers/olive-et-tom/technique.html?slug=rising-sun"
-      },
-      {
-        "slug": "rivaul",
-        "name": "Rivaul",
-        "url": "/univers/olive-et-tom/technique.html?slug=rivaul"
-      },
-      {
-        "slug": "tatakae-dream-team",
-        "name": "Tatakae Dream Team",
-        "url": "/univers/olive-et-tom/technique.html?slug=tatakae-dream-team"
-      },
-      {
-        "slug": "tsubasa",
-        "name": "Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa"
       },
       {
         "slug": "twin-shot",
@@ -12083,14 +10064,7 @@
       "kanji": "ラモン・ビクトリーノ"
     },
     "position": "Forward",
-    "teams": [
-      {
-        "slug": "uruguay-jr-youth-ronc",
-        "name": "Uruguay Jr. Youth (RoNC)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-jr-youth-ronc",
-        "confidence": "medium"
-      }
-    ],
+    "teams": [],
     "nationality": "Uruguayan",
     "physical": {},
     "description": "",
@@ -12194,13 +10168,7 @@
     },
     "popularity": 999,
     "popularityRank": 999,
-    "techniques": [
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      }
-    ]
+    "techniques": []
   },
   {
     "slug": "ricardo-espadas",
@@ -12262,24 +10230,9 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "jumping-volley",
         "name": "Jumping Volley",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-volley"
-      },
-      {
-        "slug": "madrid-olympics-tournament",
-        "name": "Madrid Olympics tournament",
-        "url": "/univers/olive-et-tom/technique.html?slug=madrid-olympics-tournament"
-      },
-      {
-        "slug": "ricardo-espadas-ronc",
-        "name": "Ricardo Espadas (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=ricardo-espadas-ronc"
       },
       {
         "slug": "skylab-hurricane",
@@ -12290,11 +10243,6 @@
         "slug": "sliding-shot",
         "name": "Sliding Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-shot"
-      },
-      {
-        "slug": "tachibana-twins",
-        "name": "Tachibana Twins",
-        "url": "/univers/olive-et-tom/technique.html?slug=tachibana-twins"
       }
     ]
   },
@@ -12382,36 +10330,6 @@
     "popularity": 999,
     "popularityRank": 999,
     "techniques": [
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "marientos",
-        "name": "Marientos",
-        "url": "/univers/olive-et-tom/technique.html?slug=marientos"
-      },
-      {
-        "slug": "natureza",
-        "name": "Natureza",
-        "url": "/univers/olive-et-tom/technique.html?slug=natureza"
-      },
-      {
-        "slug": "overseas-fierce-fights",
-        "name": "Overseas Fierce Fights",
-        "url": "/univers/olive-et-tom/technique.html?slug=overseas-fierce-fights"
-      },
-      {
-        "slug": "rail",
-        "name": "Rail",
-        "url": "/univers/olive-et-tom/technique.html?slug=rail"
-      },
-      {
-        "slug": "roberto-carlos",
-        "name": "Roberto Carlos",
-        "url": "/univers/olive-et-tom/technique.html?slug=roberto-carlos"
-      },
       {
         "slug": "twin-shot",
         "name": "Twin Shot",
@@ -12630,12 +10548,6 @@
         "confidence": "medium"
       },
       {
-        "slug": "captain-tsubasa-world-youth-hen-1994",
-        "name": "Captain Tsubasa: World Youth Hen (1994)",
-        "url": "/univers/olive-et-tom/equipe.html?slug=captain-tsubasa-world-youth-hen-1994",
-        "confidence": "medium"
-      },
-      {
         "slug": "uruguay-youth",
         "name": "Uruguay Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=uruguay-youth",
@@ -12673,34 +10585,9 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "dragon-shot",
         "name": "Dragon Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=dragon-shot"
-      },
-      {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
-        "slug": "hino",
-        "name": "Hino",
-        "url": "/univers/olive-et-tom/technique.html?slug=hino"
-      },
-      {
-        "slug": "hyuga",
-        "name": "Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=hyuga"
-      },
-      {
-        "slug": "japan-youth",
-        "name": "Japan Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=japan-youth"
       },
       {
         "slug": "jumping-header",
@@ -12708,24 +10595,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
       },
       {
-        "slug": "kojiro-hyuga",
-        "name": "Kojiro Hyuga",
-        "url": "/univers/olive-et-tom/technique.html?slug=kojiro-hyuga"
-      },
-      {
-        "slug": "morisaki",
-        "name": "Morisaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=morisaki"
-      },
-      {
         "slug": "raiju-shot",
         "name": "Raiju Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot"
-      },
-      {
-        "slug": "south-american-dribble",
-        "name": "South American Dribble",
-        "url": "/univers/olive-et-tom/technique.html?slug=south-american-dribble"
       },
       {
         "slug": "straight-line-dribble",
@@ -12733,19 +10605,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=straight-line-dribble"
       },
       {
-        "slug": "tatakae-dream-team",
-        "name": "Tatakae Dream Team",
-        "url": "/univers/olive-et-tom/technique.html?slug=tatakae-dream-team"
-      },
-      {
         "slug": "tornado-shot",
         "name": "Tornado Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=tornado-shot"
-      },
-      {
-        "slug": "victorino",
-        "name": "Victorino",
-        "url": "/univers/olive-et-tom/technique.html?slug=victorino"
       }
     ]
   },
@@ -12856,6 +10718,12 @@
     },
     "position": "Goalkeeper",
     "teams": [
+      {
+        "slug": "brazil-youth",
+        "name": "Brazil Youth",
+        "url": "/univers/olive-et-tom/equipe.html?slug=brazil-youth",
+        "confidence": "medium"
+      },
       {
         "slug": "olympic-brazil",
         "name": "Olympic Brazil",
@@ -13144,11 +11012,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "jumping-header",
         "name": "Jumping Header",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
@@ -13157,11 +11020,6 @@
         "slug": "raiju-shot",
         "name": "Raiju Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=raiju-shot"
-      },
-      {
-        "slug": "rising-sun",
-        "name": "Rising Sun",
-        "url": "/univers/olive-et-tom/technique.html?slug=rising-sun"
       }
     ]
   },
@@ -13324,44 +11182,14 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "captain-tsubasa-1981",
-        "name": "Captain Tsubasa (1981)",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa-1981"
-      },
-      {
         "slug": "jumping-header",
         "name": "Jumping Header",
         "url": "/univers/olive-et-tom/technique.html?slug=jumping-header"
       },
       {
-        "slug": "mamoru-izawa",
-        "name": "Mamoru Izawa",
-        "url": "/univers/olive-et-tom/technique.html?slug=mamoru-izawa"
-      },
-      {
-        "slug": "nozaki",
-        "name": "Nozaki",
-        "url": "/univers/olive-et-tom/technique.html?slug=nozaki"
-      },
-      {
-        "slug": "shingo-takasugi-ronc",
-        "name": "Shingo Takasugi (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=shingo-takasugi-ronc"
-      },
-      {
         "slug": "sliding-tackle",
         "name": "Sliding Tackle",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-tackle"
-      },
-      {
-        "slug": "tsuyoshi-oda",
-        "name": "Tsuyoshi Oda",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsuyoshi-oda"
       }
     ]
   },
@@ -13546,21 +11374,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "all-japan-youth",
-        "name": "All Japan Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=all-japan-youth"
-      },
-      {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
-        "slug": "khongsawat-brothers",
-        "name": "Khongsawat brothers",
-        "url": "/univers/olive-et-tom/technique.html?slug=khongsawat-brothers"
-      },
-      {
         "slug": "sepak-takraw-shot",
         "name": "Sepak Takraw Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=sepak-takraw-shot"
@@ -13673,14 +11486,7 @@
       "kanji": ""
     },
     "position": "Defensive midfielder",
-    "teams": [
-      {
-        "slug": "juventus-fc",
-        "name": "Juventus FC",
-        "url": "/univers/olive-et-tom/equipe.html?slug=juventus-fc",
-        "confidence": "medium"
-      }
-    ],
+    "teams": [],
     "nationality": "Italian",
     "physical": {},
     "description": "",
@@ -13962,11 +11768,6 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "diving-header",
         "name": "Diving Header",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-header"
@@ -13975,11 +11776,6 @@
         "slug": "sliding-tackle",
         "name": "Sliding Tackle",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-tackle"
-      },
-      {
-        "slug": "takeshi-kishida-ronc",
-        "name": "Takeshi Kishida (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=takeshi-kishida-ronc"
       }
     ]
   },
@@ -14150,6 +11946,12 @@
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan",
         "confidence": "medium"
+      },
+      {
+        "slug": "shutetsu-elementary-school",
+        "name": "Shutetsu Elementary School",
+        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
+        "confidence": "medium"
       }
     ],
     "nationality": "Japanese",
@@ -14191,34 +11993,9 @@
     "popularityRank": 999,
     "techniques": [
       {
-        "slug": "izawa",
-        "name": "Izawa",
-        "url": "/univers/olive-et-tom/technique.html?slug=izawa"
-      },
-      {
-        "slug": "kisugi",
-        "name": "Kisugi",
-        "url": "/univers/olive-et-tom/technique.html?slug=kisugi"
-      },
-      {
-        "slug": "rise-of-new-champions",
-        "name": "Rise of New Champions",
-        "url": "/univers/olive-et-tom/technique.html?slug=rise-of-new-champions"
-      },
-      {
         "slug": "sliding-shot",
         "name": "Sliding Shot",
         "url": "/univers/olive-et-tom/technique.html?slug=sliding-shot"
-      },
-      {
-        "slug": "taki",
-        "name": "Taki",
-        "url": "/univers/olive-et-tom/technique.html?slug=taki"
-      },
-      {
-        "slug": "teppei-kisugi-ronc",
-        "name": "Teppei Kisugi (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=teppei-kisugi-ronc"
       }
     ]
   },
@@ -14272,6 +12049,12 @@
         "slug": "all-japan-jr-youth",
         "name": "All Japan Jr. Youth",
         "url": "/univers/olive-et-tom/equipe.html?slug=all-japan-jr-youth",
+        "confidence": "medium"
+      },
+      {
+        "slug": "minamiuwa-middle-school",
+        "name": "Minamiuwa Middle School",
+        "url": "/univers/olive-et-tom/equipe.html?slug=minamiuwa-middle-school",
         "confidence": "medium"
       }
     ],
@@ -14474,11 +12257,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=aurora-feint"
       },
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "face-block",
         "name": "Face Block",
         "url": "/univers/olive-et-tom/technique.html?slug=face-block"
@@ -14492,11 +12270,6 @@
         "slug": "right-angle-feint",
         "name": "Right-Angle Feint",
         "url": "/univers/olive-et-tom/technique.html?slug=right-angle-feint"
-      },
-      {
-        "slug": "stefan-levin",
-        "name": "Stefan Levin",
-        "url": "/univers/olive-et-tom/technique.html?slug=stefan-levin"
       }
     ]
   },
@@ -15307,6 +13080,12 @@
         "name": "Olympic Japan",
         "url": "/univers/olive-et-tom/equipe.html?slug=olympic-japan",
         "confidence": "medium"
+      },
+      {
+        "slug": "shutetsu-elementary-school",
+        "name": "Shutetsu Elementary School",
+        "url": "/univers/olive-et-tom/equipe.html?slug=shutetsu-elementary-school",
+        "confidence": "medium"
       }
     ],
     "nationality": "Japanese",
@@ -15353,11 +13132,6 @@
         "url": "/univers/olive-et-tom/technique.html?slug=body-block"
       },
       {
-        "slug": "captain-tsubasa",
-        "name": "Captain Tsubasa",
-        "url": "/univers/olive-et-tom/technique.html?slug=captain-tsubasa"
-      },
-      {
         "slug": "diving-catch",
         "name": "Diving Catch",
         "url": "/univers/olive-et-tom/technique.html?slug=diving-catch"
@@ -15368,34 +13142,9 @@
         "url": "/univers/olive-et-tom/technique.html?slug=face-block"
       },
       {
-        "slug": "golden-combi",
-        "name": "Golden Combi",
-        "url": "/univers/olive-et-tom/technique.html?slug=golden-combi"
-      },
-      {
         "slug": "high-speed-tornado-sky-alpha",
         "name": "High Speed Tornado Sky Alpha",
         "url": "/univers/olive-et-tom/technique.html?slug=high-speed-tornado-sky-alpha"
-      },
-      {
-        "slug": "olympic-germany",
-        "name": "Olympic Germany",
-        "url": "/univers/olive-et-tom/technique.html?slug=olympic-germany"
-      },
-      {
-        "slug": "thailand-youth",
-        "name": "Thailand Youth",
-        "url": "/univers/olive-et-tom/technique.html?slug=thailand-youth"
-      },
-      {
-        "slug": "tsubasa-ozora",
-        "name": "Tsubasa Ozora",
-        "url": "/univers/olive-et-tom/technique.html?slug=tsubasa-ozora"
-      },
-      {
-        "slug": "yuzo-morisaki-ronc",
-        "name": "Yuzo Morisaki (RoNC)",
-        "url": "/univers/olive-et-tom/technique.html?slug=yuzo-morisaki-ronc"
       }
     ]
   },

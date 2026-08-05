@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Toutes les équipes de l'univers Olive et Tom : clubs, sélections nationales et écoles."
+    />
+    <title>Olive et Tom · Équipes</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/entites.css" />
+  </head>
+  <body>
+    <header class="site-header universe-header">
+      <div class="container">
+        <a class="home-link" href="/" aria-label="Accueil">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M4.75 10.6 12 5.4l7.25 5.2M8.2 10.35V18.8h7.6v-8.45"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <h1>Olive et Tom</h1>
+        <p class="universe-subtitle">Équipes</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="entities" aria-labelledby="entities-title">
+        <div class="container">
+          <a class="back-link" href="/univers/olive-et-tom/">← Retour à l'univers</a>
+          <h2 id="entities-title" class="visually-hidden">Liste des équipes</h2>
+
+          <div class="entities-toolbar" role="region" aria-label="Filtres équipes">
+            <div class="entities-filters">
+              <label class="filter-group" for="filter-type">
+                <span>Type</span>
+                <select id="filter-type">
+                  <option value="">Tous les types</option>
+                </select>
+              </label>
+
+              <label class="filter-group filter-group-search" for="filter-search">
+                <span>Recherche</span>
+                <input
+                  id="filter-search"
+                  type="search"
+                  placeholder="Nom d'équipe…"
+                  aria-label="Rechercher une équipe"
+                />
+              </label>
+
+              <label class="filter-group" for="sort-select">
+                <span>Trier par</span>
+                <select id="sort-select">
+                  <option value="az">Nom A → Z</option>
+                  <option value="za">Nom Z → A</option>
+                  <option value="relations">Nombre de joueurs</option>
+                </select>
+              </label>
+            </div>
+            <p id="results-count" class="results-count" aria-live="polite">0 équipe affichée</p>
+          </div>
+
+          <div id="empty-state" class="empty-state" hidden>
+            <p>⚽ Aucune équipe ne correspond à vos critères</p>
+            <button id="reset-filters" type="button">Réinitialiser</button>
+          </div>
+
+          <div id="entities-grid" class="entities-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module">
+      import { createEntityListPage, TYPE_LABELS, AGE_LABELS } from "/assets/js/entites.js";
+
+      createEntityListPage({
+        source: "/assets/data/equipes.json",
+        detailBase: "/univers/olive-et-tom/equipe.html?slug=",
+        relationKey: "players",
+        labels: {
+          unit: "équipe",
+          units: "équipes",
+          relation: "joueur",
+          relations: "joueurs"
+        },
+        getBadges: (equipe) => [TYPE_LABELS[equipe.type], AGE_LABELS[equipe.age_category]],
+        filter: {
+          selectId: "filter-type",
+          getValue: (equipe) => equipe.type,
+          labels: TYPE_LABELS
+        }
+      });
+    </script>
+  </body>
+</html>

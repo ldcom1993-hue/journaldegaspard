@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fiche détaillée d'une équipe d'Olive et Tom et de son effectif." />
+    <title>Olive et Tom · Équipe</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/entites.css" />
+  </head>
+  <body>
+    <header class="site-header universe-header">
+      <div class="container">
+        <a class="home-link" href="/" aria-label="Accueil">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M4.75 10.6 12 5.4l7.25 5.2M8.2 10.35V18.8h7.6v-8.45"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <h1>Olive et Tom</h1>
+        <p class="universe-subtitle">Équipe</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="entity-detail" aria-labelledby="entity-detail-title">
+        <div class="container">
+          <a class="back-link" href="/univers/olive-et-tom/equipes.html">← Retour aux équipes</a>
+          <h2 id="entity-detail-title" class="visually-hidden">Détail de l'équipe</h2>
+
+          <article id="entity-detail-shell" class="entity-detail-shell" aria-live="polite">
+            <div class="entity-detail-loading">
+              <p>Chargement de l'équipe…</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script type="module">
+      import { createEntityDetailPage, TYPE_LABELS, AGE_LABELS } from "/assets/js/entites.js";
+
+      createEntityDetailPage({
+        source: "/assets/data/equipes.json",
+        relationKey: "players",
+        titlePrefix: "Olive et Tom ·",
+        labels: {
+          notFound: "Équipe introuvable",
+          notFoundHint: "L'équipe demandée n'existe pas ou n'est pas disponible.",
+          section: "Effectif"
+        },
+        getBadges: (equipe) => [TYPE_LABELS[equipe.type], AGE_LABELS[equipe.age_category]],
+        // parent_team est un libellé brut du Fandom ("Japan", "Arsenal"), pas un
+        // slug d'équipe : il est affiché en texte, jamais transformé en lien.
+        getSubtitle: (equipe) => (equipe.parent_team ? `Rattachée à ${equipe.parent_team}` : "")
+      });
+    </script>
+  </body>
+</html>

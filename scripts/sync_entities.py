@@ -9,7 +9,6 @@ from typing import Any
 
 from fandom.client import (
     fetch_category_titles,
-    fetch_intro_extract,
     fetch_page_links,
     fetch_page_wikitext,
 )
@@ -22,7 +21,9 @@ from fandom.extract_teams import (
 from fandom.extract_techniques import (
     build_technique_to_users_map,
     extract_techniques_from_infobox,
-    fetch_technique_titles_from_categories,
+    fetch_character_technique_pages,
+    fetch_technique_catalog,
+    fetch_technique_details,
 )
 
 from fandom.normalize import (
@@ -211,11 +212,25 @@ def main() -> None:
         if techniques:
             technique_links_by_character[slug] = techniques
 
-    technique_titles = fetch_technique_titles_from_categories()
+    # Le catalogue des catégories du wiki fait autorité : tout ce qui n'y
+    # figure pas n'est pas une technique, quelle que soit sa provenance.
+    technique_catalog = fetch_technique_catalog()
+
+    print(f"[info] technique catalog: {len(technique_catalog)} entries")
+
+    # L'infobox des personnages cite des noms libres : on ne garde que ceux
+    # qui correspondent à une technique du catalogue.
+    for character_slug, names in list(technique_links_by_character.items()):
+        technique_links_by_character[character_slug] = [
+            technique_catalog[slugify(name)]
+            for name in names
+            if slugify(name) in technique_catalog
+        ]
 
     technique_to_users = build_technique_to_users_map(
-        technique_titles,
+        fetch_character_technique_pages(),
         known_character_titles,
+        technique_catalog,
     )
 
     for technique_title, user_titles in technique_to_users.items():
@@ -242,6 +257,21 @@ def main() -> None:
 
     teams_payload: dict[str, dict[str, Any]] = {}
     techniques_payload: dict[str, dict[str, Any]] = {}
+
+    # Le catalogue amorce la charge utile : une technique existe parce que le
+    # wiki la recense, pas parce qu'un personnage s'y rattache. Sans cela, les
+    # techniques que nulle page /Techniques ne cite resteraient absentes.
+    for technique_slug, technique_name in technique_catalog.items():
+        techniques_payload[technique_slug] = {
+            "slug": technique_slug,
+            "name": technique_name,
+            "url": entity_ref(technique_name, "technique")["url"],
+            "japanese_name": "",
+            "first_appearance": "",
+            "description": "",
+            "image": "",
+            "users": [],
+        }
 
     for record in personnages:
 
@@ -308,20 +338,12 @@ def main() -> None:
 
         for technique_ref in record["techniques"]:
 
-            technique_slug = technique_ref["slug"]
+            technique = techniques_payload.get(technique_ref["slug"])
 
-            if technique_slug not in techniques_payload:
-
-                techniques_payload[technique_slug] = {
-                    "slug": technique_ref["slug"],
-                    "name": technique_ref["name"],
-                    "url": technique_ref["url"],
-                    "description": "",
-                    "image": "",
-                    "users": [],
-                }
-
-            techniques_payload[technique_slug]["users"].append(character_pointer)
+            # Le catalogue a déjà créé toutes les techniques légitimes : une
+            # référence inconnue ici est un reliquat, on ne la ressuscite pas.
+            if technique is not None:
+                technique["users"].append(character_pointer)
 
     equipes = sort_entities([
         {
@@ -339,11 +361,11 @@ def main() -> None:
         for technique in techniques_payload.values()
     ])
 
-    for technique in techniques:
-        try:
-            technique["description"] = fetch_intro_extract(technique["name"])
-        except RuntimeError:
-            technique["description"] = ""
+    for index, technique in enumerate(techniques, start=1):
+        technique.update(fetch_technique_details(technique["name"]))
+
+        if index % 25 == 0:
+            print(f"[info] technique details fetched: {index}/{len(techniques)}")
 
     personnages_sorted = sorted(
         personnages,

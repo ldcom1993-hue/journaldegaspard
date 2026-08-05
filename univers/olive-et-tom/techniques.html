@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Toutes les techniques de l'univers Olive et Tom et les joueurs qui les utilisent."
+    />
+    <title>Olive et Tom · Techniques</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/entites.css" />
+  </head>
+  <body>
+    <header class="site-header universe-header">
+      <div class="container">
+        <a class="home-link" href="/" aria-label="Accueil">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+              d="M4.75 10.6 12 5.4l7.25 5.2M8.2 10.35V18.8h7.6v-8.45"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <h1>Olive et Tom</h1>
+        <p class="universe-subtitle">Techniques</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="entities" aria-labelledby="entities-title">
+        <div class="container">
+          <a class="back-link" href="/univers/olive-et-tom/">← Retour à l'univers</a>
+          <h2 id="entities-title" class="visually-hidden">Liste des techniques</h2>
+
+          <div class="entities-toolbar" role="region" aria-label="Filtres techniques">
+            <div class="entities-filters">
+              <label class="filter-group filter-group-search" for="filter-search">
+                <span>Recherche</span>
+                <input
+                  id="filter-search"
+                  type="search"
+                  placeholder="Nom de technique…"
+                  aria-label="Rechercher une technique"
+                />
+              </label>
+
+              <label class="filter-group" for="sort-select">
+                <span>Trier par</span>
+                <select id="sort-select">
+                  <option value="az">Nom A → Z</option>
+                  <option value="za">Nom Z → A</option>
+                  <option value="relations">Nombre d'utilisateurs</option>
+                </select>
+              </label>
+            </div>
+            <p id="results-count" class="results-count" aria-live="polite">0 technique affichée</p>
+          </div>
+
+          <div id="empty-state" class="empty-state" hidden>
+            <p>⚽ Aucune technique ne correspond à votre recherche</p>
+            <button id="reset-filters" type="button">Réinitialiser</button>
+          </div>
+
+          <div id="entities-grid" class="entities-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module">
+      import { createEntityListPage } from "/assets/js/entites.js";
+
+      createEntityListPage({
+        source: "/assets/data/techniques.json",
+        detailBase: "/univers/olive-et-tom/technique.html?slug=",
+        relationKey: "users",
+        labels: {
+          unit: "technique",
+          units: "techniques",
+          relation: "utilisateur",
+          relations: "utilisateurs"
+        }
+      });
+    </script>
+  </body>
+</html>
