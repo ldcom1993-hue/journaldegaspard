@@ -59,6 +59,48 @@ const LONGUEUR_CODE = 4;
 /** Coups autorisés. */
 const COUPS = ['construire', 'tirer', 'defendre'];
 
+/** Modes de jeu. Le mode classique est le jeu d'origine, inchangé. */
+const MODES = ['classique', 'equipe'];
+
+/** Les trois postes d'une équipe, en mode Équipe. Un personnage par poste. */
+const FAMILLES = ['tir', 'construction', 'defense'];
+
+/** Vivier des personnages jouables, généré par scripts/sync_entities.py. */
+const FICHIER_ROSTER = __DIR__ . '/../assets/data/duel-roster.json';
+
+/**
+ * Coup auquel chaque effet s'attache. Une cartouche de tir se joue sur un tir,
+ * une cartouche de défense sur une défense : la famille du poste et le coup se
+ * correspondent, ce qui rend la règle explicable sans table de référence.
+ */
+const COUP_DE_L_EFFET = [
+    'frappe' => 'tirer',
+    'volee' => 'tirer',
+    'une-deux' => 'construire',
+    'crochet' => 'construire',
+    'parade' => 'defendre',
+    'repli' => 'defendre',
+];
+
+/**
+ * Actions qu'un effet exige d'avoir en réserve pour être joué.
+ * Les effets absents de cette table sont gratuits.
+ */
+const COUT_EFFET = [
+    'frappe' => 2,
+    'crochet' => 1,
+];
+
+/**
+ * Actions prélevées en plus de ce que le coup retire déjà dans la matrice.
+ * Tirer coûte déjà 1 : « frappe » n'en retire donc qu'une de plus pour ses 2.
+ * Construire ne coûte rien : « crochet » prélève son action entière.
+ */
+const SURCOUT_EFFET = [
+    'frappe' => 1,
+    'crochet' => 1,
+];
+
 // ---------------------------------------------------------------------------
 // Sortie HTTP
 // ---------------------------------------------------------------------------
@@ -218,6 +260,95 @@ function lirePartie(string $code): array
 }
 
 // ---------------------------------------------------------------------------
+// Vivier du mode Équipe
+// ---------------------------------------------------------------------------
+
+/**
+ * Charge le vivier des personnages jouables, indexé par slug.
+ *
+ * Fichier dérivé et compact (~54 Ko) produit par le pipeline, précisément pour
+ * n'avoir à charger ici ni personnages.json (330 Ko) ni techniques.json.
+ */
+function chargerRoster(): array
+{
+    static $roster = null;
+
+    if ($roster !== null) {
+        return $roster;
+    }
+
+    $brut = @file_get_contents(FICHIER_ROSTER);
+    $donnees = json_decode($brut !== false ? $brut : '', true);
+
+    if (!is_array($donnees) || $donnees === []) {
+        echouer("Le vivier des personnages est indisponible.", 500);
+    }
+
+    $roster = [];
+    foreach ($donnees as $entree) {
+        if (isset($entree['slug'])) {
+            $roster[(string) $entree['slug']] = $entree;
+        }
+    }
+
+    return $roster;
+}
+
+/**
+ * Valide une composition et la réduit à ce que la partie doit retenir.
+ *
+ * Trois personnages distincts, un par famille, chacun réellement éligible au
+ * poste où on l'aligne. Le client propose, le serveur dispose : une équipe
+ * fabriquée à la main dans la console est refusée ici.
+ *
+ * @param array $choix famille => slug
+ */
+function composerEquipe(array $choix): array
+{
+    $roster = chargerRoster();
+    $equipe = [];
+    $vus = [];
+
+    foreach (FAMILLES as $famille) {
+        $slug = trim((string) ($choix[$famille] ?? ''));
+
+        if ($slug === '') {
+            echouer("Il manque un joueur au poste « {$famille} ».");
+        }
+
+        if (isset($vus[$slug])) {
+            echouer("Un même personnage ne peut occuper deux postes.");
+        }
+
+        $personnage = $roster[$slug] ?? null;
+
+        if ($personnage === null) {
+            echouer("Personnage inconnu : {$slug}.");
+        }
+
+        $capacite = $personnage['familles'][$famille] ?? null;
+
+        if (!is_array($capacite)) {
+            echouer("{$personnage['nom']} n'a aucune technique de « {$famille} ».");
+        }
+
+        $vus[$slug] = true;
+
+        $equipe[$famille] = [
+            'slug' => $slug,
+            'nom' => (string) $personnage['nom'],
+            'image' => (string) ($personnage['image'] ?? ''),
+            'poste' => (string) ($personnage['poste'] ?? ''),
+            'technique' => (string) ($capacite['technique'] ?? ''),
+            'effet' => (string) ($capacite['effet'] ?? ''),
+            'utilisee' => false,
+        ];
+    }
+
+    return $equipe;
+}
+
+// ---------------------------------------------------------------------------
 // Règles du jeu
 // ---------------------------------------------------------------------------
 
@@ -297,24 +428,190 @@ function resoudreManche(array $a, array $b): array
 }
 
 /**
+ * Effets encore disponibles pour un joueur, indexés par le coup qui les porte.
+ * Une cartouche déjà dépensée ne réapparaît jamais.
+ *
+ * @return array coup => [effet, ...]
+ */
+function effetsDisponibles(array $joueur): array
+{
+    $parCoup = [];
+
+    foreach ($joueur['equipe'] ?? [] as $carte) {
+        if (!empty($carte['utilisee'])) {
+            continue;
+        }
+
+        $effet = (string) ($carte['effet'] ?? '');
+        $coup = COUP_DE_L_EFFET[$effet] ?? null;
+
+        if ($coup !== null) {
+            $parCoup[$coup][] = $effet;
+        }
+    }
+
+    return $parCoup;
+}
+
+/**
  * Liste les coups légaux pour un joueur donné, dans l'état courant.
  * Le client s'en sert pour griser les boutons ; le serveur s'en sert pour
  * refuser un coup illégal. Une seule source de vérité, deux usages.
+ *
+ * Deux cartouches lèvent une interdiction plutôt que de modifier une issue :
+ * « volee » autorise un tir sans munition, « repli » une seconde défense
+ * consécutive. Elles élargissent donc cette liste.
  */
 function coupsAutorises(array $joueur): array
 {
+    $disponibles = effetsDisponibles($joueur);
     $autorises = ['construire'];
 
-    if ((int) $joueur['points'] >= 1) {
+    $peutTirer = (int) $joueur['points'] >= 1
+        || in_array('volee', $disponibles['tirer'] ?? [], true);
+
+    if ($peutTirer) {
         $autorises[] = 'tirer';
     }
 
     // Anti-cadenas : on ne peut pas enchaîner deux défenses.
-    if (($joueur['dernierCoup'] ?? null) !== 'defendre') {
+    $peutDefendre = ($joueur['dernierCoup'] ?? null) !== 'defendre'
+        || in_array('repli', $disponibles['defendre'] ?? [], true);
+
+    if ($peutDefendre) {
         $autorises[] = 'defendre';
     }
 
     return $autorises;
+}
+
+/**
+ * Effets jouables avec un coup donné, une fois leur coût vérifié.
+ * Même logique que coupsAutorises : le serveur tranche, le client affiche.
+ */
+function cartouchesAutorisees(array $joueur, string $coup): array
+{
+    $points = (int) $joueur['points'];
+    $jouables = [];
+
+    foreach (effetsDisponibles($joueur)[$coup] ?? [] as $effet) {
+        if ($points >= (COUT_EFFET[$effet] ?? 0)) {
+            $jouables[] = $effet;
+        }
+    }
+
+    return $jouables;
+}
+
+/**
+ * Applique les effets des cartouches autour d'une manche déjà résolue.
+ *
+ * La matrice de resoudreManche() n'est jamais modifiée : le mode classique
+ * emprunte exactement le même chemin qu'avant. Les effets se contentent de
+ * prélever leur surcoût en amont, puis de corriger l'issue en aval.
+ *
+ * @return array{0: array, 1: array, 2: string}
+ */
+function resoudreMancheEquipe(array $a, array $b): array
+{
+    $coupA = (string) $a['coup'];
+    $coupB = (string) $b['coup'];
+    $effetA = (string) ($a['cartouche'] ?? '');
+    $effetB = (string) ($b['cartouche'] ?? '');
+
+    $a['points'] = max(0, (int) $a['points'] - (SURCOUT_EFFET[$effetA] ?? 0));
+    $b['points'] = max(0, (int) $b['points'] - (SURCOUT_EFFET[$effetB] ?? 0));
+
+    list($a, $b, $recit) = resoudreManche($a, $b);
+
+    list($a, $b, $recit) = appliquerEffet($a, $b, $coupA, $coupB, $effetA, $recit, porteurDe($a, $effetA));
+    list($b, $a, $recit) = appliquerEffet($b, $a, $coupB, $coupA, $effetB, $recit, porteurDe($b, $effetB));
+
+    $a['points'] = max(0, (int) $a['points']);
+    $b['points'] = max(0, (int) $b['points']);
+
+    $a = marquerCartoucheUtilisee($a, $effetA);
+    $b = marquerCartoucheUtilisee($b, $effetB);
+
+    return [$a, $b, $recit];
+}
+
+/**
+ * Nom du personnage porteur d'un effet, pour le récit.
+ *
+ * Les récits nomment le joueur du manga plutôt que « vous » ou « l'adversaire »
+ * : outre que c'est plus parlant, ça évite l'accord impossible des marqueurs
+ * {A}/{B}, qui deviennent tantôt « Vous », tantôt « L'adversaire ».
+ */
+function porteurDe(array $joueur, string $effet): string
+{
+    foreach ($joueur['equipe'] ?? [] as $carte) {
+        if ((string) ($carte['effet'] ?? '') === $effet) {
+            return (string) ($carte['nom'] ?? '');
+        }
+    }
+
+    return '';
+}
+
+/**
+ * Corrige l'issue d'une manche pour un joueur, selon la cartouche qu'il a
+ * engagée. « volee » et « repli » n'apparaissent pas ici : elles ont déjà
+ * produit leur effet en autorisant un coup autrement interdit.
+ */
+function appliquerEffet(
+    array $moi,
+    array $lui,
+    string $monCoup,
+    string $sonCoup,
+    string $effet,
+    string $recit,
+    string $porteur
+): array {
+    if ($porteur === '') {
+        $porteur = 'Le joueur';
+    }
+
+    if ($effet === 'frappe' && $monCoup === 'tirer' && $sonCoup === 'defendre') {
+        // La frappe traverse : le but est accordé et la contre-attaque annulée.
+        $moi['buts'] = (int) $moi['buts'] + 1;
+        $lui['points'] = (int) $lui['points'] - 1;
+        $recit = "{$porteur} arme une frappe que rien n'arrête. But !";
+    } elseif ($effet === 'crochet' && $monCoup === 'construire' && $sonCoup === 'tirer') {
+        // Le crochet efface la frappe adverse sans qu'on ait eu à défendre.
+        $lui['buts'] = (int) $lui['buts'] - 1;
+        $recit = "{$porteur} efface la frappe d'un crochet et poursuit sa montée.";
+    } elseif ($effet === 'une-deux' && $monCoup === 'construire' && $sonCoup !== 'tirer') {
+        // Le +1 de la matrice devient +2. Sans gain à doubler, l'effet est nul.
+        $moi['points'] = (int) $moi['points'] + 1;
+        $recit .= " {$porteur} enchaîne une-deux et prend deux temps d'avance.";
+    } elseif ($effet === 'parade' && $monCoup === 'defendre' && $sonCoup === 'tirer') {
+        $moi['points'] = (int) $moi['points'] + 1;
+        $recit = "{$porteur} claque une parade et relance plein axe.";
+    }
+
+    return [$moi, $lui, $recit];
+}
+
+/**
+ * Retire définitivement du jeu la cartouche engagée.
+ */
+function marquerCartoucheUtilisee(array $joueur, string $effet): array
+{
+    if ($effet === '') {
+        return $joueur;
+    }
+
+    foreach ($joueur['equipe'] ?? [] as $famille => $carte) {
+        if (empty($carte['utilisee']) && (string) ($carte['effet'] ?? '') === $effet) {
+            $joueur['equipe'][$famille]['utilisee'] = true;
+            break;
+        }
+    }
+
+    $joueur['cartouche'] = null;
+
+    return $joueur;
 }
 
 // ---------------------------------------------------------------------------
@@ -335,10 +632,23 @@ function projeter(array $partie, int $moiId): array
     $moi = $joueurs[$moiId];
     $adversaire = $joueurs[1 - $moiId] ?? null;
 
+    $mode = $partie['mode'] ?? 'classique';
+
+    // Cartouches jouables, par coup. Le client s'en sert pour proposer, jamais
+    // pour décider : actionJouer revalide tout.
+    $cartouches = [];
+    foreach (COUPS as $coup) {
+        $jouables = $mode === 'equipe' ? cartouchesAutorisees($moi, $coup) : [];
+        if ($jouables !== []) {
+            $cartouches[$coup] = $jouables;
+        }
+    }
+
     $vue = [
         'code' => $partie['code'],
         'version' => (int) $partie['version'],
         'statut' => $partie['statut'],
+        'mode' => $mode,
         'manche' => (int) $partie['manche'],
         'butsPourGagner' => (int) $partie['butsPourGagner'],
         'joueurId' => $moiId,
@@ -349,6 +659,9 @@ function projeter(array $partie, int $moiId): array
             'aJoue' => $moi['coup'] !== null,
             'dernierCoup' => $moi['dernierCoup'],
             'coupsAutorises' => coupsAutorises($moi),
+            'cartouchesAutorisees' => $cartouches,
+            'equipe' => $moi['equipe'],
+            'aCompose' => $moi['equipe'] !== null,
         ],
         'adversaire' => null,
         'derniereManche' => $partie['derniereManche'],
@@ -366,6 +679,13 @@ function projeter(array $partie, int $moiId): array
             'buts' => (int) $adversaire['buts'],
             'aJoue' => $adversaire['coup'] !== null,
             'dernierCoup' => $adversaire['dernierCoup'],
+            'aCompose' => $adversaire['equipe'] !== null,
+            // L'équipe adverse n'est révélée qu'au coup d'envoi : pendant la
+            // sélection, la connaître permettrait de composer en réaction.
+            // La cartouche qu'il vient d'engager n'est jamais exposée, au même
+            // titre que son coup — seul le drapeau "utilisee", posé après
+            // résolution, devient public.
+            'equipe' => $partie['statut'] === 'selection' ? null : $adversaire['equipe'],
         ];
     }
 
@@ -409,6 +729,9 @@ function nouveauJoueur(string $nom): array
         'coup' => null,
         'dernierCoup' => null,
         'revanche' => false,
+        // Mode Équipe uniquement : composition, et cartouche engagée ce tour.
+        'equipe' => null,
+        'cartouche' => null,
     ];
 }
 
@@ -434,6 +757,12 @@ function genererCode(): string
 
 function actionCreer(): void
 {
+    $mode = parametre('mode', 'classique');
+
+    if (!in_array($mode, MODES, true)) {
+        echouer("Mode de jeu inconnu.");
+    }
+
     $code = genererCode();
     $hote = nouveauJoueur('Joueur 1');
 
@@ -443,6 +772,7 @@ function actionCreer(): void
         'creeLe' => time(),
         'majLe' => time(),
         'statut' => 'attente',
+        'mode' => $mode,
         'manche' => 1,
         'butsPourGagner' => BUTS_POUR_GAGNER,
         'joueurs' => [$hote],
@@ -479,7 +809,12 @@ function actionRejoindre(): void
         }
 
         $partie['joueurs'][] = $invite;
-        $partie['statut'] = 'en-cours';
+
+        // En mode Équipe, le match ne démarre qu'une fois les deux
+        // compositions déposées.
+        $partie['statut'] = ($partie['mode'] ?? 'classique') === 'equipe'
+            ? 'selection'
+            : 'en-cours';
 
         return $partie;
     });
@@ -507,11 +842,61 @@ function actionEtat(): void
     repondre(['etat' => projeter($partie, $moiId)]);
 }
 
+/**
+ * Dépose la composition d'un joueur. Le match démarre quand les deux sont là.
+ */
+function actionComposer(): void
+{
+    $code = strtoupper(parametre('code'));
+    $jeton = parametre('jeton');
+
+    $choix = [];
+    foreach (FAMILLES as $famille) {
+        $choix[$famille] = parametre($famille);
+    }
+
+    $moiId = -1;
+
+    $partie = modifierPartie($code, function (array $partie) use ($jeton, $choix, &$moiId): array {
+        $moiId = identifierJoueur($partie, $jeton);
+
+        if (($partie['mode'] ?? 'classique') !== 'equipe') {
+            echouer("Cette partie n'est pas en mode Équipe.", 409);
+        }
+
+        if ($partie['statut'] !== 'selection') {
+            echouer("La composition n'est plus modifiable.", 409);
+        }
+
+        if ($partie['joueurs'][$moiId]['equipe'] !== null) {
+            echouer("Votre équipe est déjà composée.", 409);
+        }
+
+        $partie['joueurs'][$moiId]['equipe'] = composerEquipe($choix);
+
+        $pretes = true;
+        foreach ($partie['joueurs'] as $joueur) {
+            if ($joueur['equipe'] === null) {
+                $pretes = false;
+            }
+        }
+
+        if ($pretes && count($partie['joueurs']) === 2) {
+            $partie['statut'] = 'en-cours';
+        }
+
+        return $partie;
+    });
+
+    repondre(['etat' => projeter($partie, $moiId)]);
+}
+
 function actionJouer(): void
 {
     $code = strtoupper(parametre('code'));
     $jeton = parametre('jeton');
     $coup = parametre('coup');
+    $cartouche = parametre('cartouche');
 
     if (!in_array($coup, COUPS, true)) {
         echouer("Coup inconnu.");
@@ -519,11 +904,15 @@ function actionJouer(): void
 
     $moiId = -1;
 
-    $partie = modifierPartie($code, function (array $partie) use ($jeton, $coup, &$moiId): array {
+    $partie = modifierPartie($code, function (array $partie) use ($jeton, $coup, $cartouche, &$moiId): array {
         $moiId = identifierJoueur($partie, $jeton);
 
         if ($partie['statut'] === 'attente') {
             echouer("En attente d'un second joueur.", 409);
+        }
+
+        if ($partie['statut'] === 'selection') {
+            echouer("Les équipes ne sont pas encore composées.", 409);
         }
 
         if ($partie['statut'] === 'termine') {
@@ -540,18 +929,36 @@ function actionJouer(): void
             echouer("Ce coup n'est pas disponible ce tour-ci.", 409);
         }
 
+        if ($cartouche !== '') {
+            if (($partie['mode'] ?? 'classique') !== 'equipe') {
+                echouer("Les cartouches n'existent pas en mode classique.", 409);
+            }
+
+            if (!in_array($cartouche, cartouchesAutorisees($moi, $coup), true)) {
+                echouer("Cette cartouche n'est pas jouable avec ce coup.", 409);
+            }
+        }
+
         $partie['joueurs'][$moiId]['coup'] = $coup;
+        $partie['joueurs'][$moiId]['cartouche'] = $cartouche !== '' ? $cartouche : null;
 
         // Les deux coups sont posés : on résout et on ouvre la manche suivante.
         if ($partie['joueurs'][0]['coup'] !== null && $partie['joueurs'][1]['coup'] !== null) {
             $coupA = $partie['joueurs'][0]['coup'];
             $coupB = $partie['joueurs'][1]['coup'];
+            $cartoucheA = $partie['joueurs'][0]['cartouche'] ?? null;
+            $cartoucheB = $partie['joueurs'][1]['cartouche'] ?? null;
 
-            list($a, $b, $recit) = resoudreManche($partie['joueurs'][0], $partie['joueurs'][1]);
+            if (($partie['mode'] ?? 'classique') === 'equipe') {
+                list($a, $b, $recit) = resoudreMancheEquipe($partie['joueurs'][0], $partie['joueurs'][1]);
+            } else {
+                list($a, $b, $recit) = resoudreManche($partie['joueurs'][0], $partie['joueurs'][1]);
+            }
 
             $partie['derniereManche'] = [
                 'numero' => (int) $partie['manche'],
                 'coups' => [$coupA, $coupB],
+                'cartouches' => [$cartoucheA, $cartoucheB],
                 'recit' => $recit,
                 'buts' => [(int) $a['buts'], (int) $b['buts']],
             ];
@@ -597,6 +1004,15 @@ function actionRejouer(): void
                 $partie['joueurs'][$index]['coup'] = null;
                 $partie['joueurs'][$index]['dernierCoup'] = null;
                 $partie['joueurs'][$index]['revanche'] = false;
+                $partie['joueurs'][$index]['cartouche'] = null;
+
+                // La revanche se joue avec les mêmes équipes, cartouches
+                // refaites. Rouvrir un draft casserait l'élan entre deux
+                // manches, et laisser les cartouches dépensées viderait le
+                // mode de sa substance.
+                foreach ($partie['joueurs'][$index]['equipe'] ?? [] as $famille => $carte) {
+                    $partie['joueurs'][$index]['equipe'][$famille]['utilisee'] = false;
+                }
             }
 
             $partie['statut'] = 'en-cours';
@@ -627,6 +1043,9 @@ switch (parametre('action')) {
         break;
     case 'etat':
         actionEtat();
+        break;
+    case 'composer':
+        actionComposer();
         break;
     case 'jouer':
         actionJouer();

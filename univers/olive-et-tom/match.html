@@ -43,6 +43,29 @@
             en même temps, sans voir le coup d'en face. Premier à trois buts.
           </p>
 
+          <fieldset class="modes">
+            <legend class="modes-legende">Mode de jeu</legend>
+
+            <label class="mode">
+              <input type="radio" name="mode" value="classique" checked />
+              <span class="mode-corps">
+                <span class="mode-titre">Classique</span>
+                <span class="mode-detail">Construire, tirer, défendre. Le duel d'origine.</span>
+              </span>
+            </label>
+
+            <label class="mode">
+              <input type="radio" name="mode" value="equipe" />
+              <span class="mode-corps">
+                <span class="mode-titre">Équipe</span>
+                <span class="mode-detail">
+                  Composez trois joueurs avant le coup d'envoi. Chacun apporte une technique,
+                  jouable une seule fois.
+                </span>
+              </span>
+            </label>
+          </fieldset>
+
           <button type="button" id="btn-creer" class="btn-primaire">Créer un match</button>
 
           <div class="separateur"><span>ou</span></div>
@@ -112,6 +135,34 @@
       </section>
 
       <!-- =================================================================
+           ÉCRAN 2 bis — Composition (mode Équipe)
+           ================================================================= -->
+      <section id="ecran-selection" class="ecran" hidden aria-labelledby="selection-titre">
+        <div class="panneau">
+          <h2 id="selection-titre">Composez votre équipe</h2>
+          <p class="panneau-texte">
+            Un joueur par poste. Chacun apporte une technique, utilisable une seule fois
+            dans le match.
+          </p>
+
+          <div class="postes" id="postes"></div>
+
+          <p id="selection-erreur" class="erreur" role="alert" hidden></p>
+
+          <button type="button" id="btn-valider-equipe" class="btn-primaire" disabled>
+            Valider l'équipe
+          </button>
+
+          <p class="panneau-texte attente" id="selection-attente" aria-live="polite" hidden>
+            <span class="pulsation" aria-hidden="true"></span>
+            En attente de l'équipe adverse…
+          </p>
+
+          <button type="button" id="btn-quitter-selection" class="btn-lien">Abandonner</button>
+        </div>
+      </section>
+
+      <!-- =================================================================
            ÉCRAN 3 — Le match
            ================================================================= -->
       <section id="ecran-match" class="ecran" hidden aria-labelledby="match-titre">
@@ -160,6 +211,9 @@
           Choisissez votre coup pour lancer la première manche.
         </p>
 
+        <!-- Cartouches (mode Équipe) : une par personnage, une seule fois -->
+        <div class="cartouches" id="cartouches" role="group" aria-label="Techniques disponibles" hidden></div>
+
         <!-- Coups -->
         <div class="coups" role="group" aria-label="Choisir un coup">
           <button type="button" class="coup coup--construire" data-coup="construire">
@@ -204,6 +258,6 @@
       </section>
     </main>
 
-    <script src="/assets/js/match.js" defer></script>
+    <script type="module" src="/assets/js/match.js"></script>
   </body>
 </html>

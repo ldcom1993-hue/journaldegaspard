@@ -290,6 +290,12 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* `display: flex` l'emporterait sur l'attribut hidden : on le rétablit,
+   sans quoi l'attente adverse s'affiche pendant qu'on compose encore. */
+.attente[hidden] {
+  display: none;
+}
+
 .attente {
   margin-top: 1.5rem;
   margin-bottom: 0;
@@ -673,6 +679,231 @@
 }
 
 /* ---------------------------------------------------------------------------
+   Choix du mode, sur l'accueil
+   --------------------------------------------------------------------------- */
+
+.modes {
+  margin: 0 0 1.2rem;
+  padding: 0;
+  border: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.modes-legende {
+  padding: 0;
+  margin-bottom: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #9fb8d6;
+}
+
+.mode {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.mode:hover {
+  border-color: rgba(110, 193, 255, 0.5);
+}
+
+.mode:has(input:checked) {
+  border-color: var(--coup-defendre);
+  background: rgba(110, 193, 255, 0.12);
+}
+
+.mode input {
+  margin-top: 0.2rem;
+  accent-color: var(--coup-defendre);
+}
+
+.mode-corps {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.mode-titre {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.mode-detail {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--muted-color);
+}
+
+/* ---------------------------------------------------------------------------
+   Composition d'équipe
+   --------------------------------------------------------------------------- */
+
+.postes {
+  display: grid;
+  gap: 1.4rem;
+  margin: 1.2rem 0;
+}
+
+.poste-titre {
+  margin: 0 0 0.15rem;
+  font-size: 1rem;
+}
+
+.poste-detail {
+  margin: 0 0 0.7rem;
+  font-size: 0.8rem;
+  color: var(--muted-color);
+}
+
+/* Le vivier est long (jusqu'à 54 personnages) : on le fait défiler dans sa
+   propre colonne plutôt que d'étirer la page sur plusieurs écrans. */
+.poste-liste {
+  display: grid;
+  gap: 0.5rem;
+  max-height: 17rem;
+  overflow-y: auto;
+  padding-right: 0.3rem;
+}
+
+.draft-carte {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  width: 100%;
+  /* Sans cette borne, les libellés d'effet élargissent la carte au-delà de sa
+     colonne et le texte se fait couper à droite. */
+  min-width: 0;
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  color: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.draft-carte:hover:not(:disabled) {
+  border-color: rgba(110, 193, 255, 0.55);
+  transform: translateX(2px);
+}
+
+.draft-carte.est-retenu {
+  border-color: var(--coup-construire);
+  background: rgba(61, 220, 132, 0.14);
+}
+
+.draft-carte.est-pris {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.draft-portrait {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.draft-corps {
+  display: grid;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+/* Un élément de grille vaut `min-width: auto` par défaut et refuse donc de
+   passer sous la largeur de son plus long mot : les noms de techniques
+   élargissaient la carte au-delà de sa colonne, jusqu'à faire défiler la page
+   horizontalement. */
+.draft-corps > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.draft-nom {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.draft-technique {
+  font-size: 0.78rem;
+  color: #cfe6ff;
+}
+
+.draft-effet {
+  font-size: 0.74rem;
+  color: var(--muted-color);
+  line-height: 1.35;
+}
+
+/* ---------------------------------------------------------------------------
+   Cartouches, pendant le match
+   --------------------------------------------------------------------------- */
+
+.cartouches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 0.9rem;
+}
+
+.cartouche {
+  display: grid;
+  gap: 0.1rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px dashed rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+/* Armée : la technique partira avec le prochain coup. Le trait plein la
+   distingue d'une cartouche simplement disponible. */
+.cartouche.est-armee {
+  border-style: solid;
+  border-color: var(--coup-tirer);
+  background: rgba(255, 176, 32, 0.16);
+}
+
+.cartouche:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.cartouche.est-epuisee {
+  text-decoration: line-through;
+}
+
+.cartouche-nom {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.cartouche-porteur {
+  font-size: 0.7rem;
+  color: var(--muted-color);
+}
+
+@media (min-width: 720px) {
+  .postes {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------
    Mouvement réduit
    --------------------------------------------------------------------------- */
 
@@ -685,7 +916,8 @@
 
   .coup:hover,
   .btn-primaire:hover,
-  .btn-secondaire:hover {
+  .btn-secondaire:hover,
+  .draft-carte:hover:not(:disabled) {
     transform: none;
   }
 }

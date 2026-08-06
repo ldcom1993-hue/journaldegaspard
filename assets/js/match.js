@@ -16,18 +16,41 @@
    match.html. Le reste suit automatiquement.
    =========================================================================== */
 
+import { makePlaceholder, safeText } from "/assets/js/entites.js";
+
 (() => {
   "use strict";
 
   const API = "/api/partie.php";
   const CLE_SESSION = "jdg.match.session";
   const DELAI_POLLING = 1500;
+  const ROSTER = "/assets/data/duel-roster.json";
 
   /** Libellés et icônes, alignés sur les couleurs de match.css. */
   const COUPS = {
     construire: { nom: "Construit", icone: "⚽" },
     tirer: { nom: "Tire au but", icone: "💥" },
     defendre: { nom: "Défend", icone: "🧤" }
+  };
+
+  /** Les trois postes d'une équipe, dans l'ordre d'affichage du draft. */
+  const POSTES = [
+    { cle: "tir", nom: "Attaque", detail: "Sa technique s'engage sur un tir." },
+    { cle: "construction", nom: "Milieu", detail: "Sa technique s'engage sur une construction." },
+    { cle: "defense", nom: "Défense", detail: "Sa technique s'engage sur une défense." }
+  ];
+
+  /**
+   * Ce que fait chaque effet, pour l'afficher au joueur. La règle elle-même
+   * vit dans api/partie.php : ces libellés ne servent qu'à la décrire.
+   */
+  const EFFETS = {
+    frappe: { nom: "Frappe", detail: "Marque même si l'adversaire défend", cout: 2 },
+    volee: { nom: "Volée", detail: "Tirer sans aucune action en réserve", cout: 0 },
+    "une-deux": { nom: "Une-deux", detail: "Deux actions au lieu d'une", cout: 0 },
+    crochet: { nom: "Crochet", detail: "Annule le tir adverse sans défendre", cout: 1 },
+    parade: { nom: "Parade", detail: "La défense rapporte deux actions", cout: 0 },
+    repli: { nom: "Repli", detail: "Défendre deux manches de suite", cout: 0 }
   };
 
   // -------------------------------------------------------------------------
@@ -39,6 +62,7 @@
   const ecrans = {
     accueil: $("#ecran-accueil"),
     salon: $("#ecran-salon"),
+    selection: $("#ecran-selection"),
     match: $("#ecran-match"),
     fin: $("#ecran-fin")
   };
@@ -67,6 +91,13 @@
     recit: $("#recit"),
     matchErreur: $("#match-erreur"),
     boutonsCoup: Array.from(document.querySelectorAll("[data-coup]")),
+    cartouches: $("#cartouches"),
+
+    postes: $("#postes"),
+    btnValiderEquipe: $("#btn-valider-equipe"),
+    btnQuitterSelection: $("#btn-quitter-selection"),
+    selectionErreur: $("#selection-erreur"),
+    selectionAttente: $("#selection-attente"),
 
     finVerdict: $("#fin-verdict"),
     finScore: $("#fin-score"),
@@ -319,6 +350,8 @@
         bouton.removeAttribute("title");
       }
     });
+
+    peindreCartouches(nouvelEtat);
   }
 
   function peindreFin(nouvelEtat) {
@@ -347,6 +380,236 @@
    * Point d'entrée unique du rendu : reçoit un état serveur, choisit l'écran
    * et le peint. Tout passe par ici, donc l'affichage ne peut pas diverger.
    */
+  // -------------------------------------------------------------------------
+  // Composition d'équipe (mode Équipe)
+  // -------------------------------------------------------------------------
+
+  let roster = null;
+  let choix = {};
+  let draftPeint = false;
+
+  async function chargerRoster() {
+    if (roster) {
+      return roster;
+    }
+
+    const reponse = await fetch(ROSTER);
+
+    if (!reponse.ok) {
+      throw new Error(`HTTP ${reponse.status}`);
+    }
+
+    roster = await reponse.json();
+
+    return roster;
+  }
+
+  /**
+   * Une carte de personnage pour un poste donné. Le même personnage peut
+   * apparaître à plusieurs postes : c'est au joueur d'arbitrer, puisqu'il ne
+   * peut en aligner qu'un seul par poste.
+   */
+  function carteDraft(personnage, poste) {
+    const capacite = personnage.familles[poste];
+    const effet = EFFETS[capacite.effet] || { nom: capacite.effet, detail: "" };
+
+    const bouton = document.createElement("button");
+    bouton.type = "button";
+    bouton.className = "draft-carte";
+    bouton.dataset.poste = poste;
+    bouton.dataset.slug = personnage.slug;
+
+    const image = document.createElement("img");
+    image.className = "draft-portrait";
+    image.loading = "lazy";
+    image.alt = "";
+    const repli = makePlaceholder(personnage.nom);
+    image.addEventListener("error", () => { image.src = repli; }, { once: true });
+    image.src = safeText(personnage.image) || repli;
+
+    const corps = document.createElement("span");
+    corps.className = "draft-corps";
+
+    const nom = document.createElement("span");
+    nom.className = "draft-nom";
+    nom.textContent = personnage.nom;
+
+    const technique = document.createElement("span");
+    technique.className = "draft-technique";
+    technique.textContent = capacite.technique;
+
+    const detail = document.createElement("span");
+    detail.className = "draft-effet";
+    detail.textContent = effet.cout
+      ? `${effet.detail} · ${effet.cout} action${effet.cout > 1 ? "s" : ""}`
+      : effet.detail;
+
+    corps.append(nom, technique, detail);
+    bouton.append(image, corps);
+
+    bouton.addEventListener("click", () => {
+      choix[poste] = choix[poste] === personnage.slug ? null : personnage.slug;
+      rafraichirDraft();
+    });
+
+    return bouton;
+  }
+
+  /** Reflète la sélection courante : cartes actives, doublons, bouton final. */
+  function rafraichirDraft() {
+    const retenus = POSTES.map((p) => choix[p.cle]).filter(Boolean);
+
+    dom.postes.querySelectorAll(".draft-carte").forEach((carte) => {
+      const { poste, slug } = carte.dataset;
+      const retenu = choix[poste] === slug;
+      // Déjà aligné ailleurs : on le montre pris plutôt que de le masquer,
+      // sinon la liste se réorganise sous les doigts du joueur.
+      const prisAilleurs = !retenu && retenus.includes(slug);
+
+      carte.classList.toggle("est-retenu", retenu);
+      carte.classList.toggle("est-pris", prisAilleurs);
+      carte.disabled = prisAilleurs;
+      carte.setAttribute("aria-pressed", String(retenu));
+    });
+
+    dom.btnValiderEquipe.disabled = retenus.length !== POSTES.length;
+  }
+
+  async function peindreSelection(nouvelEtat) {
+    if (nouvelEtat.moi.aCompose) {
+      dom.postes.hidden = true;
+      dom.btnValiderEquipe.hidden = true;
+      dom.selectionAttente.hidden = false;
+      return;
+    }
+
+    if (draftPeint) {
+      return;
+    }
+
+    draftPeint = true;
+
+    let vivier;
+
+    try {
+      vivier = await chargerRoster();
+    } catch (erreur) {
+      draftPeint = false;
+      afficherErreur(dom.selectionErreur, "Impossible de charger les personnages.");
+      return;
+    }
+
+    dom.postes.textContent = "";
+
+    POSTES.forEach((poste) => {
+      const bloc = document.createElement("section");
+      bloc.className = "poste";
+
+      const titre = document.createElement("h3");
+      titre.className = "poste-titre";
+      titre.textContent = poste.nom;
+
+      const detail = document.createElement("p");
+      detail.className = "poste-detail";
+      detail.textContent = poste.detail;
+
+      const liste = document.createElement("div");
+      liste.className = "poste-liste";
+
+      vivier
+        .filter((personnage) => personnage.familles[poste.cle])
+        .forEach((personnage) => liste.appendChild(carteDraft(personnage, poste.cle)));
+
+      bloc.append(titre, detail, liste);
+      dom.postes.appendChild(bloc);
+    });
+
+    rafraichirDraft();
+  }
+
+  async function validerEquipe() {
+    dom.selectionErreur.hidden = true;
+    dom.btnValiderEquipe.disabled = true;
+
+    try {
+      const donnees = await appeler("composer", {
+        code: session.code,
+        jeton: session.jeton,
+        tir: choix.tir,
+        construction: choix.construction,
+        defense: choix.defense
+      });
+
+      appliquerEtat(donnees.etat);
+    } catch (erreur) {
+      afficherErreur(dom.selectionErreur, erreur.message);
+      dom.btnValiderEquipe.disabled = false;
+    }
+  }
+
+  // -------------------------------------------------------------------------
+  // Cartouches
+  // -------------------------------------------------------------------------
+
+  let cartoucheChoisie = null;
+
+  /**
+   * Peint les techniques encore en main. Une cartouche n'est proposée que si
+   * le serveur la déclare jouable — `cartouchesAutorisees` est calculé côté
+   * PHP, comme `coupsAutorises`.
+   */
+  function peindreCartouches(nouvelEtat) {
+    if (nouvelEtat.mode !== "equipe" || !nouvelEtat.moi.equipe) {
+      dom.cartouches.hidden = true;
+      return;
+    }
+
+    const jouables = new Set(
+      Object.values(nouvelEtat.moi.cartouchesAutorisees || {}).flat()
+    );
+
+    dom.cartouches.hidden = false;
+    dom.cartouches.textContent = "";
+
+    POSTES.forEach((poste) => {
+      const carte = nouvelEtat.moi.equipe[poste.cle];
+
+      if (!carte) {
+        return;
+      }
+
+      const effet = EFFETS[carte.effet] || { nom: carte.effet, detail: "" };
+      const epuisee = Boolean(carte.utilisee);
+      const disponible = !epuisee && jouables.has(carte.effet) && !nouvelEtat.moi.aJoue;
+
+      const bouton = document.createElement("button");
+      bouton.type = "button";
+      bouton.className = "cartouche";
+      bouton.disabled = !disponible;
+      bouton.classList.toggle("est-epuisee", epuisee);
+      bouton.classList.toggle("est-armee", cartoucheChoisie === carte.effet);
+      bouton.setAttribute("aria-pressed", String(cartoucheChoisie === carte.effet));
+      bouton.title = `${carte.nom} — ${carte.technique} : ${effet.detail}`;
+
+      const nom = document.createElement("span");
+      nom.className = "cartouche-nom";
+      nom.textContent = effet.nom;
+
+      const porteur = document.createElement("span");
+      porteur.className = "cartouche-porteur";
+      porteur.textContent = epuisee ? "déjà jouée" : carte.nom;
+
+      bouton.append(nom, porteur);
+
+      bouton.addEventListener("click", () => {
+        cartoucheChoisie = cartoucheChoisie === carte.effet ? null : carte.effet;
+        peindreCartouches(etat);
+      });
+
+      dom.cartouches.appendChild(bouton);
+    });
+  }
+
   function appliquerEtat(nouvelEtat) {
     const precedent = etat;
     etat = nouvelEtat;
@@ -365,6 +628,12 @@
     if (nouvelEtat.statut === "attente") {
       dom.codeAffiche.textContent = nouvelEtat.code;
       afficherEcran("salon");
+      return;
+    }
+
+    if (nouvelEtat.statut === "selection") {
+      peindreSelection(nouvelEtat);
+      afficherEcran("selection");
       return;
     }
 
@@ -446,6 +715,17 @@
     etat = null;
     coupEnAttente = null;
     mancheAffichee = 0;
+
+    // Le draft doit repartir vierge : sans ça, une seconde partie réafficherait
+    // la sélection précédente, voire l'écran d'attente d'un match abandonné.
+    choix = {};
+    draftPeint = false;
+    cartoucheChoisie = null;
+    dom.postes.hidden = false;
+    dom.btnValiderEquipe.hidden = false;
+    dom.selectionAttente.hidden = true;
+    afficherErreur(dom.selectionErreur, "");
+
     afficherErreur(dom.accueilErreur, message);
     afficherEcran("accueil");
   }
@@ -454,8 +734,10 @@
     dom.btnCreer.disabled = true;
     afficherErreur(dom.accueilErreur, "");
 
+    const modeChoisi = document.querySelector('input[name="mode"]:checked');
+
     try {
-      entrerEnPartie(await appeler("creer"));
+      entrerEnPartie(await appeler("creer", { mode: modeChoisi ? modeChoisi.value : "classique" }));
     } catch (erreur) {
       afficherErreur(dom.accueilErreur, erreur.message);
     } finally {
@@ -499,7 +781,12 @@
     }
 
     try {
-      const donnees = await appeler("jouer", { ...session, coup });
+      const donnees = await appeler("jouer", {
+        ...session,
+        coup,
+        cartouche: cartoucheChoisie || ""
+      });
+      cartoucheChoisie = null;
       appliquerEtat(donnees.etat);
       afficherErreur(dom.matchErreur, "");
     } catch (erreur) {
@@ -559,6 +846,8 @@
   dom.btnRejoindre.addEventListener("click", () => rejoindrePartie());
   dom.btnCopier.addEventListener("click", copierLien);
   dom.btnQuitterSalon.addEventListener("click", () => quitter());
+  dom.btnValiderEquipe.addEventListener("click", validerEquipe);
+  dom.btnQuitterSelection.addEventListener("click", () => quitter());
   dom.btnNouveau.addEventListener("click", () => quitter());
   dom.btnRevanche.addEventListener("click", demanderRevanche);
 

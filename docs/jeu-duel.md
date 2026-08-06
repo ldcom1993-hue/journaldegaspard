@@ -4,6 +4,9 @@ Duel à distance inspiré du jeu de cour « 007 », transposé au football.
 Deux joueurs rejoignent une même partie via un code à quatre caractères et
 choisissent leur coup en secret à chaque manche. Premier à trois buts.
 
+Deux modes : **Classique**, le duel d'origine, et **Équipe**, où chacun compose
+trois personnages dont les techniques infléchissent le jeu.
+
 Page : `/univers/olive-et-tom/match.html`
 
 ---
@@ -68,9 +71,9 @@ l'esprit de la charte est préservé même si sa lettre ne l'est pas.
 
 | Fichier | Rôle |
 |---|---|
-| `api/partie.php` | API et moteur de règles (~450 l.) |
+| `api/partie.php` | API et moteur de règles (~900 l.) |
 | `api/parties/` | État des parties, créé à l'exécution — **jamais versionné** |
-| `univers/olive-et-tom/match.html` | Les quatre écrans du jeu |
+| `univers/olive-et-tom/match.html` | Les cinq écrans du jeu |
 | `assets/js/match.js` | Client : appels API, polling, rendu |
 | `assets/css/match.css` | Styles, en extension de `style.css` |
 
@@ -84,17 +87,20 @@ les messages sont rédigés pour être affichés tels quels au joueur.
 
 | Action | Paramètres | Réponse |
 |---|---|---|
-| `creer` | — | `{ code, jeton, joueurId, etat }` |
+| `creer` | `mode` (`classique` \| `equipe`) | `{ code, jeton, joueurId, etat }` |
 | `rejoindre` | `code` | `{ code, jeton, joueurId, etat }` |
 | `etat` | `code`, `jeton` | `{ etat }` |
 | `jouer` | `code`, `jeton`, `coup` | `{ etat }` |
+| `composer` | `code`, `jeton`, `tir`, `construction`, `defense` | `{ etat }` |
 | `rejouer` | `code`, `jeton` | `{ etat }` |
 
 ### Sécurité
 
 - **Le coup adverse en attente n'est jamais sérialisé.** Tant que la manche
   n'est pas résolue, le client ne reçoit qu'un booléen `aJoue`. Sans ça, il
-  suffirait d'ouvrir l'onglet réseau pour lire le choix d'en face.
+  suffirait d'ouvrir l'onglet réseau pour lire le choix d'en face. La cartouche
+  engagée suit la même règle, et l'équipe adverse reste masquée pendant la
+  phase `selection` — la connaître permettrait de composer en réaction.
 - **Jeton secret par joueur** (16 octets aléatoires), comparé en `hash_equals`.
   Connaître le code de partie ne permet pas de jouer à la place de l'autre.
 - **Les jetons ne sortent jamais** dans les projections d'état.
@@ -158,7 +164,7 @@ le serveur, jamais d'après une règle codée côté client.
 
 ---
 
-## V2 conçue — le mode Équipe
+## Le mode Équipe
 
 Le mode actuel devient **Classique** et ne bouge pas. À côté, un mode **Équipe**
 où chaque joueur compose une équipe de trois personnages avant le coup d'envoi,
@@ -239,25 +245,41 @@ ligne.
 - Les cartouches dépensées deviennent **publiques**. Compter ce qu'il reste à
   l'adversaire fait partie du jeu.
 
-### Prérequis
+### Mise en œuvre
 
-**Côté données** — livré. `techniques.json` porte désormais `familles` et
-`effets`, déduits des catégories qui servaient déjà à filtrer le catalogue :
-les retenir ne coûte aucun appel supplémentaire.
+**Données.** `techniques.json` porte `familles` et `effets`, déduits des
+catégories qui servaient déjà à filtrer le catalogue : les retenir ne coûte
+aucun appel supplémentaire. `assets/data/duel-roster.json` en dérive — le
+vivier du mode, un objet par personnage éligible, avec sa technique et son
+effet pour chaque famille. Ce fichier dédié évite au serveur de charger
+`personnages.json` (330 Ko) et `techniques.json` à chaque composition.
 
-`assets/data/duel-roster.json` en dérive — le vivier du mode, un objet par
-personnage éligible avec sa technique et son effet pour chaque famille. Ce
-fichier dédié évite au serveur de charger `personnages.json` (330 Ko) et
-`techniques.json` à chaque composition d'équipe.
+**Serveur.** Un champ `mode` (`classique` | `equipe`) fixé à la création, un
+statut `selection` entre `attente` et `en-cours`, une action `composer`, et par
+joueur un champ `equipe` dont chaque carte porte son drapeau `utilisee`.
 
-**Côté serveur** — un champ `mode` (`classique` | `equipe`) dans l'état, fixé à
-la création et affiché dans le salon ; une phase `selection` entre `salon` et
-`en-cours` ; un champ `equipe` et un champ `cartouchesDepensees` par joueur.
+**La matrice de résolution ne bouge pas.** `resoudreManche()` est appelée telle
+quelle ; `resoudreMancheEquipe()` l'enveloppe — surcoût prélevé en amont, issue
+corrigée en aval. Une manche de mode Classique suit donc exactement le chemin
+d'avant.
 
-**La matrice de résolution ne bouge pas.** Les techniques s'appliquent en
-surcouche, après elle, dans `resoudreManche()`. C'est ce qui garantit que le
-mode Classique reste littéralement le code d'aujourd'hui.
+`cartouchesAutorisees` accompagne `coupsAutorises` dans la projection : le
+client ne décide pas plus de la légalité d'une cartouche que de celle d'un coup.
 
-Enfin, `techniquesAutorisees` doit accompagner `coupsAutorises` dans la
-projection d'état : le client ne doit pas plus décider de la légalité d'une
-cartouche que de celle d'un coup.
+**Récits.** En mode Équipe, un effet nomme le personnage qui le porte plutôt
+que le joueur. Outre que c'est plus parlant, ça évite l'accord impossible des
+marqueurs `{A}`/`{B}`, qui valent tantôt « Vous », tantôt « L'adversaire ».
+
+**Revanche.** Elle rejoue avec les mêmes équipes et les cartouches refaites :
+rouvrir un draft casserait l'élan entre deux manches, et les laisser dépensées
+viderait le mode de sa substance.
+
+### Ajouter un effet
+
+1. `scripts/fandom/extract_techniques.py` → `CATEGORIE_FAMILLE`, puis régénérer
+2. `api/partie.php` → `COUP_DE_L_EFFET`, `COUT_EFFET`, `SURCOUT_EFFET`, et le
+   cas correspondant dans `appliquerEffet()`
+3. `assets/js/match.js` → objet `EFFETS` (libellé et description)
+
+Un effet qui lève une interdiction plutôt que de corriger une issue se traite
+dans `coupsAutorises()`, comme `volee` et `repli` — pas dans `appliquerEffet()`.
