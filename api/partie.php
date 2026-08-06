@@ -524,8 +524,8 @@ function resoudreMancheEquipe(array $a, array $b): array
 
     list($a, $b, $recit) = resoudreManche($a, $b);
 
-    list($a, $b, $recit) = appliquerEffet($a, $b, $coupA, $coupB, $effetA, $recit, '{A}', '{B}');
-    list($b, $a, $recit) = appliquerEffet($b, $a, $coupB, $coupA, $effetB, $recit, '{B}', '{A}');
+    list($a, $b, $recit) = appliquerEffet($a, $b, $coupA, $coupB, $effetA, $recit, porteurDe($a, $effetA));
+    list($b, $a, $recit) = appliquerEffet($b, $a, $coupB, $coupA, $effetB, $recit, porteurDe($b, $effetB));
 
     $a['points'] = max(0, (int) $a['points']);
     $b['points'] = max(0, (int) $b['points']);
@@ -534,6 +534,24 @@ function resoudreMancheEquipe(array $a, array $b): array
     $b = marquerCartoucheUtilisee($b, $effetB);
 
     return [$a, $b, $recit];
+}
+
+/**
+ * Nom du personnage porteur d'un effet, pour le récit.
+ *
+ * Les récits nomment le joueur du manga plutôt que « vous » ou « l'adversaire »
+ * : outre que c'est plus parlant, ça évite l'accord impossible des marqueurs
+ * {A}/{B}, qui deviennent tantôt « Vous », tantôt « L'adversaire ».
+ */
+function porteurDe(array $joueur, string $effet): string
+{
+    foreach ($joueur['equipe'] ?? [] as $carte) {
+        if ((string) ($carte['effet'] ?? '') === $effet) {
+            return (string) ($carte['nom'] ?? '');
+        }
+    }
+
+    return '';
 }
 
 /**
@@ -548,25 +566,28 @@ function appliquerEffet(
     string $sonCoup,
     string $effet,
     string $recit,
-    string $moiTag,
-    string $luiTag
+    string $porteur
 ): array {
+    if ($porteur === '') {
+        $porteur = 'Le joueur';
+    }
+
     if ($effet === 'frappe' && $monCoup === 'tirer' && $sonCoup === 'defendre') {
         // La frappe traverse : le but est accordé et la contre-attaque annulée.
         $moi['buts'] = (int) $moi['buts'] + 1;
         $lui['points'] = (int) $lui['points'] - 1;
-        $recit = "{$moiTag} arme une frappe que rien n'arrête. But !";
+        $recit = "{$porteur} arme une frappe que rien n'arrête. But !";
     } elseif ($effet === 'crochet' && $monCoup === 'construire' && $sonCoup === 'tirer') {
         // Le crochet efface la frappe adverse sans qu'on ait eu à défendre.
         $lui['buts'] = (int) $lui['buts'] - 1;
-        $recit = "{$moiTag} efface {$luiTag} d'un crochet et poursuit sa montée.";
+        $recit = "{$porteur} efface la frappe d'un crochet et poursuit sa montée.";
     } elseif ($effet === 'une-deux' && $monCoup === 'construire' && $sonCoup !== 'tirer') {
         // Le +1 de la matrice devient +2. Sans gain à doubler, l'effet est nul.
         $moi['points'] = (int) $moi['points'] + 1;
-        $recit .= " {$moiTag} enchaîne une-deux et prend deux temps d'avance.";
+        $recit .= " {$porteur} enchaîne une-deux et prend deux temps d'avance.";
     } elseif ($effet === 'parade' && $monCoup === 'defendre' && $sonCoup === 'tirer') {
         $moi['points'] = (int) $moi['points'] + 1;
-        $recit = "{$moiTag} claque une parade et relance plein axe.";
+        $recit = "{$porteur} claque une parade et relance plein axe.";
     }
 
     return [$moi, $lui, $recit];
