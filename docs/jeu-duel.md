@@ -199,22 +199,33 @@ l'exclusivité rendrait la contrainte de composition intenable à deux.
 **Chaque personnage est une cartouche, utilisable une fois par match.** Une
 équipe de trois donne donc trois techniques sur l'ensemble de la partie.
 
-Un personnage n'apporte qu'**une seule technique**, sa signature, quel que soit
-son arsenal. C'est ce qui empêche Tsubasa et ses 38 techniques d'être un choix
-automatique. Sa polyvalence peut se traduire autrement — sa carte jouable dans
-deux familles, par exemple — mais jamais en volume.
+**La technique dépend du poste auquel on aligne le personnage**, pas du
+personnage seul. Un personnage est éligible à un poste s'il possède au moins
+une technique de cette famille ; il y apporte alors sa technique la plus
+personnelle dans cette famille — celle qui compte le moins d'utilisateurs.
+
+Ce n'est pas un détail d'implémentation. Avec une signature fixe par
+personnage, la sélection automatique range Wakabayashi en construction avec
+« Birdcage », ce qui est un contresens pour le gardien le plus emblématique de
+la série ; ici il défend avec « Uppercut Defense ». Les viviers passent au
+passage de 32 / 18 / 10 à **54 / 40 / 28**, et 45 personnages sur 60 sont
+éligibles à deux familles ou plus — le draft a de vrais arbitrages.
+
+Un personnage ne peut occuper qu'**un seul poste** dans une équipe. La
+polyvalence de Tsubasa, éligible partout, se paie donc en choix, jamais en
+puissance brute.
 
 Au moment de choisir son coup, un joueur peut y attacher une cartouche encore
-disponible.
+disponible. L'effet découle de la sous-catégorie de la technique retenue :
 
-| Famille | Effet | Coût |
-|---|---|---|
-| **Tir** | Marque même si l'adversaire défend | 2 actions |
-| **Tir** | Tirer avec 0 action | — |
-| **Construction** | +2 actions au lieu de +1 | — |
-| **Construction** | Esquive : annule le tir adverse sans défendre | 1 action |
-| **Défense** | Lève l'interdit de défendre deux manches de suite | — |
-| **Défense** | La défense rapporte 2 actions | — |
+| Sous-catégorie | Famille | Effet | Coût |
+|---|---|---|---|
+| Ground shots | Tir | Marque même si l'adversaire défend | 2 actions |
+| Aerial shots | Tir | Tirer avec 0 action | — |
+| Passes, Cooperative tactics, Tactics and skills | Construction | +2 actions au lieu de +1 | — |
+| Dribbles and feints | Construction | Annule le tir adverse sans défendre | 1 action |
+| Saves | Défense | La défense rapporte 2 actions | — |
+| Defensive techniques | Défense | Lève l'interdit de défendre deux manches de suite | — |
 
 ### Information cachée
 
@@ -230,16 +241,14 @@ ligne.
 
 ### Prérequis
 
-**Côté données** — deux champs manquent aujourd'hui à `techniques.json` :
+**Côté données** — livré. `techniques.json` porte désormais `familles` et
+`effets`, déduits des catégories qui servaient déjà à filtrer le catalogue :
+les retenir ne coûte aucun appel supplémentaire.
 
-- `famille` : les catégories ont servi à filtrer le catalogue, puis ont été
-  jetées. Il faut les conserver.
-- la **technique signature** d'un personnage. Le wiki la marque via une
-  catégorie `<Personnage> pages` (`Tiger Shot` → `Kojiro Hyuga pages`), mais
-  seulement pour 28 personnages. Repli pour les autres : la technique ayant le
-  moins d'utilisateurs, donc la plus personnelle. Le champ `users` fournit au
-  passage une courbe de puissance gratuite — une technique partagée par vingt
-  personnages est banale, une exclusive est forte.
+`assets/data/duel-roster.json` en dérive — le vivier du mode, un objet par
+personnage éligible avec sa technique et son effet pour chaque famille. Ce
+fichier dédié évite au serveur de charger `personnages.json` (330 Ko) et
+`techniques.json` à chaque composition d'équipe.
 
 **Côté serveur** — un champ `mode` (`classique` | `equipe`) dans l'état, fixé à
 la création et affiché dans le salon ; une phase `selection` entre `salon` et

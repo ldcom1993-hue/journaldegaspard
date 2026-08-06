@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from typing import Any
 
 from .client import fetch_category_titles, fetch_page_links, fetch_page_wikitext_and_html
 from .normalize import (
@@ -38,6 +39,24 @@ TECHNIQUE_CATEGORY_CANDIDATES = (
 # clubs ou des tomes du manga — d'où des « techniques » nommées AC Reggiana
 # ou Captain Tsubasa (1981). Le nom du template ne permet pas de trancher :
 # une vraie technique utilise « Infobox character », comme un personnage.
+# Chaque catégorie se projette sur l'un des trois coups du duel, et sur l'effet
+# que la technique y produit. Le duel lit ces deux informations ; les
+# construire ici ne coûte rien, puisque le catalogue parcourt déjà ces
+# catégories une à une pour savoir ce qui est une technique.
+#
+# Une même technique peut relever de deux familles : elle est alors jouable à
+# deux postes, avec l'effet correspondant au poste choisi.
+CATEGORIE_FAMILLE = {
+    "Ground shots": ("tir", "frappe"),
+    "Aerial shots": ("tir", "volee"),
+    "Passes": ("construction", "une-deux"),
+    "Cooperative tactics": ("construction", "une-deux"),
+    "Tactics and skills": ("construction", "une-deux"),
+    "Dribbles and feints": ("construction", "crochet"),
+    "Saves": ("defense", "parade"),
+    "Defensive techniques": ("defense", "repli"),
+}
+
 TECHNIQUE_CATEGORIES = (
     "Category:Ground shots",
     "Category:Aerial shots",
@@ -88,14 +107,21 @@ def fetch_character_technique_pages() -> list[str]:
     return titles
 
 
-def fetch_technique_catalog() -> dict[str, str]:
+def fetch_technique_catalog() -> dict[str, dict[str, Any]]:
     """
     Recense les techniques réelles, indexées par slug.
 
+    Chaque entrée retient les catégories qui l'ont fait entrer au catalogue,
+    et les familles de jeu qui s'en déduisent. Ces catégories étaient
+    auparavant jetées une fois le filtrage fait, alors que le duel en a besoin
+    pour savoir à quel poste une technique se joue et quel effet elle produit.
+
     Les sous-pages (« Drive Shot/Variations ») sont écartées : ce sont des
     annexes d'une technique déjà présente, pas des techniques distinctes.
+
+    @return slug => {nom, categories[], familles[], effets{famille: effet}}
     """
-    catalog: dict[str, str] = {}
+    catalog: dict[str, dict[str, Any]] = {}
 
     for category in TECHNIQUE_CATEGORIES:
         try:
@@ -103,13 +129,31 @@ def fetch_technique_catalog() -> dict[str, str]:
         except RuntimeError:
             continue
 
+        libelle = category.replace("Category:", "")
+        famille, effet = CATEGORIE_FAMILLE.get(libelle, (None, None))
+
         for title in titles:
             cleaned = clean_text(title)
 
             if not cleaned or "/" in cleaned:
                 continue
 
-            catalog.setdefault(slugify(cleaned), cleaned)
+            entree = catalog.setdefault(
+                slugify(cleaned),
+                {"nom": cleaned, "categories": [], "familles": [], "effets": {}},
+            )
+
+            if libelle not in entree["categories"]:
+                entree["categories"].append(libelle)
+
+            if famille and famille not in entree["familles"]:
+                entree["familles"].append(famille)
+
+            # Première catégorie rencontrée pour cette famille : c'est elle qui
+            # fixe l'effet. L'ordre de TECHNIQUE_CATEGORIES rend le résultat
+            # déterminant d'une exécution à l'autre.
+            if famille and famille not in entree["effets"]:
+                entree["effets"][famille] = effet
 
     return catalog
 
@@ -137,7 +181,7 @@ def fetch_technique_details(title: str) -> dict[str, str]:
 def build_technique_to_users_map(
     technique_page_titles: list[str],
     known_character_titles: set[str],
-    catalog: dict[str, str],
+    catalog: dict[str, dict[str, Any]],
 ) -> dict[str, list[str]]:
     """
     Relie chaque technique aux personnages qui l'emploient, en parcourant les
@@ -163,9 +207,11 @@ def build_technique_to_users_map(
             continue
 
         for linked_title in links:
-            canonical_technique = catalog.get(slugify(clean_text(linked_title)))
-            if not canonical_technique:
+            entree = catalog.get(slugify(clean_text(linked_title)))
+            if not entree:
                 continue
+
+            canonical_technique = entree["nom"]
 
             technique_to_users.setdefault(canonical_technique, [])
             if canonical_character_title not in technique_to_users[canonical_technique]:

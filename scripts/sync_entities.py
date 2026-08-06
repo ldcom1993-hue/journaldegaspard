@@ -46,6 +46,7 @@ from fandom.writers import safe_write_non_empty_list
 PERSONNAGES_JSON = Path("assets/data/personnages.json")
 EQUIPES_JSON = Path("assets/data/equipes.json")
 TECHNIQUES_JSON = Path("assets/data/techniques.json")
+DUEL_ROSTER_JSON = Path("assets/data/duel-roster.json")
 
 TEAM_CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
 
@@ -95,6 +96,90 @@ def validate_team_membership(team_name: str, character_name: str) -> bool:
         return False
 
     return character_name.lower() in wikitext.lower()
+
+
+def poste_de(record: dict[str, Any]) -> str:
+    """
+    Ramène le poste brut du Fandom à un libellé FR.
+
+    Le champ est une concaténation d'infobox ("Attacking midfielderForward") :
+    on retient le premier poste reconnu.
+    """
+    valeur = str(record.get("position") or record.get("poste") or "").lower()
+
+    for cle, libelle in (
+        ("goalkeeper", "Gardien"),
+        ("defender", "Défenseur"),
+        ("midfielder", "Milieu"),
+        ("forward", "Attaquant"),
+    ):
+        if cle in valeur:
+            return libelle
+
+    return "Autre"
+
+
+def construire_roster_duel(
+    personnages: list[dict[str, Any]],
+    techniques: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """
+    Construit le vivier du mode Équipe du duel.
+
+    Un personnage y figure s'il possède au moins une technique rattachée à une
+    famille de jeu. Pour chaque famille, on retient sa technique la plus
+    personnelle — celle qui compte le moins d'utilisateurs. La rareté sert donc
+    de courbe de puissance sans donnée supplémentaire.
+
+    La technique dépend du poste occupé, et non du personnage seul : Wakabayashi
+    défend avec « Uppercut Defense » mais construirait avec « Birdcage ». Sans
+    ça, la sélection automatique le rangerait en construction, ce qui est un
+    contresens pour un gardien.
+
+    Ce fichier dérivé évite au serveur du duel de charger personnages.json
+    (330 Ko) et techniques.json à chaque composition d'équipe.
+    """
+    par_slug = {t["slug"]: t for t in techniques}
+    roster: list[dict[str, Any]] = []
+
+    for record in personnages:
+        familles: dict[str, dict[str, Any]] = {}
+
+        for reference in record.get("techniques") or []:
+            technique = par_slug.get(str(reference.get("slug", "")))
+
+            if not technique:
+                continue
+
+            popularite = len(technique.get("users") or [])
+
+            for famille in technique.get("familles") or []:
+                retenue = familles.get(famille)
+
+                if retenue is None or popularite < retenue["_utilisateurs"]:
+                    familles[famille] = {
+                        "technique": technique["name"],
+                        "slug": technique["slug"],
+                        "effet": (technique.get("effets") or {}).get(famille, ""),
+                        "description": technique.get("description", ""),
+                        "_utilisateurs": popularite,
+                    }
+
+        if not familles:
+            continue
+
+        for entree in familles.values():
+            entree.pop("_utilisateurs", None)
+
+        roster.append({
+            "slug": record["slug"],
+            "nom": record.get("name", record["slug"]),
+            "image": record.get("image", ""),
+            "poste": poste_de(record),
+            "familles": familles,
+        })
+
+    return sorted(roster, key=lambda entry: str(entry["nom"]).lower())
 
 
 def is_invalid_team_name(name: str) -> bool:
@@ -222,7 +307,7 @@ def main() -> None:
     # qui correspondent à une technique du catalogue.
     for character_slug, names in list(technique_links_by_character.items()):
         technique_links_by_character[character_slug] = [
-            technique_catalog[slugify(name)]
+            technique_catalog[slugify(name)]["nom"]
             for name in names
             if slugify(name) in technique_catalog
         ]
@@ -261,7 +346,9 @@ def main() -> None:
     # Le catalogue amorce la charge utile : une technique existe parce que le
     # wiki la recense, pas parce qu'un personnage s'y rattache. Sans cela, les
     # techniques que nulle page /Techniques ne cite resteraient absentes.
-    for technique_slug, technique_name in technique_catalog.items():
+    for technique_slug, entree in technique_catalog.items():
+        technique_name = entree["nom"]
+
         techniques_payload[technique_slug] = {
             "slug": technique_slug,
             "name": technique_name,
@@ -270,6 +357,9 @@ def main() -> None:
             "first_appearance": "",
             "description": "",
             "image": "",
+            # Familles de jeu du duel, déduites des catégories du wiki.
+            "familles": list(entree["familles"]),
+            "effets": dict(entree["effets"]),
             "users": [],
         }
 
@@ -375,10 +465,14 @@ def main() -> None:
         ),
     )
 
+    roster_duel = construire_roster_duel(personnages_sorted, techniques)
+
     safe_write_non_empty_list(EQUIPES_JSON, equipes, minimum_items=1, label="equipes.json")
     safe_write_non_empty_list(TECHNIQUES_JSON, techniques, minimum_items=1, label="techniques.json")
     safe_write_non_empty_list(PERSONNAGES_JSON, personnages_sorted, minimum_items=50, label="personnages.json")
+    safe_write_non_empty_list(DUEL_ROSTER_JSON, roster_duel, minimum_items=20, label="duel-roster.json")
 
+    print(f"[ok] wrote {len(roster_duel)} duel roster entries")
     print(f"[ok] wrote {len(equipes)} teams")
     print(f"[ok] wrote {len(techniques)} techniques")
     print(f"[ok] updated {len(personnages_sorted)} characters")

@@ -7,6 +7,12 @@
     "first_appearance": "",
     "description": "This is, in fact, an advanced technique of the Overhead by using each of the player's legs in a two-step sequence.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "juan-diaz",
@@ -33,6 +39,12 @@
     "first_appearance": "",
     "description": "With all his might, Rivaul is able to do a pass with the center of his abdomen after withholding the strength of the opponent's kick, being able to counterattack instead.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "rivaul",
@@ -49,6 +61,12 @@
     "first_appearance": "Captain Tsubasa: Rise of New Champions",
     "description": "By changing how the power is transferred to the ball, this shot accelerates as it nears the goal.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -59,6 +77,12 @@
     "first_appearance": "Captain Tsubasa: Rise of New Champions",
     "description": "\"Using a perspicacious eye, the goalie's tiniest habits can be exploited for an unstoppable shot.\"",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -69,6 +93,12 @@
     "first_appearance": "Rise of New Champions",
     "description": "A shot with a zig-zagging path after being kicked using a series of spins.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -79,6 +109,12 @@
     "first_appearance": "",
     "description": "This technique was first used in the World Youth Tournament. The user is holding his foot with his hand on purpose, adding spring power like a bow and arrow, resulting in an increased shooting power, the ball ends up rising just like the Raiju shot. It was also called Rising Arrow Shot, since the ball is rising just like the Raiju Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -105,6 +141,12 @@
     "first_appearance": "",
     "description": "This is a special dribble in which Levin appears to multiply seven times, just like a rainbow, which makes it harder for the defender to know how to defend. Also known as Feint of 7 Colors (7 Iro no Feint). His dribble feint is so fast, his opponents become confused trying to steal the ball from what turns out to be just his afterimage as he leaves them far behind. A defensive version, the Aurora Curtain, can be used in order to not let the attacking player to know from which direction the tackle will come.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "natureza",
@@ -136,6 +178,12 @@
     "first_appearance": "",
     "description": "To be able to do this technique, the whole team rush towards the opposition's goal like a descending avalanche, passing to each other as they move in for the kill.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "hikaru-matsuyama",
@@ -157,6 +205,12 @@
     "first_appearance": "",
     "description": "This is Batin's trademark technique, and is a good replacement for the Hyper Twin Shot due to Caggiale's absence. This shot, combined with Batin's high shooting stats, can beat the best keepers in the game. For this, Batin is considered Argentina's strongest individual, even more so than Diaz.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -167,6 +221,12 @@
     "first_appearance": "",
     "description": "The team just circulates the ball in a part of the field, making it difficult for opponents players to take the ball back. It's efficient to waste time, thus it should be used when in the lead, in order to nullify goal chances for the opponents by denying them possession.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "genzo-wakabayashi",
@@ -183,6 +243,12 @@
     "first_appearance": "",
     "description": "Blake Shot (ブレイクシュート, bureiku shūto) is the long-range shot of Blake Martin.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -193,6 +259,12 @@
     "first_appearance": "",
     "description": "This all-or-nothing technique is a keeper's last resort. When up against a shot that he has no other way of stopping, the keeper plays out his body and hopes that part of it will make contact with the ball.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "parade"
+    },
     "users": [
       {
         "slug": "yuzo-morisaki",
@@ -209,6 +281,12 @@
     "first_appearance": "",
     "description": "Misaki mastered this special shot, which cuts a large boomerang-like arc, while in Africa. He positions himself to the side of the goal and shoots so that the ball rises up. This shot doesn't lose momentum even when used to shoot from a tight angle.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "taro-misaki",
@@ -225,6 +303,12 @@
     "first_appearance": "Captain Tsubasa, chapter 92",
     "description": "The Cannon Shot (キャノンシュート, kyanon shūto) is Louis Napoleon's trademark shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "louis-napoleon",
@@ -241,6 +325,12 @@
     "first_appearance": "",
     "description": "This is a dribble skill that allows the player to move so swiftly that an image of the user is left behind.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": []
   },
   {
@@ -251,6 +341,12 @@
     "first_appearance": "",
     "description": "The Counter Shot (カウンターシュート, kauntā shūto) is an individual skill from a player which counters the opponents' shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "kojiro-hyuga",
@@ -272,6 +368,12 @@
     "first_appearance": "",
     "description": "The Cruyff Turn (クライフターン) is a special skill in some Captain Tsubasa videogames.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": []
   },
   {
@@ -282,6 +384,12 @@
     "first_appearance": "",
     "description": "The Crystal Overhead (クリスタルオーバーヘッド) is a shot move from Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -292,6 +400,12 @@
     "first_appearance": "",
     "description": "This shot is a beautiful combination of power and skill with a perfectly timed axe kick.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -302,6 +416,12 @@
     "first_appearance": "",
     "description": "Cyclone (サイクロン) is a special shot that Tsubasa develops and constantly improves in the Tecmo series.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -312,6 +432,12 @@
     "first_appearance": "",
     "description": "Diaz-Style Drive Shot (ディアス式ドライブシュート) is a shot of Juan Diaz.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -322,6 +448,12 @@
     "first_appearance": "",
     "description": "Diving Catch (ダイビングキャッチ) is the ability of the keeper to fly towards the ball, either catching it before or while diving.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "parade"
+    },
     "users": [
       {
         "slug": "genzo-wakabayashi",
@@ -353,6 +485,12 @@
     "first_appearance": "",
     "description": "This is the act of diving horizontally towards the ball and hit it with the head. It requires moving at a high-speed while also hitting the ball accurately with a significant amount of skill. It is both an offensive and a defensive technique.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -439,6 +577,14 @@
     "first_appearance": "",
     "description": "A special technique where Carlos flicks the ball backwards to Alberto, who launches a Sacred Shot that Carlos then lands a Rolling Overhead Kick on, making the shot even more fearsome. On the Brazil Route of Episode of New Hero, it is this move that Brazil uses to break the deadlock against Germany, who are playing Deuter Muller for the first time.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "volee",
+      "construction": "une-deux"
+    },
     "users": []
   },
   {
@@ -449,6 +595,12 @@
     "first_appearance": "",
     "description": "Dragon Shot (ドラゴンシュート, doragon shūto) is Hino's \"power shot\", for which he was known as the \"Japanese Bomber\".",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "ryoma-hino",
@@ -465,6 +617,12 @@
     "first_appearance": "Captain Tsubasa (1981), chapter 67",
     "description": "Drive Shot (ドライブシュート, doraibu shūto) is a special shot, original from South American professional players.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "elle-sid-pierre",
@@ -531,6 +689,14 @@
     "first_appearance": "",
     "description": "The Drive Tiger Twin Shot (ドライブタイガーツインシュート, doraibu taigā tsuin shūto) is a combined skill from Tsubasa Ozora and Kojiro Hyuga.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "frappe",
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "kojiro-hyuga",
@@ -552,6 +718,12 @@
     "first_appearance": "",
     "description": "The Dual Slider Shot (デュアルスライダーショット) is Elle Sid Pierre's Super Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -562,6 +734,12 @@
     "first_appearance": "",
     "description": "Eagle Shot (イーグルショット, īguru shotto), also known as Northland Shot (北国シュート, kitaguni shūto) or Wild Eagle Shot (荒鷲ショット, īguru shotto) is Hikaru Matsuyama's signature technique, which is a long distance ground shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "hikaru-matsuyama",
@@ -583,6 +761,12 @@
     "first_appearance": "",
     "description": "Eiffel Attack (エッフェル攻撃), or Eiffel Tower Rush, is a cooperative technique between Louis Napoleon and Elle Sid Pierre.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "elle-sid-pierre",
@@ -599,6 +783,12 @@
     "first_appearance": "",
     "description": "As the name suggests, the player uses his face to block the shot. It can only be pulled off with a reckless spirit and lack of fear.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "brolin",
@@ -635,6 +825,12 @@
     "first_appearance": "",
     "description": "The Faery Shot (デュアルスライダーショット) is Cornelius Heine's Super Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -645,6 +841,12 @@
     "first_appearance": "",
     "description": "Fire Shot (ファイヤーショット) is Karl Heinz Schneider's special shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "karl-heinz-schneider",
@@ -676,6 +878,12 @@
     "first_appearance": "",
     "description": "Flamingo Clip (フラミンゴクリップ, furamingo kurippu) is a skill to dodge an incoming tackle.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "elle-sid-pierre",
@@ -697,6 +905,14 @@
     "first_appearance": "",
     "description": "Flash Raiju Shot (閃光雷獣シュート, senkō raijū shūto) is a special combination technique from Kojiro Hyuga, Tsubasa & Taro Misaki.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "frappe",
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "kojiro-hyuga",
@@ -723,6 +939,12 @@
     "first_appearance": "",
     "description": "The Flores Dribble (フローレスドリブル) is a dribble move from Rise of New Champions.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": []
   },
   {
@@ -733,6 +955,12 @@
     "first_appearance": "",
     "description": "This is Tsubasa's special mid-range shot learnt after the 3-year-gap during his time in Brazil, thanks to Roberto's teachings. It is also used by his rivals Natureza, Santana and football genius Misugi later on, when playing for FC Tokyo.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -784,6 +1012,12 @@
     "first_appearance": "",
     "description": "An aerial shot that changes the trajectory of the ball with a spinning kick from above.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -794,6 +1028,12 @@
     "first_appearance": "",
     "description": "The player runs towards the opponent, using mere physical strength to break through forcibly. This is the equivalent to the Straight Line Dribble in the Tecmo game series.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": []
   },
   {
@@ -804,6 +1044,12 @@
     "first_appearance": "",
     "description": "The Forward Somersault Block (前転ブロック, zenten burokku) is an individual's skill block by using the heel of the player's foot.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "genzo-wakabayashi",
@@ -835,6 +1081,12 @@
     "first_appearance": "",
     "description": "The Forward Somersault Dribble (前転ドリブル) is a dribble performed by Juan Diaz.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": []
   },
   {
@@ -845,6 +1097,12 @@
     "first_appearance": "",
     "description": "The Forward Somersault Shot (前転シュート, zenten shūto) is an individual's skill shot by using the heel of the player's foot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "juan-diaz",
@@ -866,6 +1124,12 @@
     "first_appearance": "",
     "description": "The French-style Dribble (フランス式ドリブル, furansu shiki doriburu) is used by players who have acquired a French-style while dribbling.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "elle-sid-pierre",
@@ -887,6 +1151,12 @@
     "first_appearance": "",
     "description": "This is a cooperation technique between Santana and Natureza, that they created in order to further differentiate themselves from the Japanese Golden Combi, Tsubasa and Misaki, and their usual Twin Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -908,6 +1178,12 @@
     "first_appearance": "Captain Tsubasa: Golden-23, chapter 104",
     "description": "Furukawa Turn (古川ターン, furukawa tān) is Kotaro's trademark dribble",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": []
   },
   {
@@ -918,6 +1194,12 @@
     "first_appearance": "",
     "description": "The Golden Eagle Shot (ゴールデンイーグルショット, gōruden īguru shotto) is Carlos Santana's trademark shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -934,6 +1216,12 @@
     "first_appearance": "",
     "description": "The technique first appeared on World Youth ch.29 \"Soldiers who grow up\". It is a special skill that puts a sharp backspin on a middle pass. It's a technical pass that bounces once before reaching a teammate, making it easy to trap.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "genzo-wakabayashi",
@@ -965,6 +1253,12 @@
     "first_appearance": "",
     "description": "This shot appears in Captain Tsubasa: Rise of New Champions. With an intense backspin from flying through the air, this floats up right in front of goal.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -975,6 +1269,12 @@
     "first_appearance": "",
     "description": "The Hedgehog Dribble (ハリネズミドリブル, harinezumi doriburu) is an individual skill from the German Hermann Kaltz.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "hermann-kaltz",
@@ -991,6 +1291,12 @@
     "first_appearance": "",
     "description": "In this technique, the player kicks the ball up with his heel, sending it over the heads of his opponents, then slips past them while the ball is outside their field of vision.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "brian-cruyfford",
@@ -1047,6 +1353,12 @@
     "first_appearance": "",
     "description": "The Heel Pass (ヒールパス), also called Back-Heel Pass (バックヒールパス), is an individual skill play which is used to pass and trick opponents.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -1088,6 +1400,12 @@
     "first_appearance": "",
     "description": "This unlockable Super Shot first appears in Captain Tsubasa: Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -1098,6 +1416,12 @@
     "first_appearance": "",
     "description": "An unbeatable shot that makes use of practical experience to add greater flames to the Fire Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -1108,6 +1432,14 @@
     "first_appearance": "",
     "description": "During the Madrid Olympics, Tsubasa and Misaki put all their efforts to surpass Santana and Natureza's Full Metal Phantom. This technique is a combination between Hino's Tornado Shot, Santana's Arrow Shot, Xiao Junguang's Reactive Fast Kick Quick Gun with Tsubasa's Rolling Overhead Kick and Misaki's Jumping Volley.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "volee",
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "hermann-kaltz",
@@ -1139,6 +1471,12 @@
     "first_appearance": "",
     "description": "The High Stinger Shot is Brian Cruyfford's Super Shot in Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -1149,6 +1487,12 @@
     "first_appearance": "",
     "description": "The Hyper Twin Shot (ハイパーツインショット, haipā tsuin shotto) is a combination shot of Batin and Caggiale.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -1159,6 +1503,12 @@
     "first_appearance": "",
     "description": "This technique requires that the player possesses sufficient skill to keep his balance in mid-air while accurately hitting the ball. Tall forwards such as Wakashimazu and Hyuga can use the Jumping Header not only for scoring, but also for post-play purposes.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "davi",
@@ -1240,6 +1590,12 @@
     "first_appearance": "",
     "description": "Jumping Peregrine Falcon Volley (ジャンピング隼ーボレー, janpingu hayabusa borē) is a Peregrine Falcon Shot used in mid air in an angled direction before it has time to reach the ground.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "michael",
@@ -1261,6 +1617,12 @@
     "first_appearance": "",
     "description": "Jumping Tiger Volley (ジャンピングタイガーボレー, janpingu taigā borē) is a Tiger Shot (possibly even the Neo Tiger Shot) used in mid air in an angled direction before it has time to reach the ground.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "brolin",
@@ -1282,6 +1644,12 @@
     "first_appearance": "",
     "description": "Jumping Volley (ジャンピングボレー) is a way to shoot a ball directly in mid air with the leg in an angled direction before it has time to reach the ground.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "brian-cruyfford",
@@ -1383,6 +1751,14 @@
     "first_appearance": "",
     "description": "\"A combo shot making use of incredible power adjusted by fine control.\"",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "frappe",
+      "construction": "une-deux"
+    },
     "users": []
   },
   {
@@ -1393,6 +1769,12 @@
     "first_appearance": "",
     "description": "This shot loses its spin mid-flight, causing it to fall unexpectedly.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -1403,6 +1785,12 @@
     "first_appearance": "",
     "description": "This technique was featured in Captain Tsubasa 5. Utilizing the whole team's speed and technique, Campione performs a high speed one touch one-two combo, similar to tiki taka playstyle.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": []
   },
   {
@@ -1413,6 +1801,12 @@
     "first_appearance": "",
     "description": "The Lethal Twin (リーサルツイン, rīsaru tsuin) is a combination shot of Santana and Coimbra.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -1423,6 +1817,12 @@
     "first_appearance": "",
     "description": "Levin, the \"Field's God of Destruction\", gives this shot a bullet-like spin. Speed is sacrificed in the process, but the power created is great enough to shatter a stone statue.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "genzo-wakabayashi",
@@ -1449,6 +1849,12 @@
     "first_appearance": "",
     "description": "This pass travels softly over the heads of the opposition, with a high, circular course. Its trajectory makes it difficult to intercept, allowing it to land gently at the receiver's feet.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "franz-schester",
@@ -1475,6 +1881,12 @@
     "first_appearance": "",
     "description": "This technique is usually used in one-on-one situations. The player kicks the ball upwards as if scooping it up from underneath, giving the shot a high, circular course that passes over the head of the keeper and then comes back down into the goal.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "franz-schester",
@@ -1516,6 +1928,14 @@
     "first_appearance": "",
     "description": "The overwhelming aerial technique of the Five Soldiers of the Aztec Sun. One player helps launch the other into the air for a heading pass, then another runs in to unleash a volley shot.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "volee",
+      "construction": "une-deux"
+    },
     "users": []
   },
   {
@@ -1526,6 +1946,12 @@
     "first_appearance": "",
     "description": "The Matador Trick (マタドールトリック) is a dribble move from Rise of New Champions.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": []
   },
   {
@@ -1536,6 +1962,12 @@
     "first_appearance": "",
     "description": "This is Stratto's trademark technique and his only special shot, which usually makes keepers fly. It was developed by Stratto while playing for Sao Paulo alongside Tsubasa, in order to settle the debt with Claudio Meao.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -1546,6 +1978,12 @@
     "first_appearance": "",
     "description": "Miracle Bound (ミラクルバウンド) is a supershot move from Rise of New Champions, an improvement of the Miracle Overhead Shot, with its own sequence of acrobatic moves.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -1556,6 +1994,12 @@
     "first_appearance": "",
     "description": "Miracle Overhead Shot (ミラクルオーバーヘッドシュート) is a more advanced technique of the Overhead Kick, with a sequence of acrobatic moves.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "shingo-aoi",
@@ -1572,6 +2016,12 @@
     "first_appearance": "",
     "description": "The Mirage Chapeau (ミラージュシャペウ) is a dribble move from Rise of New Champions.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": []
   },
   {
@@ -1582,6 +2032,12 @@
     "first_appearance": "",
     "description": "When Schneider kicks the ball, it looks like the ball is covered with fire and it travels at a really fast speed. Its special characteristic is that of making a color-light illusion effect to anyone who tried to counter it. It is the equivalent to his canon counterpart, the Fire Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "genzo-wakabayashi",
@@ -1598,6 +2054,12 @@
     "first_appearance": "",
     "description": "This is a shot that leaves multiple afterimages, creating a vivid illusion.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -1608,6 +2070,12 @@
     "first_appearance": "",
     "description": "Neo Drive Shot (ネオドライブシュート, neo doraibu shūto) is the improvement of the Drive Shot, exclusive to Tsubasa Ozora in Rise of New Champions and World Fighters.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -1618,6 +2086,14 @@
     "first_appearance": "",
     "description": "The Neo Drive Tiger Twin Shot (ドライブタイガーツインシュート) is the super shot (combo) between Tsubasa Ozora and Kojiro Hyuga in Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "frappe",
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "kojiro-hyuga",
@@ -1634,6 +2110,12 @@
     "first_appearance": "",
     "description": "Schneider's authentic special shot. A kick with more power than the net-burning Fire Shot. It assails the opponent's goal with an infernal force.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "karl-heinz-schneider",
@@ -1650,6 +2132,12 @@
     "first_appearance": "",
     "description": "Neo Tiger Shot (ネオタイガーショット, neo taigā shotto) is the improvement of the Tiger Shot; this is a more powerful straight shot and a trademark technique of Kojiro Hyuga.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "kojiro-hyuga",
@@ -1666,6 +2154,12 @@
     "first_appearance": "Golden-23, chapter 36",
     "description": "No Rotation Shot (無回転シュート, mukaiten shūto) is Ochado's trademark shot",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "brian-cruyfford",
@@ -1697,6 +2191,12 @@
     "first_appearance": "",
     "description": "The Offside Trap (オフサイドトラップ, ofusaido torappu) is a tactic used by very strategically-talented or experienced players.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "brian-cruyfford",
@@ -1723,6 +2223,12 @@
     "first_appearance": "",
     "description": "The Overhead Clear (オーバーヘッドクリア) is a block used by some players in the manga series and the Tecmo game series.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "elle-sid-pierre",
@@ -1749,6 +2255,12 @@
     "first_appearance": "",
     "description": "This is an Overhead Kick made with the Fire Shot. It is considered an improvement to his trademark special shot. This technique should not be confused with the Fire Overhead Kick, since it is only a combination between a feint Overhead and then a regular Fire Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "karl-heinz-schneider",
@@ -1765,6 +2277,12 @@
     "first_appearance": "",
     "description": "Overhead Kick (オーバーヘッドキック, ōbāheddo kikku) is a way to shoot a ball in the air with the leg, rather than using, for example, a header.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "alan-pascal",
@@ -1856,6 +2374,12 @@
     "first_appearance": "",
     "description": "The Overhead Pass (オーバーヘッドパス) is an aerial skill done by several players.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "davi",
@@ -1887,6 +2411,12 @@
     "first_appearance": "",
     "description": "This is basically a diving overhead made with the Tiger Shot developed by Hyuga. It is considered his greatest skill achieved during the National middle school tournament. With the assistance of Sawada to do a higher jump, he goes straight from a back-flip, doing a somersault and then turn it into an overhead kick, giving the ball incredible force.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "kojiro-hyuga",
@@ -1903,6 +2433,12 @@
     "first_appearance": "",
     "description": "When a defensive player runs beyond his midfielder or striker, without a switch of positions, to go into the attack, it is called an overlap. This is a way to outnumber the opponent and have more options available to attack, or even to exploit a weak point.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "ken-wakashimazu",
@@ -1919,6 +2455,12 @@
     "first_appearance": "",
     "description": "The Peregrine Falcon Running Volley (隼ランニングボレー, hayabusa ranningu borē) is Shun Nitta's signature shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "shun-nitta",
@@ -1935,6 +2477,12 @@
     "first_appearance": "",
     "description": "The Peregrine Falcon Shot (隼シュート, hayabusa shūto) is Shun Nitta's signature shot, made possible by Nitta's naturally strong legs.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "shun-nitta",
@@ -1951,6 +2499,12 @@
     "first_appearance": "",
     "description": "Peregrine Falcon Tackle (隼タックル, hayabusa takkuru) is a tackle, exclusive to the Japanese Shun Nitta.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "shun-nitta",
@@ -1967,6 +2521,12 @@
     "first_appearance": "",
     "description": "Picturesque Shot (ピクチャレスクシュート, pikucharesuku shūto) is the shot of Taro Misaki in Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -1977,6 +2537,12 @@
     "first_appearance": "",
     "description": "To carry out this tactic, a player on the front line, or more specifically, in a dangerous position for the opponent, has to receive the ball from a cross, a long pass or a clear, then start an attack from there.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "ken-wakashimazu",
@@ -1998,6 +2564,12 @@
     "first_appearance": "",
     "description": "The Power Defense (パワーディフェンス, pawā difensu) is a way of defending used by players who have a lot of strength.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "brolin",
@@ -2024,6 +2596,12 @@
     "first_appearance": "",
     "description": "In order to perform this technique, the player uses his brute strength to push forward, sending any opponents who try to stop him flying.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "hiroshi-jito",
@@ -2040,6 +2618,14 @@
     "first_appearance": "",
     "description": "The user must counter a shot or clearance with a shot of their own. More specifically, the user strikes at the right timing on opponent's kick, adding his power to the shot and making the ball fly at an amazing speed.",
     "image": "",
+    "familles": [
+      "tir",
+      "defense"
+    ],
+    "effets": {
+      "tir": "frappe",
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "michael",
@@ -2056,6 +2642,12 @@
     "first_appearance": "",
     "description": "\"A trick shot that confuses the goalie by switching which is making the kick at the last second.\"",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -2066,6 +2658,12 @@
     "first_appearance": "",
     "description": "Just before kicking the ball, the player kicks off against the ground, bending his leg back and using the momentum to unleash this special shot. Powerful enough to split a huge tree in two, the shot rises sharply just in front of the keeper.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "brolin",
@@ -2127,6 +2725,12 @@
     "first_appearance": "",
     "description": "This technique reappropriates the \"Razor Shot\" use as a pass, and more specifically as a cross. The ball curves in an arc, doing a special bending, just like his shot.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "makoto-soda",
@@ -2143,6 +2747,12 @@
     "first_appearance": "",
     "description": "Razor Shot (カミソリシュート, kamisori shūto) is Makoto Soda's signature shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "makoto-soda",
@@ -2164,6 +2774,12 @@
     "first_appearance": "",
     "description": "A special tackle used by Soda, who's known as the \"Ace Killer\". He uses a razor-sharp slide tackle from inside his opponent's blind spot. It is an excellent way to take the ball away from a player with a special dribble, or a very skilled one.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "makoto-soda",
@@ -2180,6 +2796,12 @@
     "first_appearance": "",
     "description": "In this technique, the defender turns 90 degrees right in front of the opponent who has already done a similar 90 degree feint and has dribbled away to the side, then said user chases him just as fast in order to take the ball. This tackle was designed as a countermeasure against Aoi's \"Right-Angle Feint\".",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "hermann-kaltz",
@@ -2211,6 +2833,12 @@
     "first_appearance": "",
     "description": "By turning sharply without losing any speed, the player is able to slip straight past his opponent. The knack behind this technique is to first touch the ball hard to perform the right angle, then softly when controlling the ball back, doing another hard touch after that is allowing the user to resume his dribbling with the same speed.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "alan-pascal",
@@ -2262,6 +2890,12 @@
     "first_appearance": "",
     "description": "Aoi performs a Right-Angle Feint, then, at the moment his opponent is deceived by it, he rotates his body and presses forward, leaving his marker behind. This is specifically prepared by Aoi in order to counter the Right-Angle Defense from his rival Salvatore Gentile.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "shingo-aoi",
@@ -2278,6 +2912,12 @@
     "first_appearance": "",
     "description": "A powerful shot born of the superhuman power of Brolin. The ball, kicked with all of his strength, moves along the ground and suddenly hops before flying into the goal. With all his might, he attempted to beat Wakabayashi with this shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "brolin",
@@ -2294,6 +2934,12 @@
     "first_appearance": "",
     "description": "It's a sequence of fast and complex moves: Going one way while sending the ball to the other side, kicking it forward with the other leg, turn around and getting past the opponent.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "rivaul",
@@ -2315,6 +2961,12 @@
     "first_appearance": "",
     "description": "Rolling Arrow Jumping Overhead (ローリングアロージャンピングオーバーヘッド) is the special aerial shot from Carlos Santana.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -2331,6 +2983,12 @@
     "first_appearance": "",
     "description": "Rolling Overhead Kick (ローリングオーバーヘッドキック/シュート, rōringu ōbāheddo kikku) is a more advanced technique of the Overhead, combining it with a rotation movement in mid-air with the leg.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -2357,6 +3015,12 @@
     "first_appearance": "",
     "description": "The Roulette first appeared on Road to 2002, chapter 58.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "deuter-muller",
@@ -2383,6 +3047,12 @@
     "first_appearance": "",
     "description": "The S.S.S (S・S・S) or Speed Slide Shot, is Misaki's long and special shot, which is superior to the Boomerang Shot and the Slider Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "taro-misaki",
@@ -2399,6 +3069,12 @@
     "first_appearance": "",
     "description": "As a result of his hard training, Carlos puts a spin on the ball, doing a green-cut effect. With this extra impact, Carlos does an effective long shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -2409,6 +3085,12 @@
     "first_appearance": "",
     "description": "The Sandstorm Shot (サンドストームシュート) is a shot move from Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -2419,6 +3101,12 @@
     "first_appearance": "",
     "description": "Just as the player reaches a defender, he turns around in front of the opponent, effectively hiding the ball from him, and kicks the ball over himself, allowing the user to go beside him, around the defender's side before he realizes what is happening..",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -2440,6 +3128,12 @@
     "first_appearance": "",
     "description": "Ishizaki uses Jito's strong legs to jump towards the ball and block it with his face. He first did this to block Galvan's jumping lariat on the goal post before the final whistle of the match between Japan Jr. and Argentina Jr.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "hiroshi-jito",
@@ -2456,6 +3150,12 @@
     "first_appearance": "",
     "description": "The Segway Dribble (セグウェイドリブル, seguuei doriburu) is an individual skill which is mainly used by the Spanish Michael.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "juan-diaz",
@@ -2482,6 +3182,12 @@
     "first_appearance": "",
     "description": "Sepak Takraw Shot (セパタクローシュート, sepatakurō shūto) is a way to shoot the ball in a cooperative way in mid air by using the Sepak Takraw, or kick volleyball, is a sport native to Southeast Asia.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "singprasert-bunnag",
@@ -2498,6 +3204,14 @@
     "first_appearance": "",
     "description": "Either Alcion or Nitta pretends to shoot while it is in fact a pass for the other one, who is hiding behind like a shadow.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "frappe",
+      "construction": "une-deux"
+    },
     "users": []
   },
   {
@@ -2508,6 +3222,12 @@
     "first_appearance": "",
     "description": "The Sky Hawk Shot (スカイホークシュート, sukai hōku shūto) is Rivaul's trademark shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "rivaul",
@@ -2524,6 +3244,12 @@
     "first_appearance": "",
     "description": "The Sky Rocket Volley (スカイロケットボレー) is Jun Misugi's Super Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "jun-misugi",
@@ -2540,6 +3266,12 @@
     "first_appearance": "",
     "description": "For this technique, Tsubasa uses the ball to enter into the goal to score. The technique was completed by his own means without relying on his mentor Roberto, and while keeping the ball, he pulled out all the other players and jumped to the goal.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "tsubasa-ozora",
@@ -2556,6 +3288,14 @@
     "first_appearance": "",
     "description": "Skylab Hurricane (スカイラブハリケーン, sukairabu harikēn) is the trademark technique of the Tachibana twins, developed during the Boys' Fight arc.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "volee",
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "gakuto-igawa",
@@ -2582,6 +3322,14 @@
     "first_appearance": "Rise of New Champions",
     "description": "An unnoticed Combo Shot made by a third player when all eyes are on the Skylab Hurricane.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "volee",
+      "construction": "une-deux"
+    },
     "users": []
   },
   {
@@ -2592,6 +3340,14 @@
     "first_appearance": "",
     "description": "In this combination play, Jito serves as launch pad for the Tachibana Twins, launching them from the soles of his left and right feet at a low angle. Still hurtling through the air, they then unleash a Twin Shot while the ball is flying low. This is a variation of the Skylab Hurricane, and can thus still be called like that.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "volee",
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "hiroshi-jito",
@@ -2608,6 +3364,12 @@
     "first_appearance": "",
     "description": "Skywing Shot (スカイウイングシュート) is Tsubasa's special mid-range shot learnt from Roberto. It was first shown during the World Youth tournament.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -2649,6 +3411,12 @@
     "first_appearance": "",
     "description": "The Slice Shot (スライスシュート) is a shot move from Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -2659,6 +3427,12 @@
     "first_appearance": "Captain Tsubasa (1981), chapter 99",
     "description": "The shot first appeared in Captain Tsubasa ch.99 \"Attack of the beautiful beast\". This shot gives the ball a vertical spin. By putting a rotation effect on the ball, but hitting the ball stronger compared to the Drive Shot beforehand, the ball will go straightwise and fall sharply just before the keeper is about to catch it . By keeping this original shot secret that far in the tournament for victory purposes even so, the shot effect was simple for Tsubasa to mimick it .",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "elle-sid-pierre",
@@ -2680,6 +3454,12 @@
     "first_appearance": "",
     "description": "The Sliding Force (スライディング部隊), or Sliding Tackle Force (スライディングタックル部隊), is a tactic where several members of the same squad do several tackle attempts in order to steal the ball from the opponent.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": []
   },
   {
@@ -2690,6 +3470,12 @@
     "first_appearance": "",
     "description": "Sliding Shot (スライディングシュート, suraidingu shūto) is a shot made by several players in Captain Tsubasa series.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "hajime-taki",
@@ -2751,6 +3537,12 @@
     "first_appearance": "",
     "description": "The Sliding Tackle (スライディングタックル) is a defensive technique.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "alan-pascal",
@@ -2802,6 +3594,12 @@
     "first_appearance": "",
     "description": "After sending off a pass, Diaz acrobatically breaks away from his defender and rides the sliding ball like a snowboard across the pitch. This is somewhat similar to Michael's Segway Dribble, but the main difference between the two techniques is that Diaz's requires the user to bend his knees, riding in a stance similar to riding a snowboard, with both feet on the ball, while in Michael's, the user is standing straight, putting only one foot on the ball, while using the other foot to steer.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "juan-diaz",
@@ -2818,6 +3616,12 @@
     "first_appearance": "",
     "description": "The South American-style Dribble (南米式ドリブル, nanbei shiki doriburu) is used by players who have acquired a South American-style while dribbling.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "alan-pascal",
@@ -2854,6 +3658,12 @@
     "first_appearance": "",
     "description": "Speed Shot (スピードシュート, supīdo shūto) is the shot made by several players from Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -2864,6 +3674,12 @@
     "first_appearance": "",
     "description": "The Speedy Sliding Shot also named S・S・S, is Larson special shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -2874,6 +3690,12 @@
     "first_appearance": "",
     "description": "Spiral Jumping Volley (スパイラルジャンピングボレー) is a volley skill used by the Dutch Brian Cruyfford.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -2884,6 +3706,12 @@
     "first_appearance": "",
     "description": "Spiral Shot (スパイラルシュート, supairaru shūto) is a special shot from Brian Cruyfford.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "brian-cruyfford",
@@ -2900,6 +3728,12 @@
     "first_appearance": "",
     "description": "In this technical dribbling technique, the player starts by faking the use of a Heel Lift but then twists around his body and bounces the ball against his opponent's feet. His opponent is then left in the air, expecting such Heel Lift, allowing the player to easily leave him behind.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "brian-cruyfford",
@@ -2916,6 +3750,12 @@
     "first_appearance": "",
     "description": "One of the strongest shots in the game, described as a \"menacing surefire shot\". The shot makes a curve and travels at an incredible speed. With Alcion's very high stats, this shot can score against most keepers.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -2926,6 +3766,12 @@
     "first_appearance": "",
     "description": "The Stinger Shot is a shot move in Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -2936,6 +3782,12 @@
     "first_appearance": "",
     "description": "Here, the user simply runs with the ball in a straight line. For this technique, the user must have some muscular strength but also have full determination to enter the penalty area, in order to have an opportunity to score. The only way to keep on dribbling in a straight line in that case is to break through the players forcibly, so in order to successfully break through, the user must be stronger physically than his opponent.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "crochet"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -2997,6 +3849,12 @@
     "first_appearance": "",
     "description": "Even if someone is getting past him , or if the ball is taken from him , by falling and using his hand on the ground, he can perform a regular tackle, a circular tackle or using the strength of his upper body, come back towards a running or jumping opponent before performing the tackle.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "hermann-kaltz",
@@ -3023,6 +3881,12 @@
     "first_appearance": "",
     "description": "This super shot of rank SS appears in Captain Tsubasa: Rise of New Champions.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -3033,6 +3897,12 @@
     "first_appearance": "",
     "description": "This unlockable Super Shot first appears in Captain Tsubasa: Rise of New Champions. The shot is likely inspired by the New Levin Shot that appeared in the manga.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -3043,6 +3913,12 @@
     "first_appearance": "",
     "description": "Tiger Shot (タイガーショット, taigā shotto) is Hyuga's trademark shot, developed during the Boys' Fight arc.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "deuter-muller",
@@ -3064,6 +3940,12 @@
     "first_appearance": "Battle of World Youth arc, ch. 62",
     "description": "Tornado Arrow Skywing Shot (トルネードアロースカイウイングシュート) is the special ground shot from Carlos Santana in Battle of World Youth arc. It is later used by Michael under the name Tornado Arrow Raiju Shot (トルネードアロー雷獣シュート).",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -3085,6 +3967,12 @@
     "first_appearance": "",
     "description": "Tornado Shot (トルネードシュート, torunēdo shūto) is Ryoma Hino's signature shot. He positions himself to the side of the goal and shoots so that the ball rises up.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -3116,6 +4004,12 @@
     "first_appearance": "",
     "description": "The Total Football (トータルフットボール, tōtaru futtobōru) is a cooperative tactic of the Netherlands squad.",
     "image": "",
+    "familles": [
+      "construction"
+    ],
+    "effets": {
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "brian-cruyfford",
@@ -3132,6 +4026,12 @@
     "first_appearance": "",
     "description": "This is a skill that Wakashimazu developed during his training in Wakado karate. He then applied it as a keeper. When caught on the wrong side of the goal, he jumps on a goal post and dives to the opposite side.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "repli"
+    },
     "users": [
       {
         "slug": "genzo-wakabayashi",
@@ -3163,6 +4063,12 @@
     "first_appearance": "",
     "description": "Triangle Shot (トライアングルシュート, toraianguru shūto) is the trademark technique of the Tachibana twins during the Kids' Dream arc.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "volee"
+    },
     "users": []
   },
   {
@@ -3173,6 +4079,12 @@
     "first_appearance": "",
     "description": "Turning Back Kick or Ushiro-Geri (後ろ蹴り) is a basic kick employed in Karate.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "parade"
+    },
     "users": [
       {
         "slug": "ken-wakashimazu",
@@ -3189,6 +4101,14 @@
     "first_appearance": "Captain Tsubasa (1981), chapter 37",
     "description": "This technique is done when two people are shooting the ball at the same time, on purpose or by chance . The result is a swinging ball, resembling multiple balls, and making difficult for the keeper to know where the ball is, and thus harder to catch and repel. While there isn't a unique way to perform the technique, it was most often done with volley shots, but also jumping volleys and overheads.",
     "image": "",
+    "familles": [
+      "tir",
+      "construction"
+    ],
+    "effets": {
+      "tir": "frappe",
+      "construction": "une-deux"
+    },
     "users": [
       {
         "slug": "carlos-santana",
@@ -3280,6 +4200,12 @@
     "first_appearance": "",
     "description": "A special skill shot born from Natureza's superhuman talent for football. He gives the ball a powerful sidespin, causing it to curve twice then bounce and change trajectory again just before reaching the goal.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "michael",
@@ -3301,6 +4227,12 @@
     "first_appearance": "",
     "description": "The keeper does a boxing uppercut from directly underneath, allowing him to repell even the most fierce and powerful shots while only exerting minimal energy.",
     "image": "",
+    "familles": [
+      "defense"
+    ],
+    "effets": {
+      "defense": "parade"
+    },
     "users": [
       {
         "slug": "deuter-muller",
@@ -3322,6 +4254,12 @@
     "first_appearance": "Rise of New Champions",
     "description": "The Vendémiaire Cannon (スカイロケットボレー) is Louis Napoleon's Super Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -3332,6 +4270,12 @@
     "first_appearance": "",
     "description": "With the scavenging instincts of a vulture, this shot preys on opportunity.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -3342,6 +4286,12 @@
     "first_appearance": "",
     "description": "A ground-crawling shot even wilder than the Eagle Shot.",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": []
   },
   {
@@ -3352,6 +4302,12 @@
     "first_appearance": "Captain Tsubasa: Road to 2002, chapter 15",
     "description": "Wild Tiger Shot (ワイルドタイガーショット) is the improved version of Hyuga's Tiger Shot, a shot he used to replace his Raiju Shot during the Serie A of Italy",
     "image": "",
+    "familles": [
+      "tir"
+    ],
+    "effets": {
+      "tir": "frappe"
+    },
     "users": [
       {
         "slug": "kojiro-hyuga",
