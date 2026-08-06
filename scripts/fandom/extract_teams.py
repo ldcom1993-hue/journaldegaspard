@@ -2,7 +2,14 @@ from __future__ import annotations
 
 import re
 
-from .normalize import normalize_entity_name, split_list_field
+from .client import fetch_page_wikitext_and_html
+from .normalize import (
+    extract_infobox_fields,
+    extract_japanese_name,
+    first_paragraph_from_html,
+    normalize_entity_name,
+    split_list_field,
+)
 
 TEAM_INFOBOX_FIELDS = (
     "team",
@@ -107,6 +114,28 @@ TEAM_FALSE_POSITIVE_PATTERNS = (
 )
 
 PAGE_LINK_BLACKLIST_LOWER = {item.lower() for item in PAGE_LINK_BLACKLIST}
+
+
+def fetch_team_details(title: str) -> dict[str, str]:
+    """
+    Lit la fiche d'une équipe : introduction et nom japonais.
+
+    Le wikitexte des équipes n'était consulté que pour vérifier une
+    appartenance de joueur, jamais pour son contenu — d'où des description
+    et image vides sur la totalité du catalogue.
+
+    Une page peut exister sans introduction exploitable (page d'homonymie,
+    simple liste) : la description reste alors vide, et la fiche la tait.
+    """
+    try:
+        wikitext, html_text = fetch_page_wikitext_and_html(title)
+    except RuntimeError:
+        return {"description": "", "japanese_name": ""}
+
+    return {
+        "description": first_paragraph_from_html(html_text),
+        "japanese_name": extract_japanese_name(extract_infobox_fields(wikitext).get("name", "")),
+    }
 
 
 def extract_teams_from_infobox(infobox: dict[str, str]) -> list[str]:

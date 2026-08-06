@@ -36,6 +36,7 @@ Chaque personnage conserve ses champs existants (`slug`, `name`, `image`, `popul
 ### `assets/data/equipes.json`
 
 - `slug`, `name`, `url`, `description`, `image`
+- `japanese_name` : nom en kana/kanji, isolé du champ `name` de l'infobox
 - `players`: tableau de pointeurs vers personnages (`slug`, `name`, `url`)
 
 ### `assets/data/techniques.json`
@@ -53,6 +54,13 @@ Chaque personnage conserve ses champs existants (`slug`, `name`, `image`, `popul
    - `team`, `former_team`, `club`, `current_team`, `national_team`, `youth_team`, etc.
 2. Normalisation des noms + dédoublonnage.
 3. Construction relation réciproque (`personnages -> équipes`, puis `équipes -> players`).
+4. Fiche de chaque équipe (`fetch_team_details`) : introduction et nom japonais.
+
+> La page d'une équipe n'était consultée que pour vérifier l'appartenance d'un
+> joueur, jamais pour son contenu — `description` et `image` restaient donc
+> vides sur les 102 entrées. Même angle mort que côté techniques, même
+> correctif. Une page sans introduction exploitable (homonymie, simple liste)
+> laisse la description vide, et la fiche la tait.
 
 ### Techniques
 

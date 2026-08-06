@@ -54,9 +54,11 @@
           section: "Effectif"
         },
         getBadges: (equipe) => [TYPE_LABELS[equipe.type], AGE_LABELS[equipe.age_category]],
+        getSubtitle: (equipe) => equipe.japanese_name,
+        getDescription: (equipe) => equipe.description,
         // parent_team est un libellé brut du Fandom ("Japan", "Arsenal"), pas un
         // slug d'équipe : il est affiché en texte, jamais transformé en lien.
-        getSubtitle: (equipe) => (equipe.parent_team ? `Rattachée à ${equipe.parent_team}` : "")
+        getFacts: (equipe) => [{ label: "Rattachée à", value: equipe.parent_team }]
       });
     </script>
   </body>

@@ -1,7 +1,8 @@
 # Journal de Gaspard — Analyse technique du projet
 
-> Document de référence — analyse réalisée le 3 août 2026, mise à jour le 3 août 2026 (ajout du duel 007)
-> Dépôt : https://github.com/ldcom1993-hue/journaldegaspard (branche `main`, 211 commits)
+> Document de référence — analyse réalisée le 3 août 2026, mise à jour le 5 août 2026
+> (duel 007, puis pages équipes/techniques et correction du pipeline de techniques)
+> Dépôt : https://github.com/ldcom1993-hue/journaldegaspard (branche `main`, 218 commits)
 > Site en production : https://journaldegaspard.fr/
 
 ---
@@ -10,7 +11,7 @@
 
 **Journal de Gaspard** est un **site statique encyclopédique** organisé en « univers » fictionnels.
 
-Un seul univers est actuellement implémenté : **Olive et Tom** (*Captain Tsubasa*). Le site expose un catalogue de personnages (235 fiches), d'équipes (102) et de techniques (304), avec recherche, filtres et fiches détaillées.
+Un seul univers est actuellement implémenté : **Olive et Tom** (*Captain Tsubasa*). Le site expose un catalogue de personnages (235 fiches), d'équipes (102) et de techniques (155), avec recherche, filtres et fiches détaillées.
 
 La particularité du projet : **les données ne sont pas écrites à la main**. Elles sont moissonnées automatiquement depuis l'**API MediaWiki du Fandom Captain Tsubasa** par un pipeline Python, puis commitées dans le dépôt sous forme de JSON statiques que le front consomme via `fetch()`.
 
@@ -27,6 +28,44 @@ Points clés :
 - Le client (`univers/olive-et-tom/match.html`, `assets/js/match.js`, `assets/css/match.css`) fonctionne par polling de l'état de partie.
 
 **⚠️ Rupture avec le modèle initial** : cette fonctionnalité introduit la première dépendance serveur du projet (PHP 7.4+, dossier `api/` inscriptible), ce qui déroge explicitement à la règle « no server-side code » d'`agents.md`. Aucune dépendance externe, aucun build step ni service tiers n'est introduit pour autant — c'est une exception ciblée, pas un changement de stack. `agents.md` doit encore être mis à jour pour documenter formellement cette exception (voir §5 et §7).
+
+### Nouveauté : pages équipes et techniques, et pipeline de techniques corrigé
+
+La PR #55 comble l'écart qui faisait l'objet du chantier n°1 de ce document : les données d'équipes et de techniques existaient, étaient riches et correctement liées, mais **aucune page ne les affichait**. Quatre pages sont livrées (`equipes.html`, `equipe.html`, `techniques.html`, `technique.html`), portées par un module ES partagé `assets/js/entites.js` — natif, sans build step.
+
+En chemin, deux défauts du pipeline de données ont été trouvés et corrigés. Ils se masquaient l'un l'autre et **vidaient silencieusement** les fiches techniques :
+
+1. **`prop=extracts` sur un wiki qui ne l'a pas.** `fetch_intro_extract` interrogeait une extension absente du Fandom. L'API répondait `200` avec un avertissement de paramètre inconnu, sans jamais lever d'exception : le `except RuntimeError` ne se déclenchait pas et les descriptions restaient vides sur la totalité du catalogue, sans le moindre signal. Elles sont désormais lues sur le HTML rendu.
+2. **La page de la technique n'était jamais consultée.** L'extraction ne collectait que les titres des liens présents sur les pages `<Personnage>/Techniques`, où voisinent coéquipiers, clubs et tomes du manga — d'où des « techniques » nommées `AC Reggiana` ou `Captain Tsubasa (1981)`.
+
+Les **huit catégories du wiki font désormais autorité** (`Ground shots`, `Aerial shots`, `Dribbles and feints`, `Cooperative tactics`, `Defensive techniques`, `Passes`, `Saves`, `Tactics and skills`). Une technique existe parce que le wiki la recense, non parce qu'une page la mentionne. Ce filtrage a permis de supprimer deux heuristiques de devinette sur les noms de liens.
+
+| `techniques.json` | Avant | Après |
+|---|---|---|
+| Entrées | 304 | 155 |
+| Avec description | **0** | **155** |
+| Avec nom japonais | 0 | 144 |
+| Dont artefacts | 203 | 0 |
+
+Le nom du template ne pouvait pas servir de critère : une vraie technique utilise `Infobox character`, exactement comme un personnage.
+
+**Limites assumées** :
+- Une technique réelle mais non catégorisée sur le wiki reste absente du catalogue (`Back-Heel Pass`). Le correctif est à porter en amont, sur le wiki.
+- `first_appearance` n'est rempli que 13 fois sur 155, le champ étant réellement vide côté source. Les fiches taisent les champs vides plutôt que d'aligner des « non renseigné ».
+- **Aucune image de technique n'est récupérée**, alors que 13 pages sur 14 en ont une. `agents.md` interdit le hotlink, et télécharger ~150 visuels doublerait le poids du dépôt — chantier à part (voir §7).
+
+### Le même angle mort côté équipes, corrigé dans la foulée
+
+`description` et `image` étaient vides sur les **102 équipes**, pour une raison voisine : la page d'une équipe était bien récupérée par `fetch_page_wikitext`, mais uniquement pour vérifier qu'un joueur y figurait (`validate_team_membership`) — jamais pour son contenu. Le correctif des techniques s'est transposé tel quel (`fetch_team_details`).
+
+| `equipes.json` | Avant | Après |
+|---|---|---|
+| Avec description | **0 / 102** | **98 / 102** |
+| Avec nom japonais | 0 / 102 | 100 / 102 |
+
+Les quatre équipes restantes (`ac-chievo-verona`, `brazil-middle-school`, `liverpool-fc`, `newcastle-united-fc`) ont une page dépourvue de tout paragraphe de prose — quand elle existe. Vérifié page par page : ce n'est pas un défaut d'extraction.
+
+**Deux angles morts identiques à deux endroits du même pipeline** : la donnée était chargée, mais personne ne la lisait. C'est le motif à retenir de ce chantier — voir le verdict en §8.
 
 ---
 
@@ -88,21 +127,27 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
 ├── assets/
 │   ├── css/
 │   │   ├── style.css             # Feuille unique, 393 l.
-│   │   └── match.css             # Styles du duel, en extension de style.css (691 l.)
+│   │   ├── match.css             # Styles du duel, en extension de style.css (691 l.)
+│   │   └── entites.css           # Styles équipes/techniques, idem (498 l.)
 │   ├── js/
 │   │   ├── main.js               # Rendu du hub (36 l.)
 │   │   ├── personnages.js        # Liste + filtres + tri (480 l.)
-│   │   └── match.js              # Duel : polling, rendu, reprise de session (611 l.)
+│   │   ├── match.js              # Duel : polling, rendu, reprise de session (611 l.)
+│   │   └── entites.js            # Module ES partagé listes/fiches entités (639 l.)
 │   ├── data/
-│   │   ├── personnages.json      # 235 entrées — 409 Ko
-│   │   ├── equipes.json          # 102 entrées — 88 Ko
-│   │   └── techniques.json       # 304 entrées — 183 Ko
+│   │   ├── personnages.json      # 235 entrées — 330 Ko
+│   │   ├── equipes.json          # 102 entrées — 104 Ko
+│   │   └── techniques.json       # 155 entrées — 119 Ko
 │   └── images/olive-et-tom/      # 268 PNG — ~12 Mo
 │
 ├── univers/olive-et-tom/
-│   ├── index.html                # Sommaire de l'univers (carte d'accès au duel ajoutée)
+│   ├── index.html                # Sommaire de l'univers (4 cartes d'accès)
 │   ├── personnages.html          # Liste (338 l.)
 │   ├── personnage.html           # Fiche détail (625 l., JS inline)
+│   ├── equipes.html              # Liste des équipes (101 l.)
+│   ├── equipe.html               # Fiche équipe (63 l.)
+│   ├── techniques.html           # Liste des techniques (88 l.)
+│   ├── technique.html            # Fiche technique (64 l.)
 │   └── match.html                # Duel : accueil, salon, match, fin (209 l.)
 │
 ├── scripts/                      # Pipeline #2 (modulaire)
@@ -111,8 +156,8 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
 │   └── fandom/
 │       ├── client.py             # Couche API MediaWiki
 │       ├── normalize.py          # Nettoyage, infobox, slugify (294 l.)
-│       ├── extract_teams.py      # Extraction équipes (215 l.)
-│       ├── extract_techniques.py # Extraction techniques (121 l.)
+│       ├── extract_teams.py      # Extraction + fiches équipes (244 l.)
+│       ├── extract_techniques.py # Catalogue + fiches techniques (179 l.)
 │       ├── relations.py          # Construction des refs {slug,name,url}
 │       └── writers.py            # Écriture atomique + garde-fous
 │
@@ -124,7 +169,7 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
     └── workflows/                # 5 workflows
 ```
 
-**Volumétrie code** : ~7 250 lignes au total (hors JSON/images), dont ~1 950 Python, ~1 750 HTML/JS front (encyclopédie) et ~1 550 lignes pour le duel (PHP + JS + CSS + HTML).
+**Volumétrie code** : ~8 700 lignes au total (hors JSON/images), dont ~2 000 Python, ~1 750 HTML/JS front (encyclopédie), ~1 550 pour le duel (PHP + JS + CSS + HTML) et ~1 450 pour les pages équipes/techniques.
 
 ### Flux de données
 
@@ -166,9 +211,9 @@ Fandom Captain Tsubasa (API MediaWiki)
 }
 ```
 
-**`equipes.json`** : `slug, name, type (club|national|school), age_category, parent_team, url, description, image, players[]`
+**`equipes.json`** : `slug, name, type (club|national|school), age_category, parent_team, url, japanese_name, description, image, players[]`
 
-**`techniques.json`** : `slug, name, url, description, image, users[]`
+**`techniques.json`** : `slug, name, url, japanese_name, first_appearance, description, image, users[]`
 
 Les relations sont **bidirectionnelles et dénormalisées** (personnage→équipe *et* équipe→joueurs), et chaque référence embarque déjà son `url` front. Choix pragmatique : zéro jointure côté client, au prix d'une redondance.
 
@@ -176,7 +221,8 @@ Les relations sont **bidirectionnelles et dénormalisées** (personnage→équip
 
 - **Écriture atomique + garde-fou anti-écrasement** (`writers.py`) : refuse d'écrire si le résultat contient moins de `minimum_items` entrées. Protège contre un JSON vidé par une panne réseau du Fandom. Bonne pratique, à conserver.
 - **Score de confiance** (`confidence: low|medium|high`) sur les relations équipes — reconnaissance explicite de l'incertitude de l'extraction heuristique.
-- **Stratégie techniques** : plutôt que de parser les sections libres des pages personnages (fragile), le pipeline part des catégories Fandom de techniques, puis intersecte les liens de chaque page technique avec les titres de personnages connus. Approche robuste, bien documentée dans `docs/entities-sync.md`.
+- **Stratégie techniques** : les huit catégories du wiki font autorité. Le catalogue amorce `techniques.json`, si bien qu'une technique existe parce que le wiki la recense — et non parce qu'une page la mentionne. Les relations ne retiennent ensuite que les liens présents au catalogue. Cette règle a remplacé une heuristique sur les noms de liens qui produisait 203 faux positifs (voir §1 et `docs/entities-sync.md`).
+- **Module ES partagé** (`assets/js/entites.js`) : les quatre pages entités partagent fetch, recherche, tri, empty state et rendu des portraits. Modules natifs, donc aucun build step — la voie à suivre pour dédupliquer `personnages.js` et `personnage.html`.
 - **Placeholder SVG généré à la volée** (`makePlaceholder()` dans `personnages.js`) : initiales sur dégradé, encodé en `data:` URI. Aucune requête réseau, aucun asset supplémentaire.
 - **Progressive enhancement** : les cartes apparaissent via `IntersectionObserver`, le HTML reste sémantique et accessible (`aria-live`, `visually-hidden`, `alt` explicites).
 
@@ -200,8 +246,8 @@ Les relations sont **bidirectionnelles et dénormalisées** (personnage→équip
 
 ### 🔴 Bloquants fonctionnels
 
-**1. Liens morts vers `equipe.html` et `technique.html`**
-Les trois JSON et `personnage.html` (l. 457, 465) génèrent des URLs `/univers/olive-et-tom/equipe.html?slug=...` et `technique.html?slug=...`. **Ces deux pages n'existent pas.** Toute relation cliquée depuis une fiche personnage → 404. C'est le chantier le plus évident du projet (les données sont prêtes, il ne manque que les vues).
+**1. ~~Liens morts vers `equipe.html` et `technique.html`~~ — ✅ résolu (PR #55)**
+Les quatre pages existent désormais, et l'intégrité référentielle a été vérifiée dans les quatre sens après régénération : aucune référence orpheline entre les trois JSON. Plus aucun 404 sur les relations.
 
 **2. Le pipeline de portraits tourne chaque semaine sur du code périmé**
 `.github/scripts/update_ct_portraits.py` télécharge tous les portraits puis **réécrit `assets/js/personnages.js` par substitution regex** sur des littéraux `image: "..."`. Or `personnages.js` est aujourd'hui un *moteur de rendu*, plus un fichier de données — les portraits sont référencés dans `personnages.json`. Conséquences : la mise à jour des chemins d'images est inopérante, et le regex opère à l'aveugle sur du code applicatif (risque de corruption). Les 17 commits `chore: update Captain Tsubasa portraits` consécutifs en tête d'historique en sont la trace, et gonflent le dépôt de PNG réécrits chaque semaine.
@@ -218,10 +264,16 @@ Deux versions coexistent avec des contenus différents : `/sync_personnages.py` 
 **5. Données non traduites**
 `agents.md` impose les noms français (« Olivier Atton », « Thomas Price »…). Les JSON contiennent les noms **japonais romanisés** issus du Fandom (« Tsubasa Ozora », « Kojiro Hyuga »). Idem pour les positions (`"Attacking midfielderForward"` — non nettoyée, concaténation d'infobox) et les nationalités. Il manque une couche de mapping FR.
 
+**11. Aucun cache-busting sur les assets**
+`style.css`, `personnages.js`, `entites.js`, `match.js` sont tous servis sans version ni empreinte, et le déploiement FTP ne pose aucun en-tête de cache. Constaté en développement : le navigateur a resservi un ancien `entites.js` pendant plusieurs rechargements successifs, y compris après un rechargement forcé. **En production, une partie des visiteurs conservera l'ancien JS/CSS après chaque mise à jour**, avec le risque d'un JS périmé face à des données neuves. Un suffixe de version sur les `src`/`href` suffirait.
+
+**12. ~~Descriptions vides sur les équipes~~ — ✅ résolu**
+`equipes.json` avait `description` et `image` à `""` sur les 102 entrées. La description et le nom japonais sont désormais lus (98/102 et 100/102) — voir §1. **Les images restent vides**, sur les équipes comme sur les techniques : `agents.md` interdit le hotlink, et les télécharger est un chantier à part (piste n°6).
+
 ### 🟡 Qualité / perf
 
 **6. Chargement intégral du JSON pour une seule fiche**
-`personnage.html` fait `fetch('/assets/data/personnages.json')` (409 Ko) puis un `.find()` pour un seul personnage. Idem pour les futures pages équipe/technique. À terme : soit un split par slug, soit un index léger.
+`personnage.html` fait `fetch('/assets/data/personnages.json')` (330 Ko) puis un `.find()` pour un seul personnage. Les fiches équipe et technique font de même, et chargent en plus `personnages.json` pour afficher les portraits des personnages liés — soit deux fichiers complets pour une seule fiche. À terme : soit un split par slug, soit un index léger.
 
 **7. Front dupliqué entre pages**
 `personnage.html` embarque 330 lignes de JS inline (normalisation des relations, slugify, placeholder) qui recoupent largement `assets/js/personnages.js`. Aucun module partagé. Les ES modules natifs (`<script type="module">`) résoudraient ça sans violer la contrainte « no build step ».
@@ -230,7 +282,7 @@ Deux versions coexistent avec des contenus différents : `/sync_personnages.py` 
 `univers/olive-et-tom/index.html` contient ~90 lignes de `<style>` inline pour le header, non partagées avec les autres pages de l'univers.
 
 **9. Divers**
-- `console.log("Sorting mode:", mode)` laissé en production (`personnages.js` l. 402).
+- Trois `console.log` laissés en production : `personnages.js` l. 414 (`"Sorting mode:"`), et `personnage.html` l. 511-512 (`"[debug] teams"` / `"[debug] techniques"`).
 - `main.js` s'exécute sans garde : si `#projects-grid` est absent, TypeError.
 - Image du hub en `placehold.co` — hotlink externe, ce qui contredit la politique images d'`agents.md`.
 - Aucun test, aucun linter, aucun formateur configuré.
@@ -284,17 +336,21 @@ php -S localhost:8000
 
 | # | Chantier | Effort | Impact |
 |---|---|---|---|
-| 1 | Créer `equipe.html` et `technique.html` — supprime tous les 404 actuels, données déjà prêtes | M | 🔥 Élevé |
+| ~~—~~ | ~~Créer `equipe.html` / `technique.html` et les listes~~ — ✅ livré (PR #55) | — | — |
+| ~~—~~ | ~~Descriptions des équipes~~ — ✅ livré, images exceptées (piste n°6) | — | — |
+| 1 | Assertions de qualité en sortie de pipeline (« si moins de X % des entrées ont une description, échouer ») — c'est ce qui aurait détecté les deux angles morts | S | 🔥 Élevé |
 | 2 | Réparer ou retirer `update_ct_portraits.py` (cible `personnages.json`, pas le JS) + désactiver le cron en attendant | S | 🔥 Élevé |
-| 3 | Ajouter `equipes.html` / `techniques.html` (listes) et les cartes correspondantes dans l'index d'univers | M | Élevé |
-| 4 | Couche de traduction FR (noms, positions, nationalités) conforme à `agents.md` | M | Élevé |
-| 5 | Extraire un module partagé (`assets/js/shared.js`, ES module) : slugify, placeholder, normalisation des relations | S | Moyen |
-| 6 | Nettoyer les assets orphelins + le fichier au nom contenant une tabulation | S | Moyen |
-| 7 | Dédupliquer `sync_personnages.py`, supprimer ou réparer `fetch-all-character-images.yml` | S | Moyen |
-| 8 | Mettre à jour `agents.md` pour documenter formellement l'exception PHP du duel (règle 1) | S | Élevé |
-| 9 | Ajouter `CONTRIBUTING.md` et un lint minimal (Prettier + Ruff/PHP_CodeSniffer en CI) | S | Moyen |
-| 10 | Optimiser le chargement (index léger ou split par slug) | M | Faible aujourd'hui |
-| 11 | Compresser les PNG (12 Mo pour 268 fichiers) | S | Faible |
+| 3 | Versionner les assets (`?v=…` sur les `src`/`href`) — sans quoi chaque déploiement laisse des visiteurs sur un JS/CSS périmé | S | 🔥 Élevé |
+| 4 | Mettre à jour `agents.md` : exception PHP du duel, et modules ES désormais utilisés | S | Élevé |
+| 5 | Couche de traduction FR (noms, positions, nationalités) conforme à `agents.md` | M | Élevé |
+| 6 | Télécharger les visuels d'équipes et de techniques dans `assets/images/`, sans hotlink — seul champ encore vide des deux catalogues | M | Moyen |
+| 7 | Migrer `personnages.js` et `personnage.html` vers `assets/js/entites.js` — le module partagé existe déjà | S | Moyen |
+| 8 | Nettoyer les assets orphelins + le fichier au nom contenant une tabulation | S | Moyen |
+| 9 | Dédupliquer `sync_personnages.py`, supprimer ou réparer `fetch-all-character-images.yml` | S | Moyen |
+| 10 | Retirer les trois `console.log` de production | S | Moyen |
+| 11 | Ajouter `CONTRIBUTING.md` et un lint minimal (Prettier + Ruff/PHP_CodeSniffer en CI) | S | Moyen |
+| 12 | Optimiser le chargement (index léger ou split par slug) | M | Faible aujourd'hui |
+| 13 | Compresser les PNG (12 Mo pour 268 fichiers) | S | Faible |
 
 ---
 
@@ -302,8 +358,16 @@ php -S localhost:8000
 
 **Points forts** — L'architecture est plus réfléchie que la taille du projet ne le laisse supposer : séparation nette données/présentation, pipeline Python modulaire et documenté, garde-fous d'écriture atomique, scores de confiance sur les relations, contraintes de projet explicitées dans `agents.md`. La discipline « zéro dépendance » est réellement tenue des deux côtés de la stack.
 
-**Points faibles** — Le projet a *pivoté* d'un modèle « données dans le JS » vers « données en JSON » sans nettoyer derrière lui. Il en reste des scripts et workflows qui pointent vers l'ancien monde, dont un qui tourne en cron toutes les semaines. Et le front n'a pas suivi le back : les données d'équipes et de techniques existent, sont riches et correctement liées, mais **aucune page ne les affiche**.
+**Points faibles** — Le projet a *pivoté* d'un modèle « données dans le JS » vers « données en JSON » sans nettoyer derrière lui. Il en reste des scripts et workflows qui pointent vers l'ancien monde, dont un qui tourne en cron toutes les semaines.
 
-**Le vrai chantier** : combler l'écart entre les données disponibles et les vues existantes. C'est là que le rapport valeur/effort est le meilleur.
+**L'écart front/back est comblé** (PR #55) : les quatre pages entités existent, et le pipeline de techniques a été réparé au passage.
+
+**Le vrai risque, maintenant : les défaillances muettes.** Les bugs des techniques n'ont pas fait de bruit — l'API répondait `200`, le script se terminait sur `[ok]`, la CI était verte, et pourtant 100 % des descriptions étaient vides et deux tiers du catalogue étaient des artefacts. Rien ne l'a signalé pendant des mois.
+
+Ce n'est pas un accident isolé : **le même angle mort existait à un second endroit du pipeline**, sur les équipes, et pour la même raison — la page était chargée, mais personne n'en lisait le contenu. Deux occurrences du même motif dans le même fichier, invisibles l'une comme l'autre. C'est ce qui rend le diagnostic généralisable plutôt qu'anecdotique.
+
+Le pipeline gagnerait des **assertions de qualité en sortie** (« si moins de X % des entrées ont une description, échouer ») bien plus que des tests unitaires. Le garde-fou `minimum_items` de `writers.py` va dans ce sens, mais ne surveille que le volume — jamais la qualité. Un champ vide à 100 % passait sans encombre.
+
+**Le second angle mort est le cache** : sans versionnement des assets, une correction déployée n'atteint pas forcément le visiteur. Un bug corrigé peut donc rester visible en production sans que rien ne l'indique — même famille de problème, autre bout de la chaîne.
 
 **Nouveau depuis le duel (`a7e7d0a`)** — Le projet pivote une seconde fois, cette fois côté infra : d'un site 100 % statique vers un site majoritairement statique avec une brique serveur ciblée. L'implémentation elle-même est propre (autorité serveur, verrouillage de fichier, jetons de session, non-fuite du coup adverse), mais la gouvernance n'a pas suivi : `agents.md` interdit encore, noir sur blanc, ce que le code fait déjà. À corriger avant que d'autres briques serveur n'arrivent sans qu'on ait tranché la question une fois pour toutes.
