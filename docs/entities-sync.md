@@ -44,7 +44,30 @@ Chaque personnage conserve ses champs existants (`slug`, `name`, `image`, `popul
 - `slug`, `name`, `url`, `description`, `image`
 - `japanese_name` : nom en kana/kanji, isolé du champ `name` de l'infobox
 - `first_appearance` : œuvre et chapitre, souvent vide côté wiki
+- `familles` : familles de jeu du duel (`tir`, `construction`, `defense`) —
+  une technique peut en relever de deux
+- `effets` : `{ famille: effet }`, déduit de la sous-catégorie
 - `users`: tableau de pointeurs vers personnages (`slug`, `name`, `url`)
+
+### `assets/data/duel-roster.json`
+
+Fichier dérivé, dédié au mode Équipe du duel (voir `jeu-duel.md`). Un objet par
+personnage possédant au moins une technique rattachée à une famille.
+
+- `slug`, `nom`, `image`, `poste`
+- `familles` : `{ famille: { technique, slug, effet, description } }`
+
+Pour chaque famille, on retient la technique la plus **personnelle** du
+personnage — celle qui compte le moins d'utilisateurs. La rareté sert donc de
+courbe de puissance sans donnée supplémentaire.
+
+La technique dépend du poste, non du personnage seul : Wakabayashi défend avec
+« Uppercut Defense » mais construirait avec « Birdcage ». Une signature unique
+par personnage le rangerait en construction, ce qui est un contresens pour un
+gardien.
+
+Ce fichier évite au serveur du duel de charger `personnages.json` (330 Ko) et
+`techniques.json` à chaque composition d'équipe.
 
 ## Stratégie d'extraction
 
