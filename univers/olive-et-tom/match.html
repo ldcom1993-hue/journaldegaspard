@@ -227,6 +227,12 @@
         <div class="cartouches" id="cartouches" role="group" aria-label="Techniques disponibles" hidden></div>
 
         <!-- Coups -->
+        <div class="coups-entete">
+          <button type="button" id="btn-aide" class="btn-aide" aria-label="Que se passe-t-il selon les coups ?">
+            ?
+          </button>
+        </div>
+
         <div class="coups" role="group" aria-label="Choisir un coup">
           <button type="button" class="coup coup--construire" data-coup="construire">
             <span class="coup-icone" aria-hidden="true"></span>
@@ -250,6 +256,70 @@
         <p class="message-erreur" id="match-erreur" role="alert" hidden></p>
 
         <button type="button" id="btn-abandonner" class="btn-lien">Abandonner le match</button>
+
+        <!-- Aide : <dialog> natif — Échap et clic hors du cadre sont gérés
+             par le navigateur, sans une ligne de script de plus. -->
+        <dialog id="aide" class="aide" aria-labelledby="aide-titre">
+          <div class="aide-entete">
+            <h2 id="aide-titre">Ce que donne chaque duel de coups</h2>
+            <button type="button" id="btn-fermer-aide" class="btn-fermer" aria-label="Fermer">×</button>
+          </div>
+
+          <div class="aide-cadre"><table class="aide-table">
+            <caption>Vos actions et les siennes, selon les deux coups joués.</caption>
+            <thead>
+              <tr>
+                <th scope="col">Votre coup</th>
+                <th scope="col">Le sien</th>
+                <th scope="col">Vos actions</th>
+                <th scope="col">Les siennes</th>
+                <th scope="col">Résultat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Construire</td><td>Construire</td><td class="gain">+1</td><td>+1</td><td>rien</td></tr>
+              <tr><td>Construire</td><td>Tirer</td><td>0</td><td>−1</td><td class="danger">il marque</td></tr>
+              <tr><td>Construire</td><td>Défendre</td><td class="gain">+1</td><td>0</td><td>rien</td></tr>
+              <tr><td>Tirer</td><td>Construire</td><td class="perte">−1</td><td>0</td><td class="but">vous marquez</td></tr>
+              <tr><td>Tirer</td><td>Tirer</td><td class="perte">−1</td><td>−1</td><td>les frappes se croisent</td></tr>
+              <tr><td>Tirer</td><td>Défendre</td><td class="perte">−1</td><td>+1</td><td>il arrête et contre</td></tr>
+              <tr><td>Défendre</td><td>Construire</td><td>0</td><td>+1</td><td>vous défendez dans le vide</td></tr>
+              <tr><td>Défendre</td><td>Tirer</td><td class="gain">+1</td><td>−1</td><td>vous arrêtez et contrez</td></tr>
+              <tr><td>Défendre</td><td>Défendre</td><td>0</td><td>0</td><td>rien</td></tr>
+            </tbody>
+          </table></div>
+
+          <p class="aide-note">
+            Vous gagnez une action en construisant, sauf s'il tire — votre construction est
+            alors perdue et il marque. Vous en gagnez une aussi en défendant contre un tir :
+            c'est la contre-attaque. Tirer coûte toujours une action, quel qu'en soit le
+            résultat. Le compteur ne descend jamais sous zéro.
+          </p>
+
+          <div id="aide-cartouches" hidden>
+            <h3>Ce que changent les techniques</h3>
+            <div class="aide-cadre"><table class="aide-table">
+              <thead>
+                <tr>
+                  <th scope="col">Technique</th>
+                  <th scope="col">Effet</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Une-deux</td><td>+2 actions au lieu de +1 en construisant</td></tr>
+                <tr><td>Parade</td><td>+2 actions au lieu de +1 en contrant un tir</td></tr>
+                <tr><td>Frappe</td><td>le tir coûte 2 actions, mais passe malgré la défense</td></tr>
+                <tr><td>Crochet</td><td>coûte 1 action en construisant, et annule son but</td></tr>
+                <tr><td>Volée</td><td>tirer sans aucune action en réserve</td></tr>
+                <tr><td>Repli</td><td>défendre deux manches de suite</td></tr>
+              </tbody>
+            </table></div>
+            <p class="aide-note">
+              Chaque joueur de votre équipe apporte une technique, utilisable une seule fois
+              dans le match. Elle s'engage sur le coup de sa famille.
+            </p>
+          </div>
+        </dialog>
       </section>
 
       <!-- =================================================================

@@ -94,6 +94,10 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
     matchErreur: $("#match-erreur"),
     boutonsCoup: Array.from(document.querySelectorAll("[data-coup]")),
     cartouches: $("#cartouches"),
+    btnAide: $("#btn-aide"),
+    aide: $("#aide"),
+    btnFermerAide: $("#btn-fermer-aide"),
+    aideCartouches: $("#aide-cartouches"),
 
     postes: $("#postes"),
     btnValiderEquipe: $("#btn-valider-equipe"),
@@ -362,6 +366,9 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
     });
 
     peindreCartouches(nouvelEtat);
+
+    // La table des techniques n'aurait aucun sens en mode classique.
+    dom.aideCartouches.hidden = nouvelEtat.mode !== "equipe";
   }
 
   function peindreFin(nouvelEtat) {
@@ -929,6 +936,19 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
   dom.btnValiderEquipe.addEventListener("click", validerEquipe);
   dom.btnQuitterSelection.addEventListener("click", () => quitter());
   dom.btnAbandonner.addEventListener("click", abandonner);
+
+  // showModal() apporte Échap, le piège à focus et le fond assombri sans
+  // qu'on ait à les écrire.
+  dom.btnAide.addEventListener("click", () => dom.aide.showModal());
+  dom.btnFermerAide.addEventListener("click", () => dom.aide.close());
+
+  // Clic sur le fond : la cible est alors le <dialog> lui-même, jamais son
+  // contenu — c'est ce qui distingue un clic dehors d'un clic dedans.
+  dom.aide.addEventListener("click", (evenement) => {
+    if (evenement.target === dom.aide) {
+      dom.aide.close();
+    }
+  });
   dom.btnNouveau.addEventListener("click", () => quitter());
   dom.btnRevanche.addEventListener("click", demanderRevanche);
 
