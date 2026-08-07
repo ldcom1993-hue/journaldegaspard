@@ -92,6 +92,7 @@ les messages sont rédigés pour être affichés tels quels au joueur.
 | `etat` | `code`, `jeton` | `{ etat }` |
 | `jouer` | `code`, `jeton`, `coup` | `{ etat }` |
 | `composer` | `code`, `jeton`, `tir`, `construction`, `defense` | `{ etat }` |
+| `abandonner` | `code`, `jeton` | `{ etat }` |
 | `rejouer` | `code`, `jeton` | `{ etat }` |
 
 ### Sécurité
@@ -111,6 +112,19 @@ les messages sont rédigés pour être affichés tels quels au joueur.
 - Codes de partie sans `O`/`0` ni `I`/`1` — dictables à l'oral sans ambiguïté.
 - Purge automatique des parties inactives depuis 6 h, déclenchée au hasard sur
   1 requête sur 25 pour ne pas parcourir le dossier à chaque polling.
+
+### Abandon
+
+Quitter une partie en cours passe par `abandonner` : le match s'achève et
+l'adversaire l'emporte. Effacer la session côté client suffirait à s'en aller,
+mais laisserait l'autre devant un écran d'attente que rien ne viendrait clore.
+
+L'état porte un drapeau `abandon` avec l'index du joueur parti, pour que
+l'écran de fin annonce un abandon plutôt qu'une victoire au score qui n'a pas
+eu lieu. La revanche le remet à zéro.
+
+Abandonner seul en salon est refusé : la partie n'a pas commencé, il n'y a rien
+à concéder. Abandonner deux fois ne produit ni effet ni erreur.
 
 ---
 

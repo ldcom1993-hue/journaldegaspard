@@ -1,0 +1,44 @@
+# Journal de Gaspard — politique de cache (Apache, hébergement OVH)
+#
+# Le site n'a pas de build step, donc aucun moyen d'apposer une empreinte au
+# nom des fichiers : `style.css` déployé aujourd'hui porte le même nom
+# qu'hier. Sans en-tête explicite, Apache laisse le navigateur appliquer sa
+# propre heuristique et conserver un fichier pendant des heures — un correctif
+# mis en ligne n'atteint alors pas forcément le visiteur.
+#
+# La règle retenue : le code et les données se revalident à chaque visite, les
+# images se mettent en cache longuement. Une revalidation ne coûte qu'un aller-
+# retour à vide quand rien n'a changé (304), ce qui est négligeable ici.
+
+<IfModule mod_headers.c>
+
+  # Code et données : toujours vérifier auprès du serveur avant de réutiliser.
+  <FilesMatch "\.(html|js|css|json)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+
+  # L'API du duel gère déjà ses propres en-têtes ; ne pas les écraser.
+  <FilesMatch "\.php$">
+    Header unset Cache-Control
+  </FilesMatch>
+
+  # Images : leur nom change quand leur contenu change (slug du personnage),
+  # et elles pèsent 12 Mo. Un an de cache, révocable par un renommage.
+  <FilesMatch "\.(png|jpe?g|gif|svg|webp|ico|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+</IfModule>
+
+# Repli si mod_headers est absent : au moins ne pas mettre en cache le code.
+<IfModule !mod_headers.c>
+  <IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType text/css "access plus 0 seconds"
+    ExpiresByType application/javascript "access plus 0 seconds"
+    ExpiresByType application/json "access plus 0 seconds"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+  </IfModule>
+</IfModule>

@@ -6,6 +6,15 @@ on:
       - main
   workflow_dispatch:
 
+# Les déploiements se suivent au lieu de se chevaucher. cancel-in-progress
+# reste à false, et c'est le point important : annuler laisserait la
+# production sur un commit intermédiaire. C'est exactement ce qui s'est
+# produit le 6 août, deux fusions à 28 secondes d'écart n'ayant donné qu'un
+# seul déploiement — sur le premier des deux commits.
+concurrency:
+  group: deploy-ovh
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
