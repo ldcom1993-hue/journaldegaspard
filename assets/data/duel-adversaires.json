@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "olympic-japan",
+    "nom": "Olympic Japan",
+    "type": "national",
+    "effectif": [
+      "gakuto-igawa",
+      "genzo-wakabayashi",
+      "hanji-urabe",
+      "hikaru-matsuyama",
+      "hiroshi-jito",
+      "jun-misugi",
+      "kazuki-sorimachi",
+      "ken-wakashimazu",
+      "kojiro-hyuga",
+      "makoto-soda",
+      "mamoru-izawa",
+      "mitsuru-sano",
+      "shingo-aoi",
+      "shun-nitta",
+      "takeshi-sawada",
+      "taro-misaki",
+      "teppei-kisugi",
+      "tsubasa-ozora",
+      "yuzo-morisaki"
+    ]
+  },
+  {
+    "slug": "all-japan-youth",
+    "nom": "All Japan Youth",
+    "type": "national",
+    "effectif": [
+      "genzo-wakabayashi",
+      "hanji-urabe",
+      "hiroshi-jito",
+      "kazuki-sorimachi",
+      "ken-wakashimazu",
+      "kojiro-hyuga",
+      "makoto-soda",
+      "mamoru-izawa",
+      "mitsuru-sano",
+      "shingo-takasugi",
+      "shun-nitta",
+      "takeshi-kishida",
+      "takeshi-sawada",
+      "taro-misaki",
+      "tsubasa-ozora"
+    ]
+  },
+  {
+    "slug": "all-japan-jr-youth",
+    "nom": "All Japan Jr. Youth",
+    "type": "national",
+    "effectif": [
+      "genzo-wakabayashi",
+      "hiroshi-jito",
+      "kazuki-sorimachi",
+      "ken-wakashimazu",
+      "kojiro-hyuga",
+      "makoto-soda",
+      "mamoru-izawa",
+      "mitsuru-sano",
+      "shun-nitta",
+      "takeshi-sawada",
+      "taro-misaki",
+      "teppei-kisugi",
+      "tsubasa-ozora"
+    ]
+  },
+  {
+    "slug": "nankatsu-sc",
+    "nom": "Nankatsu SC",
+    "type": "club",
+    "effectif": [
+      "genzo-wakabayashi",
+      "hajime-taki",
+      "hanji-urabe",
+      "mamoru-izawa",
+      "shingo-takasugi",
+      "shun-nitta",
+      "takeshi-kishida",
+      "taro-misaki",
+      "teppei-kisugi",
+      "tsubasa-ozora",
+      "yuzo-morisaki"
+    ]
+  },
+  {
+    "slug": "nankatsu-high-school",
+    "nom": "Nankatsu High School",
+    "type": "school",
+    "effectif": [
+      "hajime-taki",
+      "hanji-urabe",
+      "mamoru-izawa",
+      "shingo-takasugi",
+      "shun-nitta",
+      "takeshi-kishida",
+      "taro-misaki",
+      "teppei-kisugi",
+      "yuzo-morisaki"
+    ]
+  },
+  {
+    "slug": "olympic-brazil",
+    "nom": "Olympic Brazil",
+    "type": "national",
+    "effectif": [
+      "alberto",
+      "carlos-santana",
+      "luciano-leo",
+      "natureza",
+      "pepe",
+      "radunga",
+      "rivaul",
+      "roberto-carolus",
+      "roberto-hongo"
+    ]
+  },
+  {
+    "slug": "brazil-youth",
+    "nom": "Brazil Youth",
+    "type": "national",
+    "effectif": [
+      "alberto",
+      "carlos-santana",
+      "luciano-leo",
+      "natureza",
+      "pepe",
+      "roberto-hongo",
+      "tsubasa-ozora"
+    ]
+  },
+  {
+    "slug": "germany-youth",
+    "nom": "Germany Youth",
+    "type": "national",
+    "effectif": [
+      "deuter-muller",
+      "franz-schester",
+      "genzo-wakabayashi",
+      "hermann-kaltz",
+      "karl-heinz-schneider",
+      "manfred-margus"
+    ]
+  },
+  {
+    "slug": "nankatsu-middle-school",
+    "nom": "Nankatsu Middle School",
+    "type": "school",
+    "effectif": [
+      "hajime-taki",
+      "mamoru-izawa",
+      "shingo-takasugi",
+      "teppei-kisugi",
+      "tsubasa-ozora",
+      "yuzo-morisaki"
+    ]
+  },
+  {
+    "slug": "olympic-germany",
+    "nom": "Olympic Germany",
+    "type": "national",
+    "effectif": [
+      "deuter-muller",
+      "franz-schester",
+      "hermann-kaltz",
+      "karl-heinz-schneider",
+      "manfred-margus",
+      "schweil-teigerbran"
+    ]
+  },
+  {
+    "slug": "shutetsu-elementary-school",
+    "nom": "Shutetsu Elementary School",
+    "type": "school",
+    "effectif": [
+      "genzo-wakabayashi",
+      "hajime-taki",
+      "mamoru-izawa",
+      "teppei-kisugi",
+      "tsubasa-ozora",
+      "yuzo-morisaki"
+    ]
+  },
+  {
+    "slug": "toho-academy-high-school",
+    "nom": "Toho Academy High School",
+    "type": "school",
+    "effectif": [
+      "kazuki-sorimachi",
+      "ken-wakashimazu",
+      "kojiro-hyuga",
+      "takeshi-sawada",
+      "taro-misaki"
+    ]
+  },
+  {
+    "slug": "fc-bayern-munich",
+    "nom": "FC Bayern Munich",
+    "type": "club",
+    "effectif": [
+      "genzo-wakabayashi",
+      "karl-heinz-schneider",
+      "stefan-levin",
+      "xiao-junguang"
+    ]
+  },
+  {
+    "slug": "meiwa-fc",
+    "nom": "Meiwa FC",
+    "type": "club",
+    "effectif": [
+      "ken-wakashimazu",
+      "kojiro-hyuga",
+      "takeshi-sawada",
+      "taro-misaki"
+    ]
+  },
+  {
+    "slug": "sao-paulo-fc",
+    "nom": "Sao Paulo FC",
+    "type": "club",
+    "effectif": [
+      "pepe",
+      "radunga",
+      "roberto-hongo",
+      "tsubasa-ozora"
+    ]
+  },
+  {
+    "slug": "toho-academy-middle-school",
+    "nom": "Toho Academy Middle School",
+    "type": "school",
+    "effectif": [
+      "kazuki-sorimachi",
+      "ken-wakashimazu",
+      "kojiro-hyuga",
+      "takeshi-sawada"
+    ]
+  },
+  {
+    "slug": "argentina-youth",
+    "nom": "Argentina Youth",
+    "type": "national",
+    "effectif": [
+      "alan-pascal",
+      "galvan",
+      "juan-diaz"
+    ]
+  },
+  {
+    "slug": "germany-jr-youth",
+    "nom": "Germany Jr. Youth",
+    "type": "national",
+    "effectif": [
+      "deuter-muller",
+      "franz-schester",
+      "hermann-kaltz"
+    ]
+  },
+  {
+    "slug": "juventus-fc",
+    "nom": "Juventus FC",
+    "type": "club",
+    "effectif": [
+      "davi",
+      "kojiro-hyuga",
+      "salvatore-gentile"
+    ]
+  },
+  {
+    "slug": "olympic-argentina",
+    "nom": "Olympic Argentina",
+    "type": "national",
+    "effectif": [
+      "alan-pascal",
+      "galvan",
+      "juan-diaz"
+    ]
+  },
+  {
+    "slug": "real-madrid-cf",
+    "nom": "Real Madrid CF",
+    "type": "club",
+    "effectif": [
+      "michael",
+      "natureza",
+      "roberto-carolus"
+    ]
+  },
+  {
+    "slug": "sv-werder-bremen",
+    "nom": "SV Werder Bremen",
+    "type": "club",
+    "effectif": [
+      "franz-schester",
+      "manfred-margus",
+      "ramon-victorino"
+    ]
+  }
+]

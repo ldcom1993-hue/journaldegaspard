@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+from itertools import permutations
 from pathlib import Path
 from typing import Any
 
@@ -48,6 +49,10 @@ PERSONNAGES_JSON = Path("assets/data/personnages.json")
 EQUIPES_JSON = Path("assets/data/equipes.json")
 TECHNIQUES_JSON = Path("assets/data/techniques.json")
 DUEL_ROSTER_JSON = Path("assets/data/duel-roster.json")
+DUEL_ADVERSAIRES_JSON = Path("assets/data/duel-adversaires.json")
+
+# Les trois postes d'une équipe du mode Équipe, dans l'ordre.
+FAMILLES_DUEL = ("tir", "construction", "defense")
 
 TEAM_CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
 
@@ -181,6 +186,51 @@ def construire_roster_duel(
         })
 
     return sorted(roster, key=lambda entry: str(entry["nom"]).lower())
+
+
+def construire_adversaires_duel(
+    equipes: list[dict[str, Any]],
+    roster: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """
+    Recense les équipes réelles que l'ordinateur peut aligner dans le duel.
+
+    Une équipe est retenue si trois de ses joueurs distincts couvrent les trois
+    familles. La contrainte est moins sévère qu'il n'y paraît : sur les équipes
+    écartées, presque toutes le sont faute de trois personnages jouables, et
+    non par déséquilibre des familles.
+
+    Ce fichier dérivé évite au serveur du duel de charger equipes.json (104 Ko)
+    pour composer l'équipe adverse.
+    """
+    jouables = {p["slug"] for p in roster}
+    par_slug = {p["slug"]: p for p in roster}
+    adversaires: list[dict[str, Any]] = []
+
+    for equipe in equipes:
+        effectif = [j["slug"] for j in equipe.get("players", []) if j["slug"] in jouables]
+
+        if len(effectif) < len(FAMILLES_DUEL):
+            continue
+
+        # L'effectif est trop petit pour justifier autre chose qu'un parcours
+        # exhaustif des trios possibles.
+        composable = any(
+            all(FAMILLES_DUEL[rang] in par_slug[slug]["familles"] for rang, slug in enumerate(trio))
+            for trio in permutations(effectif, len(FAMILLES_DUEL))
+        )
+
+        if not composable:
+            continue
+
+        adversaires.append({
+            "slug": equipe["slug"],
+            "nom": equipe["name"],
+            "type": equipe.get("type", ""),
+            "effectif": sorted(effectif),
+        })
+
+    return sorted(adversaires, key=lambda entry: -len(entry["effectif"]))
 
 
 def is_invalid_team_name(name: str) -> bool:
@@ -474,13 +524,16 @@ def main() -> None:
     )
 
     roster_duel = construire_roster_duel(personnages_sorted, techniques)
+    adversaires_duel = construire_adversaires_duel(equipes, roster_duel)
 
     safe_write_non_empty_list(EQUIPES_JSON, equipes, minimum_items=1, label="equipes.json")
     safe_write_non_empty_list(TECHNIQUES_JSON, techniques, minimum_items=1, label="techniques.json")
     safe_write_non_empty_list(PERSONNAGES_JSON, personnages_sorted, minimum_items=50, label="personnages.json")
     safe_write_non_empty_list(DUEL_ROSTER_JSON, roster_duel, minimum_items=20, label="duel-roster.json")
+    safe_write_non_empty_list(DUEL_ADVERSAIRES_JSON, adversaires_duel, minimum_items=5, label="duel-adversaires.json")
 
     print(f"[ok] wrote {len(roster_duel)} duel roster entries")
+    print(f"[ok] wrote {len(adversaires_duel)} duel opponents")
     print(f"[ok] wrote {len(equipes)} teams")
     print(f"[ok] wrote {len(techniques)} techniques")
     print(f"[ok] updated {len(personnages_sorted)} characters")

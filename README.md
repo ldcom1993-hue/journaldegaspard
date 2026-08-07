@@ -29,8 +29,16 @@ python scripts/sync_entities.py
 
 - `sync_personnages.py` : collecte de base des personnages.
 - `scripts/sync_entities.py` : enrichissement équipes/techniques, et génération
-  de `equipes.json`, `techniques.json` et `duel-roster.json` (le vivier du mode
-  Équipe du duel).
+  de `equipes.json`, `techniques.json`, `duel-roster.json` (le vivier du mode
+  Équipe du duel) et `duel-adversaires.json` (les équipes que l'ordinateur peut
+  aligner).
+
+Un script de test, jamais déployé, mesure la qualité de l'adversaire du duel :
+
+```bash
+php -S localhost:8100          # dans un terminal
+python scripts/solve_duel.py   # dans un autre
+```
 
 ## Documentation
 

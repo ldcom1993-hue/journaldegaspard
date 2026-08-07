@@ -87,7 +87,7 @@ les messages sont rédigés pour être affichés tels quels au joueur.
 
 | Action | Paramètres | Réponse |
 |---|---|---|
-| `creer` | `mode` (`classique` \| `equipe`) | `{ code, jeton, joueurId, etat }` |
+| `creer` | `mode` (`classique` \| `equipe`), `adversaire` (`humain` \| `ordinateur`), `difficulte` | `{ code, jeton, joueurId, etat }` |
 | `rejoindre` | `code` | `{ code, jeton, joueurId, etat }` |
 | `etat` | `code`, `jeton` | `{ etat }` |
 | `jouer` | `code`, `jeton`, `coup` | `{ etat }` |
@@ -112,6 +112,60 @@ les messages sont rédigés pour être affichés tels quels au joueur.
 - Codes de partie sans `O`/`0` ni `I`/`1` — dictables à l'oral sans ambiguïté.
 - Purge automatique des parties inactives depuis 6 h, déclenchée au hasard sur
   1 requête sur 25 pour ne pas parcourir le dossier à chaque polling.
+
+### Jouer seul
+
+`?action=creer&adversaire=ordinateur` installe l'ordinateur en seconde place
+dès la création : ni code à transmettre, ni salon d'attente. En mode Équipe il
+compose aussitôt, et l'humain garde son écran de draft.
+
+**L'ordinateur simule le vrai moteur.** À chaque tour il énumère ses actions
+légales et celles de l'humain, appelle `resoudreMancheEquipe()` sur chaque
+paire — ces fonctions sont pures — et note l'état obtenu. La matrice ainsi
+formée passe au *regret matching*, qui en tire une stratégie mixte.
+
+Cette bascule est ce qui rend l'adversaire tenable : on n'encode pas « que
+jouer », seulement « cette position est-elle bonne ». Le mode Équipe n'a donc
+demandé aucun code supplémentaire — l'ensemble des actions grandit, la matrice
+avec — et un effet ajouté demain rendra l'ordinateur compétent dessus sans
+qu'on y touche.
+
+Une stratégie déterministe serait lisible en trois manches : le duel se joue à
+coups simultanés, il faut donc mixer. La difficulté est la part de calcul face
+au hasard — facile 0,35, normal 0,7, difficile 1.
+
+⚠️ **`coupDuBot()` est appelée avant que le coup humain ne soit posé**, tout en
+haut de la transformation de `actionJouer`. Déplacer ce bloc plus bas lui
+donnerait accès au coup d'en face : indétectable de l'extérieur, et le jeu
+n'aurait plus d'intérêt. Un test mesure la distribution de ses coups depuis une
+position mixte et vérifie qu'elle ne bouge pas selon ce qu'on joue.
+
+**L'adversaire aligne une vraie équipe.** `assets/data/duel-adversaires.json`
+recense les 22 équipes de la série capables de couvrir les trois postes — sur
+les 80 écartées, presque toutes le sont faute de trois personnages jouables, et
+non par déséquilibre des familles. Affronter « Olympic Japan » ou « Nankatsu »
+vaut mieux que trois inconnus tirés au sort.
+
+### Mesurer la qualité de l'ordinateur
+
+`scripts/solve_duel.py`, jamais déployé, résout le mode classique — quelques
+milliers d'états seulement — et fait jouer le bot de production contre ce
+joueur de référence. C'est le seul critère chiffré ; « ça a l'air de bien
+jouer » n'en est pas un.
+
+| Difficulté | Parties gagnées par le bot |
+|---|---|
+| Facile | 28 % |
+| Normal | 41 % |
+| Difficile | 53 % |
+
+Ces mesures ont servi à régler la fonction d'évaluation : le poids de la
+différence d'actions est passé de 10 à 20 après comparaison, ce qui a fait
+gagner une quinzaine de points au niveau difficile.
+
+Le joueur de référence est fort, sans être prouvé optimal — l'itération de
+valeur est amortie et tronquée. Ces chiffres situent le bot, ils ne le
+certifient pas.
 
 ### Abandon
 

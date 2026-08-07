@@ -69,6 +69,15 @@ gardien.
 Ce fichier évite au serveur du duel de charger `personnages.json` (330 Ko) et
 `techniques.json` à chaque composition d'équipe.
 
+### `assets/data/duel-adversaires.json`
+
+Les équipes réelles que l'ordinateur peut aligner en mode Équipe : `slug`,
+`nom`, `type` et `effectif` (les membres présents au vivier).
+
+Une équipe n'est retenue que si trois de ses joueurs distincts couvrent les
+trois familles — 22 des 102. Presque toutes les écartées le sont faute de trois
+personnages jouables, et non par déséquilibre des familles.
+
 ## Stratégie d'extraction
 
 ### Équipes
