@@ -615,6 +615,333 @@ function marquerCartoucheUtilisee(array $joueur, string $effet): array
 }
 
 // ---------------------------------------------------------------------------
+// Adversaire piloté par le serveur
+// ---------------------------------------------------------------------------
+
+/** Part de hasard selon la difficulté : 1 = joue toujours son calcul. */
+const DIFFICULTES = [
+    'facile' => 0.35,
+    'normal' => 0.70,
+    'difficile' => 1.0,
+];
+
+/** Itérations de regret matching. 300 suffisent amplement sur une 6×6. */
+const ITERATIONS_REGRET = 300;
+
+/** Équipes réelles que l'ordinateur peut aligner en mode Équipe. */
+const FICHIER_ADVERSAIRES = __DIR__ . '/../assets/data/duel-adversaires.json';
+
+/**
+ * Compose l'équipe de l'ordinateur à partir d'une vraie équipe de la série.
+ *
+ * Affronter « le Japon olympique » ou « Nankatsu » donne un adversaire qui a
+ * une identité, là où trois personnages tirés au hasard n'en ont aucune.
+ *
+ * @return array{0: array, 1: string} la composition, et le nom de l'équipe
+ */
+function composerEquipeBot(): array
+{
+    $brut = @file_get_contents(FICHIER_ADVERSAIRES);
+    $adversaires = json_decode($brut !== false ? $brut : '', true);
+
+    if (!is_array($adversaires) || $adversaires === []) {
+        echouer("Le catalogue des adversaires est indisponible.", 500);
+    }
+
+    $equipe = $adversaires[random_int(0, count($adversaires) - 1)];
+    $roster = chargerRoster();
+    $effectif = $equipe['effectif'];
+    shuffle($effectif);
+
+    // Recherche exhaustive plutôt que gloutonne : prendre pour chaque poste le
+    // premier joueur venu échouerait dès qu'un titulaire est le seul à couvrir
+    // deux postes — cas courant sur les équipes à trois joueurs jouables. Un
+    // effectif dépasse rarement vingt noms, le parcours complet est immédiat.
+    // L'ordre étant mélangé, la première solution trouvée varie d'une partie
+    // à l'autre.
+    $choix = trouverComposition($effectif, $roster);
+
+    if ($choix === null) {
+        echouer("L'ordinateur n'a pas pu composer son équipe.", 500);
+    }
+
+    return [composerEquipe($choix), (string) $equipe['nom']];
+}
+
+/**
+ * Cherche trois joueurs distincts couvrant les trois postes.
+ *
+ * @return array|null famille => slug, ou null si l'effectif ne le permet pas
+ */
+function trouverComposition(array $effectif, array $roster, array $choix = []): ?array
+{
+    $famille = FAMILLES[count($choix)] ?? null;
+
+    if ($famille === null) {
+        return $choix;
+    }
+
+    foreach ($effectif as $slug) {
+        if (in_array($slug, $choix, true)) {
+            continue;
+        }
+
+        if (!isset($roster[$slug]['familles'][$famille])) {
+            continue;
+        }
+
+        $suite = trouverComposition($effectif, $roster, $choix + [$famille => $slug]);
+
+        if ($suite !== null) {
+            return $suite;
+        }
+    }
+
+    return null;
+}
+
+/**
+ * Note une position du point de vue de $moi. Seul endroit réglé à la main :
+ * le bot ne sait pas quoi jouer, il sait seulement reconnaître une bonne
+ * position — et laisse le moteur lui dire où chaque coup le mène.
+ */
+function evaluerEtat(array $moi, array $lui): float
+{
+    $mesButs = (int) $moi['buts'];
+    $sesButs = (int) $lui['buts'];
+
+    if ($mesButs >= BUTS_POUR_GAGNER) {
+        return 10000.0;
+    }
+
+    if ($sesButs >= BUTS_POUR_GAGNER) {
+        return -10000.0;
+    }
+
+    $note = 100.0 * ($mesButs - $sesButs);
+    $note += 20.0 * ((int) $moi['points'] - (int) $lui['points']);
+
+    // Une cartouche encore en main vaut quelque chose. Sans ce terme, un bot
+    // qui ne voit qu'un coup devant lui brûlerait ses trois techniques dans
+    // les trois premières manches, faute de raison de les garder.
+    $note += 15.0 * (cartouchesRestantes($moi) - cartouchesRestantes($lui));
+
+    // Être à sec juste après avoir défendu ne laisse qu'un coup légal :
+    // l'adversaire le sait, la position est donc mauvaise.
+    $note -= (int) $moi['points'] === 0 && ($moi['dernierCoup'] ?? null) === 'defendre' ? 20.0 : 0.0;
+    $note += (int) $lui['points'] === 0 && ($lui['dernierCoup'] ?? null) === 'defendre' ? 20.0 : 0.0;
+
+    return $note;
+}
+
+function cartouchesRestantes(array $joueur): int
+{
+    $restantes = 0;
+
+    foreach ($joueur['equipe'] ?? [] as $carte) {
+        if (empty($carte['utilisee'])) {
+            $restantes++;
+        }
+    }
+
+    return $restantes;
+}
+
+/**
+ * Énumère les actions légales d'un joueur : un coup, éventuellement porteur
+ * d'une cartouche. Réutilise les mêmes règles que le client, ce qui garantit
+ * que le bot ne peut pas jouer ce qu'un humain ne pourrait pas jouer.
+ *
+ * @return array liste de ['coup' => string, 'cartouche' => string]
+ */
+function actionsPossibles(array $joueur, string $mode): array
+{
+    $actions = [];
+
+    foreach (coupsAutorises($joueur) as $coup) {
+        $actions[] = ['coup' => $coup, 'cartouche' => ''];
+
+        if ($mode !== 'equipe') {
+            continue;
+        }
+
+        foreach (cartouchesAutorisees($joueur, $coup) as $effet) {
+            $actions[] = ['coup' => $coup, 'cartouche' => $effet];
+        }
+    }
+
+    return $actions;
+}
+
+/**
+ * Simule chaque paire d'actions et note l'état obtenu, du point de vue du bot.
+ *
+ * C'est le cœur de l'approche : plutôt que de coder une politique de jeu, on
+ * appelle la vraie résolution — qui est pure — et on évalue le résultat. Le
+ * mode Équipe ne demande donc aucun code de plus : l'ensemble des actions
+ * grandit, la matrice avec.
+ */
+function matriceGains(array $bot, array $humain, array $sesActions, array $mesActions, string $mode): array
+{
+    $matrice = [];
+
+    foreach ($mesActions as $i => $mien) {
+        foreach ($sesActions as $j => $sien) {
+            $a = $bot;
+            $b = $humain;
+            $a['coup'] = $mien['coup'];
+            $a['cartouche'] = $mien['cartouche'] !== '' ? $mien['cartouche'] : null;
+            $b['coup'] = $sien['coup'];
+            $b['cartouche'] = $sien['cartouche'] !== '' ? $sien['cartouche'] : null;
+
+            list($apresMoi, $apresLui) = $mode === 'equipe'
+                ? resoudreMancheEquipe($a, $b)
+                : resoudreManche($a, $b);
+
+            $matrice[$i][$j] = evaluerEtat($apresMoi, $apresLui);
+        }
+    }
+
+    return $matrice;
+}
+
+/**
+ * Approche l'équilibre d'un jeu matriciel à somme nulle par regret matching.
+ *
+ * Le duel se joue à coups simultanés : toute stratégie déterministe y est
+ * exploitable dès qu'on l'a repérée. Il faut donc une stratégie mixte, et
+ * celle-ci se calcule sans dépendance ni solveur linéaire.
+ *
+ * @return array probabilités, une par action du bot
+ */
+function regretMatching(array $matrice): array
+{
+    $nbMiennes = count($matrice);
+    $nbSiennes = count($matrice[0] ?? []);
+
+    if ($nbMiennes === 0 || $nbSiennes === 0) {
+        return [];
+    }
+
+    $regretsMoi = array_fill(0, $nbMiennes, 0.0);
+    $regretsLui = array_fill(0, $nbSiennes, 0.0);
+    $cumulMoi = array_fill(0, $nbMiennes, 0.0);
+
+    for ($tour = 0; $tour < ITERATIONS_REGRET; $tour++) {
+        $moi = strategieDepuisRegrets($regretsMoi);
+        $lui = strategieDepuisRegrets($regretsLui);
+
+        foreach ($moi as $i => $p) {
+            $cumulMoi[$i] += $p;
+        }
+
+        // Valeur de chaque action si l'autre joue sa stratégie courante.
+        $valeurMoi = array_fill(0, $nbMiennes, 0.0);
+        $valeurLui = array_fill(0, $nbSiennes, 0.0);
+
+        for ($i = 0; $i < $nbMiennes; $i++) {
+            for ($j = 0; $j < $nbSiennes; $j++) {
+                $valeurMoi[$i] += $lui[$j] * $matrice[$i][$j];
+                $valeurLui[$j] -= $moi[$i] * $matrice[$i][$j];
+            }
+        }
+
+        $attenduMoi = 0.0;
+        foreach ($moi as $i => $p) {
+            $attenduMoi += $p * $valeurMoi[$i];
+        }
+
+        $attenduLui = 0.0;
+        foreach ($lui as $j => $p) {
+            $attenduLui += $p * $valeurLui[$j];
+        }
+
+        for ($i = 0; $i < $nbMiennes; $i++) {
+            $regretsMoi[$i] += $valeurMoi[$i] - $attenduMoi;
+        }
+
+        for ($j = 0; $j < $nbSiennes; $j++) {
+            $regretsLui[$j] += $valeurLui[$j] - $attenduLui;
+        }
+    }
+
+    // La moyenne des stratégies converge vers l'équilibre, pas la dernière.
+    $total = array_sum($cumulMoi);
+
+    if ($total <= 0.0) {
+        return array_fill(0, $nbMiennes, 1.0 / $nbMiennes);
+    }
+
+    return array_map(static fn ($valeur) => $valeur / $total, $cumulMoi);
+}
+
+/** Regrets positifs normalisés, uniforme s'il n'y en a aucun. */
+function strategieDepuisRegrets(array $regrets): array
+{
+    $positifs = array_map(static fn ($r) => max(0.0, $r), $regrets);
+    $somme = array_sum($positifs);
+
+    if ($somme <= 0.0) {
+        return array_fill(0, count($regrets), 1.0 / max(1, count($regrets)));
+    }
+
+    return array_map(static fn ($r) => $r / $somme, $positifs);
+}
+
+/** Tire un index au hasard selon une distribution de probabilités. */
+function tirerSelon(array $probabilites): int
+{
+    $seuil = random_int(0, PHP_INT_MAX - 1) / PHP_INT_MAX;
+    $cumul = 0.0;
+
+    foreach ($probabilites as $index => $p) {
+        $cumul += $p;
+        if ($seuil <= $cumul) {
+            return (int) $index;
+        }
+    }
+
+    return count($probabilites) - 1;
+}
+
+/**
+ * Choisit le coup de l'ordinateur.
+ *
+ * ⚠️ À n'appeler qu'avec un état où le coup humain n'est PAS encore posé.
+ * Le bot doit décider à l'aveugle, comme un joueur : lire le coup d'en face
+ * serait indétectable de l'extérieur et rendrait le jeu sans intérêt.
+ */
+function coupDuBot(array $partie, int $botId): array
+{
+    $mode = $partie['mode'] ?? 'classique';
+    $bot = $partie['joueurs'][$botId];
+    $humain = $partie['joueurs'][1 - $botId];
+
+    $mesActions = actionsPossibles($bot, $mode);
+    $sesActions = actionsPossibles($humain, $mode);
+
+    if ($mesActions === []) {
+        return ['coup' => 'construire', 'cartouche' => ''];
+    }
+
+    $part = DIFFICULTES[$bot['difficulte'] ?? 'normal'] ?? DIFFICULTES['normal'];
+
+    // La part de hasard est ce qui rend le bot abordable : au niveau facile,
+    // deux coups sur trois sont tirés à l'aveugle.
+    if ($sesActions === [] || (random_int(0, 999) / 1000) >= $part) {
+        return $mesActions[random_int(0, count($mesActions) - 1)];
+    }
+
+    $probabilites = regretMatching(matriceGains($bot, $humain, $sesActions, $mesActions, $mode));
+
+    if ($probabilites === []) {
+        return $mesActions[random_int(0, count($mesActions) - 1)];
+    }
+
+    return $mesActions[tirerSelon($probabilites)];
+}
+
+// ---------------------------------------------------------------------------
 // Sérialisation vers le client
 // ---------------------------------------------------------------------------
 
@@ -649,6 +976,7 @@ function projeter(array $partie, int $moiId): array
         'version' => (int) $partie['version'],
         'statut' => $partie['statut'],
         'mode' => $mode,
+        'solo' => !empty($partie['solo']),
         'manche' => (int) $partie['manche'],
         'butsPourGagner' => (int) $partie['butsPourGagner'],
         'joueurId' => $moiId,
@@ -705,7 +1033,9 @@ function identifierJoueur(array $partie, string $jeton): int
     }
 
     foreach ($partie['joueurs'] as $index => $joueur) {
-        if (hash_equals((string) $joueur['jeton'], $jeton)) {
+        // Le jeton du bot ne sort jamais : personne ne peut donc le présenter,
+        // et on l'écarte explicitement plutôt que de compter là-dessus.
+        if (empty($joueur['bot']) && hash_equals((string) $joueur['jeton'], $jeton)) {
             return (int) $index;
         }
     }
@@ -766,6 +1096,17 @@ function actionCreer(): void
         echouer("Mode de jeu inconnu.");
     }
 
+    $adversaire = parametre('adversaire', 'humain');
+    $difficulte = parametre('difficulte', 'normal');
+
+    if (!in_array($adversaire, ['humain', 'ordinateur'], true)) {
+        echouer("Type d'adversaire inconnu.");
+    }
+
+    if (!isset(DIFFICULTES[$difficulte])) {
+        echouer("Difficulté inconnue.");
+    }
+
     $code = genererCode();
     $hote = nouveauJoueur('Joueur 1');
 
@@ -779,10 +1120,30 @@ function actionCreer(): void
         'manche' => 1,
         'butsPourGagner' => BUTS_POUR_GAGNER,
         'joueurs' => [$hote],
+        'solo' => $adversaire === 'ordinateur',
         'derniereManche' => null,
         'vainqueur' => null,
         'abandon' => null,
     ];
+
+    // Partie solo : l'ordinateur prend la seconde place tout de suite, il n'y
+    // a donc ni code à transmettre ni salon d'attente.
+    if ($adversaire === 'ordinateur') {
+        $bot = nouveauJoueur('Ordinateur');
+        $bot['bot'] = true;
+        $bot['difficulte'] = $difficulte;
+
+        if ($mode === 'equipe') {
+            list($equipeBot, $nomEquipe) = composerEquipeBot();
+            $bot['equipe'] = $equipeBot;
+            $bot['nom'] = $nomEquipe;
+            $partie['statut'] = 'selection';
+        } else {
+            $partie['statut'] = 'en-cours';
+        }
+
+        $partie['joueurs'][] = $bot;
+    }
 
     $encode = json_encode($partie, JSON_UNESCAPED_UNICODE);
     if (file_put_contents(cheminPartie($code), $encode, LOCK_EX) === false) {
@@ -808,6 +1169,10 @@ function actionRejoindre(): void
     $invite = nouveauJoueur('Joueur 2');
 
     $partie = modifierPartie($code, function (array $partie) use ($invite): array {
+        if (!empty($partie['solo'])) {
+            echouer("Cette partie se joue contre l'ordinateur.", 409);
+        }
+
         if (count($partie['joueurs']) >= 2) {
             echouer("Cette partie est déjà complète.", 409);
         }
@@ -943,6 +1308,21 @@ function actionJouer(): void
             }
         }
 
+        // ⚠️ ORDRE CRITIQUE — l'ordinateur choisit AVANT que le coup humain ne
+        // soit posé. Déplacer ce bloc sous l'affectation suivante lui donnerait
+        // accès au coup d'en face : indétectable de l'extérieur, et le jeu
+        // n'aurait plus aucun intérêt.
+        $adverseId = 1 - $moiId;
+
+        if (!empty($partie['joueurs'][$adverseId]['bot'])
+            && $partie['joueurs'][$adverseId]['coup'] === null) {
+            $sien = coupDuBot($partie, $adverseId);
+            $partie['joueurs'][$adverseId]['coup'] = $sien['coup'];
+            $partie['joueurs'][$adverseId]['cartouche'] = $sien['cartouche'] !== ''
+                ? $sien['cartouche']
+                : null;
+        }
+
         $partie['joueurs'][$moiId]['coup'] = $coup;
         $partie['joueurs'][$moiId]['cartouche'] = $cartouche !== '' ? $cartouche : null;
 
@@ -1039,6 +1419,14 @@ function actionRejouer(): void
         }
 
         $partie['joueurs'][$moiId]['revanche'] = true;
+
+        // L'ordinateur ne refuse jamais une revanche : attendre son accord
+        // bloquerait la partie pour toujours.
+        foreach ($partie['joueurs'] as $index => $joueur) {
+            if (!empty($joueur['bot'])) {
+                $partie['joueurs'][$index]['revanche'] = true;
+            }
+        }
 
         // Les deux joueurs sont d'accord : on remet le score à zéro.
         if (!empty($partie['joueurs'][0]['revanche']) && !empty($partie['joueurs'][1]['revanche'])) {

@@ -70,6 +70,8 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
   const dom = {
     btnCreer: $("#btn-creer"),
     btnRejoindre: $("#btn-rejoindre"),
+    btnSolo: $("#btn-solo"),
+    champDifficulte: $("#champ-difficulte"),
     champCode: $("#champ-code"),
     accueilErreur: $("#accueil-erreur"),
 
@@ -284,7 +286,13 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
     const derniere = nouvelEtat.derniereManche;
 
     dom.nomMoi.textContent = "Vous";
-    dom.nomAdversaire.textContent = "Adversaire";
+
+    // En solo, le serveur nomme l'adversaire — « Ordinateur », ou l'équipe
+    // réelle qu'il aligne en mode Équipe. Savoir qu'on affronte le Japon
+    // olympique vaut mieux qu'un « Adversaire » anonyme.
+    dom.nomAdversaire.textContent = nouvelEtat.solo && adversaire && adversaire.nom
+      ? adversaire.nom
+      : "Adversaire";
     dom.manche.textContent = String(nouvelEtat.manche);
     dom.objectif.textContent = `${nouvelEtat.butsPourGagner} buts pour gagner`;
 
@@ -800,6 +808,14 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
         cartouche: cartoucheChoisie || ""
       });
       cartoucheChoisie = null;
+
+      // L'ordinateur répond instantanément. Sans ce battement, la révélation
+      // simultanée n'existe pas : le résultat s'affiche avant même qu'on ait
+      // vu son coup se retourner.
+      if (etat && etat.solo) {
+        await new Promise((suite) => setTimeout(suite, 400 + Math.random() * 400));
+      }
+
       appliquerEtat(donnees.etat);
       afficherErreur(dom.matchErreur, "");
     } catch (erreur) {
@@ -837,6 +853,29 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
       quitter(erreur.message);
     } finally {
       dom.btnAbandonner.disabled = false;
+    }
+  }
+
+  /**
+   * Lance une partie contre l'ordinateur. Aucun code n'est échangé : le
+   * serveur installe l'adversaire dès la création.
+   */
+  async function jouerSeul() {
+    dom.btnSolo.disabled = true;
+    afficherErreur(dom.accueilErreur, "");
+
+    const modeChoisi = document.querySelector('input[name="mode"]:checked');
+
+    try {
+      entrerEnPartie(await appeler("creer", {
+        mode: modeChoisi ? modeChoisi.value : "classique",
+        adversaire: "ordinateur",
+        difficulte: dom.champDifficulte.value
+      }));
+    } catch (erreur) {
+      afficherErreur(dom.accueilErreur, erreur.message);
+    } finally {
+      dom.btnSolo.disabled = false;
     }
   }
 
@@ -883,6 +922,7 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
   // -------------------------------------------------------------------------
 
   dom.btnCreer.addEventListener("click", creerPartie);
+  dom.btnSolo.addEventListener("click", jouerSeul);
   dom.btnRejoindre.addEventListener("click", () => rejoindrePartie());
   dom.btnCopier.addEventListener("click", copierLien);
   dom.btnQuitterSalon.addEventListener("click", () => quitter());

@@ -79,6 +79,12 @@ Les huit catégories du wiki, qui servaient déjà à filtrer le catalogue, se p
 
 Le mode a aussi fait grossir `api/partie.php` de ~450 à ~1000 lignes, et `match.js` de 611 à ~900. `assets/js/entites.js` n'est plus seulement le socle des pages entités : `match.js`, passé en module ES, y puise `makePlaceholder` et `safeText`.
 
+**Jouer seul** est possible depuis l'ajout d'un adversaire piloté par le serveur. Plutôt que d'encoder une politique de jeu, il simule le vrai moteur : il énumère les actions légales des deux camps, appelle la résolution — qui est pure — sur chaque paire, note les positions obtenues et tire une stratégie mixte de la matrice par *regret matching*. On n'encode donc que « cette position est-elle bonne », jamais « que jouer ». Le mode Équipe n'a demandé aucun code de plus.
+
+Sa qualité n'est pas une impression : `scripts/solve_duel.py` résout le mode classique et sert d'étalon. Le bot gagne 28 % des parties en facile, 41 % en normal et 53 % en difficile contre ce joueur de référence — chiffres qui ont servi à régler la fonction d'évaluation.
+
+Il aligne une vraie équipe de la série (`duel-adversaires.json`, 22 équipes composables sur 102), ce qui donne un adversaire identifiable plutôt qu'un assemblage anonyme.
+
 **Quitter une partie en cours** passe par l'action `abandonner` : le match s'achève et l'adversaire l'emporte. Effacer la session côté client suffirait à partir, mais laisserait l'autre devant un écran d'attente que rien ne viendrait clore.
 
 ---
@@ -153,7 +159,8 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
 │   │   ├── personnages.json      # 235 entrées — 330 Ko
 │   │   ├── equipes.json          # 102 entrées — 104 Ko
 │   │   ├── techniques.json       # 155 entrées — 119 Ko
-│   │   └── duel-roster.json      # Vivier du mode Équipe — 60 personnages, 53 Ko
+│   │   ├── duel-roster.json      # Vivier du mode Équipe — 60 personnages, 53 Ko
+│   │   └── duel-adversaires.json # Équipes alignables par l'ordinateur — 22
 │   └── images/olive-et-tom/      # 268 PNG — ~12 Mo
 │
 ├── univers/olive-et-tom/
