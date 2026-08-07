@@ -67,6 +67,20 @@ Les quatre équipes restantes (`ac-chievo-verona`, `brazil-middle-school`, `live
 
 **Deux angles morts identiques à deux endroits du même pipeline** : la donnée était chargée, mais personne ne la lisait. C'est le motif à retenir de ce chantier — voir le verdict en §8.
 
+### Nouveauté : le mode Équipe du duel
+
+Le duel a désormais deux modes. **Classique** est le jeu d'origine, inchangé. **Équipe** ajoute une phase de composition : chaque joueur aligne trois personnages, un par famille de technique, et chacun apporte une cartouche jouable une seule fois dans le match.
+
+Les huit catégories du wiki, qui servaient déjà à filtrer le catalogue, se projettent sur les trois coups du jeu — tir, construction, défense. Les retenir n'a coûté aucun appel supplémentaire : `techniques.json` porte maintenant `familles` et `effets`, et `assets/data/duel-roster.json` (54 Ko, 60 personnages) en dérive. Ce fichier dédié évite au serveur PHP de charger `personnages.json` (330 Ko) à chaque composition.
+
+**La technique dépend du poste, pas du personnage seul.** Wakabayashi défend avec « Uppercut Defense » mais construirait avec « Birdcage » : une signature unique par personnage l'aurait rangé en construction, contresens pour un gardien. Les viviers y gagnent — 54 / 40 / 28 au lieu de 32 / 18 / 10 — et 45 personnages sur 60 sont éligibles à deux familles ou plus, ce qui donne au draft de vrais arbitrages.
+
+**`resoudreManche()` n'a pas été modifiée.** `resoudreMancheEquipe()` l'enveloppe : surcoût prélevé en amont, issue corrigée en aval. Une manche de mode Classique suit exactement le chemin d'avant, ce que vérifie un test dédié.
+
+Le mode a aussi fait grossir `api/partie.php` de ~450 à ~1000 lignes, et `match.js` de 611 à ~900. `assets/js/entites.js` n'est plus seulement le socle des pages entités : `match.js`, passé en module ES, y puise `makePlaceholder` et `safeText`.
+
+**Quitter une partie en cours** passe par l'action `abandonner` : le match s'achève et l'adversaire l'emporte. Effacer la session côté client suffirait à partir, mais laisserait l'autre devant un écran d'attente que rien ne viendrait clore.
+
 ---
 
 ## 2. Stack technique
@@ -119,10 +133,11 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
 ├── agents.md                     # ⚠️ Règles impératives pour tout contributeur (humain ou IA)
 ├── README.md
 ├── .gitignore                    # Exclut api/parties/ (état vivant du duel) et divers
+├── .htaccess                     # Politique de cache : code revalidé, images figées un an
 ├── sync_personnages.py           # Pipeline #1 : collecte de base (659 l.)
 │
 ├── api/
-│   └── partie.php                # ⚠️ Backend PHP du duel — API + moteur de règles (639 l.)
+│   └── partie.php                # ⚠️ Backend PHP du duel — règles des deux modes (1106 l.)
 │
 ├── assets/
 │   ├── css/
@@ -132,12 +147,13 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
 │   ├── js/
 │   │   ├── main.js               # Rendu du hub (36 l.)
 │   │   ├── personnages.js        # Liste + filtres + tri (480 l.)
-│   │   ├── match.js              # Duel : polling, rendu, reprise de session (611 l.)
+│   │   ├── match.js              # Duel : module ES — polling, draft, cartouches (941 l.)
 │   │   └── entites.js            # Module ES partagé listes/fiches entités (639 l.)
 │   ├── data/
 │   │   ├── personnages.json      # 235 entrées — 330 Ko
 │   │   ├── equipes.json          # 102 entrées — 104 Ko
-│   │   └── techniques.json       # 155 entrées — 119 Ko
+│   │   ├── techniques.json       # 155 entrées — 119 Ko
+│   │   └── duel-roster.json      # Vivier du mode Équipe — 60 personnages, 53 Ko
 │   └── images/olive-et-tom/      # 268 PNG — ~12 Mo
 │
 ├── univers/olive-et-tom/
@@ -169,7 +185,7 @@ Cette brique casse la règle « site 100 % statique » posée dans `agents.md` �
     └── workflows/                # 5 workflows
 ```
 
-**Volumétrie code** : ~8 700 lignes au total (hors JSON/images), dont ~2 000 Python, ~1 750 HTML/JS front (encyclopédie), ~1 550 pour le duel (PHP + JS + CSS + HTML) et ~1 450 pour les pages équipes/techniques.
+**Volumétrie code** : ~10 200 lignes au total (hors JSON/images), dont ~2 100 Python, ~1 750 HTML/JS front (encyclopédie), ~3 000 pour le duel et ses deux modes (PHP + JS + CSS + HTML) et ~1 450 pour les pages équipes/techniques.
 
 ### Flux de données
 
@@ -264,11 +280,18 @@ Deux versions coexistent avec des contenus différents : `/sync_personnages.py` 
 **5. Données non traduites**
 `agents.md` impose les noms français (« Olivier Atton », « Thomas Price »…). Les JSON contiennent les noms **japonais romanisés** issus du Fandom (« Tsubasa Ozora », « Kojiro Hyuga »). Idem pour les positions (`"Attacking midfielderForward"` — non nettoyée, concaténation d'infobox) et les nationalités. Il manque une couche de mapping FR.
 
-**11. Aucun cache-busting sur les assets**
-`style.css`, `personnages.js`, `entites.js`, `match.js` sont tous servis sans version ni empreinte, et le déploiement FTP ne pose aucun en-tête de cache. Constaté en développement : le navigateur a resservi un ancien `entites.js` pendant plusieurs rechargements successifs, y compris après un rechargement forcé. **En production, une partie des visiteurs conservera l'ancien JS/CSS après chaque mise à jour**, avec le risque d'un JS périmé face à des données neuves. Un suffixe de version sur les `src`/`href` suffirait.
+**11. ~~Aucun cache-busting sur les assets~~ — ✅ résolu**
+Aucun fichier ne porte de version ni d'empreinte, et sans build step il n'y a pas de moyen d'en apposer une : `style.css` déployé aujourd'hui porte le même nom qu'hier. Sans en-tête explicite, le navigateur appliquait sa propre heuristique — constaté en développement, un ancien `entites.js` resservi pendant plusieurs rechargements, y compris forcés.
+
+Un `.htaccess` à la racine tranche la question sans toucher au HTML : code et données (`html`, `js`, `css`, `json`) se revalident à chaque visite, images et polices se mettent en cache un an. Une revalidation ne coûte qu'un `304` à vide quand rien n'a changé.
 
 **12. ~~Descriptions vides sur les équipes~~ — ✅ résolu**
 `equipes.json` avait `description` et `image` à `""` sur les 102 entrées. La description et le nom japonais sont désormais lus (98/102 et 100/102) — voir §1. **Les images restent vides**, sur les équipes comme sur les techniques : `agents.md` interdit le hotlink, et les télécharger est un chantier à part (piste n°6).
+
+**13. ~~Un déploiement pouvait rester sur un commit intermédiaire~~ — ✅ résolu**
+Le 6 août, deux PR fusionnées à 28 secondes d'écart n'ont donné qu'un seul déploiement — sur le premier des deux commits. Le mode Équipe est resté invisible en production alors que le workflow était vert, et l'était légitimement : il avait déployé ce qu'on lui avait demandé. `deploy.yml` porte désormais un `concurrency` avec `cancel-in-progress: false`, pour que les déploiements se suivent au lieu de se chevaucher — annuler laisserait justement la production en arrière.
+
+C'est une variante du motif du §8 : rien n'échoue, tout est vert, et pourtant le résultat n'est pas là.
 
 ### 🟡 Qualité / perf
 
@@ -337,20 +360,20 @@ php -S localhost:8000
 | # | Chantier | Effort | Impact |
 |---|---|---|---|
 | ~~—~~ | ~~Créer `equipe.html` / `technique.html` et les listes~~ — ✅ livré (PR #55) | — | — |
-| ~~—~~ | ~~Descriptions des équipes~~ — ✅ livré, images exceptées (piste n°6) | — | — |
+| ~~—~~ | ~~Descriptions des équipes~~ — ✅ livré, images exceptées (piste n°5) | — | — |
+| ~~—~~ | ~~Cache des assets~~ et ~~concurrence des déploiements~~ — ✅ livré | — | — |
 | 1 | Assertions de qualité en sortie de pipeline (« si moins de X % des entrées ont une description, échouer ») — c'est ce qui aurait détecté les deux angles morts | S | 🔥 Élevé |
 | 2 | Réparer ou retirer `update_ct_portraits.py` (cible `personnages.json`, pas le JS) + désactiver le cron en attendant | S | 🔥 Élevé |
-| 3 | Versionner les assets (`?v=…` sur les `src`/`href`) — sans quoi chaque déploiement laisse des visiteurs sur un JS/CSS périmé | S | 🔥 Élevé |
-| 4 | Mettre à jour `agents.md` : exception PHP du duel, et modules ES désormais utilisés | S | Élevé |
-| 5 | Couche de traduction FR (noms, positions, nationalités) conforme à `agents.md` | M | Élevé |
-| 6 | Télécharger les visuels d'équipes et de techniques dans `assets/images/`, sans hotlink — seul champ encore vide des deux catalogues | M | Moyen |
-| 7 | Migrer `personnages.js` et `personnage.html` vers `assets/js/entites.js` — le module partagé existe déjà | S | Moyen |
-| 8 | Nettoyer les assets orphelins + le fichier au nom contenant une tabulation | S | Moyen |
-| 9 | Dédupliquer `sync_personnages.py`, supprimer ou réparer `fetch-all-character-images.yml` | S | Moyen |
-| 10 | Retirer les trois `console.log` de production | S | Moyen |
-| 11 | Ajouter `CONTRIBUTING.md` et un lint minimal (Prettier + Ruff/PHP_CodeSniffer en CI) | S | Moyen |
-| 12 | Optimiser le chargement (index léger ou split par slug) | M | Faible aujourd'hui |
-| 13 | Compresser les PNG (12 Mo pour 268 fichiers) | S | Faible |
+| 3 | Mettre à jour `agents.md` : exception PHP du duel, et modules ES désormais utilisés | S | Élevé |
+| 4 | Couche de traduction FR (noms, positions, nationalités) conforme à `agents.md` | M | Élevé |
+| 5 | Télécharger les visuels d'équipes et de techniques dans `assets/images/`, sans hotlink — seul champ encore vide des deux catalogues | M | Moyen |
+| 6 | Migrer `personnages.js` et `personnage.html` vers `assets/js/entites.js` — le module partagé existe déjà | S | Moyen |
+| 7 | Nettoyer les assets orphelins + le fichier au nom contenant une tabulation | S | Moyen |
+| 8 | Dédupliquer `sync_personnages.py`, supprimer ou réparer `fetch-all-character-images.yml` | S | Moyen |
+| 9 | Retirer les trois `console.log` de production | S | Moyen |
+| 10 | Ajouter `CONTRIBUTING.md` et un lint minimal (Prettier + Ruff/PHP_CodeSniffer en CI) | S | Moyen |
+| 11 | Optimiser le chargement (index léger ou split par slug) | M | Faible aujourd'hui |
+| 12 | Compresser les PNG (12 Mo pour 268 fichiers) | S | Faible |
 
 ---
 

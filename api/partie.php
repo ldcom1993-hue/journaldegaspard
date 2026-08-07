@@ -666,6 +666,9 @@ function projeter(array $partie, int $moiId): array
         'adversaire' => null,
         'derniereManche' => $partie['derniereManche'],
         'vainqueur' => $partie['vainqueur'],
+        // Qui a abandonné, le cas échéant : l'écran de fin doit pouvoir le dire
+        // plutôt que d'annoncer une victoire au score qui n'a pas eu lieu.
+        'abandon' => $partie['abandon'] ?? null,
         'revanche' => [
             'moi' => !empty($moi['revanche']),
             'adversaire' => $adversaire !== null && !empty($adversaire['revanche']),
@@ -778,6 +781,7 @@ function actionCreer(): void
         'joueurs' => [$hote],
         'derniereManche' => null,
         'vainqueur' => null,
+        'abandon' => null,
     ];
 
     $encode = json_encode($partie, JSON_UNESCAPED_UNICODE);
@@ -981,6 +985,46 @@ function actionJouer(): void
     repondre(['etat' => projeter($partie, $moiId)]);
 }
 
+/**
+ * Abandonne une partie en cours : l'adversaire l'emporte, le match s'arrête.
+ *
+ * Sans ça, quitter revenait à disparaître : l'autre restait devant un écran
+ * d'attente que rien ne venait clore. Un abandon est donc une fin de match à
+ * part entière, distinguée d'une victoire au score par le drapeau `abandon`.
+ */
+function actionAbandonner(): void
+{
+    $code = strtoupper(parametre('code'));
+    $jeton = parametre('jeton');
+    $moiId = -1;
+
+    $partie = modifierPartie($code, function (array $partie) use ($jeton, &$moiId): array {
+        $moiId = identifierJoueur($partie, $jeton);
+
+        if ($partie['statut'] === 'termine') {
+            return $partie;
+        }
+
+        // Seul en salon : la partie n'a pas commencé, il n'y a rien à concéder.
+        if (count($partie['joueurs']) < 2) {
+            echouer("La partie n'a pas encore commencé.", 409);
+        }
+
+        $partie['statut'] = 'termine';
+        $partie['vainqueur'] = 1 - $moiId;
+        $partie['abandon'] = $moiId;
+
+        foreach ([0, 1] as $index) {
+            $partie['joueurs'][$index]['coup'] = null;
+            $partie['joueurs'][$index]['cartouche'] = null;
+        }
+
+        return $partie;
+    });
+
+    repondre(['etat' => projeter($partie, $moiId)]);
+}
+
 function actionRejouer(): void
 {
     $code = strtoupper(parametre('code'));
@@ -1019,6 +1063,7 @@ function actionRejouer(): void
             $partie['manche'] = 1;
             $partie['derniereManche'] = null;
             $partie['vainqueur'] = null;
+            $partie['abandon'] = null;
         }
 
         return $partie;
@@ -1049,6 +1094,9 @@ switch (parametre('action')) {
         break;
     case 'jouer':
         actionJouer();
+        break;
+    case 'abandonner':
+        actionAbandonner();
         break;
     case 'rejouer':
         actionRejouer();

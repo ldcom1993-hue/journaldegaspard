@@ -99,6 +99,8 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
     selectionErreur: $("#selection-erreur"),
     selectionAttente: $("#selection-attente"),
 
+    btnAbandonner: $("#btn-abandonner"),
+
     finVerdict: $("#fin-verdict"),
     finScore: $("#fin-score"),
     btnRevanche: $("#btn-revanche"),
@@ -356,9 +358,20 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
 
   function peindreFin(nouvelEtat) {
     const jaiGagne = nouvelEtat.vainqueur === nouvelEtat.joueurId;
+    const jaiAbandonne = nouvelEtat.abandon === nouvelEtat.joueurId;
+    const ilAAbandonne = nouvelEtat.abandon !== null && nouvelEtat.abandon !== undefined && !jaiAbandonne;
 
     dom.finVerdict.textContent = jaiGagne ? "🏆" : "😤";
-    $("#fin-titre").textContent = jaiGagne ? "Vous avez gagné" : "Vous avez perdu";
+
+    // Un abandon n'est pas une victoire au score : le dire franchement plutôt
+    // que d'annoncer un match gagné qui n'a pas été joué jusqu'au bout.
+    if (jaiAbandonne) {
+      $("#fin-titre").textContent = "Vous avez abandonné";
+    } else if (ilAAbandonne) {
+      $("#fin-titre").textContent = "L'adversaire a abandonné";
+    } else {
+      $("#fin-titre").textContent = jaiGagne ? "Vous avez gagné" : "Vous avez perdu";
+    }
     dom.finScore.textContent = `${nouvelEtat.moi.buts} — ${
       nouvelEtat.adversaire ? nouvelEtat.adversaire.buts : 0
     }`;
@@ -800,6 +813,33 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
     }
   }
 
+  /**
+   * Abandonne le match en cours. On prévient le serveur plutôt que de
+   * simplement effacer la session : sans ça, l'adversaire resterait devant un
+   * écran d'attente que rien ne viendrait clore.
+   */
+  async function abandonner() {
+    if (!session) {
+      return;
+    }
+
+    if (!window.confirm("Abandonner le match ? L'adversaire l'emporte.")) {
+      return;
+    }
+
+    dom.btnAbandonner.disabled = true;
+
+    try {
+      appliquerEtat((await appeler("abandonner", session)).etat);
+    } catch (erreur) {
+      // La partie a pu expirer ou être purgée entre-temps : dans ce cas,
+      // quitter localement est le bon comportement de repli.
+      quitter(erreur.message);
+    } finally {
+      dom.btnAbandonner.disabled = false;
+    }
+  }
+
   async function demanderRevanche() {
     if (!session) {
       return;
@@ -848,6 +888,7 @@ import { makePlaceholder, safeText } from "/assets/js/entites.js";
   dom.btnQuitterSalon.addEventListener("click", () => quitter());
   dom.btnValiderEquipe.addEventListener("click", validerEquipe);
   dom.btnQuitterSelection.addEventListener("click", () => quitter());
+  dom.btnAbandonner.addEventListener("click", abandonner);
   dom.btnNouveau.addEventListener("click", () => quitter());
   dom.btnRevanche.addEventListener("click", demanderRevanche);
 
