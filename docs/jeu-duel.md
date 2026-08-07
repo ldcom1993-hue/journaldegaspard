@@ -167,6 +167,17 @@ Le joueur de référence est fort, sans être prouvé optimal — l'itération d
 valeur est amortie et tronquée. Ces chiffres situent le bot, ils ne le
 certifient pas.
 
+### Aide en cours de partie
+
+Un bouton « ? » au-dessus des coups ouvre les deux tables de référence : ce que
+donne chaque duel de coups, et ce que changent les techniques. La seconde ne
+s'affiche qu'en mode Équipe.
+
+C'est un `<dialog>` natif ouvert par `showModal()` : Échap, le piège à focus et
+le fond assombri viennent du navigateur, sans une ligne de script de plus. Le
+clic hors du cadre se reconnaît à ce que la cible de l'événement est le
+`<dialog>` lui-même et non son contenu.
+
 ### Abandon
 
 Quitter une partie en cours passe par `abandonner` : le match s'achève et
